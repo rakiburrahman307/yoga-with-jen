@@ -39,11 +39,6 @@ router
     UserController.createUser,
   );
 
-router.post(
-  '/create-vendor',
-  validateRequest(UserValidation.createBusinessUserZodSchema),
-  UserController.createVendor,
-);
 
 router.delete('/delete', auth(USER_ROLES.USER), UserController.deleteProfile);
 

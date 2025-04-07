@@ -16,16 +16,6 @@ const createUser = catchAsync(async (req, res) => {
     data: result,
   });
 });
-const createVendor = catchAsync(async (req, res) => {
-  const { ...userData } = req.body;
-  const result = await UserService.createVendorToDB(userData);
-  sendResponse(res, {
-    success: true,
-    statusCode: StatusCodes.OK,
-    message: 'Business User created successfully',
-    data: result,
-  });
-});
 
 const getUserProfile = catchAsync(async (req, res) => {
   const user = req.user;
@@ -38,7 +28,6 @@ const getUserProfile = catchAsync(async (req, res) => {
     data: result,
   });
 });
-
 
 //update profile
 const updateProfile = catchAsync(async (req, res) => {
@@ -53,8 +42,6 @@ const updateProfile = catchAsync(async (req, res) => {
       Number(config.bcrypt_salt_rounds),
     );
   }
-
-  console.log(req.body);
 
   const result = await UserService.updateProfileToDB(user, req.body);
 
@@ -92,6 +79,5 @@ export const UserController = {
   createUser,
   getUserProfile,
   updateProfile,
-  createVendor,
   deleteProfile,
 };

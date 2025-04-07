@@ -11,6 +11,7 @@ const userSchema = new Schema<IUser, UserModel>(
     name: {
       type: String,
       required: true,
+      trim: true,
     },
     role: {
       type: String,

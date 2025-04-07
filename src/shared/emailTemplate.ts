@@ -1,6 +1,7 @@
-import { THelpMessage } from '../app/modules/businessDashboard/help/help.interface';
+
 import {
   ICreateAccount,
+  IHelpContact,
   IResetPassword,
   IResetPasswordByEmail,
 } from '../types/emailTamplate';
@@ -62,7 +63,7 @@ const resetPasswordByUrl = (values: IResetPasswordByEmail) => {
   return data;
 };
 
-const contactFormTemplate = (values: THelpMessage) => {
+const contactFormTemplate = (values: IHelpContact) => {
   const data = {
     to: values.email,
     subject: 'Thank you for reaching out to us',
@@ -70,7 +71,7 @@ const contactFormTemplate = (values: THelpMessage) => {
     <div style="width: 100%; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #fff; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
         <img src="https://i.postimg.cc/6pgNvKhD/logo.png" alt="Logo" style="display: block; margin: 0 auto 20px; width:150px" />
         <div style="text-align: center;">
-            <p style="color: #555; font-size: 16px; line-height: 1.5; margin-bottom: 20px;">Hello ${values.firstName} ${values.lastName},</p>
+            <p style="color: #555; font-size: 16px; line-height: 1.5; margin-bottom: 20px;">Hello ${values.name},</p>
             <p style="color: #555; font-size: 16px; line-height: 1.5; margin-bottom: 20px;">Thank you for reaching out to us. We have received your message:</p>
             <div style="background-color: #f1f1f1; padding: 15px; border-radius: 8px; border: 1px solid #ddd; margin-bottom: 20px;">
                 <p style="color: #555; font-size: 16px; line-height: 1.5;">"${values.message}"</p>

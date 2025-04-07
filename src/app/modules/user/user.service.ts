@@ -10,8 +10,36 @@ import AppError from '../../../errors/AppError';
 import generateOTP from '../../../utils/generateOTP';
 // create user
 const createUserToDB = async (payload: IUser): Promise<IUser> => {
+  //set role
+  const user = await User.isExistUserByEmail(payload.email);
+  if (user) {
+    throw new AppError(StatusCodes.CONFLICT, 'Email already exists');
+  }
+  payload.role = USER_ROLES.USER;
   const createUser = await User.create(payload);
-  
+  if (!createUser) {
+    throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to create user');
+  }
+
+  //send email
+  const otp = generateOTP(4);
+  const values = {
+    name: createUser.name,
+    otp: otp,
+    email: createUser.email!,
+  };
+  const createAccountTemplate = emailTemplate.createAccount(values);
+  emailHelper.sendEmail(createAccountTemplate);
+
+  //save to DB
+  const authentication = {
+    oneTimeCode: otp,
+    expireAt: new Date(Date.now() + 3 * 60000),
+  };
+  await User.findOneAndUpdate(
+    { _id: createUser._id },
+    { $set: { authentication } },
+  );
 
   return createUser;
 };

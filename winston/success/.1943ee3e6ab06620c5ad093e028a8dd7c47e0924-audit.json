@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 1
+    },
+    "auditLog": "C:\\Users\\Rakib\\OneDrive\\Desktop\\projects\\yoga-with-jen\\winston\\success\\.1943ee3e6ab06620c5ad093e028a8dd7c47e0924-audit.json",
+    "files": [
+        {
+            "date": 1743997118458,
+            "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\projects\\yoga-with-jen\\winston\\success\\07-04-2025-09-success.log",
+            "hash": "a0ce8a2ea43b4bf7675e4bb45544604414e715d67b24454790b67f13f0dd1b22"
+        },
+        {
+            "date": 1743998729457,
+            "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\projects\\yoga-with-jen\\winston\\success\\07-04-2025-10-success.log",
+            "hash": "407c9ce7a4c6389cf51f3166d468ca133595b4a73486c577191cc0e459b39d19"
+        }
+    ],
+    "hashType": "sha256"
+}

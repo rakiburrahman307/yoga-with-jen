@@ -8,25 +8,10 @@ export const createUserZodSchema = z.object({
     email: z
       .string({ required_error: 'Email is required' })
       .email('Invalid email address'),
-
     password: z
       .string({ required_error: 'Password is required' })
       .min(8, 'Password must be at least 8 characters long'),
     phone: string().default('').optional(),
-    profile: z.string().optional(),
-  }),
-});
-
-const createBusinessUserZodSchema = z.object({
-  body: z.object({
-    name: z.string({ required_error: 'Name is required' }),
-    phone: z.string({ required_error: 'Contact is required' }),
-    email: z
-      .string({ required_error: 'Email is required' })
-      .email('Invalid email address'),
-    password: z
-      .string({ required_error: 'Password is required' })
-      .min(8, 'Password must be at least 8 characters long'),
     profile: z.string().optional(),
   }),
 });
@@ -45,5 +30,4 @@ const updateUserZodSchema = z.object({
 export const UserValidation = {
   createUserZodSchema,
   updateUserZodSchema,
-  createBusinessUserZodSchema,
 };
