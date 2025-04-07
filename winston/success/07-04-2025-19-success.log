@@ -1,0 +1,124 @@
+Mon Apr 07 2025 19:14:9 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 19:14:10 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Mon Apr 07 2025 19:14:10 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon Apr 07 2025 19:14:29 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 19:14:44 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 19:14:45 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Mon Apr 07 2025 19:14:45 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon Apr 07 2025 19:17:44 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 570.182 ms
+Mon Apr 07 2025 19:17:47 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/community/67f3a8855412075884f3d3d2 201 - 1158.046 ms
+Mon Apr 07 2025 19:18:52 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 19:18:52 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Mon Apr 07 2025 19:18:52 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon Apr 07 2025 19:18:57 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 565.285 ms
+Mon Apr 07 2025 19:19:1 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/community/67f3a8855412075884f3d3d2 201 - 1453.155 ms
+Mon Apr 07 2025 19:19:26 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 19:19:27 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Mon Apr 07 2025 19:19:27 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon Apr 07 2025 19:19:38 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 546.775 ms
+Mon Apr 07 2025 19:19:41 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/community/67f3a8855412075884f3d3d2 201 - 1458.247 ms
+Mon Apr 07 2025 19:21:6 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 19:21:7 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Mon Apr 07 2025 19:21:7 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon Apr 07 2025 19:21:23 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 511.657 ms
+Mon Apr 07 2025 19:21:27 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/community/67f3a8855412075884f3d3d2 201 - 1426.300 ms
+Mon Apr 07 2025 19:23:33 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 19:23:34 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Mon Apr 07 2025 19:23:34 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon Apr 07 2025 19:23:45 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 19:23:46 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Mon Apr 07 2025 19:23:46 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon Apr 07 2025 19:24:13 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 514.234 ms
+Mon Apr 07 2025 19:24:21 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/community/67f3a8855412075884f3d3d2 201 - 1681.229 ms
+Mon Apr 07 2025 19:27:51 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 513.865 ms
+Mon Apr 07 2025 19:27:55 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/comments/like/67f3b01a925f4bccd458748a 200 - 569.785 ms
+Mon Apr 07 2025 19:28:40 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 19:28:52 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 19:28:55 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 19:28:56 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Mon Apr 07 2025 19:28:56 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon Apr 07 2025 19:29:3 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 19:29:7 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 19:29:8 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Mon Apr 07 2025 19:29:8 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon Apr 07 2025 19:29:35 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 19:29:36 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Mon Apr 07 2025 19:29:36 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon Apr 07 2025 19:29:42 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 19:29:43 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Mon Apr 07 2025 19:29:43 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon Apr 07 2025 19:29:47 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 19:29:48 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Mon Apr 07 2025 19:29:48 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon Apr 07 2025 19:29:49 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 621.288 ms
+Mon Apr 07 2025 19:30:35 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 19:30:36 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Mon Apr 07 2025 19:30:36 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon Apr 07 2025 19:30:42 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 19:30:43 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Mon Apr 07 2025 19:30:43 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon Apr 07 2025 19:41:36 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 19:41:36 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Mon Apr 07 2025 19:41:36 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon Apr 07 2025 19:43:24 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 19:43:25 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Mon Apr 07 2025 19:43:25 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon Apr 07 2025 19:43:35 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 19:43:36 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Mon Apr 07 2025 19:43:36 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon Apr 07 2025 19:44:49 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 19:44:50 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Mon Apr 07 2025 19:44:50 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon Apr 07 2025 19:45:17 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 19:45:18 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Mon Apr 07 2025 19:45:18 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon Apr 07 2025 19:47:25 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 19:47:26 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Mon Apr 07 2025 19:47:26 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon Apr 07 2025 19:47:42 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 19:47:43 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Mon Apr 07 2025 19:47:43 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon Apr 07 2025 19:50:26 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 19:50:30 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 19:50:31 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Mon Apr 07 2025 19:50:31 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon Apr 07 2025 19:52:29 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 19:52:30 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Mon Apr 07 2025 19:52:30 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon Apr 07 2025 19:53:56 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 19:53:56 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Mon Apr 07 2025 19:53:56 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon Apr 07 2025 19:54:40 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 19:54:41 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Mon Apr 07 2025 19:54:41 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon Apr 07 2025 19:54:44 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 19:54:45 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Mon Apr 07 2025 19:54:45 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon Apr 07 2025 19:55:22 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 19:55:23 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Mon Apr 07 2025 19:55:23 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon Apr 07 2025 19:56:20 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 19:56:21 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Mon Apr 07 2025 19:56:21 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon Apr 07 2025 19:56:41 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 19:56:45 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 19:56:46 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Mon Apr 07 2025 19:56:46 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon Apr 07 2025 19:57:12 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 19:57:13 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Mon Apr 07 2025 19:57:13 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon Apr 07 2025 19:57:21 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 19:57:22 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Mon Apr 07 2025 19:57:22 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon Apr 07 2025 19:57:47 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 19:57:48 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Mon Apr 07 2025 19:57:48 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon Apr 07 2025 19:58:8 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 19:58:16 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 19:58:17 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Mon Apr 07 2025 19:58:17 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon Apr 07 2025 19:58:46 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/comments/like/67f3b01a925f4bccd458748a 200 - 587.076 ms
+Mon Apr 07 2025 19:58:55 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 524.397 ms
+Mon Apr 07 2025 19:59:0 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/comments/like/67f3b01a925f4bccd458748a 200 - 853.066 ms
+Mon Apr 07 2025 19:59:29 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 503.498 ms
+Mon Apr 07 2025 19:59:37 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/comments/like/67f3b01a925f4bccd458748a 200 - 570.497 ms

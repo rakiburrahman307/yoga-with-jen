@@ -49,3 +49,21 @@ Mon Apr 07 2025 10:15:33 [SERVER-NAME] info: [32m🚀 Database connected succes
 Mon Apr 07 2025 10:15:34 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
 Mon Apr 07 2025 10:15:34 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
 Mon Apr 07 2025 10:28:44 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 10:28:51 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 10:28:53 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Mon Apr 07 2025 10:28:53 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon Apr 07 2025 10:30:52 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/users/ 200 - 1429.063 ms
+Mon Apr 07 2025 10:30:55 [SERVER-NAME] info: Mail send successfully
+Mon Apr 07 2025 10:42:44 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/users/ 200 - 1401.297 ms
+Mon Apr 07 2025 10:42:48 [SERVER-NAME] info: Mail send successfully
+Mon Apr 07 2025 10:43:45 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/verify-email 200 - 867.667 ms
+Mon Apr 07 2025 10:44:4 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/resend-otp 200 - 575.778 ms
+Mon Apr 07 2025 10:44:6 [SERVER-NAME] info: Mail send successfully
+Mon Apr 07 2025 10:44:47 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/forget-password 200 - 592.750 ms
+Mon Apr 07 2025 10:44:50 [SERVER-NAME] info: Mail send successfully
+Mon Apr 07 2025 10:45:24 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/verify-email 200 - 868.861 ms
+Mon Apr 07 2025 10:45:44 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/reset-password 200 - 1385.529 ms
+Mon Apr 07 2025 10:46:31 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 522.468 ms
+Mon Apr 07 2025 10:46:40 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/change-password 200 - 1328.921 ms
+Mon Apr 07 2025 10:47:46 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 520.069 ms
+Mon Apr 07 2025 10:47:50 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/users/profile 200 - 573.310 ms

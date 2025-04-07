@@ -1,2 +1,7 @@
 Mon Apr 07 2025 10:9:6 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/users/ 400 - 11.519 ms
 Mon Apr 07 2025 10:10:29 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/users/ 400 - 11.148 ms
+Mon Apr 07 2025 10:44:40 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/auth/forget-password 400 - 299.511 ms
+Mon Apr 07 2025 10:46:4 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/auth/change-password 401 - 2.964 ms
+Mon Apr 07 2025 10:47:14 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 2.140 ms
+Mon Apr 07 2025 10:47:37 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/auth/login 400 - 518.992 ms
+Mon Apr 07 2025 10:47:39 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/users/profile 401 - 1.360 ms

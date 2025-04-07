@@ -1,0 +1,19 @@
+Mon Apr 07 2025 20:0:4 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 20:0:5 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Mon Apr 07 2025 20:0:5 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon Apr 07 2025 20:0:12 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 20:0:12 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Mon Apr 07 2025 20:0:12 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon Apr 07 2025 20:11:59 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 546.839 ms
+Mon Apr 07 2025 20:12:18 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 519.990 ms
+Mon Apr 07 2025 20:12:23 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 528.688 ms
+Mon Apr 07 2025 20:12:54 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 525.857 ms
+Mon Apr 07 2025 20:13:27 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 526.928 ms
+Mon Apr 07 2025 20:15:42 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 529.002 ms
+Mon Apr 07 2025 20:15:48 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/comments/like/67f3b01a925f4bccd458748a 200 - 895.465 ms
+Mon Apr 07 2025 20:24:25 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 602.926 ms
+Mon Apr 07 2025 20:27:5 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/comments/like/67f3b01a925f4bccd458748a 200 - 689.301 ms
+Mon Apr 07 2025 20:27:7 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/comments/like/67f3b01a925f4bccd458748a 200 - 998.537 ms
+Mon Apr 07 2025 20:27:9 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/comments/like/67f3b01a925f4bccd458748a 200 - 660.592 ms
+Mon Apr 07 2025 20:27:11 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/comments/like/67f3b01a925f4bccd458748a 200 - 1005.400 ms
+Mon Apr 07 2025 20:27:12 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/comments/like/67f3b01a925f4bccd458748a 200 - 684.081 ms
