@@ -13,11 +13,7 @@ router.post(
   validateRequest(CommentsValidationSchema.createCommentsSchema),
   CommentsController.createComment,
 );
-router.get(
-  '/:postId',
-  auth(USER_ROLES.USER),
-  CommentsController.getComments,
-);
+router.get('/:postId', auth(USER_ROLES.USER), CommentsController.getComments);
 router.post(
   '/like/:commentId',
   auth(USER_ROLES.USER),
@@ -26,7 +22,19 @@ router.post(
 router.post(
   '/reply/:commentId',
   auth(USER_ROLES.USER),
+  validateRequest(CommentsValidationSchema.createCommentsSchema),
   CommentsController.replyToComment,
+);
+router.post(
+  '/edit/:commentId',
+  auth(USER_ROLES.USER),
+  validateRequest(CommentsValidationSchema.createCommentsSchema),
+  CommentsController.editComment,
+);
+router.delete(
+  '/delete/:commentId',
+  auth(USER_ROLES.USER),
+  CommentsController.deleteComment,
 );
 
 export const CommentRouter = router;

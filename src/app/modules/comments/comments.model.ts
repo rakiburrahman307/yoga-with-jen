@@ -3,7 +3,11 @@ import { IComments } from './comments.interface';
 
 const commentSchema = new Schema<IComments>(
   {
-    userId: { type: Schema.Types.ObjectId, required: true, ref: 'User' },
+    commentCreatorId: {
+      type: Schema.Types.ObjectId,
+      required: true,
+      ref: 'User',
+    },
     postId: { type: Schema.Types.ObjectId, required: true, ref: 'Community' },
     content: { type: String, required: true },
     likes: { type: Number, default: 0 },
@@ -12,5 +16,11 @@ const commentSchema = new Schema<IComments>(
   },
   { timestamps: true },
 );
-
+// remove the likedBy field in responce
+commentSchema.set('toJSON', {
+  transform: (doc, ret, options) => {
+    delete ret.likedBy;
+    return ret;
+  },
+});
 export const Comment = mongoose.model<IComments>('Comment', commentSchema);

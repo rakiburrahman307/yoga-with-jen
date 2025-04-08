@@ -3,19 +3,32 @@ import AppError from '../../../errors/AppError';
 import QueryBuilder from '../../builder/QueryBuilder';
 import { Community } from '../community/community.model';
 import { Comment } from './comments.model';
+import { sendNotifications } from '../../../helpers/notificationsHelper';
+import { User } from '../user/user.model';
 
 // create comment
 const createCommentToDB = async (
-  userId: string,
+  commentCreatorId: string,
   postId: string,
   content: string,
 ) => {
   if (!content.trim()) {
     throw new AppError(StatusCodes.BAD_REQUEST, 'Content cannot be empty');
   }
-
+  const isPostExist = await Community.findById(postId);
+  if (!isPostExist) {
+    throw new AppError(StatusCodes.NOT_FOUND, 'Post not found!');
+  }
+  const postCreator = await User.findById(isPostExist.userId);
+  if (!postCreator) {
+    throw new AppError(StatusCodes.NOT_FOUND, 'User not found!');
+  }
+  const user = await User.findById(commentCreatorId);
+  if (!user) {
+    throw new AppError(StatusCodes.NOT_FOUND, 'User not found!');
+  }
   const newComment = new Comment({
-    userId,
+    commentCreatorId,
     postId,
     content,
     likes: 0,
@@ -32,6 +45,12 @@ const createCommentToDB = async (
       'Failed to update parent comment with the new reply',
     );
   }
+  // send notifications
+  await sendNotifications({
+    receiver: postCreator._id,
+    message: `A new comment has been posted by ${user.name}`,
+    type: 'MESSAGE',
+  });
   return newComment;
 };
 // get comments
@@ -48,6 +67,10 @@ const getComments = async (postId: string, query: Record<string, unknown>) => {
 };
 // like comments
 const likeComment = async (commentId: string, userId: string) => {
+  const user = await User.findById(userId);
+  if (!user) {
+    throw new AppError(StatusCodes.NOT_FOUND, 'User not found!');
+  }
   const updatedComment = await Comment.findOneAndUpdate(
     { _id: commentId, likedBy: { $ne: userId } },
     {
@@ -56,7 +79,13 @@ const likeComment = async (commentId: string, userId: string) => {
     },
     { new: true, runValidators: true },
   );
-
+  if (updatedComment) {
+    await sendNotifications({
+      receiver: updatedComment.commentCreatorId,
+      message: `User '${user.name}' liked your comment`,
+      type: 'MESSAGE',
+    });
+  }
   if (!updatedComment) {
     const unlikedComment = await Comment.findOneAndUpdate(
       { _id: commentId, likedBy: { $in: [userId] } },
@@ -82,7 +111,7 @@ const likeComment = async (commentId: string, userId: string) => {
 // reply comments
 const replyToComment = async (
   commentId: string,
-  userId: string,
+  commentCreatorId: string,
   content: string,
 ) => {
   if (!content.trim()) {
@@ -96,10 +125,13 @@ const replyToComment = async (
   if (!parentComment) {
     throw new AppError(StatusCodes.NOT_FOUND, 'Parent comment not found');
   }
-
+  const user = await User.findById(commentCreatorId);
+  if (!user) {
+    throw new AppError(StatusCodes.NOT_FOUND, 'User not found!');
+  }
   // Create reply without saving it yet
   const reply = new Comment({
-    userId,
+    commentCreatorId,
     postId: parentComment.postId,
     content,
     likes: 0,
@@ -120,8 +152,95 @@ const replyToComment = async (
       'Failed to update parent comment with the new reply',
     );
   }
-
+  // send notifications
+  await sendNotifications({
+    receiver: user._id,
+    message: `User '${user.name}' has replied to your comment`,
+    type: 'MESSAGE',
+  });
   return reply;
+};
+// edit comments
+const editComment = async (
+  commentId: string,
+  payload: string,
+  commentCreatorId: string,
+) => {
+  const isExist: any = await Comment.findById(commentId).populate('replies');
+
+  if (!isExist) {
+    throw new AppError(StatusCodes.NOT_FOUND, 'Comment not found!');
+  }
+
+  if (isExist.commentCreatorId.toString() !== commentCreatorId) {
+    throw new AppError(
+      StatusCodes.FORBIDDEN,
+      'You are not authorized to edit this comment',
+    );
+  }
+  const updateComment = await Comment.findByIdAndUpdate(
+    commentId,
+    { content: payload },
+    { new: true },
+  );
+  // If the comment is not found
+  if (!updateComment) {
+    throw new AppError(StatusCodes.NOT_FOUND, 'Comment not found');
+  }
+
+  return updateComment;
+};
+const deleteComment = async (commentId: string, commentCreatorId: string) => {
+  const commentToDelete: any =
+    await Comment.findById(commentId).populate('replies');
+
+  if (!commentToDelete) {
+    throw new AppError(StatusCodes.NOT_FOUND, 'Comment not found!');
+  }
+
+  if (commentToDelete.commentCreatorId.toString() !== commentCreatorId) {
+    throw new AppError(
+      StatusCodes.FORBIDDEN,
+      'You are not authorized to delete this comment',
+    );
+  }
+
+  if (commentToDelete.replies.length > 0) {
+    for (const reply of commentToDelete.replies) {
+      await deleteComment(reply._id, commentCreatorId);
+    }
+  }
+
+  // Step 3: Remove the comment from the post's comments array
+  const postUpdate = await Community.findByIdAndUpdate(commentToDelete.postId, {
+    $pull: { comments: commentId },
+  });
+
+  if (!postUpdate) {
+    throw new AppError(
+      StatusCodes.INTERNAL_SERVER_ERROR,
+      'Failed to update post with removed comment',
+    );
+  }
+
+  // Step 4: Remove the comment from any parent comment's replies array
+  const parentUpdate = await Comment.updateMany(
+    { replies: commentId },
+    { $pull: { replies: commentId } },
+  );
+
+  if (!parentUpdate) {
+    throw new AppError(
+      StatusCodes.INTERNAL_SERVER_ERROR,
+      'Failed to remove comment from parent replies',
+    );
+  }
+
+  // Step 5: Delete the comment (and its replies)
+  const result = await Comment.findByIdAndDelete(commentId);
+
+  // Return the result of the deletion
+  return result;
 };
 
 export const CommentsService = {
@@ -129,4 +248,6 @@ export const CommentsService = {
   likeComment,
   replyToComment,
   getComments,
+  editComment,
+  deleteComment,
 };

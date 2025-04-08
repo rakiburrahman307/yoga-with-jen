@@ -3,6 +3,7 @@ import { UserRouter } from '../app/modules/user/user.route';
 import { AuthRouter } from '../app/modules/auth/auth.route';
 import { CommentRouter } from '../app/modules/comments/comments.router';
 import { CommunityRouter } from '../app/modules/community/community.router';
+import { ContactRoutes } from '../app/modules/contcatus/contactus.route';
 
 const router = express.Router();
 const routes = [
@@ -21,6 +22,14 @@ const routes = [
   {
     path: '/comments',
     route: CommentRouter,
+  },
+  {
+    path: '/contact',
+    route: ContactRoutes,
+  },
+  {
+    path: '/admin/contact',
+    route: ContactRoutes,
   },
 ];
 

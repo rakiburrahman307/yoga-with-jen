@@ -1,7 +1,7 @@
 import mongoose, { Document } from 'mongoose';
 
 export interface ICommunityPost extends Document {
-  userId: string;
+  userId: mongoose.Schema.Types.ObjectId;
   content: string;
   likes: number;
   likedBy: mongoose.Schema.Types.ObjectId[];

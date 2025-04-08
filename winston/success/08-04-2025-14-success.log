@@ -1,0 +1,36 @@
+Tue Apr 08 2025 14:3:28 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Apr 08 2025 14:3:29 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Tue Apr 08 2025 14:3:29 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue Apr 08 2025 14:13:59 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Apr 08 2025 14:14:0 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Tue Apr 08 2025 14:14:0 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue Apr 08 2025 14:22:20 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/comments 201 - 2008.885 ms
+Tue Apr 08 2025 14:46:12 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Apr 08 2025 14:46:13 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Tue Apr 08 2025 14:46:13 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue Apr 08 2025 14:46:23 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/comments/reply/67f4dcbb0bd3301000047d7f 200 - 2274.850 ms
+Tue Apr 08 2025 14:46:41 [SERVER-NAME] info: 10.0.60.126 - DELETE /api/v1/comments/delete/67f4e25d6273d92901a716e7 200 - 1456.928 ms
+Tue Apr 08 2025 14:47:6 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/comments/reply/67f4dcbb0bd3301000047d7f 200 - 1723.506 ms
+Tue Apr 08 2025 14:47:53 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 521.451 ms
+Tue Apr 08 2025 14:48:11 [SERVER-NAME] info: 10.0.60.126 - DELETE /api/v1/comments/delete/67f4e2896273d92901a716f4 200 - 1466.311 ms
+Tue Apr 08 2025 14:48:49 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 519.498 ms
+Tue Apr 08 2025 14:49:20 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/comments 201 - 2020.156 ms
+Tue Apr 08 2025 14:49:38 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 520.422 ms
+Tue Apr 08 2025 14:49:48 [SERVER-NAME] info: 10.0.60.126 - DELETE /api/v1/comments/delete/67f4e30f6273d92901a71705 200 - 1443.339 ms
+Tue Apr 08 2025 14:50:39 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 524.021 ms
+Tue Apr 08 2025 14:50:53 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/comments 201 - 2005.162 ms
+Tue Apr 08 2025 14:51:31 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Apr 08 2025 14:51:32 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Tue Apr 08 2025 14:51:32 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue Apr 08 2025 14:52:24 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 541.951 ms
+Tue Apr 08 2025 14:52:55 [SERVER-NAME] info: 10.0.60.126 - DELETE /api/v1/comments/delete/67f4e36c6273d92901a71715 200 - 1458.529 ms
+Tue Apr 08 2025 14:56:17 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Apr 08 2025 14:56:22 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Apr 08 2025 14:56:23 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Tue Apr 08 2025 14:56:23 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue Apr 08 2025 14:56:30 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Apr 08 2025 14:56:31 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Tue Apr 08 2025 14:56:31 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue Apr 08 2025 14:56:43 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 806.334 ms
+Tue Apr 08 2025 14:56:48 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/comments 201 - 2027.343 ms
+Tue Apr 08 2025 14:56:56 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 523.061 ms

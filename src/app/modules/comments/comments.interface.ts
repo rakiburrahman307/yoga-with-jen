@@ -1,7 +1,7 @@
 import mongoose, { Document, Types } from 'mongoose';
 
 export interface IComments extends Document {
-  userId: Types.ObjectId;
+  commentCreatorId: Types.ObjectId;
   postId: Types.ObjectId;
   content: string;
   likes: number;

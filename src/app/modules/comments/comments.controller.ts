@@ -11,7 +11,7 @@ const createComment = catchAsync(async (req, res) => {
   sendResponse(res, {
     statusCode: StatusCodes.CREATED,
     success: true,
-    message: 'Comments created successfully',
+    message: 'Comment created successfully',
     data: result,
   });
 });
@@ -53,10 +53,36 @@ const replyToComment = catchAsync(async (req, res) => {
     data: result,
   });
 });
+// edit comments
+const editComment = catchAsync(async (req, res) => {
+  const { id } = req.user;
+  const { commentId } = req.params;
+  const { content } = req.body;
+  const result = await CommentsService.editComment(commentId, content, id);
+  sendResponse(res, {
+    statusCode: StatusCodes.OK,
+    success: true,
+    message: 'Comment update successfully',
+    data: result,
+  });
+});
+// delete comments
+const deleteComment = catchAsync(async (req, res) => {
+  const { id } = req.user;
+  const { commentId } = req.params;
+  await CommentsService.deleteComment(commentId, id);
+  sendResponse(res, {
+    statusCode: StatusCodes.OK,
+    success: true,
+    message: 'Comment deleted successfully',
+  });
+});
 
 export const CommentsController = {
   createComment,
   getComments,
   replyToComment,
   likeComment,
+  editComment,
+  deleteComment,
 };

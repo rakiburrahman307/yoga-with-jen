@@ -17,3 +17,10 @@ Mon Apr 07 2025 20:27:7 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/comments/
 Mon Apr 07 2025 20:27:9 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/comments/like/67f3b01a925f4bccd458748a 200 - 660.592 ms
 Mon Apr 07 2025 20:27:11 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/comments/like/67f3b01a925f4bccd458748a 200 - 1005.400 ms
 Mon Apr 07 2025 20:27:12 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/comments/like/67f3b01a925f4bccd458748a 200 - 684.081 ms
+Mon Apr 07 2025 20:27:52 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Apr 07 2025 20:27:53 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Mon Apr 07 2025 20:27:53 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon Apr 07 2025 20:30:28 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/comments/like/67f3b01a925f4bccd458748a 200 - 1081.253 ms
+Mon Apr 07 2025 20:30:29 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/comments/like/67f3b01a925f4bccd458748a 200 - 692.153 ms
+Mon Apr 07 2025 20:30:31 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/comments/like/67f3b01a925f4bccd458748a 200 - 1037.884 ms
+Mon Apr 07 2025 20:30:32 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/comments/like/67f3b01a925f4bccd458748a 200 - 699.727 ms
