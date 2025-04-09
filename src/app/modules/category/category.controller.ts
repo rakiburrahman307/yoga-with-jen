@@ -1,81 +1,77 @@
-import { Request, Response } from 'express'
-import { StatusCodes } from 'http-status-codes'
-import catchAsync from '../../../shared/catchAsync'
-import sendResponse from '../../../shared/sendResponse'
-import { CategoryService } from './category.service'
-
-const createCategory = catchAsync(async (req: Request, res: Response) => {
-  const serviceData = req.body;
-
-  let image = "";
-  if (req.files && "image" in req.files && req.files.image[0]) {
-    image = `/images/${req.files.image[0].filename}`;
-  }
-  const data = {
-    ...serviceData,
-    image,
-  };
-
-  const result = await CategoryService.createCategoryToDB(data)
-
+import { Request, Response } from 'express';
+import { StatusCodes } from 'http-status-codes';
+import catchAsync from '../../../shared/catchAsync';
+import sendResponse from '../../../shared/sendResponse';
+import { CategoryService } from './category.service';
+// create categorys
+const createCategory = catchAsync(async (req, res) => {
+  const categoryData = req.body;
+  const result = await CategoryService.createCategoryToDB(categoryData);
   sendResponse(res, {
     success: true,
     statusCode: StatusCodes.OK,
     message: 'Category create successfully',
     data: result,
-  })
-})
-
-const getCategories = catchAsync(async (req: Request, res: Response) => {
-  const result = await CategoryService.getCategoriesFromDB();
-
+  });
+});
+// get all categorys
+const getCategories = catchAsync(async (req, res) => {
+  const result = await CategoryService.getCategoriesFromDB(req.query);
   sendResponse(res, {
     success: true,
     statusCode: StatusCodes.OK,
     message: 'Category retrieved successfully',
-    data: result,
-  })
-})
-
-const updateCategory = catchAsync(async (req: Request, res: Response) => {
-  const id = req.params.id
+    data: result.categorys,
+    pagination: result.meta,
+  });
+});
+// update categorys
+const updateCategory = catchAsync(async (req, res) => {
+  const id = req.params.id;
   const updateCategoryData = req.body;
 
-  let image;
-  if (req.files && "image" in req.files && req.files.image[0]) {
-    image = `/images/${req.files.image[0].filename}`;
-  }
-  const data = {
-    ...updateCategoryData,
-    image
-  };
-
-  const result = await CategoryService.updateCategoryToDB(id, data)
+  const result = await CategoryService.updateCategoryToDB(
+    id,
+    updateCategoryData,
+  );
 
   sendResponse(res, {
     success: true,
     statusCode: StatusCodes.OK,
     message: 'Category updated successfully',
     data: result,
-  })
-})
+  });
+});
+// update category status
+const updateCategoryStatus = catchAsync(async (req, res) => {
+  const id = req.params.id;
+  const { status } = req.body;
 
-const deleteCategory = catchAsync(async (req: Request, res: Response) => {
-  const id = req.params.id
-  const result = await CategoryService.deleteCategoryToDB(id)
+  const result = await CategoryService.updateCategoryStatusToDB(id, status);
+
+  sendResponse(res, {
+    success: true,
+    statusCode: StatusCodes.OK,
+    message: 'Category status updated successfully',
+    data: result,
+  });
+});
+// delete category
+const deleteCategory = catchAsync(async (req, res) => {
+  const id = req.params.id;
+  const result = await CategoryService.deleteCategoryToDB(id);
 
   sendResponse(res, {
     success: true,
     statusCode: StatusCodes.OK,
     message: 'Category delete successfully',
-    data: result,
-  })
-})
-
+  });
+});
 
 export const CategoryController = {
   createCategory,
   getCategories,
   updateCategory,
-  deleteCategory
-}
+  deleteCategory,
+  updateCategoryStatus,
+};

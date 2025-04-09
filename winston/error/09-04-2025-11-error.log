@@ -1,0 +1,4 @@
+Wed Apr 09 2025 11:5:22 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/admin/category 401 - 9.752 ms
+Wed Apr 09 2025 11:11:8 [SERVER-NAME] error: 10.0.60.126 - PUT /api/v1/admin/category/67f5f8a9aeaa52d26a062bda 401 - 14.313 ms
+Wed Apr 09 2025 11:11:32 [SERVER-NAME] error: 10.0.60.126 - PUT /api/v1/admin/category/67f5f8a9aeaa52d26a062bda 401 - 1.119 ms
+Wed Apr 09 2025 11:12:45 [SERVER-NAME] error: 10.0.60.126 - DELETE /api/v1/admin/category/67f5f8a9aeaa52d26a062bda 401 - 10.340 ms

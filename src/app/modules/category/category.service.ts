@@ -1,62 +1,112 @@
-import { StatusCodes } from 'http-status-codes'
-import { ICategory } from './category.interface'
-import { Category } from './category.model'
-import unlinkFile from '../../../shared/unlinkFile'
-import { Bookmark } from '../bookmark/bookmark.model'
-import AppError from '../../../errors/AppError'
+import { StatusCodes } from 'http-status-codes';
+import { ICategory } from './category.interface';
+import { Category } from './category.model';
+import unlinkFile from '../../../shared/unlinkFile';
+import AppError from '../../../errors/AppError';
+import QueryBuilder from '../../builder/QueryBuilder';
+import { query } from 'express';
 
 const createCategoryToDB = async (payload: ICategory) => {
-  const {name, image} = payload;
-  const isExistName = await Category.findOne({name: name})
+  const { name, categoryType, thumbnail } = payload;
+  console.log(payload);
+  const isExistName = await Category.findOne({ name });
 
-  if(isExistName){
-    unlinkFile(image);
-    throw new AppError(StatusCodes.NOT_ACCEPTABLE, "This Category Name Already Exist");
+  if (isExistName) {
+    unlinkFile(thumbnail);
+    throw new AppError(
+      StatusCodes.NOT_ACCEPTABLE,
+      'This Category Name Already Exists',
+    );
+  }
+  const newCategory = new Category({
+    name,
+    thumbnail,
+    categoryType,
+  });
+
+  const createdCategory = await newCategory.save();
+
+  if (!createdCategory) {
+    unlinkFile(thumbnail);
+    throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to create Category');
   }
 
-  const createCategory:any = await Category.create(payload)
-  if (!createCategory) {
-    unlinkFile(image);
-    throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to create Category')
-  }
-
-  return createCategory
-}
-
-const getCategoriesFromDB = async (): Promise<ICategory[]> => {
-  const result = await Category.find({})
-  return result;
-}
-
+  return createdCategory;
+};
+// get c  ategorys
+const getCategoriesFromDB = async (query: Record<string, unknown>) => {
+  const queryBuilder = new QueryBuilder(Category.find({}), query);
+  const categorys = await queryBuilder
+    .fields()
+    .filter()
+    .paginate()
+    .search(['name'])
+    .sort()
+    .modelQuery.exec();
+  const meta = await queryBuilder.countTotal();
+  return {
+    categorys,
+    meta,
+  };
+};
+// update catgeory
 const updateCategoryToDB = async (id: string, payload: ICategory) => {
-  const isExistCategory:any = await Category.findById(id);
+  const isExistCategory: any = await Category.findById(id);
 
-  if(!isExistCategory){
+  if (!isExistCategory) {
     throw new AppError(StatusCodes.BAD_REQUEST, "Category doesn't exist");
   }
-  
-  if (payload.image) {
-    unlinkFile(isExistCategory?.image);
+
+  if (payload.thumbnail && isExistCategory?.thumbnail) {
+    unlinkFile(isExistCategory?.thumbnail);
   }
 
-  const updateCategory = await Category.findOneAndUpdate({ _id: id }, payload, {
+  const updateCategory = await Category.findByIdAndUpdate(id, payload, {
     new: true,
-  })
+  });
 
-  return updateCategory
-}
-
-const deleteCategoryToDB = async (id: string): Promise<ICategory | null> => {
-  const deleteCategory = await Category.findByIdAndDelete(id)
-  if (!deleteCategory) {
-    throw new AppError(StatusCodes.BAD_REQUEST, "Category doesn't exist")
+  if (!updateCategory) {
+    throw new AppError(StatusCodes.BAD_REQUEST, 'Faield to update category!');
   }
-  return deleteCategory
-}
+  return updateCategory;
+};
+// update catgeory status
+const updateCategoryStatusToDB = async (id: string, payload: ICategory) => {
+  const isExistCategory: any = await Category.findById(id);
+
+  if (!isExistCategory) {
+    throw new AppError(StatusCodes.BAD_REQUEST, "Category doesn't exist");
+  }
+
+  const updateCategory = await Category.findByIdAndUpdate(
+    id,
+    {
+      $set: { status: payload },
+    },
+    {
+      new: true,
+    },
+  );
+
+  if (!updateCategory) {
+    throw new AppError(StatusCodes.BAD_REQUEST, 'Faield to update category!');
+  }
+  return updateCategory;
+};
+
+// delete category
+const deleteCategoryToDB = async (id: string) => {
+  const deleteCategory = await Category.findByIdAndDelete(id);
+  if (!deleteCategory) {
+    throw new AppError(StatusCodes.BAD_REQUEST, "Category doesn't exist");
+  }
+  return deleteCategory;
+};
 
 export const CategoryService = {
   createCategoryToDB,
   getCategoriesFromDB,
   updateCategoryToDB,
-  deleteCategoryToDB
-}
+  deleteCategoryToDB,
+  updateCategoryStatusToDB,
+};

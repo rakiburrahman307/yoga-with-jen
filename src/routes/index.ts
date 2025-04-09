@@ -4,6 +4,8 @@ import { AuthRouter } from '../app/modules/auth/auth.route';
 import { CommentRouter } from '../app/modules/comments/comments.router';
 import { CommunityRouter } from '../app/modules/community/community.router';
 import { ContactRoutes } from '../app/modules/contcatus/contactus.route';
+import { CategoryRoutes } from '../app/modules/category/category.route';
+import { SubCategoryRoutes } from '../app/modules/subCategorys/subCategory.route';
 
 const router = express.Router();
 const routes = [
@@ -30,6 +32,22 @@ const routes = [
   {
     path: '/admin/contact',
     route: ContactRoutes,
+  },
+  {
+    path: '/admin/category',
+    route: CategoryRoutes,
+  },
+  {
+    path: '/category',
+    route: CategoryRoutes,
+  },
+  {
+    path: '/admin/subcategory',
+    route: SubCategoryRoutes,
+  },
+  {
+    path: '/subcategory',
+    route: SubCategoryRoutes,
   },
 ];
 

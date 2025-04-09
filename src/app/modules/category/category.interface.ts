@@ -1,8 +1,15 @@
-import { Model } from 'mongoose';
-
-export type ICategory = {
+import mongoose from 'mongoose';
+export interface ISubCategory {
   name: string;
-  image: string;
+  thumbnail: string;
+  categoryId: mongoose.Schema.Types.ObjectId;
 }
 
-export type CategoryModel = Model<ICategory, Record<string, unknown>>
+export interface ICategory {
+  name: string;
+  thumbnail: string;
+  subCategory: ISubCategory[] | [];
+  videoCount: number;
+  categoryType: string;
+  status: string;
+}
