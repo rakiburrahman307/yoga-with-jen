@@ -6,13 +6,14 @@ import validateRequest from '../../middleware/validateRequest';
 import auth from '../../middleware/auth';
 import fileUploadHandler from '../../middleware/fileUploadHandler';
 import parseFileData from '../../middleware/parseFileData';
+import { FOLDER_NAMES } from '../../../enums/files';
 const router = express.Router();
 
 router.post(
-  '/create-service',
+  '/create',
   auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN),
   fileUploadHandler(),
-  parseFileData("thumbnail"),
+  parseFileData(FOLDER_NAMES.THUMBNAIL),
   validateRequest(CategoryValidation.createCategoryZodSchema),
   CategoryController.createCategory,
 );
@@ -22,9 +23,9 @@ router
   .patch(
     auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN),
     fileUploadHandler(),
-    parseFileData("thumbnail"),
+    parseFileData(FOLDER_NAMES.THUMBNAIL),
     CategoryController.updateCategory,
-  )
+  );
 router
   .route('/:id')
   .put(

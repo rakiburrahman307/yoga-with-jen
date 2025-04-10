@@ -1,13 +1,8 @@
-import { Model } from 'mongoose';
+import { Types } from 'mongoose';
 
-interface ICategory {
+export interface ISubCategory {
   name: string;
   thumbnail: string;
-  subCategory: number;
+  categoryId: Types.ObjectId;
   videoCount: number;
-  createdDate: Date;
-  categoryType: string;
-  status: string;
 }
-
-export type CategoryModel = Model<ICategory, Record<string, unknown>>;

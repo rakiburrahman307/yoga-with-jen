@@ -1,18 +1,19 @@
-import { z } from 'zod'
+import { z } from 'zod';
 
-const createCategoryZodSchema = z.object({
+const createSubCategoryZodSchema = z.object({
   body: z.object({
-    name: z.string({ required_error: 'Category name is required' })
+    name: z.string({ required_error: 'Sub category name is required' }),
+    categoryId: z.string({ required_error: 'Category id name is required' }),
   }),
-})
+});
 
-const updateCategoryZodSchema = z.object({
+const updateSubCategoryZodSchema = z.object({
   body: z.object({
-    name: z.string().optional()
+    name: z.string().optional(),
   }),
-})
+});
 
 export const CategoryValidation = {
-  createCategoryZodSchema,
-  updateCategoryZodSchema,
-}
+  createSubCategoryZodSchema,
+  updateSubCategoryZodSchema,
+};

@@ -1,62 +1,90 @@
-import { StatusCodes } from 'http-status-codes'
-import { ICategory } from './subCategory.interface'
-import { Category } from './subCategory.model'
-import unlinkFile from '../../../shared/unlinkFile'
-import { Bookmark } from '../bookmark/bookmark.model'
-import AppError from '../../../errors/AppError'
-
-const createCategoryToDB = async (payload: ICategory) => {
-  const {name, image} = payload;
-  const isExistName = await Category.findOne({name: name})
-
-  if(isExistName){
-    unlinkFile(image);
-    throw new AppError(StatusCodes.NOT_ACCEPTABLE, "This Category Name Already Exist");
+import { StatusCodes } from 'http-status-codes';
+import unlinkFile from '../../../shared/unlinkFile';
+import AppError from '../../../errors/AppError';
+import { SubCategory } from './subCategory.model';
+import { ISubCategory } from './subCategory.interface';
+import QueryBuilder from '../../builder/QueryBuilder';
+import { Category } from '../category/category.model';
+// create sub category
+const createSubCategoryToDB = async (payload: ISubCategory) => {
+  const { name, thumbnail, categoryId } = payload;
+  const isExistCategory = await Category.findById(categoryId);
+  if (!isExistCategory) {
+    throw new AppError(StatusCodes.NOT_FOUND, 'Category not found!');
   }
-
-  const createCategory:any = await Category.create(payload)
-  if (!createCategory) {
-    unlinkFile(image);
-    throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to create Category')
+  const isSubCategoryExistName = await SubCategory.findOne({ name: name });
+  if (isSubCategoryExistName) {
+    unlinkFile(thumbnail);
+    throw new AppError(
+      StatusCodes.NOT_ACCEPTABLE,
+      'This SubCategory Name Already Exists',
+    );
   }
+  const data = {
+    ...payload,
+    categoryType: isExistCategory?.categoryType,
+  };
+  const createSubCategory = await SubCategory.create(data);
+  if (!createSubCategory) {
+    unlinkFile(thumbnail);
+    throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to create subcategory');
+  }
+  await Category.findByIdAndUpdate(
+    categoryId,
+    {
+      $push: { subCategory: createSubCategory._id },
+    },
+    { new: true },
+  );
 
-  return createCategory
-}
+  return createSubCategory;
+};
+// get sub category
+const getCategoriesFromDB = async (query: Record<string, unknown>) => {
+  const queryBuilder = new QueryBuilder(SubCategory.find({}), query);
+  const subCategorys = await queryBuilder
+    .fields()
+    .filter()
+    .paginate()
+    .search(['name'])
+    .sort()
+    .modelQuery.exec();
+  const meta = await queryBuilder.countTotal();
+  return {
+    subCategorys,
+    meta,
+  };
+};
+// update sub category
+const updateCategoryToDB = async (id: string, payload: ISubCategory) => {
+  const isExistSubCategory: any = await SubCategory.findById(id);
 
-const getCategoriesFromDB = async (): Promise<ICategory[]> => {
-  const result = await Category.find({})
-  return result;
-}
-
-const updateCategoryToDB = async (id: string, payload: ICategory) => {
-  const isExistCategory:any = await Category.findById(id);
-
-  if(!isExistCategory){
+  if (!isExistSubCategory) {
     throw new AppError(StatusCodes.BAD_REQUEST, "Category doesn't exist");
   }
-  
-  if (payload.image) {
-    unlinkFile(isExistCategory?.image);
+
+  if (payload.thumbnail && isExistSubCategory.thumbnail) {
+    unlinkFile(isExistSubCategory?.thumbnail);
   }
 
-  const updateCategory = await Category.findOneAndUpdate({ _id: id }, payload, {
+  const updateSubCategory = await SubCategory.findByIdAndUpdate(id, payload, {
     new: true,
-  })
+  });
 
-  return updateCategory
-}
+  return updateSubCategory;
+};
 
-const deleteCategoryToDB = async (id: string): Promise<ICategory | null> => {
-  const deleteCategory = await Category.findByIdAndDelete(id)
+const deleteCategoryToDB = async (id: string) => {
+  const deleteCategory = await SubCategory.findByIdAndDelete(id);
   if (!deleteCategory) {
-    throw new AppError(StatusCodes.BAD_REQUEST, "Category doesn't exist")
+    throw new AppError(StatusCodes.BAD_REQUEST, "Category doesn't exist");
   }
-  return deleteCategory
-}
+  return deleteCategory;
+};
 
 export const CategoryService = {
-  createCategoryToDB,
+  createSubCategoryToDB,
   getCategoriesFromDB,
   updateCategoryToDB,
-  deleteCategoryToDB
-}
+  deleteCategoryToDB,
+};

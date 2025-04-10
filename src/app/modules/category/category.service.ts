@@ -4,7 +4,6 @@ import { Category } from './category.model';
 import unlinkFile from '../../../shared/unlinkFile';
 import AppError from '../../../errors/AppError';
 import QueryBuilder from '../../builder/QueryBuilder';
-import { query } from 'express';
 
 const createCategoryToDB = async (payload: ICategory) => {
   const { name, categoryType, thumbnail } = payload;

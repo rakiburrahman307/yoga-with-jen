@@ -18,6 +18,14 @@ export default {
     jwt_refresh_secret: process.env.JWT_REFRESH_SECRET,
     jwt_refresh_expire_in: process.env.JWT_REFRESH_EXPIRE_IN,
   },
+  aws: {
+    aws_bucket_name: process.env.AWS_BUCKET_NAME,
+    aws_region: process.env.AWS_REGION,
+    credentials: {
+      accessKeyId: process.env.AWS_ACCESS_KEY_ID!,
+      secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY!,
+    }
+  },
   email: {
     from: process.env.EMAIL_FROM,
     user: process.env.EMAIL_USER,

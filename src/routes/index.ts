@@ -6,6 +6,7 @@ import { CommunityRouter } from '../app/modules/community/community.router';
 import { ContactRoutes } from '../app/modules/contcatus/contactus.route';
 import { CategoryRoutes } from '../app/modules/category/category.route';
 import { SubCategoryRoutes } from '../app/modules/subCategorys/subCategory.route';
+import { userManagementRouter } from '../app/modules/admin/userManagement/userManagement.route';
 
 const router = express.Router();
 const routes = [
@@ -48,6 +49,10 @@ const routes = [
   {
     path: '/subcategory',
     route: SubCategoryRoutes,
+  },
+  {
+    path: '/admin/user/managment',
+    route: userManagementRouter,
   },
 ];
 

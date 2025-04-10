@@ -1,4 +1,4 @@
-import { Model } from 'mongoose';
+import { Model, Schema } from 'mongoose';
 import { USER_ROLES } from '../../../enums/user';
 export type IUser = {
   name: string;
@@ -6,6 +6,12 @@ export type IUser = {
   email: string;
   password: string;
   image?: string;
+  phone?: string;
+  joinDate: Date;
+  subscriptionTitle: string;
+  trialExpireAt: Date;
+  subscription: Schema.Types.ObjectId;
+  isFreeTrial: boolean;
   isDeleted: boolean;
   address: string;
   status: 'active' | 'blocked';
@@ -22,4 +28,7 @@ export type UserModel = {
   isExistUserByEmail(email: string): any;
   isExistUserByPhone(contact: string): any;
   isMatchPassword(password: string, hashPassword: string): boolean;
+  isInFreeTrial(userId: string): Promise<boolean>;
+  hasActiveSubscription(userId: string): Promise<boolean>;
+  hasTrialExpired(userId: string): Promise<boolean>;
 } & Model<IUser>;

@@ -8,3 +8,12 @@ declare global {
     }
   }
 }
+declare module 'multer' {
+  namespace Express {
+    namespace Multer {
+      interface File {
+        key?: string;
+      }
+    }
+  }
+}

@@ -6,6 +6,7 @@ import { USER_ROLES } from '../../../enums/user';
 import AppError from '../../../errors/AppError';
 import { IUser, UserModel } from './user.interface';
 
+// Define the user schema
 const userSchema = new Schema<IUser, UserModel>(
   {
     name: {
@@ -33,6 +34,32 @@ const userSchema = new Schema<IUser, UserModel>(
     image: {
       type: String,
       default: '',
+    },
+    phone: {
+      type: String,
+      default: '',
+    },
+    joinDate: {
+      type: Date,
+      default: Date.now,
+    },
+    subscriptionTitle: {
+      type: String,
+      default: '',
+    },
+    subscription: {
+      type: Schema.Types.ObjectId,
+      ref: 'Subscription',
+    },
+    trialExpireAt: {
+      type: Date,
+      default: function () {
+        return new Date(Date.now() + 7 * 24 * 60 * 60 * 1000); // 7 days from now
+      },
+    },
+    isFreeTrial: {
+      type: Boolean,
+      default: true,
     },
     status: {
       type: String,
@@ -67,27 +94,48 @@ const userSchema = new Schema<IUser, UserModel>(
   },
   { timestamps: true },
 );
-
 // Exist User Check
 userSchema.statics.isExistUserById = async (id: string) => {
   return await User.findById(id);
 };
-
+// Static function to check if a user exists by email
 userSchema.statics.isExistUserByEmail = async (email: string) => {
   return await User.findOne({ email });
 };
-userSchema.statics.isExistUserByPhone = async (contact: string) => {
-  return await User.findOne({ contact });
-};
-// Password Matching
-userSchema.statics.isMatchPassword = async (
-  password: string,
-  hashPassword: string,
-): Promise<boolean> => {
-  return await bcrypt.compare(password, hashPassword);
+
+// Static function to check if a user exists by phone
+userSchema.statics.isExistUserByPhone = async (phone: string) => {
+  return await User.findOne({ phone });
 };
 
-// Pre-Save Hook for Hashing Password & Checking Email Uniqueness
+// Static function to check if a user is in free trial
+userSchema.statics.isInFreeTrial = async (userId: string) => {
+  const user = await User.findById(userId);
+  if (!user) throw new AppError(StatusCodes.NOT_FOUND, 'User not found');
+  return user.isFreeTrial && user.trialExpireAt > new Date();
+};
+
+// Static function to check if the user's subscription is active
+// userSchema.statics.hasActiveSubscription = async (userId: string) => {
+//   const user = await User.findById(userId).populate('subscription');
+//   if (!user) throw new AppError(StatusCodes.NOT_FOUND, 'User not found');
+
+//   // Assuming the Subscription model has an `isActive` and `expiryDate` field
+//   const subscription = user.subscription;
+//   if (subscription && subscription.isActive && subscription.expiryDate > new Date()) {
+//     return true;
+//   }
+//   return false;
+// };
+
+// Static function to check if the user's free trial has expired
+userSchema.statics.hasTrialExpired = async (userId: string) => {
+  const user = await User.findById(userId);
+  if (!user) throw new AppError(StatusCodes.NOT_FOUND, 'User not found');
+  return user.trialExpireAt < new Date();
+};
+
+// Pre-save hook to hash the user's password and check email uniqueness
 userSchema.pre('save', async function (next) {
   const isExist = await User.findOne({ email: this.get('email') });
   if (isExist) {
@@ -101,7 +149,7 @@ userSchema.pre('save', async function (next) {
   next();
 });
 
-// Query Middleware
+// Query Middleware to exclude deleted users
 userSchema.pre('find', function (next) {
   this.find({ isDeleted: { $ne: true } });
   next();
@@ -116,4 +164,6 @@ userSchema.pre('aggregate', function (next) {
   this.pipeline().unshift({ $match: { isDeleted: { $ne: true } } });
   next();
 });
+
+// Export the user model
 export const User = model<IUser, UserModel>('User', userSchema);

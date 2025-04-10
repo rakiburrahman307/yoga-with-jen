@@ -1,4 +1,0 @@
-Wed Apr 09 2025 10:19:59 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/admin/category/create-service 401 - 5.858 ms
-Wed Apr 09 2025 10:25:41 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/admin/category/create-service 400 - 289.155 ms
-Wed Apr 09 2025 10:29:40 [SERVER-NAME] error: 10.0.60.126 - GET /favicon.ico 404 - 1.484 ms
-Wed Apr 09 2025 10:51:58 [SERVER-NAME] error: 10.0.60.126 - PATCH /api/v1/admin/category/67d7fde5d018a5d7b0d24fa6 401 - 10.134 ms
