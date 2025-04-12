@@ -1,5 +1,5 @@
 export interface IQuotation {
   quotation: string;
-  date: Date;
+  releaseAt: Date;
   status: string;
 }

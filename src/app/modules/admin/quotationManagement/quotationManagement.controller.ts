@@ -5,18 +5,17 @@ import { quotationManagementService } from './quotationManagement.service';
 
 // get all the user
 const createQuotation = catchAsync(async (req, res) => {
-  const result = await quotationManagementService.getUsersFromDb(req.query);
+  const result = await quotationManagementService.cretaeQuotation(req.body);
   sendResponse(res, {
     success: true,
     statusCode: StatusCodes.CREATED,
     message: 'Quotation created successfuly',
-    data: result.users,
-    pagination: result.meta,
+    data: result,
   });
 });
 // get single user
 const getAllQuotation = catchAsync(async (req, res) => {
-  const result = await quotationManagementService.getSingleUser(req.params.id);
+  const result = await quotationManagementService.getQuotationFromDb(req.query);
   sendResponse(res, {
     success: true,
     statusCode: StatusCodes.OK,
@@ -26,10 +25,8 @@ const getAllQuotation = catchAsync(async (req, res) => {
 });
 // update status
 const getByIdQuotation = catchAsync(async (req, res) => {
-  const { status } = req.body;
-  const result = await quotationManagementService.updateUsersFromDb(
+  const result = await quotationManagementService.getSingleQuotation(
     req.params.id,
-    status,
   );
   sendResponse(res, {
     success: true,
@@ -38,31 +35,43 @@ const getByIdQuotation = catchAsync(async (req, res) => {
     data: result,
   });
 });
-// update status
+// update quotation
 const updateQuotation = catchAsync(async (req, res) => {
-  const { status } = req.body;
-  const result = await quotationManagementService.updateUsersFromDb(
+  const data = req.body;
+  const result = await quotationManagementService.updateQuotationFromDb(
     req.params.id,
-    status,
+    data,
   );
   sendResponse(res, {
     success: true,
     statusCode: StatusCodes.OK,
-    message: 'Quotation status updated',
+    message: 'Quotation updated successfuly',
     data: result,
   });
 });
 // update status
-const deleteQuotation = catchAsync(async (req, res) => {
+const updateStatusQuotation = catchAsync(async (req, res) => {
   const { status } = req.body;
-  const result = await quotationManagementService.updateUsersFromDb(
+  const result = await quotationManagementService.updateQuotationStatusFromDb(
     req.params.id,
     status,
   );
   sendResponse(res, {
     success: true,
     statusCode: StatusCodes.OK,
-    message: 'Quotation status updated',
+    message: 'Quotation status updated successfuly',
+    data: result,
+  });
+});
+// delete status
+const deleteQuotation = catchAsync(async (req, res) => {
+  const result = await quotationManagementService.deleteQuotationFromDb(
+    req.params.id,
+  );
+  sendResponse(res, {
+    success: true,
+    statusCode: StatusCodes.OK,
+    message: 'Quotation deleted successfuly',
     data: result,
   });
 });
@@ -72,5 +81,6 @@ export const QuotationManagementController = {
   getAllQuotation,
   getByIdQuotation,
   updateQuotation,
-  deleteQuotation
+  deleteQuotation,
+  updateStatusQuotation
 };

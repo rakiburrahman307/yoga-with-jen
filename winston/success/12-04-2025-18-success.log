@@ -1,0 +1,20 @@
+Sat Apr 12 2025 18:49:55 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 12 2025 18:49:59 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 12 2025 18:50:1 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 12 2025 18:50:1 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sat Apr 12 2025 18:51:39 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/admin/quotation/managment/create 201 - 349.888 ms
+Sat Apr 12 2025 18:53:10 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 12 2025 18:53:19 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 12 2025 18:53:21 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 12 2025 18:53:21 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sat Apr 12 2025 18:53:24 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 12 2025 18:53:28 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 12 2025 18:53:28 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sat Apr 12 2025 18:53:52 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 12 2025 18:53:54 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 12 2025 18:53:54 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sat Apr 12 2025 18:53:59 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 12 2025 18:54:1 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 12 2025 18:54:1 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sat Apr 12 2025 18:58:27 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/admin/quotation/managment/create 201 - 321.136 ms
+Sat Apr 12 2025 18:59:36 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/quotation/managment/ 200 - 581.001 ms

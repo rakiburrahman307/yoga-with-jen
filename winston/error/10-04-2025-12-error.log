@@ -1,7 +1,0 @@
-Thu Apr 10 2025 12:38:33 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/admin/category/create 400 - 604.655 ms
-Thu Apr 10 2025 12:38:44 [SERVER-NAME] error: UnhandleException Detected this.s3.upload is not a function
-Thu Apr 10 2025 12:39:27 [SERVER-NAME] error: UnhandleException Detected this.s3.upload is not a function
-Thu Apr 10 2025 12:45:23 [SERVER-NAME] error: UnhandleException Detected this.s3.upload is not a function
-Thu Apr 10 2025 12:48:1 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/admin/category/create 406 - 643.808 ms
-Thu Apr 10 2025 12:50:34 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/admin/category/create 401 - 5.638 ms
-Thu Apr 10 2025 12:53:25 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/admin/category/create 406 - 636.791 ms

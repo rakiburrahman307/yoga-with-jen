@@ -1,2 +1,0 @@
-Thu Apr 10 2025 13:14:21 [SERVER-NAME] error: UnhandleRejection Detected Error uploading file to S3
-Thu Apr 10 2025 13:15:43 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/admin/category/create 500 - 329.461 ms

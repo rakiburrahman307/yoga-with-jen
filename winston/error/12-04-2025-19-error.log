@@ -1,0 +1,12 @@
+Sat Apr 12 2025 19:11:10 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/admin/quotation/managment/ststus/67fa637218abc2b7f0f2a70c 404 - 12.597 ms
+Sat Apr 12 2025 19:11:17 [SERVER-NAME] error: 10.0.60.126 - PUT /api/v1/admin/quotation/managment/ststus/67fa637218abc2b7f0f2a70c 404 - 0.764 ms
+Sat Apr 12 2025 19:11:18 [SERVER-NAME] error: 10.0.60.126 - PUT /api/v1/admin/quotation/managment/ststus/67fa637218abc2b7f0f2a70c 404 - 0.484 ms
+Sat Apr 12 2025 19:15:33 [SERVER-NAME] error: 10.0.60.126 - PUT /api/v1/admin/quotation/managment/67fa637218abc2b7f0f2a70c 404 - 9.825 ms
+Sat Apr 12 2025 19:15:38 [SERVER-NAME] error: 10.0.60.126 - PUT /api/v1/admin/quotation/managment/67fa637218abc2b7f0f2a70c 404 - 0.881 ms
+Sat Apr 12 2025 19:15:42 [SERVER-NAME] error: 10.0.60.126 - PATCH /api/v1/admin/quotation/managment/67fa637218abc2b7f0f2a70c 400 - 292.707 ms
+Sat Apr 12 2025 19:16:7 [SERVER-NAME] error: 10.0.60.126 - PATCH /api/v1/admin/quotation/managment/67fa637218abc2b7f0f2a70c 400 - 288.342 ms
+Sat Apr 12 2025 19:17:35 [SERVER-NAME] error: 10.0.60.126 - PATCH /api/v1/admin/quotation/managment/67fa637218abc2b7f0f2a70c 400 - 301.300 ms
+Sat Apr 12 2025 19:17:38 [SERVER-NAME] error: 10.0.60.126 - PATCH /api/v1/admin/quotation/managment/67fa637218abc2b7f0f2a70c 400 - 286.321 ms
+Sat Apr 12 2025 19:24:49 [SERVER-NAME] error: 10.0.60.126 - PATCH /api/v1/admin/quotation/managment/67fa637218abc2b7f0f2a70c 400 - 299.652 ms
+Sat Apr 12 2025 19:26:41 [SERVER-NAME] error: 10.0.60.126 - PATCH /api/v1/admin/quotation/managment/67fa637218abc2b7f0f2a70c 400 - 301.542 ms
+Sat Apr 12 2025 19:26:44 [SERVER-NAME] error: 10.0.60.126 - PATCH /api/v1/admin/quotation/managment/67fa637218abc2b7f0f2a70c 400 - 287.699 ms
