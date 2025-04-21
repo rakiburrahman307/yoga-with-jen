@@ -1,7 +1,7 @@
 import { StatusCodes } from 'http-status-codes';
 import Stripe from 'stripe';
-import ApiError from '../errors/ApiErrors';
 import stripe from '../config/stripe';
+import AppError from '../errors/AppError';
 const User:any = "";
 const Subscription:any = "";
 
@@ -35,9 +35,9 @@ export const handleSubscriptionDeleted = async (data: Stripe.Subscription) => {
                 { new: true },
             );
         } else {
-            throw new ApiError(StatusCodes.NOT_FOUND, `User not found.`);
+            throw new AppError(StatusCodes.NOT_FOUND, `User not found.`);
         }
     } else {
-        throw new ApiError(StatusCodes.NOT_FOUND, `Subscription not found.`);
+        throw new AppError(StatusCodes.NOT_FOUND, `Subscription not found.`);
     }
 }

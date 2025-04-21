@@ -7,10 +7,10 @@ const VideoSchema = new Schema<IVideo>(
     subCategory: { type: String, required: true, trim: true },
     duration: { type: String, required: true },
     equipment: { type: [String], required: true },
-    thumbnail: { type: String, required: true },
+    thumbnailUrl: { type: String, required: true },
     videoUrl: { type: String, required: true },
     description: { type: String, required: true },
-    status: { type: String, enum: ['active', 'inactive'] },
+    status: { type: String, enum: ['active', 'inactive'], default: 'active' },
   },
   { timestamps: true },
 );

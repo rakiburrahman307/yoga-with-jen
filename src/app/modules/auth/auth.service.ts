@@ -22,6 +22,9 @@ import { createToken } from '../../../utils/createToken';
 //login
 const loginUserFromDB = async (payload: ILoginData) => {
   const { email, password } = payload;
+  if (!password) {
+    throw new AppError(StatusCodes.BAD_REQUEST, 'Password is required!');
+  }
   const isExistUser = await User.findOne({ email }).select('+password');
   if (!isExistUser) {
     throw new AppError(StatusCodes.BAD_REQUEST, "User doesn't exist!");
@@ -60,10 +63,7 @@ const loginUserFromDB = async (payload: ILoginData) => {
   }
 
   //check match password
-  if (
-    password &&
-    !(await User.isMatchPassword(password, isExistUser.password))
-  ) {
+  if (!(await User.isMatchPassword(password, isExistUser.password))) {
     throw new AppError(StatusCodes.BAD_REQUEST, 'Password is incorrect!');
   }
 

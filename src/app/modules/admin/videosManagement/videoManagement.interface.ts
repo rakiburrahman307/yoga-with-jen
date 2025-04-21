@@ -4,7 +4,7 @@ export interface IVideo {
   subCategory: string;
   duration: string;
   equipment: string[];
-  thumbnail: string;
+  thumbnailUrl: string;
   videoUrl: string;
   description: string;
   status: 'active' | 'inactive';

@@ -1,7 +1,7 @@
 import { StatusCodes } from 'http-status-codes';
 import Stripe from 'stripe';
-import ApiError from '../errors/ApiErrors';
 import stripe from '../config/stripe';
+import AppError from '../errors/AppError';
 const User:any = "";
 const PricingPlan:any = "";
 const Subscription:any = "";
@@ -40,7 +40,7 @@ export const handleSubscriptionCreated = async (data: Stripe.Subscription) => {
                 });
     
                 if (currentActiveSubscription) {
-                    throw new ApiError(StatusCodes.CONFLICT,'User already has an active subscription.');
+                    throw new AppError(StatusCodes.CONFLICT,'User already has an active subscription.');
                 }
     
                 // Create a new subscription record
@@ -65,12 +65,12 @@ export const handleSubscriptionCreated = async (data: Stripe.Subscription) => {
                     { new: true },
                 );
             } else {
-                throw new ApiError(StatusCodes.NOT_FOUND, `Pricing plan with Price ID: ${priceId} not found!`);
+                throw new AppError(StatusCodes.NOT_FOUND, `Pricing plan with Price ID: ${priceId} not found!`);
             }
         } else {
-            throw new ApiError(StatusCodes.NOT_FOUND, `Invalid User!`);
+            throw new AppError(StatusCodes.NOT_FOUND, `Invalid User!`);
         }
     } else {
-        throw new ApiError(StatusCodes.BAD_REQUEST, 'No email found for the customer!');
+        throw new AppError(StatusCodes.BAD_REQUEST, 'No email found for the customer!');
     }
 }

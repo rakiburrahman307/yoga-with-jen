@@ -40,10 +40,10 @@ class APIFeatures {
         if (queryCopy.minPrice || queryCopy.maxPrice) {
             query.price = {};
             if (queryCopy.minPrice) {
-                query.price.$gte = Number(queryCopy.minPrice);  // Greater than or equal to minPrice
+                query.price.$gte = Number(queryCopy.minPrice); 
             }
             if (queryCopy.maxPrice) {
-                query.price.$lte = Number(queryCopy.maxPrice);  // Less than or equal to maxPrice
+                query.price.$lte = Number(queryCopy.maxPrice);  
             }
         }
 
@@ -66,18 +66,12 @@ class APIFeatures {
     async pagination() {
         
         // Get page and limit from query string
-        const page = Number(this.queryString.page) || 1;  // Default to page 1
-        const limit = Number(this.queryString.limit) || 10;  // Default to limit of 10
-
-        // Calculate total documents and skip count
+        const page = Number(this.queryString.page) || 1;
+        const limit = Number(this.queryString.limit) || 10; 
         const total = await this.query.countDocuments();
         const totalPages = Math.ceil(total / limit);
         const skip = (page - 1) * limit;
-
-        // Apply pagination
         this.query = this.query.skip(skip).limit(limit);
-
-        // Return pagination info
         return {
             total,
             totalPages,

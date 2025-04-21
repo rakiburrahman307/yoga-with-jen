@@ -8,6 +8,8 @@ import { CategoryRoutes } from '../app/modules/category/category.route';
 import { SubCategoryRoutes } from '../app/modules/subCategorys/subCategory.route';
 import { userManagementRouter } from '../app/modules/admin/userManagement/userManagement.route';
 import { quotationManagementRouter } from '../app/modules/admin/quotationManagement/quotationManagement.route';
+import { videoManagementRoute } from '../app/modules/admin/videosManagement/videoManagement.router';
+import { PackageRoutes } from '../app/modules/package/package.routes';
 
 const router = express.Router();
 const routes = [
@@ -58,6 +60,14 @@ const routes = [
   {
     path: '/admin/quotation/managment',
     route: quotationManagementRouter,
+  },
+  {
+    path: '/admin/videos/managment',
+    route: videoManagementRoute,
+  },
+  {
+    path: '/admin/package/managment',
+    route: PackageRoutes,
   },
 ];
 

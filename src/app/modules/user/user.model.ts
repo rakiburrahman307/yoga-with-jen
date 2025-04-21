@@ -107,6 +107,13 @@ userSchema.statics.isExistUserByEmail = async (email: string) => {
 userSchema.statics.isExistUserByPhone = async (phone: string) => {
   return await User.findOne({ phone });
 };
+// Password Matching
+userSchema.statics.isMatchPassword = async (
+  password: string,
+  hashPassword: string,
+): Promise<boolean> => {
+  return await bcrypt.compare(password, hashPassword);
+};
 
 // Static function to check if a user is in free trial
 userSchema.statics.isInFreeTrial = async (userId: string) => {

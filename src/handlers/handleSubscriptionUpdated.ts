@@ -1,7 +1,7 @@
 import { StatusCodes } from 'http-status-codes';
 import Stripe from 'stripe';
-import ApiError from '../errors/ApiErrors';
 import stripe from '../config/stripe';
+import AppError from '../errors/AppError';
 const User:any = "";
 const Subscription:any = "";
 const PricingPlan:any = "";
@@ -77,12 +77,12 @@ export const handleSubscriptionUpdated = async (data: Stripe.Subscription) => {
                     }
                 }
             } else {
-                throw new ApiError(StatusCodes.NOT_FOUND, `Pricing plan with Price ID: ${priceId} not found!`);
+                throw new AppError(StatusCodes.NOT_FOUND, `Pricing plan with Price ID: ${priceId} not found!`);
             }
         } else {
-            throw new ApiError(StatusCodes.NOT_FOUND, `User with Email: ${customer.email} not found!`);
+            throw new AppError(StatusCodes.NOT_FOUND, `User with Email: ${customer.email} not found!`);
         }
     } else {
-        throw new ApiError(StatusCodes.BAD_REQUEST, 'No email found for the customer!');
+        throw new AppError(StatusCodes.BAD_REQUEST, 'No email found for the customer!');
     }
 }

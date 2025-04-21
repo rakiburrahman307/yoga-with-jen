@@ -1,4 +1,5 @@
 import dotenv from 'dotenv';
+import { hostname } from 'os';
 import path from 'path';
 dotenv.config({ path: path.join(process.cwd(), '.env') });
 
@@ -26,6 +27,13 @@ export default {
       secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY!,
     }
   },
+  bunnyCDN: {
+    apiKey: process.env.BUNNY_CDN_API_KEY,
+    storageZone: process.env.BUNNY_CDN_STORAGE_ZONE,
+    hostname: process.env.BUNNY_CDN_STORAGE_HOST_NAME,
+    region: process.env.BUNNY_CDN_STORAGE_ZONE_REGION,
+    pullZoneUrl: process.env.BUNNY_PULL_ZONE_URL,
+  },
   email: {
     from: process.env.EMAIL_FROM,
     user: process.env.EMAIL_USER,
@@ -45,6 +53,14 @@ export default {
     accountSid: process.env.TWILIO_ACCOUNT_SID || '',
     authToken: process.env.TWILIO_AUTH_TOKEN || '',
     phoneNumber: process.env.TWILIO_PHONE_NUMBER || ''
+  },
+  stripe:{
+    stripe_secret_key: process.env.STRIPE_SECRET_KYE,
+    paymentSuccess_url: process.env.STRIPE_PAYMENT_SUCCESS_URL,
+    stripe_webhook_secret: process.env.STRIPE_WEBHOOK_SECRET,
+    stripe_webhook_url: process.env.STRIPE_WEBHOOK_URL,
+    stripe_product_id: process.env.STRIPE_PRODUCT_ID,
+
   },
   super_admin: {
     email: process.env.SUPER_ADMIN_EMAIL,

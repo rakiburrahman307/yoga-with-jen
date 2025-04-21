@@ -1,8 +1,8 @@
 import { StatusCodes } from "http-status-codes";
 import { IPackage } from "../app/modules/package/package.interface";
 import stripe from "../config/stripe";
-import ApiError from "../errors/ApiErrors";
 import config from "../config";
+import AppError from "../errors/AppError";
 
 export const createSubscriptionProduct = async ( payload: Partial<IPackage>): Promise<{ productId: string; paymentLink: string } | null> => {
 
@@ -48,7 +48,7 @@ export const createSubscriptionProduct = async ( payload: Partial<IPackage>): Pr
     });
 
     if (!price) {
-        throw new ApiError(StatusCodes.BAD_REQUEST, "Failed to create price in Stripe");
+        throw new AppError(StatusCodes.BAD_REQUEST, "Failed to create price in Stripe");
     }
 
     // Create a Payment Link
@@ -62,7 +62,7 @@ export const createSubscriptionProduct = async ( payload: Partial<IPackage>): Pr
         after_completion: {
             type: 'redirect',
             redirect: {
-                url: `${config.stripe.paymentSuccess}`, // Redirect URL on successful payment
+                url: `${config.stripe.paymentSuccess_url}`, // Redirect URL on successful payment
             },
         },
         metadata: {
@@ -71,7 +71,7 @@ export const createSubscriptionProduct = async ( payload: Partial<IPackage>): Pr
     });
 
     if (!paymentLink.url) {
-        throw new ApiError(StatusCodes.BAD_REQUEST, "Failed to create payment link");
+        throw new AppError(StatusCodes.BAD_REQUEST, "Failed to create payment link");
     }
 
     return { productId: product.id, paymentLink: paymentLink.url };

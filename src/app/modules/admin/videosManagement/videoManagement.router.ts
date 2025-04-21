@@ -1,5 +1,39 @@
 import express from 'express';
+import auth from '../../../middleware/auth';
+import { USER_ROLES } from '../../../../enums/user';
+import { videoManagementController } from './videoManagement.controller';
+import fileUploadHandlerbunny from '../../../middleware/fileUploadHandlerbunny';
+import validateRequest from '../../../middleware/validateRequest';
+import { VideoVelidationSchema } from './videoManagement.validation';
 
 const router = express.Router();
-
+router.get(
+  '/videos',
+  auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN),
+  videoManagementController.getAllVideos,
+);
+router.post(
+  '/upload-video',
+  auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN),
+  fileUploadHandlerbunny,
+  validateRequest(VideoVelidationSchema.videoValidation),
+  videoManagementController.addVideos,
+);
+router.put(
+  '/update-video/:id',
+  auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN),
+  fileUploadHandlerbunny,
+  videoManagementController.updateVideos,
+);
+router.put(
+  '/video-status/:id',
+  auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN),
+  validateRequest(VideoVelidationSchema.videoStatusValidation),
+  videoManagementController.statusChange,
+);
+router.delete(
+  '/video-delete/:id',
+  auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN),
+  videoManagementController.removeVideos,
+);
 export const videoManagementRoute = router;
