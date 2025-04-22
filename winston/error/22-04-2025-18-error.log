@@ -1,0 +1,8 @@
+Tue Apr 22 2025 18:34:11 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/admin/subscription/create 401 - 6.759 ms
+Tue Apr 22 2025 18:34:18 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/admin/subscription/create 403 - 296.428 ms
+Tue Apr 22 2025 18:39:35 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/admin/subscription/create-checkout-session/680783eb1a2aeb9229354610 404 - 2.451 ms
+Tue Apr 22 2025 18:39:50 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/admin/subscription/create-checkout-session/680783eb1a2aeb9229354610 404 - 2.046 ms
+Tue Apr 22 2025 18:40:42 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/subscription/create-checkout-session/680783eb1a2aeb9229354610 404 - 2.489 ms
+Tue Apr 22 2025 18:41:30 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/subscription/create-checkout-session/680783eb1a2aeb9229354610 403 - 1440.019 ms
+Tue Apr 22 2025 18:47:4 [SERVER-NAME] error: [31mUnhandled Rejection at:[39m
+Tue Apr 22 2025 18:47:4 [SERVER-NAME] error: [31mUnhandled Rejection at:[39m

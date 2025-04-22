@@ -1,2 +1,0 @@
-Mon Apr 21 2025 20:42:6 [SERVER-NAME] error: 10.0.60.126 - PATCH /api/v1/admin/package/managment/ 404 - 10.412 ms
-Mon Apr 21 2025 20:45:39 [SERVER-NAME] error: 10.0.60.126 - DELETE /api/v1/admin/package/managment/68064cb63207feedcd3a5aac 401 - 3.810 ms

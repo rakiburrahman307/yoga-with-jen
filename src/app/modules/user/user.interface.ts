@@ -13,7 +13,10 @@ export type IUser = {
   subscription: Schema.Types.ObjectId;
   isFreeTrial: boolean;
   isDeleted: boolean;
+  isSubscribed: boolean;
+  hasAccess: boolean;
   address: string;
+  stripeCustomerId: string;
   status: 'active' | 'blocked';
   verified: boolean;
   authentication?: {

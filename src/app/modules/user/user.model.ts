@@ -24,6 +24,7 @@ const userSchema = new Schema<IUser, UserModel>(
       required: true,
       unique: true,
       lowercase: true,
+      index: true,
     },
     password: {
       type: String,
@@ -57,6 +58,14 @@ const userSchema = new Schema<IUser, UserModel>(
         return new Date(Date.now() + 7 * 24 * 60 * 60 * 1000); // 7 days from now
       },
     },
+    isSubscribed: {
+      type: Boolean,
+      default: false,
+    },
+    hasAccess: {
+      type: Boolean,
+      default: false,
+    },
     isFreeTrial: {
       type: Boolean,
       default: true,
@@ -73,6 +82,10 @@ const userSchema = new Schema<IUser, UserModel>(
     isDeleted: {
       type: Boolean,
       default: false,
+    },
+    stripeCustomerId:{
+      type: String,
+      default: '',
     },
     authentication: {
       type: {

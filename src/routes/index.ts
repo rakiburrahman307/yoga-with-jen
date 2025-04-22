@@ -79,6 +79,10 @@ const routes = [
     path: '/admin/subscription',
     route: SubscriptionRoutes,
   },
+  {
+    path: '/subscription',
+    route: SubscriptionRoutes,
+  },
 ];
 
 routes.forEach((element) => {

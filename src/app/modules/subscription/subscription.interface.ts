@@ -3,7 +3,7 @@ import { Model, Types } from 'mongoose';
 export type ISubscription = {
     customerId: string;
     price: number;
-    user: Types.ObjectId;
+    userId: Types.ObjectId;
     package: Types.ObjectId;
     trxId: string;
     remaining: number;

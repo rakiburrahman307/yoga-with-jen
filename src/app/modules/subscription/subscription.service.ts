@@ -3,6 +3,8 @@ import { ISubscription } from './subscription.interface';
 import { Subscription } from './subscription.model';
 import stripe from '../../../config/stripe';
 import { User } from '../user/user.model';
+import { StatusCodes } from 'http-status-codes';
+import AppError from '../../../errors/AppError';
 
 const subscriptionDetailsFromDB = async (
   id: string,
@@ -128,9 +130,51 @@ const subscriptionsFromDB = async (
 
   return data;
 };
+const createSubscriptionCheckoutSession = async (
+  userId: string,
+  packageId: string,
+) => {
+  const isExistPackage = await Package.findOne({
+    _id: packageId,
+    status: 'active',
+  });
+  if (!isExistPackage) {
+    throw new AppError(StatusCodes.NOT_FOUND, 'Package not found');
+  }
+  const user = await User.findById(userId).select('+stripeCustomerId');
+  if (!user || !user.stripeCustomerId) {
+    throw new AppError(
+      StatusCodes.NOT_FOUND,
+      'User or Stripe Customer ID not found',
+    );
+  }
 
+  // Convert Mongoose String types to primitive strings
+  const session = await stripe.checkout.sessions.create({
+    mode: 'subscription',
+    customer: String(user.stripeCustomerId),
+    line_items: [
+      {
+        price: String(isExistPackage.priceId),
+        quantity: 1,
+      },
+    ],
+    metadata: {
+      userId: String(userId),
+      subscriptionId: String(isExistPackage._id),
+    },
+    success_url:
+      'https://yourdomain.com/success?session_id={CHECKOUT_SESSION_ID}',
+    cancel_url: 'https://yourdomain.com/cancel',
+  });
+  return {
+    url: session.url,
+    sessionId: session.id,
+  };
+};
 export const SubscriptionService = {
   subscriptionDetailsFromDB,
   subscriptionsFromDB,
   companySubscriptionDetailsFromDB,
+  createSubscriptionCheckoutSession
 };

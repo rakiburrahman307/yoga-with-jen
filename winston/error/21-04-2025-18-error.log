@@ -1,2 +1,0 @@
-Mon Apr 21 2025 18:41:47 [SERVER-NAME] error: 10.0.60.126 - PATCH /api/v1/admin/package/managment 404 - 27.301 ms
-Mon Apr 21 2025 18:42:34 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/admin/package/managment 401 - 10.898 ms

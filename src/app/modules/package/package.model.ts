@@ -15,6 +15,10 @@ const packageSchema = new Schema<IPackage, PackageModel>(
       type: Number,
       required: true,
     },
+    priceId: {
+      type: String,
+      required: true,
+    },
     duration: {
       type: String,
       enum: ['1 month', '3 months', '6 months', '1 year'],
@@ -32,10 +36,6 @@ const packageSchema = new Schema<IPackage, PackageModel>(
     subscriptionType: {
       type: String,
       enum: ['app', 'web'],
-      required: true,
-    },
-    paymentLink: {
-      type: String,
       required: true,
     },
     status: {

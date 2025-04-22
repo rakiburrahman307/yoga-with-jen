@@ -6,12 +6,12 @@ import {
     handleSubscriptionCreated,
     handleSubscriptionDeleted,
     handleSubscriptionUpdated,
-} from '../handlers';
+} from './handlers';
 import { StatusCodes } from 'http-status-codes';
-import { logger } from '../shared/logger';
-import config from '../config';
-import stripe from '../config/stripe';
-import AppError from '../errors/AppError';
+import { logger } from '../../shared/logger';
+import config from '../../config';
+import stripe from '../../config/stripe';
+import AppError from '../../errors/AppError';
 
 const handleStripeWebhook = async (req: Request, res: Response) => {
 
@@ -36,10 +36,11 @@ const handleStripeWebhook = async (req: Request, res: Response) => {
     // Extract event data and type
     const data = event.data.object as Stripe.Subscription | Stripe.Account;
     const eventType = event.type;
-
+   
     // Handle the event based on its type
     try {
         switch (eventType) {
+            
             case 'customer.subscription.created':
                 await handleSubscriptionCreated(data as Stripe.Subscription);
                 break;

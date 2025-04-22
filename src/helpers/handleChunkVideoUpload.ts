@@ -31,3 +31,12 @@ export const handleChunkVideoUpload = async (req: Request, res: Response) => {
         res.status(400).json({ status: 'error', message: 'No chunk received' });
     }
 };
+
+export const splitFileIntoChunks = (buffer: Buffer, chunkSize: number = 10 * 1024 * 1024): Buffer[] => {
+    const chunks: Buffer[] = [];
+    for (let i = 0; i < buffer.length; i += chunkSize) {
+      chunks.push(buffer.slice(i, i + chunkSize));
+    }
+    return chunks;
+  };
+  

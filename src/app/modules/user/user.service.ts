@@ -8,6 +8,7 @@ import { IUser } from './user.interface';
 import { User } from './user.model';
 import AppError from '../../../errors/AppError';
 import generateOTP from '../../../utils/generateOTP';
+import stripe from '../../../config/stripe';
 // create user
 const createUserToDB = async (payload: IUser): Promise<IUser> => {
   //set role
@@ -41,6 +42,21 @@ const createUserToDB = async (payload: IUser): Promise<IUser> => {
     { $set: { authentication } },
   );
 
+let stripeCustomer;
+try {
+      stripeCustomer = await stripe.customers.create({
+            email: createUser.email,
+            name: createUser.name,
+      });
+} catch (error) {
+      throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Failed to create Stripe customer');
+}
+
+createUser.stripeCustomerId = stripeCustomer.id;
+await User.findOneAndUpdate(
+      { _id: createUser._id },
+      { $set: { authentication, stripeCustomerId: stripeCustomer.id } }
+);
   return createUser;
 };
 
