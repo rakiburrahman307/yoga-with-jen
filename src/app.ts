@@ -5,6 +5,7 @@ import { Morgan } from './shared/morgen';
 import globalErrorHandler from './globalErrorHandler/globalErrorHandler';
 import { notFound } from './app/middleware/notFound';
 import { welcome } from './utils/welcome';
+import handleStripeWebhook from './helpers/handleStripeWebhook';
 const app: Application = express();
 
 //morgan
@@ -18,12 +19,16 @@ app.use(
     credentials: true,
   }),
 );
+app.post(
+  '/api/v1/stripe/webhook',
+  express.raw({ type: 'application/json' }),
+  handleStripeWebhook,
+);
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 //file retrieve
 app.use(express.static('uploads'));
-app.use(express.static('public'));
 
 //router
 app.use('/api/v1', router);

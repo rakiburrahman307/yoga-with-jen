@@ -10,6 +10,8 @@ import { userManagementRouter } from '../app/modules/admin/userManagement/userMa
 import { quotationManagementRouter } from '../app/modules/admin/quotationManagement/quotationManagement.route';
 import { videoManagementRoute } from '../app/modules/admin/videosManagement/videoManagement.router';
 import { PackageRoutes } from '../app/modules/package/package.routes';
+import { SubscriptionRuleRoute } from '../app/modules/admin/subscriptionRule/subscriptionRule.route';
+import { SubscriptionRoutes } from '../app/modules/subscription/subscription.routes';
 
 const router = express.Router();
 const routes = [
@@ -68,6 +70,14 @@ const routes = [
   {
     path: '/admin/package/managment',
     route: PackageRoutes,
+  },
+  {
+    path: '/admin/subscription/rules',
+    route: SubscriptionRuleRoute,
+  },
+  {
+    path: '/admin/subscription',
+    route: SubscriptionRoutes,
   },
 ];
 

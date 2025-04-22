@@ -29,15 +29,13 @@ const updatePackage = catchAsync(async (req, res) => {
 });
 
 const getPackage = catchAsync(async (req, res) => {
-  const result = await PackageService.getPackageFromDB(
-    req.query.paymentType as string,
-  );
-
+  const result = await PackageService.getPackageFromDB(req.query);
   sendResponse(res, {
     statusCode: StatusCodes.OK,
     success: true,
     message: 'Package Retrieved Successfully',
-    data: result,
+    data: result.packages,
+    pagination: result.meta,
   });
 });
 

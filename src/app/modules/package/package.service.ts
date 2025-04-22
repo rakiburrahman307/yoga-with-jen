@@ -5,6 +5,7 @@ import mongoose from 'mongoose';
 import { createSubscriptionProduct } from '../../../helpers/createSubscriptionProductHelper';
 import stripe from '../../../config/stripe';
 import AppError from '../../../errors/AppError';
+import QueryBuilder from '../../builder/QueryBuilder';
 
 const createPackageToDB = async (
   payload: IPackage,
@@ -58,16 +59,26 @@ const updatePackageToDB = async (
   return result;
 };
 
-const getPackageFromDB = async (paymentType: string): Promise<IPackage[]> => {
+const getPackageFromDB = async (queryParms: Record<string, unknown>) => {
   const query: any = {
-    status: 'Active',
+    status: 'active',
+    isDeleted: false,
   };
-  if (paymentType) {
-    query.paymentType = paymentType;
-  }
 
-  const result = await Package.find(query);
-  return result;
+  const queryBuilder = new QueryBuilder(Package.find( query ), queryParms);
+  const packages = await queryBuilder
+    .filter()
+    .sort()
+    .paginate()
+    .fields()
+    .sort()
+    .modelQuery.exec();
+  console.log(packages);
+  const meta = await queryBuilder.countTotal();
+  return {
+    packages,
+    meta,
+  };
 };
 
 const getPackageDetailsFromDB = async (
@@ -87,7 +98,7 @@ const deletePackageToDB = async (id: string): Promise<IPackage | null> => {
 
   const result = await Package.findByIdAndUpdate(
     { _id: id },
-    { status: 'Delete', isDeleted: true },
+    { status: 'inactive', isDeleted: true },
     { new: true },
   );
 

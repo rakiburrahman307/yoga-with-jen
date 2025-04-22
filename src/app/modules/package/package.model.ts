@@ -40,8 +40,12 @@ const packageSchema = new Schema<IPackage, PackageModel>(
     },
     status: {
       type: String,
-      enum: ['Active', 'Delete'],
-      default: 'Active',
+      enum: ['active', 'inactive'],
+      default: 'active',
+    },
+    isDeleted: {
+      type: Boolean,
+      default: false,
     },
   },
   {
