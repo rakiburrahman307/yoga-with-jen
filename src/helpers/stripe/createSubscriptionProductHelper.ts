@@ -35,7 +35,7 @@ export const createSubscriptionProduct = async (
       break;
     default:
       interval = 'month';
-      intervalCount = 1; // Defaults to 1 month if duration is not specified
+      intervalCount = 1;
   }
 
   // Create Price for the Product
@@ -64,7 +64,7 @@ export const createSubscriptionProduct = async (
   //     after_completion: {
   //         type: 'redirect',
   //         redirect: {
-  //             url: `${config.stripe.paymentSuccess_url}`, // Redirect URL on successful payment
+  //             url: `${config.stripe.frontend_url}`, // Redirect URL on successful payment
   //         },
   //     },
   //     metadata: {

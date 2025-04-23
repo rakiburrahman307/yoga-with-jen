@@ -1,2 +1,0 @@
-Mon Apr 21 2025 22:5:1 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/admin/subscription/rules/create 404 - 33.518 ms
-Mon Apr 21 2025 22:5:37 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/admin/subscription/rules/create 404 - 0.909 ms

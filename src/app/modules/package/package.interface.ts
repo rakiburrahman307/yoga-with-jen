@@ -1,16 +1,16 @@
 import { Model } from 'mongoose';
 
 export type IPackage = {
-  title: String;
-  description: String;
-  price: Number;
-  priceId: String;
+  title: string;
+  description: string;
+  price: number;
+  priceId: string;
   duration: '1 month' | '3 months' | '6 months' | '1 year';
   paymentType: 'Monthly' | 'Yearly';
-  productId?: String;
+  productId?: string;
   subscriptionType: 'app' | 'web';
   status: 'active' | 'inactive';
-  isDeleted: Boolean;
+  isDeleted: boolean;
 };
 
 export type PackageModel = Model<IPackage, Record<string, unknown>>;

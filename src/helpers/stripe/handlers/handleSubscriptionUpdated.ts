@@ -5,6 +5,7 @@ import AppError from '../../../errors/AppError';
 import { User } from '../../../app/modules/user/user.model';
 import { Package } from '../../../app/modules/package/package.model';
 import { Subscription } from '../../../app/modules/subscription/subscription.model';
+const formatUnixToDate = (timestamp: number) => new Date(timestamp * 1000);
 
 export const handleSubscriptionUpdated = async (data: Stripe.Subscription) => {
   try {
@@ -26,7 +27,14 @@ export const handleSubscriptionUpdated = async (data: Stripe.Subscription) => {
 
     const trxId = invoice?.payment_intent;
     const amountPaid = invoice?.total / 100;
-
+    // Extract other needed fields from the subscription object
+    const remaining = subscription.items.data[0]?.quantity || 0;
+    // Convert Unix timestamp to Date
+    const currentPeriodStart = formatUnixToDate(
+      subscription.current_period_start,
+    );
+    const currentPeriodEnd = formatUnixToDate(subscription.current_period_end);
+    const subscriptionId = subscription.id;
     if (customer?.email) {
       // Find the user by email
       const existingUser = await User.findOne({ email: customer?.email });
@@ -40,7 +48,6 @@ export const handleSubscriptionUpdated = async (data: Stripe.Subscription) => {
 
       // Find the pricing plan by priceId
       const pricingPlan = await Package.findOne({ priceId });
-
       if (!pricingPlan) {
         throw new AppError(
           StatusCodes.NOT_FOUND,
@@ -52,19 +59,21 @@ export const handleSubscriptionUpdated = async (data: Stripe.Subscription) => {
       const currentActiveSubscription = await Subscription.findOne({
         userId: existingUser._id,
         status: 'active',
-      }).populate('package'); // Make sure the package is populated
+      }).populate('package');
 
       if (currentActiveSubscription) {
-        console.log('currentActiveSubscription', currentActiveSubscription);
-
-        // Check if the priceId has changed
         if (
           String((currentActiveSubscription.package as any).priceId) !== priceId
         ) {
           // Deactivate the old subscription
           await Subscription.findByIdAndUpdate(
             currentActiveSubscription._id,
-            { status: 'deactivated' },
+            {
+              status: 'deactivated',
+              remaining: 0,
+              currentPeriodEnd: null,
+              currentPeriodStart: null,
+            },
             { new: true },
           );
 
@@ -72,42 +81,45 @@ export const handleSubscriptionUpdated = async (data: Stripe.Subscription) => {
           const newSubscription = new Subscription({
             userId: existingUser._id,
             customerId: customer.id,
-            packageId: pricingPlan._id,
-            status: 'active',
+            package: pricingPlan._id,
+            price: amountPaid,
             trxId,
-            amountPaid,
+            subscriptionId,
+            currentPeriodStart,
+            currentPeriodEnd,
+            remaining,
+            status: 'active',
           });
 
           await newSubscription.save();
-          console.log('New subscription created.');
         }
       } else {
-        // If no active subscription found, check for a deactivated one
         const deactivatedSubscription = await Subscription.findOne({
           userId: existingUser._id,
           status: 'deactivated',
         });
 
         if (deactivatedSubscription) {
-          // Reactivate the deactivated subscription
           await Subscription.findByIdAndUpdate(
             deactivatedSubscription._id,
             { status: 'active' },
             { new: true },
           );
         } else {
-          // Create a new subscription if no deactivated subscription exists
           const newSubscription = new Subscription({
             userId: existingUser._id,
             customerId: customer.id,
-            packageId: pricingPlan._id,
-            status: 'active',
+            package: pricingPlan._id,
+            price: amountPaid,
             trxId,
-            amountPaid,
+            subscriptionId,
+            currentPeriodStart,
+            currentPeriodEnd,
+            remaining,
+            status: 'active',
           });
 
           await newSubscription.save();
-          console.log('New subscription created.');
         }
       }
     } else {
@@ -117,9 +129,8 @@ export const handleSubscriptionUpdated = async (data: Stripe.Subscription) => {
       );
     }
   } catch (error) {
-    console.error('Error handling subscription update:', error);
     if (error instanceof AppError) {
-      throw error; // Rethrow custom application errors
+      throw error;
     } else {
       throw new AppError(
         StatusCodes.INTERNAL_SERVER_ERROR,

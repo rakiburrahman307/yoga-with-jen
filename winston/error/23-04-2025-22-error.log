@@ -1,0 +1,7 @@
+Wed Apr 23 2025 22:2:5 [SERVER-NAME] error: [31mUnhandled Rejection at:[39m
+Wed Apr 23 2025 22:2:5 [SERVER-NAME] error: [31mUnhandled Rejection at:[39m
+Wed Apr 23 2025 22:2:38 [SERVER-NAME] error: [31m🤢 Failed to start server[39m listen EADDRINUSE: address already in use 10.0.60.126:7000
+Wed Apr 23 2025 22:2:43 [SERVER-NAME] error: [31m🤢 Failed to start server[39m listen EADDRINUSE: address already in use 10.0.60.126:7000
+Wed Apr 23 2025 22:2:48 [SERVER-NAME] error: [31m🤢 Failed to start server[39m listen EADDRINUSE: address already in use 10.0.60.126:7000
+Wed Apr 23 2025 22:2:53 [SERVER-NAME] error: [31m🤢 Failed to start server[39m listen EADDRINUSE: address already in use 10.0.60.126:7000
+Wed Apr 23 2025 22:4:37 [SERVER-NAME] error: [31mUnhandled Rejection at:[39m

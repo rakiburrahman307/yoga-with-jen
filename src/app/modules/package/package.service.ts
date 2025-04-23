@@ -106,6 +106,9 @@ const getPackageDetailsFromDB = async (
     throw new AppError(StatusCodes.BAD_REQUEST, 'Invalid ID');
   }
   const result = await Package.findById(id);
+  if (!result) {
+    throw new AppError(StatusCodes.NOT_FOUND, 'Package not found');
+  }
   return result;
 };
 

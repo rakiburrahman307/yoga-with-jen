@@ -44,7 +44,7 @@ const subscriptionSchema = new Schema<ISubscription, SubscriptionModel>(
         },
         status: {
             type: String,
-            enum: ["expired", "active", "cancel"],
+            enum: ["expired", "active", "cancel","deactivated"],
             default: "active",
             required: true
         },

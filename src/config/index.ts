@@ -5,9 +5,9 @@ dotenv.config({ path: path.join(process.cwd(), '.env') });
 
 export default {
   ip_address: process.env.IP_ADDRESS,
-  reset_pass_ui_link: process.env.RESET_PASS_UI_LINK, 
   reset_pass_expire_time: process.env.RESET_TOKEN_EXPIRE_TIME,
   database_url: process.env.DATABASE_URL,
+  frontend_url: process.env.FRONTEND_URL,
   node_env: process.env.NODE_ENV,
   port: process.env.PORT,
   stripe_secret_key: process.env.STRIPE_SECRET_KYE,
@@ -56,7 +56,7 @@ export default {
   },
   stripe:{
     stripe_secret_key: process.env.STRIPE_SECRET_KYE,
-    paymentSuccess_url: process.env.STRIPE_PAYMENT_SUCCESS_URL,
+    paymentSuccess_url: process.env.FRONTEND_URL,
     stripe_webhook_secret: process.env.STRIPE_WEBHOOK_SECRET,
     stripe_webhook_url: process.env.STRIPE_WEBHOOK_URL,
     stripe_product_id: process.env.STRIPE_PRODUCT_ID,

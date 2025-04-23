@@ -164,7 +164,7 @@ const forgetPasswordByUrlToDB = async (email: string) => {
   );
 
   // Construct password reset URL
-  const resetUrl = `${config.reset_pass_ui_link}/auth/login/set_password?email=${isExistUser.email}&token=${resetToken}`;
+  const resetUrl = `${config.frontend_url}/auth/login/set_password?email=${isExistUser.email}&token=${resetToken}`;
 
   // Prepare email template
   const forgetPasswordEmail = emailTemplate.resetPasswordByUrl({
@@ -452,5 +452,5 @@ export const AuthService = {
   forgetPasswordByUrlToDB,
   resetPasswordByUrl,
   resendOtpFromDb,
-  refreshToken
+  refreshToken,
 };

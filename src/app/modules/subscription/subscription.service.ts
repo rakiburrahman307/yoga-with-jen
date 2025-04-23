@@ -5,11 +5,12 @@ import stripe from '../../../config/stripe';
 import { User } from '../user/user.model';
 import { StatusCodes } from 'http-status-codes';
 import AppError from '../../../errors/AppError';
+import config from '../../../config';
 
 const subscriptionDetailsFromDB = async (
   id: string,
 ): Promise<{ subscription: ISubscription | {} }> => {
-  const subscription = await Subscription.findOne({ user: id })
+  const subscription = await Subscription.findOne({ userId: id })
     .populate('package', 'title credit')
     .lean();
 
@@ -108,12 +109,12 @@ const subscriptionsFromDB = async (
         select: 'title paymentType credit description',
       },
       {
-        path: 'user',
+        path: 'userId',
         select: 'email name linkedIn contact company website ',
       },
     ])
     .select(
-      'user package price trxId currentPeriodStart currentPeriodEnd status',
+      'userId package price trxId currentPeriodStart currentPeriodEnd status',
     )
     .skip(skip)
     .limit(size);
@@ -163,18 +164,85 @@ const createSubscriptionCheckoutSession = async (
       userId: String(userId),
       subscriptionId: String(isExistPackage._id),
     },
-    success_url:
-      'https://yourdomain.com/success?session_id={CHECKOUT_SESSION_ID}',
-    cancel_url: 'https://yourdomain.com/cancel',
+    success_url: `${config.frontend_url}/subscription/success?session_id={CHECKOUT_SESSION_ID}`,
+    cancel_url: `${config.frontend_url}/subscription/cancel`,
   });
   return {
     url: session.url,
     sessionId: session.id,
   };
 };
+
+const upgradeSubscriptionToDB = async (userId: string, packageId: string) => {
+  const activeSubscription = await Subscription.findOne({
+    user: userId,
+    status: 'active',
+  });
+
+  if (!activeSubscription || !activeSubscription.subscriptionId) {
+    throw new AppError(
+      StatusCodes.BAD_REQUEST,
+      'No active subscription found to upgrade',
+    );
+  }
+
+  const packageDoc = await Package.findById(packageId);
+
+  if (!packageDoc || !packageDoc.priceId) {
+    throw new AppError(
+      StatusCodes.NOT_FOUND,
+      'Package not found or missing Stripe Price ID',
+    );
+  }
+
+  const user = await User.findById(userId).select('+stripeCustomerId');
+
+  if (!user || !user.stripeCustomerId) {
+    throw new AppError(
+      StatusCodes.NOT_FOUND,
+      'User or Stripe Customer ID not found',
+    );
+  }
+
+  const stripeSubscription = await stripe.subscriptions.retrieve(
+    activeSubscription.subscriptionId,
+  );
+  console.log(stripeSubscription, 'this is stripe subscription existing');
+
+  await stripe.subscriptions.update(activeSubscription.subscriptionId, {
+    items: [
+      {
+        id: stripeSubscription.items.data[0].id,
+        price: packageDoc.productId,
+      },
+    ],
+    proration_behavior: 'create_prorations',
+    metadata: {
+      userId,
+      packageId: packageDoc._id.toString(),
+    },
+  });
+
+  const portalSession = await stripe.billingPortal.sessions.create({
+    customer: user.stripeCustomerId,
+    return_url: config.frontend_url,
+    flow_data: {
+      type: 'subscription_update',
+      subscription_update: {
+        subscription: activeSubscription.subscriptionId,
+      },
+    },
+  });
+
+  return {
+    url: portalSession.url,
+  };
+};
+
 export const SubscriptionService = {
   subscriptionDetailsFromDB,
   subscriptionsFromDB,
   companySubscriptionDetailsFromDB,
-  createSubscriptionCheckoutSession
+  createSubscriptionCheckoutSession,
+  upgradeSubscriptionToDB,
 };

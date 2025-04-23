@@ -54,10 +54,29 @@ const createCheckoutSession = catchAsync(async (req, res) => {
     },
   });
 });
+const updateSubscription = catchAsync(async (req, res) => {
+  const { id }: any = req.user;
+  const packageId = req.params.id;
+  const result = await SubscriptionService.createSubscriptionCheckoutSession(
+    id,
+    packageId,
+  );
+
+  sendResponse(res, {
+    statusCode: StatusCodes.OK,
+    success: true,
+    message: 'Create checkout session successfully',
+    data: {
+      sessionId: result.sessionId,
+      url: result.url,
+    },
+  });
+});
 
 export const SubscriptionController = {
   subscriptions,
   subscriptionDetails,
   companySubscriptionDetails,
-  createCheckoutSession
+  createCheckoutSession,
+  updateSubscription
 };

@@ -1,3 +1,0 @@
-Tue Apr 22 2025 20:2:26 [SERVER-NAME] error: 10.0.60.126 - PATCH /api/v1/admin/package/managment/680783eb1a2aeb9229354610 403 - 318.573 ms
-Tue Apr 22 2025 20:17:10 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/admin/videos/managment/upload-video 400 - 2242.529 ms
-Tue Apr 22 2025 20:17:47 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/admin/videos/managment/upload-video 400 - 3410.748 ms

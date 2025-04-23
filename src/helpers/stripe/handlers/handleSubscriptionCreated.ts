@@ -9,6 +9,8 @@ import { Subscription } from '../../../app/modules/subscription/subscription.mod
 // const PricingPlan: any = '';
 // const Subscription: any = '';
 
+const formatUnixToDate = (timestamp: number) => new Date(timestamp * 1000);
+
 export const handleSubscriptionCreated = async (data: Stripe.Subscription) => {
   try {
     const subscription = await stripe.subscriptions.retrieve(data.id);
@@ -24,17 +26,36 @@ export const handleSubscriptionCreated = async (data: Stripe.Subscription) => {
 
     // Extract other needed fields from the subscription object
     const remaining = subscription.items.data[0]?.quantity || 0;
-    const currentPeriodStart = new Date(
-      subscription.current_period_start * 1000,
-    ); // Convert Unix timestamp to Date
-    const currentPeriodEnd = new Date(subscription.current_period_end * 1000);
+    // Convert Unix timestamp to Date
+    const currentPeriodStart = formatUnixToDate(
+      subscription.current_period_start,
+    );
+    const currentPeriodEnd = formatUnixToDate(subscription.current_period_end);
     const subscriptionId = subscription.id;
+    // Check if customer email is available
+    if (!customer?.email) {
+      throw new AppError(
+        StatusCodes.BAD_REQUEST,
+        'No email found for the customer!',
+      );
+    }
 
     if (customer?.email) {
       const existingUser = await User.findOne({ email: customer?.email });
-
+      if (!existingUser) {
+        throw new AppError(
+          StatusCodes.NOT_FOUND,
+          `User not found for email: ${customer.email}`,
+        );
+      }
       if (existingUser) {
         const pricingPlan = await Package.findOne({ priceId });
+        if (!pricingPlan) {
+          throw new AppError(
+            StatusCodes.NOT_FOUND,
+            `Pricing plan not found for Price ID: ${priceId}`,
+          );
+        }
 
         if (pricingPlan) {
           // Check if the user already has an active subscription
