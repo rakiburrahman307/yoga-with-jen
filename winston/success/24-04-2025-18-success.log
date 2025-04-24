@@ -1,0 +1,423 @@
+Thu Apr 24 2025 18:0:3 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 24 2025 18:0:3 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu Apr 24 2025 18:0:3 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Thu Apr 24 2025 18:0:3 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu Apr 24 2025 18:0:9 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 24 2025 18:0:9 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu Apr 24 2025 18:0:9 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Thu Apr 24 2025 18:0:9 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu Apr 24 2025 18:0:21 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 24 2025 18:0:21 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu Apr 24 2025 18:0:21 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Thu Apr 24 2025 18:0:21 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu Apr 24 2025 18:0:56 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/subscription/create-update-session/6808e0c61e71aee25d868614 200 - 1596.698 ms
+Thu Apr 24 2025 18:1:10 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.succeeded[22m[49m
+Thu Apr 24 2025 18:1:10 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 4.546 ms
+Thu Apr 24 2025 18:1:11 [SERVER-NAME] warn: [42m[1mUnhandled event type: checkout.session.completed[22m[49m
+Thu Apr 24 2025 18:1:11 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.145 ms
+Thu Apr 24 2025 18:1:11 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_method.attached[22m[49m
+Thu Apr 24 2025 18:1:11 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.907 ms
+Thu Apr 24 2025 18:1:11 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.succeeded[22m[49m
+Thu Apr 24 2025 18:1:11 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.378 ms
+Thu Apr 24 2025 18:1:11 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.created[22m[49m
+Thu Apr 24 2025 18:1:11 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.693 ms
+Thu Apr 24 2025 18:1:11 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.created[22m[49m
+Thu Apr 24 2025 18:1:11 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.885 ms
+Thu Apr 24 2025 18:1:11 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.finalized[22m[49m
+Thu Apr 24 2025 18:1:11 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 4.714 ms
+Thu Apr 24 2025 18:1:11 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.updated[22m[49m
+Thu Apr 24 2025 18:1:11 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.652 ms
+Thu Apr 24 2025 18:1:11 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.paid[22m[49m
+Thu Apr 24 2025 18:1:11 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.950 ms
+Thu Apr 24 2025 18:1:11 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.payment_succeeded[22m[49m
+Thu Apr 24 2025 18:1:11 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.357 ms
+Thu Apr 24 2025 18:1:13 [SERVER-NAME] info: [34munhandledRejection received. Shutting down gracefully...[39m
+Thu Apr 24 2025 18:1:13 [SERVER-NAME] info: [33mClosing HTTP server...[39m
+Thu Apr 24 2025 18:1:14 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2859.694 ms
+Thu Apr 24 2025 18:1:41 [SERVER-NAME] info: [32mHTTP server closed[39m
+Thu Apr 24 2025 18:1:41 [SERVER-NAME] info: [33mClosing Socket.io server...[39m
+Thu Apr 24 2025 18:1:41 [SERVER-NAME] info: [32mSocket.io server closed[39m
+Thu Apr 24 2025 18:1:41 [SERVER-NAME] info: [33mClosing database connection...[39m
+Thu Apr 24 2025 18:1:41 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook - - - ms
+Thu Apr 24 2025 18:1:41 [SERVER-NAME] warn: [33mMongoDB disconnected. Attempting to reconnect...[39m
+Thu Apr 24 2025 18:1:41 [SERVER-NAME] info: [32mDatabase connection closed[39m
+Thu Apr 24 2025 18:1:41 [SERVER-NAME] info: [33mAttempting to restart server in 5 seconds (attempt 1/3)...[39m
+Thu Apr 24 2025 18:1:48 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 24 2025 18:1:48 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu Apr 24 2025 18:1:48 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Thu Apr 24 2025 18:1:48 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu Apr 24 2025 18:1:48 [SERVER-NAME] info: [32mServer successfully restarted after unhandled rejection[39m
+Thu Apr 24 2025 18:2:36 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 24 2025 18:2:38 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu Apr 24 2025 18:2:38 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu Apr 24 2025 18:2:56 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/subscription/create-update-session/6808e0f61e71aee25d868617 200 - 1724.035 ms
+Thu Apr 24 2025 18:3:10 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.succeeded[22m[49m
+Thu Apr 24 2025 18:3:10 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 16.045 ms
+Thu Apr 24 2025 18:3:10 [SERVER-NAME] warn: [42m[1mUnhandled event type: checkout.session.completed[22m[49m
+Thu Apr 24 2025 18:3:10 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.418 ms
+Thu Apr 24 2025 18:3:10 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_method.attached[22m[49m
+Thu Apr 24 2025 18:3:10 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.284 ms
+Thu Apr 24 2025 18:3:10 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.succeeded[22m[49m
+Thu Apr 24 2025 18:3:10 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.696 ms
+Thu Apr 24 2025 18:3:10 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.created[22m[49m
+Thu Apr 24 2025 18:3:10 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.514 ms
+Thu Apr 24 2025 18:3:10 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.created[22m[49m
+Thu Apr 24 2025 18:3:10 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.681 ms
+Thu Apr 24 2025 18:3:10 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.finalized[22m[49m
+Thu Apr 24 2025 18:3:10 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.251 ms
+Thu Apr 24 2025 18:3:10 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.updated[22m[49m
+Thu Apr 24 2025 18:3:10 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.750 ms
+Thu Apr 24 2025 18:3:10 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.paid[22m[49m
+Thu Apr 24 2025 18:3:10 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.606 ms
+Thu Apr 24 2025 18:3:10 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.payment_succeeded[22m[49m
+Thu Apr 24 2025 18:3:10 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.670 ms
+Thu Apr 24 2025 18:3:13 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2811.412 ms
+Thu Apr 24 2025 18:4:32 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 24 2025 18:4:32 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Thu Apr 24 2025 18:4:32 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu Apr 24 2025 18:4:32 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu Apr 24 2025 18:4:44 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/subscription/create-update-session/6808e0c61e71aee25d868614 200 - 1621.515 ms
+Thu Apr 24 2025 18:4:59 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.succeeded[22m[49m
+Thu Apr 24 2025 18:4:59 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 5.542 ms
+Thu Apr 24 2025 18:4:59 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_method.attached[22m[49m
+Thu Apr 24 2025 18:4:59 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.786 ms
+Thu Apr 24 2025 18:4:59 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.succeeded[22m[49m
+Thu Apr 24 2025 18:4:59 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 4.044 ms
+Thu Apr 24 2025 18:4:59 [SERVER-NAME] warn: [42m[1mUnhandled event type: checkout.session.completed[22m[49m
+Thu Apr 24 2025 18:4:59 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.878 ms
+Thu Apr 24 2025 18:4:59 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.created[22m[49m
+Thu Apr 24 2025 18:4:59 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.883 ms
+Thu Apr 24 2025 18:4:59 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.created[22m[49m
+Thu Apr 24 2025 18:4:59 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.875 ms
+Thu Apr 24 2025 18:4:59 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.finalized[22m[49m
+Thu Apr 24 2025 18:4:59 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.980 ms
+Thu Apr 24 2025 18:4:59 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.updated[22m[49m
+Thu Apr 24 2025 18:4:59 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.776 ms
+Thu Apr 24 2025 18:4:59 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.paid[22m[49m
+Thu Apr 24 2025 18:4:59 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.630 ms
+Thu Apr 24 2025 18:5:0 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.payment_succeeded[22m[49m
+Thu Apr 24 2025 18:5:0 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 5.060 ms
+Thu Apr 24 2025 18:5:1 [SERVER-NAME] info: [34munhandledRejection received. Shutting down gracefully...[39m
+Thu Apr 24 2025 18:5:1 [SERVER-NAME] info: [32mSocket.io server closed[39m
+Thu Apr 24 2025 18:5:2 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2878.748 ms
+Thu Apr 24 2025 18:5:29 [SERVER-NAME] info: [32mHTTP server closed[39m
+Thu Apr 24 2025 18:5:41 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 24 2025 18:5:44 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu Apr 24 2025 18:5:44 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu Apr 24 2025 18:6:18 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 24 2025 18:6:20 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu Apr 24 2025 18:6:20 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu Apr 24 2025 18:8:22 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 24 2025 18:8:29 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 24 2025 18:8:32 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu Apr 24 2025 18:8:32 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu Apr 24 2025 18:12:46 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 24 2025 18:12:46 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu Apr 24 2025 18:12:46 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu Apr 24 2025 18:16:52 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Apr 24 2025 18:16:55 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 24 2025 18:16:55 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu Apr 24 2025 18:16:55 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu Apr 24 2025 18:17:11 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/subscription/create-update-session/6808e0f61e71aee25d868617 200 - 1663.749 ms
+Thu Apr 24 2025 18:17:25 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.succeeded[22m[49m
+Thu Apr 24 2025 18:17:25 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 5.557 ms
+Thu Apr 24 2025 18:17:25 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_method.attached[22m[49m
+Thu Apr 24 2025 18:17:25 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.968 ms
+Thu Apr 24 2025 18:17:25 [SERVER-NAME] warn: [42m[1mUnhandled event type: checkout.session.completed[22m[49m
+Thu Apr 24 2025 18:17:25 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.093 ms
+Thu Apr 24 2025 18:17:25 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.succeeded[22m[49m
+Thu Apr 24 2025 18:17:25 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.852 ms
+Thu Apr 24 2025 18:17:25 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.created[22m[49m
+Thu Apr 24 2025 18:17:25 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.620 ms
+Thu Apr 24 2025 18:17:26 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.created[22m[49m
+Thu Apr 24 2025 18:17:26 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.707 ms
+Thu Apr 24 2025 18:17:26 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.finalized[22m[49m
+Thu Apr 24 2025 18:17:26 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.901 ms
+Thu Apr 24 2025 18:17:26 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.updated[22m[49m
+Thu Apr 24 2025 18:17:26 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.102 ms
+Thu Apr 24 2025 18:17:26 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.paid[22m[49m
+Thu Apr 24 2025 18:17:26 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.742 ms
+Thu Apr 24 2025 18:17:26 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.payment_succeeded[22m[49m
+Thu Apr 24 2025 18:17:26 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.657 ms
+Thu Apr 24 2025 18:17:27 [SERVER-NAME] error: [31mUnhandled Rejection at:[39m
+Thu Apr 24 2025 18:19:35 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Apr 24 2025 18:19:37 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 24 2025 18:19:37 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu Apr 24 2025 18:19:37 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu Apr 24 2025 18:19:39 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Apr 24 2025 18:19:42 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 24 2025 18:19:42 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu Apr 24 2025 18:19:42 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu Apr 24 2025 18:19:51 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/subscription/create-update-session/6808e0c61e71aee25d868614 200 - 1626.068 ms
+Thu Apr 24 2025 18:20:5 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.succeeded[22m[49m
+Thu Apr 24 2025 18:20:5 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.923 ms
+Thu Apr 24 2025 18:20:5 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_method.attached[22m[49m
+Thu Apr 24 2025 18:20:5 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.097 ms
+Thu Apr 24 2025 18:20:6 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.succeeded[22m[49m
+Thu Apr 24 2025 18:20:6 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.365 ms
+Thu Apr 24 2025 18:20:6 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.created[22m[49m
+Thu Apr 24 2025 18:20:6 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.038 ms
+Thu Apr 24 2025 18:20:6 [SERVER-NAME] warn: [42m[1mUnhandled event type: checkout.session.completed[22m[49m
+Thu Apr 24 2025 18:20:6 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.854 ms
+Thu Apr 24 2025 18:20:6 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.created[22m[49m
+Thu Apr 24 2025 18:20:6 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.115 ms
+Thu Apr 24 2025 18:20:6 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.finalized[22m[49m
+Thu Apr 24 2025 18:20:6 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.241 ms
+Thu Apr 24 2025 18:20:6 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.updated[22m[49m
+Thu Apr 24 2025 18:20:6 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.004 ms
+Thu Apr 24 2025 18:20:6 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.paid[22m[49m
+Thu Apr 24 2025 18:20:6 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.935 ms
+Thu Apr 24 2025 18:20:6 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.payment_succeeded[22m[49m
+Thu Apr 24 2025 18:20:6 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.872 ms
+Thu Apr 24 2025 18:20:7 [SERVER-NAME] error: [31mUnhandled Rejection at:[39m Error handling event: Error: Error in handleSubscriptionCreated
+Thu Apr 24 2025 18:37:22 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Apr 24 2025 18:37:25 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 24 2025 18:37:25 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu Apr 24 2025 18:37:25 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu Apr 24 2025 18:37:26 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Apr 24 2025 18:37:29 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Apr 24 2025 18:37:32 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Apr 24 2025 18:37:35 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 24 2025 18:37:35 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu Apr 24 2025 18:37:35 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu Apr 24 2025 18:37:38 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Apr 24 2025 18:37:41 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Apr 24 2025 18:37:43 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 24 2025 18:37:43 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu Apr 24 2025 18:37:43 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu Apr 24 2025 18:38:5 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/subscription/create-update-session/6808e0f61e71aee25d868617 200 - 1678.867 ms
+Thu Apr 24 2025 18:38:21 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.succeeded[22m[49m
+Thu Apr 24 2025 18:38:21 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 10.573 ms
+Thu Apr 24 2025 18:38:21 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_method.attached[22m[49m
+Thu Apr 24 2025 18:38:21 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.932 ms
+Thu Apr 24 2025 18:38:21 [SERVER-NAME] warn: [42m[1mUnhandled event type: checkout.session.completed[22m[49m
+Thu Apr 24 2025 18:38:21 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.734 ms
+Thu Apr 24 2025 18:38:21 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.succeeded[22m[49m
+Thu Apr 24 2025 18:38:21 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 16.755 ms
+Thu Apr 24 2025 18:38:21 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.created[22m[49m
+Thu Apr 24 2025 18:38:21 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 11.897 ms
+Thu Apr 24 2025 18:38:21 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.created[22m[49m
+Thu Apr 24 2025 18:38:21 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 9.746 ms
+Thu Apr 24 2025 18:38:21 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.finalized[22m[49m
+Thu Apr 24 2025 18:38:21 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.900 ms
+Thu Apr 24 2025 18:38:21 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.updated[22m[49m
+Thu Apr 24 2025 18:38:21 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 3.970 ms
+Thu Apr 24 2025 18:38:21 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.paid[22m[49m
+Thu Apr 24 2025 18:38:21 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.192 ms
+Thu Apr 24 2025 18:38:22 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.payment_succeeded[22m[49m
+Thu Apr 24 2025 18:38:22 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.822 ms
+Thu Apr 24 2025 18:38:23 [SERVER-NAME] error: [31mUnhandled Rejection at:[39m
+Thu Apr 24 2025 18:38:23 [SERVER-NAME] error: [31mUncaught Exception:[39m reason.includes is not a function
+Thu Apr 24 2025 18:38:24 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2804.021 ms
+Thu Apr 24 2025 18:38:51 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook - - - ms
+Thu Apr 24 2025 18:39:11 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/subscription/create-update-session/6808e0c61e71aee25d868614 200 - 1416.066 ms
+Thu Apr 24 2025 18:39:33 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.succeeded[22m[49m
+Thu Apr 24 2025 18:39:33 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.455 ms
+Thu Apr 24 2025 18:39:33 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_method.attached[22m[49m
+Thu Apr 24 2025 18:39:33 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.365 ms
+Thu Apr 24 2025 18:39:33 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.succeeded[22m[49m
+Thu Apr 24 2025 18:39:33 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.616 ms
+Thu Apr 24 2025 18:39:33 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.created[22m[49m
+Thu Apr 24 2025 18:39:33 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.798 ms
+Thu Apr 24 2025 18:39:33 [SERVER-NAME] warn: [42m[1mUnhandled event type: checkout.session.completed[22m[49m
+Thu Apr 24 2025 18:39:33 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.052 ms
+Thu Apr 24 2025 18:39:33 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.created[22m[49m
+Thu Apr 24 2025 18:39:33 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.450 ms
+Thu Apr 24 2025 18:39:34 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.finalized[22m[49m
+Thu Apr 24 2025 18:39:34 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.939 ms
+Thu Apr 24 2025 18:39:34 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.updated[22m[49m
+Thu Apr 24 2025 18:39:34 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.910 ms
+Thu Apr 24 2025 18:39:34 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.paid[22m[49m
+Thu Apr 24 2025 18:39:34 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.958 ms
+Thu Apr 24 2025 18:39:34 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.payment_succeeded[22m[49m
+Thu Apr 24 2025 18:39:34 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.036 ms
+Thu Apr 24 2025 18:39:35 [SERVER-NAME] error: [31mUnhandled Rejection at:[39m
+Thu Apr 24 2025 18:39:35 [SERVER-NAME] error: [31mUncaught Exception:[39m reason.includes is not a function
+Thu Apr 24 2025 18:39:36 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2651.952 ms
+Thu Apr 24 2025 18:40:3 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook - - - ms
+Thu Apr 24 2025 18:41:33 [SERVER-NAME] info: [34mSIGINT received. Shutting down gracefully...[39m
+Thu Apr 24 2025 18:41:36 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Apr 24 2025 18:41:39 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 24 2025 18:41:39 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu Apr 24 2025 18:41:39 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu Apr 24 2025 18:42:24 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/subscription/create-update-session/6808e0c61e71aee25d868614 200 - 1608.591 ms
+Thu Apr 24 2025 18:42:33 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/subscription/create-update-session/6808e0f61e71aee25d868617 200 - 1402.234 ms
+Thu Apr 24 2025 18:42:48 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.succeeded[22m[49m
+Thu Apr 24 2025 18:42:48 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 4.018 ms
+Thu Apr 24 2025 18:42:48 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_method.attached[22m[49m
+Thu Apr 24 2025 18:42:48 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.023 ms
+Thu Apr 24 2025 18:42:48 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.succeeded[22m[49m
+Thu Apr 24 2025 18:42:48 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.853 ms
+Thu Apr 24 2025 18:42:48 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.created[22m[49m
+Thu Apr 24 2025 18:42:48 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.977 ms
+Thu Apr 24 2025 18:42:48 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.created[22m[49m
+Thu Apr 24 2025 18:42:48 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.248 ms
+Thu Apr 24 2025 18:42:48 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.finalized[22m[49m
+Thu Apr 24 2025 18:42:48 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.357 ms
+Thu Apr 24 2025 18:42:48 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.updated[22m[49m
+Thu Apr 24 2025 18:42:48 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 8.577 ms
+Thu Apr 24 2025 18:42:49 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.paid[22m[49m
+Thu Apr 24 2025 18:42:49 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.033 ms
+Thu Apr 24 2025 18:42:49 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.payment_succeeded[22m[49m
+Thu Apr 24 2025 18:42:49 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.398 ms
+Thu Apr 24 2025 18:42:50 [SERVER-NAME] error: [31mUnhandled Rejection at:[39m
+Thu Apr 24 2025 18:42:50 [SERVER-NAME] warn: [42m[1mUnhandled event type: checkout.session.completed[22m[49m
+Thu Apr 24 2025 18:42:50 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.106 ms
+Thu Apr 24 2025 18:42:51 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2821.925 ms
+Thu Apr 24 2025 18:43:18 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook - - - ms
+Thu Apr 24 2025 18:46:15 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Apr 24 2025 18:46:16 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Apr 24 2025 18:46:19 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 24 2025 18:46:19 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu Apr 24 2025 18:46:19 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu Apr 24 2025 18:46:29 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Apr 24 2025 18:46:31 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Apr 24 2025 18:46:34 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 24 2025 18:46:34 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu Apr 24 2025 18:46:34 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu Apr 24 2025 18:46:48 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Apr 24 2025 18:46:51 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 24 2025 18:46:51 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu Apr 24 2025 18:46:51 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu Apr 24 2025 18:46:57 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Apr 24 2025 18:47:0 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 24 2025 18:47:0 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu Apr 24 2025 18:47:0 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu Apr 24 2025 18:47:5 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/subscription/create-update-session/6808e0c61e71aee25d868614 200 - 1613.760 ms
+Thu Apr 24 2025 18:47:20 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.succeeded[22m[49m
+Thu Apr 24 2025 18:47:20 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 3.275 ms
+Thu Apr 24 2025 18:47:20 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_method.attached[22m[49m
+Thu Apr 24 2025 18:47:20 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.193 ms
+Thu Apr 24 2025 18:47:20 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.succeeded[22m[49m
+Thu Apr 24 2025 18:47:20 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.015 ms
+Thu Apr 24 2025 18:47:20 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.created[22m[49m
+Thu Apr 24 2025 18:47:20 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.959 ms
+Thu Apr 24 2025 18:47:20 [SERVER-NAME] warn: [42m[1mUnhandled event type: checkout.session.completed[22m[49m
+Thu Apr 24 2025 18:47:20 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.274 ms
+Thu Apr 24 2025 18:47:20 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.created[22m[49m
+Thu Apr 24 2025 18:47:20 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.237 ms
+Thu Apr 24 2025 18:47:20 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.finalized[22m[49m
+Thu Apr 24 2025 18:47:20 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.622 ms
+Thu Apr 24 2025 18:47:20 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.updated[22m[49m
+Thu Apr 24 2025 18:47:20 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.122 ms
+Thu Apr 24 2025 18:47:20 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.paid[22m[49m
+Thu Apr 24 2025 18:47:20 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.369 ms
+Thu Apr 24 2025 18:47:21 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.payment_succeeded[22m[49m
+Thu Apr 24 2025 18:47:21 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.943 ms
+Thu Apr 24 2025 18:47:22 [SERVER-NAME] error: [31mUnhandled Rejection at:[39m
+Thu Apr 24 2025 18:47:23 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2774.458 ms
+Thu Apr 24 2025 18:47:50 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook - - - ms
+Thu Apr 24 2025 18:48:9 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Apr 24 2025 18:48:11 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Apr 24 2025 18:48:15 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Apr 24 2025 18:48:17 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 24 2025 18:48:17 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu Apr 24 2025 18:48:17 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu Apr 24 2025 18:48:23 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Apr 24 2025 18:48:26 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 24 2025 18:48:26 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu Apr 24 2025 18:48:26 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu Apr 24 2025 18:48:31 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Apr 24 2025 18:48:34 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 24 2025 18:48:34 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu Apr 24 2025 18:48:34 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu Apr 24 2025 18:48:42 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Apr 24 2025 18:48:45 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 24 2025 18:48:45 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu Apr 24 2025 18:48:45 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu Apr 24 2025 18:49:45 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Apr 24 2025 18:49:48 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 24 2025 18:49:48 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu Apr 24 2025 18:49:48 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu Apr 24 2025 18:49:53 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Apr 24 2025 18:49:56 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 24 2025 18:49:56 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu Apr 24 2025 18:49:56 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu Apr 24 2025 18:50:54 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Apr 24 2025 18:50:57 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 24 2025 18:50:57 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu Apr 24 2025 18:50:57 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu Apr 24 2025 18:51:0 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Apr 24 2025 18:51:3 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 24 2025 18:51:3 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu Apr 24 2025 18:51:3 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu Apr 24 2025 18:51:18 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/subscription/create-update-session/6808e0f61e71aee25d868617 200 - 1559.625 ms
+Thu Apr 24 2025 18:51:31 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.succeeded[22m[49m
+Thu Apr 24 2025 18:51:31 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 5.106 ms
+Thu Apr 24 2025 18:51:31 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_method.attached[22m[49m
+Thu Apr 24 2025 18:51:31 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.466 ms
+Thu Apr 24 2025 18:51:32 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.succeeded[22m[49m
+Thu Apr 24 2025 18:51:32 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.527 ms
+Thu Apr 24 2025 18:51:32 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.created[22m[49m
+Thu Apr 24 2025 18:51:32 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.353 ms
+Thu Apr 24 2025 18:51:32 [SERVER-NAME] warn: [42m[1mUnhandled event type: checkout.session.completed[22m[49m
+Thu Apr 24 2025 18:51:32 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.789 ms
+Thu Apr 24 2025 18:51:32 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.created[22m[49m
+Thu Apr 24 2025 18:51:32 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.251 ms
+Thu Apr 24 2025 18:51:32 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.finalized[22m[49m
+Thu Apr 24 2025 18:51:32 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.726 ms
+Thu Apr 24 2025 18:51:32 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.updated[22m[49m
+Thu Apr 24 2025 18:51:32 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.920 ms
+Thu Apr 24 2025 18:51:32 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.paid[22m[49m
+Thu Apr 24 2025 18:51:32 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.344 ms
+Thu Apr 24 2025 18:51:32 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.payment_succeeded[22m[49m
+Thu Apr 24 2025 18:51:32 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.774 ms
+Thu Apr 24 2025 18:51:35 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2759.513 ms
+Thu Apr 24 2025 18:52:1 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook - - - ms
+Thu Apr 24 2025 18:53:16 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Apr 24 2025 18:53:19 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 24 2025 18:53:19 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu Apr 24 2025 18:53:19 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu Apr 24 2025 18:53:25 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Apr 24 2025 18:53:28 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 24 2025 18:53:28 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu Apr 24 2025 18:53:28 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu Apr 24 2025 18:53:37 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/subscription/create-update-session/6808e0c61e71aee25d868614 200 - 1672.612 ms
+Thu Apr 24 2025 18:53:51 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.succeeded[22m[49m
+Thu Apr 24 2025 18:53:51 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 3.691 ms
+Thu Apr 24 2025 18:53:51 [SERVER-NAME] warn: [42m[1mUnhandled event type: checkout.session.completed[22m[49m
+Thu Apr 24 2025 18:53:51 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.424 ms
+Thu Apr 24 2025 18:53:51 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_method.attached[22m[49m
+Thu Apr 24 2025 18:53:51 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.395 ms
+Thu Apr 24 2025 18:53:51 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.succeeded[22m[49m
+Thu Apr 24 2025 18:53:51 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.296 ms
+Thu Apr 24 2025 18:53:51 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.created[22m[49m
+Thu Apr 24 2025 18:53:51 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.546 ms
+Thu Apr 24 2025 18:53:51 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.created[22m[49m
+Thu Apr 24 2025 18:53:51 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.739 ms
+Thu Apr 24 2025 18:53:51 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.finalized[22m[49m
+Thu Apr 24 2025 18:53:51 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.621 ms
+Thu Apr 24 2025 18:53:51 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.updated[22m[49m
+Thu Apr 24 2025 18:53:51 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.025 ms
+Thu Apr 24 2025 18:53:51 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.paid[22m[49m
+Thu Apr 24 2025 18:53:51 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.565 ms
+Thu Apr 24 2025 18:53:52 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.payment_succeeded[22m[49m
+Thu Apr 24 2025 18:53:52 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.745 ms
+Thu Apr 24 2025 18:53:54 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2765.616 ms
+Thu Apr 24 2025 18:54:10 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Apr 24 2025 18:54:12 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Apr 24 2025 18:54:12 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu Apr 24 2025 18:54:12 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu Apr 24 2025 18:57:40 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/subscription/create-update-session/6808e0f61e71aee25d868617 200 - 1548.185 ms
+Thu Apr 24 2025 18:57:54 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.succeeded[22m[49m
+Thu Apr 24 2025 18:57:54 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 3.674 ms
+Thu Apr 24 2025 18:57:54 [SERVER-NAME] warn: [42m[1mUnhandled event type: checkout.session.completed[22m[49m
+Thu Apr 24 2025 18:57:54 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.604 ms
+Thu Apr 24 2025 18:57:54 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_method.attached[22m[49m
+Thu Apr 24 2025 18:57:54 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.168 ms
+Thu Apr 24 2025 18:57:54 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.succeeded[22m[49m
+Thu Apr 24 2025 18:57:54 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.959 ms
+Thu Apr 24 2025 18:57:55 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.created[22m[49m
+Thu Apr 24 2025 18:57:55 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 3.839 ms
+Thu Apr 24 2025 18:57:55 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.created[22m[49m
+Thu Apr 24 2025 18:57:55 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.571 ms
+Thu Apr 24 2025 18:57:55 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.finalized[22m[49m
+Thu Apr 24 2025 18:57:55 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.516 ms
+Thu Apr 24 2025 18:57:55 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.updated[22m[49m
+Thu Apr 24 2025 18:57:55 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.128 ms
+Thu Apr 24 2025 18:57:55 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.paid[22m[49m
+Thu Apr 24 2025 18:57:55 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.874 ms
+Thu Apr 24 2025 18:57:55 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.payment_succeeded[22m[49m
+Thu Apr 24 2025 18:57:55 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.274 ms
+Thu Apr 24 2025 18:57:57 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2789.069 ms
+Thu Apr 24 2025 18:58:24 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook - - - ms

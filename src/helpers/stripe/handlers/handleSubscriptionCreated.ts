@@ -5,9 +5,7 @@ import AppError from '../../../errors/AppError';
 import { Package } from '../../../app/modules/package/package.model';
 import { User } from '../../../app/modules/user/user.model';
 import { Subscription } from '../../../app/modules/subscription/subscription.model';
-// const User: any = '';
-// const PricingPlan: any = '';
-// const Subscription: any = '';
+
 
 const formatUnixToDate = (timestamp: number) => new Date(timestamp * 1000);
 

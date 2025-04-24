@@ -16,16 +16,20 @@ router.get(
   SubscriptionController.subscriptionDetails,
 );
 
-router.get(
-  '/:id',
-  auth(USER_ROLES.USER),
-  SubscriptionController.companySubscriptionDetails,
-);
 router.post(
   '/create-checkout-session/:id',
   auth(USER_ROLES.USER),
   SubscriptionController.createCheckoutSession,
 );
-
+router.post(
+  '/update/:id',
+  auth(USER_ROLES.USER),
+  SubscriptionController.updateSubscription,
+);
+router.delete(
+  '/cancel/:id',
+  auth(USER_ROLES.USER),
+  SubscriptionController.updateSubscription,
+);
 
 export const SubscriptionRoutes = router;

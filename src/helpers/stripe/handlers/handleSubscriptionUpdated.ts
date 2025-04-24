@@ -45,7 +45,6 @@ export const handleSubscriptionUpdated = async (data: Stripe.Subscription) => {
           `User not found for email: ${customer?.email}`,
         );
       }
-
       // Find the pricing plan by priceId
       const pricingPlan = await Package.findOne({ priceId });
       if (!pricingPlan) {
@@ -63,11 +62,12 @@ export const handleSubscriptionUpdated = async (data: Stripe.Subscription) => {
 
       if (currentActiveSubscription) {
         if (
-          String((currentActiveSubscription.package as any).priceId) !== priceId
+          String((currentActiveSubscription?.package as any)?.priceId) !==
+          priceId
         ) {
           // Deactivate the old subscription
           await Subscription.findByIdAndUpdate(
-            currentActiveSubscription._id,
+            currentActiveSubscription?._id,
             {
               status: 'deactivated',
               remaining: 0,
@@ -78,34 +78,6 @@ export const handleSubscriptionUpdated = async (data: Stripe.Subscription) => {
           );
 
           // Create a new subscription
-          const newSubscription = new Subscription({
-            userId: existingUser._id,
-            customerId: customer.id,
-            package: pricingPlan._id,
-            price: amountPaid,
-            trxId,
-            subscriptionId,
-            currentPeriodStart,
-            currentPeriodEnd,
-            remaining,
-            status: 'active',
-          });
-
-          await newSubscription.save();
-        }
-      } else {
-        const deactivatedSubscription = await Subscription.findOne({
-          userId: existingUser._id,
-          status: 'deactivated',
-        });
-
-        if (deactivatedSubscription) {
-          await Subscription.findByIdAndUpdate(
-            deactivatedSubscription._id,
-            { status: 'active' },
-            { new: true },
-          );
-        } else {
           const newSubscription = new Subscription({
             userId: existingUser._id,
             customerId: customer.id,

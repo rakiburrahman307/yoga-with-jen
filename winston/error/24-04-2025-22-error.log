@@ -1,0 +1,5 @@
+Thu Apr 24 2025 22:30:14 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/admin/subscription 403 - 365.603 ms
+Thu Apr 24 2025 22:33:58 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/admin/subscription/ 403 - 366.071 ms
+Thu Apr 24 2025 22:36:9 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/subscription 403 - 350.457 ms
+Thu Apr 24 2025 22:36:38 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/subscription 403 - 343.214 ms
+Thu Apr 24 2025 22:36:51 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/subscription 403 - 306.664 ms

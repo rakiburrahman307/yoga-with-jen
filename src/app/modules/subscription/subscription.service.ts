@@ -40,7 +40,7 @@ const subscriptionDetailsFromDB = async (
 const companySubscriptionDetailsFromDB = async (
   id: string,
 ): Promise<{ subscription: ISubscription | {} }> => {
-  const subscription = await Subscription.findOne({ user: id })
+  const subscription = await Subscription.findOne({ userId: id })
     .populate('package', 'title credit')
     .lean();
   if (!subscription) {
@@ -175,7 +175,7 @@ const createSubscriptionCheckoutSession = async (
 
 const upgradeSubscriptionToDB = async (userId: string, packageId: string) => {
   const activeSubscription = await Subscription.findOne({
-    user: userId,
+    userId,
     status: 'active',
   });
 
@@ -213,7 +213,7 @@ const upgradeSubscriptionToDB = async (userId: string, packageId: string) => {
     items: [
       {
         id: stripeSubscription.items.data[0].id,
-        price: packageDoc.productId,
+        price: packageDoc.priceId,
       },
     ],
     proration_behavior: 'create_prorations',
@@ -222,7 +222,7 @@ const upgradeSubscriptionToDB = async (userId: string, packageId: string) => {
       packageId: packageDoc._id.toString(),
     },
   });
-
+  console.log(' thsi is stripe subscription updated');
   const portalSession = await stripe.billingPortal.sessions.create({
     customer: user.stripeCustomerId,
     return_url: config.frontend_url,
@@ -238,11 +238,30 @@ const upgradeSubscriptionToDB = async (userId: string, packageId: string) => {
     url: portalSession.url,
   };
 };
+const cancelSubscriptionToDB = async (userId: string) => {
+  const activeSubscription = await Subscription.findOne({
+    user: userId,
+    status: 'active',
+  });
+  if (!activeSubscription || !activeSubscription.subscriptionId) {
+    throw new Error('No active subscription found to cancel');
+  }
 
+  await stripe.subscriptions.cancel(activeSubscription.subscriptionId);
+
+  await Subscription.findOneAndUpdate(
+    { user: userId, status: 'active' },
+    { status: 'canceled' },
+    { new: true },
+  );
+
+  return { success: true, message: 'Subscription canceled successfully' };
+};
 export const SubscriptionService = {
   subscriptionDetailsFromDB,
   subscriptionsFromDB,
   companySubscriptionDetailsFromDB,
   createSubscriptionCheckoutSession,
   upgradeSubscriptionToDB,
+  cancelSubscriptionToDB,
 };

@@ -24,18 +24,18 @@ const subscriptionDetails = catchAsync(async (req, res) => {
   });
 });
 
-const companySubscriptionDetails = catchAsync(async (req, res) => {
-  const result = await SubscriptionService.companySubscriptionDetailsFromDB(
-    req.params.id,
-  );
+const cancelSubscription = catchAsync(async (req, res) => {
+  const { id }: any = req.user;
+  const result = await SubscriptionService.cancelSubscriptionToDB(id);
 
   sendResponse(res, {
     statusCode: StatusCodes.OK,
     success: true,
-    message: 'Company Subscription Details Retrieved Successfully',
-    data: result.subscription,
+    message: 'Cancel Subscription Successfully',
+    data: result,
   });
 });
+// create checkout session
 const createCheckoutSession = catchAsync(async (req, res) => {
   const { id }: any = req.user;
   const packageId = req.params.id;
@@ -54,10 +54,11 @@ const createCheckoutSession = catchAsync(async (req, res) => {
     },
   });
 });
+// update subscriptions
 const updateSubscription = catchAsync(async (req, res) => {
   const { id }: any = req.user;
   const packageId = req.params.id;
-  const result = await SubscriptionService.createSubscriptionCheckoutSession(
+  const result = await SubscriptionService.upgradeSubscriptionToDB(
     id,
     packageId,
   );
@@ -65,9 +66,8 @@ const updateSubscription = catchAsync(async (req, res) => {
   sendResponse(res, {
     statusCode: StatusCodes.OK,
     success: true,
-    message: 'Create checkout session successfully',
+    message: 'Update checkout session successfully',
     data: {
-      sessionId: result.sessionId,
       url: result.url,
     },
   });
@@ -76,7 +76,7 @@ const updateSubscription = catchAsync(async (req, res) => {
 export const SubscriptionController = {
   subscriptions,
   subscriptionDetails,
-  companySubscriptionDetails,
   createCheckoutSession,
-  updateSubscription
+  updateSubscription,
+  cancelSubscription
 };

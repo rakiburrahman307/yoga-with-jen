@@ -13,6 +13,7 @@ export default {
   stripe_secret_key: process.env.STRIPE_SECRET_KYE,
   bcrypt_salt_rounds: process.env.BCRYPT_SALT_ROUNDS,
   socket_port: process.env.SOCKET_PORT,
+  allowed_origins: process.env.ALLOWED_ORIGINS,
   jwt: {
     jwt_secret: process.env.JWT_SECRET,
     jwt_expire_in: process.env.JWT_EXPIRE_IN,
