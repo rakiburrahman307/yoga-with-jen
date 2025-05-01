@@ -21,7 +21,7 @@ export const handleSubscriptionDeleted = async (data: Stripe.Subscription) => {
     // Deactivate the subscription
     await Subscription.findByIdAndUpdate(
       userSubscription._id,
-      { status: 'deactivated' },
+      { status: 'cancel' },
       { new: true },
     );
 

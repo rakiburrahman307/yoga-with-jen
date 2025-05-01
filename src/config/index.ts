@@ -26,7 +26,7 @@ export default {
     credentials: {
       accessKeyId: process.env.AWS_ACCESS_KEY_ID!,
       secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY!,
-    }
+    },
   },
   bunnyCDN: {
     apiKey: process.env.BUNNY_CDN_API_KEY,
@@ -53,15 +53,14 @@ export default {
   twilio: {
     accountSid: process.env.TWILIO_ACCOUNT_SID || '',
     authToken: process.env.TWILIO_AUTH_TOKEN || '',
-    phoneNumber: process.env.TWILIO_PHONE_NUMBER || ''
+    phoneNumber: process.env.TWILIO_PHONE_NUMBER || '',
   },
-  stripe:{
+  stripe: {
     stripe_secret_key: process.env.STRIPE_SECRET_KYE,
     paymentSuccess_url: process.env.FRONTEND_URL,
     stripe_webhook_secret: process.env.STRIPE_WEBHOOK_SECRET,
     stripe_webhook_url: process.env.STRIPE_WEBHOOK_URL,
     stripe_product_id: process.env.STRIPE_PRODUCT_ID,
-
   },
   super_admin: {
     email: process.env.SUPER_ADMIN_EMAIL,

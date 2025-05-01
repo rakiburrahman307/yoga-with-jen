@@ -12,6 +12,7 @@ import { videoManagementRoute } from '../app/modules/admin/videosManagement/vide
 import { PackageRoutes } from '../app/modules/package/package.routes';
 import { SubscriptionRuleRoute } from '../app/modules/admin/subscriptionRule/subscriptionRule.route';
 import { SubscriptionRoutes } from '../app/modules/subscription/subscription.routes';
+import { ComingSoonRoutes } from '../app/modules/admin/comeingSoon/comeingSoon.router';
 
 const router = express.Router();
 const routes = [
@@ -82,6 +83,14 @@ const routes = [
   {
     path: '/subscription',
     route: SubscriptionRoutes,
+  },
+  {
+    path: '/admin/comingSoon',
+    route: ComingSoonRoutes,
+  },
+  {
+    path: '/comingSoon',
+    route: ComingSoonRoutes,
   },
 ];
 

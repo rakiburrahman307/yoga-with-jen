@@ -1,7 +1,6 @@
 import { Schema, model } from 'mongoose';
 import { ISettings } from './sattings.interface';
 
-
 const settingsSchema = new Schema<ISettings>(
   {
     privacyPolicy: {

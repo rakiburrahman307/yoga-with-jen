@@ -11,6 +11,7 @@ export type IUser = {
   subscriptionTitle: string;
   trialExpireAt: Date;
   subscription: Schema.Types.ObjectId;
+  packageName: string;
   isFreeTrial: boolean;
   isDeleted: boolean;
   isSubscribed: boolean;

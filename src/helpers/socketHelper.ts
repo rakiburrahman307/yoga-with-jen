@@ -3,7 +3,7 @@ import { Server } from 'socket.io';
 import { logger } from '../shared/logger';
 
 const socket = (io: Server) => {
-  io.on('connection', socket => {
+  io.on('connection', (socket) => {
     logger.info(colors.blue('A user connected'));
 
     //disconnect

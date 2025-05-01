@@ -3,13 +3,14 @@ import colors from 'colors';
 import { errorLogger, logger } from '../shared/logger';
 import { startServer } from '../server';
 import cluster from 'cluster';
+import config from '../config';
 
 const CONFIG = {
   WORKER_RESTART_DELAY: 5000,
   MAX_RESTART_ATTEMPTS: 5,
   MAX_BACKOFF_DELAY: 60000,
   WORKER_COUNT:
-    process.env.NODE_ENV === 'production'
+    config.node_env === 'production'
       ? os.cpus().length
       : Math.max(2, Math.min(4, os.cpus().length)),
 };

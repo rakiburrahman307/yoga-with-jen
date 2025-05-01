@@ -13,18 +13,18 @@ const messageSchema = new Schema<IMessage, MessageModel>(
       required: true,
       ref: 'User',
     },
-    text: { 
+    text: {
       type: String,
-      required: false 
+      required: false,
     },
-    image: { 
+    image: {
       type: String,
-      required: false 
+      required: false,
     },
   },
   {
     timestamps: true,
-  }
+  },
 );
 
 export const Message = model<IMessage, MessageModel>('Message', messageSchema);

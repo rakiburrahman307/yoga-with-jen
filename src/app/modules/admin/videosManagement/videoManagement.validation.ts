@@ -7,8 +7,10 @@ const videoValidation = z.object({
     subCategory: z.string().min(1, 'Sub Category is required'),
     duration: z.string().min(5, 'Duration is required'),
     equipment: z.array(z.string()).nonempty('Equipment list cannot be empty'),
-    thumbnailUrl: z.string({required_error:'Thumbnail URL must be a valid URL'}),
-    videoUrl: z.string({required_error:'Video URL must be a valid URL'}),
+    thumbnailUrl: z.string({
+      required_error: 'Thumbnail URL must be a valid URL',
+    }),
+    videoUrl: z.string({ required_error: 'Video URL must be a valid URL' }),
     description: z
       .string()
       .min(10, 'Description must be at least 10 characters long'),

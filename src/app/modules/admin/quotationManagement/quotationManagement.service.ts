@@ -56,7 +56,10 @@ const updateQuotationStatusFromDb = async (id: string, payload: string) => {
   return updateStatus;
 };
 // update quotation status
-const updateQuotationFromDb = async (id: string, payload: Partial<IQuotation>) => {
+const updateQuotationFromDb = async (
+  id: string,
+  payload: Partial<IQuotation>,
+) => {
   const quotation = await Quotation.findById(id);
   if (!quotation) {
     throw new AppError(StatusCodes.NOT_FOUND, 'Quotation not found!');

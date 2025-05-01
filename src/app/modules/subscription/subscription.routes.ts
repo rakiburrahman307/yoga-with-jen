@@ -29,7 +29,7 @@ router.post(
 router.delete(
   '/cancel/:id',
   auth(USER_ROLES.USER),
-  SubscriptionController.updateSubscription,
+  SubscriptionController.cancelSubscription,
 );
 
 export const SubscriptionRoutes = router;

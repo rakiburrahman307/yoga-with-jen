@@ -15,8 +15,7 @@ const sendMessageToDB = async (payload: any): Promise<IMessage> => {
 };
 
 const getMessageFromDB = async (id: any): Promise<IMessage[]> => {
-  const messages = await Message.find({ chatId: id })
-    .sort({ createdAt: -1 })
+  const messages = await Message.find({ chatId: id }).sort({ createdAt: -1 });
   return messages;
 };
 

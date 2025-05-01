@@ -8,7 +8,7 @@ const subscriptions = catchAsync(async (req, res) => {
   sendResponse(res, {
     statusCode: StatusCodes.OK,
     success: true,
-    message: 'Subscription List Retrieved Successfully',
+    message: 'Subscription list retrieved successfully',
     data: result,
   });
 });
@@ -19,7 +19,7 @@ const subscriptionDetails = catchAsync(async (req, res) => {
   sendResponse(res, {
     statusCode: StatusCodes.OK,
     success: true,
-    message: 'Subscription Details Retrieved Successfully',
+    message: 'Subscription details retrieved successfully',
     data: result.subscription,
   });
 });
@@ -31,7 +31,7 @@ const cancelSubscription = catchAsync(async (req, res) => {
   sendResponse(res, {
     statusCode: StatusCodes.OK,
     success: true,
-    message: 'Cancel Subscription Successfully',
+    message: 'Cancel subscription successfully',
     data: result,
   });
 });
@@ -78,5 +78,5 @@ export const SubscriptionController = {
   subscriptionDetails,
   createCheckoutSession,
   updateSubscription,
-  cancelSubscription
+  cancelSubscription,
 };

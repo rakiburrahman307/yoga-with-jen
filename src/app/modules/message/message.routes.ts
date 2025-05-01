@@ -10,12 +10,12 @@ router.post(
   '/',
   fileUploadHandler(),
   auth(USER_ROLES.EMPLOYER, USER_ROLES.PROVIDER),
-  MessageController.sendMessage
+  MessageController.sendMessage,
 );
 router.get(
   '/:id',
   auth(USER_ROLES.EMPLOYER, USER_ROLES.PROVIDER),
-  MessageController.getMessage
+  MessageController.getMessage,
 );
 
 export const MessageRoutes = router;

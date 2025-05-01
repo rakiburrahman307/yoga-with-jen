@@ -8,7 +8,6 @@ export const deleteFile = async (path: string) => {
     } else {
       console.log('not found');
     }
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
   } catch (err: any) {
     throw new Error(`Error deleting file: ${err.message}`);
   }

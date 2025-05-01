@@ -41,7 +41,7 @@ const getSupport = async () => {
 };
 
 const updateSettings = async (
-  settingsBody: Partial<ISettings>
+  settingsBody: Partial<ISettings>,
 ): Promise<ISettings | null> => {
   // Find the existing settings document and update it
   const settings = await Settings.findOneAndUpdate({}, settingsBody, {

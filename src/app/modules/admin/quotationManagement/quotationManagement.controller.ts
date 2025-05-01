@@ -82,5 +82,5 @@ export const QuotationManagementController = {
   getByIdQuotation,
   updateQuotation,
   deleteQuotation,
-  updateStatusQuotation
+  updateStatusQuotation,
 };

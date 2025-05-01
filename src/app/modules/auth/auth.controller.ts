@@ -70,7 +70,7 @@ const forgetPasswordByUrl = catchAsync(async (req, res) => {
 });
 
 const resetPasswordByUrl = catchAsync(async (req, res) => {
-  let token = req?.headers?.authorization?.split(' ')[1];
+  const token = req?.headers?.authorization?.split(' ')[1];
   const { ...resetData } = req.body;
 
   const result = await AuthService.resetPasswordByUrl(token!, resetData);
@@ -140,5 +140,5 @@ export const AuthController = {
   forgetPasswordByUrl,
   resetPasswordByUrl,
   resendOtp,
-  refreshToken
+  refreshToken,
 };

@@ -240,17 +240,20 @@ const upgradeSubscriptionToDB = async (userId: string, packageId: string) => {
 };
 const cancelSubscriptionToDB = async (userId: string) => {
   const activeSubscription = await Subscription.findOne({
-    user: userId,
+    userId,
     status: 'active',
   });
   if (!activeSubscription || !activeSubscription.subscriptionId) {
-    throw new Error('No active subscription found to cancel');
+    throw new AppError(
+      StatusCodes.NOT_FOUND,
+      'No active subscription found to cancel',
+    );
   }
 
   await stripe.subscriptions.cancel(activeSubscription.subscriptionId);
 
   await Subscription.findOneAndUpdate(
-    { user: userId, status: 'active' },
+    { userId, status: 'active' },
     { status: 'canceled' },
     { new: true },
   );

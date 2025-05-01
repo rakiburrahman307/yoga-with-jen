@@ -1,6 +1,0 @@
-Thu Apr 24 2025 19:8:37 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/subscription/create-update-session/6808e0c61e71aee25d868614 400 - 2038.746 ms
-Thu Apr 24 2025 19:10:47 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/subscription/create-update-session/6808e0c61e71aee25d868614 400 - 1957.089 ms
-Thu Apr 24 2025 19:12:2 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/subscription/create-update-session/6808e0c61e71aee25d868614 400 - 3494.657 ms
-Thu Apr 24 2025 19:12:10 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/subscription/create-update-session/6808e0c61e71aee25d868614 400 - 2322.087 ms
-Thu Apr 24 2025 19:13:39 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/subscription/create-update-session/6808e0c61e71aee25d868614 400 - 2555.610 ms
-Thu Apr 24 2025 19:15:23 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/subscription/create-update-session/6808e0c61e71aee25d868614 400 - 2520.401 ms

@@ -54,7 +54,10 @@ const downloadVideoFromBunny = async (fileKey: string): Promise<Buffer> => {
     const buffer = await bunnyStorage.download(fileKey);
 
     if (!buffer || !(buffer instanceof Buffer)) {
-      throw new Error('Failed to retrieve file buffer');
+      throw new AppError(
+        StatusCodes.BAD_REQUEST,
+        'Failed to retrieve file buffer',
+      );
     }
 
     return buffer;

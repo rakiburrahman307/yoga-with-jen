@@ -11,10 +11,7 @@ router.post(
   validateRequest(AuthValidation.createLoginZodSchema),
   AuthController.loginUser,
 );
-router.post(
-  '/refresh-token',
-  AuthController.refreshToken,
-);
+router.post('/refresh-token', AuthController.refreshToken);
 router.post(
   '/forget-password',
   validateRequest(AuthValidation.createForgetPasswordZodSchema),
@@ -47,7 +44,7 @@ router.post(
 
 router.post(
   '/change-password',
-  auth(USER_ROLES.ADMIN, USER_ROLES.USER, USER_ROLES.VENDOR),
+  auth(USER_ROLES.ADMIN, USER_ROLES.USER, USER_ROLES.SUPER_ADMIN),
   validateRequest(AuthValidation.createChangePasswordZodSchema),
   AuthController.changePassword,
 );

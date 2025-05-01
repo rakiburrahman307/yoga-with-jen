@@ -13,7 +13,7 @@ export const updateSubscriptionProduct = async (
       {
         items: [
           {
-            id: subscription.items.data[0].id, 
+            id: subscription.items.data[0].id,
             price: newPriceId,
           },
         ],

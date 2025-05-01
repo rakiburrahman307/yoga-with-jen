@@ -42,21 +42,24 @@ const createUserToDB = async (payload: IUser): Promise<IUser> => {
     { $set: { authentication } },
   );
 
-let stripeCustomer;
-try {
-      stripeCustomer = await stripe.customers.create({
-            email: createUser.email,
-            name: createUser.name,
-      });
-} catch (error) {
-      throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Failed to create Stripe customer');
-}
+  let stripeCustomer;
+  try {
+    stripeCustomer = await stripe.customers.create({
+      email: createUser.email,
+      name: createUser.name,
+    });
+  } catch (error) {
+    throw new AppError(
+      StatusCodes.INTERNAL_SERVER_ERROR,
+      'Failed to create Stripe customer',
+    );
+  }
 
-createUser.stripeCustomerId = stripeCustomer.id;
-await User.findOneAndUpdate(
-      { _id: createUser._id },
-      { $set: { authentication, stripeCustomerId: stripeCustomer.id } }
-);
+  createUser.stripeCustomerId = stripeCustomer.id;
+  await User.findOneAndUpdate(
+    { _id: createUser._id },
+    { $set: { authentication, stripeCustomerId: stripeCustomer.id } },
+  );
   return createUser;
 };
 
@@ -150,7 +153,7 @@ const updateProfileToDB = async (
   }
 
   //unlink file here
-  if (payload.image) {
+  if (payload.image && isExistUser.image) {
     unlinkFile(isExistUser.image);
   }
 

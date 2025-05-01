@@ -1,0 +1,14 @@
+Thu May 01 2025 17:22:45 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/subscription/rules/create 201 - 598.039 ms
+Thu May 01 2025 17:23:57 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/package/managment 200 - 867.425 ms
+Thu May 01 2025 17:35:17 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/package/managment 200 - 869.763 ms
+Thu May 01 2025 17:37:26 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 01 2025 17:37:28 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 01 2025 17:37:28 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 01 2025 17:37:28 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 01 2025 17:38:0 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 01 2025 17:38:2 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 01 2025 17:38:2 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 01 2025 17:38:2 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 01 2025 17:57:51 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/package/management 204 - 1.481 ms
+Thu May 01 2025 17:57:51 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subscription/rules 204 - 0.091 ms
+Thu May 01 2025 17:57:52 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subscription/rules 201 - 842.935 ms

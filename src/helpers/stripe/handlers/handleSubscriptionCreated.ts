@@ -6,7 +6,6 @@ import { Package } from '../../../app/modules/package/package.model';
 import { User } from '../../../app/modules/user/user.model';
 import { Subscription } from '../../../app/modules/subscription/subscription.model';
 
-
 const formatUnixToDate = (timestamp: number) => new Date(timestamp * 1000);
 
 export const handleSubscriptionCreated = async (data: Stripe.Subscription) => {
@@ -94,6 +93,7 @@ export const handleSubscriptionCreated = async (data: Stripe.Subscription) => {
               hasAccess: true,
               isFreeTrial: false,
               trialExpireAt: null,
+              packageName: pricingPlan.title,
             },
             { new: true },
           );

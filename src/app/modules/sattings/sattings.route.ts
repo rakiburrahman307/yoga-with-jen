@@ -8,7 +8,7 @@ const SettingsRouter = express.Router();
 SettingsRouter.post(
   '/',
   auth(USER_ROLES.ADMIN, USER_ROLES.SUPER_ADMIN),
-  settingsController.addSetting
+  settingsController.addSetting,
 )
   .get('/', settingsController.getSettings)
   .get('/privacy-policy', settingsController.getPrivacyPolicy)

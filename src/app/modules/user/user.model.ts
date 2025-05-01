@@ -40,6 +40,11 @@ const userSchema = new Schema<IUser, UserModel>(
       type: String,
       default: '',
     },
+    address: {
+      type: String,
+      default: '',
+    },
+    
     joinDate: {
       type: Date,
       default: Date.now,
@@ -51,6 +56,10 @@ const userSchema = new Schema<IUser, UserModel>(
     subscription: {
       type: Schema.Types.ObjectId,
       ref: 'Subscription',
+    },
+    packageName: {
+      type: String,
+      default: 'N/A',
     },
     trialExpireAt: {
       type: Date,
@@ -83,7 +92,7 @@ const userSchema = new Schema<IUser, UserModel>(
       type: Boolean,
       default: false,
     },
-    stripeCustomerId:{
+    stripeCustomerId: {
       type: String,
       default: '',
     },

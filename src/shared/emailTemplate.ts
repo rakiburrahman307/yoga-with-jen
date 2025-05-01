@@ -127,5 +127,5 @@ export const emailTemplate = {
   resetPassword,
   resetPasswordByUrl,
   contactFormTemplate,
-  contact
+  contact,
 };

@@ -19,7 +19,7 @@ class StripeService {
   async createAccountLink(
     accountId: string,
     returnUrl: string,
-    refreshUrl: string
+    refreshUrl: string,
   ): Promise<string> {
     const accountLink = await stripe.accountLinks.create({
       account: accountId,
@@ -34,7 +34,7 @@ class StripeService {
   async createCheckoutSession(
     customerEmail: string,
     amount: number,
-    orderId: string
+    orderId: string,
   ) {
     const session = await stripe.checkout.sessions.create({
       payment_method_types: ['card'],

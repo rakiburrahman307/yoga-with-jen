@@ -1,0 +1,21 @@
+Thu May 01 2025 15:33:35 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/auth/login 204 - 0.590 ms
+Thu May 01 2025 15:33:35 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/login 200 - 684.935 ms
+Thu May 01 2025 15:33:41 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 1.247 ms
+Thu May 01 2025 15:33:41 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 569.239 ms
+Thu May 01 2025 15:42:32 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 01 2025 15:42:34 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 01 2025 15:43:4 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 01 2025 15:43:23 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 01 2025 15:49:5 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.102 ms
+Thu May 01 2025 15:49:5 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 553.515 ms
+Thu May 01 2025 15:49:39 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.103 ms
+Thu May 01 2025 15:49:40 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 555.591 ms
+Thu May 01 2025 15:49:54 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 01 2025 15:50:39 [SERVER-NAME] info: 10.0.60.147 - GET //image/frame-2147227206-1746028521531.png 200 - 8.418 ms
+Thu May 01 2025 15:50:50 [SERVER-NAME] info: 10.0.60.147 - GET //image/frame-2147227206-1746028521531.png 200 - 1.002 ms
+Thu May 01 2025 15:51:24 [SERVER-NAME] info: 10.0.60.147 - GET //image/frame-2147227206-1746028521531.png 304 - 0.555 ms
+Thu May 01 2025 15:51:37 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.048 ms
+Thu May 01 2025 15:51:37 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 551.665 ms
+Thu May 01 2025 15:51:37 [SERVER-NAME] info: 10.0.60.147 - GET //image/frame-2147227206-1746028521531.png 304 - 0.418 ms
+Thu May 01 2025 15:51:37 [SERVER-NAME] info: 10.0.60.147 - GET //image/frame-2147227206-1746028521531.png 304 - 0.295 ms
+Thu May 01 2025 15:52:4 [SERVER-NAME] info: [31mA user disconnect[39m

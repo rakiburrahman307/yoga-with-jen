@@ -34,16 +34,19 @@ const fileUpload = (uploadDirectory: string) => {
       if (
         file.mimetype === 'image/png' ||
         file.mimetype === 'image/jpg' ||
-        file.mimetype === 'image/jpeg'||
+        file.mimetype === 'image/jpeg' ||
         file.mimetype === 'image/svg' ||
-        file.mimetype === 'image/webp'||
+        file.mimetype === 'image/webp' ||
         file.mimetype === 'application/octet-stream' ||
         file.mimetype === 'image/svg+xml'
       ) {
         cb(null, true);
       } else {
         cb(null, false);
-        throw new AppError(StatusCodes.BAD_REQUEST,'only png,jpg,jpeg,svg format allowed');
+        throw new AppError(
+          StatusCodes.BAD_REQUEST,
+          'only png,jpg,jpeg,svg format allowed',
+        );
       }
     },
   });

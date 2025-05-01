@@ -1,0 +1,60 @@
+Thu May 01 2025 16:4:11 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.197 ms
+Thu May 01 2025 16:4:11 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 551.936 ms
+Thu May 01 2025 16:4:46 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.104 ms
+Thu May 01 2025 16:4:46 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 560.565 ms
+Thu May 01 2025 16:5:37 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.269 ms
+Thu May 01 2025 16:5:38 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 558.571 ms
+Thu May 01 2025 16:6:38 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.731 ms
+Thu May 01 2025 16:6:39 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 558.083 ms
+Thu May 01 2025 16:8:59 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.226 ms
+Thu May 01 2025 16:9:0 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 554.797 ms
+Thu May 01 2025 16:9:0 [SERVER-NAME] info: 10.0.60.147 - GET //image/frame-2147227206-1746028521531.png 304 - 0.474 ms
+Thu May 01 2025 16:9:0 [SERVER-NAME] info: 10.0.60.147 - GET //image/frame-2147227206-1746028521531.png 304 - 0.789 ms
+Thu May 01 2025 16:9:8 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.279 ms
+Thu May 01 2025 16:12:18 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.364 ms
+Thu May 01 2025 16:12:18 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 553.269 ms
+Thu May 01 2025 16:12:18 [SERVER-NAME] info: 10.0.60.147 - GET //image/frame-2147227206-1746028521531.png 304 - 0.376 ms
+Thu May 01 2025 16:12:18 [SERVER-NAME] info: 10.0.60.147 - GET //image/frame-2147227206-1746028521531.png 304 - 0.378 ms
+Thu May 01 2025 16:12:25 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.077 ms
+Thu May 01 2025 16:18:0 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.334 ms
+Thu May 01 2025 16:18:34 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.170 ms
+Thu May 01 2025 16:18:34 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 562.225 ms
+Thu May 01 2025 16:18:34 [SERVER-NAME] info: 10.0.60.147 - GET //image/frame-2147227206-1746028521531.png 304 - 2.647 ms
+Thu May 01 2025 16:18:34 [SERVER-NAME] info: 10.0.60.147 - GET //image/frame-2147227206-1746028521531.png 304 - 2.941 ms
+Thu May 01 2025 16:21:9 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.072 ms
+Thu May 01 2025 16:21:9 [SERVER-NAME] info: 10.0.60.147 - PATCH /api/v1/users/profile 200 - 862.675 ms
+Thu May 01 2025 16:21:14 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 559.712 ms
+Thu May 01 2025 16:21:14 [SERVER-NAME] info: 10.0.60.147 - GET //image/frame-2147227206-1746028521531.png 304 - 1.625 ms
+Thu May 01 2025 16:21:14 [SERVER-NAME] info: 10.0.60.147 - GET //image/frame-2147227206-1746028521531.png 304 - 1.358 ms
+Thu May 01 2025 16:21:39 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.072 ms
+Thu May 01 2025 16:21:40 [SERVER-NAME] info: 10.0.60.147 - PATCH /api/v1/users/profile 200 - 855.864 ms
+Thu May 01 2025 16:21:43 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 548.720 ms
+Thu May 01 2025 16:21:43 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 200 - 1.327 ms
+Thu May 01 2025 16:27:11 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 01 2025 16:27:14 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 01 2025 16:27:14 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 01 2025 16:27:14 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 01 2025 16:27:54 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.934 ms
+Thu May 01 2025 16:27:55 [SERVER-NAME] info: 10.0.60.147 - PATCH /api/v1/users/profile 200 - 863.272 ms
+Thu May 01 2025 16:27:58 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 564.477 ms
+Thu May 01 2025 16:27:58 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 1.154 ms
+Thu May 01 2025 16:35:16 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.402 ms
+Thu May 01 2025 16:35:17 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 563.691 ms
+Thu May 01 2025 16:35:17 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 1.267 ms
+Thu May 01 2025 16:35:48 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/auth/change-password 204 - 0.459 ms
+Thu May 01 2025 16:36:59 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 01 2025 16:37:2 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 01 2025 16:37:2 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 01 2025 16:37:2 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 01 2025 16:37:7 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/auth/change-password 204 - 0.540 ms
+Thu May 01 2025 16:37:8 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/change-password 200 - 1272.495 ms
+Thu May 01 2025 16:37:15 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.086 ms
+Thu May 01 2025 16:37:16 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 574.593 ms
+Thu May 01 2025 16:37:16 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 1.232 ms
+Thu May 01 2025 16:37:36 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/auth/change-password 204 - 0.339 ms
+Thu May 01 2025 16:39:36 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/change-password 200 - 1280.914 ms
+Thu May 01 2025 16:40:16 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/auth/change-password 204 - 0.405 ms
+Thu May 01 2025 16:40:17 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/change-password 200 - 1255.977 ms
+Thu May 01 2025 16:41:43 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/auth/change-password 204 - 1.005 ms
+Thu May 01 2025 16:41:44 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/change-password 200 - 1265.706 ms
+Thu May 01 2025 16:59:54 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subscription/rules/?subscriptionType=app 201 - 886.115 ms
