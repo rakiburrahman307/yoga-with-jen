@@ -13,6 +13,8 @@ import { PackageRoutes } from '../app/modules/package/package.routes';
 import { SubscriptionRuleRoute } from '../app/modules/admin/subscriptionRule/subscriptionRule.route';
 import { SubscriptionRoutes } from '../app/modules/subscription/subscription.routes';
 import { ComingSoonRoutes } from '../app/modules/admin/comeingSoon/comeingSoon.router';
+import { DashboardRoutes } from '../app/modules/admin/dashboard/dashboard.route';
+import { FavouritdRouter } from '../app/modules/favourit/favourit.router';
 
 const router = express.Router();
 const routes = [
@@ -69,6 +71,10 @@ const routes = [
     route: videoManagementRoute,
   },
   {
+    path: '/videos',
+    route: videoManagementRoute,
+  },
+  {
     path: '/admin/package/managment',
     route: PackageRoutes,
   },
@@ -89,8 +95,16 @@ const routes = [
     route: ComingSoonRoutes,
   },
   {
+    path: '/admin/dahsboard',
+    route: DashboardRoutes,
+  },
+  {
     path: '/comingSoon',
     route: ComingSoonRoutes,
+  },
+  {
+    path: '/favourit',
+    route: FavouritdRouter,
   },
 ];
 

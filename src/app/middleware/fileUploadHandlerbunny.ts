@@ -109,7 +109,7 @@ const fileUploadHandlerbunny = async (
       // Handle video upload if present
       if (files['video']) {
         const videoFile = files['video'][0];
-        fileUrls.videoUrl = await BunnyStorageHandeler.uploadToBunny(
+        fileUrls.videoUrl = await BunnyStorageHandeler.uploadVideoToBunny(
           videoFile,
           'videos',
         );

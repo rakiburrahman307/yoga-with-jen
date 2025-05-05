@@ -4,6 +4,10 @@ import QueryBuilder from '../../../builder/QueryBuilder';
 import { IVideo } from './videoManagement.interface';
 import { Video } from './videoManagement.model';
 import { BunnyStorageHandeler } from '../../../../helpers/BunnyStorageHandeler';
+import { decryptUrl } from '../../../../utils/cryptoToken';
+import config from '../../../../config';
+import { Category } from '../../category/category.model';
+import { User } from '../../user/user.model';
 // get videos
 const getVideos = async (query: Record<string, unknown>) => {
   const queryBuilder = new QueryBuilder(
@@ -26,7 +30,15 @@ const getVideos = async (query: Record<string, unknown>) => {
 };
 // upload videos
 const addVideo = async (payload: IVideo) => {
-  const video = await Video.create(payload);
+  const isExistCategory = await Category.findOne({ name: payload.category });
+  if (!isExistCategory) {
+    throw new AppError(StatusCodes.NOT_FOUND, 'Category not found');
+  }
+  const data = {
+    ...payload,
+    type: isExistCategory.categoryType,
+  };
+  const video = await Video.create(data);
   if (!video) {
     throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to added videos');
   }
@@ -88,9 +100,13 @@ const removeVideo = async (id: string) => {
   if (!isExistVideo) {
     throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
   }
-  if (isExistVideo.videoUrl) {
+  const decodedUrl = decryptUrl(
+    isExistVideo.videoUrl,
+    config.bunnyCDN.bunny_token as string,
+  );
+  if (decodedUrl && isExistVideo.videoUrl) {
     try {
-      await BunnyStorageHandeler.deleteFromBunny(isExistVideo.videoUrl);
+      await BunnyStorageHandeler.deleteFromBunny(decodedUrl);
 
       if (isExistVideo.thumbnailUrl) {
         await BunnyStorageHandeler.deleteFromBunny(isExistVideo.thumbnailUrl);
@@ -109,6 +125,56 @@ const removeVideo = async (id: string) => {
   }
   return result;
 };
+const getSingleVideoFromDb = async (id: string, userId: string) => {
+  const result = await Video.findById(id);
+  if (!result) {
+    throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
+  }
+
+  // Decrypt the URL
+  const decryptedUrl = decryptUrl(
+    result.videoUrl,
+    config.bunnyCDN.bunny_token as string,
+  );
+
+  const hasSubscription = await User.hasActiveSubscription(userId);
+
+  if (
+    hasSubscription ||
+    result.type === 'free' ||
+    (!hasSubscription && result.type === 'free')
+  ) {
+    // If the user has an active subscription or the video is free
+    const data = {
+      ...result.toObject(),
+      videoUrl: decryptedUrl,
+    };
+    return data;
+  }
+
+  // If the user doesn't have a subscription and the video is paid
+  throw new AppError(StatusCodes.FORBIDDEN, 'You do not have access');
+};
+const getSingleVideoForAdmin = async (id: string, userId: string) => {
+  const result = await Video.findById(id);
+  if (!result) {
+    throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
+  }
+
+  // Decrypt the URL
+  const decryptedUrl = decryptUrl(
+    result.videoUrl,
+    config.bunnyCDN.bunny_token as string,
+  );
+
+  
+    // If the user has an active subscription or the video is free
+    const data = {
+      ...result.toObject(),
+      videoUrl: decryptedUrl,
+    };
+    return data;
+};
 
 export const videoManagementService = {
   getVideos,
@@ -116,4 +182,6 @@ export const videoManagementService = {
   updateVideo,
   statusChangeVideo,
   removeVideo,
+  getSingleVideoFromDb,
+  getSingleVideoForAdmin
 };

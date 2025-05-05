@@ -1,0 +1,62 @@
+Sat May 03 2025 21:15:15 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.099 ms
+Sat May 03 2025 21:15:15 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory 204 - 0.054 ms
+Sat May 03 2025 21:15:16 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 933.256 ms
+Sat May 03 2025 21:15:16 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory 304 - 918.369 ms
+Sat May 03 2025 21:15:16 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/frame-2147227088-(2)-1746266077431.png 304 - 0.824 ms
+Sat May 03 2025 21:15:16 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/msi-1746027437618.png 304 - 1.080 ms
+Sat May 03 2025 21:15:31 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category/6816299037e1f440465dfc83 204 - 0.064 ms
+Sat May 03 2025 21:15:32 [SERVER-NAME] info: 10.0.60.147 - PATCH /api/v1/admin/category/6816299037e1f440465dfc83 200 - 894.334 ms
+Sat May 03 2025 21:15:32 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.046 ms
+Sat May 03 2025 21:15:33 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 200 - 878.298 ms
+Sat May 03 2025 21:15:33 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(7)-1746285331667.png 200 - 4.586 ms
+Sat May 03 2025 21:16:26 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category/create 204 - 0.075 ms
+Sat May 03 2025 21:16:27 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/category/create 200 - 908.017 ms
+Sat May 03 2025 21:16:27 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.212 ms
+Sat May 03 2025 21:16:28 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 200 - 876.130 ms
+Sat May 03 2025 21:16:28 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(9)-1746285386537.png 200 - 0.588 ms
+Sat May 03 2025 21:19:8 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category/6816334a37e1f440465dfcb3 204 - 0.062 ms
+Sat May 03 2025 21:19:9 [SERVER-NAME] info: 10.0.60.147 - PATCH /api/v1/admin/category/6816334a37e1f440465dfcb3 200 - 999.304 ms
+Sat May 03 2025 21:19:9 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.068 ms
+Sat May 03 2025 21:19:10 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 200 - 996.435 ms
+Sat May 03 2025 21:19:10 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(9)-1746285548523.png 200 - 0.712 ms
+Sat May 03 2025 21:20:36 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category/single/6816334a37e1f440465dfcb3 204 - 0.062 ms
+Sat May 03 2025 21:20:37 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category/single/6816334a37e1f440465dfcb3 200 - 707.831 ms
+Sat May 03 2025 21:20:49 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category/single/681243ae9dc2b65a00127d8e 204 - 0.042 ms
+Sat May 03 2025 21:20:50 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category/single/681243ae9dc2b65a00127d8e 304 - 987.846 ms
+Sat May 03 2025 21:20:50 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(16)-1746273720252.png 304 - 0.508 ms
+Sat May 03 2025 21:20:50 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/msi_pro-1746027917413.jpg 304 - 0.631 ms
+Sat May 03 2025 21:21:1 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/undefined 204 - 0.041 ms
+Sat May 03 2025 21:21:2 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory 204 - 0.060 ms
+Sat May 03 2025 21:21:2 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.053 ms
+Sat May 03 2025 21:21:3 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 1005.822 ms
+Sat May 03 2025 21:21:3 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory 304 - 1011.347 ms
+Sat May 03 2025 21:21:30 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/undefined 204 - 0.059 ms
+Sat May 03 2025 21:21:30 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory 204 - 0.077 ms
+Sat May 03 2025 21:21:30 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.058 ms
+Sat May 03 2025 21:21:31 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 991.300 ms
+Sat May 03 2025 21:21:31 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory 304 - 1003.038 ms
+Sat May 03 2025 21:40:23 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category/single/6816334a37e1f440465dfcb3 204 - 0.405 ms
+Sat May 03 2025 21:40:24 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category/single/6816334a37e1f440465dfcb3 304 - 703.420 ms
+Sat May 03 2025 21:48:40 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.220 ms
+Sat May 03 2025 21:48:40 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory 204 - 0.162 ms
+Sat May 03 2025 21:48:41 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory 304 - 883.183 ms
+Sat May 03 2025 21:48:41 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 908.522 ms
+Sat May 03 2025 21:48:41 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(7)-1746285331667.png 304 - 3.377 ms
+Sat May 03 2025 21:48:41 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/frame-2147227088-(2)-1746266077431.png 304 - 1.546 ms
+Sat May 03 2025 21:48:41 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(9)-1746285548523.png 304 - 2.432 ms
+Sat May 03 2025 21:48:41 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/msi-1746027437618.png 304 - 2.221 ms
+Sat May 03 2025 21:52:8 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.070 ms
+Sat May 03 2025 21:52:8 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory 204 - 0.052 ms
+Sat May 03 2025 21:52:9 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 830.530 ms
+Sat May 03 2025 21:52:9 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory 304 - 832.503 ms
+Sat May 03 2025 21:57:20 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat May 03 2025 21:57:23 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat May 03 2025 21:57:25 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat May 03 2025 21:57:28 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat May 03 2025 21:57:28 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sat May 03 2025 21:57:28 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sat May 03 2025 21:57:43 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat May 03 2025 21:57:45 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat May 03 2025 21:57:48 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat May 03 2025 21:57:48 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sat May 03 2025 21:57:48 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m

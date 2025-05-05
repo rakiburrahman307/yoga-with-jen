@@ -1,0 +1,35 @@
+Mon May 05 2025 15:10:10 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.623 ms
+Mon May 05 2025 15:10:11 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 913.677 ms
+Mon May 05 2025 15:27:10 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.259 ms
+Mon May 05 2025 15:27:10 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory 204 - 0.074 ms
+Mon May 05 2025 15:27:11 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory 304 - 882.125 ms
+Mon May 05 2025 15:27:11 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 945.452 ms
+Mon May 05 2025 15:27:11 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(9)-1746285548523.png 304 - 3.297 ms
+Mon May 05 2025 15:27:11 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/frame-2147227088-(2)-1746266077431.png 304 - 3.153 ms
+Mon May 05 2025 15:27:11 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/msi-1746027437618.png 304 - 3.329 ms
+Mon May 05 2025 15:27:11 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(7)-1746285331667.png 304 - 3.813 ms
+Mon May 05 2025 15:29:14 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.232 ms
+Mon May 05 2025 15:29:15 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 953.970 ms
+Mon May 05 2025 15:29:51 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.100 ms
+Mon May 05 2025 15:29:52 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 946.814 ms
+Mon May 05 2025 15:40:54 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.097 ms
+Mon May 05 2025 15:40:55 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 936.343 ms
+Mon May 05 2025 15:41:46 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/upload-video 204 - 0.112 ms
+Mon May 05 2025 15:43:47 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/videos/managment/upload-video - - - ms
+Mon May 05 2025 15:45:48 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/videos/managment/upload-video - - - ms
+Mon May 05 2025 15:46:50 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.219 ms
+Mon May 05 2025 15:46:51 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 943.836 ms
+Mon May 05 2025 15:48:37 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/upload-video 204 - 0.096 ms
+Mon May 05 2025 15:50:45 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 15:50:48 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 05 2025 15:50:48 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 05 2025 15:50:48 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 05 2025 15:52:52 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/upload-video 204 - 1.005 ms
+Mon May 05 2025 15:54:53 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/videos/managment/upload-video - - - ms
+Mon May 05 2025 15:54:54 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 15:54:55 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 15:54:58 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 05 2025 15:54:58 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 05 2025 15:54:58 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 05 2025 15:58:36 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/admin/videos/managment/upload-video - - - ms
+Mon May 05 2025 15:59:10 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/admin/videos/managment/upload-video - - - ms

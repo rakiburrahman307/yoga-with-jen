@@ -81,10 +81,41 @@ const deleteCategoryToDB = async (id: string) => {
   }
   return deleteCategory;
 };
+// update catgeory status
+const updateCategoryStatusToDB = async (id: string, payload: string) => {
+  const isExistCategory: any = await SubCategory.findById(id);
 
+  if (!isExistCategory) {
+    throw new AppError(StatusCodes.BAD_REQUEST, "Category doesn't exist");
+  }
+
+  const updateCategory = await Category.findByIdAndUpdate(
+    id,
+    {
+      $set: { status: payload },
+    },
+    {
+      new: true,
+    },
+  );
+
+  if (!updateCategory) {
+    throw new AppError(StatusCodes.BAD_REQUEST, 'Faield to update category!');
+  }
+  return updateCategory;
+};
+const getCategoryReletedSubcategory = async (id: string) => {
+  const result = await SubCategory.find({ categoryId: id });
+  if (!result) {
+    return [];
+  }
+  return result;
+};
 export const CategoryService = {
   createSubCategoryToDB,
   getCategoriesFromDB,
   updateCategoryToDB,
   deleteCategoryToDB,
+  updateCategoryStatusToDB,
+  getCategoryReletedSubcategory
 };

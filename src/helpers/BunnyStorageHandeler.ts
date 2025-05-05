@@ -1,5 +1,5 @@
 import { StatusCodes } from 'http-status-codes';
-import { getBunnyUrl } from '../utils/getUrlBunny';
+import { getBunnyEncryptUrl, getBunnyUrl } from '../utils/getUrlBunny';
 import AppError from '../errors/AppError';
 import BunnyStorage from 'bunnycdn-storage';
 import config from '../config';
@@ -30,6 +30,21 @@ const uploadToBunny = async (
   try {
     await bunnyStorage.upload(file.buffer, fileKey);
     return getBunnyUrl(fileKey);
+  } catch (error: any) {
+    throw new AppError(
+      StatusCodes.INTERNAL_SERVER_ERROR,
+      `Error uploading file to BunnyCDN: ${error.message}`,
+    );
+  }
+};
+const uploadVideoToBunny = async (
+  file: Express.Multer.File,
+  folderName: string,
+): Promise<string> => {
+  const fileKey = `${folderName}/${Date.now().toString()}-${file.originalname}`;
+  try {
+    await bunnyStorage.upload(file.buffer, fileKey);
+    return getBunnyEncryptUrl(fileKey);
   } catch (error: any) {
     throw new AppError(
       StatusCodes.INTERNAL_SERVER_ERROR,
@@ -71,5 +86,6 @@ const downloadVideoFromBunny = async (fileKey: string): Promise<Buffer> => {
 export const BunnyStorageHandeler = {
   deleteFromBunny,
   uploadToBunny,
+  uploadVideoToBunny,
   downloadVideoFromBunny,
 };

@@ -1,0 +1,6 @@
+Sun May 04 2025 20:8:40 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.077 ms
+Sun May 04 2025 20:8:41 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 897.816 ms
+Sun May 04 2025 20:35:57 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.125 ms
+Sun May 04 2025 20:35:58 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 905.659 ms
+Sun May 04 2025 20:41:2 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.045 ms
+Sun May 04 2025 20:41:3 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 1060.621 ms

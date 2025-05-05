@@ -4,10 +4,10 @@ import { Category } from './category.model';
 import unlinkFile from '../../../shared/unlinkFile';
 import AppError from '../../../errors/AppError';
 import QueryBuilder from '../../builder/QueryBuilder';
+import { User } from '../user/user.model';
 
 const createCategoryToDB = async (payload: ICategory) => {
   const { name, categoryType, thumbnail } = payload;
-  console.log(payload);
   const isExistName = await Category.findOne({ name });
 
   if (isExistName) {
@@ -41,7 +41,13 @@ const getCategoriesFromDB = async (query: Record<string, unknown>) => {
     .paginate()
     .search(['name'])
     .sort()
-    .modelQuery.exec();
+    .modelQuery.populate({
+      path: 'subCategory',
+      select: {
+        name: 1,
+      },
+    })
+    .exec();
   const meta = await queryBuilder.countTotal();
   return {
     categorys,
@@ -70,7 +76,7 @@ const updateCategoryToDB = async (id: string, payload: ICategory) => {
   return updateCategory;
 };
 // update catgeory status
-const updateCategoryStatusToDB = async (id: string, payload: ICategory) => {
+const updateCategoryStatusToDB = async (id: string, payload: string) => {
   const isExistCategory: any = await Category.findById(id);
 
   if (!isExistCategory) {
@@ -101,11 +107,27 @@ const deleteCategoryToDB = async (id: string) => {
   }
   return deleteCategory;
 };
-
+const getSingleCategoryFromDB = async (id: string, userId: string) => {
+  const result = await Category.findById(id).populate('subCategory');
+  if (!result) {
+    throw new AppError(StatusCodes.NOT_FOUND, 'Category not found');
+  }
+  if (
+    (await User.hasActiveSubscription(userId)) ||
+    result?.categoryType === 'free'
+  ) {
+    return result;
+  }
+  throw new AppError(
+    StatusCodes.FORBIDDEN,
+    'You have to subscribe to access this category',
+  );
+};
 export const CategoryService = {
   createCategoryToDB,
   getCategoriesFromDB,
   updateCategoryToDB,
   deleteCategoryToDB,
   updateCategoryStatusToDB,
+  getSingleCategoryFromDB,
 };

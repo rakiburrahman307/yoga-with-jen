@@ -1,0 +1,4 @@
+Sun May 04 2025 16:30:3 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/package/managment 204 - 0.075 ms
+Sun May 04 2025 16:30:3 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subscription/rules 204 - 0.035 ms
+Sun May 04 2025 16:30:4 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subscription/rules 201 - 864.633 ms
+Sun May 04 2025 16:30:4 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/package/managment 304 - 875.087 ms

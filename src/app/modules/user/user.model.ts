@@ -44,7 +44,7 @@ const userSchema = new Schema<IUser, UserModel>(
       type: String,
       default: '',
     },
-    
+
     joinDate: {
       type: Date,
       default: Date.now,
@@ -145,17 +145,11 @@ userSchema.statics.isInFreeTrial = async (userId: string) => {
 };
 
 // Static function to check if the user's subscription is active
-// userSchema.statics.hasActiveSubscription = async (userId: string) => {
-//   const user = await User.findById(userId).populate('subscription');
-//   if (!user) throw new AppError(StatusCodes.NOT_FOUND, 'User not found');
-
-//   // Assuming the Subscription model has an `isActive` and `expiryDate` field
-//   const subscription = user.subscription;
-//   if (subscription && subscription.isActive && subscription.expiryDate > new Date()) {
-//     return true;
-//   }
-//   return false;
-// };
+userSchema.statics.hasActiveSubscription = async (userId: string) => {
+  const user = await User.findById(userId);
+  if (!user) throw new AppError(StatusCodes.NOT_FOUND, 'User not found');
+  return user.isSubscribed && user.hasAccess;;
+};
 
 // Static function to check if the user's free trial has expired
 userSchema.statics.hasTrialExpired = async (userId: string) => {

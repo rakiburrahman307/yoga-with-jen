@@ -13,6 +13,34 @@ const getAllVideos = catchAsync(async (req, res) => {
     pagination: result.meta,
   });
 });
+// get all videos
+const getSingleVideo = catchAsync(async (req, res) => {
+  const { id }: any = req.user;
+  const result = await videoManagementService.getSingleVideoFromDb(
+    req.params.id,
+    id,
+  );
+  sendResponse(res, {
+    success: true,
+    statusCode: StatusCodes.OK,
+    message: 'Videos retrived successfuly',
+    data: result,
+  });
+});
+// get all videos
+const getSingleVideoForAdmin = catchAsync(async (req, res) => {
+  const { id }: any = req.user;
+  const result = await videoManagementService.getSingleVideoForAdmin(
+    req.params.id,
+    id,
+  );
+  sendResponse(res, {
+    success: true,
+    statusCode: StatusCodes.OK,
+    message: 'Videos retrived successfuly',
+    data: result,
+  });
+});
 // add videos
 const addVideos = catchAsync(async (req, res) => {
   const result = await videoManagementService.addVideo(req.body);
@@ -60,4 +88,6 @@ export const videoManagementController = {
   updateVideos,
   removeVideos,
   statusChange,
+  getSingleVideo,
+  getSingleVideoForAdmin
 };

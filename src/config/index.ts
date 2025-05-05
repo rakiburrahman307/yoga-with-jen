@@ -34,6 +34,7 @@ export default {
     hostname: process.env.BUNNY_CDN_STORAGE_HOST_NAME,
     region: process.env.BUNNY_CDN_STORAGE_ZONE_REGION,
     pullZoneUrl: process.env.BUNNY_PULL_ZONE_URL,
+    bunny_token: process.env.BUNNY_TOKEN_AUTHENTICATION,
   },
   email: {
     from: process.env.EMAIL_FROM,

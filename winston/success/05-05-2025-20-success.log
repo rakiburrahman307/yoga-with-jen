@@ -1,0 +1,275 @@
+Mon May 05 2025 20:1:25 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.093 ms
+Mon May 05 2025 20:1:26 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 853.883 ms
+Mon May 05 2025 20:1:27 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.054 ms
+Mon May 05 2025 20:1:28 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 848.839 ms
+Mon May 05 2025 20:1:49 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.075 ms
+Mon May 05 2025 20:1:49 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.060 ms
+Mon May 05 2025 20:1:50 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 846.087 ms
+Mon May 05 2025 20:1:50 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 853.089 ms
+Mon May 05 2025 20:5:20 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:5:24 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:5:25 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:5:28 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 05 2025 20:5:28 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 05 2025 20:5:28 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 05 2025 20:5:30 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:5:34 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 05 2025 20:5:34 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 05 2025 20:5:34 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 05 2025 20:6:1 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/dahsboard/revenue 200 - 590.795 ms
+Mon May 05 2025 20:6:23 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.454 ms
+Mon May 05 2025 20:6:23 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.145 ms
+Mon May 05 2025 20:6:23 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 890.181 ms
+Mon May 05 2025 20:6:23 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 892.049 ms
+Mon May 05 2025 20:6:43 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/dahsboard/revenue 200 - 559.172 ms
+Mon May 05 2025 20:7:3 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.111 ms
+Mon May 05 2025 20:7:3 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.079 ms
+Mon May 05 2025 20:7:4 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 836.754 ms
+Mon May 05 2025 20:7:4 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 857.446 ms
+Mon May 05 2025 20:8:46 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:8:49 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 05 2025 20:8:49 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 05 2025 20:8:49 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 05 2025 20:8:51 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:8:54 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:8:57 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 05 2025 20:8:57 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 05 2025 20:8:57 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 05 2025 20:9:16 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/dahsboard/revenue 200 - 575.647 ms
+Mon May 05 2025 20:12:48 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/subcategory 200 - 920.181 ms
+Mon May 05 2025 20:13:45 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:13:47 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:13:49 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:13:52 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:13:54 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:13:57 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 05 2025 20:13:57 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 05 2025 20:13:57 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 05 2025 20:13:59 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:14:2 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:14:4 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:14:6 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:14:9 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 05 2025 20:14:9 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 05 2025 20:14:9 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 05 2025 20:14:11 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:14:13 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:14:16 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 05 2025 20:14:16 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 05 2025 20:14:16 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 05 2025 20:14:27 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:14:30 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 05 2025 20:14:30 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 05 2025 20:14:30 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 05 2025 20:14:47 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:14:50 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 05 2025 20:14:50 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 05 2025 20:14:50 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 05 2025 20:15:54 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:15:57 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 05 2025 20:15:57 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 05 2025 20:15:57 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 05 2025 20:15:58 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:16:1 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:16:4 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:16:6 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:16:8 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 05 2025 20:16:8 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 05 2025 20:16:8 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 05 2025 20:16:24 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:16:27 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 05 2025 20:16:27 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 05 2025 20:16:27 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 05 2025 20:16:31 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:16:34 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 05 2025 20:16:34 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 05 2025 20:16:34 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 05 2025 20:16:37 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:16:39 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:16:40 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:16:42 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:16:44 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 05 2025 20:16:44 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 05 2025 20:16:45 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 05 2025 20:17:10 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/category 200 - 1204.752 ms
+Mon May 05 2025 20:23:55 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:23:59 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 05 2025 20:23:59 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 05 2025 20:23:59 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 05 2025 20:24:4 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:24:8 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 05 2025 20:24:8 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 05 2025 20:24:8 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 05 2025 20:24:9 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:24:11 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:24:13 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:24:15 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:24:17 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:24:20 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:24:24 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 05 2025 20:24:24 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 05 2025 20:24:24 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 05 2025 20:24:26 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:24:30 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 05 2025 20:24:30 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 05 2025 20:24:30 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 05 2025 20:24:31 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:24:35 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:24:39 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 05 2025 20:24:39 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 05 2025 20:24:39 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 05 2025 20:24:45 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:24:46 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:24:48 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:24:52 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:24:55 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:24:56 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:24:59 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:25:3 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 05 2025 20:25:3 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 05 2025 20:25:3 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 05 2025 20:25:6 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:25:9 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 05 2025 20:25:9 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 05 2025 20:25:9 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 05 2025 20:25:19 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:25:23 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:25:24 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:25:28 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 05 2025 20:25:28 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 05 2025 20:25:28 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 05 2025 20:25:30 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:25:33 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 05 2025 20:25:33 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 05 2025 20:25:33 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 05 2025 20:25:36 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:25:40 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 05 2025 20:25:40 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 05 2025 20:25:40 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 05 2025 20:25:47 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:25:51 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:25:53 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:25:56 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:25:59 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 05 2025 20:25:59 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 05 2025 20:25:59 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 05 2025 20:26:3 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:26:6 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 05 2025 20:26:6 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 05 2025 20:26:6 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 05 2025 20:26:17 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:26:20 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:26:23 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 05 2025 20:26:23 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 05 2025 20:26:23 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 05 2025 20:26:31 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.687 ms
+Mon May 05 2025 20:26:31 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.145 ms
+Mon May 05 2025 20:26:32 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 1018.809 ms
+Mon May 05 2025 20:26:33 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 200 - 1348.479 ms
+Mon May 05 2025 20:26:35 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:26:37 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:26:52 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:26:53 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:26:56 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 05 2025 20:26:56 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 05 2025 20:26:56 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 05 2025 20:27:0 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:27:3 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 05 2025 20:27:3 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 05 2025 20:27:3 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 05 2025 20:27:43 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:27:45 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 05 2025 20:27:45 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 05 2025 20:27:45 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 05 2025 20:28:8 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/subcategory/681243ae9dc2b65a00127d8e 200 - 579.649 ms
+Mon May 05 2025 20:29:36 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory/681243ae9dc2b65a00127d8e 200 - 581.786 ms
+Mon May 05 2025 20:32:25 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 1.255 ms
+Mon May 05 2025 20:32:25 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.168 ms
+Mon May 05 2025 20:32:26 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 1008.724 ms
+Mon May 05 2025 20:32:26 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 1260.013 ms
+Mon May 05 2025 20:32:48 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/videos/delete/undefined 204 - 0.091 ms
+Mon May 05 2025 20:33:33 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.804 ms
+Mon May 05 2025 20:33:33 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.181 ms
+Mon May 05 2025 20:33:34 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 1008.141 ms
+Mon May 05 2025 20:33:35 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 1420.177 ms
+Mon May 05 2025 20:34:23 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/videos/delete/6818a1de740734c68bd7f2a8 204 - 2.867 ms
+Mon May 05 2025 20:37:17 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 200 - 960.189 ms
+Mon May 05 2025 20:38:14 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/videos/managment/videos 200 - 1002.324 ms
+Mon May 05 2025 20:40:37 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:40:41 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:40:44 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 05 2025 20:40:44 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 05 2025 20:40:44 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 05 2025 20:40:49 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:40:52 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 05 2025 20:40:52 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 05 2025 20:40:52 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 05 2025 20:40:58 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:41:1 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 05 2025 20:41:1 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 05 2025 20:41:1 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 05 2025 20:41:16 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:41:18 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:41:22 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 05 2025 20:41:22 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 05 2025 20:41:22 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 05 2025 20:41:28 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:41:29 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:41:31 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:41:32 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:41:36 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 05 2025 20:41:36 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 05 2025 20:41:36 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 05 2025 20:41:39 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:41:40 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:41:43 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 05 2025 20:41:43 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 05 2025 20:41:43 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 05 2025 20:42:14 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:42:17 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 05 2025 20:42:17 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 05 2025 20:42:17 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 05 2025 20:42:46 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:42:47 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:42:51 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 05 2025 20:42:51 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 05 2025 20:42:51 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 05 2025 20:42:58 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 05 2025 20:43:1 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 05 2025 20:43:1 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 05 2025 20:43:1 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 05 2025 20:43:5 [SERVER-NAME] info: 10.0.60.126 - DELETE /api/v1/admin/videos/managment/video-delete/6818b782814001ed3c33ef14 200 - 2994.876 ms
+Mon May 05 2025 20:43:14 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.517 ms
+Mon May 05 2025 20:43:14 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.176 ms
+Mon May 05 2025 20:43:14 [SERVER-NAME] info: 10.0.60.147 - GET /undefined - - - ms
+Mon May 05 2025 20:43:15 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 200 - 1005.470 ms
+Mon May 05 2025 20:43:15 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 1449.800 ms
+Mon May 05 2025 20:44:4 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.084 ms
+Mon May 05 2025 20:44:4 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.051 ms
+Mon May 05 2025 20:44:5 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 981.932 ms
+Mon May 05 2025 20:44:6 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 1427.593 ms
+Mon May 05 2025 20:44:26 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/video-delete/68189a671007c9875865f6e9 204 - 0.106 ms
+Mon May 05 2025 20:44:41 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/video-delete/68188df3d9173b00ef0ade83 204 - 0.121 ms
+Mon May 05 2025 20:46:55 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.059 ms
+Mon May 05 2025 20:46:55 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.043 ms
+Mon May 05 2025 20:46:56 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 926.929 ms
+Mon May 05 2025 20:46:56 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 1232.954 ms
+Mon May 05 2025 20:47:11 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/video-delete/6818b647814001ed3c33ef0a 204 - 0.117 ms
+Mon May 05 2025 20:47:13 [SERVER-NAME] info: 10.0.60.147 - DELETE /api/v1/admin/videos/managment/video-delete/6818b647814001ed3c33ef0a 200 - 1837.513 ms
+Mon May 05 2025 20:47:13 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.103 ms
+Mon May 05 2025 20:47:13 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 200 - 866.959 ms
+Mon May 05 2025 20:47:29 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.260 ms
+Mon May 05 2025 20:47:29 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.137 ms
+Mon May 05 2025 20:47:30 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 857.409 ms
+Mon May 05 2025 20:47:31 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 1156.328 ms
+Mon May 05 2025 20:47:46 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/video-delete/6818a1de740734c68bd7f2a8 204 - 0.132 ms
+Mon May 05 2025 20:49:17 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/upload-video 204 - 0.316 ms
+Mon May 05 2025 20:49:22 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/videos/managment/upload-video 200 - 4665.378 ms
+Mon May 05 2025 20:49:22 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.534 ms
+Mon May 05 2025 20:49:23 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 200 - 861.099 ms
+Mon May 05 2025 20:58:3 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/undefined 204 - 0.073 ms
+Mon May 05 2025 20:59:31 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.804 ms
+Mon May 05 2025 20:59:31 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/undefined 204 - 0.055 ms
+Mon May 05 2025 20:59:31 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.099 ms
+Mon May 05 2025 20:59:32 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 887.715 ms
+Mon May 05 2025 20:59:33 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 1121.743 ms

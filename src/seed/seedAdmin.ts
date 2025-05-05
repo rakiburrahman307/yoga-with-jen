@@ -38,7 +38,7 @@ const usersData = [
     role: USER_ROLES.SUPER_ADMIN,
     password: config.super_admin.password, // No need to hash here
     verified: true,
-  }
+  },
 ];
 
 // Function to hash password

@@ -3,6 +3,7 @@ export interface IVideo {
   category: string;
   subCategory: string;
   duration: string;
+  type: string;
   equipment: string[];
   thumbnailUrl: string;
   videoUrl: string;

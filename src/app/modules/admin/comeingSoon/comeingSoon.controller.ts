@@ -28,8 +28,8 @@ const getAllComingSoon = catchAsync(async (req, res) => {
     statusCode: StatusCodes.OK,
     success: true,
     message: 'Coming Soon retrieved successfully',
-    data: result.result, 
-    pagination: result.meta, 
+    data: result.result,
+    pagination: result.meta,
   });
 });
 
@@ -40,17 +40,19 @@ const getComingSoonContentLetest = catchAsync(async (req, res) => {
 
   // Sending the response with the latest content
   sendResponse(res, {
-    statusCode: StatusCodes.OK, 
+    statusCode: StatusCodes.OK,
     success: true,
     message: 'Coming Soon retrieved successfully',
-    data: result, 
+    data: result,
   });
 });
 
 // Controller function to fetch a single latest "Coming Soon" entry based on ID
 const singleComingSoonLetest = catchAsync(async (req, res) => {
   // Fetching a specific "Coming Soon" entry by ID
-  const result = await ComeingSoonService.getComingSoonContentLetest(req.params.id);
+  const result = await ComeingSoonService.getComingSoonContentLetest(
+    req.params.id,
+  );
 
   // Sending the response with the result
   sendResponse(res, {
@@ -68,7 +70,7 @@ const singleComingSoon = catchAsync(async (req, res) => {
 
   // Sending the response with the result
   sendResponse(res, {
-    statusCode: StatusCodes.OK, 
+    statusCode: StatusCodes.OK,
     success: true,
     message: 'Coming Soon retrieved successfully',
     data: result,
@@ -78,14 +80,17 @@ const singleComingSoon = catchAsync(async (req, res) => {
 // Controller function to update a "Coming Soon" entry
 const updateComingSoon = catchAsync(async (req, res) => {
   // Updating the "Coming Soon" entry by ID with the data from the request body
-  const result = await ComeingSoonService.updateComingSoon(req.params.id, req.body);
+  const result = await ComeingSoonService.updateComingSoon(
+    req.params.id,
+    req.body,
+  );
 
   // Sending the response with the updated result
   sendResponse(res, {
-    statusCode: StatusCodes.OK, 
+    statusCode: StatusCodes.OK,
     success: true,
     message: 'Coming Soon updated successfully',
-    data: result, 
+    data: result,
   });
 });
 

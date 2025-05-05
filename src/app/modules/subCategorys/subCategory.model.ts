@@ -12,6 +12,12 @@ const subCategorySchema = new Schema<ISubCategory>(
       ref: 'Category',
       required: true,
     },
+    categoryType: { type: String, required: true, enum:['paid','free']},
+    status: {
+      type: String,
+      enum: ['active', 'inactive'],
+      default: 'active',
+    },
   },
   {
     timestamps: true,

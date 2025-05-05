@@ -53,10 +53,22 @@ const deleteSubCategory = catchAsync(async (req, res) => {
     data: result,
   });
 });
+const getCategoryRelatedSubCategory = catchAsync(async (req, res) => {
+
+  const result = await CategoryService.getCategoryReletedSubcategory(req.params.id);
+
+  sendResponse(res, {
+    success: true,
+    statusCode: StatusCodes.OK,
+    message: 'Sub category retrive successfully',
+    data: result,
+  });
+});
 
 export const CategoryController = {
   createSubCategory,
   getSubCategories,
   updateSubCategory,
   deleteSubCategory,
+  getCategoryRelatedSubCategory
 };

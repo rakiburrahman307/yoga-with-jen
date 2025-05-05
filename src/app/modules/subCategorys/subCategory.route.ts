@@ -17,7 +17,11 @@ router.post(
   validateRequest(CategoryValidation.createSubCategoryZodSchema),
   CategoryController.createSubCategory,
 );
-
+router.get(
+  '/:id',
+  auth(USER_ROLES.ADMIN, USER_ROLES.SUPER_ADMIN, USER_ROLES.USER),
+  CategoryController.getCategoryRelatedSubCategory,
+);
 router
   .route('/:id')
   .patch(

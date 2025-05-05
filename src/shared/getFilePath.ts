@@ -1,5 +1,6 @@
 export type IFolderName =
   | 'image'
+  | 'images'
   | 'license'
   | 'driverLicense'
   | 'insurance'

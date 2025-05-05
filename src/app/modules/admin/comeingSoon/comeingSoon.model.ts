@@ -15,4 +15,7 @@ const VideoSchema = new Schema<IComeingSoon>(
   { timestamps: true },
 );
 
-export const ComeingSoon = mongoose.model<IComeingSoon>('comeingSoon', VideoSchema);
+export const ComeingSoon = mongoose.model<IComeingSoon>(
+  'comeingSoon',
+  VideoSchema,
+);
