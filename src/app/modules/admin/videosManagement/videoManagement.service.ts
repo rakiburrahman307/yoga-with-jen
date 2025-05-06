@@ -10,10 +10,7 @@ import { Category } from '../../category/category.model';
 import { User } from '../../user/user.model';
 // get videos
 const getVideos = async (query: Record<string, unknown>) => {
-  const queryBuilder = new QueryBuilder(
-    Video.find({ status: 'active' }),
-    query,
-  );
+  const queryBuilder = new QueryBuilder(Video.find({}), query);
   const videos = await queryBuilder
     .fields()
     .filter()
@@ -167,13 +164,12 @@ const getSingleVideoForAdmin = async (id: string, userId: string) => {
     config.bunnyCDN.bunny_token as string,
   );
 
-  
-    // If the user has an active subscription or the video is free
-    const data = {
-      ...result.toObject(),
-      videoUrl: decryptedUrl,
-    };
-    return data;
+  // If the user has an active subscription or the video is free
+  const data = {
+    ...result.toObject(),
+    videoUrl: decryptedUrl,
+  };
+  return data;
 };
 
 export const videoManagementService = {
@@ -183,5 +179,5 @@ export const videoManagementService = {
   statusChangeVideo,
   removeVideo,
   getSingleVideoFromDb,
-  getSingleVideoForAdmin
+  getSingleVideoForAdmin,
 };

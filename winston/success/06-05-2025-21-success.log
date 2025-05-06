@@ -1,0 +1,43 @@
+Tue May 06 2025 21:0:1 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/user/managment 200 - 930.128 ms
+Tue May 06 2025 21:0:52 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/user/managment? 204 - 0.042 ms
+Tue May 06 2025 21:0:53 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/user/managment? 200 - 971.792 ms
+Tue May 06 2025 21:0:58 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/user/managment/68078ee5507bc48195a7308c 204 - 0.102 ms
+Tue May 06 2025 21:0:59 [SERVER-NAME] info: 10.0.60.147 - PUT /api/v1/admin/user/managment/68078ee5507bc48195a7308c 200 - 993.894 ms
+Tue May 06 2025 21:0:59 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/user/managment? 204 - 0.129 ms
+Tue May 06 2025 21:1:0 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/user/managment? 200 - 975.992 ms
+Tue May 06 2025 21:1:2 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/user/managment/680f97594610b96059687f98 204 - 0.079 ms
+Tue May 06 2025 21:1:3 [SERVER-NAME] info: 10.0.60.147 - PUT /api/v1/admin/user/managment/680f97594610b96059687f98 200 - 990.708 ms
+Tue May 06 2025 21:1:4 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/user/managment? 200 - 964.050 ms
+Tue May 06 2025 21:1:5 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/user/managment/680f95a24610b96059687f8f 204 - 0.036 ms
+Tue May 06 2025 21:1:6 [SERVER-NAME] info: 10.0.60.147 - PUT /api/v1/admin/user/managment/680f95a24610b96059687f8f 200 - 994.610 ms
+Tue May 06 2025 21:1:6 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/user/managment? 204 - 0.051 ms
+Tue May 06 2025 21:1:7 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/user/managment? 200 - 965.742 ms
+Tue May 06 2025 21:1:10 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/user/managment/680f97594610b96059687f98 204 - 0.224 ms
+Tue May 06 2025 21:1:11 [SERVER-NAME] info: 10.0.60.147 - PUT /api/v1/admin/user/managment/680f97594610b96059687f98 200 - 977.365 ms
+Tue May 06 2025 21:1:12 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/user/managment? 200 - 965.293 ms
+Tue May 06 2025 21:1:17 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/user/managment?status=block 204 - 0.215 ms
+Tue May 06 2025 21:1:18 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/user/managment?status=block 200 - 1023.856 ms
+Tue May 06 2025 21:8:14 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/user/managment? 204 - 0.295 ms
+Tue May 06 2025 21:8:15 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/user/managment? 200 - 1065.848 ms
+Tue May 06 2025 21:12:10 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/comingSoon/ 200 - 988.979 ms
+Tue May 06 2025 21:15:50 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/user/managment/680f92a64610b96059687f7f 204 - 0.354 ms
+Tue May 06 2025 21:15:51 [SERVER-NAME] info: 10.0.60.147 - PUT /api/v1/admin/user/managment/680f92a64610b96059687f7f 200 - 886.726 ms
+Tue May 06 2025 21:15:51 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/user/managment? 204 - 0.117 ms
+Tue May 06 2025 21:15:52 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/user/managment? 200 - 862.893 ms
+Tue May 06 2025 21:40:54 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dahsboard/revenue 200 - 596.941 ms
+Tue May 06 2025 21:43:8 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dahsboard/resent-users 200 - 585.056 ms
+Tue May 06 2025 21:47:54 [SERVER-NAME] info: [34mA user connected[39m
+Tue May 06 2025 21:48:5 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dahsboard/revenue 204 - 0.071 ms
+Tue May 06 2025 21:48:5 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dahsboard/revenue 200 - 570.353 ms
+Tue May 06 2025 21:48:23 [SERVER-NAME] info: [31mA user disconnect[39m
+Tue May 06 2025 21:48:24 [SERVER-NAME] info: [34mA user connected[39m
+Tue May 06 2025 21:49:10 [SERVER-NAME] info: [31mA user disconnect[39m
+Tue May 06 2025 21:49:10 [SERVER-NAME] info: [34mA user connected[39m
+Tue May 06 2025 21:49:21 [SERVER-NAME] info: [31mA user disconnect[39m
+Tue May 06 2025 21:49:22 [SERVER-NAME] info: [34mA user connected[39m
+Tue May 06 2025 21:51:32 [SERVER-NAME] info: [31mA user disconnect[39m
+Tue May 06 2025 21:55:3 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dahsboard/revenue 204 - 0.129 ms
+Tue May 06 2025 21:55:4 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dahsboard/revenue 304 - 568.940 ms
+Tue May 06 2025 21:56:49 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dahsboard/statistics 200 - 1450.685 ms
+Tue May 06 2025 21:58:37 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dahsboard/revenue 204 - 1.783 ms
+Tue May 06 2025 21:58:38 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dahsboard/revenue 304 - 573.604 ms

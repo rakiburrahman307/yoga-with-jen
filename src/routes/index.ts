@@ -95,7 +95,7 @@ const routes = [
     route: ComingSoonRoutes,
   },
   {
-    path: '/admin/dahsboard',
+    path: '/admin/dashboard',
     route: DashboardRoutes,
   },
   {

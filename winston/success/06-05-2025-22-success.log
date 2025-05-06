@@ -1,0 +1,54 @@
+Tue May 06 2025 22:0:17 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dahsboard/statistics 204 - 0.064 ms
+Tue May 06 2025 22:0:19 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dahsboard/statistics 200 - 1422.459 ms
+Tue May 06 2025 22:22:25 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dahsboard/revenue 204 - 0.497 ms
+Tue May 06 2025 22:22:25 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/analytics/recent-users 204 - 0.054 ms
+Tue May 06 2025 22:22:25 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dahsboard/statistics 204 - 0.427 ms
+Tue May 06 2025 22:22:26 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dahsboard/revenue 304 - 571.962 ms
+Tue May 06 2025 22:22:27 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dahsboard/statistics 304 - 1437.231 ms
+Tue May 06 2025 22:22:49 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/analytics/recent-users 204 - 0.064 ms
+Tue May 06 2025 22:24:2 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 06 2025 22:24:5 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 06 2025 22:24:5 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue May 06 2025 22:24:5 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue May 06 2025 22:24:14 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/analytics/recent-users 204 - 0.912 ms
+Tue May 06 2025 22:24:31 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/analytics/recent-users 204 - 0.222 ms
+Tue May 06 2025 22:24:38 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/analytics/recent-users 204 - 0.135 ms
+Tue May 06 2025 22:24:43 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/revenue 204 - 0.201 ms
+Tue May 06 2025 22:24:43 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.102 ms
+Tue May 06 2025 22:24:43 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.088 ms
+Tue May 06 2025 22:24:44 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/revenue 200 - 611.451 ms
+Tue May 06 2025 22:24:44 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/resent-users 200 - 596.347 ms
+Tue May 06 2025 22:24:44 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 200 - 1419.056 ms
+Tue May 06 2025 22:35:16 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/user/managment? 204 - 0.103 ms
+Tue May 06 2025 22:35:16 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/user/managment? 200 - 839.582 ms
+Tue May 06 2025 22:35:18 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.076 ms
+Tue May 06 2025 22:35:18 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.144 ms
+Tue May 06 2025 22:35:19 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 845.746 ms
+Tue May 06 2025 22:35:19 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 1139.000 ms
+Tue May 06 2025 22:40:11 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/user/managment? 204 - 0.215 ms
+Tue May 06 2025 22:40:12 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/user/managment? 200 - 851.166 ms
+Tue May 06 2025 22:41:25 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/user/managment?searchTerm=tanvir 200 - 836.692 ms
+Tue May 06 2025 22:41:35 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/user/managment 200 - 844.035 ms
+Tue May 06 2025 22:42:3 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/user/managment?searchTerm=Subscribers 200 - 842.240 ms
+Tue May 06 2025 22:43:51 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/user/managment?searchTerm=subscribers 200 - 845.999 ms
+Tue May 06 2025 22:43:56 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/user/managment 200 - 852.941 ms
+Tue May 06 2025 22:44:16 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/user/managment 200 - 851.915 ms
+Tue May 06 2025 22:44:27 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/user/managment?searchTerm=kevogey463@hedotu.com 200 - 837.012 ms
+Tue May 06 2025 22:45:14 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 695.639 ms
+Tue May 06 2025 22:45:23 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/user/managment?searchTerm=sd 200 - 836.729 ms
+Tue May 06 2025 22:45:27 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/user/managment?searchTerm= 200 - 837.342 ms
+Tue May 06 2025 22:45:35 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/user/managment?searchTerm=Subscribers 200 - 838.725 ms
+Tue May 06 2025 22:46:26 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 06 2025 22:46:29 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 06 2025 22:46:30 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 06 2025 22:46:35 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 06 2025 22:46:38 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 06 2025 22:46:38 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue May 06 2025 22:46:38 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue May 06 2025 22:46:39 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 06 2025 22:46:46 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 06 2025 22:46:49 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 06 2025 22:46:52 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 06 2025 22:46:52 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue May 06 2025 22:46:52 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue May 06 2025 22:46:54 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/user/managment?searchTerm=Subscribers 200 - 2238.615 ms

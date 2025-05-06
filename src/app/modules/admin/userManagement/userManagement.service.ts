@@ -9,7 +9,7 @@ const getUsersFromDb = async (query: Record<string, unknown>) => {
     .fields()
     .filter()
     .paginate()
-    .search(['name email phone'])
+    .search(['name', 'email', 'phone'])
     .sort()
     .modelQuery.exec();
   const meta = await queryBuilder.countTotal();
