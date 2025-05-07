@@ -1,0 +1,6 @@
+Wed May 07 2025 15:17:13 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/user/managment? 401 - 3.433 ms
+Wed May 07 2025 15:17:13 [SERVER-NAME] error: 10.0.60.147 - GET /undefined 404 - 0.740 ms
+Wed May 07 2025 15:20:39 [SERVER-NAME] error: 10.0.60.147 - GET /undefined 404 - 1.900 ms
+Wed May 07 2025 15:25:21 [SERVER-NAME] error: 10.0.60.147 - PATCH /api/v1/admin/category/toggle-status/6816299037e1f440465dfc83 404 - 138.552 ms
+Wed May 07 2025 15:34:52 [SERVER-NAME] error: 10.0.60.147 - GET /undefined 404 - 3.423 ms
+Wed May 07 2025 15:40:46 [SERVER-NAME] error: 10.0.60.147 - GET /undefined 404 - 0.369 ms

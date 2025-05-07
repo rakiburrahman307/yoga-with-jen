@@ -1,0 +1,81 @@
+Wed May 07 2025 16:4:50 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.114 ms
+Wed May 07 2025 16:4:50 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.143 ms
+Wed May 07 2025 16:4:51 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 863.927 ms
+Wed May 07 2025 16:4:51 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 1130.797 ms
+Wed May 07 2025 16:15:37 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.064 ms
+Wed May 07 2025 16:15:38 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 849.852 ms
+Wed May 07 2025 16:15:42 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 847.432 ms
+Wed May 07 2025 16:15:44 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.043 ms
+Wed May 07 2025 16:15:45 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 851.594 ms
+Wed May 07 2025 16:16:17 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.125 ms
+Wed May 07 2025 16:16:18 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 851.625 ms
+Wed May 07 2025 16:17:16 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.040 ms
+Wed May 07 2025 16:17:16 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.031 ms
+Wed May 07 2025 16:17:16 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 918.925 ms
+Wed May 07 2025 16:17:17 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 1249.408 ms
+Wed May 07 2025 16:18:9 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.234 ms
+Wed May 07 2025 16:18:9 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.025 ms
+Wed May 07 2025 16:18:9 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 922.830 ms
+Wed May 07 2025 16:18:10 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 1247.329 ms
+Wed May 07 2025 16:20:18 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.047 ms
+Wed May 07 2025 16:20:18 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.044 ms
+Wed May 07 2025 16:20:19 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 861.510 ms
+Wed May 07 2025 16:20:19 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 1126.233 ms
+Wed May 07 2025 16:21:51 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.188 ms
+Wed May 07 2025 16:21:51 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.037 ms
+Wed May 07 2025 16:21:51 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 860.263 ms
+Wed May 07 2025 16:21:52 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 1129.051 ms
+Wed May 07 2025 16:23:24 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.284 ms
+Wed May 07 2025 16:23:24 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.025 ms
+Wed May 07 2025 16:23:25 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 860.871 ms
+Wed May 07 2025 16:23:26 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 1131.623 ms
+Wed May 07 2025 16:23:59 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.074 ms
+Wed May 07 2025 16:23:59 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.068 ms
+Wed May 07 2025 16:24:0 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 862.276 ms
+Wed May 07 2025 16:24:1 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 1130.501 ms
+Wed May 07 2025 16:45:17 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.056 ms
+Wed May 07 2025 16:45:18 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 877.708 ms
+Wed May 07 2025 16:45:27 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.056 ms
+Wed May 07 2025 16:45:28 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 874.398 ms
+Wed May 07 2025 16:45:37 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.051 ms
+Wed May 07 2025 16:45:38 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 874.865 ms
+Wed May 07 2025 16:46:19 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.055 ms
+Wed May 07 2025 16:46:20 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 890.431 ms
+Wed May 07 2025 16:46:21 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 877.972 ms
+Wed May 07 2025 16:46:32 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.036 ms
+Wed May 07 2025 16:46:33 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 877.432 ms
+Wed May 07 2025 16:47:11 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?category=yoga 200 - 874.256 ms
+Wed May 07 2025 16:47:37 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?status=active 200 - 876.383 ms
+Wed May 07 2025 16:47:48 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.041 ms
+Wed May 07 2025 16:47:49 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 875.527 ms
+Wed May 07 2025 16:50:2 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/videos/managment/videos 200 - 879.365 ms
+Wed May 07 2025 16:50:17 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/videos/managment/videos?category=Yoga 200 - 875.488 ms
+Wed May 07 2025 16:50:32 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/videos/managment/videos?category=yoga 200 - 875.806 ms
+Wed May 07 2025 16:50:42 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/videos/managment/videos?category=yoga 200 - 875.526 ms
+Wed May 07 2025 16:51:42 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.050 ms
+Wed May 07 2025 16:51:42 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 876.274 ms
+Wed May 07 2025 16:52:7 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.041 ms
+Wed May 07 2025 16:52:8 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 874.399 ms
+Wed May 07 2025 16:52:9 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 885.161 ms
+Wed May 07 2025 16:52:11 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 880.063 ms
+Wed May 07 2025 16:52:14 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.047 ms
+Wed May 07 2025 16:52:15 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 874.546 ms
+Wed May 07 2025 16:52:21 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.040 ms
+Wed May 07 2025 16:52:22 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 874.245 ms
+Wed May 07 2025 16:54:59 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 07 2025 16:55:2 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 07 2025 16:55:2 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 07 2025 16:55:2 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 07 2025 16:55:18 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 07 2025 16:55:21 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 07 2025 16:55:21 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 07 2025 16:55:21 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 07 2025 16:55:29 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 07 2025 16:55:32 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 07 2025 16:55:32 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 07 2025 16:55:32 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 07 2025 16:55:37 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/videos/managment/videos?category=yoga 200 - 937.467 ms
+Wed May 07 2025 16:55:58 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/videos/managment/videos?category=yoga%202 200 - 923.772 ms
+Wed May 07 2025 16:56:10 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/videos/managment/videos?category=Yoga 200 - 922.060 ms
+Wed May 07 2025 16:59:49 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos 204 - 0.356 ms
+Wed May 07 2025 16:59:50 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 304 - 826.612 ms

@@ -25,13 +25,36 @@ class QueryBuilder<T> {
     }
     return this;
   }
+  // filter() {
+  //   const excludeFields = ['searchTerm', 'sort', 'limit', 'page', 'fields'];
+  //   const queryObj = { ...this.query };
+  //   excludeFields.forEach((el) => delete queryObj[el]);
 
+  //   this.modelQuery = this.modelQuery.find(queryObj as FilterQuery<T>);
+  //   return this;
+  // }
   filter() {
     const excludeFields = ['searchTerm', 'sort', 'limit', 'page', 'fields'];
     const queryObj = { ...this.query };
+  
+    // Remove excluded fields
     excludeFields.forEach((el) => delete queryObj[el]);
-
-    this.modelQuery = this.modelQuery.find(queryObj as FilterQuery<T>);
+  
+    // Modify queryObj to add case-insensitive regex for string fields
+    const modifiedQueryObj = Object.entries(queryObj).reduce((acc, [key, value]) => {
+      if (typeof value === 'string') {
+        // Apply a case-insensitive regex for string fields
+        acc = { ...acc, [key]: { $regex: new RegExp(value, 'i') } };
+      } else {
+        // Leave other types (e.g., numbers, booleans) as they are
+        acc = { ...acc, [key]: value };
+      }
+      return acc;
+    }, {} as FilterQuery<T>);
+  
+    // Apply the modified query to the Mongoose find
+    this.modelQuery = this.modelQuery.find(modifiedQueryObj);
+  
     return this;
   }
 

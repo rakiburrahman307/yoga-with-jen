@@ -1,0 +1,14 @@
+Wed May 07 2025 20:36:25 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.597 ms
+Wed May 07 2025 20:36:25 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.069 ms
+Wed May 07 2025 20:36:25 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/revenue 204 - 0.062 ms
+Wed May 07 2025 20:36:26 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/revenue 304 - 568.237 ms
+Wed May 07 2025 20:36:26 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/resent-users 304 - 605.336 ms
+Wed May 07 2025 20:36:27 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 304 - 1427.643 ms
+Wed May 07 2025 20:36:28 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/user/managment? 204 - 0.135 ms
+Wed May 07 2025 20:36:29 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/user/managment? 200 - 847.551 ms
+Wed May 07 2025 20:36:30 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.262 ms
+Wed May 07 2025 20:36:30 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.031 ms
+Wed May 07 2025 20:36:31 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 304 - 874.745 ms
+Wed May 07 2025 20:36:32 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 1139.361 ms
+Wed May 07 2025 20:36:34 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory 204 - 0.241 ms
+Wed May 07 2025 20:36:35 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory 304 - 848.091 ms
