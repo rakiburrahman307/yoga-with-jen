@@ -38,6 +38,16 @@ const getPackage = catchAsync(async (req, res) => {
     pagination: result.meta,
   });
 });
+const getPackageByUser = catchAsync(async (req, res) => {
+  const result = await PackageService.getPackageByUserFromDB(req.query);
+  sendResponse(res, {
+    statusCode: StatusCodes.OK,
+    success: true,
+    message: 'Package Retrieved Successfully',
+    data: result.packages,
+    pagination: result.meta,
+  });
+});
 
 const packageDetails = catchAsync(async (req, res) => {
   const result = await PackageService.getPackageDetailsFromDB(req.params.id);
@@ -67,4 +77,5 @@ export const PackageController = {
   getPackage,
   packageDetails,
   deletePackage,
+  getPackageByUser,
 };

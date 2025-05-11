@@ -80,6 +80,19 @@ const getSingleCategory = catchAsync(async (req, res) => {
     data: result,
   });
 });
+const getSubcategorisByCategoris = catchAsync(async (req, res) => {
+  const { id } = req.params;
+  const result = await CategoryService.getSubcategoryWithCategoryIdFromDB(
+    id,
+    req.query,
+  );
+  sendResponse(res, {
+    success: true,
+    statusCode: StatusCodes.OK,
+    message: 'Subcategories retrieved successfully',
+    data: result,
+  });
+});
 export const CategoryController = {
   createCategory,
   getCategories,
@@ -87,4 +100,5 @@ export const CategoryController = {
   deleteCategory,
   updateCategoryStatus,
   getSingleCategory,
+  getSubcategorisByCategoris,
 };

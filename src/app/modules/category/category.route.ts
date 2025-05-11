@@ -47,5 +47,10 @@ router.get(
   auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN, USER_ROLES.USER),
   CategoryController.getCategories,
 );
+router.get(
+  '/subcategory/:id',
+  auth(USER_ROLES.USER),
+  CategoryController.getSubcategorisByCategoris,
+);
 
 export const CategoryRoutes = router;

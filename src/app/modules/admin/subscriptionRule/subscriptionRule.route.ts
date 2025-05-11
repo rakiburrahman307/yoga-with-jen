@@ -16,6 +16,11 @@ router.get(
   auth(USER_ROLES.ADMIN, USER_ROLES.SUPER_ADMIN),
   subscriptionRuleController.getSubscriptionRule,
 );
+router.get(
+  '/rules',
+  auth(USER_ROLES.USER),
+  subscriptionRuleController.getSubscriptionRule,
+);
 router.put(
   '/:id',
   auth(USER_ROLES.ADMIN, USER_ROLES.SUPER_ADMIN),

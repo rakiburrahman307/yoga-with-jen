@@ -79,6 +79,26 @@ const updatePackageToDB = async (
 
 const getPackageFromDB = async (queryParms: Record<string, unknown>) => {
   const query: any = {
+    isDeleted: false,
+  };
+
+  const queryBuilder = new QueryBuilder(Package.find(query), queryParms);
+  const packages = await queryBuilder
+    .filter()
+    .sort()
+    .paginate()
+    .fields()
+    .sort()
+    .modelQuery.exec();
+  console.log(packages);
+  const meta = await queryBuilder.countTotal();
+  return {
+    packages,
+    meta,
+  };
+};
+const getPackageByUserFromDB = async (queryParms: Record<string, unknown>) => {
+  const query: any = {
     status: 'active',
     isDeleted: false,
   };
@@ -137,4 +157,5 @@ export const PackageService = {
   getPackageFromDB,
   getPackageDetailsFromDB,
   deletePackageToDB,
+  getPackageByUserFromDB,
 };

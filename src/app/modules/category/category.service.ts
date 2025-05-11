@@ -5,6 +5,7 @@ import unlinkFile from '../../../shared/unlinkFile';
 import AppError from '../../../errors/AppError';
 import QueryBuilder from '../../builder/QueryBuilder';
 import { User } from '../user/user.model';
+import { SubCategory } from '../subCategorys/subCategory.model';
 
 const createCategoryToDB = async (payload: ICategory) => {
   const { name, categoryType, thumbnail } = payload;
@@ -123,6 +124,33 @@ const getSingleCategoryFromDB = async (id: string, userId: string) => {
     'You have to subscribe to access this category',
   );
 };
+const getSubcategoryWithCategoryIdFromDB = async (
+  id: string,
+  query: Record<string, unknown>,
+) => {
+  const queryBuilder = new QueryBuilder(
+    SubCategory.find({ categoryId: id }),
+    query,
+  );
+  const result = await queryBuilder
+    .fields()
+    .filter()
+    .paginate()
+    .search(['name'])
+    .sort()
+    .modelQuery.populate({
+      path: 'categoryId',
+      select: {
+        name: 1,
+      },
+    })
+    .exec();
+  const meta = await queryBuilder.countTotal();
+  return {
+    result,
+    meta,
+  };
+};
 export const CategoryService = {
   createCategoryToDB,
   getCategoriesFromDB,
@@ -130,4 +158,5 @@ export const CategoryService = {
   deleteCategoryToDB,
   updateCategoryStatusToDB,
   getSingleCategoryFromDB,
+  getSubcategoryWithCategoryIdFromDB,
 };

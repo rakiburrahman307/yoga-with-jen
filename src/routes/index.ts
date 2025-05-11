@@ -79,7 +79,15 @@ const routes = [
     route: PackageRoutes,
   },
   {
+    path: '/package',
+    route: PackageRoutes,
+  },
+  {
     path: '/admin/subscription/rules',
+    route: SubscriptionRuleRoute,
+  },
+  {
+    path: '/subscription',
     route: SubscriptionRuleRoute,
   },
   {
