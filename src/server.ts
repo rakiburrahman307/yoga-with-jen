@@ -46,8 +46,6 @@ export async function startServer() {
     socketServer = new SocketServer({
       cors: {
         origin: config.allowed_origins || '*',
-        methods: ['GET', 'POST'],
-        credentials: true,
       },
     });
 

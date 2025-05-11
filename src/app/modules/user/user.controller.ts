@@ -1,4 +1,3 @@
-import { NextFunction, Request, Response } from 'express';
 import { StatusCodes } from 'http-status-codes';
 import catchAsync from '../../../shared/catchAsync';
 import sendResponse from '../../../shared/sendResponse';
@@ -18,7 +17,7 @@ const createUser = catchAsync(async (req, res) => {
 });
 
 const getUserProfile = catchAsync(async (req, res) => {
-  const user = req.user;
+  const user: any = req.user;
   const result = await UserService.getUserProfileFromDB(user);
 
   sendResponse(res, {
@@ -31,7 +30,7 @@ const getUserProfile = catchAsync(async (req, res) => {
 
 //update profile
 const updateProfile = catchAsync(async (req, res) => {
-  const user = req.user;
+  const user: any = req.user;
   if ('role' in req.body) {
     delete req.body.role;
   }
@@ -54,7 +53,7 @@ const updateProfile = catchAsync(async (req, res) => {
 });
 //delete profile
 const deleteProfile = catchAsync(async (req, res) => {
-  const { id } = req.user;
+  const { id }: any = req.user;
   const { password } = req.body;
   const isUserVerified = await UserService.verifyUserPassword(id, password);
   if (!isUserVerified) {

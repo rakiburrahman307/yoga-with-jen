@@ -19,29 +19,27 @@ import cryptoToken from '../../../utils/cryptoToken';
 import { verifyToken } from '../../../utils/verifyToken';
 import { createToken } from '../../../utils/createToken';
 
+
 //login
+
 const loginUserFromDB = async (payload: ILoginData) => {
   const { email, password } = payload;
   if (!password) {
     throw new AppError(StatusCodes.BAD_REQUEST, 'Password is required!');
   }
+
   const isExistUser = await User.findOne({ email }).select('+password');
   if (!isExistUser) {
     throw new AppError(StatusCodes.BAD_REQUEST, "User doesn't exist!");
   }
 
-  //check verified and status
+  // Check if the user is verified
   if (!isExistUser.verified) {
-    //send mail
     const otp = generateOTP(6);
-    const value = {
-      otp,
-      email: isExistUser.email,
-    };
+    const value = { otp, email: isExistUser.email };
     const forgetPassword = emailTemplate.resetPassword(value);
     emailHelper.sendEmail(forgetPassword);
 
-    //save to DB
     const authentication = {
       oneTimeCode: otp,
       expireAt: new Date(Date.now() + 3 * 60000),
@@ -54,25 +52,48 @@ const loginUserFromDB = async (payload: ILoginData) => {
     );
   }
 
-  //check user status
+  // Check if the user account is blocked
   if (isExistUser?.status === 'blocked') {
     throw new AppError(
       StatusCodes.BAD_REQUEST,
-      'You don’t have permission to access this content.It looks like your account has been blocked.',
+      'You don’t have permission to access this content. It looks like your account has been blocked.',
     );
   }
 
-  //check match password
+  // Check if the password matches
   if (!(await User.isMatchPassword(password, isExistUser.password))) {
     throw new AppError(StatusCodes.BAD_REQUEST, 'Password is incorrect!');
   }
 
+  const today = new Date().toLocaleDateString(); // Get today's date in 'YYYY-MM-DD' format
+
+  // If last login was not today, increment the login count
+  if (
+    isExistUser.lastLogin &&
+    new Date(isExistUser.lastLogin).toLocaleDateString() !== today
+  ) {
+    // Use await here to ensure the update is done properly
+    await User.findByIdAndUpdate(
+      isExistUser._id,
+      { $inc: { loginCount: 1 } },
+      { new: true }
+    );
+  }
+
+  // Update the last login date to today
+  await User.findByIdAndUpdate(
+    isExistUser._id,
+    { $set: { lastLogin: new Date() } },
+    { new: true }
+  );
+
+  // Generate JWT tokens (Access and Refresh tokens)
   const jwtData = {
     id: isExistUser._id,
     role: isExistUser.role,
     email: isExistUser.email,
   };
-  //create token
+
   const accessToken = jwtHelper.createToken(
     jwtData,
     config.jwt.jwt_secret as Secret,

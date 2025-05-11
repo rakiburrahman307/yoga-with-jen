@@ -38,7 +38,6 @@ router
     validateRequest(UserValidation.createUserZodSchema),
     UserController.createUser,
   );
-
 router.delete('/delete', auth(USER_ROLES.USER), UserController.deleteProfile);
 
 export const UserRouter = router;

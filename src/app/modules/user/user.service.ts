@@ -9,6 +9,7 @@ import { User } from './user.model';
 import AppError from '../../../errors/AppError';
 import generateOTP from '../../../utils/generateOTP';
 import stripe from '../../../config/stripe';
+import mongoose from 'mongoose';
 // create user
 const createUserToDB = async (payload: IUser): Promise<IUser> => {
   //set role
@@ -184,6 +185,8 @@ const deleteUser = async (id: string) => {
 
   return true;
 };
+
+
 export const UserService = {
   createUserToDB,
   getUserProfileFromDB,

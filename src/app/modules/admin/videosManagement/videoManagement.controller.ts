@@ -82,6 +82,17 @@ const removeVideos = catchAsync(async (req, res) => {
     message: 'Videos deleted successfuly',
   });
 });
+const markVideoAsCompleted = catchAsync(async (req, res) => {
+  const { id }: any = req.user;
+  const { videoId } = req.params;
+  const result = await videoManagementService.markVideoAsCompleted(id, videoId);
+  sendResponse(res, {
+    success: true,
+    statusCode: StatusCodes.OK,
+    message: 'Video mark as complete successfully',
+    data: result,
+  });
+});
 export const videoManagementController = {
   getAllVideos,
   addVideos,
@@ -89,5 +100,6 @@ export const videoManagementController = {
   removeVideos,
   statusChange,
   getSingleVideo,
-  getSingleVideoForAdmin
+  getSingleVideoForAdmin,
+  markVideoAsCompleted,
 };

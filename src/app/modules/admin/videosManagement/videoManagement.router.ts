@@ -46,4 +46,9 @@ router.delete(
   auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN),
   videoManagementController.removeVideos,
 );
+router.post(
+  '/mark-video-watched/:videoId',
+  auth(USER_ROLES.USER),
+  videoManagementController.markVideoAsCompleted,
+);
 export const videoManagementRoute = router;

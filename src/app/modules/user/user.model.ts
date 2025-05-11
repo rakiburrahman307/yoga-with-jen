@@ -96,6 +96,9 @@ const userSchema = new Schema<IUser, UserModel>(
       type: String,
       default: '',
     },
+    lastLogin: { type: Date },
+    loginCount: { type: Number, default: 0 }, // Track total logins (1 per day)
+    completedSessions: [{ type: Schema.Types.ObjectId, ref: 'Video' }], // Track completed sessions by video IDs
     authentication: {
       type: {
         isResetPassword: {
@@ -148,7 +151,7 @@ userSchema.statics.isInFreeTrial = async (userId: string) => {
 userSchema.statics.hasActiveSubscription = async (userId: string) => {
   const user = await User.findById(userId);
   if (!user) throw new AppError(StatusCodes.NOT_FOUND, 'User not found');
-  return user.isSubscribed && user.hasAccess;;
+  return user.isSubscribed && user.hasAccess;
 };
 
 // Static function to check if the user's free trial has expired

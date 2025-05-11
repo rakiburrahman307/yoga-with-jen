@@ -1,0 +1,2 @@
+Sun May 11 2025 18:46:42 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/auth/login 400 - 2146.826 ms
+Sun May 11 2025 18:46:55 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/auth/login 400 - 813.335 ms

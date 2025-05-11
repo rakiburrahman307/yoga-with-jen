@@ -11,12 +11,15 @@ export type IUser = {
   subscriptionTitle: string;
   trialExpireAt: Date;
   subscription: Schema.Types.ObjectId;
+  completedSessions: Schema.Types.ObjectId[];
   packageName: string;
   isFreeTrial: boolean;
   isDeleted: boolean;
   isSubscribed: boolean;
   hasAccess: boolean;
   address: string;
+  lastLogin: Date;
+  loginCount: number;
   stripeCustomerId: string;
   status: 'active' | 'blocked';
   verified: boolean;

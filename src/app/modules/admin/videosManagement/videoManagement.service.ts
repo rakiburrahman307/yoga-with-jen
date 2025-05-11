@@ -8,6 +8,7 @@ import { decryptUrl } from '../../../../utils/cryptoToken';
 import config from '../../../../config';
 import { Category } from '../../category/category.model';
 import { User } from '../../user/user.model';
+import mongoose from 'mongoose';
 // get videos
 const getVideos = async (query: Record<string, unknown>) => {
   const queryBuilder = new QueryBuilder(Video.find({}), query);
@@ -171,7 +172,26 @@ const getSingleVideoForAdmin = async (id: string, userId: string) => {
   };
   return data;
 };
+// Mark a video as completed for a user
+const markVideoAsCompleted = async (userId: string, videoId: string) => {
+  const user = await User.findById(userId);
+  if (!user) {
+    throw new AppError(StatusCodes.NOT_FOUND, 'User not found');
+  }
+  if (!user.completedSessions.map((id) => id.toString()).includes(videoId)) {
+    const updateCompleteSession = await User.findByIdAndUpdate(userId, {
+      $push: { completedSessions: videoId },
+    });
 
+    if (!updateCompleteSession) {
+      throw new AppError(
+        StatusCodes.BAD_REQUEST,
+        'Failed to mark video as completed',
+      );
+    }
+    return true;
+  }
+};
 export const videoManagementService = {
   getVideos,
   addVideo,
@@ -179,5 +199,6 @@ export const videoManagementService = {
   statusChangeVideo,
   removeVideo,
   getSingleVideoFromDb,
+  markVideoAsCompleted,
   getSingleVideoForAdmin,
 };
