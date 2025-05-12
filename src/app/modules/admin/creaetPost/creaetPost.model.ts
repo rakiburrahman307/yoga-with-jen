@@ -1,10 +1,9 @@
 import mongoose, { Schema } from 'mongoose';
-import { IComeingSoon } from './comeingSoon.interface';
-const VideoSchema = new Schema<IComeingSoon>(
+import { ICreatePost } from './creaetPost.interface';
+const VideoSchema = new Schema<ICreatePost>(
   {
     title: { type: String, required: true },
     category: { type: String, required: true, trim: true },
-    subCategory: { type: String, required: true, trim: true },
     duration: { type: String, required: true },
     equipment: { type: [String], required: true },
     thumbnailUrl: { type: String, required: true },
@@ -15,7 +14,7 @@ const VideoSchema = new Schema<IComeingSoon>(
   { timestamps: true },
 );
 
-export const ComeingSoon = mongoose.model<IComeingSoon>(
-  'ComeingSoon',
+export const CreatePost = mongoose.model<ICreatePost>(
+  'CreatePost',
   VideoSchema,
 );

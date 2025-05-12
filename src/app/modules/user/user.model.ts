@@ -86,7 +86,7 @@ const userSchema = new Schema<IUser, UserModel>(
     },
     verified: {
       type: Boolean,
-      default: false,
+      default: true,
     },
     isDeleted: {
       type: Boolean,

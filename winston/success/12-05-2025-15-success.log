@@ -1,0 +1,32 @@
+Mon May 12 2025 15:18:3 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/users/ 200 - 2324.841 ms
+Mon May 12 2025 15:18:5 [SERVER-NAME] info: Mail send successfully
+Mon May 12 2025 15:34:11 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/users/ 200 - 2228.632 ms
+Mon May 12 2025 15:34:13 [SERVER-NAME] info: Mail send successfully
+Mon May 12 2025 15:39:9 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 12 2025 15:39:12 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 15:39:12 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 12 2025 15:39:12 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 12 2025 15:42:35 [SERVER-NAME] info: Mail send successfully
+Mon May 12 2025 15:42:44 [SERVER-NAME] info: Mail send successfully
+Mon May 12 2025 15:43:4 [SERVER-NAME] info: Mail send successfully
+Mon May 12 2025 15:46:24 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 12 2025 15:46:27 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 15:46:27 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 12 2025 15:46:27 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 12 2025 15:46:32 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 12 2025 15:46:35 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 15:46:35 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 12 2025 15:46:35 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 12 2025 15:46:37 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 12 2025 15:46:40 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 12 2025 15:46:43 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 15:46:43 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 12 2025 15:46:43 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 12 2025 15:49:2 [SERVER-NAME] info: 10.0.60.114 - POST /api/v1/auth/login 200 - 902.168 ms
+Mon May 12 2025 15:50:23 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 12 2025 15:50:25 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 15:50:25 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 12 2025 15:50:25 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 12 2025 15:53:44 [SERVER-NAME] info: 10.0.60.114 - POST /api/v1/auth/login 200 - 819.766 ms
+Mon May 12 2025 15:54:57 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/login 200 - 778.636 ms
+Mon May 12 2025 15:55:44 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/login 200 - 781.003 ms

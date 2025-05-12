@@ -15,6 +15,7 @@ import { SubscriptionRoutes } from '../app/modules/subscription/subscription.rou
 import { ComingSoonRoutes } from '../app/modules/admin/comeingSoon/comeingSoon.router';
 import { DashboardRoutes } from '../app/modules/admin/dashboard/dashboard.route';
 import { FavouritdRouter } from '../app/modules/favourit/favourit.router';
+import { CreatePostRoutes } from '../app/modules/admin/creaetPost/creaetPost.router';
 
 const router = express.Router();
 const routes = [
@@ -69,6 +70,10 @@ const routes = [
   {
     path: '/admin/videos/managment',
     route: videoManagementRoute,
+  },
+  {
+    path: '/admin/post/managment',
+    route: CreatePostRoutes,
   },
   {
     path: '/videos',
