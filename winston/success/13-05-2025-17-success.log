@@ -1,0 +1,10 @@
+Tue May 13 2025 17:0:14 [SERVER-NAME] info: 10.0.60.114 - POST /api/v1/auth/resend-otp 200 - 569.586 ms
+Tue May 13 2025 17:0:17 [SERVER-NAME] info: Mail send successfully
+Tue May 13 2025 17:0:29 [SERVER-NAME] info: 10.0.60.114 - POST /api/v1/auth/resend-otp 200 - 581.190 ms
+Tue May 13 2025 17:0:31 [SERVER-NAME] info: Mail send successfully
+Tue May 13 2025 17:1:55 [SERVER-NAME] info: 10.0.60.114 - POST /api/v1/auth/forget-password 200 - 593.418 ms
+Tue May 13 2025 17:1:57 [SERVER-NAME] info: Mail send successfully
+Tue May 13 2025 17:2:0 [SERVER-NAME] info: 10.0.60.114 - POST /api/v1/auth/resend-otp 200 - 574.799 ms
+Tue May 13 2025 17:2:2 [SERVER-NAME] info: Mail send successfully
+Tue May 13 2025 17:17:43 [SERVER-NAME] warn: [33mMongoDB disconnected. Attempting to reconnect...[39m
+Tue May 13 2025 17:17:43 [SERVER-NAME] info: [32mMongoDB reconnected successfully[39m
