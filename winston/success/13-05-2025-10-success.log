@@ -1,0 +1,44 @@
+Tue May 13 2025 10:1:27 [SERVER-NAME] warn: [33mMongoDB disconnected. Attempting to reconnect...[39m
+Tue May 13 2025 10:1:38 [SERVER-NAME] info: [32mMongoDB reconnected successfully[39m
+Tue May 13 2025 10:15:41 [SERVER-NAME] info: [34mSIGINT received. Shutting down gracefully...[39m
+Tue May 13 2025 10:16:7 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 13 2025 10:16:10 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 13 2025 10:16:10 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue May 13 2025 10:16:10 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue May 13 2025 10:33:9 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 13 2025 10:33:12 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 13 2025 10:33:12 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue May 13 2025 10:33:12 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue May 13 2025 10:33:15 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 13 2025 10:33:16 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 13 2025 10:33:19 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 13 2025 10:33:19 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue May 13 2025 10:33:19 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue May 13 2025 10:45:58 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 13 2025 10:46:1 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 13 2025 10:46:1 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue May 13 2025 10:46:1 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue May 13 2025 10:46:44 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 13 2025 10:46:47 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 13 2025 10:46:47 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue May 13 2025 10:46:47 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue May 13 2025 10:51:5 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 1300.600 ms
+Tue May 13 2025 10:51:17 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 1090.584 ms
+Tue May 13 2025 10:52:25 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 13 2025 10:52:28 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 13 2025 10:52:28 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue May 13 2025 10:52:28 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue May 13 2025 10:52:33 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 13 2025 10:52:36 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 13 2025 10:52:36 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue May 13 2025 10:52:36 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue May 13 2025 10:53:17 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 13 2025 10:53:22 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 13 2025 10:53:25 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 13 2025 10:53:25 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue May 13 2025 10:53:25 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue May 13 2025 10:54:35 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 13 2025 10:54:37 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 13 2025 10:54:37 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue May 13 2025 10:54:37 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue May 13 2025 10:54:43 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/admin/comingSoon/create 201 - 2912.394 ms

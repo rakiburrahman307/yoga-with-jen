@@ -2,6 +2,7 @@ import express from 'express';
 import auth from '../../../middleware/auth';
 import { USER_ROLES } from '../../../../enums/user';
 import { ComeingSoonController } from './comeingSoon.controller';
+import fileUploadHandlerbunny from '../../../middleware/fileUploadHandlerbunny';
 
 const router = express.Router();
 
@@ -9,6 +10,7 @@ const router = express.Router();
 router.post(
   '/create',
   auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.SUPER_ADMIN),
+  fileUploadHandlerbunny,
   ComeingSoonController.createComingSoon,
 );
 
@@ -41,6 +43,7 @@ router.get(
 router.patch(
   '/:id',
   auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.SUPER_ADMIN),
+  fileUploadHandlerbunny,
   ComeingSoonController.updateComingSoon,
 );
 

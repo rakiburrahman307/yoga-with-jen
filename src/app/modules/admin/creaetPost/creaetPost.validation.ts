@@ -6,10 +6,7 @@ const createPost = z.object({
     category: z.string().min(1, 'Category is required').trim(),
     duration: z.string().min(1, 'Duration is required'),
     equipment: z.array(z.string()).min(1, 'At least one equipment is required'),
-    thumbnailUrl: z.string().url('Thumbnail URL must be a valid URL'),
-    videoUrl: z.string().url('Video URL must be a valid URL'),
     description: z.string().min(1, 'Description is required'),
-    status: z.enum(['active', 'inactive']).default('active'),
   }),
 });
 

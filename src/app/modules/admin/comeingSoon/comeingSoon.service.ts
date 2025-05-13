@@ -1,9 +1,12 @@
 // Importing required dependencies
-import { StatusCodes } from 'http-status-codes'; // Standard HTTP status codes
-import AppError from '../../../../errors/AppError'; // Custom error handler for throwing errors with proper status and message
-import { IComeingSoon } from './comeingSoon.interface'; // Interface defining the structure of the 'Coming Soon' data
-import { ComeingSoon } from './comeingSoon.model'; // Mongoose model for 'Coming Soon' entity (database interaction)
-import QueryBuilder from '../../../builder/QueryBuilder'; // Custom query builder for handling complex queries (filter, sort, pagination)
+import { StatusCodes } from 'http-status-codes';
+import AppError from '../../../../errors/AppError';
+import { IComeingSoon } from './comeingSoon.interface';
+import { ComeingSoon } from './comeingSoon.model';
+import QueryBuilder from '../../../builder/QueryBuilder';
+import config from '../../../../config';
+import { decryptUrl } from '../../../../utils/cryptoToken';
+import { BunnyStorageHandeler } from '../../../../helpers/BunnyStorageHandeler';
 
 // Function to create a new "Coming Soon" entry
 const createComingSoon = async (payload: IComeingSoon) => {
@@ -36,7 +39,15 @@ const getComingSoonContentLetest = async (id: string) => {
   if (!result) {
     throw new AppError(StatusCodes.NOT_FOUND, 'Coming soon not found');
   }
-  return result;
+  const decryptedUrl = decryptUrl(
+    result.videoUrl,
+    config.bunnyCDN.bunny_token as string,
+  );
+  const data = {
+    ...result.toObject(),
+    videoUrl: decryptedUrl,
+  };
+  return data;
 };
 
 // Function to fetch a single "Coming Soon" entry by ID
@@ -46,11 +57,48 @@ const getSingleComingSoon = async (id: string) => {
   if (!result) {
     throw new AppError(StatusCodes.NOT_FOUND, 'Coming soon not found');
   }
-  return result;
+  const decryptedUrl = decryptUrl(
+    result.videoUrl,
+    config.bunnyCDN.bunny_token as string,
+  );
+  const data = {
+    ...result.toObject(),
+    videoUrl: decryptedUrl,
+  };
+  return data;
 };
 
 // Function to update an existing "Coming Soon" entry by ID
 const updateComingSoon = async (id: string, payload: Partial<IComeingSoon>) => {
+  const isExistVideo = await ComeingSoon.findById(id);
+  if (!isExistVideo) {
+    throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
+  }
+  const decodedUrl = decryptUrl(
+    isExistVideo.videoUrl,
+    config.bunnyCDN.bunny_token as string,
+  );
+  if (payload.videoUrl && decodedUrl && isExistVideo.videoUrl) {
+    try {
+      await BunnyStorageHandeler.deleteFromBunny(decodedUrl);
+    } catch (error) {
+      throw new AppError(
+        StatusCodes.INTERNAL_SERVER_ERROR,
+        'Error deleting old video from BunnyCDN',
+      );
+    }
+  }
+
+  if (payload.thumbnailUrl && isExistVideo.thumbnailUrl) {
+    try {
+      await BunnyStorageHandeler.deleteFromBunny(isExistVideo.thumbnailUrl);
+    } catch (error) {
+      throw new AppError(
+        StatusCodes.INTERNAL_SERVER_ERROR,
+        'Error deleting old thumbnail from BunnyCDN',
+      );
+    }
+  }
   // Finding the "Coming Soon" entry by its ID and updating it with the new data (payload)
   const result = await ComeingSoon.findByIdAndUpdate(id, payload, {
     new: true,

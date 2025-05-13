@@ -1,8 +1,0 @@
-Sun May 11 2025 20:1:59 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/subscription 403 - 279.557 ms
-Sun May 11 2025 20:2:16 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/admin/package/managment 403 - 286.763 ms
-Sun May 11 2025 20:2:37 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/subscription/jhgfhgdfg 404 - 0.600 ms
-Sun May 11 2025 20:2:54 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/subscription/jhgfhgdfg 404 - 0.389 ms
-Sun May 11 2025 20:20:14 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/subscription/rule/ 404 - 3.018 ms
-Sun May 11 2025 20:20:20 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/subscription/rules 403 - 304.564 ms
-Sun May 11 2025 20:28:55 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/package 403 - 305.842 ms
-Sun May 11 2025 20:30:14 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/package 403 - 281.394 ms

@@ -4,8 +4,7 @@ import catchAsync from '../../../../shared/catchAsync'; // Error handling utilit
 import sendResponse from '../../../../shared/sendResponse'; // Utility to format and send the response
 import { CreaetPostService } from './creaetPost.service';
 
-
-// Controller function to create a new "Coming Soon" entry
+// Controller function to create a new "Create post" entry
 const createPost = catchAsync(async (req, res) => {
   // Calling the service to create a new entry
   const result = await CreaetPostService.createPost(req.body);
@@ -14,73 +13,79 @@ const createPost = catchAsync(async (req, res) => {
   sendResponse(res, {
     statusCode: StatusCodes.CREATED,
     success: true,
-    message: 'Coming Soon created successfully',
+    message: 'Post created successfully',
     data: result,
   });
 });
 
-// Controller function to get all "Coming Soon" entries, with pagination
+// Controller function to get all "Create post" entries, with pagination
 const getAllCreatePost = catchAsync(async (req, res) => {
-  // Fetching all "Coming Soon" entries using query parameters (e.g., for pagination)
+  // Fetching all "Create post" entries using query parameters (e.g., for pagination)
   const result = await CreaetPostService.getAllPost(req.query);
 
   // Sending the response with the result and pagination data
   sendResponse(res, {
     statusCode: StatusCodes.OK,
     success: true,
-    message: 'Coming Soon retrieved successfully',
+    message: 'Post retrieved successfully',
     data: result.result,
     pagination: result.meta,
   });
 });
 
-
-
-// Controller function to fetch a specific "Coming Soon" entry by ID
+// Controller function to fetch a specific "Create post" entry by ID
 const singlePost = catchAsync(async (req, res) => {
-  // Fetching a specific "Coming Soon" entry by ID
+  // Fetching a specific "Create post" entry by ID
   const result = await CreaetPostService.getSinglePost(req.params.id);
 
   // Sending the response with the result
   sendResponse(res, {
     statusCode: StatusCodes.OK,
     success: true,
-    message: 'Coming Soon retrieved successfully',
+    message: 'Post retrieved successfully',
     data: result,
   });
 });
 
-// Controller function to update a "Coming Soon" entry
+// Controller function to update a "Create post" entry
 const updatePost = catchAsync(async (req, res) => {
-  // Updating the "Coming Soon" entry by ID with the data from the request body
-  const result = await CreaetPostService.updatePost(
-    req.params.id,
-    req.body,
-  );
+  // Updating the "Create post" entry by ID with the data from the request body
+  const result = await CreaetPostService.updatePost(req.params.id, req.body);
 
   // Sending the response with the updated result
   sendResponse(res, {
     statusCode: StatusCodes.OK,
     success: true,
-    message: 'Coming Soon updated successfully',
+    message: 'Post updated successfully',
     data: result,
   });
 });
 
-// Controller function to delete a "Coming Soon" entry by ID
-const deletePost= catchAsync(async (req, res) => {
-  // Deleting the "Coming Soon" entry by ID
+// Controller function to delete a "Create post" entry by ID
+const deletePost = catchAsync(async (req, res) => {
+  // Deleting the "Create post" entry by ID
   const result = await CreaetPostService.deletePost(req.params.id);
 
   // Sending the response after successful deletion
   sendResponse(res, {
     statusCode: StatusCodes.OK,
     success: true,
-    message: 'Coming Soon deleted successfully',
+    message: 'Post deleted successfully',
     data: result,
   });
 });
+const getPost = catchAsync(async (req, res) => {
+  // Deleting the "Create post" entry by ID
+  const result = await CreaetPostService.deletePost(req.params.id);
 
+  // Sending the response after successful deletion
+  sendResponse(res, {
+    statusCode: StatusCodes.OK,
+    success: true,
+    message: 'Post retrieved successfully',
+    data: result,
+  });
+});
 
 export const CreaetPostController = {
   createPost,
@@ -88,4 +93,5 @@ export const CreaetPostController = {
   singlePost,
   updatePost,
   deletePost,
+  getPost
 };

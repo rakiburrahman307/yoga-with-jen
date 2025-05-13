@@ -8,7 +8,7 @@ import { decryptUrl } from '../../../../utils/cryptoToken';
 import config from '../../../../config';
 import { Category } from '../../category/category.model';
 import { User } from '../../user/user.model';
-import mongoose from 'mongoose';
+
 // get videos
 const getVideos = async (query: Record<string, unknown>) => {
   const queryBuilder = new QueryBuilder(Video.find({}), query);
@@ -48,9 +48,13 @@ const updateVideo = async (id: string, payload: Partial<IVideo>) => {
   if (!isExistVideo) {
     throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
   }
-  if (payload.videoUrl && isExistVideo.videoUrl) {
+  const decodedUrl = decryptUrl(
+    isExistVideo.videoUrl,
+    config.bunnyCDN.bunny_token as string,
+  );
+  if (payload.videoUrl && decodedUrl && isExistVideo.videoUrl) {
     try {
-      await BunnyStorageHandeler.deleteFromBunny(isExistVideo.videoUrl);
+      await BunnyStorageHandeler.deleteFromBunny(decodedUrl);
     } catch (error) {
       throw new AppError(
         StatusCodes.INTERNAL_SERVER_ERROR,

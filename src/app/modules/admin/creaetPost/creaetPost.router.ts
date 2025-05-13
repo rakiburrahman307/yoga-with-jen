@@ -4,6 +4,7 @@ import { USER_ROLES } from '../../../../enums/user';
 import { CreaetPostController } from './creaetPost.controller';
 import validateRequest from '../../../middleware/validateRequest';
 import { CreatePostValidation } from './creaetPost.validation';
+import fileUploadHandlerbunny from '../../../middleware/fileUploadHandlerbunny';
 
 const router = express.Router();
 
@@ -11,10 +12,17 @@ const router = express.Router();
 router.post(
   '/create',
   auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.SUPER_ADMIN),
+  fileUploadHandlerbunny,
   validateRequest(CreatePostValidation.createPost),
   CreaetPostController.createPost,
 );
 
+// Route to get all "Create Post" entries
+router.get(
+  '/letest',
+  auth(USER_ROLES.USER),
+  CreaetPostController.getAllCreatePost,
+);
 // Route to get all "Create Post" entries
 router.get(
   '/',
@@ -33,6 +41,7 @@ router.get(
 router.patch(
   '/:id',
   auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.SUPER_ADMIN),
+  fileUploadHandlerbunny,
   CreaetPostController.updatePost,
 );
 

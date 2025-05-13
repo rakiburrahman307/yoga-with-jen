@@ -4,17 +4,20 @@ import AppError from '../../../../errors/AppError';
 import QueryBuilder from '../../../builder/QueryBuilder';
 import { ICreatePost } from './creaetPost.interface';
 import { CreatePost } from './creaetPost.model';
+import { decryptUrl } from '../../../../utils/cryptoToken';
+import config from '../../../../config';
+import { BunnyStorageHandeler } from '../../../../helpers/BunnyStorageHandeler';
 
-// Function to create a new "Coming Soon" entry
+// Function to create a new "create post" entry
 const createPost = async (payload: ICreatePost) => {
   const result = await CreatePost.create(payload);
   if (!result) {
-    throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to create coming soon');
+    throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to create create post');
   }
   return result;
 };
 
-// Function to fetch all "Coming Soon" entries, including pagination, filtering, and sorting
+// Function to fetch all "create post" entries, including pagination, filtering, and sorting
 const getAllPost = async (query: Record<string, unknown>) => {
   const querBuilder = new QueryBuilder(CreatePost.find({}), query);
 
@@ -28,45 +31,127 @@ const getAllPost = async (query: Record<string, unknown>) => {
   const meta = await querBuilder.countTotal();
   return { result, meta };
 };
+const getPost = async (query: Record<string, unknown>) => {
+  const querBuilder = new QueryBuilder(
+    CreatePost.find({ status: 'active' }),
+    query,
+  );
 
-// Function to get the latest "Coming Soon" content by ID
+  const result = await querBuilder
+    .fields()
+    .sort()
+    .paginate()
+    .filter()
+    .search(['title', 'category', 'subCategory']).modelQuery; // Final query model
+
+  const meta = await querBuilder.countTotal();
+  return { result, meta };
+};
+
+// Function to get the latest "create post" content by ID
 const getPostContentLetest = async (id: string) => {
-  // Finding the "Coming Soon" entry by its ID
+  // Finding the "create post" entry by its ID
   const result = await CreatePost.findById(id);
   if (!result) {
-    throw new AppError(StatusCodes.NOT_FOUND, 'Coming soon not found');
+    throw new AppError(StatusCodes.NOT_FOUND, 'create post not found');
   }
-  return result;
+  const decryptedUrl = decryptUrl(
+    result.videoUrl,
+    config.bunnyCDN.bunny_token as string,
+  );
+  const data = {
+    ...result.toObject(),
+    videoUrl: decryptedUrl,
+  };
+  return data;
 };
 
-// Function to fetch a single "Coming Soon" entry by ID
+// Function to fetch a single "create post" entry by ID
 const getSinglePost = async (id: string) => {
-  // Finding a specific "Coming Soon" entry by its ID
+  // Finding a specific "create post" entry by its ID
   const result = await CreatePost.findById(id);
+  // Decrypt the URL
+
   if (!result) {
-    throw new AppError(StatusCodes.NOT_FOUND, 'Coming soon not found');
+    throw new AppError(StatusCodes.NOT_FOUND, 'create post not found');
   }
-  return result;
+  const decryptedUrl = decryptUrl(
+    result.videoUrl,
+    config.bunnyCDN.bunny_token as string,
+  );
+  const data = {
+    ...result.toObject(),
+    videoUrl: decryptedUrl,
+  };
+
+  return data;
 };
 
-// Function to update an existing "Coming Soon" entry by ID
+// Function to update an existing "create post" entry by ID
 const updatePost = async (id: string, payload: Partial<ICreatePost>) => {
-  // Finding the "Coming Soon" entry by its ID and updating it with the new data (payload)
+  // Finding the "create post" entry by its ID and updating it with the new data (payload)
+  const isExistVideo = await CreatePost.findById(id);
+  if (!isExistVideo) {
+    throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
+  }
+  const decodedUrl = decryptUrl(
+    isExistVideo.videoUrl,
+    config.bunnyCDN.bunny_token as string,
+  );
+  if (payload.videoUrl && decodedUrl && isExistVideo.videoUrl) {
+    try {
+      await BunnyStorageHandeler.deleteFromBunny(decodedUrl);
+    } catch (error) {
+      throw new AppError(
+        StatusCodes.INTERNAL_SERVER_ERROR,
+        'Error deleting old video from BunnyCDN',
+      );
+    }
+  }
+
+  if (payload.thumbnailUrl && isExistVideo.thumbnailUrl) {
+    try {
+      await BunnyStorageHandeler.deleteFromBunny(isExistVideo.thumbnailUrl);
+    } catch (error) {
+      throw new AppError(
+        StatusCodes.INTERNAL_SERVER_ERROR,
+        'Error deleting old thumbnail from BunnyCDN',
+      );
+    }
+  }
   const result = await CreatePost.findByIdAndUpdate(id, payload, {
     new: true,
   });
   if (!result) {
-    throw new AppError(StatusCodes.NOT_FOUND, 'Coming soon not found');
+    throw new AppError(StatusCodes.NOT_FOUND, 'create post not found');
   }
   return result;
 };
 
-// Function to delete a "Coming Soon" entry by ID
+// Function to delete a "create post" entry by ID
 const deletePost = async (id: string) => {
-  // Finding the "Coming Soon" entry by its ID and deleting it
+  // Finding the "create post" entry by its ID and deleting it
   const result = await CreatePost.findByIdAndDelete(id);
   if (!result) {
-    throw new AppError(StatusCodes.NOT_FOUND, 'Coming soon not found');
+    throw new AppError(StatusCodes.NOT_FOUND, 'create post not found');
+  }
+  const decodedUrl = decryptUrl(
+    result.videoUrl,
+    config.bunnyCDN.bunny_token as string,
+  );
+  if (decodedUrl && result.videoUrl) {
+    try {
+      await BunnyStorageHandeler.deleteFromBunny(decodedUrl);
+
+      if (result.thumbnailUrl) {
+        await BunnyStorageHandeler.deleteFromBunny(result.thumbnailUrl);
+      }
+    } catch (error) {
+      throw new AppError(
+        StatusCodes.INTERNAL_SERVER_ERROR,
+        'Error deleting video from BunnyCDN',
+      );
+    }
   }
   return result;
 };
@@ -78,4 +163,5 @@ export const CreaetPostService = {
   getSinglePost,
   updatePost,
   deletePost,
+  getPost
 };

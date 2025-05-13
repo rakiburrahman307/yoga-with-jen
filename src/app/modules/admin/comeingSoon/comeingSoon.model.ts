@@ -4,7 +4,6 @@ const VideoSchema = new Schema<IComeingSoon>(
   {
     title: { type: String, required: true },
     category: { type: String, required: true, trim: true },
-    subCategory: { type: String, required: true, trim: true },
     duration: { type: String, required: true },
     equipment: { type: [String], required: true },
     thumbnailUrl: { type: String, required: true },

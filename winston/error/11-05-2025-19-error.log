@@ -1,5 +1,0 @@
-Sun May 11 2025 19:21:26 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/mark-video-watched/6818b226f6bb71fdfe71ad49 404 - 2.145 ms
-Sun May 11 2025 19:21:43 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/videos/mark-video-watched/6818b226f6bb71fdfe71ad49 400 - 590.339 ms
-Sun May 11 2025 19:22:18 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/videos/mark-video-watched/6818b226f6bb71fdfe71ad49 400 - 572.548 ms
-Sun May 11 2025 19:22:49 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/videos/mark-video-watched/6818b226f6bb71fdfe71ad49 400 - 565.224 ms
-Sun May 11 2025 19:35:22 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/banner 404 - 1.639 ms

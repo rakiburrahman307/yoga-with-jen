@@ -76,6 +76,10 @@ const routes = [
     route: CreatePostRoutes,
   },
   {
+    path: '/post',
+    route: CreatePostRoutes,
+  },
+  {
     path: '/videos',
     route: videoManagementRoute,
   },

@@ -3,6 +3,7 @@ import { getBunnyEncryptUrl, getBunnyUrl } from '../utils/getUrlBunny';
 import AppError from '../errors/AppError';
 import BunnyStorage from 'bunnycdn-storage';
 import config from '../config';
+import { decryptUrl } from '../utils/cryptoToken';
 const bunnyStorage = new BunnyStorage(
   config.bunnyCDN.apiKey as string,
   config.bunnyCDN.storageZone as string,
@@ -54,6 +55,7 @@ const uploadVideoToBunny = async (
 };
 const deleteFromBunny = async (fileUrl: string): Promise<boolean> => {
   try {
+  
     const filePath = extractFileKeyFromUrl(fileUrl);
     await bunnyStorage.delete(filePath);
     return true;
