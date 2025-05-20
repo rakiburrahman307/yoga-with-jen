@@ -186,7 +186,6 @@ const deleteUser = async (id: string) => {
   return true;
 };
 
-
 export const UserService = {
   createUserToDB,
   getUserProfileFromDB,

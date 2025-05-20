@@ -1,0 +1,13 @@
+Sun May 18 2025 12:0:6 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/videos/6818b226f6bb71fdfe71ad49 200 - 812.814 ms
+Sun May 18 2025 12:0:13 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 1085.078 ms
+Sun May 18 2025 12:0:20 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/videos/6818b226f6bb71fdfe71ad49 200 - 812.827 ms
+Sun May 18 2025 12:5:32 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 1091.940 ms
+Sun May 18 2025 12:5:40 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/videos/6818b226f6bb71fdfe71ad49 200 - 817.626 ms
+Sun May 18 2025 12:5:45 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/watch/6818b226f6bb71fdfe71ad49 200 - 811.939 ms
+Sun May 18 2025 12:7:52 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/videos/6818b226f6bb71fdfe71ad49 200 - 812.976 ms
+Sun May 18 2025 12:9:24 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/videos/6818b226f6bb71fdfe71ad49 200 - 816.849 ms
+Sun May 18 2025 12:12:12 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/videos/6818b226f6bb71fdfe71ad49 200 - 816.292 ms
+Sun May 18 2025 12:28:5 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/videos/6818b226f6bb71fdfe71ad49 200 - 812.718 ms
+Sun May 18 2025 12:28:29 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 1091.131 ms
+Sun May 18 2025 12:28:34 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 1081.627 ms
+Sun May 18 2025 12:28:49 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/videos/6818b226f6bb71fdfe71ad49 200 - 824.319 ms

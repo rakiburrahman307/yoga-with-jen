@@ -1,0 +1,4 @@
+Sat May 17 2025 12:21:46 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 1112.193 ms
+Sat May 17 2025 12:23:3 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 1110.549 ms
+Sat May 17 2025 12:24:37 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 1102.919 ms
+Sat May 17 2025 12:56:8 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 1108.523 ms

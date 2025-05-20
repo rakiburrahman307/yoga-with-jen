@@ -54,8 +54,9 @@ const deleteSubCategory = catchAsync(async (req, res) => {
   });
 });
 const getCategoryRelatedSubCategory = catchAsync(async (req, res) => {
-
-  const result = await CategoryService.getCategoryReletedSubcategory(req.params.id);
+  const result = await CategoryService.getCategoryReletedSubcategory(
+    req.params.id,
+  );
 
   sendResponse(res, {
     success: true,
@@ -70,5 +71,5 @@ export const CategoryController = {
   getSubCategories,
   updateSubCategory,
   deleteSubCategory,
-  getCategoryRelatedSubCategory
+  getCategoryRelatedSubCategory,
 };

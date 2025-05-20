@@ -8,6 +8,7 @@ import { decryptUrl } from '../../../../utils/cryptoToken';
 import config from '../../../../config';
 import { Category } from '../../category/category.model';
 import { User } from '../../user/user.model';
+import mongoose from 'mongoose';
 
 // get videos
 const getVideos = async (query: Record<string, unknown>) => {
@@ -141,11 +142,7 @@ const getSingleVideoFromDb = async (id: string, userId: string) => {
 
   const hasSubscription = await User.hasActiveSubscription(userId);
 
-  if (
-    hasSubscription ||
-    result.type === 'free' ||
-    (!hasSubscription && result.type === 'free')
-  ) {
+  if (hasSubscription || (!hasSubscription && result.type === 'free')) {
     // If the user has an active subscription or the video is free
     const data = {
       ...result.toObject(),
@@ -196,6 +193,148 @@ const markVideoAsCompleted = async (userId: string, videoId: string) => {
     return true;
   }
 };
+const addComment = async (videoId: string, userId: string, content: string) => {
+  return await Video.findByIdAndUpdate(
+    videoId,
+    { $push: { comments: { userId, content, likes: [], replies: [] } } },
+    { new: true },
+  );
+};
+const addReply = async (
+  videoId: string,
+  commentId: string,
+  userId: string,
+  content: string,
+) => {
+  return await Video.updateOne(
+    { _id: videoId, 'comments._id': commentId },
+    {
+      $push: {
+        'comments.$.replies': { userId, content, likes: [] },
+      },
+    },
+  );
+};
+const likeComment = async (
+  videoId: string,
+  commentId: string,
+  userId: string,
+) => {
+  return await Video.updateOne(
+    { _id: videoId, 'comments._id': commentId },
+    { $addToSet: { 'comments.$.likes': userId } },
+  );
+};
+const likeReply = async (
+  videoId: string,
+  commentId: string,
+  replyId: string,
+  userId: string,
+) => {
+  return await Video.updateOne(
+    {
+      _id: videoId,
+      'comments._id': commentId,
+      'comments.replies._id': replyId,
+    },
+    {
+      $addToSet: {
+        'comments.$[c].replies.$[r].likes': userId,
+      },
+    },
+    {
+      arrayFilters: [
+        { 'c._id': new mongoose.Types.ObjectId(commentId) },
+        { 'r._id': new mongoose.Types.ObjectId(replyId) },
+      ],
+    },
+  );
+};
+const unlikeComment = async (
+  videoId: string,
+  commentId: string,
+  userId: string,
+) => {
+  return await Video.updateOne(
+    { _id: videoId, 'comments._id': commentId },
+    { $pull: { 'comments.$.likes': userId } },
+  );
+};
+const unlikeReply = async (
+  videoId: string,
+  commentId: string,
+  replyId: string,
+  userId: string,
+) => {
+  return await Video.updateOne(
+    { _id: videoId },
+    {
+      $pull: {
+        'comments.$[c].replies.$[r].likes': userId,
+      },
+    },
+    {
+      arrayFilters: [
+        { 'c._id': new mongoose.Types.ObjectId(commentId) },
+        { 'r._id': new mongoose.Types.ObjectId(replyId) },
+      ],
+    },
+  );
+};
+
+const deleteComment = async (
+  videoId: string,
+  commentId: string,
+  userId: string,
+) => {
+  const videoObjectId = new mongoose.Types.ObjectId(videoId);
+  const commentObjectId = new mongoose.Types.ObjectId(commentId);
+  const userObjectId = new mongoose.Types.ObjectId(userId);
+
+  return await Video.updateOne(
+    {
+      _id: videoObjectId,
+      'comments._id': commentObjectId,
+      'comments.userId': userObjectId,
+    },
+    {
+      $pull: { comments: { _id: commentObjectId, userId: userObjectId } }, // match userId here too
+    },
+  );
+};
+
+const deleteReply = async (
+  videoId: string,
+  commentId: string,
+  replyId: string,
+  userId: string,
+) => {
+  const videoObjectId = new mongoose.Types.ObjectId(videoId);
+  const commentObjectId = new mongoose.Types.ObjectId(commentId);
+  const replyObjectId = new mongoose.Types.ObjectId(replyId);
+  const userObjectId = new mongoose.Types.ObjectId(userId);
+
+  return await Video.updateOne(
+    { _id: videoObjectId },
+    {
+      $pull: {
+        'comments.$[c].replies': { _id: replyObjectId, userId: userObjectId },
+      },
+    },
+    {
+      arrayFilters: [{ 'c._id': commentObjectId }],
+    },
+  );
+};
+const getCommentsByVideoId = async (videoId: string) => {
+  // Find video by ID and return only comments field
+  const video = await Video.findById(videoId)
+    .select('comments') // only select comments
+    .populate('comments.userId', 'name avatar')        // populate commenter user info (name, avatar)
+    .populate('comments.replies.userId', 'name avatar'); // populate replier user info
+
+  return video ? video.comments : [];
+};
 export const videoManagementService = {
   getVideos,
   addVideo,
@@ -205,4 +344,13 @@ export const videoManagementService = {
   getSingleVideoFromDb,
   markVideoAsCompleted,
   getSingleVideoForAdmin,
+  addComment,
+  addReply,
+  likeComment,
+  likeReply,
+  unlikeComment,
+  unlikeReply,
+  deleteComment,
+  deleteReply,
+  getCommentsByVideoId
 };

@@ -163,5 +163,5 @@ export const CreaetPostService = {
   getSinglePost,
   updatePost,
   deletePost,
-  getPost
+  getPost,
 };

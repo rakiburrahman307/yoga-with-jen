@@ -17,10 +17,7 @@ const likedVideosOrUnliked = catchAsync(async (req, res) => {
 
 const getFavouritVideos = catchAsync(async (req, res) => {
   const { id }: any = req.user;
-  const result = await FavouritVideosSevices.getAllFavouritList(
-    id,
-    req.query,
-  );
+  const result = await FavouritVideosSevices.getAllFavouritList(id, req.query);
   sendResponse(res, {
     statusCode: StatusCodes.OK,
     success: true,
@@ -32,10 +29,7 @@ const getFavouritVideos = catchAsync(async (req, res) => {
 const removeLikedVideos = catchAsync(async (req, res) => {
   const { id }: any = req.user;
   const { videoId } = req.params;
-  const result = await FavouritVideosSevices.deleteFavouriteVideos(
-    id,
-    videoId,
-  );
+  const result = await FavouritVideosSevices.deleteFavouriteVideos(id, videoId);
   sendResponse(res, {
     statusCode: StatusCodes.OK,
     success: true,
@@ -43,8 +37,22 @@ const removeLikedVideos = catchAsync(async (req, res) => {
     data: result,
   });
 });
+const getSingleVideo = catchAsync(async (req, res) => {
+  const { id }: any = req.user;
+  const result = await FavouritVideosSevices.getSingleVideoUrl(
+    req.params.id,
+    id,
+  );
+  sendResponse(res, {
+    success: true,
+    statusCode: StatusCodes.OK,
+    message: 'Url retrived successfuly',
+    data: result,
+  });
+});
 export const FavouritVideosController = {
   likedVideosOrUnliked,
   removeLikedVideos,
   getFavouritVideos,
+  getSingleVideo,
 };

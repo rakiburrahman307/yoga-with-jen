@@ -3,7 +3,6 @@ import auth from '../../middleware/auth';
 import { USER_ROLES } from '../../../enums/user';
 import { FavouritVideosController } from './favourit.controller';
 
-
 const router = express.Router();
 
 router.post(
@@ -16,6 +15,12 @@ router.get(
   auth(USER_ROLES.USER),
   FavouritVideosController.getFavouritVideos,
 );
+router.get(
+  '/watch/:id',
+  auth(USER_ROLES.USER),
+  FavouritVideosController.getSingleVideo,
+);
+
 router.delete(
   '/:videoId',
   auth(USER_ROLES.USER),

@@ -1,0 +1,15 @@
+Mon May 19 2025 10:1:33 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 569.305 ms
+Mon May 19 2025 10:2:59 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 567.209 ms
+Mon May 19 2025 10:9:8 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/681243ae9dc2b65a00127d8e 204 - 0.508 ms
+Mon May 19 2025 10:9:8 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory/681243ae9dc2b65a00127d8e 304 - 557.800 ms
+Mon May 19 2025 10:11:12 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/681243ae9dc2b65a00127d8e 204 - 0.151 ms
+Mon May 19 2025 10:11:12 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory/681243ae9dc2b65a00127d8e 304 - 556.432 ms
+Mon May 19 2025 10:12:42 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 567.380 ms
+Mon May 19 2025 10:13:48 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 555.194 ms
+Mon May 19 2025 10:15:7 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 560.387 ms
+Mon May 19 2025 10:16:45 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 556.460 ms
+Mon May 19 2025 10:22:38 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 1143.170 ms
+Mon May 19 2025 10:22:40 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 1615.368 ms
+Mon May 19 2025 10:22:47 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 1106.557 ms
+Mon May 19 2025 10:23:46 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 1118.492 ms
+Mon May 19 2025 10:43:17 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 554.761 ms

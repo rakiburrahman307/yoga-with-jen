@@ -1,0 +1,119 @@
+Sun May 18 2025 9:0:26 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun May 18 2025 9:0:28 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun May 18 2025 9:0:31 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun May 18 2025 9:0:31 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sun May 18 2025 9:0:31 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sun May 18 2025 9:1:52 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/favourit/?page=1 200 - 1189.870 ms
+Sun May 18 2025 9:2:20 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/videos/6818b226f6bb71fdfe71ad49 200 - 873.349 ms
+Sun May 18 2025 9:3:1 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun May 18 2025 9:3:4 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun May 18 2025 9:3:4 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sun May 18 2025 9:3:4 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sun May 18 2025 9:3:27 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/favourit/?page=1 200 - 1163.041 ms
+Sun May 18 2025 9:3:53 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun May 18 2025 9:3:55 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun May 18 2025 9:3:58 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun May 18 2025 9:3:58 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sun May 18 2025 9:3:58 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sun May 18 2025 9:4:1 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/favourit/?page=1 200 - 2926.099 ms
+Sun May 18 2025 9:8:24 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun May 18 2025 9:8:26 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun May 18 2025 9:8:26 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sun May 18 2025 9:8:26 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sun May 18 2025 9:9:16 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun May 18 2025 9:9:19 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun May 18 2025 9:9:19 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sun May 18 2025 9:9:19 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sun May 18 2025 9:9:24 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun May 18 2025 9:9:26 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun May 18 2025 9:9:26 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sun May 18 2025 9:9:26 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sun May 18 2025 9:9:30 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun May 18 2025 9:9:34 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun May 18 2025 9:9:36 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun May 18 2025 9:9:36 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sun May 18 2025 9:9:36 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sun May 18 2025 9:9:50 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun May 18 2025 9:9:52 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun May 18 2025 9:9:52 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sun May 18 2025 9:9:52 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sun May 18 2025 9:9:55 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 2538.235 ms
+Sun May 18 2025 9:10:2 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun May 18 2025 9:10:5 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun May 18 2025 9:10:7 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun May 18 2025 9:10:9 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun May 18 2025 9:10:9 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sun May 18 2025 9:10:9 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sun May 18 2025 9:10:17 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun May 18 2025 9:10:20 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun May 18 2025 9:10:26 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun May 18 2025 9:10:29 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun May 18 2025 9:10:29 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sun May 18 2025 9:10:29 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sun May 18 2025 9:11:12 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/favourit/?page=1 200 - 1179.149 ms
+Sun May 18 2025 9:11:37 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun May 18 2025 9:11:38 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun May 18 2025 9:11:41 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun May 18 2025 9:11:41 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sun May 18 2025 9:11:41 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sun May 18 2025 9:11:45 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun May 18 2025 9:11:48 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun May 18 2025 9:11:48 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sun May 18 2025 9:11:48 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sun May 18 2025 9:11:49 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun May 18 2025 9:11:51 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun May 18 2025 9:11:52 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun May 18 2025 9:11:55 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun May 18 2025 9:11:55 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sun May 18 2025 9:11:55 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sun May 18 2025 9:12:3 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/favourit/watch/6818b226f6bb71fdfe71ad49 200 - 864.282 ms
+Sun May 18 2025 9:15:56 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 1155.701 ms
+Sun May 18 2025 9:17:56 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 1148.898 ms
+Sun May 18 2025 9:18:56 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/favourit/?page=1 200 - 1139.084 ms
+Sun May 18 2025 9:19:39 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/favourit/?page=1 200 - 1134.221 ms
+Sun May 18 2025 9:21:28 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.385 ms
+Sun May 18 2025 9:21:28 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/revenue 204 - 0.072 ms
+Sun May 18 2025 9:21:28 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.038 ms
+Sun May 18 2025 9:21:29 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/resent-users 200 - 568.865 ms
+Sun May 18 2025 9:21:29 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/revenue 200 - 580.334 ms
+Sun May 18 2025 9:21:30 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 200 - 1411.375 ms
+Sun May 18 2025 9:21:31 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.066 ms
+Sun May 18 2025 9:21:31 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.055 ms
+Sun May 18 2025 9:21:32 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 200 - 866.443 ms
+Sun May 18 2025 9:21:32 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 200 - 1129.130 ms
+Sun May 18 2025 9:24:1 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/favourit/?page=1 200 - 1128.066 ms
+Sun May 18 2025 9:24:6 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/681243ae9dc2b65a00127d8e 204 - 0.066 ms
+Sun May 18 2025 9:24:6 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory/681243ae9dc2b65a00127d8e 200 - 560.015 ms
+Sun May 18 2025 9:24:30 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/6815e7dd3bd43020824bc3ac 204 - 0.078 ms
+Sun May 18 2025 9:24:30 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory/6815e7dd3bd43020824bc3ac 200 - 566.135 ms
+Sun May 18 2025 9:24:34 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/6816334a37e1f440465dfcb3 204 - 0.074 ms
+Sun May 18 2025 9:24:35 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory/6816334a37e1f440465dfcb3 200 - 560.825 ms
+Sun May 18 2025 9:24:42 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.080 ms
+Sun May 18 2025 9:24:42 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.106 ms
+Sun May 18 2025 9:24:43 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 200 - 862.885 ms
+Sun May 18 2025 9:24:43 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 1121.746 ms
+Sun May 18 2025 9:24:57 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/6815e7dd3bd43020824bc3ac 204 - 0.057 ms
+Sun May 18 2025 9:24:58 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory/6815e7dd3bd43020824bc3ac 304 - 560.329 ms
+Sun May 18 2025 9:25:3 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/681243ae9dc2b65a00127d8e 204 - 0.049 ms
+Sun May 18 2025 9:25:4 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory/681243ae9dc2b65a00127d8e 304 - 560.168 ms
+Sun May 18 2025 9:26:4 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/favourit/?page=1 200 - 1131.177 ms
+Sun May 18 2025 9:26:8 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 1119.664 ms
+Sun May 18 2025 9:27:28 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/upload-video 204 - 0.085 ms
+Sun May 18 2025 9:27:31 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/videos/managment/upload-video 200 - 3525.168 ms
+Sun May 18 2025 9:27:31 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.083 ms
+Sun May 18 2025 9:27:32 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 200 - 844.119 ms
+Sun May 18 2025 9:27:56 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/favourit/?page=1 200 - 1136.960 ms
+Sun May 18 2025 9:28:8 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/favourit/?page=1 200 - 1124.381 ms
+Sun May 18 2025 9:28:13 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/favourit/?page=1 200 - 1133.375 ms
+Sun May 18 2025 9:28:49 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/videos/6818b226f6bb71fdfe71ad49 200 - 844.670 ms
+Sun May 18 2025 9:29:9 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 1121.061 ms
+Sun May 18 2025 9:29:15 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/favourit/?page=1 200 - 1134.883 ms
+Sun May 18 2025 9:30:1 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 1127.211 ms
+Sun May 18 2025 9:31:7 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/favourit/682953a3f48a447511d50140 200 - 1144.876 ms
+Sun May 18 2025 9:32:0 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/favourit/?page=1 200 - 1132.836 ms
+Sun May 18 2025 9:32:10 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 1124.158 ms
+Sun May 18 2025 9:44:38 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 1120.354 ms
+Sun May 18 2025 9:47:28 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/favourit/?page=1 200 - 1129.513 ms
+Sun May 18 2025 9:50:7 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 1129.544 ms
+Sun May 18 2025 9:54:0 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 1121.237 ms
+Sun May 18 2025 9:54:57 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 1128.042 ms

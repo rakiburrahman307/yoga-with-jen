@@ -117,5 +117,5 @@ export const CategoryService = {
   updateCategoryToDB,
   deleteCategoryToDB,
   updateCategoryStatusToDB,
-  getCategoryReletedSubcategory
+  getCategoryReletedSubcategory,
 };

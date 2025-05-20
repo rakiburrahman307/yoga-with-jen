@@ -51,4 +51,57 @@ router.post(
   auth(USER_ROLES.USER),
   videoManagementController.markVideoAsCompleted,
 );
+// POST /videos/:videoId/comments
+router.post(
+  '/:videoId/comments',
+  auth(USER_ROLES.USER),
+  videoManagementController.postComment,
+);
+// POST /videos/:videoId/comments/:commentId/replies
+router.post(
+  '/:videoId/comments/:commentId/replies',
+  auth(USER_ROLES.USER),
+  videoManagementController.postReply,
+);
+
+router.post(
+  '/:videoId/comments/:commentId/like',
+  auth(USER_ROLES.USER),
+  videoManagementController.likeVideoComment,
+);
+// POST /videos/:videoId/comments/:commentId/replies/:replyId/like
+router.post(
+  '/:videoId/comments/:commentId/replies/:replyId/like',
+  auth(USER_ROLES.USER),
+  videoManagementController.likeVideoReply,
+);
+// Unlike routes
+router.post(
+  '/:videoId/comments/:commentId/unlike',
+  auth(USER_ROLES.USER),
+  videoManagementController.unlikeVideoComment,
+);
+router.post(
+  '/:videoId/comments/:commentId/replies/:replyId/unlike',
+  auth(USER_ROLES.USER),
+  videoManagementController.unlikeVideoReply,
+);
+
+// Delete routes
+router.delete(
+  '/:videoId/comments/:commentId',
+  auth(USER_ROLES.USER),
+  videoManagementController.removeComment,
+);
+router.delete(
+  '/:videoId/comments/:commentId/replies/:replyId',
+  auth(USER_ROLES.USER),
+  videoManagementController.removeReply,
+);
+router.get(
+  '/:videoId/comments',
+  auth(USER_ROLES.USER),
+  videoManagementController.getComments,
+);
+
 export const videoManagementRoute = router;

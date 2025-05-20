@@ -1,0 +1,9 @@
+Mon May 19 2025 12:8:50 [SERVER-NAME] error: 10.0.60.114 - GET /api/v1image/1000000297-1747633850982.jpg 404 - 0.789 ms
+Mon May 19 2025 12:8:50 [SERVER-NAME] error: 10.0.60.114 - GET /favicon.ico 404 - 0.452 ms
+Mon May 19 2025 12:9:3 [SERVER-NAME] error: 10.0.60.114 - GET /api/v1/image/1000000297-1747633850982.jpg 404 - 0.611 ms
+Mon May 19 2025 12:9:44 [SERVER-NAME] error: 10.0.60.114 - GET /api/v1/image/1000000297-1747633850982.jpg 404 - 0.495 ms
+Mon May 19 2025 12:41:56 [SERVER-NAME] error: 10.0.60.114 - GET /api/v1/settings 404 - 1.146 ms
+Mon May 19 2025 12:43:49 [SERVER-NAME] error: 10.0.60.114 - GET /api/v1/settings/support 404 - 0.977 ms
+Mon May 19 2025 12:51:30 [SERVER-NAME] error: 10.0.60.126 - PUT /api/v1/setting/ 404 - 110.668 ms
+Mon May 19 2025 12:51:50 [SERVER-NAME] error: 10.0.60.126 - PUT /api/v1/settings/ 403 - 286.060 ms
+Mon May 19 2025 12:53:5 [SERVER-NAME] error: 10.0.60.126 - PUT /api/v1/settings/ 400 - 1.450 ms

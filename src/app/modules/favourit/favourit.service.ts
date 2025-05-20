@@ -3,6 +3,10 @@ import AppError from '../../../errors/AppError';
 import mongoose from 'mongoose';
 import QueryBuilder from '../../builder/QueryBuilder';
 import { Favourite } from './favourit.model';
+import { Video } from '../admin/videosManagement/videoManagement.model';
+import { User } from '../user/user.model';
+import config from '../../../config';
+import { decryptUrl } from '../../../utils/cryptoToken';
 
 const likedVideos = async (userId: string, videoId: string) => {
   // Start a session for a transaction
@@ -54,14 +58,48 @@ const getAllFavouritList = async (
   userId: string,
   query: Record<string, unknown>,
 ) => {
-  const queryBuilder = new QueryBuilder(Favourite.find({ userId }), query);
+  const queryBuilder = new QueryBuilder(
+    Favourite.find({ userId }).populate(
+      'videoId',
+      'thumbnailUrl title duration type',
+    ),
+    query,
+  );
   const favouritList = await queryBuilder.fields().paginate().modelQuery.exec();
 
   const meta = await queryBuilder.countTotal();
   return { favouritList, meta };
 };
+const getSingleVideoUrl = async (id: string, userId: string) => {
+  const result = await Video.findById(id);
+  if (!result) {
+    throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
+  }
+
+  // Decrypt the URL
+  const decryptedUrl = decryptUrl(
+    result.videoUrl,
+    config.bunnyCDN.bunny_token as string,
+  );
+
+  const hasSubscription = await User.hasActiveSubscription(userId);
+
+  if (
+    hasSubscription ||
+    result.type === 'free' ||
+    (!hasSubscription && result.type === 'free')
+  ) {
+    // If the user has an active subscription or the video is free
+    const data = {
+      ...result.toObject(),
+      videoUrl: decryptedUrl,
+    };
+    return data.videoUrl;
+  }
+};
 export const FavouritVideosSevices = {
   likedVideos,
   getAllFavouritList,
   deleteFavouriteVideos,
+  getSingleVideoUrl,
 };

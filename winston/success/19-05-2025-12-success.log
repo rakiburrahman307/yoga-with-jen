@@ -1,0 +1,74 @@
+Mon May 19 2025 12:10:48 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/6816334a37e1f440465dfcb3 204 - 0.156 ms
+Mon May 19 2025 12:10:48 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory/6816334a37e1f440465dfcb3 200 - 579.188 ms
+Mon May 19 2025 12:10:58 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory 204 - 0.125 ms
+Mon May 19 2025 12:10:58 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory 200 - 848.834 ms
+Mon May 19 2025 12:10:58 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/frame-2147227088-(2)-1746266077431.png 200 - 11.030 ms
+Mon May 19 2025 12:10:58 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(7)-1746285331667.png 200 - 10.297 ms
+Mon May 19 2025 12:10:58 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(9)-1746285548523.png 200 - 8.336 ms
+Mon May 19 2025 12:10:59 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/msi-1746027437618.png 200 - 8.680 ms
+Mon May 19 2025 12:11:19 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category/681243ae9dc2b65a00127d8e 204 - 0.124 ms
+Mon May 19 2025 12:11:20 [SERVER-NAME] info: 10.0.60.147 - PATCH /api/v1/admin/category/681243ae9dc2b65a00127d8e 200 - 873.046 ms
+Mon May 19 2025 12:11:20 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.123 ms
+Mon May 19 2025 12:11:21 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 200 - 1132.498 ms
+Mon May 19 2025 12:11:25 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/quotation/managment 204 - 0.122 ms
+Mon May 19 2025 12:11:26 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/quotation/managment 304 - 570.287 ms
+Mon May 19 2025 12:11:31 [SERVER-NAME] info: 10.0.60.114 - GET /image/1000000297-1747633850982.jpg 200 - 0.946 ms
+Mon May 19 2025 12:11:31 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/681243ae9dc2b65a00127d8e 204 - 0.113 ms
+Mon May 19 2025 12:11:32 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory/681243ae9dc2b65a00127d8e 304 - 562.967 ms
+Mon May 19 2025 12:11:49 [SERVER-NAME] info: 10.0.60.240 - GET / 200 - 0.851 ms
+Mon May 19 2025 12:12:36 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 572.824 ms
+Mon May 19 2025 12:12:40 [SERVER-NAME] info: 10.0.60.240 - GET /image/1000000297-1747633850982.jpg 200 - 0.501 ms
+Mon May 19 2025 12:12:50 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/upload-video 204 - 0.126 ms
+Mon May 19 2025 12:14:25 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 564.922 ms
+Mon May 19 2025 12:14:31 [SERVER-NAME] info: 10.0.60.240 - GET /image/1000000297-1747633850982.jpg 200 - 1.067 ms
+Mon May 19 2025 12:14:50 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/videos/managment/upload-video - - - ms
+Mon May 19 2025 12:15:5 [SERVER-NAME] info: 10.0.60.240 - PATCH /api/v1/users/profile 200 - 880.565 ms
+Mon May 19 2025 12:15:15 [SERVER-NAME] info: 10.0.60.240 - GET /image/1000000156-1747635305048.jpg 200 - 1.258 ms
+Mon May 19 2025 12:16:51 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/videos/managment/upload-video - - - ms
+Mon May 19 2025 12:17:48 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/upload-video 204 - 0.711 ms
+Mon May 19 2025 12:19:49 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/videos/managment/upload-video - - - ms
+Mon May 19 2025 12:20:27 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 571.854 ms
+Mon May 19 2025 12:20:51 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/videos/managment/upload-video - - - ms
+Mon May 19 2025 12:21:49 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/videos/managment/upload-video - - - ms
+Mon May 19 2025 12:22:37 [SERVER-NAME] info: [34mSIGINT received. Shutting down gracefully...[39m
+Mon May 19 2025 12:22:56 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 19 2025 12:22:59 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 19 2025 12:22:59 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 19 2025 12:22:59 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 19 2025 12:23:56 [SERVER-NAME] info: [34mSIGINT received. Shutting down gracefully...[39m
+Mon May 19 2025 12:24:4 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 19 2025 12:24:6 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 19 2025 12:24:6 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 19 2025 12:24:6 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 19 2025 12:24:7 [SERVER-NAME] info: 10.0.60.240 - GET /image/1000000156-1747635305048.jpg 200 - 2.482 ms
+Mon May 19 2025 12:24:57 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/videos/managment/upload-video - - - ms
+Mon May 19 2025 12:25:16 [SERVER-NAME] info: 10.0.60.240 - PATCH /api/v1/users/profile 200 - 928.299 ms
+Mon May 19 2025 12:25:22 [SERVER-NAME] info: 10.0.60.240 - GET /image/1000000300-1747635915514.jpg 200 - 2.117 ms
+Mon May 19 2025 12:25:27 [SERVER-NAME] info: 10.0.60.240 - GET /image/1000000300-1747635915514.jpg 200 - 0.734 ms
+Mon May 19 2025 12:25:44 [SERVER-NAME] info: 10.0.60.240 - PATCH /api/v1/users/profile 200 - 830.336 ms
+Mon May 19 2025 12:25:51 [SERVER-NAME] info: 10.0.60.240 - GET /image/1000000156-1747635944319.jpg 200 - 0.741 ms
+Mon May 19 2025 12:25:59 [SERVER-NAME] info: 10.0.60.240 - GET /image/1000000156-1747635944319.jpg 200 - 0.562 ms
+Mon May 19 2025 12:27:4 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/videos/managment/upload-video - - - ms
+Mon May 19 2025 12:38:42 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 1115.064 ms
+Mon May 19 2025 12:44:22 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 19 2025 12:45:25 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 19 2025 12:45:28 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 19 2025 12:45:28 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 19 2025 12:45:28 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 19 2025 12:45:41 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 19 2025 12:45:44 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 19 2025 12:45:46 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 19 2025 12:46:14 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 19 2025 12:46:17 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 19 2025 12:46:17 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 19 2025 12:46:17 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 19 2025 12:47:33 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon May 19 2025 12:47:36 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 19 2025 12:47:36 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Mon May 19 2025 12:47:36 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Mon May 19 2025 12:47:54 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/settings 200 - 287.279 ms
+Mon May 19 2025 12:52:2 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 817.053 ms
+Mon May 19 2025 12:52:8 [SERVER-NAME] info: 10.0.60.126 - PUT /api/v1/settings/ 200 - 847.340 ms
+Mon May 19 2025 12:57:45 [SERVER-NAME] info: 10.0.60.126 - PUT /api/v1/settings/ 200 - 857.569 ms
+Mon May 19 2025 12:58:4 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/settings 200 - 283.475 ms
+Mon May 19 2025 12:58:22 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/settings 200 - 279.998 ms

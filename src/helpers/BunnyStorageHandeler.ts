@@ -55,7 +55,6 @@ const uploadVideoToBunny = async (
 };
 const deleteFromBunny = async (fileUrl: string): Promise<boolean> => {
   try {
-  
     const filePath = extractFileKeyFromUrl(fileUrl);
     await bunnyStorage.delete(filePath);
     return true;

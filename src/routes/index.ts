@@ -16,6 +16,7 @@ import { ComingSoonRoutes } from '../app/modules/admin/comeingSoon/comeingSoon.r
 import { DashboardRoutes } from '../app/modules/admin/dashboard/dashboard.route';
 import { FavouritdRouter } from '../app/modules/favourit/favourit.router';
 import { CreatePostRoutes } from '../app/modules/admin/creaetPost/creaetPost.router';
+import SettingsRouter from '../app/modules/sattings/sattings.route';
 
 const router = express.Router();
 const routes = [
@@ -122,6 +123,10 @@ const routes = [
   {
     path: '/favourit',
     route: FavouritdRouter,
+  },
+  {
+    path: '/settings',
+    route: SettingsRouter,
   },
 ];
 

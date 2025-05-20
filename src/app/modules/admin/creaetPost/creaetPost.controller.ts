@@ -93,5 +93,5 @@ export const CreaetPostController = {
   singlePost,
   updatePost,
   deletePost,
-  getPost
+  getPost,
 };

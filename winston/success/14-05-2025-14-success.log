@@ -1,0 +1,40 @@
+Wed May 14 2025 14:21:7 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/forget-password 200 - 682.684 ms
+Wed May 14 2025 14:21:10 [SERVER-NAME] info: Mail send successfully
+Wed May 14 2025 14:21:16 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/resend-otp 200 - 649.500 ms
+Wed May 14 2025 14:21:20 [SERVER-NAME] info: Mail send successfully
+Wed May 14 2025 14:26:20 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/forget-password 200 - 646.769 ms
+Wed May 14 2025 14:26:23 [SERVER-NAME] info: Mail send successfully
+Wed May 14 2025 14:28:22 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/forget-password 200 - 667.579 ms
+Wed May 14 2025 14:28:25 [SERVER-NAME] info: Mail send successfully
+Wed May 14 2025 14:29:4 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/resend-otp 200 - 646.814 ms
+Wed May 14 2025 14:29:7 [SERVER-NAME] info: Mail send successfully
+Wed May 14 2025 14:29:10 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/resend-otp 200 - 646.267 ms
+Wed May 14 2025 14:29:13 [SERVER-NAME] info: Mail send successfully
+Wed May 14 2025 14:29:20 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/resend-otp 200 - 656.994 ms
+Wed May 14 2025 14:29:22 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/resend-otp 200 - 661.098 ms
+Wed May 14 2025 14:29:23 [SERVER-NAME] info: Mail send successfully
+Wed May 14 2025 14:29:23 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/resend-otp 200 - 644.773 ms
+Wed May 14 2025 14:29:24 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/resend-otp 200 - 647.470 ms
+Wed May 14 2025 14:29:24 [SERVER-NAME] info: Mail send successfully
+Wed May 14 2025 14:29:26 [SERVER-NAME] info: Mail send successfully
+Wed May 14 2025 14:29:26 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/resend-otp 200 - 646.196 ms
+Wed May 14 2025 14:29:27 [SERVER-NAME] info: Mail send successfully
+Wed May 14 2025 14:29:28 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/resend-otp 200 - 673.197 ms
+Wed May 14 2025 14:29:29 [SERVER-NAME] info: Mail send successfully
+Wed May 14 2025 14:29:31 [SERVER-NAME] info: Mail send successfully
+Wed May 14 2025 14:29:31 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/resend-otp 200 - 648.352 ms
+Wed May 14 2025 14:29:33 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/resend-otp 200 - 647.930 ms
+Wed May 14 2025 14:29:33 [SERVER-NAME] info: Mail send successfully
+Wed May 14 2025 14:29:36 [SERVER-NAME] info: Mail send successfully
+Wed May 14 2025 14:29:37 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/resend-otp 200 - 661.137 ms
+Wed May 14 2025 14:29:39 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/resend-otp 200 - 650.646 ms
+Wed May 14 2025 14:29:40 [SERVER-NAME] info: Mail send successfully
+Wed May 14 2025 14:29:42 [SERVER-NAME] info: Mail send successfully
+Wed May 14 2025 14:29:42 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/resend-otp 200 - 654.308 ms
+Wed May 14 2025 14:29:45 [SERVER-NAME] info: Mail send successfully
+Wed May 14 2025 14:29:53 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/resend-otp 200 - 650.824 ms
+Wed May 14 2025 14:29:55 [SERVER-NAME] info: Mail send successfully
+Wed May 14 2025 14:52:22 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/forget-password 200 - 665.501 ms
+Wed May 14 2025 14:52:25 [SERVER-NAME] info: Mail send successfully
+Wed May 14 2025 14:57:50 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/forget-password 200 - 670.689 ms
+Wed May 14 2025 14:57:53 [SERVER-NAME] info: Mail send successfully

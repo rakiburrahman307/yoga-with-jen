@@ -1,0 +1,8 @@
+Thu May 15 2025 15:9:42 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/login 200 - 815.263 ms
+Thu May 15 2025 15:10:47 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/ 200 - 1116.903 ms
+Thu May 15 2025 15:13:42 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/favourit/ 200 - 1110.641 ms
+Thu May 15 2025 15:14:13 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/ 200 - 1115.319 ms
+Thu May 15 2025 15:16:58 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/ 200 - 1113.267 ms
+Thu May 15 2025 15:18:54 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/ 200 - 1115.025 ms
+Thu May 15 2025 15:19:58 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/ 200 - 1112.879 ms
+Thu May 15 2025 15:24:48 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/ 200 - 1116.123 ms

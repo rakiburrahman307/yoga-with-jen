@@ -1,0 +1,43 @@
+Thu May 15 2025 12:6:43 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/favourit/ 200 - 868.409 ms
+Thu May 15 2025 12:10:15 [SERVER-NAME] info: 10.0.60.114 - POST /api/v1/auth/login 200 - 826.212 ms
+Thu May 15 2025 12:10:26 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/favourit/ 200 - 844.969 ms
+Thu May 15 2025 12:10:40 [SERVER-NAME] info: 10.0.60.114 - POST /api/v1/favourit/6818b226f6bb71fdfe71ad49 200 - 1139.142 ms
+Thu May 15 2025 12:10:47 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/favourit/ 200 - 844.421 ms
+Thu May 15 2025 12:12:39 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 15 2025 12:12:42 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 15 2025 12:12:42 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 15 2025 12:12:42 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 15 2025 12:13:3 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 974.306 ms
+Thu May 15 2025 12:13:7 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/favourit/ 200 - 860.509 ms
+Thu May 15 2025 12:13:11 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/favourit/6818b226f6bb71fdfe71ad49 200 - 1143.480 ms
+Thu May 15 2025 12:13:15 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/favourit/ 200 - 849.264 ms
+Thu May 15 2025 12:13:21 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 15 2025 12:13:25 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 15 2025 12:13:26 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 15 2025 12:13:29 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 15 2025 12:13:29 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 15 2025 12:13:29 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 15 2025 12:13:35 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/favourit/ 200 - 1141.970 ms
+Thu May 15 2025 12:14:2 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 15 2025 12:14:3 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 15 2025 12:14:6 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 15 2025 12:14:6 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 15 2025 12:14:6 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 15 2025 12:14:10 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 15 2025 12:14:13 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 15 2025 12:14:13 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 15 2025 12:14:13 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 15 2025 12:14:16 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 15 2025 12:14:19 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 15 2025 12:14:19 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 15 2025 12:14:19 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 15 2025 12:14:24 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/favourit/ 200 - 1131.228 ms
+Thu May 15 2025 12:38:42 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/ 200 - 1122.259 ms
+Thu May 15 2025 12:52:50 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/ 200 - 1110.984 ms
+Thu May 15 2025 12:56:51 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/ 200 - 1113.505 ms
+Thu May 15 2025 12:56:54 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/ 200 - 1118.513 ms
+Thu May 15 2025 12:57:13 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/ 200 - 1110.219 ms
+Thu May 15 2025 12:57:16 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/ 200 - 1116.924 ms
+Thu May 15 2025 12:57:19 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/ 200 - 1110.065 ms
+Thu May 15 2025 12:57:23 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/ 200 - 1112.528 ms
+Thu May 15 2025 12:57:26 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/ 200 - 1114.610 ms

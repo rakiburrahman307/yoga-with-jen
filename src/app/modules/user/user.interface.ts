@@ -10,6 +10,7 @@ export type IUser = {
   joinDate: Date;
   subscriptionTitle: string;
   trialExpireAt: Date;
+  matTime: string;
   subscription: Schema.Types.ObjectId;
   completedSessions: Schema.Types.ObjectId[];
   packageName: string;

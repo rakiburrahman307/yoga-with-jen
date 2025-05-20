@@ -19,7 +19,6 @@ import cryptoToken from '../../../utils/cryptoToken';
 import { verifyToken } from '../../../utils/verifyToken';
 import { createToken } from '../../../utils/createToken';
 
-
 //login
 
 const loginUserFromDB = async (payload: ILoginData) => {
@@ -76,7 +75,7 @@ const loginUserFromDB = async (payload: ILoginData) => {
     await User.findByIdAndUpdate(
       isExistUser._id,
       { $inc: { loginCount: 1 } },
-      { new: true }
+      { new: true },
     );
   }
 
@@ -84,7 +83,7 @@ const loginUserFromDB = async (payload: ILoginData) => {
   await User.findByIdAndUpdate(
     isExistUser._id,
     { $set: { lastLogin: new Date() } },
-    { new: true }
+    { new: true },
   );
 
   // Generate JWT tokens (Access and Refresh tokens)

@@ -6,6 +6,6 @@ export const getBunnyUrl = async (fileKey: string) => {
 };
 export const getBunnyEncryptUrl = async (fileKey: string) => {
   const url = `${config.bunnyCDN.pullZoneUrl}/${fileKey}`;
-  const en =  encryptUrl(url, config.bunnyCDN.bunny_token as string);
+  const en = encryptUrl(url, config.bunnyCDN.bunny_token as string);
   return en;
 };

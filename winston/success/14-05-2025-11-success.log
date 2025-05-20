@@ -1,0 +1,15 @@
+Wed May 14 2025 11:42:57 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/revenue 204 - 0.711 ms
+Wed May 14 2025 11:42:57 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.117 ms
+Wed May 14 2025 11:42:57 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.062 ms
+Wed May 14 2025 11:42:58 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/resent-users 200 - 566.301 ms
+Wed May 14 2025 11:42:58 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/revenue 200 - 599.306 ms
+Wed May 14 2025 11:42:59 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 200 - 1440.902 ms
+Wed May 14 2025 11:43:3 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory 204 - 0.120 ms
+Wed May 14 2025 11:43:3 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.074 ms
+Wed May 14 2025 11:43:3 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory 200 - 854.343 ms
+Wed May 14 2025 11:43:4 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 200 - 1181.358 ms
+Wed May 14 2025 11:43:4 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/frame-2147227088-(2)-1746266077431.png 200 - 8.519 ms
+Wed May 14 2025 11:43:4 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(9)-1746285548523.png 200 - 10.566 ms
+Wed May 14 2025 11:43:4 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(7)-1746285331667.png 200 - 9.083 ms
+Wed May 14 2025 11:43:4 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/msi-1746027437618.png 200 - 9.427 ms
+Wed May 14 2025 11:44:12 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category/single/6816334a37e1f440465dfcb3 204 - 0.118 ms
