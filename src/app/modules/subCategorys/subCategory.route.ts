@@ -10,35 +10,19 @@ import { FOLDER_NAMES } from '../../../enums/files';
 const router = express.Router();
 
 router.post(
-  '/create',
-  auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN),
-  fileUploadHandler(),
-  parseFileData(FOLDER_NAMES.THUMBNAIL),
-  validateRequest(CategoryValidation.createSubCategoryZodSchema),
-  CategoryController.createSubCategory,
+     '/create',
+     auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN),
+     fileUploadHandler(),
+     parseFileData(FOLDER_NAMES.THUMBNAIL),
+     validateRequest(CategoryValidation.createSubCategoryZodSchema),
+     CategoryController.createSubCategory,
 );
-router.get(
-  '/:id',
-  auth(USER_ROLES.ADMIN, USER_ROLES.SUPER_ADMIN, USER_ROLES.USER),
-  CategoryController.getCategoryRelatedSubCategory,
-);
+router.get('/:id', auth(USER_ROLES.ADMIN, USER_ROLES.SUPER_ADMIN, USER_ROLES.USER), CategoryController.getCategoryRelatedSubCategory);
 router
-  .route('/:id')
-  .patch(
-    auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN),
-    fileUploadHandler(),
-    parseFileData(FOLDER_NAMES.THUMBNAIL),
-    CategoryController.updateSubCategory,
-  )
-  .delete(
-    auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN),
-    CategoryController.deleteSubCategory,
-  );
+     .route('/:id')
+     .patch(auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), fileUploadHandler(), parseFileData(FOLDER_NAMES.THUMBNAIL), CategoryController.updateSubCategory)
+     .delete(auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), CategoryController.deleteSubCategory);
 
-router.get(
-  '/',
-  auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN, USER_ROLES.USER),
-  CategoryController.getSubCategories,
-);
+router.get('/', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN, USER_ROLES.USER), CategoryController.getSubCategories);
 
 export const SubCategoryRoutes = router;

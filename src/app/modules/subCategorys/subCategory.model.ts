@@ -3,28 +3,25 @@ import { ISubCategory } from './subCategory.interface';
 
 // sub category
 const subCategorySchema = new Schema<ISubCategory>(
-  {
-    name: { type: String, required: true },
-    thumbnail: { type: String, required: true },
-    videoCount: { type: Number, default: 0 },
-    categoryId: {
-      type: Schema.Types.ObjectId,
-      ref: 'Category',
-      required: true,
-    },
-    categoryType: { type: String, required: true, enum: ['paid', 'free'] },
-    status: {
-      type: String,
-      enum: ['active', 'inactive'],
-      default: 'active',
-    },
-  },
-  {
-    timestamps: true,
-  },
+     {
+          name: { type: String, required: true },
+          thumbnail: { type: String, required: true },
+          videoCount: { type: Number, default: 0 },
+          categoryId: {
+               type: Schema.Types.ObjectId,
+               ref: 'Category',
+               required: true,
+          },
+          categoryType: { type: String, required: true, enum: ['paid', 'free'] },
+          status: {
+               type: String,
+               enum: ['active', 'inactive'],
+               default: 'active',
+          },
+     },
+     {
+          timestamps: true,
+     },
 );
 
-export const SubCategory = model<ISubCategory>(
-  'SubCategory',
-  subCategorySchema,
-);
+export const SubCategory = model<ISubCategory>('SubCategory', subCategorySchema);

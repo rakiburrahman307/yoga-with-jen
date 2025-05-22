@@ -3,31 +3,28 @@ import serviceAccount from '';
 import { logger } from '../shared/logger';
 
 // Cast serviceAccount to ServiceAccount type
-const serviceAccountKey: admin.ServiceAccount =
-  serviceAccount as admin.ServiceAccount;
+const serviceAccountKey: admin.ServiceAccount = serviceAccount as admin.ServiceAccount;
 
 // Initialize Firebase SDK
 admin.initializeApp({
-  credential: admin.credential.cert(serviceAccountKey),
+     credential: admin.credential.cert(serviceAccountKey),
 });
 
 //multiple user
-const sendPushNotifications = async (
-  values: admin.messaging.MulticastMessage,
-) => {
-  const res = await admin.messaging().sendEachForMulticast(values);
-  logger.info('Notifications sent successfully', res);
+const sendPushNotifications = async (values: admin.messaging.MulticastMessage) => {
+     const res = await admin.messaging().sendEachForMulticast(values);
+     logger.info('Notifications sent successfully', res);
 };
 
 //single user
 const sendPushNotification = async (values: admin.messaging.Message) => {
-  const res = await admin.messaging().send(values);
-  logger.info('Notification sent successfully', res);
+     const res = await admin.messaging().send(values);
+     logger.info('Notification sent successfully', res);
 };
 
 export const firebaseHelper = {
-  sendPushNotifications,
-  sendPushNotification,
+     sendPushNotifications,
+     sendPushNotification,
 };
 
 /* const message = {

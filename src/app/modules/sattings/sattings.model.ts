@@ -2,25 +2,25 @@ import { Schema, model } from 'mongoose';
 import { ISettings } from './sattings.interface';
 
 const settingsSchema = new Schema<ISettings>(
-  {
-    privacyPolicy: {
-      type: String,
-      default: '',
-    },
-    aboutUs: {
-      type: String,
-      default: '',
-    },
-    support: {
-      type: String,
-      default: '',
-    },
-    termsOfService: {
-      type: String,
-      default: '',
-    },
-  },
-  { timestamps: true },
+     {
+          privacyPolicy: {
+               type: String,
+               default: '',
+          },
+          aboutUs: {
+               type: String,
+               default: '',
+          },
+          support: {
+               type: String,
+               default: '',
+          },
+          termsOfService: {
+               type: String,
+               default: '',
+          },
+     },
+     { timestamps: true },
 );
 
 // Create the model

@@ -1,0 +1,94 @@
+Thu May 22 2025 15:21:13 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/revenue 204 - 0.458 ms
+Thu May 22 2025 15:21:13 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.362 ms
+Thu May 22 2025 15:21:13 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.095 ms
+Thu May 22 2025 15:21:13 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/revenue 200 - 584.464 ms
+Thu May 22 2025 15:21:13 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/resent-users 200 - 587.343 ms
+Thu May 22 2025 15:21:14 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 200 - 1427.124 ms
+Thu May 22 2025 15:21:29 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/user/managment? 204 - 0.143 ms
+Thu May 22 2025 15:21:30 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/user/managment? 200 - 852.467 ms
+Thu May 22 2025 15:21:30 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.075 ms
+Thu May 22 2025 15:21:30 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.132 ms
+Thu May 22 2025 15:21:31 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 200 - 1137.218 ms
+Thu May 22 2025 15:21:31 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 200 - 1155.020 ms
+Thu May 22 2025 15:21:33 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory 204 - 0.121 ms
+Thu May 22 2025 15:21:33 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory 200 - 867.641 ms
+Thu May 22 2025 15:21:33 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/frame-2147227088-(2)-1746266077431.png 200 - 8.031 ms
+Thu May 22 2025 15:21:33 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(9)-1746285548523.png 200 - 9.209 ms
+Thu May 22 2025 15:21:34 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(7)-1746285331667.png 200 - 9.767 ms
+Thu May 22 2025 15:21:34 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/msi-1746027437618.png 200 - 8.082 ms
+Thu May 22 2025 15:22:41 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.226 ms
+Thu May 22 2025 15:22:42 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 575.882 ms
+Thu May 22 2025 15:22:42 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 200 - 1.750 ms
+Thu May 22 2025 15:27:46 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.063 ms
+Thu May 22 2025 15:27:46 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory 204 - 0.084 ms
+Thu May 22 2025 15:27:47 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory 304 - 848.507 ms
+Thu May 22 2025 15:27:47 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 1159.175 ms
+Thu May 22 2025 15:27:47 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(7)-1746285331667.png 304 - 0.605 ms
+Thu May 22 2025 15:27:47 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(9)-1746285548523.png 304 - 0.882 ms
+Thu May 22 2025 15:27:47 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/frame-2147227088-(2)-1746266077431.png 304 - 0.196 ms
+Thu May 22 2025 15:27:47 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/msi-1746027437618.png 304 - 0.318 ms
+Thu May 22 2025 15:27:50 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category/single/6816334a37e1f440465dfcb3 204 - 0.159 ms
+Thu May 22 2025 15:28:18 [SERVER-NAME] info: [34mSIGINT received. Shutting down gracefully...[39m
+Thu May 22 2025 15:28:25 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 22 2025 15:28:28 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 22 2025 15:28:28 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 22 2025 15:28:28 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 22 2025 15:29:6 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 889.456 ms
+Thu May 22 2025 15:29:28 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/admin/post/managment/create 201 - 5274.915 ms
+Thu May 22 2025 15:34:32 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 200 - 1746.447 ms
+Thu May 22 2025 15:35:59 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category/create 204 - 0.303 ms
+Thu May 22 2025 15:35:59 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.122 ms
+Thu May 22 2025 15:36:1 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 1208.327 ms
+Thu May 22 2025 15:36:15 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category/create 204 - 0.052 ms
+Thu May 22 2025 15:36:15 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.055 ms
+Thu May 22 2025 15:36:16 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 1183.385 ms
+Thu May 22 2025 15:36:34 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.053 ms
+Thu May 22 2025 15:36:34 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory 204 - 0.057 ms
+Thu May 22 2025 15:36:34 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory 304 - 813.876 ms
+Thu May 22 2025 15:36:35 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 1186.987 ms
+Thu May 22 2025 15:36:35 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/frame-2147227088-(2)-1746266077431.png 304 - 1.400 ms
+Thu May 22 2025 15:36:35 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(7)-1746285331667.png 304 - 1.598 ms
+Thu May 22 2025 15:36:35 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(9)-1746285548523.png 304 - 1.821 ms
+Thu May 22 2025 15:36:35 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/msi-1746027437618.png 304 - 0.249 ms
+Thu May 22 2025 15:37:0 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category/create 204 - 0.129 ms
+Thu May 22 2025 15:37:0 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.095 ms
+Thu May 22 2025 15:37:2 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 1183.090 ms
+Thu May 22 2025 15:40:41 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.190 ms
+Thu May 22 2025 15:40:41 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory 204 - 0.140 ms
+Thu May 22 2025 15:40:42 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory 304 - 818.344 ms
+Thu May 22 2025 15:40:42 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 1185.810 ms
+Thu May 22 2025 15:41:5 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.170 ms
+Thu May 22 2025 15:41:6 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 304 - 910.582 ms
+Thu May 22 2025 15:41:58 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 22 2025 15:42:1 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 22 2025 15:42:1 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 22 2025 15:42:1 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 22 2025 15:42:2 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.658 ms
+Thu May 22 2025 15:42:2 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory 204 - 0.143 ms
+Thu May 22 2025 15:42:4 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory 304 - 2175.976 ms
+Thu May 22 2025 15:42:4 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 2343.113 ms
+Thu May 22 2025 15:42:4 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(9)-1746285548523.png 304 - 0.902 ms
+Thu May 22 2025 15:42:4 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(7)-1746285331667.png 304 - 0.504 ms
+Thu May 22 2025 15:42:4 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/frame-2147227088-(2)-1746266077431.png 304 - 0.706 ms
+Thu May 22 2025 15:42:4 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/msi-1746027437618.png 304 - 0.359 ms
+Thu May 22 2025 15:45:56 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category/single/6816334a37e1f440465dfcb3 204 - 0.404 ms
+Thu May 22 2025 15:47:54 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.061 ms
+Thu May 22 2025 15:47:55 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 304 - 883.457 ms
+Thu May 22 2025 15:48:23 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 22 2025 15:49:52 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 22 2025 15:49:54 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 22 2025 15:49:54 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 22 2025 15:49:54 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 22 2025 15:51:58 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 22 2025 15:52:1 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 22 2025 15:52:1 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 22 2025 15:52:1 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 22 2025 15:52:2 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 22 2025 15:52:5 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 22 2025 15:52:5 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 22 2025 15:52:5 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 22 2025 15:57:40 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 22 2025 15:57:43 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 22 2025 15:57:45 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 22 2025 15:57:45 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 22 2025 15:57:45 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m

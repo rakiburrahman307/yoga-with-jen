@@ -1,4 +1,4 @@
 export interface ISubscriptionRule {
-  rule: string;
-  subscriptionType: 'app' | 'web';
+     rule: string;
+     subscriptionType: 'app' | 'web';
 }

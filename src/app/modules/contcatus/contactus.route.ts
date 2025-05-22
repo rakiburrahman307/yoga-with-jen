@@ -5,15 +5,7 @@ import { ContactController } from './contactus.controller';
 
 const router = Router();
 
-router.post(
-  '/create-contact',
-  auth(USER_ROLES.USER),
-  ContactController.createContact,
-);
-router.get(
-  '/',
-  auth(USER_ROLES.ADMIN, USER_ROLES.SUPER_ADMIN),
-  ContactController.getAllContacts,
-);
+router.post('/create-contact', auth(USER_ROLES.USER), ContactController.createContact);
+router.get('/', auth(USER_ROLES.ADMIN, USER_ROLES.SUPER_ADMIN), ContactController.getAllContacts);
 
 export const ContactRoutes = router;

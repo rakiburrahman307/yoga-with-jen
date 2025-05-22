@@ -1,5 +1,0 @@
-Wed May 21 2025 15:20:45 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/community/leaderboard 400 - 294.969 ms
-Wed May 21 2025 15:21:20 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/community/leaderboard 400 - 1994.128 ms
-Wed May 21 2025 15:22:3 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/community/leaderboard 400 - 289.364 ms
-Wed May 21 2025 15:25:31 [SERVER-NAME] error: [31mDatabase connection error[39m Server selection timed out after 5000 ms
-Wed May 21 2025 15:26:2 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/community/leaderboard 400 - 607.836 ms

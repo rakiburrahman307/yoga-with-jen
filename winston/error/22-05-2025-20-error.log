@@ -1,0 +1,15 @@
+Thu May 22 2025 20:0:2 [SERVER-NAME] error: 10.0.60.147 - POST /api/v1/admin/subcategory/create 400 - 857.776 ms
+Thu May 22 2025 20:9:56 [SERVER-NAME] error: 10.0.60.147 - GET /undefined 404 - 0.337 ms
+Thu May 22 2025 20:10:52 [SERVER-NAME] error: 10.0.60.147 - DELETE /api/v1/admin/videos/managment/video-delete/68051f260f091316ed43c189 500 - 1138.189 ms
+Thu May 22 2025 20:11:38 [SERVER-NAME] error: 10.0.60.147 - PATCH /api/v1/admin/subcategory/toggle-status/682f2cbbbbf267bba7c82311 404 - 26.431 ms
+Thu May 22 2025 20:15:41 [SERVER-NAME] error: 10.0.60.147 - DELETE /api/v1/admin/category/[object%20Object] 400 - 278.898 ms
+Thu May 22 2025 20:19:10 [SERVER-NAME] error: 10.0.60.147 - GET /undefined 404 - 0.552 ms
+Thu May 22 2025 20:21:20 [SERVER-NAME] error: 10.0.60.147 - GET /undefined 404 - 2.620 ms
+Thu May 22 2025 20:29:59 [SERVER-NAME] error: 10.0.60.147 - PATCH /api/v1/admin/subcategory/toggle-status/6812458e9dc2b65a00127da1 404 - 9.602 ms
+Thu May 22 2025 20:38:32 [SERVER-NAME] error: 10.0.60.147 - GET /undefined 404 - 0.850 ms
+Thu May 22 2025 20:44:1 [SERVER-NAME] error: 10.0.60.147 - PATCH /api/v1/admin/category/toggle-status/681243ae9dc2b65a00127d8e 404 - 0.708 ms
+Thu May 22 2025 20:45:25 [SERVER-NAME] error: 10.0.60.147 - GET /undefined 404 - 0.933 ms
+Thu May 22 2025 20:55:42 [SERVER-NAME] error: 10.0.60.147 - GET /undefined 404 - 0.282 ms
+Thu May 22 2025 20:55:44 [SERVER-NAME] error: 10.0.60.147 - GET /undefined 404 - 0.345 ms
+Thu May 22 2025 20:55:47 [SERVER-NAME] error: 10.0.60.147 - GET /undefined 404 - 1.373 ms
+Thu May 22 2025 20:55:50 [SERVER-NAME] error: 10.0.60.147 - GET /undefined 404 - 1.090 ms

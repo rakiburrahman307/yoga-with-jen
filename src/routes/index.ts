@@ -18,127 +18,132 @@ import { FavouritdRouter } from '../app/modules/favourit/favourit.router';
 import { CreatePostRoutes } from '../app/modules/admin/creaetPost/creaetPost.router';
 import SettingsRouter from '../app/modules/sattings/sattings.route';
 import { ExploreRoutes } from '../app/modules/explore/explore.route';
+import { AdminRoutes } from '../app/modules/admin/admin.route';
 
 const router = express.Router();
 const routes = [
-  {
-    path: '/auth',
-    route: AuthRouter,
-  },
-  {
-    path: '/users',
-    route: UserRouter,
-  },
-  {
-    path: '/community',
-    route: CommunityRouter,
-  },
-  {
-    path: '/comments',
-    route: CommentRouter,
-  },
-  {
-    path: '/contact',
-    route: ContactRoutes,
-  },
-  {
-    path: '/admin/contact',
-    route: ContactRoutes,
-  },
-  {
-    path: '/admin/category',
-    route: CategoryRoutes,
-  },
-  {
-    path: '/category',
-    route: CategoryRoutes,
-  },
-  {
-    path: '/admin/subcategory',
-    route: SubCategoryRoutes,
-  },
-  {
-    path: '/subcategory',
-    route: SubCategoryRoutes,
-  },
-  {
-    path: '/admin/user/managment',
-    route: userManagementRouter,
-  },
-  {
-    path: '/admin/quotation/managment',
-    route: quotationManagementRouter,
-  },
-  {
-    path: '/admin/videos/managment',
-    route: videoManagementRoute,
-  },
-  {
-    path: '/admin/post/managment',
-    route: CreatePostRoutes,
-  },
-  {
-    path: '/post',
-    route: CreatePostRoutes,
-  },
-  {
-    path: '/videos',
-    route: videoManagementRoute,
-  },
-  {
-    path: '/admin/package/managment',
-    route: PackageRoutes,
-  },
-  {
-    path: '/package',
-    route: PackageRoutes,
-  },
-  {
-    path: '/admin/subscription/rules',
-    route: SubscriptionRuleRoute,
-  },
-  {
-    path: '/subscription',
-    route: SubscriptionRuleRoute,
-  },
-  {
-    path: '/admin/subscription',
-    route: SubscriptionRoutes,
-  },
-  {
-    path: '/subscription',
-    route: SubscriptionRoutes,
-  },
-  {
-    path: '/admin/comingSoon',
-    route: ComingSoonRoutes,
-  },
-  {
-    path: '/admin/dashboard',
-    route: DashboardRoutes,
-  },
-  {
-    path: '/comingSoon',
-    route: ComingSoonRoutes,
-  },
-  {
-    path: '/favourit',
-    route: FavouritdRouter,
-  },
-  {
-    path: '/settings',
-    route: SettingsRouter,
-  },
-  {
-    path: '/explore',
-    route: ExploreRoutes,
-  },
+     {
+          path: '/auth',
+          route: AuthRouter,
+     },
+     {
+          path: '/users',
+          route: UserRouter,
+     },
+     {
+          path: '/community',
+          route: CommunityRouter,
+     },
+     {
+          path: '/comments',
+          route: CommentRouter,
+     },
+     {
+          path: '/contact',
+          route: ContactRoutes,
+     },
+     {
+          path: '/admin/contact',
+          route: ContactRoutes,
+     },
+     {
+          path: '/admin/category',
+          route: CategoryRoutes,
+     },
+     {
+          path: '/admin/managment',
+          route: AdminRoutes,
+     },
+     {
+          path: '/category',
+          route: CategoryRoutes,
+     },
+     {
+          path: '/admin/subcategory',
+          route: SubCategoryRoutes,
+     },
+     {
+          path: '/subcategory',
+          route: SubCategoryRoutes,
+     },
+     {
+          path: '/admin/user/managment',
+          route: userManagementRouter,
+     },
+     {
+          path: '/admin/quotation/managment',
+          route: quotationManagementRouter,
+     },
+     {
+          path: '/admin/videos/managment',
+          route: videoManagementRoute,
+     },
+     {
+          path: '/admin/post/managment',
+          route: CreatePostRoutes,
+     },
+     {
+          path: '/post',
+          route: CreatePostRoutes,
+     },
+     {
+          path: '/videos',
+          route: videoManagementRoute,
+     },
+     {
+          path: '/admin/package/managment',
+          route: PackageRoutes,
+     },
+     {
+          path: '/package',
+          route: PackageRoutes,
+     },
+     {
+          path: '/admin/subscription/rules',
+          route: SubscriptionRuleRoute,
+     },
+     {
+          path: '/subscription',
+          route: SubscriptionRuleRoute,
+     },
+     {
+          path: '/admin/subscription',
+          route: SubscriptionRoutes,
+     },
+     {
+          path: '/subscription',
+          route: SubscriptionRoutes,
+     },
+     {
+          path: '/admin/comingSoon',
+          route: ComingSoonRoutes,
+     },
+     {
+          path: '/admin/dashboard',
+          route: DashboardRoutes,
+     },
+     {
+          path: '/comingSoon',
+          route: ComingSoonRoutes,
+     },
+     {
+          path: '/favourit',
+          route: FavouritdRouter,
+     },
+     {
+          path: '/settings',
+          route: SettingsRouter,
+     },
+     {
+          path: '/explore',
+          route: ExploreRoutes,
+     },
 ];
 
 routes.forEach((element) => {
-  if (element?.path && element?.route) {
-    router.use(element?.path, element?.route);
-  }
+     if (element?.path && element?.route) {
+          router.use(element?.path, element?.route);
+     }
 });
 
 export default router;

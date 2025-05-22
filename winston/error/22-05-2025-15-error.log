@@ -1,0 +1,8 @@
+Thu May 22 2025 15:21:13 [SERVER-NAME] error: 10.0.60.147 - GET /undefined 404 - 8.547 ms
+Thu May 22 2025 15:27:51 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/category/single/6816334a37e1f440465dfcb3 403 - 876.540 ms
+Thu May 22 2025 15:35:59 [SERVER-NAME] error: 10.0.60.147 - POST /api/v1/admin/category/create 400 - 302.585 ms
+Thu May 22 2025 15:36:15 [SERVER-NAME] error: 10.0.60.147 - POST /api/v1/admin/category/create 400 - 302.456 ms
+Thu May 22 2025 15:36:34 [SERVER-NAME] error: 10.0.60.147 - GET /undefined 404 - 0.616 ms
+Thu May 22 2025 15:37:0 [SERVER-NAME] error: 10.0.60.147 - POST /api/v1/admin/category/create 400 - 298.462 ms
+Thu May 22 2025 15:42:2 [SERVER-NAME] error: 10.0.60.147 - GET /undefined 404 - 2.696 ms
+Thu May 22 2025 15:45:57 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/category/single/6816334a37e1f440465dfcb3 403 - 849.984 ms

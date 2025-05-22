@@ -1,10 +1,10 @@
 export interface ICreatePost {
-  title: string;
-  category: string;
-  duration: string;
-  equipment: string[];
-  thumbnailUrl: string;
-  videoUrl: string;
-  description: string;
-  status: 'active' | 'inactive';
+     title: string;
+     category: string;
+     duration: string;
+     equipment: string[];
+     thumbnailUrl: string;
+     videoUrl: string;
+     description: string;
+     status: 'active' | 'inactive';
 }

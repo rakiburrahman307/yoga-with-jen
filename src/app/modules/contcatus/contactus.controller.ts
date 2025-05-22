@@ -5,28 +5,28 @@ import sendResponse from '../../../shared/sendResponse';
 import { ContactService } from './contactus.service';
 
 const createContact = catchAsync(async (req: Request, res: Response) => {
-  const { ...contactData } = req.body;
-  const result = await ContactService.createContactToDB(contactData);
+     const { ...contactData } = req.body;
+     const result = await ContactService.createContactToDB(contactData);
 
-  sendResponse(res, {
-    success: true,
-    statusCode: StatusCodes.OK,
-    message: 'Contact created successfully',
-    data: result,
-  });
+     sendResponse(res, {
+          success: true,
+          statusCode: StatusCodes.OK,
+          message: 'Contact created successfully',
+          data: result,
+     });
 });
 const getAllContacts = catchAsync(async (req: Request, res: Response) => {
-  const result = await ContactService.getAllContactsFromDB(req.query);
+     const result = await ContactService.getAllContactsFromDB(req.query);
 
-  sendResponse(res, {
-    success: true,
-    statusCode: StatusCodes.OK,
-    message: 'Contacts retrieved successfully',
-    data: result,
-  });
+     sendResponse(res, {
+          success: true,
+          statusCode: StatusCodes.OK,
+          message: 'Contacts retrieved successfully',
+          data: result,
+     });
 });
 
 export const ContactController = {
-  createContact,
-  getAllContacts,
+     createContact,
+     getAllContacts,
 };

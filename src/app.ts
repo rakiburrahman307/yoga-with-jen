@@ -14,16 +14,12 @@ app.use(Morgan.errorHandler);
 
 //body parser
 app.use(
-  cors({
-    origin: '*',
-    credentials: true,
-  }),
+     cors({
+          origin: '*',
+          credentials: true,
+     }),
 );
-app.post(
-  '/api/v1/stripe/webhook',
-  express.raw({ type: 'application/json' }),
-  handleStripeWebhook,
-);
+app.post('/api/v1/stripe/webhook', express.raw({ type: 'application/json' }), handleStripeWebhook);
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
@@ -34,7 +30,7 @@ app.use(express.static('uploads'));
 app.use('/api/v1', router);
 //live response
 app.get('/', (req: Request, res: Response) => {
-  res.send(welcome());
+     res.send(welcome());
 });
 
 //global error handle

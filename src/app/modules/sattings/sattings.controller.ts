@@ -4,60 +4,60 @@ import sendResponse from '../../../shared/sendResponse';
 import { settingsService } from './sattings.service';
 
 const addSetting = catchAsync(async (req, res) => {
-  const result = await settingsService.upsertSettings(req.body);
-  sendResponse(res, {
-    statusCode: StatusCodes.OK,
-    success: true,
-    message: 'Setting added successfully',
-    data: result,
-  });
+     const result = await settingsService.upsertSettings(req.body);
+     sendResponse(res, {
+          statusCode: StatusCodes.OK,
+          success: true,
+          message: 'Setting added successfully',
+          data: result,
+     });
 });
 
 const getSettings = catchAsync(async (req, res): Promise<void> => {
-  const result = await settingsService.getSettings(req.query.title as string);
-  sendResponse(res, {
-    statusCode: StatusCodes.OK,
-    success: true,
-    message: 'Setting retrieved successfully',
-    data: result,
-  });
+     const result = await settingsService.getSettings(req.query.title as string);
+     sendResponse(res, {
+          statusCode: StatusCodes.OK,
+          success: true,
+          message: 'Setting retrieved successfully',
+          data: result,
+     });
 });
 
 const getPrivacyPolicy = catchAsync(async (req, res): Promise<void> => {
-  const privacy = await settingsService.getPrivacyPolicy();
-  sendResponse(res, {
-    statusCode: StatusCodes.OK,
-    success: true,
-    message: 'Privacy retrieved successfully',
-    data: privacy,
-  });
+     const privacy = await settingsService.getPrivacyPolicy();
+     sendResponse(res, {
+          statusCode: StatusCodes.OK,
+          success: true,
+          message: 'Privacy retrieved successfully',
+          data: privacy,
+     });
 });
 const getTermsOfService = catchAsync(async (req, res): Promise<void> => {
-  const result = await settingsService.getTermsOfService();
-  sendResponse(res, {
-    statusCode: StatusCodes.OK,
-    success: true,
-    message: 'TermsOfService retrieved successfully',
-    data: result,
-  });
+     const result = await settingsService.getTermsOfService();
+     sendResponse(res, {
+          statusCode: StatusCodes.OK,
+          success: true,
+          message: 'TermsOfService retrieved successfully',
+          data: result,
+     });
 });
 const getSupport = catchAsync(async (req, res): Promise<void> => {
-  const privacy = await settingsService.getSupport();
-  sendResponse(res, {
-    statusCode: StatusCodes.OK,
-    success: true,
-    message: 'Support retrieved successfully',
-    data: privacy,
-  });
+     const privacy = await settingsService.getSupport();
+     sendResponse(res, {
+          statusCode: StatusCodes.OK,
+          success: true,
+          message: 'Support retrieved successfully',
+          data: privacy,
+     });
 });
 const getAboutUs = catchAsync(async (req, res): Promise<void> => {
-  const privacy = await settingsService.getAboutUs();
-  sendResponse(res, {
-    statusCode: StatusCodes.OK,
-    success: true,
-    message: 'AboutUs retrieved successfully',
-    data: privacy,
-  });
+     const privacy = await settingsService.getAboutUs();
+     sendResponse(res, {
+          statusCode: StatusCodes.OK,
+          success: true,
+          message: 'AboutUs retrieved successfully',
+          data: privacy,
+     });
 });
 
 // const getAccountDelete = catchAsync(async (req, res): Promise<void> => {
@@ -70,10 +70,10 @@ const getAboutUs = catchAsync(async (req, res): Promise<void> => {
 //   res.sendFile(htmlContent);
 // });
 export const settingsController = {
-  getSettings,
-  getPrivacyPolicy,
-  getAboutUs,
-  getSupport,
-  addSetting,
-  getTermsOfService
+     getSettings,
+     getPrivacyPolicy,
+     getAboutUs,
+     getSupport,
+     addSetting,
+     getTermsOfService,
 };
