@@ -1,0 +1,31 @@
+Tue May 20 2025 16:33:43 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 20 2025 16:33:46 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 20 2025 16:33:46 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue May 20 2025 16:33:46 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue May 20 2025 16:34:30 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 579.592 ms
+Tue May 20 2025 16:35:58 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/auth/login 204 - 0.551 ms
+Tue May 20 2025 16:36:10 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/auth/login 204 - 0.184 ms
+Tue May 20 2025 16:36:11 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/login 200 - 875.030 ms
+Tue May 20 2025 16:36:12 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/user/profile 204 - 0.057 ms
+Tue May 20 2025 16:36:25 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/user/profile 204 - 0.093 ms
+Tue May 20 2025 16:37:26 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.103 ms
+Tue May 20 2025 16:37:26 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 556.331 ms
+Tue May 20 2025 16:39:6 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.209 ms
+Tue May 20 2025 16:39:7 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 554.633 ms
+Tue May 20 2025 16:41:47 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.141 ms
+Tue May 20 2025 16:41:47 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 553.961 ms
+Tue May 20 2025 16:42:55 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.056 ms
+Tue May 20 2025 16:42:55 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 554.326 ms
+Tue May 20 2025 16:43:8 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.104 ms
+Tue May 20 2025 16:43:9 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 553.422 ms
+Tue May 20 2025 16:43:15 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.152 ms
+Tue May 20 2025 16:43:15 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 562.354 ms
+Tue May 20 2025 16:43:22 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.079 ms
+Tue May 20 2025 16:43:23 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 554.737 ms
+Tue May 20 2025 16:47:7 [SERVER-NAME] info: 10.0.60.147 - GET /image/portrait-confident-male-doctor-1746094899709.png 200 - 9.275 ms
+Tue May 20 2025 16:47:13 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.093 ms
+Tue May 20 2025 16:47:13 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 554.504 ms
+Tue May 20 2025 16:47:13 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 200 - 1.110 ms
+Tue May 20 2025 16:52:34 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.176 ms
+Tue May 20 2025 16:52:34 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 561.935 ms
+Tue May 20 2025 16:52:38 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 0.575 ms

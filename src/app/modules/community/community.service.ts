@@ -21,7 +21,7 @@ const createPostToDb = async (
   await newPost.save();
   return newPost;
 };
-const getPostById = async (postId: string) => {
+const getPostById = async (userId: string, postId: string) => {
   const result = await Community.findById(postId)
     // First, populate the post's userId field
     .populate({
@@ -49,7 +49,13 @@ const getPostById = async (postId: string) => {
   if (!result) {
     throw new AppError(StatusCodes.NOT_FOUND, 'Post not found!');
   }
-  return result;
+  const isLiked = result.likedBy.some(
+    (id) => id.toString() === userId.toString(),
+  );
+  return {
+    ...result.toObject(),
+    isLiked,
+  };
 };
 // edit post
 const editPost = async (id: string, payload: string, userId: string) => {
@@ -164,8 +170,11 @@ const likePost = async (postId: string, userId: string) => {
   return { likes: updatedComment.likes };
 };
 // get all post
-const getAllPosts = async (query: Record<string, unknown>) => {
-  const queryBuilder = new QueryBuilder(Community.find({}), query);
+const getAllPosts = async (userId: string, query: Record<string, unknown>) => {
+  const queryBuilder = new QueryBuilder(
+    Community.find({}).populate('userId', 'name image'),
+    query,
+  );
 
   const posts = await queryBuilder
     .paginate()
@@ -173,11 +182,21 @@ const getAllPosts = async (query: Record<string, unknown>) => {
     .sort()
     .fields()
     .modelQuery.exec();
+
+  const postsWithFavorites = await Promise.all(
+    posts.map(async (post: any) => {
+      const isLiked = post.likedBy.some(
+        (id: string) => id.toString() === userId,
+      );
+      return {
+        ...post.toObject(),
+        isLiked,
+      };
+    }),
+  );
+
   const meta = await queryBuilder.countTotal();
-  return {
-    posts,
-    meta,
-  };
+  return { posts: postsWithFavorites, meta };
 };
 // get get Specific User post
 const getSpecificUserPost = async (
@@ -193,11 +212,74 @@ const getSpecificUserPost = async (
     .fields()
     .modelQuery.exec();
   const meta = await queryBuilder.countTotal();
+  const postsWithFavorites = await Promise.all(
+    posts.map(async (post: any) => {
+      const isLiked = post.likedBy.some(
+        (id: string) => id.toString() === userId,
+      );
+      return {
+        ...post.toObject(),
+        isLiked,
+      };
+    }),
+  );
   return {
-    posts,
+    posts: postsWithFavorites,
     meta,
   };
 };
+const getAnalysis = async () => {
+  const limit = 5;
+
+  // 1. Top users by matTime (convert matTime string to number for sorting)
+  const topByMatTimePromise = User.aggregate([
+    {
+      $addFields: {
+        matTimeNum: { $toDouble: '$matTime' }, // convert matTime string to double
+      },
+    },
+    { $sort: { matTimeNum: -1 } },
+    { $limit: limit },
+    { $project: { _id: 1, name: 1, matTime: 1 } },
+  ]);
+
+  // 2. Top users by loginCount (simple find query)
+  const topByLoginCountPromise = User.find()
+    .sort({ loginCount: -1 })
+    .limit(limit)
+    .select('_id name loginCount')
+    .lean();
+
+  // 3. Top users by completedSessions count
+  const topByCompletedSessionsPromise = User.aggregate([
+    {
+      $project: {
+        name: 1,
+        _id: 1,
+        completedSessionsCount: {
+          $size: { $ifNull: ['$completedSessions', []] }, // safe check for missing field
+        },
+      },
+    },
+    { $sort: { completedSessionsCount: -1 } },
+    { $limit: limit },
+  ]);
+
+  // Await all queries in parallel
+  const [topByMatTime, topByLoginCount, topByCompletedSessions] =
+    await Promise.all([
+      topByMatTimePromise,
+      topByLoginCountPromise,
+      topByCompletedSessionsPromise,
+    ]);
+
+  return {
+    topByMatTime,
+    topByLoginCount,
+    topByCompletedSessions,
+  };
+};
+
 export const CommunityService = {
   createPostToDb,
   getPostById,
@@ -206,4 +288,5 @@ export const CommunityService = {
   likePost,
   getAllPosts,
   getSpecificUserPost,
+  getAnalysis,
 };

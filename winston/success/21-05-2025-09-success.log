@@ -1,0 +1,46 @@
+Wed May 21 2025 9:16:48 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 554.252 ms
+Wed May 21 2025 9:22:8 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 556.026 ms
+Wed May 21 2025 9:22:45 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 554.226 ms
+Wed May 21 2025 9:22:48 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/ 200 - 832.224 ms
+Wed May 21 2025 9:26:8 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/ 200 - 848.777 ms
+Wed May 21 2025 9:26:9 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/ 200 - 831.606 ms
+Wed May 21 2025 9:26:12 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/ 200 - 830.255 ms
+Wed May 21 2025 9:26:47 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/ 200 - 830.455 ms
+Wed May 21 2025 9:26:51 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/ 200 - 830.564 ms
+Wed May 21 2025 9:27:23 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 1111.085 ms
+Wed May 21 2025 9:27:25 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/ 200 - 839.946 ms
+Wed May 21 2025 9:27:44 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/ 200 - 837.140 ms
+Wed May 21 2025 9:27:58 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/ 200 - 830.932 ms
+Wed May 21 2025 9:28:1 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/ 200 - 1332.244 ms
+Wed May 21 2025 9:28:46 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/ 200 - 830.284 ms
+Wed May 21 2025 9:29:9 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/ 200 - 832.477 ms
+Wed May 21 2025 9:31:39 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/community/ 200 - 839.298 ms
+Wed May 21 2025 9:32:30 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 21 2025 9:32:32 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 21 2025 9:32:35 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 21 2025 9:32:38 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 21 2025 9:32:38 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 21 2025 9:32:38 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 21 2025 9:32:43 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 21 2025 9:32:45 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 21 2025 9:32:45 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 21 2025 9:32:45 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 21 2025 9:32:48 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/community/ 200 - 2733.345 ms
+Wed May 21 2025 9:32:54 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/community/ 200 - 1134.948 ms
+Wed May 21 2025 9:35:47 [SERVER-NAME] info: 10.0.60.126 - PATCH /api/v1/users/profile 200 - 881.706 ms
+Wed May 21 2025 9:36:7 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/community/ 200 - 1133.244 ms
+Wed May 21 2025 9:37:42 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/community/ 200 - 1130.924 ms
+Wed May 21 2025 9:38:48 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/community 201 - 602.492 ms
+Wed May 21 2025 9:38:52 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/community/ 200 - 1133.387 ms
+Wed May 21 2025 9:38:59 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/community/ 200 - 1129.631 ms
+Wed May 21 2025 9:39:42 [SERVER-NAME] info: 10.0.60.126 - PATCH /api/v1/users/profile 200 - 858.631 ms
+Wed May 21 2025 9:40:48 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 565.079 ms
+Wed May 21 2025 9:40:54 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/ 200 - 1129.881 ms
+Wed May 21 2025 9:53:26 [SERVER-NAME] info: 10.0.60.126 - GET //image/banner-burger-delifrance-1747798781766.jpg 200 - 1.376 ms
+Wed May 21 2025 9:53:26 [SERVER-NAME] info: 10.0.60.126 - GET //image/banner-burger-delifrance-1747798781766.jpg 200 - 0.610 ms
+Wed May 21 2025 9:53:34 [SERVER-NAME] info: 10.0.60.126 - GET /image/banner-burger-delifrance-1747798781766.jpg 200 - 0.685 ms
+Wed May 21 2025 9:53:34 [SERVER-NAME] info: 10.0.60.126 - GET /image/banner-burger-delifrance-1747798781766.jpg 200 - 0.979 ms
+Wed May 21 2025 9:54:54 [SERVER-NAME] info: 10.0.60.114 - GET /image/banner-burger-delifrance-1747798781766.jpg 200 - 0.652 ms
+Wed May 21 2025 9:55:15 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/comments/682d3ddf96a912f612b01236 200 - 1132.374 ms
+Wed May 21 2025 9:55:27 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/community/ 200 - 1136.592 ms
+Wed May 21 2025 9:56:0 [SERVER-NAME] info: 10.0.60.114 - GET /image/banner-burger-delifrance-1747798781766.jpg 304 - 0.516 ms

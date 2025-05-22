@@ -7,4 +7,5 @@ export interface IComments extends Document {
   likes: number;
   likedBy: Types.ObjectId[];
   replies: mongoose.Schema.Types.ObjectId[];
+  depth: number;
 }

@@ -1,0 +1,11 @@
+Tue May 20 2025 15:39:55 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 20 2025 15:39:58 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 20 2025 15:39:58 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue May 20 2025 15:39:58 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue May 20 2025 15:40:15 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/login 200 - 1225.318 ms
+Tue May 20 2025 15:40:18 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/auth/login 204 - 0.399 ms
+Tue May 20 2025 15:40:19 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/login 200 - 770.231 ms
+Tue May 20 2025 15:43:56 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/auth/login 204 - 0.128 ms
+Tue May 20 2025 15:44:17 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/auth/login 204 - 0.083 ms
+Tue May 20 2025 15:44:18 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/login 200 - 798.022 ms
+Tue May 20 2025 15:45:23 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 559.134 ms

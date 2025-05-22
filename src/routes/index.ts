@@ -17,6 +17,7 @@ import { DashboardRoutes } from '../app/modules/admin/dashboard/dashboard.route'
 import { FavouritdRouter } from '../app/modules/favourit/favourit.router';
 import { CreatePostRoutes } from '../app/modules/admin/creaetPost/creaetPost.router';
 import SettingsRouter from '../app/modules/sattings/sattings.route';
+import { ExploreRoutes } from '../app/modules/explore/explore.route';
 
 const router = express.Router();
 const routes = [
@@ -127,6 +128,10 @@ const routes = [
   {
     path: '/settings',
     route: SettingsRouter,
+  },
+  {
+    path: '/explore',
+    route: ExploreRoutes,
   },
 ];
 

@@ -25,7 +25,7 @@ router.post(
   validateRequest(CommentsValidationSchema.createCommentsSchema),
   CommentsController.replyToComment,
 );
-router.post(
+router.patch(
   '/edit/:commentId',
   auth(USER_ROLES.USER),
   validateRequest(CommentsValidationSchema.createCommentsSchema),

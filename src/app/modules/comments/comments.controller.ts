@@ -5,7 +5,7 @@ import { CommentsService } from './comments.service';
 
 // create comments
 const createComment = catchAsync(async (req, res) => {
-  const { id } = req.user;
+  const { id }: any = req.user;
   const { postId, content } = req.body;
   const result = await CommentsService.createCommentToDB(id, postId, content);
   sendResponse(res, {
@@ -29,7 +29,7 @@ const getComments = catchAsync(async (req, res) => {
 });
 // like comments
 const likeComment = catchAsync(async (req, res) => {
-  const { id } = req.user;
+  const { id }: any = req.user;
   const { commentId } = req.params;
   const result = await CommentsService.likeComment(commentId, id);
   sendResponse(res, {
@@ -42,7 +42,7 @@ const likeComment = catchAsync(async (req, res) => {
 
 // reply comments
 const replyToComment = catchAsync(async (req, res) => {
-  const { id } = req.user;
+  const { id }: any = req.user;
   const { commentId } = req.params;
   const { content } = req.body;
   const result = await CommentsService.replyToComment(commentId, id, content);
@@ -55,7 +55,7 @@ const replyToComment = catchAsync(async (req, res) => {
 });
 // edit comments
 const editComment = catchAsync(async (req, res) => {
-  const { id } = req.user;
+  const { id }: any = req.user;
   const { commentId } = req.params;
   const { content } = req.body;
   const result = await CommentsService.editComment(commentId, content, id);
@@ -68,7 +68,7 @@ const editComment = catchAsync(async (req, res) => {
 });
 // delete comments
 const deleteComment = catchAsync(async (req, res) => {
-  const { id } = req.user;
+  const { id }: any = req.user;
   const { commentId } = req.params;
   await CommentsService.deleteComment(commentId, id);
   sendResponse(res, {

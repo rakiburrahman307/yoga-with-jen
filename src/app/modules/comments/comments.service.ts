@@ -121,28 +121,38 @@ const replyToComment = async (
     );
   }
 
+  // Find the parent comment to reply to
   const parentComment = await Comment.findById(commentId);
   if (!parentComment) {
     throw new AppError(StatusCodes.NOT_FOUND, 'Parent comment not found');
   }
+
+  // Validate user creating the reply
   const user = await User.findById(commentCreatorId);
   if (!user) {
     throw new AppError(StatusCodes.NOT_FOUND, 'User not found!');
   }
-  // Create reply without saving it yet
+
+
+  let replyDepth = parentComment.depth < 4 ? parentComment.depth + 1 : 4;
+
+  // Create the reply comment
   const reply = new Comment({
     commentCreatorId,
     postId: parentComment.postId,
     content,
     likes: 0,
     replies: [],
+    depth: replyDepth,
   });
 
   const replyId = reply._id;
 
   await reply.save();
-  // Add the new reply to the parent comment's reply list
-  const result = await Comment.findByIdAndUpdate(commentId, {
+
+  // Add the reply to the parent comment's replies
+  // If parent is already at depth 4, we still add the reply to parent's replies
+  const result = await Comment.findByIdAndUpdate(parentComment._id, {
     $push: { replies: replyId },
   });
 
@@ -152,12 +162,14 @@ const replyToComment = async (
       'Failed to update parent comment with the new reply',
     );
   }
-  // send notifications
+
+  // Send notification to the original commenter (parent comment's creator)
   await sendNotifications({
     receiver: user._id,
     message: `User '${user.name}' has replied to your comment`,
     type: 'MESSAGE',
   });
+
   return reply;
 };
 // edit comments

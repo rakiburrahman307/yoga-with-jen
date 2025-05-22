@@ -1,0 +1,10 @@
+Tue May 20 2025 12:31:49 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/login 200 - 946.093 ms
+Tue May 20 2025 12:31:50 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 547.910 ms
+Tue May 20 2025 12:47:43 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 20 2025 12:47:45 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 20 2025 12:47:48 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 20 2025 12:47:50 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 20 2025 12:47:50 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue May 20 2025 12:47:50 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue May 20 2025 12:49:6 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/community/ 200 - 880.801 ms
+Tue May 20 2025 12:49:17 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/community/ 200 - 856.391 ms

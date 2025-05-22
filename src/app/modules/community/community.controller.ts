@@ -4,7 +4,7 @@ import sendResponse from '../../../shared/sendResponse';
 import { CommunityService } from './community.service';
 // create post
 const createPost = catchAsync(async (req, res) => {
-  const { id } = req.user;
+  const { id }: any = req.user;
   const { content } = req.body;
   const newPost = await CommunityService.createPostToDb(id, content);
 
@@ -18,7 +18,8 @@ const createPost = catchAsync(async (req, res) => {
 // get single post
 const getPost = catchAsync(async (req, res) => {
   const { id } = req.params;
-  const result = await CommunityService.getPostById(id);
+  const { id: userId }: any = req.user;
+  const result = await CommunityService.getPostById(userId, id);
 
   sendResponse(res, {
     statusCode: StatusCodes.OK,
@@ -29,7 +30,8 @@ const getPost = catchAsync(async (req, res) => {
 });
 // get single post
 const getAllPost = catchAsync(async (req, res) => {
-  const result = await CommunityService.getAllPosts(req.query);
+  const { id }: any = req.user;
+  const result = await CommunityService.getAllPosts(id, req.query);
 
   sendResponse(res, {
     statusCode: StatusCodes.OK,
@@ -40,7 +42,7 @@ const getAllPost = catchAsync(async (req, res) => {
 });
 // get soecific user post
 const getSpecificUserPost = catchAsync(async (req, res) => {
-  const { id } = req.user;
+  const { id }: any = req.user;
   const result = await CommunityService.getSpecificUserPost(id, req.query);
 
   sendResponse(res, {
@@ -52,7 +54,7 @@ const getSpecificUserPost = catchAsync(async (req, res) => {
 });
 // edit post
 const editPost = catchAsync(async (req, res) => {
-  const { id } = req.user;
+  const { id }: any = req.user;
   const postId = req.params.id;
   const { content } = req.body;
   const result = await CommunityService.editPost(postId, content, id);
@@ -66,7 +68,7 @@ const editPost = catchAsync(async (req, res) => {
 });
 // like post
 const likedPost = catchAsync(async (req, res) => {
-  const { id } = req.user;
+  const { id }: any = req.user;
   const { postId } = req.params;
   const result = await CommunityService.likePost(postId, id);
 
@@ -79,7 +81,7 @@ const likedPost = catchAsync(async (req, res) => {
 });
 // delete post
 const deletePost = catchAsync(async (req, res) => {
-  const { id } = req.user;
+  const { id }: any = req.user;
   const postId = req.params.id;
   await CommunityService.deletePost(postId, id);
 
@@ -89,6 +91,17 @@ const deletePost = catchAsync(async (req, res) => {
     message: 'Post deleted successfully',
   });
 });
+
+const leaderBoard = catchAsync(async (req, res) => {
+  const result = await CommunityService.getAnalysis();
+
+  sendResponse(res, {
+    statusCode: StatusCodes.OK,
+    success: true,
+    message: 'Analysis retrieved successfully',
+    data: result,
+  });
+});
 export const CommunityController = {
   createPost,
   getPost,
@@ -96,4 +109,6 @@ export const CommunityController = {
   deletePost,
   likedPost,
   getAllPost,
+  getSpecificUserPost,
+  leaderBoard,
 };

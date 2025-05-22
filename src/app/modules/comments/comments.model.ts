@@ -13,6 +13,7 @@ const commentSchema = new Schema<IComments>(
     likes: { type: Number, default: 0 },
     likedBy: { type: [Schema.Types.ObjectId], ref: 'User', default: [] },
     replies: [{ type: Schema.Types.ObjectId, ref: 'Comment' }],
+    depth: { type: Number, default: 1 }
   },
   { timestamps: true },
 );

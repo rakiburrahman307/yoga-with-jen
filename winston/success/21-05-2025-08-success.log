@@ -1,0 +1,38 @@
+Wed May 21 2025 8:10:34 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 557.966 ms
+Wed May 21 2025 8:12:36 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/settings/privacy-policy 200 - 279.071 ms
+Wed May 21 2025 8:12:39 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/settings/privacy-policy 200 - 277.769 ms
+Wed May 21 2025 8:20:40 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/comments/67f4af1516b2a430fe5d272c 200 - 843.697 ms
+Wed May 21 2025 8:21:21 [SERVER-NAME] info: 10.0.60.114 - POST /api/v1/comments/reply/67f4c0525238b6e9f5fd468a 200 - 1719.796 ms
+Wed May 21 2025 8:21:26 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/comments/67f4af1516b2a430fe5d272c 200 - 1120.841 ms
+Wed May 21 2025 8:32:53 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 1118.290 ms
+Wed May 21 2025 8:35:17 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 21 2025 8:35:20 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 21 2025 8:35:20 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 21 2025 8:35:20 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 21 2025 8:36:9 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 21 2025 8:36:11 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 21 2025 8:36:11 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 21 2025 8:36:11 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 21 2025 8:36:21 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 21 2025 8:36:23 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 21 2025 8:36:23 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 21 2025 8:36:23 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 21 2025 8:36:28 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 21 2025 8:36:31 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 21 2025 8:36:31 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 21 2025 8:36:31 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 21 2025 8:40:40 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/post/letest 200 - 866.526 ms
+Wed May 21 2025 8:42:57 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/community/ 200 - 846.184 ms
+Wed May 21 2025 8:43:43 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/community 201 - 595.490 ms
+Wed May 21 2025 8:43:49 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/community/ 200 - 839.436 ms
+Wed May 21 2025 8:46:12 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/comments 201 - 1996.644 ms
+Wed May 21 2025 8:46:23 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/comments/682d3ddf96a912f612b01236 200 - 845.264 ms
+Wed May 21 2025 8:46:46 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/comments/reply/682d3e7396a912f612b01244 200 - 1688.472 ms
+Wed May 21 2025 8:48:30 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/comments/reply/682d3e9596a912f612b0124f 200 - 1699.358 ms
+Wed May 21 2025 8:48:42 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/comments/reply/682d3efd96a912f612b01257 200 - 1691.607 ms
+Wed May 21 2025 8:48:55 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/comments/reply/682d3f0996a912f612b0125f 200 - 1690.620 ms
+Wed May 21 2025 8:49:11 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/comments/reply/682d3f1696a912f612b01267 200 - 1687.543 ms
+Wed May 21 2025 8:49:20 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/comments/682d3ddf96a912f612b01236 200 - 1120.049 ms
+Wed May 21 2025 8:56:36 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/post/letest 200 - 842.662 ms
+Wed May 21 2025 8:56:38 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/post/letest 200 - 836.253 ms
+Wed May 21 2025 8:57:54 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/community/ 200 - 836.860 ms
