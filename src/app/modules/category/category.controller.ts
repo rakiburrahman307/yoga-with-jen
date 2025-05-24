@@ -83,6 +83,16 @@ const getSubcategorisByCategoris = catchAsync(async (req, res) => {
           data: result,
      });
 });
+const getVideosByCategory = catchAsync(async (req, res) => {
+     const { id } = req.params;
+     const result = await CategoryService.getCategoryRelatedSubCategory(id, req.query);
+     sendResponse(res, {
+          success: true,
+          statusCode: StatusCodes.OK,
+          message: 'Videos retrieved successfully',
+          data: result,
+     });
+});
 export const CategoryController = {
      createCategory,
      getCategories,
@@ -91,4 +101,5 @@ export const CategoryController = {
      updateCategoryStatus,
      getSingleCategory,
      getSubcategorisByCategoris,
+     getVideosByCategory
 };

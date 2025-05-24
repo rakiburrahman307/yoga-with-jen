@@ -4,8 +4,8 @@ import sendResponse from '../../../shared/sendResponse';
 import { StatusCodes } from 'http-status-codes';
 import { NotificationService } from './notification.service';
 
-const getNotificationFromDB = catchAsync(async (req: Request, res: Response) => {
-     const user = req.user;
+const getNotificationFromDB = catchAsync(async (req, res) => {
+     const user: any = req.user;
      const result = await NotificationService.getNotificationFromDB(user);
 
      sendResponse(res, {
@@ -16,7 +16,7 @@ const getNotificationFromDB = catchAsync(async (req: Request, res: Response) => 
      });
 });
 
-const adminNotificationFromDB = catchAsync(async (req: Request, res: Response) => {
+const adminNotificationFromDB = catchAsync(async (req, res) => {
      const result = await NotificationService.adminNotificationFromDB();
 
      sendResponse(res, {
@@ -27,8 +27,8 @@ const adminNotificationFromDB = catchAsync(async (req: Request, res: Response) =
      });
 });
 
-const readNotification = catchAsync(async (req: Request, res: Response) => {
-     const user = req.user;
+const readNotification = catchAsync(async (req, res) => {
+     const user: any = req.user;
      const result = await NotificationService.readNotificationToDB(user);
 
      sendResponse(res, {
@@ -38,8 +38,19 @@ const readNotification = catchAsync(async (req: Request, res: Response) => {
           data: result,
      });
 });
+const readNotificationSingle = catchAsync(async (req, res) => {
+     const { id } = req.params;
+     const result = await NotificationService.readNotificationSingleToDB(id);
 
-const adminReadNotification = catchAsync(async (req: Request, res: Response) => {
+     sendResponse(res, {
+          statusCode: StatusCodes.OK,
+          success: true,
+          message: 'Notification Read Successfully',
+          data: result,
+     });
+});
+
+const adminReadNotification = catchAsync(async (req, res) => {
      const result = await NotificationService.adminReadNotificationToDB();
 
      sendResponse(res, {
@@ -50,7 +61,7 @@ const adminReadNotification = catchAsync(async (req: Request, res: Response) => 
      });
 });
 // send admin notifications to the users accaunts
-const sendAdminPushNotification = catchAsync(async (req, res) => {
+const sendAdminNotification = catchAsync(async (req, res) => {
      const result = await NotificationService.adminSendNotificationFromDB(req.body);
      sendResponse(res, {
           statusCode: StatusCodes.OK,
@@ -65,5 +76,6 @@ export const NotificationController = {
      getNotificationFromDB,
      readNotification,
      adminReadNotification,
-     sendAdminPushNotification,
+     sendAdminNotification,
+     readNotificationSingle,
 };

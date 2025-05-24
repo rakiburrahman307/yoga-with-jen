@@ -27,11 +27,8 @@ const addVideo = async (payload: IVideo) => {
      if (!isExistCategory) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Category not found');
      }
-     const data = {
-          ...payload,
-          type: isExistCategory.categoryType,
-     };
-     const video = await Video.create(data);
+
+     const video = await Video.create(payload);
      if (!video) {
           throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to added videos');
      }
@@ -111,7 +108,7 @@ const getSingleVideoFromDb = async (id: string, userId: string) => {
 
      const hasSubscription = await User.hasActiveSubscription(userId);
 
-     if (hasSubscription || (!hasSubscription && result.type === 'free')) {
+     if (hasSubscription) {
           // If the user has an active subscription or the video is free
           const data = {
                ...result.toObject(),

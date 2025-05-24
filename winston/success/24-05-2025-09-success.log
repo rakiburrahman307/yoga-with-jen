@@ -1,0 +1,54 @@
+Sat May 24 2025 9:14:39 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.316 ms
+Sat May 24 2025 9:14:40 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 200 - 1456.466 ms
+Sat May 24 2025 9:14:40 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/revenue 204 - 0.051 ms
+Sat May 24 2025 9:14:40 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.039 ms
+Sat May 24 2025 9:14:41 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/revenue 304 - 571.100 ms
+Sat May 24 2025 9:14:41 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/resent-users 304 - 586.004 ms
+Sat May 24 2025 9:21:55 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/login 200 - 1137.784 ms
+Sat May 24 2025 9:22:14 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/login 200 - 1099.770 ms
+Sat May 24 2025 9:23:27 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/managment/get-admin 200 - 586.322 ms
+Sat May 24 2025 9:31:6 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.056 ms
+Sat May 24 2025 9:31:7 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 304 - 1478.684 ms
+Sat May 24 2025 9:31:9 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics - - - ms
+Sat May 24 2025 9:31:11 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics - - - ms
+Sat May 24 2025 9:31:12 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.052 ms
+Sat May 24 2025 9:31:13 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 200 - 1445.038 ms
+Sat May 24 2025 9:31:18 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.129 ms
+Sat May 24 2025 9:31:20 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 304 - 1955.312 ms
+Sat May 24 2025 9:31:43 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/revenue 204 - 0.038 ms
+Sat May 24 2025 9:31:43 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.027 ms
+Sat May 24 2025 9:31:43 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/revenue 304 - 584.194 ms
+Sat May 24 2025 9:31:43 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/resent-users 304 - 594.938 ms
+Sat May 24 2025 9:32:4 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/category 200 - 1178.786 ms
+Sat May 24 2025 9:32:26 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/category/subcategory/681605b837e1f440465dfb4b 200 - 1399.946 ms
+Sat May 24 2025 9:37:57 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/managment/get-admin 204 - 0.173 ms
+Sat May 24 2025 9:37:58 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/managment/get-admin 200 - 598.936 ms
+Sat May 24 2025 9:38:11 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/managment/get-admin 204 - 0.035 ms
+Sat May 24 2025 9:38:11 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/managment/get-admin 304 - 585.699 ms
+Sat May 24 2025 9:41:7 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 822.764 ms
+Sat May 24 2025 9:41:11 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/managment/get-admin 200 - 585.250 ms
+Sat May 24 2025 9:41:58 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat May 24 2025 9:42:1 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat May 24 2025 9:42:1 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sat May 24 2025 9:42:1 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sat May 24 2025 9:43:5 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat May 24 2025 9:43:8 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat May 24 2025 9:43:8 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sat May 24 2025 9:43:8 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sat May 24 2025 9:43:10 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/managment/get-admin 200 - 2458.947 ms
+Sat May 24 2025 9:43:33 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat May 24 2025 9:43:36 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat May 24 2025 9:43:36 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sat May 24 2025 9:43:36 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sat May 24 2025 9:44:3 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat May 24 2025 9:44:6 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat May 24 2025 9:44:6 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sat May 24 2025 9:44:6 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sat May 24 2025 9:44:9 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/managment/get-admin 200 - 3105.644 ms
+Sat May 24 2025 9:44:19 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat May 24 2025 9:44:23 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat May 24 2025 9:44:23 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sat May 24 2025 9:44:23 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sat May 24 2025 9:44:36 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/managment/get-admin 204 - 0.475 ms
+Sat May 24 2025 9:44:37 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/managment/get-admin 200 - 604.789 ms
+Sat May 24 2025 9:54:8 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/managment/get-admin 200 - 587.610 ms

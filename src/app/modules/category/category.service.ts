@@ -7,9 +7,10 @@ import QueryBuilder from '../../builder/QueryBuilder';
 import { User } from '../user/user.model';
 import { SubCategory } from '../subCategorys/subCategory.model';
 import { USER_ROLES } from '../../../enums/user';
+import { Video } from '../admin/videosManagement/videoManagement.model';
 
 const createCategoryToDB = async (payload: ICategory) => {
-     const { name, categoryType, thumbnail } = payload;
+     const { name, thumbnail } = payload;
      const isExistName = await Category.findOne({ name });
 
      if (isExistName) {
@@ -19,7 +20,6 @@ const createCategoryToDB = async (payload: ICategory) => {
      const newCategory = new Category({
           name,
           thumbnail,
-          categoryType,
      });
 
      const createdCategory = await newCategory.save();
@@ -117,7 +117,7 @@ const getSingleCategoryFromDB = async (id: string, userId: string) => {
      if (!isExist) {
           throw new AppError(StatusCodes.NOT_FOUND, 'User not found');
      }
-     if ((await User.hasActiveSubscription(userId)) || result?.categoryType === 'free' || isExist?.role === USER_ROLES.SUPER_ADMIN) {
+     if ((await User.hasActiveSubscription(userId)) || isExist?.role === USER_ROLES.SUPER_ADMIN) {
           return result;
      }
      throw new AppError(StatusCodes.FORBIDDEN, 'You have to subscribe to access this category');
@@ -143,6 +143,19 @@ const getSubcategoryWithCategoryIdFromDB = async (id: string, query: Record<stri
           meta,
      };
 };
+const getCategoryRelatedSubCategory = async (id: string, query: Record<string, unknown>) => {
+     const isExistCategory = await Category.findById(id);
+     if (!isExistCategory) {
+          throw new AppError(StatusCodes.NOT_FOUND, 'Category not found');
+     }
+     const queryBuilder = new QueryBuilder(Video.find({ category: isExistCategory.name, subCategory: '' }), query);
+     const result = await queryBuilder.fields().filter().paginate().search(['name']).sort().modelQuery.exec();
+     const meta = await queryBuilder.countTotal();
+     return {
+          result,
+          meta,
+     };
+};
 export const CategoryService = {
      createCategoryToDB,
      getCategoriesFromDB,
@@ -151,4 +164,5 @@ export const CategoryService = {
      updateCategoryStatusToDB,
      getSingleCategoryFromDB,
      getSubcategoryWithCategoryIdFromDB,
+     getCategoryRelatedSubCategory,
 };

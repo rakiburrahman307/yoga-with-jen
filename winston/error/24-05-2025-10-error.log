@@ -1,0 +1,7 @@
+Sat May 24 2025 10:8:44 [SERVER-NAME] error: 10.0.60.147 - PUT /api/v1/admin/subcategory/682ef7016bc350077a73b1e3 404 - 122.221 ms
+Sat May 24 2025 10:28:59 [SERVER-NAME] error: 10.0.60.147 - GET /undefined 404 - 0.334 ms
+Sat May 24 2025 10:30:17 [SERVER-NAME] error: 10.0.60.147 - POST /api/v1/admin/notifications/send-notification 404 - 0.542 ms
+Sat May 24 2025 10:30:39 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/admin/notifications/send-notification 404 - 0.448 ms
+Sat May 24 2025 10:32:52 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/admin/notifications/send-notification 401 - 10.045 ms
+Sat May 24 2025 10:33:54 [SERVER-NAME] error: 10.0.60.147 - GET /undefined 404 - 2.333 ms
+Sat May 24 2025 10:42:59 [SERVER-NAME] error: 10.0.60.147 - POST /api/v1/admin/notifications/send-notification 500 - 299.719 ms

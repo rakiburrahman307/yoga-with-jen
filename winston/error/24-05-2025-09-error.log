@@ -1,0 +1,10 @@
+Sat May 24 2025 9:14:39 [SERVER-NAME] error: 10.0.60.147 - GET /undefined 404 - 8.236 ms
+Sat May 24 2025 9:21:46 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/managment/get-admin 403 - 301.964 ms
+Sat May 24 2025 9:31:6 [SERVER-NAME] error: 10.0.60.147 - GET /undefined 404 - 0.497 ms
+Sat May 24 2025 9:31:9 [SERVER-NAME] error: 10.0.60.147 - GET /undefined 404 - 0.787 ms
+Sat May 24 2025 9:31:9 [SERVER-NAME] error: 10.0.60.147 - GET /undefined 404 - 0.882 ms
+Sat May 24 2025 9:31:12 [SERVER-NAME] error: 10.0.60.147 - GET /undefined 404 - 0.493 ms
+Sat May 24 2025 9:31:18 [SERVER-NAME] error: 10.0.60.147 - GET /undefined 404 - 1.271 ms
+Sat May 24 2025 9:38:11 [SERVER-NAME] error: 10.0.60.147 - GET /undefined 404 - 0.305 ms
+Sat May 24 2025 9:40:55 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/admin/managment/get-admin 403 - 295.650 ms
+Sat May 24 2025 9:44:36 [SERVER-NAME] error: 10.0.60.147 - GET /undefined 404 - 4.639 ms

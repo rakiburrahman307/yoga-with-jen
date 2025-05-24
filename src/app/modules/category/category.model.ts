@@ -11,7 +11,6 @@ const categorySchema = new Schema<ICategory>(
                default: [],
           },
           videoCount: { type: Number, default: 0 },
-          categoryType: { type: String, required: true, enum: ['free', 'paid'] },
           status: { type: String, enum: ['active', 'inactive'], default: 'active' },
           isDeleted: { type: Boolean, default: false },
      },

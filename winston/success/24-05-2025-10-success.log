@@ -1,0 +1,45 @@
+Sat May 24 2025 10:8:43 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/682ef7016bc350077a73b1e3 204 - 0.127 ms
+Sat May 24 2025 10:8:44 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/managment/get-admin 204 - 0.056 ms
+Sat May 24 2025 10:8:44 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/managment/get-admin 304 - 585.701 ms
+Sat May 24 2025 10:9:30 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/managment/create-admin 204 - 0.252 ms
+Sat May 24 2025 10:9:32 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/managment/create-admin 200 - 1744.521 ms
+Sat May 24 2025 10:9:32 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/managment/get-admin 204 - 0.081 ms
+Sat May 24 2025 10:9:32 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/managment/get-admin 200 - 597.854 ms
+Sat May 24 2025 10:12:11 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/managment/682ef7016bc350077a73b1e3 204 - 0.076 ms
+Sat May 24 2025 10:12:12 [SERVER-NAME] info: 10.0.60.147 - DELETE /api/v1/admin/managment/682ef7016bc350077a73b1e3 200 - 607.579 ms
+Sat May 24 2025 10:12:12 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/managment/get-admin 204 - 0.154 ms
+Sat May 24 2025 10:12:13 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/managment/get-admin 200 - 586.444 ms
+Sat May 24 2025 10:20:6 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/managment/get-admin 204 - 0.108 ms
+Sat May 24 2025 10:20:7 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/managment/get-admin 304 - 588.766 ms
+Sat May 24 2025 10:28:18 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.076 ms
+Sat May 24 2025 10:28:19 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 304 - 1465.637 ms
+Sat May 24 2025 10:28:19 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/revenue 204 - 0.084 ms
+Sat May 24 2025 10:28:19 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.043 ms
+Sat May 24 2025 10:28:20 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/resent-users 304 - 562.163 ms
+Sat May 24 2025 10:28:20 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/revenue 304 - 585.180 ms
+Sat May 24 2025 10:28:21 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/managment/get-admin 204 - 0.054 ms
+Sat May 24 2025 10:28:21 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/managment/get-admin 304 - 588.338 ms
+Sat May 24 2025 10:28:59 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/managment/get-admin 204 - 0.053 ms
+Sat May 24 2025 10:28:59 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/managment/get-admin 304 - 592.108 ms
+Sat May 24 2025 10:29:9 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.063 ms
+Sat May 24 2025 10:29:11 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 304 - 1992.439 ms
+Sat May 24 2025 10:29:11 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/revenue 204 - 0.045 ms
+Sat May 24 2025 10:29:11 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.034 ms
+Sat May 24 2025 10:29:12 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/resent-users 304 - 562.612 ms
+Sat May 24 2025 10:29:12 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/revenue 304 - 586.506 ms
+Sat May 24 2025 10:29:13 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/user/managment? 204 - 0.047 ms
+Sat May 24 2025 10:29:15 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/user/managment? 304 - 2280.977 ms
+Sat May 24 2025 10:32:7 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat May 24 2025 10:32:31 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat May 24 2025 10:32:34 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat May 24 2025 10:32:34 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sat May 24 2025 10:32:34 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sat May 24 2025 10:33:54 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/managment/get-admin 204 - 0.247 ms
+Sat May 24 2025 10:33:55 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/managment/get-admin 304 - 598.840 ms
+Sat May 24 2025 10:35:59 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/managment/create-admin 204 - 0.287 ms
+Sat May 24 2025 10:36:0 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/managment/create-admin 200 - 1648.816 ms
+Sat May 24 2025 10:36:0 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/managment/get-admin 204 - 0.049 ms
+Sat May 24 2025 10:36:1 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/managment/get-admin 200 - 593.909 ms
+Sat May 24 2025 10:39:1 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.076 ms
+Sat May 24 2025 10:39:2 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 588.575 ms
+Sat May 24 2025 10:59:7 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 200 - 7.468 ms

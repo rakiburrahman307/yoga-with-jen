@@ -176,3 +176,43 @@ Thu May 22 2025 22:37:27 [SERVER-NAME] info: [33m♻️  Socket is listening on
 Thu May 22 2025 22:37:27 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
 Thu May 22 2025 22:37:32 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/comments/682d3ddf96a912f612b01236 200 - 1996.304 ms
 Thu May 22 2025 22:37:53 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/comments/682dd28f6c42ac9a993fb8c1 200 - 1916.586 ms
+Thu May 22 2025 22:38:14 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 22 2025 22:38:16 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 22 2025 22:38:16 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 22 2025 22:38:16 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 22 2025 22:38:20 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.597 ms
+Thu May 22 2025 22:38:20 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community/leaderboard 204 - 0.129 ms
+Thu May 22 2025 22:38:20 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community?page=1 204 - 0.042 ms
+Thu May 22 2025 22:38:21 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 551.816 ms
+Thu May 22 2025 22:38:21 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community/leaderboard 304 - 568.716 ms
+Thu May 22 2025 22:38:21 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1747746976321.png 200 - 1.412 ms
+Thu May 22 2025 22:38:22 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community?page=1 304 - 1167.484 ms
+Thu May 22 2025 22:38:22 [SERVER-NAME] info: 10.0.60.147 - GET //image/1000000159-1747643410714.jpg 200 - 0.699 ms
+Thu May 22 2025 22:38:22 [SERVER-NAME] info: 10.0.60.147 - GET //image/1000005179-1747806821301.jpg 200 - 0.650 ms
+Thu May 22 2025 22:38:23 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comments/682dd28f6c42ac9a993fb8c1 204 - 0.077 ms
+Thu May 22 2025 22:38:25 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/comments/682dd28f6c42ac9a993fb8c1 200 - 2044.863 ms
+Thu May 22 2025 22:38:40 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/comments/682dd28f6c42ac9a993fb8c1 200 - 2043.767 ms
+Thu May 22 2025 22:39:11 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comments/like/682df25d06344445280cd4fc 204 - 0.069 ms
+Thu May 22 2025 22:39:12 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/comments/like/682df25d06344445280cd4fc 200 - 1172.344 ms
+Thu May 22 2025 22:39:12 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comments/682dd28f6c42ac9a993fb8c1 204 - 0.074 ms
+Thu May 22 2025 22:39:14 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/comments/682dd28f6c42ac9a993fb8c1 200 - 2024.307 ms
+Thu May 22 2025 22:39:19 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.068 ms
+Thu May 22 2025 22:39:19 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community/leaderboard 204 - 0.053 ms
+Thu May 22 2025 22:39:19 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community?page=1 204 - 0.045 ms
+Thu May 22 2025 22:39:19 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 582.641 ms
+Thu May 22 2025 22:39:19 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community/leaderboard 304 - 581.179 ms
+Thu May 22 2025 22:39:20 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community?page=1 304 - 1151.745 ms
+Thu May 22 2025 22:39:22 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comments/682dd28f6c42ac9a993fb8c1 204 - 0.068 ms
+Thu May 22 2025 22:39:24 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/comments/682dd28f6c42ac9a993fb8c1 304 - 2008.994 ms
+Thu May 22 2025 22:40:3 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community/like/682d9d766c42ac9a993fb600 204 - 0.058 ms
+Thu May 22 2025 22:40:4 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/community/like/682d9d766c42ac9a993fb600 200 - 1165.854 ms
+Thu May 22 2025 22:40:4 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community?page=1 204 - 0.159 ms
+Thu May 22 2025 22:40:5 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community?page=1 200 - 1151.069 ms
+Thu May 22 2025 22:40:56 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community/like/682d9e276c42ac9a993fb607 204 - 0.056 ms
+Thu May 22 2025 22:40:57 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/community/like/682d9e276c42ac9a993fb607 200 - 1173.136 ms
+Thu May 22 2025 22:40:57 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community?page=1 204 - 0.045 ms
+Thu May 22 2025 22:40:58 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community?page=1 200 - 1147.778 ms
+Thu May 22 2025 22:41:0 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comments/682dd28f6c42ac9a993fb8c1 204 - 0.045 ms
+Thu May 22 2025 22:41:2 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/comments/682dd28f6c42ac9a993fb8c1 304 - 2011.089 ms
+Thu May 22 2025 22:43:36 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/681243ae9dc2b65a00127d8e 204 - 0.045 ms
+Thu May 22 2025 22:43:36 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory/681243ae9dc2b65a00127d8e 304 - 579.186 ms

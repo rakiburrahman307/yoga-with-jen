@@ -1,6 +1,6 @@
 import mongoose, { Schema } from 'mongoose';
-import { ICreatePost } from './creaetPost.interface';
-const VideoSchema = new Schema<ICreatePost>(
+import { IDailyInspiration } from './dailyInspiration.interface';
+const VideoSchema = new Schema<IDailyInspiration>(
      {
           title: { type: String, required: true },
           category: { type: String, required: true, trim: true },
@@ -14,4 +14,4 @@ const VideoSchema = new Schema<ICreatePost>(
      { timestamps: true },
 );
 
-export const CreatePost = mongoose.model<ICreatePost>('CreatePost', VideoSchema);
+export const DailyInspiration = mongoose.model<IDailyInspiration>('DailyInspiration', VideoSchema);

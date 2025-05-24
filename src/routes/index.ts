@@ -19,6 +19,9 @@ import { CreatePostRoutes } from '../app/modules/admin/creaetPost/creaetPost.rou
 import SettingsRouter from '../app/modules/sattings/sattings.route';
 import { ExploreRoutes } from '../app/modules/explore/explore.route';
 import { AdminRoutes } from '../app/modules/admin/admin.route';
+import { NotificationRoutes } from '../app/modules/notification/notification.routes';
+import { TodayVideoRoutes } from '../app/modules/todayVideo/today.route';
+import { DailyInspirationRoutes } from '../app/modules/admin/dailyInspiration/dailyInspiration.router';
 
 const router = express.Router();
 const routes = [
@@ -59,6 +62,14 @@ const routes = [
           route: CategoryRoutes,
      },
      {
+          path: '/admin/dailyInspiration',
+          route: DailyInspirationRoutes,
+     },
+     {
+          path: '/dailyInspiration',
+          route: DailyInspirationRoutes,
+     },
+     {
           path: '/admin/subcategory',
           route: SubCategoryRoutes,
      },
@@ -73,6 +84,14 @@ const routes = [
      {
           path: '/admin/quotation/managment',
           route: quotationManagementRouter,
+     },
+     {
+          path: '/quotation',
+          route: quotationManagementRouter,
+     },
+     {
+          path: '/today',
+          route: TodayVideoRoutes,
      },
      {
           path: '/admin/videos/managment',
@@ -101,6 +120,14 @@ const routes = [
      {
           path: '/admin/subscription/rules',
           route: SubscriptionRuleRoute,
+     },
+     {
+          path: '/admin/notifications',
+          route: NotificationRoutes,
+     },
+     {
+          path: '/notifications',
+          route: NotificationRoutes,
      },
      {
           path: '/subscription',

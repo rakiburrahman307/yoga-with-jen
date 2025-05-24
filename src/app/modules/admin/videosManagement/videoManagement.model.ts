@@ -31,7 +31,6 @@ const VideoSchema = new Schema<IVideo>(
           category: { type: String, required: true, trim: true },
           subCategory: { type: String, required: true, trim: true },
           duration: { type: String, required: true },
-          type: { type: String, required: true, enum: ['free', 'paid'] },
           equipment: { type: [String], required: true },
           thumbnailUrl: { type: String, required: true },
           videoUrl: { type: String, required: true },

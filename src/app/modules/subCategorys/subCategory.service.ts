@@ -5,6 +5,7 @@ import { SubCategory } from './subCategory.model';
 import { ISubCategory } from './subCategory.interface';
 import QueryBuilder from '../../builder/QueryBuilder';
 import { Category } from '../category/category.model';
+import { Video } from '../admin/videosManagement/videoManagement.model';
 // create sub category
 const createSubCategoryToDB = async (payload: ISubCategory) => {
      const { name, thumbnail, categoryId } = payload;
@@ -17,11 +18,8 @@ const createSubCategoryToDB = async (payload: ISubCategory) => {
           unlinkFile(thumbnail);
           throw new AppError(StatusCodes.NOT_ACCEPTABLE, 'This SubCategory Name Already Exists');
      }
-     const data = {
-          ...payload,
-          categoryType: isExistCategory?.categoryType,
-     };
-     const createSubCategory = await SubCategory.create(data);
+
+     const createSubCategory = await SubCategory.create(payload);
      if (!createSubCategory) {
           unlinkFile(thumbnail);
           throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to create subcategory');
@@ -102,6 +100,19 @@ const getCategoryReletedSubcategory = async (id: string) => {
      }
      return result;
 };
+const getSubCategoryRelatedVideo = async (id: string, query: Record<string, unknown>) => {
+     const isExistCategory = await SubCategory.findById(id);
+     if (!isExistCategory) {
+          throw new AppError(StatusCodes.NOT_FOUND, 'Category not found');
+     }
+     const queryBuilder = new QueryBuilder(Video.find({ subCategory: isExistCategory.name }), query);
+     const result = await queryBuilder.fields().filter().paginate().search(['name']).sort().modelQuery.exec();
+     const meta = await queryBuilder.countTotal();
+     return {
+          result,
+          meta,
+     };
+};
 export const CategoryService = {
      createSubCategoryToDB,
      getCategoriesFromDB,
@@ -109,4 +120,5 @@ export const CategoryService = {
      deleteCategoryToDB,
      updateCategoryStatusToDB,
      getCategoryReletedSubcategory,
+     getSubCategoryRelatedVideo
 };

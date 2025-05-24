@@ -152,7 +152,7 @@ userSchema.statics.isInFreeTrial = async (userId: string) => {
 userSchema.statics.hasActiveSubscription = async (userId: string) => {
      const user = await User.findById(userId);
      if (!user) throw new AppError(StatusCodes.NOT_FOUND, 'User not found');
-     return user.isSubscribed && user.hasAccess;
+     return user.hasAccess;
 };
 
 // Static function to check if the user's free trial has expired

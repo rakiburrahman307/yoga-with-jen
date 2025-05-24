@@ -19,14 +19,12 @@ router.post('/mark-video-watched/:videoId', auth(USER_ROLES.USER), videoManageme
 router.post('/:videoId/comments', auth(USER_ROLES.USER), videoManagementController.postComment);
 // POST /videos/:videoId/comments/:commentId/replies
 router.post('/:videoId/comments/:commentId/replies', auth(USER_ROLES.USER), videoManagementController.postReply);
-
 router.post('/:videoId/comments/:commentId/like', auth(USER_ROLES.USER), videoManagementController.likeVideoComment);
 // POST /videos/:videoId/comments/:commentId/replies/:replyId/like
 router.post('/:videoId/comments/:commentId/replies/:replyId/like', auth(USER_ROLES.USER), videoManagementController.likeVideoReply);
 // Unlike routes
 router.post('/:videoId/comments/:commentId/unlike', auth(USER_ROLES.USER), videoManagementController.unlikeVideoComment);
 router.post('/:videoId/comments/:commentId/replies/:replyId/unlike', auth(USER_ROLES.USER), videoManagementController.unlikeVideoReply);
-
 // Delete routes
 router.delete('/:videoId/comments/:commentId', auth(USER_ROLES.USER), videoManagementController.removeComment);
 router.delete('/:videoId/comments/:commentId/replies/:replyId', auth(USER_ROLES.USER), videoManagementController.removeReply);
