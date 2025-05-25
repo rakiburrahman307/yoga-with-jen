@@ -1,0 +1,41 @@
+Sun May 25 2025 13:0:15 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/?page=1 200 - 1164.427 ms
+Sun May 25 2025 13:0:16 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/leaderboard 200 - 571.532 ms
+Sun May 25 2025 13:0:17 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 1155.600 ms
+Sun May 25 2025 13:0:54 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/watch/6832b7029c8e70e948bd8845 200 - 855.802 ms
+Sun May 25 2025 13:1:24 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 1144.027 ms
+Sun May 25 2025 13:1:42 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 200 - 1149.765 ms
+Sun May 25 2025 13:2:44 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun May 25 2025 13:2:46 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun May 25 2025 13:2:46 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sun May 25 2025 13:2:46 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sun May 25 2025 13:3:18 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun May 25 2025 13:3:20 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun May 25 2025 13:3:20 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sun May 25 2025 13:3:20 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sun May 25 2025 13:4:40 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 570.154 ms
+Sun May 25 2025 13:4:44 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 572.138 ms
+Sun May 25 2025 13:4:44 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 557.787 ms
+Sun May 25 2025 13:4:44 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 566.631 ms
+Sun May 25 2025 13:4:44 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 847.598 ms
+Sun May 25 2025 13:4:45 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1140.996 ms
+Sun May 25 2025 13:5:15 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 845.318 ms
+Sun May 25 2025 13:5:17 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 286.699 ms
+Sun May 25 2025 13:5:17 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 567.535 ms
+Sun May 25 2025 13:5:17 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 575.209 ms
+Sun May 25 2025 13:5:17 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 858.929 ms
+Sun May 25 2025 13:5:18 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1112.336 ms
+Sun May 25 2025 13:5:27 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 832.018 ms
+Sun May 25 2025 13:5:37 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/?page=1 200 - 1112.092 ms
+Sun May 25 2025 13:5:38 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/leaderboard 200 - 565.322 ms
+Sun May 25 2025 13:5:53 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/?page=1 200 - 1146.333 ms
+Sun May 25 2025 13:5:54 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/leaderboard 200 - 568.964 ms
+Sun May 25 2025 13:5:59 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/68329efb9c1a5156c0b293b7 200 - 854.552 ms
+Sun May 25 2025 13:6:25 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/?page=1 200 - 1139.769 ms
+Sun May 25 2025 13:6:26 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/leaderboard 200 - 571.112 ms
+Sun May 25 2025 13:6:38 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 275.755 ms
+Sun May 25 2025 13:6:38 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 565.221 ms
+Sun May 25 2025 13:6:38 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 568.516 ms
+Sun May 25 2025 13:6:39 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 834.195 ms
+Sun May 25 2025 13:6:39 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1126.090 ms
+Sun May 25 2025 13:7:12 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/subcategory/6816299037e1f440465dfc83 200 - 1126.262 ms
+Sun May 25 2025 13:7:42 [SERVER-NAME] info: 10.0.60.123 - GET /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 200 - 1421.148 ms

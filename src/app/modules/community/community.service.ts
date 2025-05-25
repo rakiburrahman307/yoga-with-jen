@@ -102,13 +102,13 @@ const likePost = async (postId: string, userId: string) => {
           },
           { new: true, runValidators: true },
      );
-     if (updatedComment) {
-          await sendNotifications({
-               receiver: updatedComment.userId,
-               message: `User '${user.name}' liked your comment`,
-               type: 'MESSAGE',
-          });
-     }
+    //  if (updatedComment) {
+    //       await sendNotifications({
+    //            receiver: updatedComment.userId,
+    //            message: `User '${user.name}' liked your comment`,
+    //            type: 'MESSAGE',
+    //       });
+    //  }
      if (!updatedComment) {
           const unlikedComment = await Community.findOneAndUpdate(
                { _id: postId, likedBy: { $in: [userId] } },

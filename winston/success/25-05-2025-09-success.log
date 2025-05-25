@@ -1,0 +1,97 @@
+Sun May 25 2025 9:18:59 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 576.236 ms
+Sun May 25 2025 9:19:2 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 286.193 ms
+Sun May 25 2025 9:19:3 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 577.358 ms
+Sun May 25 2025 9:19:3 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 574.464 ms
+Sun May 25 2025 9:19:3 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 829.446 ms
+Sun May 25 2025 9:19:3 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1182.778 ms
+Sun May 25 2025 9:20:26 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 587.079 ms
+Sun May 25 2025 9:20:28 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.532 ms
+Sun May 25 2025 9:20:28 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.141 ms
+Sun May 25 2025 9:20:29 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 582.560 ms
+Sun May 25 2025 9:20:29 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 1.363 ms
+Sun May 25 2025 9:20:30 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 304 - 1384.592 ms
+Sun May 25 2025 9:20:30 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/revenue 204 - 0.115 ms
+Sun May 25 2025 9:20:30 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.084 ms
+Sun May 25 2025 9:20:30 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 287.765 ms
+Sun May 25 2025 9:20:30 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 581.809 ms
+Sun May 25 2025 9:20:30 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 576.568 ms
+Sun May 25 2025 9:20:30 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/revenue 304 - 556.305 ms
+Sun May 25 2025 9:20:31 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 824.302 ms
+Sun May 25 2025 9:20:31 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1143.734 ms
+Sun May 25 2025 9:20:32 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/resent-users 304 - 2147.586 ms
+Sun May 25 2025 9:20:35 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/user/managment? 204 - 0.076 ms
+Sun May 25 2025 9:20:36 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/user/managment? 304 - 849.746 ms
+Sun May 25 2025 9:23:26 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 863.669 ms
+Sun May 25 2025 9:23:29 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/?page=1 200 - 1144.580 ms
+Sun May 25 2025 9:23:30 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 287.174 ms
+Sun May 25 2025 9:23:31 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 562.942 ms
+Sun May 25 2025 9:23:31 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 559.142 ms
+Sun May 25 2025 9:23:31 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 827.496 ms
+Sun May 25 2025 9:23:31 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/leaderboard 200 - 574.672 ms
+Sun May 25 2025 9:23:31 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1156.177 ms
+Sun May 25 2025 9:29:13 [SERVER-NAME] info: 10.0.60.123 - GET /api/v1/category 200 - 1152.372 ms
+Sun May 25 2025 9:29:42 [SERVER-NAME] info: 10.0.60.123 - GET /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 200 - 1157.479 ms
+Sun May 25 2025 9:30:10 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 581.935 ms
+Sun May 25 2025 9:30:13 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 865.077 ms
+Sun May 25 2025 9:30:16 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/comingSoon 204 - 0.087 ms
+Sun May 25 2025 9:30:16 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/comingSoon 304 - 863.971 ms
+Sun May 25 2025 9:30:43 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/comingSoon/6822d092b382586897bd617e 204 - 0.105 ms
+Sun May 25 2025 9:30:43 [SERVER-NAME] info: 10.0.60.147 - DELETE /api/v1/admin/comingSoon/6822d092b382586897bd617e 200 - 594.398 ms
+Sun May 25 2025 9:30:43 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/comingSoon 204 - 0.058 ms
+Sun May 25 2025 9:30:44 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/comingSoon 200 - 865.821 ms
+Sun May 25 2025 9:30:47 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/comingSoon/6813970be276141475ead7b3 204 - 0.142 ms
+Sun May 25 2025 9:30:48 [SERVER-NAME] info: 10.0.60.147 - DELETE /api/v1/admin/comingSoon/6813970be276141475ead7b3 200 - 578.754 ms
+Sun May 25 2025 9:30:49 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/comingSoon 200 - 862.469 ms
+Sun May 25 2025 9:32:25 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/comingSoon 204 - 0.114 ms
+Sun May 25 2025 9:32:26 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/comingSoon 304 - 868.105 ms
+Sun May 25 2025 9:32:29 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/comingSoon 304 - 875.999 ms
+Sun May 25 2025 9:32:30 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/comingSoon 304 - 862.276 ms
+Sun May 25 2025 9:35:25 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.057 ms
+Sun May 25 2025 9:35:25 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/comingSoon 204 - 0.039 ms
+Sun May 25 2025 9:35:25 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 585.701 ms
+Sun May 25 2025 9:35:25 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 0.685 ms
+Sun May 25 2025 9:35:26 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/comingSoon 304 - 872.483 ms
+Sun May 25 2025 9:36:7 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.077 ms
+Sun May 25 2025 9:36:7 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/comingSoon 204 - 0.063 ms
+Sun May 25 2025 9:36:7 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 574.420 ms
+Sun May 25 2025 9:36:7 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 0.374 ms
+Sun May 25 2025 9:36:8 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/comingSoon 304 - 876.002 ms
+Sun May 25 2025 9:49:19 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.053 ms
+Sun May 25 2025 9:49:19 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.082 ms
+Sun May 25 2025 9:49:20 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 1145.448 ms
+Sun May 25 2025 9:49:20 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 304 - 1534.197 ms
+Sun May 25 2025 9:50:53 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/681243ae9dc2b65a00127d8e 204 - 0.049 ms
+Sun May 25 2025 9:50:53 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory/681243ae9dc2b65a00127d8e 304 - 577.085 ms
+Sun May 25 2025 9:50:58 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/683183f94f5c96c45dd8f96b 204 - 0.065 ms
+Sun May 25 2025 9:50:58 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory/683183f94f5c96c45dd8f96b 304 - 576.506 ms
+Sun May 25 2025 9:52:36 [SERVER-NAME] info: [34mSIGINT received. Shutting down gracefully...[39m
+Sun May 25 2025 9:53:11 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun May 25 2025 9:53:13 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun May 25 2025 9:53:13 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sun May 25 2025 9:53:13 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sun May 25 2025 9:53:35 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/upload-video 204 - 0.585 ms
+Sun May 25 2025 9:53:56 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/admin/dailyInspiration/create - - - ms
+Sun May 25 2025 9:54:51 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/videos/managment/upload-video - - - ms
+Sun May 25 2025 9:54:51 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.347 ms
+Sun May 25 2025 9:54:51 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.049 ms
+Sun May 25 2025 9:54:51 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.046 ms
+Sun May 25 2025 9:54:52 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 595.276 ms
+Sun May 25 2025 9:54:52 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 1.097 ms
+Sun May 25 2025 9:54:52 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 304 - 898.665 ms
+Sun May 25 2025 9:54:52 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 1207.016 ms
+Sun May 25 2025 9:54:57 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/comingSoon 204 - 0.066 ms
+Sun May 25 2025 9:54:58 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/comingSoon 304 - 892.938 ms
+Sun May 25 2025 9:55:26 [SERVER-NAME] info: [34mSIGINT received. Shutting down gracefully...[39m
+Sun May 25 2025 9:56:21 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun May 25 2025 9:56:23 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun May 25 2025 9:56:23 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sun May 25 2025 9:56:23 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sun May 25 2025 9:56:47 [SERVER-NAME] info: 10.0.60.123 - GET /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 200 - 1189.734 ms
+Sun May 25 2025 9:57:14 [SERVER-NAME] info: 10.0.60.123 - GET /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 200 - 1171.978 ms
+Sun May 25 2025 9:58:30 [SERVER-NAME] info: 10.0.60.123 - GET /api/v1/subcategory/get-videos/683184a94f5c96c45dd8f97d 200 - 1178.966 ms
+Sun May 25 2025 9:58:30 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/admin/dailyInspiration/create - - - ms
+Sun May 25 2025 9:59:21 [SERVER-NAME] info: [34mSIGINT received. Shutting down gracefully...[39m
+Sun May 25 2025 9:59:25 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun May 25 2025 9:59:30 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun May 25 2025 9:59:30 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sun May 25 2025 9:59:30 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m

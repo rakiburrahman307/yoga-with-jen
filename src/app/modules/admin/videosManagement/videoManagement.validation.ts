@@ -4,7 +4,7 @@ const videoValidation = z.object({
      body: z.object({
           title: z.string().min(3, 'Title must be at least 3 characters long'),
           category: z.string().min(1, 'Category is required'),
-          subCategory: z.string().min(1, 'Sub Category is required'),
+          subCategory: z.string().optional(),
           duration: z.string().min(1, 'Duration is required'),
           equipment: z.array(z.string()).nonempty('Equipment list cannot be empty'),
           thumbnailUrl: z.string({

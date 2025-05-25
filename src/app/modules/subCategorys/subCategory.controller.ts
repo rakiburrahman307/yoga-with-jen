@@ -61,7 +61,8 @@ const getCategoryRelatedSubCategory = catchAsync(async (req, res) => {
      });
 });
 const getVideosBySubCategiry = catchAsync(async (req, res) => {
-     const result = await CategoryService.getSubCategoryRelatedVideo(req.params.id, req.query);
+     const { id }: any = req.user;
+     const result = await CategoryService.getSubCategoryRelatedVideo(req.params.id, id, req.query);
 
      sendResponse(res, {
           success: true,

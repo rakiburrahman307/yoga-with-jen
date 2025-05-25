@@ -9,10 +9,21 @@ import config from '../../../../config';
 import { Category } from '../../category/category.model';
 import { User } from '../../user/user.model';
 import mongoose from 'mongoose';
+import { SubCategory } from '../../subCategorys/subCategory.model';
 
 // get videos
 const getVideos = async (query: Record<string, unknown>) => {
-     const queryBuilder = new QueryBuilder(Video.find({}), query);
+     const queryBuilder = new QueryBuilder(Video.find({}).populate('categoryId', 'name').populate('subCategoryId', 'name'), query);
+     const videos = await queryBuilder.fields().filter().paginate().search([]).sort().modelQuery.exec();
+
+     const meta = await queryBuilder.countTotal();
+     return {
+          videos,
+          meta,
+     };
+};
+const getVideosByCourse = async (id: string, query: Record<string, unknown>) => {
+     const queryBuilder = new QueryBuilder(Video.find({ subCategoryId: id }).populate('categoryId', 'name').populate('subCategoryId', 'name'), query);
      const videos = await queryBuilder.fields().filter().paginate().search([]).sort().modelQuery.exec();
 
      const meta = await queryBuilder.countTotal();
@@ -23,17 +34,49 @@ const getVideos = async (query: Record<string, unknown>) => {
 };
 // upload videos
 const addVideo = async (payload: IVideo) => {
-     const isExistCategory = await Category.findOne({ name: payload.category });
+     // Check main category
+     console.log(payload);
+     const isExistCategory = await Category.findById(payload.categoryId);
      if (!isExistCategory) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Category not found');
      }
+     if (isExistCategory.status === 'inactive') {
+          throw new AppError(StatusCodes.BAD_REQUEST, 'Category is inactive');
+     }
 
+     // Increment videoCount of main category
+     const updatedCategory = await Category.findByIdAndUpdate(isExistCategory._id, { $inc: { videoCount: 1 } }, { new: true });
+     if (!updatedCategory) {
+          throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to update category!');
+     }
+
+     // If subCategory is provided, validate and increment subCategoryCount of subcategory itself (or main category if that's your design)
+     if (payload.subCategoryId && payload.categoryId) {
+          const isExistSubCategory = await SubCategory.findById(payload.subCategoryId);
+          if (!isExistSubCategory) {
+               throw new AppError(StatusCodes.NOT_FOUND, 'SubCategory not found');
+          }
+          if (isExistSubCategory.status === 'inactive') {
+               throw new AppError(StatusCodes.BAD_REQUEST, 'SubCategory is inactive');
+          }
+
+          // Here you can update either the subCategory document or the main category document
+          // I'm assuming you want to increment the subCategoryCount on the main category:
+          const updatedCategoryForSub = await SubCategory.findByIdAndUpdate(isExistSubCategory._id, { $inc: { videoCount: 1 } }, { new: true });
+          if (!updatedCategoryForSub) {
+               throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to update category!');
+          }
+     }
+
+     // Create the video document
      const video = await Video.create(payload);
      if (!video) {
-          throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to added videos');
+          throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to add video');
      }
+
      return video;
 };
+
 // update videos
 const updateVideo = async (id: string, payload: Partial<IVideo>) => {
      const isExistVideo = await Video.findById(id);
@@ -265,4 +308,5 @@ export const videoManagementService = {
      deleteComment,
      deleteReply,
      getCommentsByVideoId,
+     getVideosByCourse
 };

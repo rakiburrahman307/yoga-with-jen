@@ -11,6 +11,6 @@ router.get('/', auth(USER_ROLES.USER), CommunityController.getAllPost);
 router.get('/:id', auth(USER_ROLES.USER), CommunityController.getPost);
 router.patch('/:id', auth(USER_ROLES.USER), CommunityController.editPost);
 router.delete('/:id', auth(USER_ROLES.USER), CommunityController.deletePost);
-router.post('/like/:postId', auth(USER_ROLES.USER), CommunityController.likedPost);
+router.get('/like/:postId', auth(USER_ROLES.USER), CommunityController.likedPost);
 
 export const CommunityRouter = router;

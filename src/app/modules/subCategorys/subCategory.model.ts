@@ -7,11 +7,13 @@ const subCategorySchema = new Schema<ISubCategory>(
           name: { type: String, required: true },
           thumbnail: { type: String, required: true },
           videoCount: { type: Number, default: 0 },
+          description: { type: String, default: '' },
           categoryId: {
                type: Schema.Types.ObjectId,
                ref: 'Category',
                required: true,
           },
+          categoryType: { type: String, required: true, enum: ['class', 'course'] },
           status: {
                type: String,
                enum: ['active', 'inactive'],

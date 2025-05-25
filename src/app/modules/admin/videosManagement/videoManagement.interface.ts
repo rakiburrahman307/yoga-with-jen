@@ -1,3 +1,5 @@
+import { Schema } from 'mongoose';
+
 export interface IReply {
      _id?: string;
      userId: string; // Reference to User
@@ -17,10 +19,11 @@ export interface IComment {
 
 export interface IVideo {
      title: string;
-     category: string;
-     subCategory: string;
+     serial: number;
+     categoryId: Schema.Types.ObjectId;
+     subCategoryId: Schema.Types.ObjectId;
      duration: string;
-     type: 'free' | 'paid';
+     type: 'class' | 'course';
      equipment: string[];
      thumbnailUrl: string;
      videoUrl: string;

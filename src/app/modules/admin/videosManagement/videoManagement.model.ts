@@ -28,10 +28,12 @@ const CommentSchema = new Schema(
 const VideoSchema = new Schema<IVideo>(
      {
           title: { type: String, required: true },
-          category: { type: String, required: true, trim: true },
-          subCategory: { type: String, required: true, trim: true },
+          serial: { type: Number, default: 0 },
+          categoryId: { type: mongoose.Schema.Types.ObjectId, ref: 'Category', required: true, trim: true },
+          subCategoryId: { type: mongoose.Schema.Types.ObjectId, ref: 'SubCategory', trim: true, default: '' },
           duration: { type: String, required: true },
           equipment: { type: [String], required: true },
+          type: { type: String, enum: ['class', 'course'], required: true },
           thumbnailUrl: { type: String, required: true },
           videoUrl: { type: String, required: true },
           description: { type: String, required: true },

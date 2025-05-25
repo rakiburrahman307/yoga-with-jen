@@ -22,6 +22,7 @@ import { AdminRoutes } from '../app/modules/admin/admin.route';
 import { NotificationRoutes } from '../app/modules/notification/notification.routes';
 import { TodayVideoRoutes } from '../app/modules/todayVideo/today.route';
 import { DailyInspirationRoutes } from '../app/modules/admin/dailyInspiration/dailyInspiration.router';
+import { ChallengeRoutes } from '../app/modules/admin/challanges/challanges.router';
 
 const router = express.Router();
 const routes = [
@@ -144,6 +145,14 @@ const routes = [
      {
           path: '/admin/comingSoon',
           route: ComingSoonRoutes,
+     },
+     {
+          path: '/admin/challenge',
+          route: ChallengeRoutes,
+     },
+     {
+          path: '/challenge',
+          route: ChallengeRoutes,
      },
      {
           path: '/admin/dashboard',

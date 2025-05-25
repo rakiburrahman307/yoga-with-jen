@@ -85,7 +85,8 @@ const getSubcategorisByCategoris = catchAsync(async (req, res) => {
 });
 const getVideosByCategory = catchAsync(async (req, res) => {
      const { id } = req.params;
-     const result = await CategoryService.getCategoryRelatedSubCategory(id, req.query);
+     const { id: userId }: any = req.user;
+     const result = await CategoryService.getCategoryRelatedSubCategory(id, userId, req.query);
      sendResponse(res, {
           success: true,
           statusCode: StatusCodes.OK,
@@ -101,5 +102,5 @@ export const CategoryController = {
      updateCategoryStatus,
      getSingleCategory,
      getSubcategorisByCategoris,
-     getVideosByCategory
+     getVideosByCategory,
 };

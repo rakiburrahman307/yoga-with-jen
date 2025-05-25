@@ -8,6 +8,7 @@ import { User } from '../user/user.model';
 import { SubCategory } from '../subCategorys/subCategory.model';
 import { USER_ROLES } from '../../../enums/user';
 import { Video } from '../admin/videosManagement/videoManagement.model';
+import { Favourite } from '../favourit/favourit.model';
 
 const createCategoryToDB = async (payload: ICategory) => {
      const { name, thumbnail } = payload;
@@ -143,16 +144,30 @@ const getSubcategoryWithCategoryIdFromDB = async (id: string, query: Record<stri
           meta,
      };
 };
-const getCategoryRelatedSubCategory = async (id: string, query: Record<string, unknown>) => {
+const getFevVideosOrNot = async (videoId: string, userId: string) => {
+     const favorite = await Favourite.findOne({ videoId, userId });
+     return favorite ? true : false;
+};
+const getCategoryRelatedSubCategory = async (id: string, userId: string, query: Record<string, unknown>) => {
      const isExistCategory = await Category.findById(id);
      if (!isExistCategory) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Category not found');
      }
-     const queryBuilder = new QueryBuilder(Video.find({ category: isExistCategory.name, subCategory: '' }), query);
+     const queryBuilder = new QueryBuilder(Video.find({ categoryId: isExistCategory._id, subCategoryId: '' }), query);
      const result = await queryBuilder.fields().filter().paginate().search(['name']).sort().modelQuery.exec();
      const meta = await queryBuilder.countTotal();
+
+     const postsWithFavorites = await Promise.all(
+          result.map(async (post: any) => {
+               const isFevorite = await getFevVideosOrNot(post._id, userId);
+               return {
+                    ...post.toObject(),
+                    isFevorite,
+               };
+          }),
+     );
      return {
-          result,
+          result: postsWithFavorites,
           meta,
      };
 };

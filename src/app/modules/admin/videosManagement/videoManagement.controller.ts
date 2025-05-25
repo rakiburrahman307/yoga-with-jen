@@ -13,6 +13,16 @@ const getAllVideos = catchAsync(async (req, res) => {
           pagination: result.meta,
      });
 });
+const getAllVideosByCourse = catchAsync(async (req, res) => {
+     const result = await videoManagementService.getVideosByCourse(req.params.subCategoryId,req.query);
+     sendResponse(res, {
+          success: true,
+          statusCode: StatusCodes.OK,
+          message: 'Videos retrived successfuly',
+          data: result.videos,
+          pagination: result.meta,
+     });
+});
 // get all videos
 const getSingleVideo = catchAsync(async (req, res) => {
      const { id }: any = req.user;
@@ -225,4 +235,5 @@ export const videoManagementController = {
      removeComment,
      removeReply,
      getComments,
+     getAllVideosByCourse
 };

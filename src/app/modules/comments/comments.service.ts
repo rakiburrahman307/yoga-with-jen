@@ -39,11 +39,11 @@ const createCommentToDB = async (commentCreatorId: string, postId: string, conte
           throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Failed to update parent comment with the new reply');
      }
      // send notifications
-     await sendNotifications({
-          receiver: postCreator._id,
-          message: `A new comment has been posted by ${user.name}`,
-          type: 'MESSAGE',
-     });
+     // await sendNotifications({
+     //      receiver: postCreator._id,
+     //      message: `A new comment has been posted by ${user.name}`,
+     //      type: 'MESSAGE',
+     // });
      return newComment;
 };
 // get comments
@@ -63,7 +63,7 @@ function buildPopulateReplies(depth: number): any {
 
 const getComments = async (postId: string, query: Record<string, unknown>) => {
      // Create a query that finds only top-level comments (depth: 1) for the post
-     const baseQuery = Comment.find({ postId, depth: 1 }).populate(buildPopulateReplies(3));
+     const baseQuery = Comment.find({ postId, depth: 1 }).populate("commentCreatorId", "name image createdAt").populate(buildPopulateReplies(3));
 
      // Use your QueryBuilder with pagination and filtering options
      const queryBuilder = new QueryBuilder(baseQuery, query);
@@ -90,13 +90,13 @@ const likeComment = async (commentId: string, userId: string) => {
           },
           { new: true, runValidators: true },
      );
-     if (updatedComment) {
-          await sendNotifications({
-               receiver: updatedComment.commentCreatorId,
-               message: `User '${user.name}' liked your comment`,
-               type: 'MESSAGE',
-          });
-     }
+     // if (updatedComment) {
+     //      await sendNotifications({
+     //           receiver: updatedComment.commentCreatorId,
+     //           message: `User '${user.name}' liked your comment`,
+     //           type: 'MESSAGE',
+     //      });
+     // }
      if (!updatedComment) {
           const unlikedComment = await Comment.findOneAndUpdate(
                { _id: commentId, likedBy: { $in: [userId] } },
@@ -160,11 +160,11 @@ const replyToComment = async (commentId: string, commentCreatorId: string, conte
      }
 
      // Send notification to the original commenter (parent comment's creator)
-     await sendNotifications({
-          receiver: user._id,
-          message: `User '${user.name}' has replied to your comment`,
-          type: 'MESSAGE',
-     });
+     // await sendNotifications({
+     //      receiver: user._id,
+     //      message: `User '${user.name}' has replied to your comment`,
+     //      type: 'MESSAGE',
+     // });
 
      return reply;
 };
