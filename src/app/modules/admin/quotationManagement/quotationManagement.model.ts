@@ -3,7 +3,7 @@ import { IQuotation } from './quotationManagement.interface';
 const quotationSchema = new Schema<IQuotation>(
      {
           quotation: { type: String, required: true, trim: true },
-          releaseAt: { type: Date, required: true, default: Date.now },
+          releaseAt: { type: Date, default: Date.now },
           status: { type: String, enum: ['active', 'inactive'], default: 'active' },
      },
      {

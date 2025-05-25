@@ -5,7 +5,7 @@ import { quotationManagementService } from './quotationManagement.service';
 
 // get all the user
 const createQuotation = catchAsync(async (req, res) => {
-     const result = await quotationManagementService.cretaeQuotation(req.body);
+     const result = await quotationManagementService.createQuotation(req.body);
      sendResponse(res, {
           success: true,
           statusCode: StatusCodes.CREATED,
@@ -15,7 +15,7 @@ const createQuotation = catchAsync(async (req, res) => {
 });
 // get single user
 const getAllQuotation = catchAsync(async (req, res) => {
-     const result = await quotationManagementService.getQuotationFromDb(req.query);
+     const result = await quotationManagementService.getQuotationFromDb();
      sendResponse(res, {
           success: true,
           statusCode: StatusCodes.OK,

@@ -1,0 +1,44 @@
+Sun May 25 2025 20:1:52 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/users/profile 401 - 3.327 ms
+Sun May 25 2025 20:1:52 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 401 - 1.496 ms
+Sun May 25 2025 20:1:52 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/dashboard/revenue 401 - 0.921 ms
+Sun May 25 2025 20:1:52 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/dashboard/resent-users 401 - 1.750 ms
+Sun May 25 2025 20:2:17 [SERVER-NAME] error: Email Invalid login: 534-5.7.9 Please log in with your web browser and then try again. For more
+534-5.7.9 information, go to
+534 5.7.9  https://support.google.com/mail/?p=WebLoginRequired d9443c01a7336-231d4ed2abbsm152411035ad.227 - gsmtp
+Sun May 25 2025 20:3:21 [SERVER-NAME] error: Email Invalid login: 534-5.7.9 Please log in with your web browser and then try again. For more
+534-5.7.9 information, go to
+534 5.7.9  https://support.google.com/mail/?p=WebLoginRequired d9443c01a7336-2340c2df1fbsm30962485ad.139 - gsmtp
+Sun May 25 2025 20:6:28 [SERVER-NAME] error: Email Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-231d4edd259sm153034085ad.256 - gsmtp
+Sun May 25 2025 20:7:1 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/users/profile 401 - 3.189 ms
+Sun May 25 2025 20:7:1 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/managment/get-admin 401 - 1.257 ms
+Sun May 25 2025 20:7:28 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/categories 404 - 0.719 ms
+Sun May 25 2025 20:7:38 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos-by-subcategory/683184a94f5c96c45dd8f97d?page=1&limit=10 404 - 0.845 ms
+Sun May 25 2025 20:7:38 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/categories 404 - 1.225 ms
+Sun May 25 2025 20:9:18 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/categories 404 - 0.290 ms
+Sun May 25 2025 20:9:18 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos-by-subcategory/683184a94f5c96c45dd8f97d?page=1&limit=10 404 - 0.382 ms
+Sun May 25 2025 20:9:37 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/categories 404 - 0.458 ms
+Sun May 25 2025 20:9:37 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos-by-subcategory/683184a94f5c96c45dd8f97d?page=1&limit=10 404 - 0.431 ms
+Sun May 25 2025 20:11:43 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/categories 404 - 0.290 ms
+Sun May 25 2025 20:11:47 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/categories 404 - 0.358 ms
+Sun May 25 2025 20:11:47 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos-by-subcategory/683184a94f5c96c45dd8f97d?page=1&limit=10 404 - 0.319 ms
+Sun May 25 2025 20:12:11 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/categories 404 - 2.212 ms
+Sun May 25 2025 20:13:9 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/categories 404 - 0.294 ms
+Sun May 25 2025 20:13:9 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos-by-subcategory/683184a94f5c96c45dd8f97d?page=1&limit=10 404 - 0.230 ms
+Sun May 25 2025 20:13:11 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/categories 404 - 0.300 ms
+Sun May 25 2025 20:14:30 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/categories 404 - 0.300 ms
+Sun May 25 2025 20:14:35 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/categories 404 - 0.317 ms
+Sun May 25 2025 20:14:57 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/categories 404 - 1.490 ms
+Sun May 25 2025 20:15:42 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/categories 404 - 0.333 ms
+Sun May 25 2025 20:16:26 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/categories 404 - 1.751 ms
+Sun May 25 2025 20:16:32 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/categories 404 - 0.336 ms
+Sun May 25 2025 20:17:51 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/categories 404 - 0.597 ms
+Sun May 25 2025 20:20:35 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos-by-subcategory/683184a94f5c96c45dd8f97d?page=1&limit=10 404 - 7.384 ms
+Sun May 25 2025 20:26:46 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos-by-subcategory/683184a94f5c96c45dd8f97d?page=1&limit=10 404 - 6.706 ms
+Sun May 25 2025 20:32:41 [SERVER-NAME] error: 10.0.60.147 - POST /api/v1/admin/subcategory/create 400 - 918.406 ms
+Sun May 25 2025 20:46:9 [SERVER-NAME] error: 10.0.60.147 - POST /api/v1/admin/videos/managment/upload-video 400 - 3529.080 ms
+Sun May 25 2025 20:48:35 [SERVER-NAME] error: 10.0.60.147 - POST /api/v1/admin/videos/managment/upload-video 400 - 3922.707 ms
+Sun May 25 2025 20:51:0 [SERVER-NAME] error: 10.0.60.147 - POST /api/v1/admin/videos/managment/upload-video 400 - 3510.207 ms
+Sun May 25 2025 20:54:38 [SERVER-NAME] error: 10.0.60.147 - POST /api/v1/admin/videos/managment/upload-video 400 - 3512.885 ms
+Sun May 25 2025 20:57:40 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos-by-subcategory/68332b74df7ae842b4bbedc5?page=1&limit=10 404 - 2.530 ms
+Sun May 25 2025 20:57:54 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos-by-subcategory/68332bd1df7ae842b4bbeddd?page=1&limit=10 404 - 0.317 ms

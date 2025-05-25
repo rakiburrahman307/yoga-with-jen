@@ -13,7 +13,6 @@ const subCategorySchema = new Schema<ISubCategory>(
                ref: 'Category',
                required: true,
           },
-          categoryType: { type: String, required: true, enum: ['class', 'course'] },
           status: {
                type: String,
                enum: ['active', 'inactive'],

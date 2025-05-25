@@ -30,7 +30,19 @@ const VideoSchema = new Schema<IVideo>(
           title: { type: String, required: true },
           serial: { type: Number, default: 0 },
           categoryId: { type: mongoose.Schema.Types.ObjectId, ref: 'Category', required: true, trim: true },
-          subCategoryId: { type: mongoose.Schema.Types.ObjectId, ref: 'SubCategory', trim: true, default: '' },
+          subCategoryId: {
+               type: mongoose.Schema.Types.ObjectId,
+               required: false,
+               ref: 'SubCategory',
+               // Custom setter to handle empty strings
+               set: function (value: any) {
+                    // If empty string or null/undefined, return null
+                    if (value === '' || value === null || value === undefined) {
+                         return null;
+                    }
+                    return value;
+               },
+          },
           duration: { type: String, required: true },
           equipment: { type: [String], required: true },
           type: { type: String, enum: ['class', 'course'], required: true },

@@ -308,5 +308,5 @@ export const videoManagementService = {
      deleteComment,
      deleteReply,
      getCommentsByVideoId,
-     getVideosByCourse
+     getVideosByCourse,
 };

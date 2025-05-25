@@ -1,0 +1,244 @@
+Sun May 25 2025 20:2:2 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun May 25 2025 20:2:5 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun May 25 2025 20:2:5 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sun May 25 2025 20:2:5 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sun May 25 2025 20:2:15 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/auth/forget-password 204 - 0.597 ms
+Sun May 25 2025 20:2:16 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/forget-password 200 - 627.613 ms
+Sun May 25 2025 20:3:20 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/forget-password 200 - 603.297 ms
+Sun May 25 2025 20:6:9 [SERVER-NAME] info: [34mSIGINT received. Shutting down gracefully...[39m
+Sun May 25 2025 20:6:14 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun May 25 2025 20:6:17 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun May 25 2025 20:6:17 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sun May 25 2025 20:6:17 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sun May 25 2025 20:6:26 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/auth/forget-password 204 - 0.682 ms
+Sun May 25 2025 20:6:27 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/forget-password 200 - 625.507 ms
+Sun May 25 2025 20:7:21 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/auth/login 204 - 0.089 ms
+Sun May 25 2025 20:7:22 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/login 200 - 797.448 ms
+Sun May 25 2025 20:7:22 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.052 ms
+Sun May 25 2025 20:7:22 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.045 ms
+Sun May 25 2025 20:7:23 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 582.281 ms
+Sun May 25 2025 20:7:23 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 0.698 ms
+Sun May 25 2025 20:7:24 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 304 - 1488.020 ms
+Sun May 25 2025 20:7:24 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/revenue 204 - 0.071 ms
+Sun May 25 2025 20:7:24 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.121 ms
+Sun May 25 2025 20:7:24 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/resent-users 304 - 590.148 ms
+Sun May 25 2025 20:7:24 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/revenue 304 - 601.170 ms
+Sun May 25 2025 20:7:28 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/categories 204 - 0.087 ms
+Sun May 25 2025 20:7:28 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.047 ms
+Sun May 25 2025 20:7:29 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 304 - 1203.796 ms
+Sun May 25 2025 20:7:38 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/get-all-videos-by-course/683184a94f5c96c45dd8f97d 204 - 0.057 ms
+Sun May 25 2025 20:7:38 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos-by-subcategory/683184a94f5c96c45dd8f97d?page=1&limit=10 204 - 0.052 ms
+Sun May 25 2025 20:7:38 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/categories 204 - 0.035 ms
+Sun May 25 2025 20:7:39 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/get-all-videos-by-course/683184a94f5c96c45dd8f97d 304 - 1192.007 ms
+Sun May 25 2025 20:9:18 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/categories 204 - 0.048 ms
+Sun May 25 2025 20:9:18 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos-by-subcategory/683184a94f5c96c45dd8f97d?page=1&limit=10 204 - 0.033 ms
+Sun May 25 2025 20:9:20 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos/6832fb30741efd17a0e66788 204 - 0.055 ms
+Sun May 25 2025 20:9:20 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos/6832fb30741efd17a0e66788 200 - 603.048 ms
+Sun May 25 2025 20:9:37 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/categories 204 - 0.071 ms
+Sun May 25 2025 20:9:37 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos-by-subcategory/683184a94f5c96c45dd8f97d?page=1&limit=10 204 - 0.053 ms
+Sun May 25 2025 20:10:14 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/quotation/managment/ 200 - 596.712 ms
+Sun May 25 2025 20:10:44 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/quotation/managment/ 200 - 593.889 ms
+Sun May 25 2025 20:10:46 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/quotation/managment/ 200 - 596.101 ms
+Sun May 25 2025 20:10:47 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/quotation/managment/ 200 - 595.040 ms
+Sun May 25 2025 20:11:43 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/categories 204 - 0.044 ms
+Sun May 25 2025 20:11:43 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.035 ms
+Sun May 25 2025 20:11:44 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 304 - 1198.332 ms
+Sun May 25 2025 20:11:47 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos-by-subcategory/683184a94f5c96c45dd8f97d?page=1&limit=10 204 - 0.035 ms
+Sun May 25 2025 20:12:11 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/categories 204 - 0.243 ms
+Sun May 25 2025 20:12:52 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 200 - 1204.224 ms
+Sun May 25 2025 20:13:9 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/categories 204 - 0.083 ms
+Sun May 25 2025 20:13:9 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos-by-subcategory/683184a94f5c96c45dd8f97d?page=1&limit=10 204 - 0.031 ms
+Sun May 25 2025 20:14:30 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/categories 204 - 0.044 ms
+Sun May 25 2025 20:14:35 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/categories 204 - 0.043 ms
+Sun May 25 2025 20:14:57 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.073 ms
+Sun May 25 2025 20:14:57 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.036 ms
+Sun May 25 2025 20:14:57 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/categories 204 - 0.030 ms
+Sun May 25 2025 20:14:57 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 580.834 ms
+Sun May 25 2025 20:14:57 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 0.353 ms
+Sun May 25 2025 20:14:58 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 304 - 1192.303 ms
+Sun May 25 2025 20:15:42 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/categories 204 - 0.041 ms
+Sun May 25 2025 20:16:26 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/categories 204 - 0.176 ms
+Sun May 25 2025 20:16:32 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/categories 204 - 0.042 ms
+Sun May 25 2025 20:17:51 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/categories 204 - 0.040 ms
+Sun May 25 2025 20:19:32 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.137 ms
+Sun May 25 2025 20:19:32 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.093 ms
+Sun May 25 2025 20:19:32 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.095 ms
+Sun May 25 2025 20:19:33 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 589.220 ms
+Sun May 25 2025 20:19:33 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 0.633 ms
+Sun May 25 2025 20:19:33 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 1194.565 ms
+Sun May 25 2025 20:19:33 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 304 - 1218.801 ms
+Sun May 25 2025 20:19:46 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/683183f94f5c96c45dd8f96b 204 - 0.061 ms
+Sun May 25 2025 20:19:47 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory/683183f94f5c96c45dd8f96b 200 - 604.309 ms
+Sun May 25 2025 20:19:52 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos/6832fb30741efd17a0e66788 204 - 0.044 ms
+Sun May 25 2025 20:19:53 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos/6832fb30741efd17a0e66788 304 - 603.697 ms
+Sun May 25 2025 20:20:35 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.066 ms
+Sun May 25 2025 20:20:35 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.053 ms
+Sun May 25 2025 20:20:35 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/get-all-videos-by-course/683184a94f5c96c45dd8f97d 204 - 0.080 ms
+Sun May 25 2025 20:20:35 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos-by-subcategory/683184a94f5c96c45dd8f97d?page=1&limit=10 204 - 0.064 ms
+Sun May 25 2025 20:20:35 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 601.466 ms
+Sun May 25 2025 20:20:35 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 0.396 ms
+Sun May 25 2025 20:20:36 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/get-all-videos-by-course/683184a94f5c96c45dd8f97d 304 - 1171.191 ms
+Sun May 25 2025 20:20:36 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 1212.760 ms
+Sun May 25 2025 20:20:38 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos/6832fb30741efd17a0e66788 204 - 0.043 ms
+Sun May 25 2025 20:20:38 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos/6832fb30741efd17a0e66788 304 - 605.397 ms
+Sun May 25 2025 20:20:48 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/681243ae9dc2b65a00127d8e 204 - 0.068 ms
+Sun May 25 2025 20:20:48 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory/681243ae9dc2b65a00127d8e 304 - 605.167 ms
+Sun May 25 2025 20:20:50 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/683183f94f5c96c45dd8f96b 204 - 0.046 ms
+Sun May 25 2025 20:20:51 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory/683183f94f5c96c45dd8f96b 304 - 606.748 ms
+Sun May 25 2025 20:26:46 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.066 ms
+Sun May 25 2025 20:26:46 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.050 ms
+Sun May 25 2025 20:26:46 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/get-all-videos-by-course/683184a94f5c96c45dd8f97d 204 - 0.050 ms
+Sun May 25 2025 20:26:46 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos-by-subcategory/683184a94f5c96c45dd8f97d?page=1&limit=10 204 - 0.049 ms
+Sun May 25 2025 20:26:46 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 585.296 ms
+Sun May 25 2025 20:26:46 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 0.260 ms
+Sun May 25 2025 20:26:46 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/get-all-videos-by-course/683184a94f5c96c45dd8f97d 200 - 868.631 ms
+Sun May 25 2025 20:26:47 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 1209.408 ms
+Sun May 25 2025 20:26:48 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.062 ms
+Sun May 25 2025 20:26:49 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 200 - 928.448 ms
+Sun May 25 2025 20:26:59 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/683183f94f5c96c45dd8f96b 204 - 0.041 ms
+Sun May 25 2025 20:27:0 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory/683183f94f5c96c45dd8f96b 304 - 603.487 ms
+Sun May 25 2025 20:27:7 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(7)-1748075513522.png 304 - 1.050 ms
+Sun May 25 2025 20:27:7 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(9)-1746285548523.png 304 - 1.180 ms
+Sun May 25 2025 20:27:7 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(11)-1747917262458.png 304 - 1.449 ms
+Sun May 25 2025 20:27:7 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(12)-1747913463996.png 304 - 1.606 ms
+Sun May 25 2025 20:27:7 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(15)-1747912796892.png 304 - 1.992 ms
+Sun May 25 2025 20:27:7 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(7)-1746285331667.png 304 - 0.567 ms
+Sun May 25 2025 20:27:7 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/frame-2147227088-(2)-1746266077431.png 304 - 0.220 ms
+Sun May 25 2025 20:27:7 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/msi-1746027437618.png 304 - 0.433 ms
+Sun May 25 2025 20:27:14 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category/single/683183f94f5c96c45dd8f96b 204 - 0.044 ms
+Sun May 25 2025 20:27:14 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory 204 - 0.031 ms
+Sun May 25 2025 20:27:15 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory 200 - 866.564 ms
+Sun May 25 2025 20:27:16 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category/single/683183f94f5c96c45dd8f96b 200 - 1530.231 ms
+Sun May 25 2025 20:27:16 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(10)-1748075688948.png 304 - 0.400 ms
+Sun May 25 2025 20:28:14 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/comingSoon 204 - 0.070 ms
+Sun May 25 2025 20:28:15 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/comingSoon 304 - 914.394 ms
+Sun May 25 2025 20:28:26 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.061 ms
+Sun May 25 2025 20:28:27 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 1208.904 ms
+Sun May 25 2025 20:28:55 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category/683183f94f5c96c45dd8f96b 204 - 0.042 ms
+Sun May 25 2025 20:28:56 [SERVER-NAME] info: 10.0.60.147 - PATCH /api/v1/admin/category/683183f94f5c96c45dd8f96b 200 - 928.069 ms
+Sun May 25 2025 20:28:56 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.042 ms
+Sun May 25 2025 20:28:58 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 200 - 1214.273 ms
+Sun May 25 2025 20:29:25 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category/682f19cebbf267bba7c82275 204 - 0.054 ms
+Sun May 25 2025 20:29:26 [SERVER-NAME] info: 10.0.60.147 - PATCH /api/v1/admin/category/682f19cebbf267bba7c82275 200 - 920.281 ms
+Sun May 25 2025 20:29:26 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.039 ms
+Sun May 25 2025 20:29:27 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 200 - 1206.647 ms
+Sun May 25 2025 20:29:30 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category/single/683183f94f5c96c45dd8f96b 204 - 0.048 ms
+Sun May 25 2025 20:29:30 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory 204 - 0.050 ms
+Sun May 25 2025 20:29:31 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory 304 - 863.382 ms
+Sun May 25 2025 20:29:32 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category/single/683183f94f5c96c45dd8f96b 200 - 1515.506 ms
+Sun May 25 2025 20:29:55 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/683184a94f5c96c45dd8f97d 204 - 0.069 ms
+Sun May 25 2025 20:29:56 [SERVER-NAME] info: 10.0.60.147 - PATCH /api/v1/admin/subcategory/683184a94f5c96c45dd8f97d 200 - 909.544 ms
+Sun May 25 2025 20:29:56 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory 204 - 0.057 ms
+Sun May 25 2025 20:29:57 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory 200 - 908.453 ms
+Sun May 25 2025 20:31:33 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/quotation/managment 204 - 0.047 ms
+Sun May 25 2025 20:31:34 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/quotation/managment 200 - 602.165 ms
+Sun May 25 2025 20:31:40 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.039 ms
+Sun May 25 2025 20:31:41 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 200 - 1207.622 ms
+Sun May 25 2025 20:31:51 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category/682f0af832c5c0d12e1deec5 204 - 0.042 ms
+Sun May 25 2025 20:31:52 [SERVER-NAME] info: 10.0.60.147 - PATCH /api/v1/admin/category/682f0af832c5c0d12e1deec5 200 - 908.039 ms
+Sun May 25 2025 20:31:52 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.038 ms
+Sun May 25 2025 20:31:53 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 200 - 1210.913 ms
+Sun May 25 2025 20:31:58 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category/single/682f0af832c5c0d12e1deec5 204 - 0.067 ms
+Sun May 25 2025 20:31:59 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category/single/682f0af832c5c0d12e1deec5 200 - 1209.946 ms
+Sun May 25 2025 20:32:40 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/create 204 - 0.065 ms
+Sun May 25 2025 20:32:41 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory 204 - 0.063 ms
+Sun May 25 2025 20:32:41 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory 304 - 906.716 ms
+Sun May 25 2025 20:34:41 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun May 25 2025 20:34:44 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun May 25 2025 20:34:44 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sun May 25 2025 20:34:44 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sun May 25 2025 20:34:49 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun May 25 2025 20:34:52 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun May 25 2025 20:34:52 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sun May 25 2025 20:34:52 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sun May 25 2025 20:37:51 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/create 204 - 0.922 ms
+Sun May 25 2025 20:37:53 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/subcategory/create 200 - 1528.159 ms
+Sun May 25 2025 20:37:53 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory 204 - 0.145 ms
+Sun May 25 2025 20:37:54 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory 200 - 876.180 ms
+Sun May 25 2025 20:37:54 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(10)-1748183872063.png 200 - 2.842 ms
+Sun May 25 2025 20:38:43 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/create 204 - 0.100 ms
+Sun May 25 2025 20:38:44 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/subcategory/create 200 - 1479.264 ms
+Sun May 25 2025 20:38:44 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory 204 - 0.086 ms
+Sun May 25 2025 20:38:45 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory 200 - 875.330 ms
+Sun May 25 2025 20:38:45 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(9)-1748183923617.png 200 - 1.860 ms
+Sun May 25 2025 20:39:0 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.099 ms
+Sun May 25 2025 20:39:1 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 200 - 1548.461 ms
+Sun May 25 2025 20:39:48 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category/682f19cebbf267bba7c82275 204 - 0.123 ms
+Sun May 25 2025 20:39:49 [SERVER-NAME] info: 10.0.60.147 - PATCH /api/v1/admin/category/682f19cebbf267bba7c82275 200 - 880.798 ms
+Sun May 25 2025 20:39:49 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.118 ms
+Sun May 25 2025 20:39:50 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 200 - 1159.068 ms
+Sun May 25 2025 20:39:51 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category/single/682f19cebbf267bba7c82275 204 - 0.094 ms
+Sun May 25 2025 20:39:53 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category/single/682f19cebbf267bba7c82275 200 - 1668.435 ms
+Sun May 25 2025 20:40:16 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/create 204 - 0.228 ms
+Sun May 25 2025 20:40:18 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/subcategory/create 200 - 1520.585 ms
+Sun May 25 2025 20:40:18 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory 204 - 0.184 ms
+Sun May 25 2025 20:40:19 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory 200 - 867.977 ms
+Sun May 25 2025 20:40:19 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/image5-1748184017064.png 200 - 1.655 ms
+Sun May 25 2025 20:40:59 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/create 204 - 0.091 ms
+Sun May 25 2025 20:41:1 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/subcategory/create 200 - 1471.860 ms
+Sun May 25 2025 20:41:1 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory 204 - 0.081 ms
+Sun May 25 2025 20:41:2 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory 200 - 867.263 ms
+Sun May 25 2025 20:41:2 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(13)-1748184060254.png 200 - 1.062 ms
+Sun May 25 2025 20:41:6 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.050 ms
+Sun May 25 2025 20:41:7 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 200 - 1155.572 ms
+Sun May 25 2025 20:41:49 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.074 ms
+Sun May 25 2025 20:41:50 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 304 - 882.136 ms
+Sun May 25 2025 20:42:56 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/682f19cebbf267bba7c82275 204 - 0.083 ms
+Sun May 25 2025 20:42:56 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory/682f19cebbf267bba7c82275 200 - 578.959 ms
+Sun May 25 2025 20:44:29 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/upload-video 204 - 0.048 ms
+Sun May 25 2025 20:44:33 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/videos/managment/upload-video 200 - 4153.741 ms
+Sun May 25 2025 20:44:33 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.048 ms
+Sun May 25 2025 20:44:34 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 200 - 1165.020 ms
+Sun May 25 2025 20:45:29 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/683183f94f5c96c45dd8f96b 204 - 0.064 ms
+Sun May 25 2025 20:45:30 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory/683183f94f5c96c45dd8f96b 200 - 597.261 ms
+Sun May 25 2025 20:46:5 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/upload-video 204 - 0.074 ms
+Sun May 25 2025 20:46:39 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/upload-video 204 - 0.086 ms
+Sun May 25 2025 20:46:44 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/videos/managment/upload-video 200 - 4693.829 ms
+Sun May 25 2025 20:46:44 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.081 ms
+Sun May 25 2025 20:46:45 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 200 - 1174.699 ms
+Sun May 25 2025 20:47:47 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/682f0af832c5c0d12e1deec5 204 - 0.067 ms
+Sun May 25 2025 20:47:47 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory/682f0af832c5c0d12e1deec5 200 - 588.240 ms
+Sun May 25 2025 20:48:31 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/upload-video 204 - 0.144 ms
+Sun May 25 2025 20:48:47 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/upload-video 204 - 0.051 ms
+Sun May 25 2025 20:48:52 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/videos/managment/upload-video 200 - 4853.953 ms
+Sun May 25 2025 20:48:52 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.051 ms
+Sun May 25 2025 20:48:54 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 200 - 2024.534 ms
+Sun May 25 2025 20:49:40 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun May 25 2025 20:49:43 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun May 25 2025 20:49:43 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sun May 25 2025 20:49:43 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sun May 25 2025 20:49:47 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun May 25 2025 20:49:52 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun May 25 2025 20:49:52 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sun May 25 2025 20:49:52 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sun May 25 2025 20:50:57 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/upload-video 204 - 1.352 ms
+Sun May 25 2025 20:52:28 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun May 25 2025 20:52:31 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun May 25 2025 20:52:31 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sun May 25 2025 20:52:31 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sun May 25 2025 20:53:7 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun May 25 2025 20:53:10 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun May 25 2025 20:53:10 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sun May 25 2025 20:53:10 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sun May 25 2025 20:54:6 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/682f19cebbf267bba7c82275 204 - 0.979 ms
+Sun May 25 2025 20:54:7 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory/682f19cebbf267bba7c82275 200 - 616.946 ms
+Sun May 25 2025 20:54:34 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/upload-video 204 - 0.104 ms
+Sun May 25 2025 20:57:25 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/682f19cebbf267bba7c82275 204 - 0.061 ms
+Sun May 25 2025 20:57:25 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory/682f19cebbf267bba7c82275 304 - 591.650 ms
+Sun May 25 2025 20:57:30 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/upload-video 204 - 0.052 ms
+Sun May 25 2025 20:57:34 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/videos/managment/upload-video 200 - 4006.356 ms
+Sun May 25 2025 20:57:34 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.100 ms
+Sun May 25 2025 20:57:35 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 200 - 1188.231 ms
+Sun May 25 2025 20:57:40 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/get-all-videos-by-course/68332b74df7ae842b4bbedc5 204 - 0.070 ms
+Sun May 25 2025 20:57:40 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos-by-subcategory/68332b74df7ae842b4bbedc5?page=1&limit=10 204 - 0.060 ms
+Sun May 25 2025 20:57:41 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/get-all-videos-by-course/68332b74df7ae842b4bbedc5 200 - 1180.681 ms
+Sun May 25 2025 20:57:54 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/get-all-videos-by-course/68332bd1df7ae842b4bbeddd 204 - 0.062 ms
+Sun May 25 2025 20:57:54 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos-by-subcategory/68332bd1df7ae842b4bbeddd?page=1&limit=10 204 - 0.085 ms
+Sun May 25 2025 20:57:55 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/get-all-videos-by-course/68332bd1df7ae842b4bbeddd 200 - 1177.326 ms
+Sun May 25 2025 20:58:47 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/683183f94f5c96c45dd8f96b 204 - 0.110 ms
+Sun May 25 2025 20:58:48 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory/683183f94f5c96c45dd8f96b 200 - 601.685 ms
+Sun May 25 2025 20:59:47 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun May 25 2025 20:59:50 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun May 25 2025 20:59:53 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun May 25 2025 20:59:53 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sun May 25 2025 20:59:53 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m

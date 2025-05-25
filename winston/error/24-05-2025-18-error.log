@@ -1,4 +1,0 @@
-Sat May 24 2025 18:27:6 [SERVER-NAME] error: 10.0.60.123 - GET /api/v1/today/6831837f4f5c96c45dd8f95d 403 - 936.130 ms
-Sat May 24 2025 18:27:30 [SERVER-NAME] error: 10.0.60.123 - GET /api/v1/today/68316ab91f9045ccb128112a 403 - 934.574 ms
-Sat May 24 2025 18:27:54 [SERVER-NAME] error: 10.0.60.123 - GET /api/v1/today/6831837f4f5c96c45dd8f95d 403 - 936.444 ms
-Sat May 24 2025 18:30:19 [SERVER-NAME] error: 10.0.60.147 - PATCH /api/v1/admin/comingSoon/6822d092b382586897bd617e 500 - 3423.445 ms
