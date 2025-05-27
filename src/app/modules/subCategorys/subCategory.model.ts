@@ -13,6 +13,7 @@ const subCategorySchema = new Schema<ISubCategory>(
                ref: 'Category',
                required: true,
           },
+          equipment: { type: [String], required: true },
           status: {
                type: String,
                enum: ['active', 'inactive'],

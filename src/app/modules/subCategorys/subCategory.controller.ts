@@ -24,6 +24,15 @@ const getSubCategories = catchAsync(async (req, res) => {
           pagination: result.meta,
      });
 });
+const getSubcategorisById = catchAsync(async (req, res) => {
+     const result = await CategoryService.getSubCategoryDetails(req.params.id);
+     sendResponse(res, {
+          success: true,
+          statusCode: StatusCodes.OK,
+          message: 'Sub category retrieved successfully',
+          data: result,
+     });
+});
 
 const updateSubCategory = catchAsync(async (req, res) => {
      const id = req.params.id;
@@ -79,4 +88,5 @@ export const CategoryController = {
      deleteSubCategory,
      getCategoryRelatedSubCategory,
      getVideosBySubCategiry,
+     getSubcategorisById
 };

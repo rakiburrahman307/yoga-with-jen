@@ -30,3 +30,29 @@ Sun May 25 2025 21:8:37 [SERVER-NAME] info: [32mConfig validation successful.[
 Sun May 25 2025 21:8:40 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
 Sun May 25 2025 21:8:40 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
 Sun May 25 2025 21:8:40 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sun May 25 2025 21:8:54 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun May 25 2025 21:8:57 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun May 25 2025 21:8:57 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sun May 25 2025 21:8:57 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sun May 25 2025 21:9:23 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/upload-video 204 - 0.644 ms
+Sun May 25 2025 21:9:27 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/videos/managment/upload-video 200 - 3670.310 ms
+Sun May 25 2025 21:9:27 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.083 ms
+Sun May 25 2025 21:9:28 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 200 - 1178.715 ms
+Sun May 25 2025 21:9:31 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos/683332a694af0a2afb983da8 204 - 0.059 ms
+Sun May 25 2025 21:9:31 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos/683332a694af0a2afb983da8 200 - 585.408 ms
+Sun May 25 2025 21:10:25 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/get-all-videos-by-course/683184a94f5c96c45dd8f97d 204 - 0.094 ms
+Sun May 25 2025 21:10:25 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos-by-subcategory/683184a94f5c96c45dd8f97d?page=1&limit=10 204 - 0.136 ms
+Sun May 25 2025 21:10:26 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/get-all-videos-by-course/683184a94f5c96c45dd8f97d 304 - 1171.545 ms
+Sun May 25 2025 21:10:31 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos/683330d0999ddb89eab92148 204 - 0.121 ms
+Sun May 25 2025 21:10:32 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos/683330d0999ddb89eab92148 200 - 584.337 ms
+Sun May 25 2025 21:10:42 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos/68332d53df7ae842b4bbee0c 204 - 0.120 ms
+Sun May 25 2025 21:10:42 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos/68332d53df7ae842b4bbee0c 304 - 607.318 ms
+Sun May 25 2025 21:11:47 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos/683330d0999ddb89eab92148 204 - 0.058 ms
+Sun May 25 2025 21:11:47 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos/683330d0999ddb89eab92148 304 - 585.345 ms
+Sun May 25 2025 21:12:9 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.140 ms
+Sun May 25 2025 21:12:10 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 304 - 1163.037 ms
+Sun May 25 2025 21:14:26 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/get-all-videos-by-course/68332bd1df7ae842b4bbeddd 204 - 0.073 ms
+Sun May 25 2025 21:14:26 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos-by-subcategory/68332bd1df7ae842b4bbeddd?page=1&limit=10 204 - 0.045 ms
+Sun May 25 2025 21:14:27 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/get-all-videos-by-course/68332bd1df7ae842b4bbeddd 304 - 1162.498 ms
+Sun May 25 2025 21:14:28 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos/68332fde24cfca2625db9bf4 204 - 0.052 ms
+Sun May 25 2025 21:14:29 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos/68332fde24cfca2625db9bf4 200 - 581.139 ms

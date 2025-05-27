@@ -1,9 +1,9 @@
 import { Types } from 'mongoose';
 
 export interface INotification {
-     text: string;
+     message: string;
      receiver: Types.ObjectId;
-     orderId: Types.ObjectId;
+     postId: Types.ObjectId;
      reference?: string;
      referenceModel?: 'Payment' | 'Order' | 'Message';
      screen?: 'DASHBOARD' | 'PAYMENT_HISTORY' | 'PROFILE';

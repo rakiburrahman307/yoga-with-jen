@@ -1,22 +1,5 @@
 import { Schema } from 'mongoose';
 
-export interface IReply {
-     _id?: string;
-     userId: string; // Reference to User
-     content: string;
-     likes: string[]; // Array of User IDs who liked this reply
-     createdAt?: Date;
-}
-
-export interface IComment {
-     _id?: string;
-     userId: string; // Reference to User
-     content: string;
-     likes: string[]; // Array of User IDs who liked this comment
-     replies: IReply[]; // Nested replies
-     createdAt?: Date;
-}
-
 export interface IVideo {
      title: string;
      serial: number;
@@ -29,5 +12,7 @@ export interface IVideo {
      videoUrl: string;
      description: string;
      status: 'active' | 'inactive';
-     comments?: IComment[]; // Optional comments field
+     likes: number;
+     likedBy: Schema.Types.ObjectId[];
+     comments: Schema.Types.ObjectId[];
 }

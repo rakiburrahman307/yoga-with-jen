@@ -62,30 +62,39 @@ const getQuotationFromDb = async () => {
      
      // Find quotation for today
      let todayQuotation = await Quotation.findOne({
-          releaseAt: {
-               $gte: today,
-               $lt: tomorrow
-          }
+         releaseAt: {
+             $gte: today,
+             $lt: tomorrow
+         }
      });
      
-     // If no quotation found for today, get the first one and loop
+     // If no quotation found for today, get the most recent one
      if (!todayQuotation) {
-          // Get the first quotation (oldest by releaseAt)
-          todayQuotation = await Quotation.findOne().sort({ releaseAt: 1 });
-          
-          if (!todayQuotation) {
-               return {
-                    quotation: null,
-                    message: 'No quotations available'
-               };
-          }
+         // Get the most recent quotation (newest by releaseAt)
+         todayQuotation = await Quotation.findOne().sort({ releaseAt: -1 });
+         
+         if (!todayQuotation) {
+             return {
+                 quotation: null,
+                 message: 'No quotations available'
+             };
+         }
+         
+         // Optional: Add a flag to indicate this is a fallback
+         return {
+             quotation: todayQuotation,
+             message: 'No quotation for today, showing most recent quotation',
+             isFallback: true
+         };
      }
      
      return {
-          quotation: todayQuotation,
-          message: 'Quotation retrieved successfully'
+         quotation: todayQuotation,
+         message: 'Quotation retrieved successfully',
+         isFallback: false
      };
-};
+ };
+ 
 
 // get single users
 const getSingleQuotation = async (id: string) => {

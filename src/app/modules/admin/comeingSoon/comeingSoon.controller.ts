@@ -36,7 +36,8 @@ const getAllComingSoon = catchAsync(async (req, res) => {
 // Controller function to fetch the latest "Coming Soon" content
 const getComingSoonContentLetest = catchAsync(async (req, res) => {
      // Fetching the latest "Coming Soon" content
-     const result = await ComeingSoonService.getCommingSoonLetest();
+     const { id }: any = req.user;
+     const result = await ComeingSoonService.getCommingSoonLetest(id);
 
      // Sending the response with the latest content
      sendResponse(res, {
@@ -50,7 +51,8 @@ const getComingSoonContentLetest = catchAsync(async (req, res) => {
 // Controller function to fetch a single latest "Coming Soon" entry based on ID
 const singleComingSoonLetest = catchAsync(async (req, res) => {
      // Fetching a specific "Coming Soon" entry by ID
-     const result = await ComeingSoonService.getComingSoonContentLetest(req.params.id);
+     const { id }: any = req.user;
+     const result = await ComeingSoonService.getComingSoonContentLetest(req.params.id, id);
 
      // Sending the response with the result
      sendResponse(res, {

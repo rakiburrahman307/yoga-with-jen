@@ -1,0 +1,7 @@
+Tue May 27 2025 21:1:13 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/category/get-videos/[object%20Object] 400 - 284.084 ms
+Tue May 27 2025 21:1:26 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/category/get-videos/[object%20Object] 400 - 282.672 ms
+Tue May 27 2025 21:1:36 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/category/get-videos/[object%20Object] 400 - 282.131 ms
+Tue May 27 2025 21:28:48 [SERVER-NAME] error: 10.0.60.110 - GET /favicon.ico 404 - 0.602 ms
+Tue May 27 2025 21:30:7 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/subcategory/get-videos/682f19cebbf267bba7c82275 404 - 571.273 ms
+Tue May 27 2025 21:30:20 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/subcategory/get-videos/683183f94f5c96c45dd8f96b 404 - 569.117 ms
+Tue May 27 2025 21:44:26 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/subcategory/get-videos/data 400 - 293.109 ms

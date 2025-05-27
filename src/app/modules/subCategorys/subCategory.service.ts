@@ -7,8 +7,10 @@ import QueryBuilder from '../../builder/QueryBuilder';
 import { Category } from '../category/category.model';
 import { Video } from '../admin/videosManagement/videoManagement.model';
 import { Favourite } from '../favourit/favourit.model';
+import { User } from '../user/user.model';
 // create sub category
 const createSubCategoryToDB = async (payload: ISubCategory) => {
+     console.log(payload);
      const { name, thumbnail, categoryId } = payload;
      const isExistCategory = await Category.findById(categoryId);
      if (!isExistCategory) {
@@ -105,7 +107,20 @@ const getFevVideosOrNot = async (videoId: string, userId: string) => {
      const favorite = await Favourite.findOne({ videoId, userId });
      return favorite ? true : false;
 };
-const getSubCategoryRelatedVideo = async (id: string,userId:string, query: Record<string, unknown>) => {
+const getVideoCompleteOrNot = async (videoId: string, userId: string): Promise<boolean> => {
+     const video = await Video.findById(videoId);
+     if (!video) {
+          throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
+     }
+     const user = await User.findById(userId);
+     if (!user) {
+          throw new AppError(StatusCodes.NOT_FOUND, 'User not found');
+     }
+     const isVideoCompleted = user.completedSessions?.some((session: any) => session.videoId === videoId);
+     return !!isVideoCompleted;
+};
+
+const getSubCategoryRelatedVideo = async (id: string, userId: string, query: Record<string, unknown>) => {
      const isExistCategory = await SubCategory.findById(id);
      if (!isExistCategory) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Category not found');
@@ -117,9 +132,11 @@ const getSubCategoryRelatedVideo = async (id: string,userId:string, query: Recor
      const postsWithFavorites = await Promise.all(
           result.map(async (post: any) => {
                const isFevorite = await getFevVideosOrNot(post._id, userId);
+               const isVideoCompleted = await getVideoCompleteOrNot(post._id, userId);
                return {
                     ...post.toObject(),
                     isFevorite,
+                    isVideoCompleted,
                };
           }),
      );
@@ -127,7 +144,13 @@ const getSubCategoryRelatedVideo = async (id: string,userId:string, query: Recor
           result: postsWithFavorites,
           meta,
      };
-  
+};
+const getSubCategoryDetails = async (id: string) => {
+     const result = await SubCategory.findById(id);
+     if (!result) {
+          throw new AppError(StatusCodes.NOT_FOUND, 'SubCategory not found');
+     }
+     return result;
 };
 export const CategoryService = {
      createSubCategoryToDB,
@@ -136,5 +159,6 @@ export const CategoryService = {
      deleteCategoryToDB,
      updateCategoryStatusToDB,
      getCategoryReletedSubcategory,
-     getSubCategoryRelatedVideo
+     getSubCategoryRelatedVideo,
+     getSubCategoryDetails,
 };

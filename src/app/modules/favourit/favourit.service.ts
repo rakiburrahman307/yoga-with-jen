@@ -5,8 +5,6 @@ import QueryBuilder from '../../builder/QueryBuilder';
 import { Favourite } from './favourit.model';
 import { Video } from '../admin/videosManagement/videoManagement.model';
 import { User } from '../user/user.model';
-import config from '../../../config';
-import { decryptUrl } from '../../../utils/cryptoToken';
 
 const likedVideos = async (userId: string, videoId: string) => {
      // Start a session for a transaction
@@ -62,18 +60,14 @@ const getSingleVideoUrl = async (id: string, userId: string) => {
           throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
      }
 
-     // Decrypt the URL
-     const decryptedUrl = decryptUrl(result.videoUrl, config.bunnyCDN.bunny_token as string);
-
      const hasSubscription = await User.hasActiveSubscription(userId);
 
-     if (hasSubscription || result.type === 'free' || (!hasSubscription && result.type === 'free')) {
+     if (hasSubscription) {
           // If the user has an active subscription or the video is free
           const data = {
                ...result.toObject(),
-               videoUrl: decryptedUrl,
           };
-          return data.videoUrl;
+          return data;
      }
 };
 export const FavouritVideosSevices = {

@@ -1,0 +1,88 @@
+Tue May 27 2025 15:0:29 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/subcategory/682f19cebbf267bba7c82275 200 - 1129.609 ms
+Tue May 27 2025 15:0:30 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/get-videos/682f19cebbf267bba7c82275 200 - 1132.508 ms
+Tue May 27 2025 15:0:34 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/subcategory/682f0af832c5c0d12e1deec5 200 - 1129.377 ms
+Tue May 27 2025 15:0:36 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/get-videos/682f0af832c5c0d12e1deec5 200 - 1410.955 ms
+Tue May 27 2025 15:0:36 [SERVER-NAME] info: 10.0.60.240 - GET //thumbnail/rectangle-(10)-1748183872063.png 200 - 8.025 ms
+Tue May 27 2025 15:0:36 [SERVER-NAME] info: 10.0.60.240 - GET //thumbnail/rectangle-(9)-1748183923617.png 200 - 6.338 ms
+Tue May 27 2025 15:1:15 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/comments/6833ece08f190f6c2726fe47 200 - 1416.730 ms
+Tue May 27 2025 15:1:17 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 562.750 ms
+Tue May 27 2025 15:1:19 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 281.271 ms
+Tue May 27 2025 15:1:19 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 570.516 ms
+Tue May 27 2025 15:1:19 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 836.014 ms
+Tue May 27 2025 15:1:19 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 836.864 ms
+Tue May 27 2025 15:1:20 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1100.965 ms
+Tue May 27 2025 15:1:21 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 2352.417 ms
+Tue May 27 2025 15:1:22 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/?page=1 200 - 1102.817 ms
+Tue May 27 2025 15:1:22 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/leaderboard 200 - 558.131 ms
+Tue May 27 2025 15:1:29 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/6833ece08f190f6c2726fe47 200 - 842.145 ms
+Tue May 27 2025 15:1:31 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comments/6833ece08f190f6c2726fe47?page=1 200 - 1406.619 ms
+Tue May 27 2025 15:1:41 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/login 200 - 791.505 ms
+Tue May 27 2025 15:1:43 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 200 - 1112.153 ms
+Tue May 27 2025 15:1:44 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 200 - 1393.225 ms
+Tue May 27 2025 15:4:10 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/subcategory/682f0af832c5c0d12e1deec5 200 - 1124.975 ms
+Tue May 27 2025 15:4:11 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/get-videos/682f0af832c5c0d12e1deec5 200 - 1404.706 ms
+Tue May 27 2025 15:4:19 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 200 - 1124.298 ms
+Tue May 27 2025 15:4:20 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 200 - 1418.290 ms
+Tue May 27 2025 15:4:39 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/subcategory/682f0af832c5c0d12e1deec5 200 - 1126.593 ms
+Tue May 27 2025 15:4:40 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/get-videos/682f0af832c5c0d12e1deec5 200 - 1417.497 ms
+Tue May 27 2025 15:41:45 [SERVER-NAME] warn: [42m[1mUnhandled event type: mandate.updated[22m[49m
+Tue May 27 2025 15:41:45 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.099 ms
+Tue May 27 2025 15:41:45 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.payment_failed[22m[49m
+Tue May 27 2025 15:41:45 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.858 ms
+Tue May 27 2025 15:41:46 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.failed[22m[49m
+Tue May 27 2025 15:41:46 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.826 ms
+Tue May 27 2025 15:41:46 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.payment_failed[22m[49m
+Tue May 27 2025 15:41:46 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 5.750 ms
+Tue May 27 2025 15:41:46 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.updated[22m[49m
+Tue May 27 2025 15:41:47 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 4.122 ms
+Tue May 27 2025 15:41:47 [SERVER-NAME] warn: [42m[1mUnhandled event type: customer.updated[22m[49m
+Tue May 27 2025 15:41:47 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.547 ms
+Tue May 27 2025 15:41:48 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.updated[22m[49m
+Tue May 27 2025 15:41:48 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.874 ms
+Tue May 27 2025 15:41:48 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.voided[22m[49m
+Tue May 27 2025 15:41:48 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.979 ms
+Tue May 27 2025 15:41:49 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.992 ms
+Tue May 27 2025 15:41:51 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.canceled[22m[49m
+Tue May 27 2025 15:41:51 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 3.983 ms
+Tue May 27 2025 15:41:53 [SERVER-NAME] warn: [42m[1mUnhandled event type: checkout.session.expired[22m[49m
+Tue May 27 2025 15:41:53 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.947 ms
+Tue May 27 2025 15:57:29 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.089 ms
+Tue May 27 2025 15:57:29 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/package/users 204 - 0.054 ms
+Tue May 27 2025 15:57:29 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 579.805 ms
+Tue May 27 2025 15:57:29 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1747746976321.png 200 - 3.336 ms
+Tue May 27 2025 15:57:30 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/package/users 304 - 852.967 ms
+Tue May 27 2025 15:58:30 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/subscription/create-checkout-session/6835443beafbc39c158e515e 204 - 0.141 ms
+Tue May 27 2025 15:58:31 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/subscription/create-checkout-session/6835443beafbc39c158e515e 200 - 1554.479 ms
+Tue May 27 2025 15:58:40 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/package/users 204 - 0.081 ms
+Tue May 27 2025 15:58:40 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.067 ms
+Tue May 27 2025 15:58:40 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 575.690 ms
+Tue May 27 2025 15:58:40 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1747746976321.png 200 - 0.646 ms
+Tue May 27 2025 15:58:40 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/package/users 304 - 842.859 ms
+Tue May 27 2025 15:58:46 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.048 ms
+Tue May 27 2025 15:58:46 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/package/users 204 - 0.038 ms
+Tue May 27 2025 15:58:47 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 564.942 ms
+Tue May 27 2025 15:58:47 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/package/users 304 - 866.331 ms
+Tue May 27 2025 15:58:59 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/subscription/create-checkout-session/68355d2d815a5b530b37fc5e 204 - 0.055 ms
+Tue May 27 2025 15:59:0 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/subscription/create-checkout-session/68355d2d815a5b530b37fc5e 200 - 1393.213 ms
+Tue May 27 2025 15:59:18 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.054 ms
+Tue May 27 2025 15:59:18 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/package/users 204 - 0.048 ms
+Tue May 27 2025 15:59:18 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 574.862 ms
+Tue May 27 2025 15:59:18 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/package/users 304 - 841.034 ms
+Tue May 27 2025 15:59:24 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.238 ms
+Tue May 27 2025 15:59:24 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/package/users 204 - 0.226 ms
+Tue May 27 2025 15:59:25 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 565.467 ms
+Tue May 27 2025 15:59:25 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/package/users 304 - 867.639 ms
+Tue May 27 2025 15:59:39 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community/leaderboard 204 - 0.041 ms
+Tue May 27 2025 15:59:39 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community?page=1 204 - 0.034 ms
+Tue May 27 2025 15:59:39 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community/leaderboard 304 - 577.401 ms
+Tue May 27 2025 15:59:40 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community?page=1 200 - 1123.438 ms
+Tue May 27 2025 15:59:40 [SERVER-NAME] info: 10.0.60.147 - GET //image/1000005178-1748078560632.png 200 - 0.794 ms
+Tue May 27 2025 15:59:40 [SERVER-NAME] info: 10.0.60.147 - GET //image/1000005179-1747806821301.jpg 200 - 0.965 ms
+Tue May 27 2025 15:59:40 [SERVER-NAME] info: 10.0.60.147 - GET //image/banner-burger-delifrance-1747798781766.jpg 200 - 0.598 ms
+Tue May 27 2025 15:59:42 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comments/6833ebd0f837e30ff632a1ff 204 - 0.046 ms
+Tue May 27 2025 15:59:43 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/comments/6833ebd0f837e30ff632a1ff 304 - 1424.371 ms
+Tue May 27 2025 15:59:43 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1747746976321.png 200 - 0.811 ms
+Tue May 27 2025 15:59:46 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comments 204 - 0.044 ms
+Tue May 27 2025 15:59:48 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/comments 201 - 1744.849 ms
+Tue May 27 2025 15:59:48 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comments/6833ebd0f837e30ff632a1ff 204 - 0.120 ms
+Tue May 27 2025 15:59:49 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/comments/6833ebd0f837e30ff632a1ff 200 - 1430.081 ms

@@ -85,7 +85,6 @@ const getPackageByUserFromDB = async (queryParms: Record<string, unknown>) => {
 
      const queryBuilder = new QueryBuilder(Package.find(query), queryParms);
      const packages = await queryBuilder.filter().sort().paginate().fields().sort().modelQuery.exec();
-     console.log(packages);
      const meta = await queryBuilder.countTotal();
      return {
           packages,
@@ -110,13 +109,65 @@ const deletePackageToDB = async (id: string): Promise<IPackage | null> => {
           throw new AppError(StatusCodes.NOT_FOUND, 'Package not found');
      }
 
-     const result = await Package.findByIdAndUpdate({ _id: id }, { status: 'inactive', isDeleted: true }, { new: true });
+     try {
+          // Get all prices for the Stripe product
+          const prices = await stripe.prices.list({ product: isExistPackage.productId });
 
-     if (!result) {
-          throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to deleted Package');
+          // Deactivate all prices associated with the product
+          for (const price of prices.data) {
+               if (price.active) {
+                    await stripe.prices.update(price.id, { active: false });
+               }
+          }
+
+          // Archive the product instead of deleting it
+          // This is the recommended approach when you have associated prices
+          await stripe.products.update(isExistPackage.productId, {
+               active: false,
+               metadata: {
+                    deleted_at: new Date().toISOString(),
+                    deleted_by: 'system', // or pass user info if available
+               },
+          });
+
+          // Update the package status in your DB
+          const result = await Package.findByIdAndUpdate(
+               { _id: id },
+               {
+                    status: 'inactive',
+                    isDeleted: true,
+                    deletedAt: new Date(), // Add timestamp for when it was deleted
+               },
+               { new: true },
+          );
+
+          if (!result) {
+               throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to delete Package');
+          }
+
+          return result;
+     } catch (stripeError: any) {
+          // Handle Stripe-specific errors
+          if (stripeError.type === 'StripeInvalidRequestError') {
+               // If the product doesn't exist in Stripe, just update the DB
+               console.warn(`Stripe product ${isExistPackage.productId} not found, updating DB only`);
+
+               const result = await Package.findByIdAndUpdate(
+                    { _id: id },
+                    {
+                         status: 'inactive',
+                         isDeleted: true,
+                         deletedAt: new Date(),
+                    },
+                    { new: true },
+               );
+
+               return result;
+          }
+
+          // Re-throw other errors
+          throw new AppError(StatusCodes.BAD_REQUEST, `Failed to delete package: ${stripeError.message}`);
      }
-     await stripe.products.del(isExistPackage?.productId);
-     return result;
 };
 
 export const PackageService = {

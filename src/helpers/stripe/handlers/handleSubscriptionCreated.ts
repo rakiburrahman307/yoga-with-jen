@@ -14,7 +14,7 @@ export const handleSubscriptionCreated = async (data: Stripe.Subscription) => {
           const customer = (await stripe.customers.retrieve(subscription.customer as string)) as Stripe.Customer;
           const priceId = subscription.items.data[0]?.price?.id;
           const invoice = await stripe.invoices.retrieve(subscription.latest_invoice as string);
-          const trxId = invoice?.payment_intent;
+          const trxId = invoice?.payment_intent as string;
           const amountPaid = invoice?.total / 100;
 
           // Extract other needed fields from the subscription object
@@ -89,6 +89,7 @@ export const handleSubscriptionCreated = async (data: Stripe.Subscription) => {
                throw new AppError(StatusCodes.BAD_REQUEST, 'No email found for the customer!');
           }
      } catch (error) {
-          throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Error in handleSubscriptionCreated');
+          console.error('Error in handleSubscriptionCreated:', error);
+          throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, `Error in handleSubscriptionCreated: ${error instanceof Error ? error.message : error}`);
      }
 };

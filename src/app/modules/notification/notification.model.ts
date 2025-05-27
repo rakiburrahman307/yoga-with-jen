@@ -21,13 +21,13 @@ enum NotificationScreen {
 
 const notificationSchema = new Schema<INotification>(
      {
-          text: {
+          message: {
                type: String,
-               required: true,
+               required: false,
           },
-          orderId: {
+          postId: {
                type: Schema.Types.ObjectId,
-               ref: 'Order',
+               ref: 'Comment',
                required: false,
           },
           title: {

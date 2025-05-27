@@ -1,0 +1,12 @@
+Tue May 27 2025 18:10:20 [SERVER-NAME] error: 10.0.60.240 - GET /api/v1/favourit/683184a94f5c96c45dd8f97d?page=1 404 - 0.948 ms
+Tue May 27 2025 18:26:8 [SERVER-NAME] error: 10.0.60.240 - GET /api/v1/favourit/683184a94f5c96c45dd8f97d?page=1 404 - 0.669 ms
+Tue May 27 2025 18:26:16 [SERVER-NAME] error: 10.0.60.240 - GET /api/v1/favourit/683184a94f5c96c45dd8f97d?page=1 404 - 0.584 ms
+Tue May 27 2025 18:26:41 [SERVER-NAME] error: 10.0.60.240 - GET /api/v1/favourit/683184a94f5c96c45dd8f97d?page=1 404 - 0.595 ms
+Tue May 27 2025 18:26:59 [SERVER-NAME] error: 10.0.60.240 - GET /api/v1/favourit/683184a94f5c96c45dd8f97d?page=1 404 - 0.579 ms
+Tue May 27 2025 18:40:57 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/comments/6833ece08f190f6c2726fe47 403 - 278.969 ms
+Tue May 27 2025 18:41:41 [SERVER-NAME] error: 10.0.60.147 - POST /api/v1/comments/reply/like/6835644ba9328499e2603dac 404 - 0.272 ms
+Tue May 27 2025 18:41:42 [SERVER-NAME] error: 10.0.60.147 - POST /api/v1/comments/reply/like/68356464a9328499e2603db9 404 - 0.187 ms
+Tue May 27 2025 18:42:8 [SERVER-NAME] error: 10.0.60.147 - POST /api/v1/comments/reply/like/68356480a9328499e2603ddb 404 - 1.111 ms
+Tue May 27 2025 18:42:9 [SERVER-NAME] error: 10.0.60.147 - POST /api/v1/comments/reply/like/68356464a9328499e2603db9 404 - 0.184 ms
+Tue May 27 2025 18:42:11 [SERVER-NAME] error: 10.0.60.147 - POST /api/v1/comments/reply/like/6835644ba9328499e2603dac 404 - 0.266 ms
+Tue May 27 2025 18:43:10 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/subcategory/single/683183f94f5c96c45dd8f96b 404 - 572.570 ms

@@ -1,0 +1,687 @@
+Tue May 27 2025 14:7:25 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/package/users 200 - 859.456 ms
+Tue May 27 2025 14:7:28 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/subscription/create-checkout-session/68353e7aeafbc39c158e4ebc 200 - 1552.495 ms
+Tue May 27 2025 14:15:29 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 566.846 ms
+Tue May 27 2025 14:15:32 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 295.357 ms
+Tue May 27 2025 14:15:33 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 829.269 ms
+Tue May 27 2025 14:15:33 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 830.970 ms
+Tue May 27 2025 14:15:33 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 853.826 ms
+Tue May 27 2025 14:15:33 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 1065.166 ms
+Tue May 27 2025 14:15:33 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1112.861 ms
+Tue May 27 2025 14:16:1 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 27 2025 14:16:5 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 27 2025 14:16:5 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue May 27 2025 14:16:5 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue May 27 2025 14:16:18 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 27 2025 14:16:21 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 27 2025 14:16:21 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue May 27 2025 14:16:21 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue May 27 2025 14:16:28 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 582.224 ms
+Tue May 27 2025 14:16:31 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 285.924 ms
+Tue May 27 2025 14:16:32 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 863.014 ms
+Tue May 27 2025 14:16:32 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 849.991 ms
+Tue May 27 2025 14:16:32 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1117.252 ms
+Tue May 27 2025 14:16:33 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 2274.178 ms
+Tue May 27 2025 14:16:33 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 2310.832 ms
+Tue May 27 2025 14:16:36 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/package/users 200 - 1517.126 ms
+Tue May 27 2025 14:16:40 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/subscription/create-checkout-session/68353e7aeafbc39c158e4ebc 200 - 1650.875 ms
+Tue May 27 2025 14:18:10 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 1656.271 ms
+Tue May 27 2025 14:18:13 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 289.662 ms
+Tue May 27 2025 14:18:13 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 552.952 ms
+Tue May 27 2025 14:18:14 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 850.883 ms
+Tue May 27 2025 14:18:14 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 854.641 ms
+Tue May 27 2025 14:18:14 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 865.108 ms
+Tue May 27 2025 14:18:14 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1141.283 ms
+Tue May 27 2025 14:18:27 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/package/users 200 - 1371.106 ms
+Tue May 27 2025 14:18:31 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/subscription/create-checkout-session/68353e7aeafbc39c158e4ebc 200 - 1581.218 ms
+Tue May 27 2025 14:18:39 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 27 2025 14:18:42 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 27 2025 14:18:45 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 27 2025 14:18:48 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 27 2025 14:18:48 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue May 27 2025 14:18:48 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue May 27 2025 14:18:50 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 27 2025 14:18:53 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 27 2025 14:18:53 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue May 27 2025 14:18:53 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue May 27 2025 14:18:54 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 27 2025 14:18:57 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 27 2025 14:18:57 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue May 27 2025 14:18:57 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue May 27 2025 14:18:58 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 27 2025 14:19:1 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 27 2025 14:19:1 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue May 27 2025 14:19:1 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue May 27 2025 14:19:3 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 27 2025 14:19:6 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 27 2025 14:19:9 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 27 2025 14:19:11 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 27 2025 14:19:14 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 27 2025 14:19:14 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue May 27 2025 14:19:14 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue May 27 2025 14:19:16 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 27 2025 14:19:19 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 27 2025 14:19:19 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue May 27 2025 14:19:19 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue May 27 2025 14:19:39 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 27 2025 14:19:41 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 27 2025 14:19:42 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 27 2025 14:19:45 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 27 2025 14:19:45 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue May 27 2025 14:19:45 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue May 27 2025 14:19:48 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 572.536 ms
+Tue May 27 2025 14:19:50 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 288.033 ms
+Tue May 27 2025 14:19:50 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 582.103 ms
+Tue May 27 2025 14:19:51 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 842.535 ms
+Tue May 27 2025 14:19:51 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 864.181 ms
+Tue May 27 2025 14:19:51 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1151.496 ms
+Tue May 27 2025 14:19:52 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 2333.466 ms
+Tue May 27 2025 14:20:3 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 585.357 ms
+Tue May 27 2025 14:20:7 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 304.650 ms
+Tue May 27 2025 14:20:7 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 567.064 ms
+Tue May 27 2025 14:20:7 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 564.348 ms
+Tue May 27 2025 14:20:8 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 838.418 ms
+Tue May 27 2025 14:20:8 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 868.475 ms
+Tue May 27 2025 14:20:8 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1129.496 ms
+Tue May 27 2025 14:20:14 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/dailyInspiration/letest 200 - 560.100 ms
+Tue May 27 2025 14:20:40 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/dailyInspiration/letest 200 - 559.577 ms
+Tue May 27 2025 14:21:1 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 27 2025 14:21:4 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 27 2025 14:21:4 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue May 27 2025 14:21:4 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue May 27 2025 14:21:8 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 562.523 ms
+Tue May 27 2025 14:21:48 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 27 2025 14:21:51 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 27 2025 14:21:51 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue May 27 2025 14:21:51 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue May 27 2025 14:21:56 [SERVER-NAME] info: 10.0.60.123 - GET /api/v1/subscription/details 200 - 1375.171 ms
+Tue May 27 2025 14:22:1 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 27 2025 14:22:4 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 27 2025 14:22:4 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue May 27 2025 14:22:4 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue May 27 2025 14:22:7 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/dailyInspiration/letest 200 - 1297.363 ms
+Tue May 27 2025 14:22:14 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/package/users 200 - 861.370 ms
+Tue May 27 2025 14:22:54 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 27 2025 14:22:56 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 27 2025 14:22:56 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue May 27 2025 14:22:56 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue May 27 2025 14:23:2 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/dailyInspiration/letest 200 - 571.642 ms
+Tue May 27 2025 14:23:8 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/subscription/create-checkout-session/68353e7aeafbc39c158e4ebc 200 - 1577.730 ms
+Tue May 27 2025 14:23:12 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 564.580 ms
+Tue May 27 2025 14:23:13 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 279.733 ms
+Tue May 27 2025 14:23:14 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 573.600 ms
+Tue May 27 2025 14:23:14 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 849.809 ms
+Tue May 27 2025 14:23:14 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 840.624 ms
+Tue May 27 2025 14:23:14 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1153.561 ms
+Tue May 27 2025 14:23:15 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 2237.407 ms
+Tue May 27 2025 14:23:18 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/?page=1 200 - 1154.274 ms
+Tue May 27 2025 14:23:18 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/leaderboard 200 - 574.545 ms
+Tue May 27 2025 14:23:47 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 27 2025 14:23:49 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 27 2025 14:23:49 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue May 27 2025 14:23:49 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue May 27 2025 14:24:6 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.succeeded[22m[49m
+Tue May 27 2025 14:24:6 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 4.034 ms
+Tue May 27 2025 14:24:7 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_method.attached[22m[49m
+Tue May 27 2025 14:24:7 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.584 ms
+Tue May 27 2025 14:24:7 [SERVER-NAME] warn: [42m[1mUnhandled event type: checkout.session.completed[22m[49m
+Tue May 27 2025 14:24:7 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.174 ms
+Tue May 27 2025 14:24:7 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 9.235 ms
+Tue May 27 2025 14:24:7 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.359 ms
+Tue May 27 2025 14:24:7 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.succeeded[22m[49m
+Tue May 27 2025 14:24:7 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.155 ms
+Tue May 27 2025 14:24:7 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.created[22m[49m
+Tue May 27 2025 14:24:7 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.115 ms
+Tue May 27 2025 14:24:7 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.created[22m[49m
+Tue May 27 2025 14:24:7 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.373 ms
+Tue May 27 2025 14:24:7 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.finalized[22m[49m
+Tue May 27 2025 14:24:7 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.382 ms
+Tue May 27 2025 14:24:7 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.updated[22m[49m
+Tue May 27 2025 14:24:7 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.038 ms
+Tue May 27 2025 14:24:7 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.paid[22m[49m
+Tue May 27 2025 14:24:7 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.217 ms
+Tue May 27 2025 14:24:7 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.payment_succeeded[22m[49m
+Tue May 27 2025 14:24:7 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.922 ms
+Tue May 27 2025 14:25:34 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.370 ms
+Tue May 27 2025 14:25:34 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/package/users 204 - 0.090 ms
+Tue May 27 2025 14:25:35 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 565.013 ms
+Tue May 27 2025 14:25:35 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1747746976321.png 200 - 1.898 ms
+Tue May 27 2025 14:25:35 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/package/users 304 - 853.421 ms
+Tue May 27 2025 14:26:23 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.071 ms
+Tue May 27 2025 14:26:23 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/package/users 204 - 0.043 ms
+Tue May 27 2025 14:26:23 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 571.906 ms
+Tue May 27 2025 14:26:24 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/package/users 304 - 1370.195 ms
+Tue May 27 2025 14:27:9 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.088 ms
+Tue May 27 2025 14:27:9 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/package/users 204 - 0.085 ms
+Tue May 27 2025 14:27:10 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 570.429 ms
+Tue May 27 2025 14:27:10 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/package/users 304 - 852.554 ms
+Tue May 27 2025 14:27:31 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1747746976321.png 200 - 0.667 ms
+Tue May 27 2025 14:27:32 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.077 ms
+Tue May 27 2025 14:27:32 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/package/users 204 - 0.043 ms
+Tue May 27 2025 14:27:32 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 561.599 ms
+Tue May 27 2025 14:27:32 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/package/users 304 - 848.293 ms
+Tue May 27 2025 14:27:37 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.192 ms
+Tue May 27 2025 14:27:37 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/package/users 204 - 0.050 ms
+Tue May 27 2025 14:27:37 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 563.534 ms
+Tue May 27 2025 14:27:38 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/package/users 304 - 844.369 ms
+Tue May 27 2025 14:28:29 [SERVER-NAME] info: 10.0.60.123 - GET /api/v1/subscription/details 200 - 1309.797 ms
+Tue May 27 2025 14:29:6 [SERVER-NAME] info: 10.0.60.123 - GET /api/v1/subscription/details 200 - 1142.449 ms
+Tue May 27 2025 14:29:33 [SERVER-NAME] info: 10.0.60.123 - GET /api/v1/package/users 200 - 848.800 ms
+Tue May 27 2025 14:29:37 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.055 ms
+Tue May 27 2025 14:29:37 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/package/users 204 - 0.037 ms
+Tue May 27 2025 14:29:37 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/package/users - - - ms
+Tue May 27 2025 14:29:37 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile - - - ms
+Tue May 27 2025 14:29:39 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 570.604 ms
+Tue May 27 2025 14:29:39 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/package/users 200 - 851.216 ms
+Tue May 27 2025 14:29:39 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1747746976321.png 200 - 0.568 ms
+Tue May 27 2025 14:29:44 [SERVER-NAME] info: 10.0.60.123 - POST /api/v1/subscription/create-checkout-session/68353e7aeafbc39c158e4ebc 200 - 1373.636 ms
+Tue May 27 2025 14:29:57 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1747746976321.png 304 - 1.145 ms
+Tue May 27 2025 14:30:1 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.059 ms
+Tue May 27 2025 14:30:1 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/package/users 204 - 0.040 ms
+Tue May 27 2025 14:30:1 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 568.389 ms
+Tue May 27 2025 14:30:1 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/package/users 304 - 843.949 ms
+Tue May 27 2025 14:30:32 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 561.402 ms
+Tue May 27 2025 14:30:34 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 281.239 ms
+Tue May 27 2025 14:30:34 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 559.349 ms
+Tue May 27 2025 14:30:35 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 847.334 ms
+Tue May 27 2025 14:30:35 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 837.946 ms
+Tue May 27 2025 14:30:35 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1098.941 ms
+Tue May 27 2025 14:30:36 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 2390.901 ms
+Tue May 27 2025 14:30:42 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/subscription/details 200 - 568.743 ms
+Tue May 27 2025 14:30:42 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.succeeded[22m[49m
+Tue May 27 2025 14:30:42 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.985 ms
+Tue May 27 2025 14:30:42 [SERVER-NAME] warn: [42m[1mUnhandled event type: checkout.session.completed[22m[49m
+Tue May 27 2025 14:30:42 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.831 ms
+Tue May 27 2025 14:30:42 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_method.attached[22m[49m
+Tue May 27 2025 14:30:42 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.083 ms
+Tue May 27 2025 14:30:42 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.293 ms
+Tue May 27 2025 14:30:43 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.817 ms
+Tue May 27 2025 14:30:43 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.succeeded[22m[49m
+Tue May 27 2025 14:30:43 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.823 ms
+Tue May 27 2025 14:30:43 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.created[22m[49m
+Tue May 27 2025 14:30:43 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.873 ms
+Tue May 27 2025 14:30:43 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.created[22m[49m
+Tue May 27 2025 14:30:43 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.054 ms
+Tue May 27 2025 14:30:43 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.finalized[22m[49m
+Tue May 27 2025 14:30:43 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.972 ms
+Tue May 27 2025 14:30:43 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.updated[22m[49m
+Tue May 27 2025 14:30:43 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.913 ms
+Tue May 27 2025 14:30:43 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.paid[22m[49m
+Tue May 27 2025 14:30:43 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.930 ms
+Tue May 27 2025 14:30:43 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.payment_succeeded[22m[49m
+Tue May 27 2025 14:30:43 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.044 ms
+Tue May 27 2025 14:30:50 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/package/users 200 - 828.850 ms
+Tue May 27 2025 14:31:10 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/subscription/create-checkout-session/68355d2d815a5b530b37fc5e 200 - 1378.328 ms
+Tue May 27 2025 14:31:30 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 551.665 ms
+Tue May 27 2025 14:31:33 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 275.110 ms
+Tue May 27 2025 14:31:34 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 565.987 ms
+Tue May 27 2025 14:31:34 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 574.566 ms
+Tue May 27 2025 14:31:34 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 838.659 ms
+Tue May 27 2025 14:31:34 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 841.474 ms
+Tue May 27 2025 14:31:34 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1136.506 ms
+Tue May 27 2025 14:34:7 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 27 2025 14:34:10 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 27 2025 14:34:10 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue May 27 2025 14:34:10 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue May 27 2025 14:34:13 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 1125.888 ms
+Tue May 27 2025 14:34:14 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 271.608 ms
+Tue May 27 2025 14:34:15 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 567.232 ms
+Tue May 27 2025 14:34:15 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 824.225 ms
+Tue May 27 2025 14:34:15 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 854.081 ms
+Tue May 27 2025 14:34:15 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1172.511 ms
+Tue May 27 2025 14:34:16 [SERVER-NAME] info: 10.0.60.123 - GET /api/v1/dailyInspiration/letest 200 - 583.780 ms
+Tue May 27 2025 14:34:17 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 2353.576 ms
+Tue May 27 2025 14:34:29 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/?page=1 200 - 1151.061 ms
+Tue May 27 2025 14:34:30 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/leaderboard 200 - 582.955 ms
+Tue May 27 2025 14:34:37 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/6833ece08f190f6c2726fe47 200 - 869.977 ms
+Tue May 27 2025 14:34:38 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comments/6833ece08f190f6c2726fe47?page=1 200 - 1439.588 ms
+Tue May 27 2025 14:34:42 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comments/6833ece08f190f6c2726fe47?page=2 200 - 1144.797 ms
+Tue May 27 2025 14:34:43 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comments/6833ece08f190f6c2726fe47?page=3 200 - 862.802 ms
+Tue May 27 2025 14:34:46 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/login 200 - 823.009 ms
+Tue May 27 2025 14:34:47 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 574.934 ms
+Tue May 27 2025 14:34:48 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/package/users 200 - 867.214 ms
+Tue May 27 2025 14:34:48 [SERVER-NAME] info: 10.0.60.240 - DELETE /api/v1/comments/delete/683564f3a9328499e2603e69 200 - 1469.050 ms
+Tue May 27 2025 14:34:50 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comments/6833ece08f190f6c2726fe47?page=1 200 - 1435.036 ms
+Tue May 27 2025 14:34:54 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 285.849 ms
+Tue May 27 2025 14:34:54 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 571.308 ms
+Tue May 27 2025 14:34:55 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 858.408 ms
+Tue May 27 2025 14:34:56 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1152.967 ms
+Tue May 27 2025 14:34:58 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 1098.309 ms
+Tue May 27 2025 14:34:59 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 872.039 ms
+Tue May 27 2025 14:35:38 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/comingSoon/latest 200 - 870.369 ms
+Tue May 27 2025 14:36:59 [SERVER-NAME] info: 10.0.60.121 - GET /api/v1/comments/6833ece08f190f6c2726fe47 200 - 1437.621 ms
+Tue May 27 2025 14:38:1 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.550 ms
+Tue May 27 2025 14:38:1 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/package/users 204 - 0.154 ms
+Tue May 27 2025 14:38:2 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 576.444 ms
+Tue May 27 2025 14:38:2 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/package/users 304 - 873.593 ms
+Tue May 27 2025 14:38:20 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 578.499 ms
+Tue May 27 2025 14:38:20 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/dailyInspiration/letest 200 - 578.185 ms
+Tue May 27 2025 14:38:23 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 286.074 ms
+Tue May 27 2025 14:38:23 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 546.792 ms
+Tue May 27 2025 14:38:23 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 588.383 ms
+Tue May 27 2025 14:38:24 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 833.650 ms
+Tue May 27 2025 14:38:24 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 855.306 ms
+Tue May 27 2025 14:38:24 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1093.117 ms
+Tue May 27 2025 14:38:36 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/dailyInspiration/letest 200 - 543.189 ms
+Tue May 27 2025 14:38:46 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/today/ 200 - 552.188 ms
+Tue May 27 2025 14:39:5 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/comingSoon/latest 200 - 831.438 ms
+Tue May 27 2025 14:39:58 [SERVER-NAME] info: 10.0.60.123 - POST /api/v1/subscription/create-checkout-session/68353e7aeafbc39c158e4ebc 200 - 1593.845 ms
+Tue May 27 2025 14:40:21 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 27 2025 14:40:24 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 27 2025 14:40:24 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue May 27 2025 14:40:24 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue May 27 2025 14:40:25 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 27 2025 14:40:28 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 27 2025 14:40:28 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue May 27 2025 14:40:28 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue May 27 2025 14:41:44 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 15.532 ms
+Tue May 27 2025 14:41:44 [SERVER-NAME] warn: [42m[1mUnhandled event type: customer.updated[22m[49m
+Tue May 27 2025 14:41:44 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.505 ms
+Tue May 27 2025 14:41:44 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.requires_action[22m[49m
+Tue May 27 2025 14:41:44 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.816 ms
+Tue May 27 2025 14:41:44 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.created[22m[49m
+Tue May 27 2025 14:41:44 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.529 ms
+Tue May 27 2025 14:41:44 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.created[22m[49m
+Tue May 27 2025 14:41:44 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 5.267 ms
+Tue May 27 2025 14:41:44 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.finalized[22m[49m
+Tue May 27 2025 14:41:44 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 3.986 ms
+Tue May 27 2025 14:41:44 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.payment_failed[22m[49m
+Tue May 27 2025 14:41:44 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 3.462 ms
+Tue May 27 2025 14:41:44 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.payment_action_required[22m[49m
+Tue May 27 2025 14:41:44 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 3.060 ms
+Tue May 27 2025 14:41:45 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.updated[22m[49m
+Tue May 27 2025 14:41:45 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.335 ms
+Tue May 27 2025 14:43:3 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/subscription/create-checkout-session/68353e7aeafbc39c158e4ebc 200 - 1591.457 ms
+Tue May 27 2025 14:43:5 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1747746976321.png 200 - 3.149 ms
+Tue May 27 2025 14:43:20 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.succeeded[22m[49m
+Tue May 27 2025 14:43:20 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.753 ms
+Tue May 27 2025 14:43:20 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_method.attached[22m[49m
+Tue May 27 2025 14:43:20 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.908 ms
+Tue May 27 2025 14:43:20 [SERVER-NAME] warn: [42m[1mUnhandled event type: checkout.session.completed[22m[49m
+Tue May 27 2025 14:43:20 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.457 ms
+Tue May 27 2025 14:43:20 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.967 ms
+Tue May 27 2025 14:43:20 [SERVER-NAME] warn: [42m[1mUnhandled event type: customer.updated[22m[49m
+Tue May 27 2025 14:43:20 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.405 ms
+Tue May 27 2025 14:43:20 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.329 ms
+Tue May 27 2025 14:43:20 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.succeeded[22m[49m
+Tue May 27 2025 14:43:20 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.276 ms
+Tue May 27 2025 14:43:20 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.created[22m[49m
+Tue May 27 2025 14:43:20 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.455 ms
+Tue May 27 2025 14:43:20 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.created[22m[49m
+Tue May 27 2025 14:43:20 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.339 ms
+Tue May 27 2025 14:43:20 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.finalized[22m[49m
+Tue May 27 2025 14:43:20 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.436 ms
+Tue May 27 2025 14:43:20 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.updated[22m[49m
+Tue May 27 2025 14:43:20 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.710 ms
+Tue May 27 2025 14:43:21 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.paid[22m[49m
+Tue May 27 2025 14:43:21 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.406 ms
+Tue May 27 2025 14:43:21 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.payment_succeeded[22m[49m
+Tue May 27 2025 14:43:21 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.514 ms
+Tue May 27 2025 14:43:27 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 582.422 ms
+Tue May 27 2025 14:43:29 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 285.076 ms
+Tue May 27 2025 14:43:29 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 568.457 ms
+Tue May 27 2025 14:43:30 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 822.546 ms
+Tue May 27 2025 14:43:30 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 858.053 ms
+Tue May 27 2025 14:43:30 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1118.534 ms
+Tue May 27 2025 14:43:31 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 2338.416 ms
+Tue May 27 2025 14:43:34 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/?page=1 200 - 1139.377 ms
+Tue May 27 2025 14:43:34 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/subscription/create-checkout-session/68355d2d815a5b530b37fc5e 204 - 0.490 ms
+Tue May 27 2025 14:43:34 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/leaderboard 200 - 566.941 ms
+Tue May 27 2025 14:43:35 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/subscription/create-checkout-session/68355d2d815a5b530b37fc5e 200 - 1352.585 ms
+Tue May 27 2025 14:43:39 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/6833ece08f190f6c2726fe47 200 - 822.055 ms
+Tue May 27 2025 14:43:41 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comments/6833ece08f190f6c2726fe47?page=1 200 - 1406.272 ms
+Tue May 27 2025 14:44:40 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.succeeded[22m[49m
+Tue May 27 2025 14:44:40 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 3.608 ms
+Tue May 27 2025 14:44:40 [SERVER-NAME] warn: [42m[1mUnhandled event type: checkout.session.completed[22m[49m
+Tue May 27 2025 14:44:40 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.396 ms
+Tue May 27 2025 14:44:40 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_method.attached[22m[49m
+Tue May 27 2025 14:44:40 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.577 ms
+Tue May 27 2025 14:44:40 [SERVER-NAME] warn: [42m[1mUnhandled event type: customer.updated[22m[49m
+Tue May 27 2025 14:44:40 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.353 ms
+Tue May 27 2025 14:44:40 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.209 ms
+Tue May 27 2025 14:44:40 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.670 ms
+Tue May 27 2025 14:44:40 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.succeeded[22m[49m
+Tue May 27 2025 14:44:40 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.056 ms
+Tue May 27 2025 14:44:40 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.created[22m[49m
+Tue May 27 2025 14:44:40 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.803 ms
+Tue May 27 2025 14:44:40 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.created[22m[49m
+Tue May 27 2025 14:44:40 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.434 ms
+Tue May 27 2025 14:44:40 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.finalized[22m[49m
+Tue May 27 2025 14:44:40 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.005 ms
+Tue May 27 2025 14:44:41 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.updated[22m[49m
+Tue May 27 2025 14:44:41 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.461 ms
+Tue May 27 2025 14:44:41 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.paid[22m[49m
+Tue May 27 2025 14:44:41 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.312 ms
+Tue May 27 2025 14:44:41 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.payment_succeeded[22m[49m
+Tue May 27 2025 14:44:41 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.501 ms
+Tue May 27 2025 14:44:50 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 554.657 ms
+Tue May 27 2025 14:44:51 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 273.761 ms
+Tue May 27 2025 14:44:52 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 559.345 ms
+Tue May 27 2025 14:44:52 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 569.203 ms
+Tue May 27 2025 14:44:52 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 813.107 ms
+Tue May 27 2025 14:44:52 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 852.367 ms
+Tue May 27 2025 14:44:52 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1136.932 ms
+Tue May 27 2025 14:44:55 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/?page=1 200 - 1140.256 ms
+Tue May 27 2025 14:44:55 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/leaderboard 200 - 567.221 ms
+Tue May 27 2025 14:44:56 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 548.839 ms
+Tue May 27 2025 14:44:59 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/6833ece08f190f6c2726fe47 200 - 817.429 ms
+Tue May 27 2025 14:45:0 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comments/6833ece08f190f6c2726fe47?page=1 200 - 1395.643 ms
+Tue May 27 2025 14:45:6 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/comingSoon/latest 200 - 849.394 ms
+Tue May 27 2025 14:45:19 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 568.244 ms
+Tue May 27 2025 14:45:20 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 286.098 ms
+Tue May 27 2025 14:45:21 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 573.329 ms
+Tue May 27 2025 14:45:22 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 864.513 ms
+Tue May 27 2025 14:45:23 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1143.653 ms
+Tue May 27 2025 14:45:24 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 569.745 ms
+Tue May 27 2025 14:45:25 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 858.409 ms
+Tue May 27 2025 14:45:51 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 573.794 ms
+Tue May 27 2025 14:46:1 [SERVER-NAME] info: 10.0.60.240 - DELETE /api/v1/comments/delete/6833ee3e8f190f6c2726febd 200 - 1180.028 ms
+Tue May 27 2025 14:46:3 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comments/6833ece08f190f6c2726fe47?page=1 200 - 1423.961 ms
+Tue May 27 2025 14:46:7 [SERVER-NAME] info: 10.0.60.240 - DELETE /api/v1/comments/delete/683560a03bb569badfc6910a 200 - 1152.806 ms
+Tue May 27 2025 14:46:9 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comments/6833ece08f190f6c2726fe47?page=1 200 - 1428.101 ms
+Tue May 27 2025 14:46:53 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/comments/6833ece08f190f6c2726fe47 200 - 1421.380 ms
+Tue May 27 2025 14:47:19 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 579.599 ms
+Tue May 27 2025 14:47:22 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 284.009 ms
+Tue May 27 2025 14:47:23 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 569.927 ms
+Tue May 27 2025 14:47:23 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 566.985 ms
+Tue May 27 2025 14:47:23 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 860.671 ms
+Tue May 27 2025 14:47:23 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 850.923 ms
+Tue May 27 2025 14:47:23 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1139.422 ms
+Tue May 27 2025 14:47:31 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/package/users 200 - 851.769 ms
+Tue May 27 2025 14:47:34 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/comments/reply/6833ecfa8f190f6c2726fe62 200 - 1733.980 ms
+Tue May 27 2025 14:47:34 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 200 - 1130.169 ms
+Tue May 27 2025 14:47:35 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/subscription/create-checkout-session/68353e7aeafbc39c158e4ebc 200 - 1560.383 ms
+Tue May 27 2025 14:47:36 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comments/6833ece08f190f6c2726fe47?page=1 200 - 1441.708 ms
+Tue May 27 2025 14:47:36 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 200 - 1412.909 ms
+Tue May 27 2025 14:47:36 [SERVER-NAME] info: 10.0.60.240 - GET //thumbnail/rectangle-(10)-1748075688948.png 200 - 8.824 ms
+Tue May 27 2025 14:47:41 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 27 2025 14:47:44 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 27 2025 14:47:44 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue May 27 2025 14:47:44 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue May 27 2025 14:48:26 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 27 2025 14:48:28 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 27 2025 14:48:28 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue May 27 2025 14:48:28 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue May 27 2025 14:48:30 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 27 2025 14:48:33 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 27 2025 14:48:33 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue May 27 2025 14:48:33 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue May 27 2025 14:49:14 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 559.246 ms
+Tue May 27 2025 14:49:18 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 283.117 ms
+Tue May 27 2025 14:49:18 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 556.614 ms
+Tue May 27 2025 14:49:33 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 27 2025 14:49:36 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 27 2025 14:49:36 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue May 27 2025 14:49:36 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue May 27 2025 14:49:42 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 590.311 ms
+Tue May 27 2025 14:49:44 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 282.891 ms
+Tue May 27 2025 14:49:44 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 569.709 ms
+Tue May 27 2025 14:49:44 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/package/users 200 - 864.107 ms
+Tue May 27 2025 14:49:44 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 838.689 ms
+Tue May 27 2025 14:49:45 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1122.336 ms
+Tue May 27 2025 14:49:46 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 2261.822 ms
+Tue May 27 2025 14:49:46 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 2384.390 ms
+Tue May 27 2025 14:49:49 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/subscription/create-checkout-session/68353e7aeafbc39c158e4ebc 200 - 1575.008 ms
+Tue May 27 2025 14:49:59 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 200 - 1144.906 ms
+Tue May 27 2025 14:50:1 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 200 - 1443.540 ms
+Tue May 27 2025 14:50:39 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/?page=1 200 - 1136.469 ms
+Tue May 27 2025 14:50:40 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/leaderboard 200 - 566.060 ms
+Tue May 27 2025 14:50:41 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.succeeded[22m[49m
+Tue May 27 2025 14:50:41 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.947 ms
+Tue May 27 2025 14:50:41 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_method.attached[22m[49m
+Tue May 27 2025 14:50:41 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.017 ms
+Tue May 27 2025 14:50:41 [SERVER-NAME] warn: [42m[1mUnhandled event type: checkout.session.completed[22m[49m
+Tue May 27 2025 14:50:41 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.127 ms
+Tue May 27 2025 14:50:41 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.397 ms
+Tue May 27 2025 14:50:41 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.457 ms
+Tue May 27 2025 14:50:41 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.succeeded[22m[49m
+Tue May 27 2025 14:50:41 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.184 ms
+Tue May 27 2025 14:50:41 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.created[22m[49m
+Tue May 27 2025 14:50:41 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.895 ms
+Tue May 27 2025 14:50:42 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.created[22m[49m
+Tue May 27 2025 14:50:42 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.409 ms
+Tue May 27 2025 14:50:42 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.finalized[22m[49m
+Tue May 27 2025 14:50:42 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.192 ms
+Tue May 27 2025 14:50:42 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.updated[22m[49m
+Tue May 27 2025 14:50:42 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.123 ms
+Tue May 27 2025 14:50:42 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.paid[22m[49m
+Tue May 27 2025 14:50:42 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.991 ms
+Tue May 27 2025 14:50:42 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.payment_succeeded[22m[49m
+Tue May 27 2025 14:50:42 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.986 ms
+Tue May 27 2025 14:50:43 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 27 2025 14:50:46 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 27 2025 14:50:46 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue May 27 2025 14:50:46 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue May 27 2025 14:50:50 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/6833ece08f190f6c2726fe47 200 - 869.120 ms
+Tue May 27 2025 14:50:52 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comments/6833ece08f190f6c2726fe47?page=1 200 - 1437.698 ms
+Tue May 27 2025 14:50:52 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/subscription/create-checkout-session/68353e7aeafbc39c158e4ebc 200 - 1610.093 ms
+Tue May 27 2025 14:51:7 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.succeeded[22m[49m
+Tue May 27 2025 14:51:7 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 5.639 ms
+Tue May 27 2025 14:51:7 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_method.attached[22m[49m
+Tue May 27 2025 14:51:7 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.025 ms
+Tue May 27 2025 14:51:7 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.463 ms
+Tue May 27 2025 14:51:7 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.succeeded[22m[49m
+Tue May 27 2025 14:51:7 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.491 ms
+Tue May 27 2025 14:51:7 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.599 ms
+Tue May 27 2025 14:51:7 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.created[22m[49m
+Tue May 27 2025 14:51:7 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.684 ms
+Tue May 27 2025 14:51:7 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.created[22m[49m
+Tue May 27 2025 14:51:7 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.992 ms
+Tue May 27 2025 14:51:8 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.finalized[22m[49m
+Tue May 27 2025 14:51:8 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.808 ms
+Tue May 27 2025 14:51:8 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.updated[22m[49m
+Tue May 27 2025 14:51:8 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.123 ms
+Tue May 27 2025 14:51:8 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.paid[22m[49m
+Tue May 27 2025 14:51:8 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.664 ms
+Tue May 27 2025 14:51:8 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.payment_succeeded[22m[49m
+Tue May 27 2025 14:51:8 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.656 ms
+Tue May 27 2025 14:51:10 [SERVER-NAME] warn: [42m[1mUnhandled event type: checkout.session.completed[22m[49m
+Tue May 27 2025 14:51:10 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.594 ms
+Tue May 27 2025 14:51:16 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.442 ms
+Tue May 27 2025 14:51:17 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 575.977 ms
+Tue May 27 2025 14:51:17 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1747746976321.png 200 - 2.003 ms
+Tue May 27 2025 14:51:20 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/favourit 204 - 0.194 ms
+Tue May 27 2025 14:51:22 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/favourit 304 - 1144.596 ms
+Tue May 27 2025 14:51:26 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community/leaderboard 204 - 0.205 ms
+Tue May 27 2025 14:51:26 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community?page=1 204 - 0.102 ms
+Tue May 27 2025 14:51:27 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community/leaderboard 304 - 571.212 ms
+Tue May 27 2025 14:51:27 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community?page=1 200 - 1162.000 ms
+Tue May 27 2025 14:51:27 [SERVER-NAME] info: 10.0.60.147 - GET //image/1000005178-1748078560632.png 200 - 2.255 ms
+Tue May 27 2025 14:51:27 [SERVER-NAME] info: 10.0.60.147 - GET //image/1000005179-1747806821301.jpg 200 - 2.592 ms
+Tue May 27 2025 14:51:27 [SERVER-NAME] info: 10.0.60.147 - GET //image/banner-burger-delifrance-1747798781766.jpg 200 - 2.787 ms
+Tue May 27 2025 14:51:33 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.107 ms
+Tue May 27 2025 14:51:33 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community/leaderboard 204 - 0.088 ms
+Tue May 27 2025 14:51:33 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community?page=1 204 - 0.073 ms
+Tue May 27 2025 14:51:34 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 568.103 ms
+Tue May 27 2025 14:51:34 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community/leaderboard 304 - 583.561 ms
+Tue May 27 2025 14:51:34 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community?page=1 304 - 1153.097 ms
+Tue May 27 2025 14:51:49 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comments/6833ece08f190f6c2726fe47?page=3 200 - 865.034 ms
+Tue May 27 2025 14:51:49 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comments/6833ece08f190f6c2726fe47?page=2 200 - 1149.755 ms
+Tue May 27 2025 14:52:20 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.064 ms
+Tue May 27 2025 14:52:20 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community/leaderboard 204 - 0.046 ms
+Tue May 27 2025 14:52:20 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community?page=1 204 - 0.048 ms
+Tue May 27 2025 14:52:20 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 573.854 ms
+Tue May 27 2025 14:52:20 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community/leaderboard 304 - 576.257 ms
+Tue May 27 2025 14:52:20 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1747746976321.png 200 - 0.675 ms
+Tue May 27 2025 14:52:21 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community?page=1 304 - 1142.692 ms
+Tue May 27 2025 14:52:23 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 571.073 ms
+Tue May 27 2025 14:52:26 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 286.157 ms
+Tue May 27 2025 14:52:27 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 570.611 ms
+Tue May 27 2025 14:52:27 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 862.846 ms
+Tue May 27 2025 14:52:27 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 851.618 ms
+Tue May 27 2025 14:52:27 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/subcategory/682f19cebbf267bba7c82275 200 - 1167.156 ms
+Tue May 27 2025 14:52:28 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 2271.243 ms
+Tue May 27 2025 14:52:29 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/get-videos/682f19cebbf267bba7c82275 200 - 1152.601 ms
+Tue May 27 2025 14:52:29 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 2586.741 ms
+Tue May 27 2025 14:52:29 [SERVER-NAME] info: 10.0.60.240 - GET //thumbnail/rectangle-(13)-1748184060254.png 200 - 8.129 ms
+Tue May 27 2025 14:52:29 [SERVER-NAME] info: 10.0.60.240 - GET //thumbnail/image5-1748184017064.png 200 - 7.351 ms
+Tue May 27 2025 14:52:34 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 200 - 1102.385 ms
+Tue May 27 2025 14:52:36 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 200 - 1391.684 ms
+Tue May 27 2025 14:53:0 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/subscription/details 200 - 1337.311 ms
+Tue May 27 2025 14:53:14 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/subscription/details 200 - 1170.659 ms
+Tue May 27 2025 14:53:44 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/subscription/details 200 - 1182.493 ms
+Tue May 27 2025 14:54:4 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/subscription/create-checkout-session/68353e7aeafbc39c158e4ebc 200 - 1614.789 ms
+Tue May 27 2025 14:54:12 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.062 ms
+Tue May 27 2025 14:54:12 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community/leaderboard 204 - 0.040 ms
+Tue May 27 2025 14:54:12 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community?page=1 204 - 0.034 ms
+Tue May 27 2025 14:54:13 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 567.469 ms
+Tue May 27 2025 14:54:13 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community/leaderboard 304 - 578.561 ms
+Tue May 27 2025 14:54:13 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community?page=1 304 - 1119.159 ms
+Tue May 27 2025 14:54:21 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_method.attached[22m[49m
+Tue May 27 2025 14:54:21 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.281 ms
+Tue May 27 2025 14:54:21 [SERVER-NAME] warn: [42m[1mUnhandled event type: checkout.session.completed[22m[49m
+Tue May 27 2025 14:54:21 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.817 ms
+Tue May 27 2025 14:54:21 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.086 ms
+Tue May 27 2025 14:54:21 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.994 ms
+Tue May 27 2025 14:54:21 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.succeeded[22m[49m
+Tue May 27 2025 14:54:21 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.379 ms
+Tue May 27 2025 14:54:21 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.created[22m[49m
+Tue May 27 2025 14:54:21 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.861 ms
+Tue May 27 2025 14:54:21 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.created[22m[49m
+Tue May 27 2025 14:54:21 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.589 ms
+Tue May 27 2025 14:54:21 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.finalized[22m[49m
+Tue May 27 2025 14:54:21 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.592 ms
+Tue May 27 2025 14:54:21 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.updated[22m[49m
+Tue May 27 2025 14:54:21 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.073 ms
+Tue May 27 2025 14:54:21 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.paid[22m[49m
+Tue May 27 2025 14:54:21 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.385 ms
+Tue May 27 2025 14:54:21 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.payment_succeeded[22m[49m
+Tue May 27 2025 14:54:21 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.473 ms
+Tue May 27 2025 14:54:22 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.succeeded[22m[49m
+Tue May 27 2025 14:54:22 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.573 ms
+Tue May 27 2025 14:54:55 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 27 2025 14:54:58 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 27 2025 14:55:1 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 27 2025 14:55:1 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue May 27 2025 14:55:1 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue May 27 2025 14:55:2 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1747746976321.png 200 - 2.326 ms
+Tue May 27 2025 14:55:2 [SERVER-NAME] info: 10.0.60.147 - GET //image/1000005178-1748078560632.png 200 - 1.150 ms
+Tue May 27 2025 14:55:2 [SERVER-NAME] info: 10.0.60.147 - GET //image/banner-burger-delifrance-1747798781766.jpg 200 - 1.402 ms
+Tue May 27 2025 14:55:2 [SERVER-NAME] info: 10.0.60.147 - GET //image/1000005179-1747806821301.jpg 200 - 0.548 ms
+Tue May 27 2025 14:55:19 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/subscription/create-checkout-session/68353e7aeafbc39c158e4ebc 200 - 1577.401 ms
+Tue May 27 2025 14:55:34 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.succeeded[22m[49m
+Tue May 27 2025 14:55:34 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.593 ms
+Tue May 27 2025 14:55:34 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_method.attached[22m[49m
+Tue May 27 2025 14:55:34 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.186 ms
+Tue May 27 2025 14:55:34 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.442 ms
+Tue May 27 2025 14:55:34 [SERVER-NAME] warn: [42m[1mUnhandled event type: checkout.session.completed[22m[49m
+Tue May 27 2025 14:55:34 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.109 ms
+Tue May 27 2025 14:55:34 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.358 ms
+Tue May 27 2025 14:55:34 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.succeeded[22m[49m
+Tue May 27 2025 14:55:34 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.049 ms
+Tue May 27 2025 14:55:34 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.created[22m[49m
+Tue May 27 2025 14:55:34 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.053 ms
+Tue May 27 2025 14:55:34 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.created[22m[49m
+Tue May 27 2025 14:55:34 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.258 ms
+Tue May 27 2025 14:55:34 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.finalized[22m[49m
+Tue May 27 2025 14:55:34 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.175 ms
+Tue May 27 2025 14:55:35 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.updated[22m[49m
+Tue May 27 2025 14:55:35 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.064 ms
+Tue May 27 2025 14:55:35 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.paid[22m[49m
+Tue May 27 2025 14:55:35 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.102 ms
+Tue May 27 2025 14:55:35 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.payment_succeeded[22m[49m
+Tue May 27 2025 14:55:35 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.847 ms
+Tue May 27 2025 14:55:48 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.264 ms
+Tue May 27 2025 14:55:48 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community?page=1 204 - 0.096 ms
+Tue May 27 2025 14:55:48 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community/leaderboard 204 - 0.045 ms
+Tue May 27 2025 14:55:48 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 561.403 ms
+Tue May 27 2025 14:55:48 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community/leaderboard 304 - 582.437 ms
+Tue May 27 2025 14:55:49 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community?page=1 304 - 1141.411 ms
+Tue May 27 2025 14:55:51 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comments/6833ebd0f837e30ff632a1ff 204 - 0.063 ms
+Tue May 27 2025 14:55:53 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/comments/6833ebd0f837e30ff632a1ff 200 - 1459.857 ms
+Tue May 27 2025 14:55:53 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1747746976321.png 200 - 0.759 ms
+Tue May 27 2025 14:56:1 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comments 204 - 0.075 ms
+Tue May 27 2025 14:56:2 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/comments 201 - 1767.882 ms
+Tue May 27 2025 14:56:2 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comments/6833ebd0f837e30ff632a1ff 204 - 0.057 ms
+Tue May 27 2025 14:56:4 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/comments/6833ebd0f837e30ff632a1ff 200 - 1432.409 ms
+Tue May 27 2025 14:56:18 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comments/reply/68357e22783d254506246f94 204 - 0.066 ms
+Tue May 27 2025 14:56:19 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/comments/reply/68357e22783d254506246f94 200 - 1425.574 ms
+Tue May 27 2025 14:56:19 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comments/6833ebd0f837e30ff632a1ff 204 - 0.267 ms
+Tue May 27 2025 14:56:21 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/comments/6833ebd0f837e30ff632a1ff 200 - 1455.331 ms
+Tue May 27 2025 14:57:1 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 588.138 ms
+Tue May 27 2025 14:57:2 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 292.160 ms
+Tue May 27 2025 14:57:3 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 878.090 ms
+Tue May 27 2025 14:57:4 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 883.163 ms
+Tue May 27 2025 14:57:5 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1168.216 ms
+Tue May 27 2025 14:57:6 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 590.295 ms
+Tue May 27 2025 14:57:7 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 879.361 ms
+Tue May 27 2025 14:57:50 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 200 - 1173.257 ms
+Tue May 27 2025 14:57:51 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 200 - 1459.414 ms
+Tue May 27 2025 14:58:0 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/favourit/683413d06f4e8798dfa1075a 200 - 1185.612 ms
+Tue May 27 2025 14:58:4 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 584.185 ms
+Tue May 27 2025 14:58:6 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 285.019 ms
+Tue May 27 2025 14:58:6 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 564.602 ms
+Tue May 27 2025 14:58:7 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 837.068 ms
+Tue May 27 2025 14:58:7 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 838.614 ms
+Tue May 27 2025 14:58:7 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1123.377 ms
+Tue May 27 2025 14:58:7 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/subscription/create-checkout-session/68353e7aeafbc39c158e4ebc 200 - 1759.323 ms
+Tue May 27 2025 14:58:8 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 2030.359 ms
+Tue May 27 2025 14:58:9 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/?page=1 200 - 1119.494 ms
+Tue May 27 2025 14:58:10 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/leaderboard 200 - 559.208 ms
+Tue May 27 2025 14:58:13 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/6833ece08f190f6c2726fe47 200 - 839.077 ms
+Tue May 27 2025 14:58:14 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comments/6833ece08f190f6c2726fe47?page=1 200 - 1398.626 ms
+Tue May 27 2025 14:58:22 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.succeeded[22m[49m
+Tue May 27 2025 14:58:22 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.952 ms
+Tue May 27 2025 14:58:22 [SERVER-NAME] warn: [42m[1mUnhandled event type: checkout.session.completed[22m[49m
+Tue May 27 2025 14:58:22 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.803 ms
+Tue May 27 2025 14:58:23 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_method.attached[22m[49m
+Tue May 27 2025 14:58:23 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.885 ms
+Tue May 27 2025 14:58:23 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.135 ms
+Tue May 27 2025 14:58:23 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.730 ms
+Tue May 27 2025 14:58:23 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.succeeded[22m[49m
+Tue May 27 2025 14:58:23 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.878 ms
+Tue May 27 2025 14:58:23 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.created[22m[49m
+Tue May 27 2025 14:58:23 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.062 ms
+Tue May 27 2025 14:58:23 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.created[22m[49m
+Tue May 27 2025 14:58:23 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.117 ms
+Tue May 27 2025 14:58:23 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.finalized[22m[49m
+Tue May 27 2025 14:58:23 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.411 ms
+Tue May 27 2025 14:58:23 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.updated[22m[49m
+Tue May 27 2025 14:58:23 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.869 ms
+Tue May 27 2025 14:58:23 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.paid[22m[49m
+Tue May 27 2025 14:58:23 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.918 ms
+Tue May 27 2025 14:58:23 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.payment_succeeded[22m[49m
+Tue May 27 2025 14:58:23 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.906 ms
+Tue May 27 2025 14:58:27 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/comments/reply/6833ecfa8f190f6c2726fe62 200 - 1690.113 ms
+Tue May 27 2025 14:58:28 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comments/6833ece08f190f6c2726fe47?page=1 200 - 1398.515 ms
+Tue May 27 2025 14:58:42 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue May 27 2025 14:58:45 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 27 2025 14:58:45 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue May 27 2025 14:58:45 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue May 27 2025 14:58:53 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comments/reply/like/683437942df793ee3910746f 204 - 1.085 ms
+Tue May 27 2025 14:58:53 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comments/6833ebd0f837e30ff632a1ff 204 - 0.170 ms
+Tue May 27 2025 14:58:54 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/comments/6833ebd0f837e30ff632a1ff 304 - 1457.072 ms
+Tue May 27 2025 14:58:54 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/subscription/create-checkout-session/68353e7aeafbc39c158e4ebc 200 - 1564.418 ms
+Tue May 27 2025 14:58:55 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comments/like/68357e22783d254506246f94 204 - 0.125 ms
+Tue May 27 2025 14:58:56 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/comments/like/68357e22783d254506246f94 200 - 855.495 ms
+Tue May 27 2025 14:58:57 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/comments/6833ebd0f837e30ff632a1ff 200 - 1413.994 ms
+Tue May 27 2025 14:59:1 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/comments/like/68357e22783d254506246f94 200 - 1133.037 ms
+Tue May 27 2025 14:59:1 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comments/6833ebd0f837e30ff632a1ff 204 - 0.059 ms
+Tue May 27 2025 14:59:2 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 200 - 1131.978 ms
+Tue May 27 2025 14:59:2 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/comments/6833ebd0f837e30ff632a1ff 200 - 1398.700 ms
+Tue May 27 2025 14:59:3 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 200 - 1410.255 ms
+Tue May 27 2025 14:59:5 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.succeeded[22m[49m
+Tue May 27 2025 14:59:5 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.470 ms
+Tue May 27 2025 14:59:5 [SERVER-NAME] warn: [42m[1mUnhandled event type: checkout.session.completed[22m[49m
+Tue May 27 2025 14:59:5 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.075 ms
+Tue May 27 2025 14:59:6 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_method.attached[22m[49m
+Tue May 27 2025 14:59:6 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.048 ms
+Tue May 27 2025 14:59:6 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.449 ms
+Tue May 27 2025 14:59:6 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.succeeded[22m[49m
+Tue May 27 2025 14:59:6 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.899 ms
+Tue May 27 2025 14:59:6 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.241 ms
+Tue May 27 2025 14:59:6 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.created[22m[49m
+Tue May 27 2025 14:59:6 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.912 ms
+Tue May 27 2025 14:59:6 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.created[22m[49m
+Tue May 27 2025 14:59:6 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.119 ms
+Tue May 27 2025 14:59:6 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.finalized[22m[49m
+Tue May 27 2025 14:59:6 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.266 ms
+Tue May 27 2025 14:59:6 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.updated[22m[49m
+Tue May 27 2025 14:59:6 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.116 ms
+Tue May 27 2025 14:59:7 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.paid[22m[49m
+Tue May 27 2025 14:59:7 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.015 ms
+Tue May 27 2025 14:59:7 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.payment_succeeded[22m[49m
+Tue May 27 2025 14:59:7 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.773 ms
+Tue May 27 2025 14:59:15 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comments/reply/like/68357e32783d254506246fa0 204 - 0.057 ms
+Tue May 27 2025 14:59:15 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comments/6833ebd0f837e30ff632a1ff 204 - 0.099 ms
+Tue May 27 2025 14:59:16 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/comments/6833ebd0f837e30ff632a1ff 304 - 1409.059 ms
+Tue May 27 2025 14:59:42 [SERVER-NAME] info: 10.0.60.123 - GET /api/v1/subscription/details 200 - 1159.717 ms

@@ -98,6 +98,8 @@ const markVideoAsCompleted = catchAsync(async (req, res) => {
      });
 });
 ///////////////////////////////////////////////////////
+
+
 const postComment = catchAsync(async (req, res) => {
      const { videoId } = req.params;
      const { id }: any = req.user;

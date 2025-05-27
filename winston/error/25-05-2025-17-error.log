@@ -1,6 +1,0 @@
-Sun May 25 2025 17:10:40 [SERVER-NAME] error: 10.0.60.147 - POST /api/v1/admin/videos/managment/upload-video 404 - 3888.839 ms
-Sun May 25 2025 17:22:14 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/admin/videos/managment/get-all-videos-by-course/683184a94f5c96c45dd8f97d 404 - 3.540 ms
-Sun May 25 2025 17:23:1 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/admin/videos/managment/get-all-videos-by-course/683184a94f5c96c45dd8f97d 403 - 1962.578 ms
-Sun May 25 2025 17:37:58 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/explore/ 403 - 301.217 ms
-Sun May 25 2025 17:38:48 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/subcategory/get-videos/683183f94f5c96c45dd8f96b 404 - 557.177 ms
-Sun May 25 2025 17:41:47 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/subcategory/get-videos/683183f94f5c96c45dd8f96b 404 - 591.045 ms

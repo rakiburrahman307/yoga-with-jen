@@ -8,7 +8,7 @@ import AppError from '../../../errors/AppError';
 import config from '../../../config';
 
 const subscriptionDetailsFromDB = async (id: string): Promise<{ subscription: ISubscription | {} }> => {
-     const subscription = await Subscription.findOne({ userId: id }).populate('package', 'title credit').lean();
+     const subscription = await Subscription.findOne({ userId: id }).populate('package', 'title credit duration').lean();
 
      if (!subscription) {
           return { subscription: {} }; // Return empty object if no subscription found
@@ -202,6 +202,10 @@ const cancelSubscriptionToDB = async (userId: string) => {
 
      return { success: true, message: 'Subscription canceled successfully' };
 };
+const successMessage = async (id: string) => {
+     const session = await stripe.checkout.sessions.retrieve(id);
+     return session;
+};
 export const SubscriptionService = {
      subscriptionDetailsFromDB,
      subscriptionsFromDB,
@@ -209,4 +213,5 @@ export const SubscriptionService = {
      createSubscriptionCheckoutSession,
      upgradeSubscriptionToDB,
      cancelSubscriptionToDB,
+     successMessage,
 };

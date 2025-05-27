@@ -25,7 +25,6 @@ const getVideos = async (query: Record<string, unknown>) => {
 const getVideosByCourse = async (id: string, query: Record<string, unknown>) => {
      const queryBuilder = new QueryBuilder(Video.find({ subCategoryId: id }).populate('categoryId', 'name').populate('subCategoryId', 'name'), query);
      const videos = await queryBuilder.fields().filter().paginate().search([]).sort().modelQuery.exec();
-
      const meta = await queryBuilder.countTotal();
      return {
           videos,
@@ -35,7 +34,6 @@ const getVideosByCourse = async (id: string, query: Record<string, unknown>) => 
 // upload videos
 const addVideo = async (payload: IVideo) => {
      // Check main category
-     console.log(payload);
      const isExistCategory = await Category.findById(payload.categoryId);
      if (!isExistCategory) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Category not found');
@@ -83,10 +81,9 @@ const updateVideo = async (id: string, payload: Partial<IVideo>) => {
      if (!isExistVideo) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
      }
-     const decodedUrl = decryptUrl(isExistVideo.videoUrl, config.bunnyCDN.bunny_token as string);
-     if (payload.videoUrl && decodedUrl && isExistVideo.videoUrl) {
+     if (payload.videoUrl && isExistVideo.videoUrl) {
           try {
-               await BunnyStorageHandeler.deleteFromBunny(decodedUrl);
+               await BunnyStorageHandeler.deleteFromBunny(isExistVideo.videoUrl);
           } catch (error) {
                throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Error deleting old video from BunnyCDN');
           }
@@ -121,10 +118,9 @@ const removeVideo = async (id: string) => {
      if (!isExistVideo) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
      }
-     const decodedUrl = decryptUrl(isExistVideo.videoUrl, config.bunnyCDN.bunny_token as string);
-     if (decodedUrl && isExistVideo.videoUrl) {
+     if (isExistVideo.videoUrl) {
           try {
-               await BunnyStorageHandeler.deleteFromBunny(decodedUrl);
+               await BunnyStorageHandeler.deleteFromBunny(isExistVideo.videoUrl);
 
                if (isExistVideo.thumbnailUrl) {
                     await BunnyStorageHandeler.deleteFromBunny(isExistVideo.thumbnailUrl);
@@ -141,21 +137,18 @@ const removeVideo = async (id: string) => {
      return result;
 };
 const getSingleVideoFromDb = async (id: string, userId: string) => {
-     const result = await Video.findById(id);
+     const result = await Video.findById(id).populate('categoryId', 'name').populate('subCategoryId', 'name');
      if (!result) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
      }
 
-     // Decrypt the URL
-     const decryptedUrl = decryptUrl(result.videoUrl, config.bunnyCDN.bunny_token as string);
 
      const hasSubscription = await User.hasActiveSubscription(userId);
 
      if (hasSubscription) {
           // If the user has an active subscription or the video is free
           const data = {
-               ...result.toObject(),
-               videoUrl: decryptedUrl,
+               ...result.toObject()
           };
           return data;
      }
@@ -164,18 +157,14 @@ const getSingleVideoFromDb = async (id: string, userId: string) => {
      throw new AppError(StatusCodes.FORBIDDEN, 'You do not have access');
 };
 const getSingleVideoForAdmin = async (id: string, userId: string) => {
-     const result = await Video.findById(id);
+     const result = await Video.findById(id).populate('categoryId', 'name').populate('subCategoryId', 'name');
      if (!result) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
      }
 
-     // Decrypt the URL
-     const decryptedUrl = decryptUrl(result.videoUrl, config.bunnyCDN.bunny_token as string);
-
      // If the user has an active subscription or the video is free
      const data = {
-          ...result.toObject(),
-          videoUrl: decryptedUrl,
+          ...result.toObject()
      };
      return data;
 };

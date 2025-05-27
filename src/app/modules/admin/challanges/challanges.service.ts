@@ -2,8 +2,6 @@
 import { StatusCodes } from 'http-status-codes';
 import AppError from '../../../../errors/AppError';
 import QueryBuilder from '../../../builder/QueryBuilder';
-import { decryptUrl } from '../../../../utils/cryptoToken';
-import config from '../../../../config';
 import { BunnyStorageHandeler } from '../../../../helpers/BunnyStorageHandeler';
 import { Challenge } from './challanges.model';
 import { IChallenge } from './challanges.interface';
@@ -42,10 +40,9 @@ const getChallengeContentLetest = async (id: string) => {
      if (!result) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Challenge not found');
      }
-     const decryptedUrl = decryptUrl(result.videoUrl, config.bunnyCDN.bunny_token as string);
      const data = {
           ...result.toObject(),
-          videoUrl: decryptedUrl,
+         
      };
      return data;
 };
@@ -59,10 +56,9 @@ const getSingleChallenge = async (id: string) => {
      if (!result) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Challenge not found');
      }
-     const decryptedUrl = decryptUrl(result.videoUrl, config.bunnyCDN.bunny_token as string);
+  
      const data = {
-          ...result.toObject(),
-          videoUrl: decryptedUrl,
+          ...result.toObject()
      };
 
      return data;
@@ -75,10 +71,10 @@ const updateChallenge = async (id: string, payload: Partial<IChallenge>) => {
      if (!isExistVideo) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
      }
-     const decodedUrl = decryptUrl(isExistVideo.videoUrl, config.bunnyCDN.bunny_token as string);
-     if (payload.videoUrl && decodedUrl && isExistVideo.videoUrl) {
+
+     if (payload.videoUrl  && isExistVideo.videoUrl) {
           try {
-               await BunnyStorageHandeler.deleteFromBunny(decodedUrl);
+               await BunnyStorageHandeler.deleteFromBunny(isExistVideo.videoUrl);
           } catch (error) {
                throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Error deleting old video from BunnyCDN');
           }
@@ -107,10 +103,9 @@ const deleteChallenge = async (id: string) => {
      if (!result) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Challenge not found');
      }
-     const decodedUrl = decryptUrl(result.videoUrl, config.bunnyCDN.bunny_token as string);
-     if (decodedUrl && result.videoUrl) {
+     if (result.videoUrl) {
           try {
-               await BunnyStorageHandeler.deleteFromBunny(decodedUrl);
+               await BunnyStorageHandeler.deleteFromBunny(result.videoUrl);
 
                if (result.thumbnailUrl) {
                     await BunnyStorageHandeler.deleteFromBunny(result.thumbnailUrl);

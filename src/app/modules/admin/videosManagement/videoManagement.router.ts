@@ -17,6 +17,8 @@ router.delete('/video-delete/:id', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN
 router.post('/mark-video-watched/:videoId', auth(USER_ROLES.USER), videoManagementController.markVideoAsCompleted);
 router.get('/get-all-videos-by-course/:subCategoryId', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), videoManagementController.getAllVideosByCourse);
 // POST /videos/:videoId/comments
+
+
 router.post('/:videoId/comments', auth(USER_ROLES.USER), videoManagementController.postComment);
 // POST /videos/:videoId/comments/:commentId/replies
 router.post('/:videoId/comments/:commentId/replies', auth(USER_ROLES.USER), videoManagementController.postReply);

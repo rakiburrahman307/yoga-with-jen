@@ -42,10 +42,8 @@ const getPostContentLetest = async (id: string) => {
      if (!result) {
           throw new AppError(StatusCodes.NOT_FOUND, 'create post not found');
      }
-     const decryptedUrl = decryptUrl(result.videoUrl, config.bunnyCDN.bunny_token as string);
      const data = {
           ...result.toObject(),
-          videoUrl: decryptedUrl,
      };
      return data;
 };
@@ -59,10 +57,9 @@ const getSinglePost = async (id: string) => {
      if (!result) {
           throw new AppError(StatusCodes.NOT_FOUND, 'create post not found');
      }
-     const decryptedUrl = decryptUrl(result.videoUrl, config.bunnyCDN.bunny_token as string);
+
      const data = {
-          ...result.toObject(),
-          videoUrl: decryptedUrl,
+          ...result.toObject()
      };
 
      return data;

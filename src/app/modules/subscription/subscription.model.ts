@@ -23,7 +23,8 @@ const subscriptionSchema = new Schema<ISubscription, SubscriptionModel>(
           },
           trxId: {
                type: String,
-               required: true,
+               required: false,
+               default: '',
           },
           subscriptionId: {
                type: String,

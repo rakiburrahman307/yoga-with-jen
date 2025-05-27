@@ -1,0 +1,13 @@
+Tue May 27 2025 9:35:40 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/admin/post/managment/create 403 - 281.665 ms
+Tue May 27 2025 9:36:3 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/admin/post/managment/create 403 - 281.254 ms
+Tue May 27 2025 9:36:7 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/admin/post/managment/create 403 - 279.754 ms
+Tue May 27 2025 9:36:8 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/admin/post/managment/create 403 - 283.913 ms
+Tue May 27 2025 9:36:9 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/admin/post/managment/create 403 - 280.108 ms
+Tue May 27 2025 9:36:10 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/admin/post/managment/create 403 - 280.128 ms
+Tue May 27 2025 9:39:45 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/subscription/details 403 - 282.313 ms
+Tue May 27 2025 9:40:9 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/subscription/details 400 - 1316.050 ms
+Tue May 27 2025 9:40:29 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/auth/login 400 - 287.360 ms
+Tue May 27 2025 9:42:6 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/subscription/details 400 - 1301.369 ms
+Tue May 27 2025 9:44:6 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/subscription/details 400 - 1291.661 ms
+Tue May 27 2025 9:52:40 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/subscription/details 400 - 1295.178 ms
+Tue May 27 2025 9:55:34 [SERVER-NAME] error: 10.0.60.240 - POST /api/v1/comments/like/6833ece88f190f6c2726fe55 404 - 1138.950 ms

@@ -6,7 +6,7 @@ import { Comment } from './comments.model';
 import { sendNotifications } from '../../../helpers/notificationsHelper';
 import { User } from '../user/user.model';
 
-// create comment
+// create comment - MAIN COMMENT (depth 0)
 const createCommentToDB = async (commentCreatorId: string, postId: string, content: string) => {
      if (!content.trim()) {
           throw new AppError(StatusCodes.BAD_REQUEST, 'Content cannot be empty');
@@ -23,34 +23,42 @@ const createCommentToDB = async (commentCreatorId: string, postId: string, conte
      if (!user) {
           throw new AppError(StatusCodes.NOT_FOUND, 'User not found!');
      }
+
+     // FIXED: Main comments should have depth 0, not undefined
      const newComment = new Comment({
           commentCreatorId,
           postId,
           content,
           likes: 0,
           replies: [],
+          depth: 0, // Main comment
      });
      await newComment.save();
+
      // Add the new comment to the post's comment list
      const result = await Community.findByIdAndUpdate(postId, {
           $push: { comments: newComment._id },
      });
      if (!result) {
-          throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Failed to update parent comment with the new reply');
+          throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Failed to update post with the new comment');
      }
+
      // send notifications
-     // await sendNotifications({
-     //      receiver: postCreator._id,
-     //      message: `A new comment has been posted by ${user.name}`,
-     //      type: 'MESSAGE',
-     // });
+     if (commentCreatorId !== postCreator._id.toString()) {
+          await sendNotifications({
+               title: `${user.name}`,
+               receiver: postCreator._id,
+               message: `A new comment has been posted`,
+               type: 'MESSAGE',
+          });
+     }
      return newComment;
 };
-// get comments
-function buildPopulateReplies(depth: number): any {
-     if (depth === 0) return null; // or return undefined, but filter later
 
-     // Build nested populate object
+// FIXED: Populate function for replies
+function buildPopulateReplies(depth: number): any {
+     if (depth === 0) return null;
+
      return {
           path: 'replies',
           populate: [
@@ -61,22 +69,48 @@ function buildPopulateReplies(depth: number): any {
      };
 }
 
-const getComments = async (postId: string, query: Record<string, unknown>) => {
-     // Create a query that finds only top-level comments (depth: 1) for the post
-     const baseQuery = Comment.find({ postId, depth: 1 }).populate("commentCreatorId", "name image createdAt").populate(buildPopulateReplies(3));
+// FIXED: Get comments - only fetch main comments (depth 0)
+const getComments = async (postId: string, userId: string, query: Record<string, unknown>) => {
+     const baseQuery = Comment.find({ postId, depth: 0 })
+          .populate('commentCreatorId', 'name image createdAt')
+          .populate({
+               path: 'replies',
+               populate: {
+                    path: 'commentCreatorId',
+                    select: 'name image email',
+               },
+               options: { sort: { createdAt: 1 } },
+          });
 
-     // Use your QueryBuilder with pagination and filtering options
      const queryBuilder = new QueryBuilder(baseQuery, query);
-
-     // Execute paginated query
      const comments = await queryBuilder.paginate().modelQuery.exec();
-
-     // Get total count for pagination metadata
      const meta = await queryBuilder.countTotal();
 
-     return { comments, meta };
+     const postsWithFavorites = await Promise.all(
+          comments.map(async (post: any) => {
+               const isLiked = post.likedBy.some((id: string) => id.toString() === userId);
+
+               // Add isLiked to each reply
+               const repliesWithIsLiked = post.replies.map((reply: any) => {
+                    const replyIsLiked = reply.likedBy.some((id: string) => id.toString() === userId);
+                    return {
+                         ...reply.toObject(),
+                         isLiked: replyIsLiked,
+                    };
+               });
+
+               return {
+                    ...post.toObject(),
+                    isLiked,
+                    replies: repliesWithIsLiked,
+               };
+          }),
+     );
+
+     return { comments: postsWithFavorites, meta };
 };
-// like comments
+
+// like comments - NO CHANGES NEEDED
 const likeComment = async (commentId: string, userId: string) => {
      const user = await User.findById(userId);
      if (!user) {
@@ -90,13 +124,7 @@ const likeComment = async (commentId: string, userId: string) => {
           },
           { new: true, runValidators: true },
      );
-     // if (updatedComment) {
-     //      await sendNotifications({
-     //           receiver: updatedComment.commentCreatorId,
-     //           message: `User '${user.name}' liked your comment`,
-     //           type: 'MESSAGE',
-     //      });
-     // }
+
      if (!updatedComment) {
           const unlikedComment = await Comment.findOneAndUpdate(
                { _id: commentId, likedBy: { $in: [userId] } },
@@ -116,59 +144,77 @@ const likeComment = async (commentId: string, userId: string) => {
 
      return { likes: updatedComment.likes };
 };
-// reply comments
+
+// FIXED: Reply comments - proper logic for flat structure
 const replyToComment = async (commentId: string, commentCreatorId: string, content: string) => {
      if (!content.trim()) {
           throw new AppError(StatusCodes.BAD_REQUEST, 'Reply content cannot be empty');
      }
 
-     // Find the parent comment to reply to
+     // Find the comment to reply to
      const parentComment = await Comment.findById(commentId);
      if (!parentComment) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Parent comment not found');
      }
+
      // Validate user creating the reply
      const user = await User.findById(commentCreatorId);
      if (!user) {
           throw new AppError(StatusCodes.NOT_FOUND, 'User not found!');
      }
 
-     let replyDepth = parentComment.depth < 4 ? parentComment.depth + 1 : 4;
+     // FIXED: Find the main parent comment (depth 0)
+     let targetParentId = commentId;
 
-     // Create the reply comment
+     // If replying to a reply (depth >= 1), find the main parent comment
+     if (parentComment.depth > 0) {
+          // Find the main parent comment (depth 0) that contains this reply
+          const mainParent = await Comment.findOne({
+               postId: parentComment.postId,
+               depth: 0,
+               replies: { $in: [parentComment._id] },
+          });
+
+          if (mainParent) {
+               targetParentId = mainParent._id?.toString() ?? commentId;
+          }
+     }
+
+     // Create the reply comment - always with depth 1
      const reply = new Comment({
           commentCreatorId,
           postId: parentComment.postId,
           content,
           likes: 0,
           replies: [],
-          depth: replyDepth,
+          depth: 1, // All replies stay at depth 1
      });
-
-     const replyId = reply._id;
 
      await reply.save();
 
-     // Add the reply to the parent comment's replies
-     // If parent is already at depth 4, we still add the reply to parent's replies
-     const result = await Comment.findByIdAndUpdate(parentComment._id, {
-          $push: { replies: replyId },
+     // Add the reply to the target parent comment's replies array
+     const result = await Comment.findByIdAndUpdate(targetParentId, {
+          $push: { replies: reply._id },
      });
 
      if (!result) {
           throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Failed to update parent comment with the new reply');
      }
 
-     // Send notification to the original commenter (parent comment's creator)
-     // await sendNotifications({
-     //      receiver: user._id,
-     //      message: `User '${user.name}' has replied to your comment`,
-     //      type: 'MESSAGE',
-     // });
+     // Send notification to the person being replied to
+     if (commentCreatorId !== parentComment.commentCreatorId.toString()) {
+          await sendNotifications({
+               title: `${user.name}`,
+               receiver: parentComment.commentCreatorId,
+               message: `A new reply has been posted`,
+               type: 'MESSAGE',
+          });
+     }
 
      return reply;
 };
-// edit comments
+
+// edit comments - NO MAJOR CHANGES NEEDED
 const editComment = async (commentId: string, payload: string, commentCreatorId: string) => {
      const isExist: any = await Comment.findById(commentId).populate('replies');
 
@@ -180,13 +226,15 @@ const editComment = async (commentId: string, payload: string, commentCreatorId:
           throw new AppError(StatusCodes.FORBIDDEN, 'You are not authorized to edit this comment');
      }
      const updateComment = await Comment.findByIdAndUpdate(commentId, { content: payload }, { new: true });
-     // If the comment is not found
+
      if (!updateComment) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Comment not found');
      }
 
      return updateComment;
 };
+
+// FIXED: Delete comment - proper recursive deletion and cleanup
 const deleteComment = async (commentId: string, commentCreatorId: string) => {
      const commentToDelete: any = await Comment.findById(commentId).populate('replies');
 
@@ -198,32 +246,27 @@ const deleteComment = async (commentId: string, commentCreatorId: string) => {
           throw new AppError(StatusCodes.FORBIDDEN, 'You are not authorized to delete this comment');
      }
 
+     // FIXED: Recursively delete all replies first
      if (commentToDelete.replies.length > 0) {
           for (const reply of commentToDelete.replies) {
-               await deleteComment(reply._id, commentCreatorId);
+               // Delete reply without authorization check (cascade delete)
+               await Comment.findByIdAndDelete(reply._id || reply);
           }
      }
 
-     // Step 3: Remove the comment from the post's comments array
-     const postUpdate = await Community.findByIdAndUpdate(commentToDelete.postId, {
-          $pull: { comments: commentId },
-     });
-
-     if (!postUpdate) {
-          throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Failed to update post with removed comment');
+     // Remove the comment from the post's comments array (only if it's a main comment)
+     if (commentToDelete.depth === 0) {
+          await Community.findByIdAndUpdate(commentToDelete.postId, {
+               $pull: { comments: commentId },
+          });
      }
 
-     // Step 4: Remove the comment from any parent comment's replies array
-     const parentUpdate = await Comment.updateMany({ replies: commentId }, { $pull: { replies: commentId } });
+     // Remove the comment from any parent comment's replies array
+     await Comment.updateMany({ replies: commentId }, { $pull: { replies: commentId } });
 
-     if (!parentUpdate) {
-          throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Failed to remove comment from parent replies');
-     }
-
-     // Step 5: Delete the comment (and its replies)
+     // Delete the comment itself
      const result = await Comment.findByIdAndDelete(commentId);
 
-     // Return the result of the deletion
      return result;
 };
 

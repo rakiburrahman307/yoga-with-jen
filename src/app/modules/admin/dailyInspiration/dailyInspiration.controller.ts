@@ -4,7 +4,6 @@ import catchAsync from '../../../../shared/catchAsync'; // Error handling utilit
 import sendResponse from '../../../../shared/sendResponse'; // Utility to format and send the response
 import { DailyInspirationService } from './dailyInspiration.service';
 
-
 // Controller function to create a new "Create post" entry
 const createPost = catchAsync(async (req, res) => {
      // Calling the service to create a new entry
@@ -22,15 +21,14 @@ const createPost = catchAsync(async (req, res) => {
 // Controller function to get all "Create post" entries, with pagination
 const getAllCreatePost = catchAsync(async (req, res) => {
      // Fetching all "Create post" entries using query parameters (e.g., for pagination)
-     const result = await DailyInspirationService.getAllPost(req.query);
+     const result = await DailyInspirationService.getAllPost();
 
      // Sending the response with the result and pagination data
      sendResponse(res, {
           statusCode: StatusCodes.OK,
           success: true,
           message: 'Post retrieved successfully',
-          data: result.result,
-          pagination: result.meta,
+          data: result[0],
      });
 });
 

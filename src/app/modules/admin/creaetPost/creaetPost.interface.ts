@@ -1,6 +1,6 @@
 export interface ICreatePost {
      title: string;
-     category: string;
+     type: string;
      duration: string;
      equipment: string[];
      thumbnailUrl: string;

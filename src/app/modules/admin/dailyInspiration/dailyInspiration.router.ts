@@ -13,7 +13,6 @@ router.post('/create', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), fileUploa
 
 // Route to get all "Create Post" entries
 router.get('/letest', auth(USER_ROLES.USER), DailyInspirationController.getAllCreatePost);
-router.get('/single/:id', auth(USER_ROLES.USER), DailyInspirationController.singlePost);
 // Route to get all "Create Post" entries
 router.get('/', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), DailyInspirationController.getAllCreatePost);
 

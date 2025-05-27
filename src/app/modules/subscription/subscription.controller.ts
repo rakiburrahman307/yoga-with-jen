@@ -66,11 +66,21 @@ const updateSubscription = catchAsync(async (req, res) => {
           },
      });
 });
-
+const orderSuccess = catchAsync(async (req, res) => {
+     const sessionId = req.query.session_id as string;
+     const session = await SubscriptionService.successMessage(sessionId);
+     res.render('success', { session });
+});
+// Assuming you have OrderServices imported properly
+const orderCancel = catchAsync(async (req, res) => {
+     res.render('cancel');
+});
 export const SubscriptionController = {
      subscriptions,
      subscriptionDetails,
      createCheckoutSession,
      updateSubscription,
      cancelSubscription,
+     orderSuccess,
+     orderCancel,
 };

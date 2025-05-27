@@ -47,6 +47,8 @@ export async function startServer() {
 
           socketServer.listen(socketPort);
           socketHelper.socket(socketServer);
+           //@ts-ignore
+           global.io = socketServer;
           logger.info(colors.yellow(`♻️  Socket is listening on ${ipAddress}:${socketPort}`));
      } catch (error) {
           logger.error(colors.red('Failed to start server'), error);

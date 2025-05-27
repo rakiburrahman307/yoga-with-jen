@@ -4,12 +4,18 @@ import AppError from '../../../../errors/AppError';
 import { IComeingSoon } from './comeingSoon.interface';
 import { ComeingSoon } from './comeingSoon.model';
 import QueryBuilder from '../../../builder/QueryBuilder';
-import config from '../../../../config';
-import { decryptUrl } from '../../../../utils/cryptoToken';
 import { BunnyStorageHandeler } from '../../../../helpers/BunnyStorageHandeler';
-
+import { Favourite } from '../../favourit/favourit.model';
+const getFevVideosOrNot = async (videoId: string, userId: string) => {
+     const favorite = await Favourite.findOne({ videoId, userId });
+     return favorite ? true : false;
+};
 // Function to create a new "Coming Soon" entry
 const createComingSoon = async (payload: IComeingSoon) => {
+     const deleteAll = await ComeingSoon.deleteMany({});
+     if (!deleteAll) {
+          throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to delete all coming soon');
+     }
      const result = await ComeingSoon.create(payload);
      if (!result) {
           throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to create coming soon');
@@ -28,16 +34,16 @@ const getAllComingSoon = async (query: Record<string, unknown>) => {
 };
 
 // Function to get the latest "Coming Soon" content by ID
-const getComingSoonContentLetest = async (id: string) => {
+const getComingSoonContentLetest = async (id: string, userId: string) => {
      // Finding the "Coming Soon" entry by its ID
      const result = await ComeingSoon.findById(id);
      if (!result) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Coming soon not found');
      }
-     const decryptedUrl = decryptUrl(result.videoUrl, config.bunnyCDN.bunny_token as string);
+     const isFevorite = await getFevVideosOrNot(id, userId);
      const data = {
           ...result.toObject(),
-          videoUrl: decryptedUrl,
+          isFevorite,
      };
      return data;
 };
@@ -49,10 +55,8 @@ const getSingleComingSoon = async (id: string) => {
      if (!result) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Coming soon not found');
      }
-     const decryptedUrl = decryptUrl(result.videoUrl, config.bunnyCDN.bunny_token as string);
      const data = {
           ...result.toObject(),
-          videoUrl: decryptedUrl,
      };
      return data;
 };
@@ -63,10 +67,9 @@ const updateComingSoon = async (id: string, payload: Partial<IComeingSoon>) => {
      if (!isExistVideo) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
      }
-     const decodedUrl = decryptUrl(isExistVideo.videoUrl, config.bunnyCDN.bunny_token as string);
-     if (payload.videoUrl && decodedUrl && isExistVideo.videoUrl) {
+     if (payload.videoUrl && isExistVideo.videoUrl) {
           try {
-               await BunnyStorageHandeler.deleteFromBunny(decodedUrl);
+               await BunnyStorageHandeler.deleteFromBunny(isExistVideo.videoUrl);
           } catch (error) {
                throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Error deleting old video from BunnyCDN');
           }
@@ -100,12 +103,21 @@ const deleteComingSoon = async (id: string) => {
 };
 
 // Function to get the latest "Coming Soon" content (limited to 3 entries)
-const getCommingSoonLetest = async () => {
+const getCommingSoonLetest = async (userId: string) => {
      const result = await ComeingSoon.find().sort({ createdAt: -1 }).limit(3);
      if (!result) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Coming soon not found');
      }
-     return result;
+     const postsWithFavorites = await Promise.all(
+          result.map(async (post: any) => {
+               const isFevorite = await getFevVideosOrNot(post._id, userId);
+               return {
+                    ...post.toObject(),
+                    isFevorite,
+               };
+          }),
+     );
+     return postsWithFavorites;
 };
 
 // Exporting the service functions to be used in the controller

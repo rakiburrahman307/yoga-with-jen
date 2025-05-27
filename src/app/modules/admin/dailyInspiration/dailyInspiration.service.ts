@@ -10,22 +10,31 @@ import { IDailyInspiration } from './dailyInspiration.interface';
 
 // Function to create a new "create post" entry
 const createPost = async (payload: IDailyInspiration) => {
+     // First, delete any existing daily inspiration posts
+     const deleteResult = await DailyInspiration.deleteMany({});
+
+     if (deleteResult.deletedCount > 0) {
+          console.log(`Deleted ${deleteResult.deletedCount} existing daily inspiration post(s)`);
+     }
+
+     // Create the new post
      const result = await DailyInspiration.create(payload);
+
      if (!result) {
-          throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to create create post');
+          throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to create daily inspiration post');
      }
      return result;
 };
 
 // Function to fetch all "create post" entries, including pagination, filtering, and sorting
-const getAllPost = async (query: Record<string, unknown>) => {
-     const querBuilder = new QueryBuilder(DailyInspiration.find({}), query);
-
-     const result = await querBuilder.fields().sort().paginate().filter().search(['title', 'category', 'subCategory']).modelQuery; // Final query model
-
-     const meta = await querBuilder.countTotal();
-     return { result, meta };
+const getAllPost = async () => {
+     const result = await DailyInspiration.find({});
+     if (!result) {
+          return [];
+     }
+     return result;
 };
+
 const getPost = async (query: Record<string, unknown>) => {
      const querBuilder = new QueryBuilder(DailyInspiration.find({ status: 'active' }), query);
 
