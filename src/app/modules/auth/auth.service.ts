@@ -13,20 +13,25 @@ import generateOTP from '../../../utils/generateOTP';
 import cryptoToken from '../../../utils/cryptoToken';
 import { verifyToken } from '../../../utils/verifyToken';
 import { createToken } from '../../../utils/createToken';
+import { USER_ROLES } from '../../../enums/user';
+import { sendNotifications } from '../../../helpers/notificationsHelper';
 
 //login
-
 const loginUserFromDB = async (payload: ILoginData) => {
      const { email, password } = payload;
      if (!password) {
           throw new AppError(StatusCodes.BAD_REQUEST, 'Password is required!');
      }
 
-     const isExistUser = await User.findOne({ email }).select('+password');
+     // Find user with password (password select is false by default)
+     const isExistUser = await User.findOne({ email }).select('+password +tokenVersion');
      if (!isExistUser) {
           throw new AppError(StatusCodes.BAD_REQUEST, "User doesn't exist!");
      }
-
+     const getAdmin = await User.findOne({ role: USER_ROLES.SUPER_ADMIN });
+     if (!getAdmin) {
+          throw new AppError(StatusCodes.NOT_FOUND, 'Admin not found!');
+     }
      // Check if the user is verified
      if (!isExistUser.verified) {
           const otp = generateOTP(6);
@@ -53,28 +58,52 @@ const loginUserFromDB = async (payload: ILoginData) => {
           throw new AppError(StatusCodes.BAD_REQUEST, 'Password is incorrect!');
      }
 
-     const today = new Date().toLocaleDateString(); // Get today's date in 'YYYY-MM-DD' format
+     const today = new Date().toLocaleDateString();
 
-     // If last login was not today, increment the login count
+     // Increment login count if last login not today
      if (isExistUser.lastLogin && new Date(isExistUser.lastLogin).toLocaleDateString() !== today) {
-          // Use await here to ensure the update is done properly
           await User.findByIdAndUpdate(isExistUser._id, { $inc: { loginCount: 1 } }, { new: true });
      }
 
-     // Update the last login date to today
+     // Update last login to now
      await User.findByIdAndUpdate(isExistUser._id, { $set: { lastLogin: new Date() } }, { new: true });
 
-     // Generate JWT tokens (Access and Refresh tokens)
+     // Generate JWT tokens including tokenVersion
      const jwtData = {
           id: isExistUser._id,
           role: isExistUser.role,
           email: isExistUser.email,
+          tokenVersion: isExistUser.tokenVersion ?? 0, // <-- include tokenVersion here
      };
+     if (isExistUser.role === USER_ROLES.ADMIN) {
+          await sendNotifications({
+               title: `${isExistUser.name}`,
+               receiver: getAdmin._id,
+               message: `Admin ${isExistUser.name} has just logged into the dashboard.`,
+               type: 'MESSAGE',
+          });
+     }
+     if (isExistUser.role === USER_ROLES.SUPER_ADMIN) {
+          await sendNotifications({
+               title: `${isExistUser.name}`,
+               receiver: isExistUser._id,
+               message: `Hay super admin ${isExistUser.name} wellcome back to the dashboard.`,
+               type: 'MESSAGE',
+          });
+     }
 
+     if (isExistUser.role === USER_ROLES.USER) {
+          await sendNotifications({
+               title: `${isExistUser.name}`,
+               receiver: isExistUser._id,
+               message: `Wellcome ${isExistUser.name} to the app.`,
+               type: 'MESSAGE',
+          });
+     }
      const accessToken = jwtHelper.createToken(jwtData, config.jwt.jwt_secret as Secret, config.jwt.jwt_expire_in as string);
      const refreshToken = jwtHelper.createToken(jwtData, config.jwt.jwt_refresh_secret as string, config.jwt.jwt_refresh_expire_in as string);
 
-     return { accessToken, refreshToken, role: isExistUser.role };
+     return { accessToken, refreshToken, role: isExistUser.role, expireDate: isExistUser.trialExpireAt };
 };
 
 //forget password

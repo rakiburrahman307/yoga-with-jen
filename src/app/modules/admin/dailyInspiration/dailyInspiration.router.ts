@@ -14,7 +14,7 @@ router.post('/create', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), fileUploa
 // Route to get all "Create Post" entries
 router.get('/letest', auth(USER_ROLES.USER), DailyInspirationController.getAllCreatePost);
 // Route to get all "Create Post" entries
-router.get('/', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), DailyInspirationController.getAllCreatePost);
+router.get('/', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), DailyInspirationController.getAllCreatePostForAdmin);
 
 // Route to get a specific "Create Post" entry by ID
 router.get('/:id', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), DailyInspirationController.singlePost);

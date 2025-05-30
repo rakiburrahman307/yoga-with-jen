@@ -25,8 +25,20 @@ const getAllContacts = catchAsync(async (req: Request, res: Response) => {
           data: result,
      });
 });
+const getsingleContact = catchAsync(async (req: Request, res: Response) => {
+     const { id } = req.params;
+     const result = await ContactService.getSingleContactFromDB(id);
+
+     sendResponse(res, {
+          success: true,
+          statusCode: StatusCodes.OK,
+          message: 'Contacts retrieved successfully',
+          data: result,
+     });
+});
 
 export const ContactController = {
      createContact,
      getAllContacts,
+     getsingleContact,
 };

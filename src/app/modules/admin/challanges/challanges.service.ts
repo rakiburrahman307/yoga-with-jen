@@ -8,6 +8,10 @@ import { IChallenge } from './challanges.interface';
 
 // Function to create a new "create Challenge" entry
 const createChallenge = async (payload: IChallenge) => {
+     const deletedData = await Challenge.deleteMany({});
+     if (!deletedData) {
+          throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to delete all create Challenge');
+     }
      const result = await Challenge.create(payload);
      if (!result) {
           throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to create create Challenge');
@@ -42,7 +46,6 @@ const getChallengeContentLetest = async (id: string) => {
      }
      const data = {
           ...result.toObject(),
-         
      };
      return data;
 };
@@ -56,9 +59,9 @@ const getSingleChallenge = async (id: string) => {
      if (!result) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Challenge not found');
      }
-  
+
      const data = {
-          ...result.toObject()
+          ...result.toObject(),
      };
 
      return data;
@@ -72,7 +75,7 @@ const updateChallenge = async (id: string, payload: Partial<IChallenge>) => {
           throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
      }
 
-     if (payload.videoUrl  && isExistVideo.videoUrl) {
+     if (payload.videoUrl && isExistVideo.videoUrl) {
           try {
                await BunnyStorageHandeler.deleteFromBunny(isExistVideo.videoUrl);
           } catch (error) {

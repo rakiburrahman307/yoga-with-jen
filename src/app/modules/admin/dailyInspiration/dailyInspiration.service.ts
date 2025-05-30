@@ -2,8 +2,6 @@
 import { StatusCodes } from 'http-status-codes';
 import AppError from '../../../../errors/AppError';
 import QueryBuilder from '../../../builder/QueryBuilder';
-import { decryptUrl } from '../../../../utils/cryptoToken';
-import config from '../../../../config';
 import { BunnyStorageHandeler } from '../../../../helpers/BunnyStorageHandeler';
 import { DailyInspiration } from './dailyInspiration.model';
 import { IDailyInspiration } from './dailyInspiration.interface';
@@ -51,10 +49,8 @@ const getPostContentLetest = async (id: string) => {
      if (!result) {
           throw new AppError(StatusCodes.NOT_FOUND, 'create post not found');
      }
-     const decryptedUrl = decryptUrl(result.videoUrl, config.bunnyCDN.bunny_token as string);
      const data = {
-          ...result.toObject(),
-          videoUrl: decryptedUrl,
+          ...result.toObject()
      };
      return data;
 };
@@ -68,10 +64,8 @@ const getSinglePost = async (id: string) => {
      if (!result) {
           throw new AppError(StatusCodes.NOT_FOUND, 'create post not found');
      }
-     const decryptedUrl = decryptUrl(result.videoUrl, config.bunnyCDN.bunny_token as string);
      const data = {
-          ...result.toObject(),
-          videoUrl: decryptedUrl,
+          ...result.toObject()
      };
 
      return data;
@@ -84,10 +78,9 @@ const updatePost = async (id: string, payload: Partial<IDailyInspiration>) => {
      if (!isExistVideo) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
      }
-     const decodedUrl = decryptUrl(isExistVideo.videoUrl, config.bunnyCDN.bunny_token as string);
-     if (payload.videoUrl && decodedUrl && isExistVideo.videoUrl) {
+     if (payload.videoUrl && isExistVideo.videoUrl) {
           try {
-               await BunnyStorageHandeler.deleteFromBunny(decodedUrl);
+               await BunnyStorageHandeler.deleteFromBunny(isExistVideo.videoUrl);
           } catch (error) {
                throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Error deleting old video from BunnyCDN');
           }
@@ -116,10 +109,9 @@ const deletePost = async (id: string) => {
      if (!result) {
           throw new AppError(StatusCodes.NOT_FOUND, 'create post not found');
      }
-     const decodedUrl = decryptUrl(result.videoUrl, config.bunnyCDN.bunny_token as string);
-     if (decodedUrl && result.videoUrl) {
+     if (result.videoUrl) {
           try {
-               await BunnyStorageHandeler.deleteFromBunny(decodedUrl);
+               await BunnyStorageHandeler.deleteFromBunny(result.videoUrl);
 
                if (result.thumbnailUrl) {
                     await BunnyStorageHandeler.deleteFromBunny(result.thumbnailUrl);

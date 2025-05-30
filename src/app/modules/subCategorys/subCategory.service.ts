@@ -108,40 +108,86 @@ const getFevVideosOrNot = async (videoId: string, userId: string) => {
      return favorite ? true : false;
 };
 const getVideoCompleteOrNot = async (videoId: string, userId: string): Promise<boolean> => {
+     // Find video
      const video = await Video.findById(videoId);
      if (!video) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
      }
+     // Find user
      const user = await User.findById(userId);
      if (!user) {
           throw new AppError(StatusCodes.NOT_FOUND, 'User not found');
      }
-     const isVideoCompleted = user.completedSessions?.some((session: any) => session.videoId === videoId);
-     return !!isVideoCompleted;
+
+     // Check if completedSessions exists and has items
+     if (!user.completedSessions || user.completedSessions.length === 0) {
+          return false;
+     }
+
+     // Method 1: If completedSessions stores videoIds directly (most likely based on your markVideoAsCompleted function)
+     const isVideoCompleted = user.completedSessions.some((sessionId: any) => {
+          const sessionIdString = sessionId.toString();
+          const videoIdString = videoId.toString();
+          return sessionIdString === videoIdString;
+     });
+
+     return isVideoCompleted;
 };
 
 const getSubCategoryRelatedVideo = async (id: string, userId: string, query: Record<string, unknown>) => {
+     // Check if subcategory exists
      const isExistCategory = await SubCategory.findById(id);
      if (!isExistCategory) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Category not found');
      }
-     const queryBuilder = new QueryBuilder(Video.find({ subCategoryId: isExistCategory._id }), query);
-     const result = await queryBuilder.fields().filter().paginate().search(['name']).sort().modelQuery.exec();
+
+     // Get videos sorted by order (add 'order' field to your Video schema)
+     const queryBuilder = new QueryBuilder(Video.find({ subCategoryId: isExistCategory._id, status: 'active' }).sort({ order: 1, serial: 1 }), query);
+
+     const result = await queryBuilder.fields().filter().paginate().search(['name']).modelQuery.exec();
      const meta = await queryBuilder.countTotal();
 
-     const postsWithFavorites = await Promise.all(
-          result.map(async (post: any) => {
-               const isFevorite = await getFevVideosOrNot(post._id, userId);
-               const isVideoCompleted = await getVideoCompleteOrNot(post._id, userId);
+     // Get user data once (more efficient)
+     const user = await User.findById(userId);
+     if (!user) {
+          throw new AppError(StatusCodes.NOT_FOUND, 'User not found');
+     }
+
+     const completedVideoIds = user.completedSessions?.map((id) => id.toString()) || [];
+
+     // Process videos with sequential logic
+     const postsWithStatus = await Promise.all(
+          result.map(async (post: any, index: number) => {
+               const videoIdString = post._id.toString();
+
+               // Check if current video is completed
+               const isVideoCompleted = completedVideoIds.includes(videoIdString);
+
+               // Check if video is enabled (sequential logic)
+               let isEnabled = false;
+               if (index === 0) {
+                    // First video is always enabled
+                    isEnabled = true;
+               } else {
+                    // Check if ALL previous videos are completed (strict sequential)
+                    const allPreviousCompleted = result.slice(0, index).every((prevVideo: any) => completedVideoIds.includes(prevVideo._id.toString()));
+                    isEnabled = allPreviousCompleted;
+               }
+
+               // Get favorite status
+               const isFavorite = await getFevVideosOrNot(post._id, userId);
+
                return {
                     ...post.toObject(),
-                    isFevorite,
+                    isFavorite,
                     isVideoCompleted,
+                    isEnabled, // This is the key property for sequential access
                };
           }),
      );
+
      return {
-          result: postsWithFavorites,
+          result: postsWithStatus,
           meta,
      };
 };

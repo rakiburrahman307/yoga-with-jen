@@ -1,0 +1,503 @@
+Thu May 29 2025 10:1:53 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.376 ms
+Thu May 29 2025 10:1:53 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications?recipientRole=admin&page=1&limit=10 204 - 0.145 ms
+Thu May 29 2025 10:1:53 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:1:53 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 577.878 ms
+Thu May 29 2025 10:1:53 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 0.352 ms
+Thu May 29 2025 10:2:16 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 10:2:16 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.038 ms
+Thu May 29 2025 10:2:16 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications?recipientRole=admin&page=1&limit=10 204 - 0.028 ms
+Thu May 29 2025 10:2:16 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:2:17 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 567.263 ms
+Thu May 29 2025 10:2:17 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 200 - 6.670 ms
+Thu May 29 2025 10:10:25 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 200 - 1147.355 ms
+Thu May 29 2025 10:10:26 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 200 - 1423.103 ms
+Thu May 29 2025 10:13:56 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 1395.711 ms
+Thu May 29 2025 10:14:16 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 1373.813 ms
+Thu May 29 2025 10:14:25 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/notifications/admin 200 - 1641.509 ms
+Thu May 29 2025 10:16:54 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:16:57 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 10:16:57 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 10:16:57 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 10:16:57 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:17:52 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:17:54 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:17:56 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 10:17:56 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 10:17:56 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 10:18:0 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:18:3 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 10:18:3 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 10:18:3 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 10:18:7 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 200 - 1446.099 ms
+Thu May 29 2025 10:18:7 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:18:27 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 10:18:27 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.487 ms
+Thu May 29 2025 10:18:27 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications?recipientRole=admin&page=1&limit=10 204 - 0.099 ms
+Thu May 29 2025 10:18:28 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:18:28 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 574.095 ms
+Thu May 29 2025 10:18:28 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 0.922 ms
+Thu May 29 2025 10:18:49 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:18:52 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 10:18:52 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 10:18:52 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 10:18:54 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:18:55 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin 200 - 1781.485 ms
+Thu May 29 2025 10:19:23 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications?recipientRole=admin&page=1&limit=10 204 - 0.423 ms
+Thu May 29 2025 10:19:24 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 10:19:25 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.136 ms
+Thu May 29 2025 10:19:25 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin?recipientRole=admin&page=1&limit=10 204 - 0.043 ms
+Thu May 29 2025 10:19:25 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:19:26 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?recipientRole=admin&page=1&limit=10 200 - 551.015 ms
+Thu May 29 2025 10:19:26 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 564.400 ms
+Thu May 29 2025 10:19:26 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 0.785 ms
+Thu May 29 2025 10:19:44 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 10:19:45 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.082 ms
+Thu May 29 2025 10:19:45 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin?recipientRole=admin&page=1&limit=10 204 - 0.084 ms
+Thu May 29 2025 10:19:45 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:19:46 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?recipientRole=admin&page=1&limit=10 304 - 552.995 ms
+Thu May 29 2025 10:19:46 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 564.051 ms
+Thu May 29 2025 10:19:46 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 0.416 ms
+Thu May 29 2025 10:19:58 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:20:1 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 10:20:1 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 10:20:1 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 10:20:1 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:20:5 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:20:8 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 10:20:8 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 10:20:8 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 10:20:9 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:20:12 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:20:16 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 10:20:16 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 10:20:16 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 10:20:20 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:20:24 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:20:26 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 10:20:26 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 10:20:26 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 10:20:29 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:20:41 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 10:20:42 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 1.058 ms
+Thu May 29 2025 10:20:42 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin?page=1&limit=10 204 - 0.164 ms
+Thu May 29 2025 10:20:42 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:20:42 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 563.627 ms
+Thu May 29 2025 10:20:42 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 200 - 572.619 ms
+Thu May 29 2025 10:20:42 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 0.848 ms
+Thu May 29 2025 10:22:3 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 10:22:4 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:22:28 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 10:22:29 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.105 ms
+Thu May 29 2025 10:22:29 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin?page=1&limit=10 204 - 0.078 ms
+Thu May 29 2025 10:22:29 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:22:29 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 304 - 556.886 ms
+Thu May 29 2025 10:22:29 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 578.382 ms
+Thu May 29 2025 10:22:29 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 0.463 ms
+Thu May 29 2025 10:24:22 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 10:24:23 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin 204 - 0.068 ms
+Thu May 29 2025 10:24:23 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.057 ms
+Thu May 29 2025 10:24:23 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:24:24 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 551.833 ms
+Thu May 29 2025 10:24:24 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 0.617 ms
+Thu May 29 2025 10:24:24 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin 200 - 575.723 ms
+Thu May 29 2025 10:27:56 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 200 - 1441.806 ms
+Thu May 29 2025 10:29:26 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 10:29:27 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.077 ms
+Thu May 29 2025 10:29:27 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin 204 - 0.044 ms
+Thu May 29 2025 10:29:27 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:29:27 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin 304 - 550.439 ms
+Thu May 29 2025 10:29:27 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 570.533 ms
+Thu May 29 2025 10:29:27 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 0.530 ms
+Thu May 29 2025 10:30:2 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 200 - 1443.912 ms
+Thu May 29 2025 10:30:4 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 200 - 1148.646 ms
+Thu May 29 2025 10:30:6 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 200 - 1431.004 ms
+Thu May 29 2025 10:30:28 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 10:30:29 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.397 ms
+Thu May 29 2025 10:30:29 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin 204 - 0.215 ms
+Thu May 29 2025 10:30:29 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:30:30 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin 304 - 555.603 ms
+Thu May 29 2025 10:30:30 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 574.273 ms
+Thu May 29 2025 10:30:30 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 0.469 ms
+Thu May 29 2025 10:30:52 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/user/managment? 204 - 0.187 ms
+Thu May 29 2025 10:30:53 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/user/managment? 200 - 891.839 ms
+Thu May 29 2025 10:30:56 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.078 ms
+Thu May 29 2025 10:30:58 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 200 - 1433.940 ms
+Thu May 29 2025 10:30:58 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/revenue 204 - 0.150 ms
+Thu May 29 2025 10:30:58 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.095 ms
+Thu May 29 2025 10:30:58 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/revenue 200 - 560.043 ms
+Thu May 29 2025 10:30:58 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/resent-users 200 - 576.992 ms
+Thu May 29 2025 10:31:54 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 10:31:55 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.071 ms
+Thu May 29 2025 10:31:55 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin 204 - 0.052 ms
+Thu May 29 2025 10:31:55 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:31:55 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin 304 - 551.616 ms
+Thu May 29 2025 10:31:55 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 572.258 ms
+Thu May 29 2025 10:31:55 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 0.262 ms
+Thu May 29 2025 10:32:30 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 10:32:37 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:32:42 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin 204 - 0.042 ms
+Thu May 29 2025 10:32:42 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin 304 - 571.147 ms
+Thu May 29 2025 10:33:37 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 10:33:38 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.040 ms
+Thu May 29 2025 10:33:38 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin 204 - 0.045 ms
+Thu May 29 2025 10:33:38 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:33:39 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin 304 - 559.204 ms
+Thu May 29 2025 10:33:39 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 574.752 ms
+Thu May 29 2025 10:33:39 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 0.460 ms
+Thu May 29 2025 10:35:35 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/mark-single-as-read/683155a3bb85878f068417d3 204 - 0.088 ms
+Thu May 29 2025 10:37:45 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 585.264 ms
+Thu May 29 2025 10:37:47 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 571.908 ms
+Thu May 29 2025 10:37:48 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 862.326 ms
+Thu May 29 2025 10:37:49 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 866.830 ms
+Thu May 29 2025 10:37:50 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1148.420 ms
+Thu May 29 2025 10:37:51 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 592.832 ms
+Thu May 29 2025 10:37:52 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 857.299 ms
+Thu May 29 2025 10:41:44 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 10:41:45 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.047 ms
+Thu May 29 2025 10:41:45 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin 204 - 0.042 ms
+Thu May 29 2025 10:41:45 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:41:46 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin 304 - 550.225 ms
+Thu May 29 2025 10:41:46 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 570.285 ms
+Thu May 29 2025 10:41:46 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 0.292 ms
+Thu May 29 2025 10:42:50 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 10:42:50 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:43:38 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 573.302 ms
+Thu May 29 2025 10:43:40 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 568.526 ms
+Thu May 29 2025 10:43:40 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 572.848 ms
+Thu May 29 2025 10:43:41 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 853.628 ms
+Thu May 29 2025 10:43:43 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1153.522 ms
+Thu May 29 2025 10:43:43 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 569.875 ms
+Thu May 29 2025 10:43:44 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 854.166 ms
+Thu May 29 2025 10:43:50 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 200 - 1140.041 ms
+Thu May 29 2025 10:43:51 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 200 - 1430.924 ms
+Thu May 29 2025 10:44:5 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 200 - 1443.259 ms
+Thu May 29 2025 10:44:23 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 10:44:23 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:44:27 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 10:44:27 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:44:31 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 10:44:31 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:44:33 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 10:44:33 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:44:35 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 10:44:35 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:44:43 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 10:44:43 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:44:44 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 10:44:44 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:44:49 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 10:44:50 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.044 ms
+Thu May 29 2025 10:44:50 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin 204 - 0.041 ms
+Thu May 29 2025 10:44:50 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:44:51 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin 304 - 550.492 ms
+Thu May 29 2025 10:44:51 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 569.312 ms
+Thu May 29 2025 10:44:51 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 0.347 ms
+Thu May 29 2025 10:45:29 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 10:45:29 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:45:32 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 200 - 1422.923 ms
+Thu May 29 2025 10:45:34 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 10:45:34 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:45:34 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 10:45:34 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:45:37 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 10:45:38 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.049 ms
+Thu May 29 2025 10:45:38 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin 204 - 0.039 ms
+Thu May 29 2025 10:45:38 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:45:38 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin 304 - 557.951 ms
+Thu May 29 2025 10:45:38 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 574.604 ms
+Thu May 29 2025 10:45:38 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 0.879 ms
+Thu May 29 2025 10:46:7 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 10:46:7 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:46:10 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 10:46:10 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:46:24 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 10:46:24 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:46:26 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 10:46:26 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:46:46 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 1143.484 ms
+Thu May 29 2025 10:46:49 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/explore 200 - 857.613 ms
+Thu May 29 2025 10:46:50 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/?page=1 200 - 1105.674 ms
+Thu May 29 2025 10:46:51 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 1138.177 ms
+Thu May 29 2025 10:46:51 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/post/letest 200 - 553.544 ms
+Thu May 29 2025 10:46:51 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/leaderboard 200 - 574.181 ms
+Thu May 29 2025 10:46:53 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/watch/683413d06f4e8798dfa1075a 200 - 855.322 ms
+Thu May 29 2025 10:46:57 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 10:46:57 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:47:1 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/explore 200 - 855.828 ms
+Thu May 29 2025 10:47:3 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 10:47:3 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:47:5 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/?page=1 200 - 1139.570 ms
+Thu May 29 2025 10:47:5 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/explore 200 - 837.585 ms
+Thu May 29 2025 10:47:5 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/post/letest 200 - 569.510 ms
+Thu May 29 2025 10:47:7 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:47:10 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 10:47:10 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 10:47:10 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 10:47:11 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:47:13 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/?page=1 200 - 2506.193 ms
+Thu May 29 2025 10:47:14 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/post/letest 200 - 556.246 ms
+Thu May 29 2025 10:47:14 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/post/letest 200 - 547.594 ms
+Thu May 29 2025 10:47:14 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/leaderboard 200 - 566.313 ms
+Thu May 29 2025 10:47:14 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/leaderboard 200 - 570.037 ms
+Thu May 29 2025 10:47:22 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/mark-single-as-read/683155a3bb85878f068417d3 204 - 0.284 ms
+Thu May 29 2025 10:47:24 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/mark-single-as-read/683155a3bb85878f068417d1 204 - 0.155 ms
+Thu May 29 2025 10:47:24 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/mark-single-as-read/683155a3bb85878f068417d4 204 - 0.064 ms
+Thu May 29 2025 10:48:19 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin 200 - 943.983 ms
+Thu May 29 2025 10:49:6 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.066 ms
+Thu May 29 2025 10:49:7 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 304 - 1415.324 ms
+Thu May 29 2025 10:49:7 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.104 ms
+Thu May 29 2025 10:49:7 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/revenue 204 - 0.112 ms
+Thu May 29 2025 10:49:8 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/revenue 304 - 553.911 ms
+Thu May 29 2025 10:49:8 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/resent-users 304 - 569.890 ms
+Thu May 29 2025 10:49:14 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:49:17 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 10:49:17 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 10:49:17 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 10:49:18 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:49:20 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:49:22 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 10:49:22 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 10:49:22 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 10:49:23 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:49:25 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:49:27 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:49:34 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:49:35 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:49:37 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 10:49:37 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 10:49:37 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 10:49:40 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:49:59 [SERVER-NAME] info: 10.0.60.147 - PATCH /api/v1/notifications/admin/single/683155a3bb85878f068417d4 200 - 596.832 ms
+Thu May 29 2025 10:50:10 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 10:50:11 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.333 ms
+Thu May 29 2025 10:50:11 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin 204 - 0.080 ms
+Thu May 29 2025 10:50:11 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:50:11 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin 200 - 554.292 ms
+Thu May 29 2025 10:50:11 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 563.318 ms
+Thu May 29 2025 10:50:11 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 0.843 ms
+Thu May 29 2025 10:50:53 [SERVER-NAME] info: 10.0.60.147 - PATCH /api/v1/notifications/admin/single/683155a3bb85878f068417da 200 - 570.047 ms
+Thu May 29 2025 10:51:0 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 10:51:1 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.096 ms
+Thu May 29 2025 10:51:1 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin 204 - 0.051 ms
+Thu May 29 2025 10:51:2 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:51:2 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 563.702 ms
+Thu May 29 2025 10:51:2 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin 200 - 568.861 ms
+Thu May 29 2025 10:51:2 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 0.332 ms
+Thu May 29 2025 10:51:19 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:51:22 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 10:51:22 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 10:51:22 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 10:51:23 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:51:26 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 10:51:26 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 10:51:26 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 10:51:31 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:51:34 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 10:51:34 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 10:51:34 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 10:51:41 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:51:51 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/notifications/admin 200 - 584.039 ms
+Thu May 29 2025 10:53:3 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:53:6 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:53:7 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:53:10 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 10:53:10 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 10:53:10 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 10:53:11 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:53:13 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 10:53:13 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 10:53:13 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 10:53:15 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:53:20 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:53:23 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 10:53:23 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 10:53:23 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 10:53:34 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:53:39 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:53:42 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 10:53:42 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 10:53:42 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 10:53:43 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:53:47 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/mark-single-as-read/683155a3bb85878f068417d3 204 - 0.879 ms
+Thu May 29 2025 10:54:2 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:54:5 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:54:7 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 10:54:7 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 10:54:7 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 10:54:9 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:54:11 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:54:15 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 10:54:15 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 10:54:15 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 10:54:19 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:54:19 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/mark-single-as-read/683155a3bb85878f068417d3 204 - 0.421 ms
+Thu May 29 2025 10:54:28 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 10:54:28 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.119 ms
+Thu May 29 2025 10:54:28 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin 204 - 0.066 ms
+Thu May 29 2025 10:54:29 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:54:29 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 563.595 ms
+Thu May 29 2025 10:54:29 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 0.861 ms
+Thu May 29 2025 10:54:38 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:54:44 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:54:51 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:55:9 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:55:12 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 10:55:12 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 10:55:12 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 10:55:14 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/user/managment? 204 - 0.536 ms
+Thu May 29 2025 10:55:15 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/user/managment? 304 - 864.424 ms
+Thu May 29 2025 10:55:16 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:55:19 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin 204 - 0.096 ms
+Thu May 29 2025 10:55:24 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 10:55:25 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:55:28 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 10:55:28 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 10:55:28 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 10:55:29 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.653 ms
+Thu May 29 2025 10:55:29 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin 204 - 0.186 ms
+Thu May 29 2025 10:55:29 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.043 ms
+Thu May 29 2025 10:55:31 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 1801.611 ms
+Thu May 29 2025 10:55:31 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/user/managment? 204 - 0.041 ms
+Thu May 29 2025 10:55:31 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 0.700 ms
+Thu May 29 2025 10:55:32 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/user/managment? 304 - 864.841 ms
+Thu May 29 2025 10:55:33 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:55:34 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:55:36 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 10:55:36 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 10:55:36 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 10:55:40 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:55:44 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:55:47 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 10:55:47 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 10:55:47 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 10:55:47 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:55:49 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:55:50 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:55:53 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 10:55:53 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 10:55:53 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 10:55:55 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.627 ms
+Thu May 29 2025 10:55:55 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.161 ms
+Thu May 29 2025 10:55:55 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.045 ms
+Thu May 29 2025 10:55:55 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.048 ms
+Thu May 29 2025 10:55:55 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.042 ms
+Thu May 29 2025 10:55:55 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:55:56 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:55:58 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 10:55:58 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 10:55:58 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 10:55:59 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:56:6 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:56:9 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 10:56:9 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 10:56:9 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 10:56:12 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 1848.826 ms
+Thu May 29 2025 10:56:12 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 0.739 ms
+Thu May 29 2025 10:56:12 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 200 - 2407.992 ms
+Thu May 29 2025 10:56:12 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 200 - 2665.356 ms
+Thu May 29 2025 10:56:15 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:56:17 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/user/managment? 204 - 0.318 ms
+Thu May 29 2025 10:56:18 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/user/managment? 304 - 835.473 ms
+Thu May 29 2025 10:56:21 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin 204 - 0.097 ms
+Thu May 29 2025 10:56:37 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 10:56:37 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.067 ms
+Thu May 29 2025 10:56:37 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin 204 - 0.051 ms
+Thu May 29 2025 10:56:38 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:56:38 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 558.212 ms
+Thu May 29 2025 10:56:38 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 0.449 ms
+Thu May 29 2025 10:56:39 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:56:41 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:56:44 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 10:56:44 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 10:56:44 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 10:56:46 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:56:47 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin 200 - 2028.802 ms
+Thu May 29 2025 10:56:51 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:56:52 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:56:58 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:57:1 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 10:57:1 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 10:57:1 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 10:57:6 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin 200 - 862.601 ms
+Thu May 29 2025 10:57:7 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:57:9 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:57:11 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:57:14 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:57:18 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 10:57:18 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 10:57:18 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 10:57:25 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.371 ms
+Thu May 29 2025 10:57:25 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin 204 - 0.085 ms
+Thu May 29 2025 10:57:25 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:57:25 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 572.956 ms
+Thu May 29 2025 10:57:25 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 0.741 ms
+Thu May 29 2025 10:57:32 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:57:35 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:57:38 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 10:57:38 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 10:57:38 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 10:57:38 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:57:39 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:57:42 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 10:57:42 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 10:57:42 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 10:57:43 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:57:49 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:57:50 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:57:53 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 10:57:53 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 10:57:53 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 10:57:53 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.504 ms
+Thu May 29 2025 10:57:53 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin 204 - 0.082 ms
+Thu May 29 2025 10:57:53 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:57:55 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:57:56 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:57:59 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 10:57:59 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 10:57:59 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 10:58:1 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/contact?page=1&limit=10 204 - 0.412 ms
+Thu May 29 2025 10:58:1 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/contact?page=1&limit=10&page=1&limit=10 204 - 0.056 ms
+Thu May 29 2025 10:58:2 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 1274.277 ms
+Thu May 29 2025 10:58:2 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 0.860 ms
+Thu May 29 2025 10:58:2 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:58:2 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/contact?page=1&limit=10 200 - 1131.196 ms
+Thu May 29 2025 10:58:4 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/contact?page=1&limit=10&page=1&limit=10 200 - 2750.223 ms
+Thu May 29 2025 10:58:5 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/managment/get-admin 204 - 0.052 ms
+Thu May 29 2025 10:58:6 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/managment/get-admin 200 - 570.803 ms
+Thu May 29 2025 10:58:7 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dailyInspiration 204 - 0.076 ms
+Thu May 29 2025 10:58:7 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dailyInspiration 200 - 570.320 ms
+Thu May 29 2025 10:58:8 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/challenge 204 - 0.084 ms
+Thu May 29 2025 10:58:9 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/challenge 200 - 860.865 ms
+Thu May 29 2025 10:58:11 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin 204 - 0.077 ms
+Thu May 29 2025 10:58:14 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:58:16 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:58:18 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 10:58:18 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 10:58:18 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 10:58:21 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:59:0 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:59:3 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:59:6 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 10:59:6 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 10:59:6 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 10:59:13 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:59:18 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:59:20 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 10:59:20 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 10:59:20 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 10:59:22 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:59:25 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 10:59:25 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 10:59:25 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 10:59:26 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:59:29 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:59:32 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 10:59:32 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 10:59:32 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 10:59:36 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 10:59:42 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:59:45 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 10:59:48 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 10:59:48 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 10:59:48 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 10:59:50 [SERVER-NAME] info: [34mA user connected[39m

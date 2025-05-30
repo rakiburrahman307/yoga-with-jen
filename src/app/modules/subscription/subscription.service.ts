@@ -41,61 +41,120 @@ const companySubscriptionDetailsFromDB = async (id: string): Promise<{ subscript
 };
 
 const subscriptionsFromDB = async (query: Record<string, unknown>): Promise<ISubscription[]> => {
-     const anyConditions: any[] = [];
+     const conditions: any[] = [];
 
-     const { search, limit, page, paymentType } = query;
+     const { searchTerm, limit, page, paymentType } = query;
 
-     if (search) {
+     // Handle search term - search in both package title and user details
+     if (searchTerm && typeof searchTerm === 'string' && searchTerm.trim()) {
+          const trimmedSearchTerm = searchTerm.trim();
+
+          // Find matching packages by title or paymentType
           const matchingPackageIds = await Package.find({
-               $or: [{ title: { $regex: search, $options: 'i' } }, { paymentType: { $regex: search, $options: 'i' } }],
+               $or: [{ title: { $regex: trimmedSearchTerm, $options: 'i' } }, { paymentType: { $regex: trimmedSearchTerm, $options: 'i' } }],
           }).distinct('_id');
 
-          if (matchingPackageIds.length) {
-               anyConditions.push({
-                    package: { $in: matchingPackageIds },
-               });
+          // Find matching users by email, name, company, etc.
+          const matchingUserIds = await User.find({
+               $or: [
+                    { email: { $regex: trimmedSearchTerm, $options: 'i' } },
+                    { name: { $regex: trimmedSearchTerm, $options: 'i' } },
+                    { company: { $regex: trimmedSearchTerm, $options: 'i' } },
+                    { contact: { $regex: trimmedSearchTerm, $options: 'i' } },
+               ],
+          }).distinct('_id');
+
+          // Create search conditions
+          const searchConditions = [];
+
+          if (matchingPackageIds.length > 0) {
+               searchConditions.push({ package: { $in: matchingPackageIds } });
+          }
+
+          if (matchingUserIds.length > 0) {
+               searchConditions.push({ userId: { $in: matchingUserIds } });
+          }
+
+          // Only add search condition if we found matching packages or users
+          if (searchConditions.length > 0) {
+               conditions.push({ $or: searchConditions });
+          } else {
+               // If no matches found, return empty result early
+               return {
+                    data: [],
+                    meta: {
+                         page: parseInt(page as string) || 1,
+                         total: 0,
+                    },
+               } as any;
           }
      }
 
-     if (paymentType) {
-          anyConditions.push({
-               package: {
-                    $in: await Package.find({ paymentType: paymentType }).distinct('_id'),
-               },
-          });
+     // Handle payment type filter
+     if (paymentType && typeof paymentType === 'string' && paymentType.trim()) {
+          const packageIdsWithPaymentType = await Package.find({
+               paymentType: paymentType.trim(),
+          }).distinct('_id');
+
+          if (packageIdsWithPaymentType.length > 0) {
+               conditions.push({ package: { $in: packageIdsWithPaymentType } });
+          } else {
+               // If no packages match the payment type, return empty result
+               return {
+                    data: [],
+                    meta: {
+                         page: parseInt(page as string) || 1,
+                         total: 0,
+                    },
+               } as any;
+          }
      }
 
-     const whereConditions = anyConditions.length > 0 ? { $and: anyConditions } : {};
-     const pages = parseInt(page as string) || 1;
-     const size = parseInt(limit as string) || 10;
+     // Build final query conditions
+     const whereConditions = conditions.length > 0 ? { $and: conditions } : {};
+
+     // Pagination
+     const pages = Math.max(1, parseInt(page as string) || 1);
+     const size = Math.max(1, Math.min(100, parseInt(limit as string) || 10)); // Limit max size
      const skip = (pages - 1) * size;
 
-     const result = await Subscription.find(whereConditions)
-          .populate([
-               {
-                    path: 'package',
-                    select: 'title paymentType credit description',
+     try {
+          // Execute query with population
+          const result = await Subscription.find(whereConditions)
+               .populate([
+                    {
+                         path: 'package',
+                         select: 'title paymentType credit description',
+                    },
+                    {
+                         path: 'userId',
+                         select: 'email name linkedIn contact company website',
+                    },
+               ])
+               .select('userId package price trxId currentPeriodStart currentPeriodEnd status createdAt updatedAt')
+               .sort({ createdAt: -1 }) // Add sorting by creation date
+               .skip(skip)
+               .limit(size)
+               .lean(); // Use lean() for better performance
+
+          // Get total count for pagination
+          const count = await Subscription.countDocuments(whereConditions);
+
+          const data: any = {
+               data: result,
+               meta: {
+                    page: pages,
+                    limit: size,
+                    total: count,
+                    totalPages: Math.ceil(count / size),
                },
-               {
-                    path: 'userId',
-                    select: 'email name linkedIn contact company website ',
-               },
-          ])
-          .select('userId package price trxId currentPeriodStart currentPeriodEnd status')
-          .skip(skip)
-          .limit(size);
+          };
 
-     const count = await Subscription.countDocuments(whereConditions);
-
-     const data: any = {
-          data: result,
-          meta: {
-               page: pages,
-               total: count,
-          },
-     };
-
-     return data;
+          return data;
+     } catch (error) {
+          console.error('Error fetching subscriptions:', error);
+          throw new Error('Failed to fetch subscriptions');
+     }
 };
 const createSubscriptionCheckoutSession = async (userId: string, packageId: string) => {
      const isExistPackage = await Package.findOne({
@@ -124,8 +183,9 @@ const createSubscriptionCheckoutSession = async (userId: string, packageId: stri
                userId: String(userId),
                subscriptionId: String(isExistPackage._id),
           },
-          success_url: `${config.frontend_url}/subscription/success?session_id={CHECKOUT_SESSION_ID}`,
-          cancel_url: `${config.frontend_url}/subscription/cancel`,
+          // your backend url for success and cancel
+          success_url: `${config.backend_url}/api/v1/subscription/success?session_id={CHECKOUT_SESSION_ID}`,
+          cancel_url: `${config.backend_url}/subscription/cancel`,
      });
      return {
           url: session.url,

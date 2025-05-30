@@ -1,4 +1,0 @@
-Tue May 27 2025 7:47:25 [SERVER-NAME] error: 10.0.60.123 - GET /api/v1/subscription/details 403 - 296.999 ms
-Tue May 27 2025 7:47:57 [SERVER-NAME] error: 10.0.60.123 - GET /api/v1/subscription/details 400 - 1298.510 ms
-Tue May 27 2025 7:49:32 [SERVER-NAME] error: 10.0.60.123 - GET /api/v1/admin/subscription 403 - 282.050 ms
-Tue May 27 2025 7:50:7 [SERVER-NAME] error: 10.0.60.123 - GET /api/v1/admin/package/managment 403 - 285.260 ms

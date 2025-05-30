@@ -1,5 +1,0 @@
-Tue May 27 2025 17:0:8 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/subcategory/get-videos/683413a66f4e8798dfa1073c 404 - 568.134 ms
-Tue May 27 2025 17:2:31 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/favourit/watch/ 404 - 2.887 ms
-Tue May 27 2025 17:2:44 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/favourit/watch/682585f7f227df8f497f7f94 404 - 566.528 ms
-Tue May 27 2025 17:5:13 [SERVER-NAME] error: 10.0.60.147 - POST /api/v1/admin/subcategory/create 400 - 855.732 ms
-Tue May 27 2025 17:34:57 [SERVER-NAME] error: 10.0.60.147 - POST /api/v1/admin/subcategory/create 400 - 865.333 ms

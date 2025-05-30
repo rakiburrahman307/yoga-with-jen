@@ -102,13 +102,13 @@ const likePost = async (postId: string, userId: string) => {
           },
           { new: true, runValidators: true },
      );
-    //  if (updatedComment) {
-    //       await sendNotifications({
-    //            receiver: updatedComment.userId,
-    //            message: `User '${user.name}' liked your comment`,
-    //            type: 'MESSAGE',
-    //       });
-    //  }
+     //  if (updatedComment) {
+     //       await sendNotifications({
+     //            receiver: updatedComment.userId,
+     //            message: `User '${user.name}' liked your comment`,
+     //            type: 'MESSAGE',
+     //       });
+     //  }
      if (!updatedComment) {
           const unlikedComment = await Community.findOneAndUpdate(
                { _id: postId, likedBy: { $in: [userId] } },
@@ -151,7 +151,7 @@ const getAllPosts = async (userId: string, query: Record<string, unknown>) => {
 const getSpecificUserPost = async (userId: string, query: Record<string, unknown>) => {
      const queryBuilder = new QueryBuilder(Community.find({ userId }), query);
 
-     const posts = await queryBuilder.paginate().filter().sort().fields().modelQuery.exec();
+     const posts = await queryBuilder.paginate().filter().sort().fields().modelQuery.populate('userId', 'name').exec();
      const meta = await queryBuilder.countTotal();
      const postsWithFavorites = await Promise.all(
           posts.map(async (post: any) => {

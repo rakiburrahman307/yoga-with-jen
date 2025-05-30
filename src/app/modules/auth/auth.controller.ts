@@ -39,6 +39,7 @@ const loginUser = catchAsync(async (req, res) => {
                accessToken: result.accessToken,
                refreshToken: result.refreshToken,
                role: result.role,
+               expireDate: result.expireDate,
           },
      });
 });

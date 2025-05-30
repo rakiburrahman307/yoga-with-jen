@@ -153,7 +153,7 @@ const getCategoryRelatedSubCategory = async (id: string, userId: string, query: 
      if (!isExistCategory) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Category not found');
      }
-     const queryBuilder = new QueryBuilder(Video.find({ categoryId: isExistCategory._id, subCategoryId: '' }), query);
+     const queryBuilder = new QueryBuilder(Video.find({ categoryId: isExistCategory._id, subCategoryId: '', status: 'active' }), query);
      const result = await queryBuilder.fields().filter().paginate().search(['name']).sort().modelQuery.exec();
      const meta = await queryBuilder.countTotal();
 

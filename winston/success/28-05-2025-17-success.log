@@ -1,0 +1,516 @@
+Wed May 28 2025 17:1:11 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 17:1:18 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 17:1:19 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 17:1:22 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 17:1:22 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 17:1:22 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 17:1:25 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 17:1:27 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 17:1:27 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 17:1:27 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 17:1:34 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 17:1:37 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 17:1:37 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 17:1:37 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 17:1:38 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 204 - 0.625 ms
+Wed May 28 2025 17:1:38 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 204 - 0.155 ms
+Wed May 28 2025 17:1:38 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 204 - 0.044 ms
+Wed May 28 2025 17:1:38 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 204 - 0.053 ms
+Wed May 28 2025 17:1:40 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 304 - 2581.555 ms
+Wed May 28 2025 17:1:40 [SERVER-NAME] info: 10.0.60.110 - GET /thumbnail/rectangle-(10)-1748075688948.png 304 - 0.720 ms
+Wed May 28 2025 17:1:41 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 304 - 2908.231 ms
+Wed May 28 2025 17:2:7 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 17:2:10 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 17:2:10 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 17:2:10 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 17:2:15 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/category/get-videos/682f19cebbf267bba7c82275 200 - 1148.883 ms
+Wed May 28 2025 17:2:24 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/category 200 - 1147.092 ms
+Wed May 28 2025 17:2:29 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/dailyInspiration/ 200 - 568.950 ms
+Wed May 28 2025 17:2:42 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 200 - 1437.630 ms
+Wed May 28 2025 17:3:54 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/videos/683413d06f4e8798dfa1075a 200 - 1139.229 ms
+Wed May 28 2025 17:5:5 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 204 - 0.347 ms
+Wed May 28 2025 17:5:5 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 204 - 0.070 ms
+Wed May 28 2025 17:5:6 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 304 - 1143.292 ms
+Wed May 28 2025 17:5:6 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 304 - 1439.026 ms
+Wed May 28 2025 17:5:9 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 304 - 1140.622 ms
+Wed May 28 2025 17:5:9 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 304 - 1448.901 ms
+Wed May 28 2025 17:5:16 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 204 - 0.071 ms
+Wed May 28 2025 17:5:16 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 204 - 0.056 ms
+Wed May 28 2025 17:5:17 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 304 - 1128.668 ms
+Wed May 28 2025 17:5:17 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 304 - 1403.986 ms
+Wed May 28 2025 17:5:19 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 304 - 1129.276 ms
+Wed May 28 2025 17:5:20 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 304 - 1423.911 ms
+Wed May 28 2025 17:5:32 [SERVER-NAME] info: 10.0.60.110 - GET /thumbnail/rectangle-(10)-1748075688948.png 304 - 0.719 ms
+Wed May 28 2025 17:5:38 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 204 - 0.353 ms
+Wed May 28 2025 17:5:38 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 204 - 0.101 ms
+Wed May 28 2025 17:5:39 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 304 - 1138.337 ms
+Wed May 28 2025 17:5:40 [SERVER-NAME] info: 10.0.60.110 - GET /thumbnail/rectangle-(10)-1748075688948.png 304 - 0.464 ms
+Wed May 28 2025 17:5:40 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 304 - 1402.513 ms
+Wed May 28 2025 17:6:4 [SERVER-NAME] info: [34mA user connected[39m
+Wed May 28 2025 17:6:8 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/users/profile 200 - 562.837 ms
+Wed May 28 2025 17:6:9 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/admin/quotation/managment 200 - 284.712 ms
+Wed May 28 2025 17:6:9 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/dailyInspiration/letest 200 - 570.164 ms
+Wed May 28 2025 17:6:10 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/today 200 - 836.170 ms
+Wed May 28 2025 17:6:10 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/comingSoon/latest 200 - 858.008 ms
+Wed May 28 2025 17:6:10 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/category 200 - 1110.587 ms
+Wed May 28 2025 17:6:10 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/notifications 200 - 1122.804 ms
+Wed May 28 2025 17:6:23 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/favourit/?page=1 200 - 1116.742 ms
+Wed May 28 2025 17:6:23 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/admin/quotation/managment 200 - 278.639 ms
+Wed May 28 2025 17:6:23 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/today 200 - 552.501 ms
+Wed May 28 2025 17:6:24 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/dailyInspiration/letest 200 - 561.992 ms
+Wed May 28 2025 17:6:24 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/comingSoon/latest 200 - 857.418 ms
+Wed May 28 2025 17:6:24 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/category 200 - 1131.087 ms
+Wed May 28 2025 17:6:24 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/notifications 200 - 1136.704 ms
+Wed May 28 2025 17:7:9 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 200 - 1421.158 ms
+Wed May 28 2025 17:7:26 [SERVER-NAME] info: 10.0.60.34 - POST /api/v1/auth/login 200 - 847.281 ms
+Wed May 28 2025 17:7:26 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/users/profile 200 - 571.403 ms
+Wed May 28 2025 17:7:27 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dailyInspiration 204 - 0.066 ms
+Wed May 28 2025 17:7:28 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dailyInspiration 200 - 579.372 ms
+Wed May 28 2025 17:7:30 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/admin/quotation/managment 200 - 284.570 ms
+Wed May 28 2025 17:7:30 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/dailyInspiration/letest 200 - 552.455 ms
+Wed May 28 2025 17:7:30 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/today 200 - 568.633 ms
+Wed May 28 2025 17:7:31 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/comingSoon/latest 200 - 841.591 ms
+Wed May 28 2025 17:7:31 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/category 200 - 1115.480 ms
+Wed May 28 2025 17:7:31 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/notifications 200 - 1122.674 ms
+Wed May 28 2025 17:7:37 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/comments/6833ece08f190f6c2726fe47 200 - 1404.234 ms
+Wed May 28 2025 17:9:24 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/comingSoon 204 - 0.219 ms
+Wed May 28 2025 17:9:25 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/comingSoon 200 - 840.448 ms
+Wed May 28 2025 17:9:29 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/challenge 204 - 0.078 ms
+Wed May 28 2025 17:9:30 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/challenge 200 - 836.232 ms
+Wed May 28 2025 17:9:36 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/challenge/68344777123608c67303b6af 204 - 0.086 ms
+Wed May 28 2025 17:9:36 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/challenge/68344777123608c67303b6af 200 - 559.312 ms
+Wed May 28 2025 17:10:27 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/comments/683413d06f4e8798dfa1075a 200 - 835.485 ms
+Wed May 28 2025 17:11:1 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/videos/comments/683413d06f4e8798dfa1075a 200 - 861.211 ms
+Wed May 28 2025 17:11:4 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/videos/683413d06f4e8798dfa1075a 200 - 1116.795 ms
+Wed May 28 2025 17:11:18 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/challenge/68344777123608c67303b6af 204 - 0.124 ms
+Wed May 28 2025 17:11:19 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/challenge/68344777123608c67303b6af 304 - 558.418 ms
+Wed May 28 2025 17:11:27 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.087 ms
+Wed May 28 2025 17:11:27 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.081 ms
+Wed May 28 2025 17:11:28 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 200 - 1128.988 ms
+Wed May 28 2025 17:11:28 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 200 - 1129.839 ms
+Wed May 28 2025 17:11:31 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos/683413d06f4e8798dfa1075a 204 - 0.049 ms
+Wed May 28 2025 17:11:32 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos/683413d06f4e8798dfa1075a 200 - 845.291 ms
+Wed May 28 2025 17:11:37 [SERVER-NAME] info: 10.0.60.114 - POST /api/v1/videos/comments/create 201 - 1445.772 ms
+Wed May 28 2025 17:11:41 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos/683413c76f4e8798dfa10755 204 - 0.062 ms
+Wed May 28 2025 17:11:42 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos/683413c76f4e8798dfa10755 200 - 834.636 ms
+Wed May 28 2025 17:11:42 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/videos/comments/683413d06f4e8798dfa1075a 200 - 1125.830 ms
+Wed May 28 2025 17:11:46 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/video-status/683184a94f5c96c45dd8f97d?page=1&limit=10 204 - 0.043 ms
+Wed May 28 2025 17:11:46 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/get-all-videos-by-course/683184a94f5c96c45dd8f97d 204 - 0.033 ms
+Wed May 28 2025 17:11:47 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/get-all-videos-by-course/683184a94f5c96c45dd8f97d 200 - 1126.402 ms
+Wed May 28 2025 17:11:49 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos/68340fbb6f4e8798dfa10688 204 - 0.116 ms
+Wed May 28 2025 17:11:50 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos/68340fbb6f4e8798dfa10688 200 - 848.865 ms
+Wed May 28 2025 17:13:44 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos/683330d0999ddb89eab92148 204 - 0.055 ms
+Wed May 28 2025 17:13:45 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos/683330d0999ddb89eab92148 200 - 849.225 ms
+Wed May 28 2025 17:13:50 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos/68332d53df7ae842b4bbee0c 204 - 0.050 ms
+Wed May 28 2025 17:13:51 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos/68332d53df7ae842b4bbee0c 200 - 845.814 ms
+Wed May 28 2025 17:13:54 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/managment/get-admin 204 - 0.062 ms
+Wed May 28 2025 17:13:55 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/managment/get-admin 200 - 570.135 ms
+Wed May 28 2025 17:13:57 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dailyInspiration 204 - 0.049 ms
+Wed May 28 2025 17:13:57 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dailyInspiration 304 - 570.375 ms
+Wed May 28 2025 17:14:1 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dailyInspiration/6836b6c42c66994214c60c3d 204 - 0.093 ms
+Wed May 28 2025 17:14:8 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/challenge 204 - 0.045 ms
+Wed May 28 2025 17:14:8 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/challenge 304 - 852.142 ms
+Wed May 28 2025 17:14:10 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/challenge/68344777123608c67303b6af 204 - 0.049 ms
+Wed May 28 2025 17:14:10 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/challenge/68344777123608c67303b6af 304 - 561.347 ms
+Wed May 28 2025 17:14:15 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dailyInspiration/6836b6c42c66994214c60c3d 204 - 0.044 ms
+Wed May 28 2025 17:15:36 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dailyInspiration/create 204 - 0.065 ms
+Wed May 28 2025 17:15:49 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/dailyInspiration/create 201 - 13674.959 ms
+Wed May 28 2025 17:15:49 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dailyInspiration 204 - 0.047 ms
+Wed May 28 2025 17:15:50 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dailyInspiration 200 - 564.138 ms
+Wed May 28 2025 17:15:53 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dailyInspiration/6836f065aae3062d02423e80 204 - 0.048 ms
+Wed May 28 2025 17:16:4 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/challenge 204 - 0.043 ms
+Wed May 28 2025 17:16:5 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/challenge 304 - 850.013 ms
+Wed May 28 2025 17:16:7 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/challenge/68344777123608c67303b6af 204 - 0.040 ms
+Wed May 28 2025 17:16:7 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/challenge/68344777123608c67303b6af 304 - 562.560 ms
+Wed May 28 2025 17:16:11 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/challenge/68344585123608c67303b6a0 204 - 0.049 ms
+Wed May 28 2025 17:16:11 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/challenge/68344585123608c67303b6a0 200 - 562.386 ms
+Wed May 28 2025 17:16:14 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/challenge/6833e67a691c1e67c4617afe 204 - 0.047 ms
+Wed May 28 2025 17:16:15 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/challenge/6833e67a691c1e67c4617afe 200 - 562.014 ms
+Wed May 28 2025 17:16:19 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/comingSoon 204 - 0.301 ms
+Wed May 28 2025 17:16:20 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/comingSoon 304 - 847.512 ms
+Wed May 28 2025 17:16:21 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/comingSoon/6836e985cc518a111f3ab0cd 204 - 0.044 ms
+Wed May 28 2025 17:16:21 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/comingSoon/6836e985cc518a111f3ab0cd 200 - 563.613 ms
+Wed May 28 2025 17:20:10 [SERVER-NAME] info: [31mA user disconnect[39m
+Wed May 28 2025 17:20:10 [SERVER-NAME] info: [34mA user connected[39m
+Wed May 28 2025 17:20:14 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 819.153 ms
+Wed May 28 2025 17:20:14 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/users/profile 200 - 559.226 ms
+Wed May 28 2025 17:20:15 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/admin/quotation/managment 200 - 280.222 ms
+Wed May 28 2025 17:20:16 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/dailyInspiration/letest 200 - 572.387 ms
+Wed May 28 2025 17:20:16 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/today 200 - 573.452 ms
+Wed May 28 2025 17:20:16 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/comingSoon/latest 200 - 846.044 ms
+Wed May 28 2025 17:20:16 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/category 200 - 1118.157 ms
+Wed May 28 2025 17:20:16 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/notifications 200 - 1120.277 ms
+Wed May 28 2025 17:20:18 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/notifications 200 - 1115.493 ms
+Wed May 28 2025 17:20:33 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/subscription/create-checkout-session/68353e7aeafbc39c158e4ebc 200 - 1550.230 ms
+Wed May 28 2025 17:21:48 [SERVER-NAME] info: [31mA user disconnect[39m
+Wed May 28 2025 17:21:48 [SERVER-NAME] info: [34mA user connected[39m
+Wed May 28 2025 17:21:52 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/users/profile 200 - 554.585 ms
+Wed May 28 2025 17:21:53 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/admin/quotation/managment 200 - 275.277 ms
+Wed May 28 2025 17:21:54 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/today 200 - 563.968 ms
+Wed May 28 2025 17:21:54 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/dailyInspiration/letest 200 - 572.661 ms
+Wed May 28 2025 17:21:54 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/comingSoon/latest 200 - 853.862 ms
+Wed May 28 2025 17:21:54 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/notifications 200 - 1126.028 ms
+Wed May 28 2025 17:21:54 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/category 200 - 1146.353 ms
+Wed May 28 2025 17:21:56 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/notifications 200 - 1146.851 ms
+Wed May 28 2025 17:21:58 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 17:22:2 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 17:22:5 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 17:22:7 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 17:22:9 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 17:22:11 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 17:22:11 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 17:22:11 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 17:22:13 [SERVER-NAME] info: [34mA user connected[39m
+Wed May 28 2025 17:22:16 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 17:22:19 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 17:22:19 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 17:22:19 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 17:22:19 [SERVER-NAME] info: [34mA user connected[39m
+Wed May 28 2025 17:22:30 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/subscription/create-checkout-session/68353e7aeafbc39c158e4ebc 200 - 1538.152 ms
+Wed May 28 2025 17:22:46 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.succeeded[22m[49m
+Wed May 28 2025 17:22:46 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 4.413 ms
+Wed May 28 2025 17:22:46 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_method.attached[22m[49m
+Wed May 28 2025 17:22:46 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.279 ms
+Wed May 28 2025 17:22:47 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.381 ms
+Wed May 28 2025 17:22:47 [SERVER-NAME] warn: [42m[1mUnhandled event type: checkout.session.completed[22m[49m
+Wed May 28 2025 17:22:47 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.540 ms
+Wed May 28 2025 17:22:47 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.015 ms
+Wed May 28 2025 17:22:47 [SERVER-NAME] warn: [42m[1mUnhandled event type: customer.updated[22m[49m
+Wed May 28 2025 17:22:47 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.638 ms
+Wed May 28 2025 17:22:47 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.succeeded[22m[49m
+Wed May 28 2025 17:22:47 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.779 ms
+Wed May 28 2025 17:22:47 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.created[22m[49m
+Wed May 28 2025 17:22:47 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.765 ms
+Wed May 28 2025 17:22:47 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.created[22m[49m
+Wed May 28 2025 17:22:47 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.145 ms
+Wed May 28 2025 17:22:47 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.finalized[22m[49m
+Wed May 28 2025 17:22:47 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.539 ms
+Wed May 28 2025 17:22:47 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.updated[22m[49m
+Wed May 28 2025 17:22:47 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.403 ms
+Wed May 28 2025 17:22:47 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.paid[22m[49m
+Wed May 28 2025 17:22:47 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.407 ms
+Wed May 28 2025 17:22:47 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.payment_succeeded[22m[49m
+Wed May 28 2025 17:22:47 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.385 ms
+Wed May 28 2025 17:23:8 [SERVER-NAME] info: [31mA user disconnect[39m
+Wed May 28 2025 17:23:9 [SERVER-NAME] info: [34mA user connected[39m
+Wed May 28 2025 17:23:13 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/users/profile 200 - 573.509 ms
+Wed May 28 2025 17:23:14 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/admin/quotation/managment 200 - 288.525 ms
+Wed May 28 2025 17:23:14 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/dailyInspiration/letest 200 - 571.680 ms
+Wed May 28 2025 17:23:14 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/today 200 - 851.681 ms
+Wed May 28 2025 17:23:14 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/comingSoon/latest 200 - 862.112 ms
+Wed May 28 2025 17:23:14 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/category 200 - 1170.329 ms
+Wed May 28 2025 17:23:14 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/notifications 200 - 1159.801 ms
+Wed May 28 2025 17:23:16 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/notifications 200 - 2546.755 ms
+Wed May 28 2025 17:23:42 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/notifications 200 - 1104.467 ms
+Wed May 28 2025 17:23:50 [SERVER-NAME] info: 10.0.60.34 - PATCH /api/v1/notifications/ 200 - 572.249 ms
+Wed May 28 2025 17:24:0 [SERVER-NAME] info: 10.0.60.34 - PATCH /api/v1/notifications/ 200 - 560.166 ms
+Wed May 28 2025 17:24:10 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/favourit/?page=1 200 - 1081.649 ms
+Wed May 28 2025 17:24:12 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/admin/quotation/managment 200 - 269.541 ms
+Wed May 28 2025 17:24:13 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/dailyInspiration/letest 200 - 562.416 ms
+Wed May 28 2025 17:24:13 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/today 200 - 573.604 ms
+Wed May 28 2025 17:24:13 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/comingSoon/latest 200 - 864.493 ms
+Wed May 28 2025 17:24:13 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/notifications 200 - 1144.252 ms
+Wed May 28 2025 17:24:13 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/category 200 - 1147.933 ms
+Wed May 28 2025 17:24:34 [SERVER-NAME] info: [31mA user disconnect[39m
+Wed May 28 2025 17:24:35 [SERVER-NAME] info: [34mA user connected[39m
+Wed May 28 2025 17:24:39 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/users/profile 200 - 579.030 ms
+Wed May 28 2025 17:24:40 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/admin/quotation/managment 200 - 285.380 ms
+Wed May 28 2025 17:24:40 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/today 200 - 557.856 ms
+Wed May 28 2025 17:24:40 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/dailyInspiration/letest 200 - 561.159 ms
+Wed May 28 2025 17:24:41 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/comingSoon/latest 200 - 863.484 ms
+Wed May 28 2025 17:24:41 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/notifications 200 - 1085.656 ms
+Wed May 28 2025 17:24:41 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/category 200 - 1155.181 ms
+Wed May 28 2025 17:24:41 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/notifications 200 - 1171.723 ms
+Wed May 28 2025 17:26:38 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/subscription/create-checkout-session/68353e7aeafbc39c158e4ebc 200 - 1609.240 ms
+Wed May 28 2025 17:26:53 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.succeeded[22m[49m
+Wed May 28 2025 17:26:53 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.004 ms
+Wed May 28 2025 17:26:53 [SERVER-NAME] warn: [42m[1mUnhandled event type: checkout.session.completed[22m[49m
+Wed May 28 2025 17:26:53 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.940 ms
+Wed May 28 2025 17:26:53 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_method.attached[22m[49m
+Wed May 28 2025 17:26:53 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.898 ms
+Wed May 28 2025 17:26:54 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.063 ms
+Wed May 28 2025 17:26:54 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.797 ms
+Wed May 28 2025 17:26:54 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.succeeded[22m[49m
+Wed May 28 2025 17:26:54 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.886 ms
+Wed May 28 2025 17:26:54 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.created[22m[49m
+Wed May 28 2025 17:26:54 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.887 ms
+Wed May 28 2025 17:26:54 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.created[22m[49m
+Wed May 28 2025 17:26:54 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.014 ms
+Wed May 28 2025 17:26:54 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.finalized[22m[49m
+Wed May 28 2025 17:26:54 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.882 ms
+Wed May 28 2025 17:26:54 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.updated[22m[49m
+Wed May 28 2025 17:26:54 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.892 ms
+Wed May 28 2025 17:26:54 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.paid[22m[49m
+Wed May 28 2025 17:26:54 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.017 ms
+Wed May 28 2025 17:26:54 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.payment_succeeded[22m[49m
+Wed May 28 2025 17:26:54 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.132 ms
+Wed May 28 2025 17:27:13 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 17:27:16 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 17:27:19 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 17:27:19 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 17:27:19 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 17:27:21 [SERVER-NAME] info: [34mA user connected[39m
+Wed May 28 2025 17:27:27 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/subscription/create-checkout-session/68353e7aeafbc39c158e4ebc 200 - 1574.923 ms
+Wed May 28 2025 17:27:41 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.succeeded[22m[49m
+Wed May 28 2025 17:27:41 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 4.454 ms
+Wed May 28 2025 17:27:41 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_method.attached[22m[49m
+Wed May 28 2025 17:27:41 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.906 ms
+Wed May 28 2025 17:27:41 [SERVER-NAME] warn: [42m[1mUnhandled event type: checkout.session.completed[22m[49m
+Wed May 28 2025 17:27:41 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.067 ms
+Wed May 28 2025 17:27:42 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.166 ms
+Wed May 28 2025 17:27:42 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 3.070 ms
+Wed May 28 2025 17:27:42 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.succeeded[22m[49m
+Wed May 28 2025 17:27:42 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.672 ms
+Wed May 28 2025 17:27:42 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.created[22m[49m
+Wed May 28 2025 17:27:42 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.634 ms
+Wed May 28 2025 17:27:42 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.created[22m[49m
+Wed May 28 2025 17:27:42 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.892 ms
+Wed May 28 2025 17:27:42 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.finalized[22m[49m
+Wed May 28 2025 17:27:42 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.147 ms
+Wed May 28 2025 17:27:42 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.updated[22m[49m
+Wed May 28 2025 17:27:42 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.577 ms
+Wed May 28 2025 17:27:42 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.paid[22m[49m
+Wed May 28 2025 17:27:42 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.486 ms
+Wed May 28 2025 17:27:42 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.payment_succeeded[22m[49m
+Wed May 28 2025 17:27:42 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.386 ms
+Wed May 28 2025 17:27:43 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/subscription/success?session_id=cs_test_a1sKeEwRmfqy4nzNVxGacAB6TKbgSvm3XRHbhUFZZE8QSMHHAw9zFcF3pi 200 - 456.543 ms
+Wed May 28 2025 17:27:43 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/subscription/success?session_id=cs_test_a1sKeEwRmfqy4nzNVxGacAB6TKbgSvm3XRHbhUFZZE8QSMHHAw9zFcF3pi 200 - 313.984 ms
+Wed May 28 2025 17:29:54 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/subscription/create-checkout-session/68353e7aeafbc39c158e4ebc 200 - 1580.319 ms
+Wed May 28 2025 17:30:10 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.succeeded[22m[49m
+Wed May 28 2025 17:30:10 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.235 ms
+Wed May 28 2025 17:30:10 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_method.attached[22m[49m
+Wed May 28 2025 17:30:10 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.201 ms
+Wed May 28 2025 17:30:10 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.160 ms
+Wed May 28 2025 17:30:10 [SERVER-NAME] warn: [42m[1mUnhandled event type: checkout.session.completed[22m[49m
+Wed May 28 2025 17:30:10 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.407 ms
+Wed May 28 2025 17:30:10 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.971 ms
+Wed May 28 2025 17:30:10 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.succeeded[22m[49m
+Wed May 28 2025 17:30:10 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.773 ms
+Wed May 28 2025 17:30:10 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.created[22m[49m
+Wed May 28 2025 17:30:10 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.423 ms
+Wed May 28 2025 17:30:11 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.created[22m[49m
+Wed May 28 2025 17:30:11 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.584 ms
+Wed May 28 2025 17:30:11 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.finalized[22m[49m
+Wed May 28 2025 17:30:11 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.589 ms
+Wed May 28 2025 17:30:11 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.updated[22m[49m
+Wed May 28 2025 17:30:11 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.506 ms
+Wed May 28 2025 17:30:11 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.paid[22m[49m
+Wed May 28 2025 17:30:11 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.347 ms
+Wed May 28 2025 17:30:11 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.payment_succeeded[22m[49m
+Wed May 28 2025 17:30:11 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.386 ms
+Wed May 28 2025 17:30:12 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/subscription/success?session_id=cs_test_a1IRdTNA41xhZRecwgTavpXiKGTEydQepyRcPYkz8rBdm4H0pQd4q4AG2g 200 - 299.401 ms
+Wed May 28 2025 17:30:13 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/subscription/success?session_id=cs_test_a1IRdTNA41xhZRecwgTavpXiKGTEydQepyRcPYkz8rBdm4H0pQd4q4AG2g 200 - 306.738 ms
+Wed May 28 2025 17:37:53 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.467 ms
+Wed May 28 2025 17:37:55 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 1700.909 ms
+Wed May 28 2025 17:37:55 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/frame-2147227088-(2)-1746266077431.png 200 - 2.418 ms
+Wed May 28 2025 17:37:55 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(12)-1747913463996.png 200 - 3.541 ms
+Wed May 28 2025 17:37:55 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(15)-1747912796892.png 200 - 2.680 ms
+Wed May 28 2025 17:37:55 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(11)-1747917262458.png 200 - 3.515 ms
+Wed May 28 2025 17:37:55 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(7)-1748075513522.png 200 - 3.561 ms
+Wed May 28 2025 17:37:55 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/msi-1746027437618.png 200 - 2.488 ms
+Wed May 28 2025 17:37:57 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.583 ms
+Wed May 28 2025 17:37:58 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 200 - 1196.764 ms
+Wed May 28 2025 17:38:3 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos/683413d06f4e8798dfa1075a 204 - 0.068 ms
+Wed May 28 2025 17:38:4 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos/683413d06f4e8798dfa1075a 200 - 875.403 ms
+Wed May 28 2025 17:40:56 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos/683413c76f4e8798dfa10755 204 - 0.077 ms
+Wed May 28 2025 17:40:57 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos/683413c76f4e8798dfa10755 304 - 871.838 ms
+Wed May 28 2025 17:41:1 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/managment/get-admin 204 - 0.073 ms
+Wed May 28 2025 17:41:1 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/managment/get-admin 304 - 581.862 ms
+Wed May 28 2025 17:41:4 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dailyInspiration 204 - 0.136 ms
+Wed May 28 2025 17:41:4 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dailyInspiration 304 - 584.339 ms
+Wed May 28 2025 17:41:6 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dailyInspiration/6836f065aae3062d02423e80 204 - 0.068 ms
+Wed May 28 2025 17:41:21 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/users/profile 204 - 0.059 ms
+Wed May 28 2025 17:41:21 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/category/subcategory/1 204 - 0.048 ms
+Wed May 28 2025 17:41:22 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/users/profile 200 - 587.438 ms
+Wed May 28 2025 17:41:22 [SERVER-NAME] info: 10.0.60.110 - GET //image/image5-1747746976321.png 200 - 0.775 ms
+Wed May 28 2025 17:42:10 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dailyInspiration/6836f065aae3062d02423e80 204 - 0.087 ms
+Wed May 28 2025 17:42:13 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/challenge 204 - 0.054 ms
+Wed May 28 2025 17:42:14 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/challenge 304 - 874.194 ms
+Wed May 28 2025 17:43:29 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/users/profile 204 - 0.182 ms
+Wed May 28 2025 17:43:29 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/category 204 - 0.092 ms
+Wed May 28 2025 17:43:30 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/users/profile 304 - 585.825 ms
+Wed May 28 2025 17:43:30 [SERVER-NAME] info: 10.0.60.110 - GET //image/image5-1747746976321.png 200 - 0.914 ms
+Wed May 28 2025 17:43:30 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/category 304 - 1143.528 ms
+Wed May 28 2025 17:43:30 [SERVER-NAME] info: 10.0.60.110 - GET /thumbnail/rectangle-(7)-1748075513522.png 200 - 0.681 ms
+Wed May 28 2025 17:43:30 [SERVER-NAME] info: 10.0.60.110 - GET /thumbnail/frame-2147227088-(2)-1746266077431.png 200 - 1.522 ms
+Wed May 28 2025 17:43:30 [SERVER-NAME] info: 10.0.60.110 - GET /thumbnail/rectangle-(11)-1747917262458.png 200 - 0.659 ms
+Wed May 28 2025 17:43:30 [SERVER-NAME] info: 10.0.60.110 - GET /thumbnail/rectangle-(15)-1747912796892.png 200 - 0.732 ms
+Wed May 28 2025 17:43:30 [SERVER-NAME] info: 10.0.60.110 - GET /thumbnail/rectangle-(12)-1747913463996.png 200 - 1.190 ms
+Wed May 28 2025 17:43:30 [SERVER-NAME] info: 10.0.60.110 - GET /thumbnail/msi-1746027437618.png 200 - 1.025 ms
+Wed May 28 2025 17:43:35 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 204 - 0.099 ms
+Wed May 28 2025 17:43:35 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 204 - 0.077 ms
+Wed May 28 2025 17:43:37 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 304 - 1130.628 ms
+Wed May 28 2025 17:43:37 [SERVER-NAME] info: 10.0.60.110 - GET /thumbnail/rectangle-(10)-1748075688948.png 304 - 0.448 ms
+Wed May 28 2025 17:43:37 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 200 - 1455.485 ms
+Wed May 28 2025 17:43:51 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/challenge/create 204 - 0.063 ms
+Wed May 28 2025 17:44:0 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/challenge/create 201 - 8868.694 ms
+Wed May 28 2025 17:44:0 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/challenge 204 - 0.086 ms
+Wed May 28 2025 17:44:0 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/challenge 200 - 888.329 ms
+Wed May 28 2025 17:44:6 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/challenge/6836f6ff138accc2fd513e49 204 - 0.061 ms
+Wed May 28 2025 17:44:7 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/challenge/6836f6ff138accc2fd513e49 200 - 580.976 ms
+Wed May 28 2025 17:44:50 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dailyInspiration 204 - 0.064 ms
+Wed May 28 2025 17:44:50 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dailyInspiration 304 - 584.918 ms
+Wed May 28 2025 17:44:52 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dailyInspiration/6836f065aae3062d02423e80 204 - 0.056 ms
+Wed May 28 2025 17:44:58 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 17:45:0 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 17:45:10 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 17:45:12 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 17:45:12 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 17:45:12 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 17:45:12 [SERVER-NAME] info: [34mA user connected[39m
+Wed May 28 2025 17:45:17 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dailyInspiration/6836f065aae3062d02423e80 204 - 0.891 ms
+Wed May 28 2025 17:47:6 [SERVER-NAME] info: 10.0.60.114 - POST /api/v1/comments 201 - 1995.980 ms
+Wed May 28 2025 17:47:7 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 204 - 0.183 ms
+Wed May 28 2025 17:47:7 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 204 - 0.039 ms
+Wed May 28 2025 17:47:8 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 304 - 1137.133 ms
+Wed May 28 2025 17:47:8 [SERVER-NAME] info: 10.0.60.110 - GET /thumbnail/rectangle-(10)-1748075688948.png 304 - 0.817 ms
+Wed May 28 2025 17:47:8 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 304 - 1420.344 ms
+Wed May 28 2025 17:47:9 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/subcategory/get-videos/683184a94f5c96c45dd8f97d 204 - 0.075 ms
+Wed May 28 2025 17:47:11 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/subcategory/get-videos/683184a94f5c96c45dd8f97d 304 - 1712.037 ms
+Wed May 28 2025 17:47:24 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 200 - 7.082 ms
+Wed May 28 2025 17:47:27 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dailyInspiration/6836f065aae3062d02423e80 204 - 0.102 ms
+Wed May 28 2025 17:48:2 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dailyInspiration/ 200 - 575.499 ms
+Wed May 28 2025 17:48:6 [SERVER-NAME] info: 10.0.60.110 - GET /thumbnail/rectangle-(10)-1748075688948.png 304 - 0.270 ms
+Wed May 28 2025 17:48:51 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/dailyInspiration/letest 200 - 575.465 ms
+Wed May 28 2025 17:49:56 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 855.149 ms
+Wed May 28 2025 17:50:5 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/dailyInspiration/ 200 - 574.053 ms
+Wed May 28 2025 17:50:18 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/comments/683413d06f4e8798dfa1075a 200 - 862.550 ms
+Wed May 28 2025 17:50:21 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/comments/683413d06f4e8798dfa1075a 200 - 859.812 ms
+Wed May 28 2025 17:51:44 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 17:51:47 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 17:51:47 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 17:51:47 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 17:51:47 [SERVER-NAME] info: [34mA user connected[39m
+Wed May 28 2025 17:51:49 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 17:51:52 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 17:51:55 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 17:51:58 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 17:51:58 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 17:51:58 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 17:52:2 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/dailyInspiration/6836f065aae3062d02423e80 200 - 573.262 ms
+Wed May 28 2025 17:52:4 [SERVER-NAME] info: [34mA user connected[39m
+Wed May 28 2025 17:52:28 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/dailyInspiration/6836f065aae3062d02423e80 200 - 558.725 ms
+Wed May 28 2025 17:52:38 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dailyInspiration/6836f065aae3062d02423e80 204 - 0.318 ms
+Wed May 28 2025 17:52:39 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dailyInspiration/6836f065aae3062d02423e80 200 - 555.463 ms
+Wed May 28 2025 17:52:45 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 17:52:47 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 17:52:47 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 17:52:47 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 17:52:47 [SERVER-NAME] info: [34mA user connected[39m
+Wed May 28 2025 17:52:57 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 17:52:59 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 17:52:59 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 17:52:59 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 17:53:0 [SERVER-NAME] info: [34mA user connected[39m
+Wed May 28 2025 17:53:2 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/challenge 204 - 0.501 ms
+Wed May 28 2025 17:53:3 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/challenge 304 - 843.574 ms
+Wed May 28 2025 17:53:10 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/challenge/6836f6ff138accc2fd513e49 204 - 0.094 ms
+Wed May 28 2025 17:53:10 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/challenge/6836f6ff138accc2fd513e49 304 - 555.408 ms
+Wed May 28 2025 17:53:14 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 17:53:16 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 17:53:19 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 17:53:19 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 17:53:19 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 17:53:21 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 17:53:24 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 17:53:24 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 17:53:24 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 17:53:28 [SERVER-NAME] info: [34mA user connected[39m
+Wed May 28 2025 17:53:30 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 17:53:33 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 17:53:33 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 17:53:33 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 17:53:33 [SERVER-NAME] info: [34mA user connected[39m
+Wed May 28 2025 17:53:35 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 17:53:37 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 17:53:39 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 17:53:39 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 17:53:39 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 17:53:42 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 17:53:45 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 17:53:45 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 17:53:45 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 17:53:46 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.655 ms
+Wed May 28 2025 17:53:46 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/challenge 204 - 0.188 ms
+Wed May 28 2025 17:53:47 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 1788.344 ms
+Wed May 28 2025 17:53:47 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 1.098 ms
+Wed May 28 2025 17:53:49 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 17:53:52 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 17:53:52 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 17:53:52 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 17:53:53 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 17:53:56 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 17:53:56 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 17:53:56 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 17:53:58 [SERVER-NAME] info: [34mA user connected[39m
+Wed May 28 2025 17:54:0 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 17:54:2 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 17:54:5 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 17:54:5 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 17:54:5 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 17:54:6 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 17:54:9 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 17:54:9 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 17:54:9 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 17:54:15 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 17:54:19 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 17:54:22 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 17:54:22 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 17:54:22 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 17:54:23 [SERVER-NAME] info: [34mA user connected[39m
+Wed May 28 2025 17:54:24 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 17:54:28 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 17:54:28 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 17:54:28 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 17:54:30 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 17:54:33 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 17:54:33 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 17:54:33 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 17:54:35 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 17:54:40 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 17:54:40 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 17:54:40 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 17:54:44 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community/leaderboard 204 - 0.655 ms
+Wed May 28 2025 17:54:44 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community?page=1 204 - 0.160 ms
+Wed May 28 2025 17:54:44 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.043 ms
+Wed May 28 2025 17:54:44 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community/leaderboard 204 - 0.043 ms
+Wed May 28 2025 17:54:44 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community?page=1 204 - 0.043 ms
+Wed May 28 2025 17:54:45 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 580.393 ms
+Wed May 28 2025 17:54:45 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1747746976321.png 200 - 1.325 ms
+Wed May 28 2025 17:54:46 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community?page=1 200 - 1503.042 ms
+Wed May 28 2025 17:54:46 [SERVER-NAME] info: 10.0.60.147 - GET //image/1000005178-1748078560632.png 200 - 1.017 ms
+Wed May 28 2025 17:54:46 [SERVER-NAME] info: 10.0.60.147 - GET //image/banner-burger-delifrance-1747798781766.jpg 200 - 0.802 ms
+Wed May 28 2025 17:54:46 [SERVER-NAME] info: 10.0.60.147 - GET //image/1000005179-1747806821301.jpg 200 - 2.175 ms
+Wed May 28 2025 17:54:46 [SERVER-NAME] info: [34mA user connected[39m
+Wed May 28 2025 17:54:46 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community/leaderboard 200 - 2007.052 ms
+Wed May 28 2025 17:55:25 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.072 ms
+Wed May 28 2025 17:55:25 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.057 ms
+Wed May 28 2025 17:55:26 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 1668.715 ms
+Wed May 28 2025 17:55:26 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 304 - 1765.360 ms
+Wed May 28 2025 17:56:48 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/login 200 - 1134.688 ms
+Wed May 28 2025 17:56:49 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 569.473 ms
+Wed May 28 2025 17:56:51 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 295.739 ms
+Wed May 28 2025 17:56:53 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 859.138 ms
+Wed May 28 2025 17:56:54 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 857.766 ms
+Wed May 28 2025 17:56:55 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1139.852 ms
+Wed May 28 2025 17:56:56 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 569.701 ms
+Wed May 28 2025 17:56:58 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 1377.496 ms
+Wed May 28 2025 17:57:9 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/subscription/details 200 - 1347.325 ms
+Wed May 28 2025 17:57:23 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 200 - 1966.972 ms
+Wed May 28 2025 17:57:25 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/package/users 200 - 840.365 ms
+Wed May 28 2025 17:58:5 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 204 - 0.070 ms
+Wed May 28 2025 17:58:5 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 204 - 0.113 ms
+Wed May 28 2025 17:58:6 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 304 - 1427.492 ms
+Wed May 28 2025 17:58:7 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 304 - 2164.133 ms
+Wed May 28 2025 17:58:7 [SERVER-NAME] info: 10.0.60.110 - GET /thumbnail/rectangle-(10)-1748075688948.png 304 - 0.481 ms
+Wed May 28 2025 17:58:34 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/managment/get-admin 204 - 0.076 ms
+Wed May 28 2025 17:58:35 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/managment/get-admin 304 - 577.441 ms
+Wed May 28 2025 17:58:48 [SERVER-NAME] info: 10.0.60.123 - GET /api/v1/subscription/details 200 - 1317.978 ms
+Wed May 28 2025 17:59:21 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 204 - 0.047 ms
+Wed May 28 2025 17:59:21 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 204 - 0.041 ms
+Wed May 28 2025 17:59:22 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 304 - 1134.757 ms
+Wed May 28 2025 17:59:23 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 304 - 2452.211 ms
+Wed May 28 2025 17:59:24 [SERVER-NAME] info: 10.0.60.110 - GET /thumbnail/rectangle-(10)-1748075688948.png 304 - 0.384 ms
+Wed May 28 2025 17:59:33 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 204 - 0.056 ms
+Wed May 28 2025 17:59:33 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 204 - 0.040 ms
+Wed May 28 2025 17:59:33 [SERVER-NAME] info: 10.0.60.110 - GET /thumbnail/rectangle-(10)-1748075688948.png 304 - 0.320 ms

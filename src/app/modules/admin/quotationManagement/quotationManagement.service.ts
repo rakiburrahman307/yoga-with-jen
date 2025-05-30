@@ -95,7 +95,15 @@ const getQuotationFromDb = async () => {
      };
  };
  
-
+const getQuotationFromDb2 = async (query: Record<string, unknown>) => {
+     const queryBuilder = new QueryBuilder(Quotation.find(), query);
+     const result = await queryBuilder.filter().sort().paginate().fields().modelQuery.exec();
+     const meta = await queryBuilder.countTotal();
+     return {
+          result,
+          meta,
+     };
+};
 // get single users
 const getSingleQuotation = async (id: string) => {
      const result = await Quotation.findById(id);
@@ -161,5 +169,6 @@ export const quotationManagementService = {
      getSingleQuotation,
      updateQuotationFromDb,
      deleteQuotationFromDb,
+     getQuotationFromDb2,
      updateQuotationStatusFromDb,
 };

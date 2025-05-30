@@ -1,0 +1,286 @@
+Thu May 29 2025 11:0:24 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 11:0:28 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 11:0:28 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 11:0:28 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 11:0:31 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 11:0:32 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 11:0:35 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 11:0:35 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 11:0:35 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 11:0:39 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 11:0:42 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 11:0:47 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 11:0:50 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 11:0:50 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 11:0:50 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 11:0:58 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 11:1:9 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 11:1:12 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 11:1:12 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 11:1:12 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 11:1:13 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 11:1:16 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 11:1:19 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 11:1:21 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 11:1:21 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 11:1:21 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 11:1:26 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 11:1:29 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 11:1:32 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 11:1:32 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 11:1:32 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 11:1:34 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 11:1:35 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 11:1:36 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu May 29 2025 11:1:39 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 29 2025 11:1:39 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu May 29 2025 11:1:39 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu May 29 2025 11:1:42 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/notifications/admin 200 - 3014.470 ms
+Thu May 29 2025 11:1:43 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 11:2:45 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 11:2:46 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.343 ms
+Thu May 29 2025 11:2:46 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin 204 - 0.080 ms
+Thu May 29 2025 11:2:46 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 11:2:46 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 540.082 ms
+Thu May 29 2025 11:2:46 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 1.109 ms
+Thu May 29 2025 11:2:47 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin 200 - 1121.016 ms
+Thu May 29 2025 11:3:10 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin/single/6837df186a1801dea85c819b 204 - 0.064 ms
+Thu May 29 2025 11:3:11 [SERVER-NAME] info: 10.0.60.147 - PATCH /api/v1/notifications/admin/single/6837df186a1801dea85c819b 200 - 569.613 ms
+Thu May 29 2025 11:3:11 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin 204 - 0.052 ms
+Thu May 29 2025 11:3:12 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin 200 - 1119.156 ms
+Thu May 29 2025 11:3:36 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin/single/6837df046a1801dea85c8196 204 - 0.065 ms
+Thu May 29 2025 11:3:36 [SERVER-NAME] info: 10.0.60.147 - PATCH /api/v1/notifications/admin/single/6837df046a1801dea85c8196 200 - 564.714 ms
+Thu May 29 2025 11:3:36 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin 204 - 0.079 ms
+Thu May 29 2025 11:3:38 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin 200 - 1118.903 ms
+Thu May 29 2025 11:7:0 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin/single/6837d5c66a1801dea85c8127 204 - 0.450 ms
+Thu May 29 2025 11:7:1 [SERVER-NAME] info: 10.0.60.147 - PATCH /api/v1/notifications/admin/single/6837d5c66a1801dea85c8127 200 - 596.978 ms
+Thu May 29 2025 11:7:1 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin 204 - 0.058 ms
+Thu May 29 2025 11:7:2 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin 200 - 1139.711 ms
+Thu May 29 2025 11:9:23 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 570.225 ms
+Thu May 29 2025 11:9:24 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 864.162 ms
+Thu May 29 2025 11:9:25 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 863.204 ms
+Thu May 29 2025 11:9:26 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 1121.178 ms
+Thu May 29 2025 11:9:26 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 562.262 ms
+Thu May 29 2025 11:9:26 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1146.157 ms
+Thu May 29 2025 11:9:27 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 563.255 ms
+Thu May 29 2025 11:9:27 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 543.635 ms
+Thu May 29 2025 11:9:27 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 572.279 ms
+Thu May 29 2025 11:9:27 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 1113.582 ms
+Thu May 29 2025 11:9:28 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 569.635 ms
+Thu May 29 2025 11:9:28 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 580.867 ms
+Thu May 29 2025 11:9:28 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 847.528 ms
+Thu May 29 2025 11:9:28 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 811.794 ms
+Thu May 29 2025 11:9:28 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 1118.530 ms
+Thu May 29 2025 11:9:28 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 570.424 ms
+Thu May 29 2025 11:9:29 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 846.542 ms
+Thu May 29 2025 11:9:29 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1168.763 ms
+Thu May 29 2025 11:9:29 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 578.001 ms
+Thu May 29 2025 11:9:29 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 1127.666 ms
+Thu May 29 2025 11:9:29 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 820.496 ms
+Thu May 29 2025 11:9:30 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 568.035 ms
+Thu May 29 2025 11:9:30 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 582.169 ms
+Thu May 29 2025 11:9:30 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1144.400 ms
+Thu May 29 2025 11:9:30 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 1131.488 ms
+Thu May 29 2025 11:9:30 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 563.770 ms
+Thu May 29 2025 11:9:30 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 568.836 ms
+Thu May 29 2025 11:9:30 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1084.418 ms
+Thu May 29 2025 11:9:30 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 558.176 ms
+Thu May 29 2025 11:9:31 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 872.704 ms
+Thu May 29 2025 11:9:31 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 562.517 ms
+Thu May 29 2025 11:9:31 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 560.537 ms
+Thu May 29 2025 11:9:31 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 556.788 ms
+Thu May 29 2025 11:9:31 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 854.355 ms
+Thu May 29 2025 11:9:31 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 2074.659 ms
+Thu May 29 2025 11:9:31 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 562.606 ms
+Thu May 29 2025 11:9:31 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 580.518 ms
+Thu May 29 2025 11:9:32 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 1083.143 ms
+Thu May 29 2025 11:9:32 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 837.670 ms
+Thu May 29 2025 11:9:32 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 835.502 ms
+Thu May 29 2025 11:9:32 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 580.598 ms
+Thu May 29 2025 11:9:32 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 844.127 ms
+Thu May 29 2025 11:9:32 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 1138.504 ms
+Thu May 29 2025 11:9:32 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1135.909 ms
+Thu May 29 2025 11:9:33 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 2282.382 ms
+Thu May 29 2025 11:9:33 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 1098.509 ms
+Thu May 29 2025 11:9:33 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1117.738 ms
+Thu May 29 2025 11:9:33 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 871.450 ms
+Thu May 29 2025 11:9:33 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 570.333 ms
+Thu May 29 2025 11:9:33 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 564.912 ms
+Thu May 29 2025 11:9:33 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1146.479 ms
+Thu May 29 2025 11:9:34 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 580.460 ms
+Thu May 29 2025 11:9:34 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 563.963 ms
+Thu May 29 2025 11:9:34 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 1085.627 ms
+Thu May 29 2025 11:9:34 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 854.480 ms
+Thu May 29 2025 11:9:34 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 1482.283 ms
+Thu May 29 2025 11:9:35 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1670.708 ms
+Thu May 29 2025 11:9:35 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 3485.439 ms
+Thu May 29 2025 11:9:35 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 1595.732 ms
+Thu May 29 2025 11:9:35 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 1387.104 ms
+Thu May 29 2025 11:9:36 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 1583.984 ms
+Thu May 29 2025 11:9:36 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 1580.376 ms
+Thu May 29 2025 11:9:36 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1164.430 ms
+Thu May 29 2025 11:9:36 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 562.592 ms
+Thu May 29 2025 11:9:37 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 582.471 ms
+Thu May 29 2025 11:9:37 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 1646.325 ms
+Thu May 29 2025 11:9:37 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1496.678 ms
+Thu May 29 2025 11:9:37 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 843.579 ms
+Thu May 29 2025 11:9:37 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 2575.248 ms
+Thu May 29 2025 11:9:37 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/explore 200 - 813.661 ms
+Thu May 29 2025 11:9:38 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 877.653 ms
+Thu May 29 2025 11:9:38 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 568.106 ms
+Thu May 29 2025 11:9:38 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1144.803 ms
+Thu May 29 2025 11:9:39 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 1132.106 ms
+Thu May 29 2025 11:9:39 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 847.653 ms
+Thu May 29 2025 11:9:39 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 564.078 ms
+Thu May 29 2025 11:9:39 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/?page=1 200 - 1168.161 ms
+Thu May 29 2025 11:9:40 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 844.574 ms
+Thu May 29 2025 11:9:40 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/post/letest 200 - 583.842 ms
+Thu May 29 2025 11:9:41 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/leaderboard 200 - 582.606 ms
+Thu May 29 2025 11:15:56 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 11:15:57 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.137 ms
+Thu May 29 2025 11:15:57 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin 204 - 0.064 ms
+Thu May 29 2025 11:15:57 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 11:15:58 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 582.176 ms
+Thu May 29 2025 11:15:58 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 0.414 ms
+Thu May 29 2025 11:15:58 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin 304 - 1131.393 ms
+Thu May 29 2025 11:16:40 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 11:16:41 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.061 ms
+Thu May 29 2025 11:16:41 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin 204 - 0.037 ms
+Thu May 29 2025 11:16:41 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 11:16:41 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 562.750 ms
+Thu May 29 2025 11:16:41 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 0.318 ms
+Thu May 29 2025 11:16:42 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin 304 - 1168.855 ms
+Thu May 29 2025 11:16:55 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 11:17:44 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 11:17:50 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin/single/6837d5576a1801dea85c8107 204 - 0.049 ms
+Thu May 29 2025 11:17:51 [SERVER-NAME] info: 10.0.60.147 - PATCH /api/v1/notifications/admin/single/6837d5576a1801dea85c8107 200 - 609.791 ms
+Thu May 29 2025 11:17:51 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin 204 - 0.053 ms
+Thu May 29 2025 11:17:52 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin 200 - 1166.202 ms
+Thu May 29 2025 11:17:56 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin/single/6837d4d06a1801dea85c80f7 204 - 0.041 ms
+Thu May 29 2025 11:17:56 [SERVER-NAME] info: 10.0.60.147 - PATCH /api/v1/notifications/admin/single/6837d4d06a1801dea85c80f7 200 - 586.254 ms
+Thu May 29 2025 11:17:56 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin 204 - 0.037 ms
+Thu May 29 2025 11:17:57 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin 200 - 1168.633 ms
+Thu May 29 2025 11:18:15 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications 204 - 0.039 ms
+Thu May 29 2025 11:22:46 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.083 ms
+Thu May 29 2025 11:22:47 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 1171.474 ms
+Thu May 29 2025 11:22:47 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/frame-2147227088-(2)-1746266077431.png 200 - 2.021 ms
+Thu May 29 2025 11:22:47 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(15)-1747912796892.png 200 - 3.022 ms
+Thu May 29 2025 11:22:47 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(7)-1748075513522.png 200 - 3.297 ms
+Thu May 29 2025 11:22:47 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(12)-1747913463996.png 200 - 2.993 ms
+Thu May 29 2025 11:22:47 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(11)-1747917262458.png 200 - 3.349 ms
+Thu May 29 2025 11:22:47 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/msi-1746027437618.png 200 - 3.031 ms
+Thu May 29 2025 11:22:53 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category/single/683183f94f5c96c45dd8f96b 204 - 0.040 ms
+Thu May 29 2025 11:22:53 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory 204 - 0.037 ms
+Thu May 29 2025 11:22:54 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory 200 - 850.418 ms
+Thu May 29 2025 11:22:54 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category/single/683183f94f5c96c45dd8f96b 200 - 1453.572 ms
+Thu May 29 2025 11:22:54 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(10)-1748075688948.png 200 - 0.785 ms
+Thu May 29 2025 11:26:55 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin 204 - 0.114 ms
+Thu May 29 2025 11:26:56 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin 304 - 1159.030 ms
+Thu May 29 2025 11:27:24 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 11:27:24 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.043 ms
+Thu May 29 2025 11:27:24 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin 204 - 0.039 ms
+Thu May 29 2025 11:27:25 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 11:27:25 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 579.596 ms
+Thu May 29 2025 11:27:25 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 0.317 ms
+Thu May 29 2025 11:27:26 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin 304 - 1133.300 ms
+Thu May 29 2025 11:27:29 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin/single/6837297f6a1801dea85c7cd9 204 - 0.044 ms
+Thu May 29 2025 11:27:30 [SERVER-NAME] info: 10.0.60.147 - PATCH /api/v1/notifications/admin/single/6837297f6a1801dea85c7cd9 200 - 579.180 ms
+Thu May 29 2025 11:27:30 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin 204 - 0.055 ms
+Thu May 29 2025 11:27:31 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin 200 - 1124.944 ms
+Thu May 29 2025 11:27:36 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin/single/6837268a6a1801dea85c7c26 204 - 0.042 ms
+Thu May 29 2025 11:27:37 [SERVER-NAME] info: 10.0.60.147 - PATCH /api/v1/notifications/admin/single/6837268a6a1801dea85c7c26 200 - 1074.963 ms
+Thu May 29 2025 11:27:37 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin 204 - 0.337 ms
+Thu May 29 2025 11:27:38 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin 200 - 1130.245 ms
+Thu May 29 2025 11:30:23 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin/single/683726b66a1801dea85c7c3b 204 - 0.049 ms
+Thu May 29 2025 11:30:23 [SERVER-NAME] info: 10.0.60.147 - PATCH /api/v1/notifications/admin/single/683726b66a1801dea85c7c3b 200 - 600.917 ms
+Thu May 29 2025 11:30:23 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin 204 - 0.046 ms
+Thu May 29 2025 11:30:24 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin 200 - 1126.745 ms
+Thu May 29 2025 11:32:44 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications 204 - 0.063 ms
+Thu May 29 2025 11:36:14 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 11:36:15 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.048 ms
+Thu May 29 2025 11:36:15 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin 204 - 0.047 ms
+Thu May 29 2025 11:36:15 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 11:36:16 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 562.326 ms
+Thu May 29 2025 11:36:16 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 0.378 ms
+Thu May 29 2025 11:36:16 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin 304 - 1157.047 ms
+Thu May 29 2025 11:39:49 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 11:39:50 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.047 ms
+Thu May 29 2025 11:39:50 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin 204 - 0.035 ms
+Thu May 29 2025 11:39:50 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 11:39:50 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 579.912 ms
+Thu May 29 2025 11:39:50 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 0.237 ms
+Thu May 29 2025 11:39:51 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin 304 - 1125.371 ms
+Thu May 29 2025 11:41:8 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 11:41:8 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.042 ms
+Thu May 29 2025 11:41:8 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin 204 - 0.032 ms
+Thu May 29 2025 11:41:9 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 11:41:9 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 566.544 ms
+Thu May 29 2025 11:41:9 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 0.284 ms
+Thu May 29 2025 11:41:10 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin 304 - 1155.493 ms
+Thu May 29 2025 11:41:14 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin/single/683727b16a1801dea85c7c69 204 - 0.259 ms
+Thu May 29 2025 11:41:15 [SERVER-NAME] info: 10.0.60.147 - PATCH /api/v1/notifications/admin/single/683727b16a1801dea85c7c69 200 - 627.440 ms
+Thu May 29 2025 11:41:15 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin 204 - 0.251 ms
+Thu May 29 2025 11:41:16 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin 200 - 1162.697 ms
+Thu May 29 2025 11:41:25 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications 204 - 0.043 ms
+Thu May 29 2025 11:42:43 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin 200 - 1162.809 ms
+Thu May 29 2025 11:46:48 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin 204 - 0.051 ms
+Thu May 29 2025 11:46:49 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin 304 - 1158.795 ms
+Thu May 29 2025 11:47:13 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 11:47:18 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 0.372 ms
+Thu May 29 2025 11:47:18 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 11:49:1 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/login 200 - 1540.550 ms
+Thu May 29 2025 11:49:2 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 590.057 ms
+Thu May 29 2025 11:49:3 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/package/users 200 - 871.764 ms
+Thu May 29 2025 11:50:32 [SERVER-NAME] info: 10.0.60.240 - GET /image/1000005178-1748078560632.png 200 - 22.064 ms
+Thu May 29 2025 11:50:32 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 586.795 ms
+Thu May 29 2025 11:50:33 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 580.166 ms
+Thu May 29 2025 11:50:34 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 867.290 ms
+Thu May 29 2025 11:50:35 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1157.723 ms
+Thu May 29 2025 11:50:36 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 579.208 ms
+Thu May 29 2025 11:50:37 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 880.446 ms
+Thu May 29 2025 11:50:37 [SERVER-NAME] info: 10.0.60.240 - GET //thumbnail/frame-2147227088-(2)-1746266077431.png 200 - 0.672 ms
+Thu May 29 2025 11:50:37 [SERVER-NAME] info: 10.0.60.240 - GET //thumbnail/rectangle-(7)-1748075513522.png 200 - 0.686 ms
+Thu May 29 2025 11:50:37 [SERVER-NAME] info: 10.0.60.240 - GET //thumbnail/rectangle-(12)-1747913463996.png 200 - 0.599 ms
+Thu May 29 2025 11:50:37 [SERVER-NAME] info: 10.0.60.240 - GET //thumbnail/rectangle-(11)-1747917262458.png 200 - 1.141 ms
+Thu May 29 2025 11:50:38 [SERVER-NAME] info: 10.0.60.240 - GET //thumbnail/rectangle-(15)-1747912796892.png 200 - 0.586 ms
+Thu May 29 2025 11:50:38 [SERVER-NAME] info: 10.0.60.240 - GET //thumbnail/msi-1746027437618.png 200 - 0.549 ms
+Thu May 29 2025 11:52:28 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin 204 - 0.065 ms
+Thu May 29 2025 11:52:29 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin 304 - 1161.699 ms
+Thu May 29 2025 11:52:34 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 11:52:35 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.038 ms
+Thu May 29 2025 11:52:35 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin?page=1&limit=10 204 - 0.030 ms
+Thu May 29 2025 11:52:35 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 11:52:35 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 566.100 ms
+Thu May 29 2025 11:52:35 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 0.290 ms
+Thu May 29 2025 11:52:36 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 200 - 1154.379 ms
+Thu May 29 2025 11:52:39 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin?page=2&limit=10 204 - 0.043 ms
+Thu May 29 2025 11:52:40 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=2&limit=10 200 - 1155.364 ms
+Thu May 29 2025 11:53:47 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin?page=1&limit=20 204 - 0.045 ms
+Thu May 29 2025 11:53:48 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=20 200 - 1156.386 ms
+Thu May 29 2025 11:54:34 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin?page=2&limit=10 204 - 0.053 ms
+Thu May 29 2025 11:54:35 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=2&limit=10 304 - 1159.462 ms
+Thu May 29 2025 11:55:35 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 11:55:36 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.051 ms
+Thu May 29 2025 11:55:36 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin?page=1&limit=10 204 - 0.035 ms
+Thu May 29 2025 11:55:36 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 11:55:37 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 578.031 ms
+Thu May 29 2025 11:55:37 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 0.306 ms
+Thu May 29 2025 11:55:37 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 304 - 1131.961 ms
+Thu May 29 2025 11:55:39 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin?page=2&limit=10 204 - 0.281 ms
+Thu May 29 2025 11:55:40 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=2&limit=10 304 - 1135.376 ms
+Thu May 29 2025 11:56:47 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 11:56:48 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.043 ms
+Thu May 29 2025 11:56:48 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin?page=1&limit=10 204 - 0.033 ms
+Thu May 29 2025 11:56:48 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 11:56:48 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 566.530 ms
+Thu May 29 2025 11:56:48 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 0.214 ms
+Thu May 29 2025 11:56:49 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 304 - 1155.817 ms
+Thu May 29 2025 11:56:51 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin?page=2&limit=10 204 - 0.240 ms
+Thu May 29 2025 11:56:53 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=2&limit=10 304 - 1158.594 ms
+Thu May 29 2025 11:57:10 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications 204 - 0.045 ms
+Thu May 29 2025 11:57:19 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.046 ms
+Thu May 29 2025 11:57:20 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 304 - 1451.602 ms
+Thu May 29 2025 11:57:20 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/revenue 204 - 0.041 ms
+Thu May 29 2025 11:57:20 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.034 ms
+Thu May 29 2025 11:57:21 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/revenue 304 - 566.797 ms
+Thu May 29 2025 11:57:21 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/resent-users 304 - 581.043 ms

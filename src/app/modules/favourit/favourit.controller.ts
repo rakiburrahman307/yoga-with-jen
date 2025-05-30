@@ -44,7 +44,7 @@ const getSingleVideo = catchAsync(async (req, res) => {
           success: true,
           statusCode: StatusCodes.OK,
           message: 'Url retrived successfuly',
-          data: result,
+          data: result?.videoUrl,
      });
 });
 export const FavouritVideosController = {

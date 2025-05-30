@@ -62,13 +62,14 @@ const getSingleVideoUrl = async (id: string, userId: string) => {
 
      const hasSubscription = await User.hasActiveSubscription(userId);
 
-     if (hasSubscription) {
-          // If the user has an active subscription or the video is free
-          const data = {
-               ...result.toObject(),
-          };
-          return data;
-     }
+     // if (hasSubscription) {
+     //      // If the user has an active subscription or the video is free
+     //      const data = {
+     //           ...result.toObject(),
+     //      };
+     //      return data;
+     // }
+     return result;
 };
 export const FavouritVideosSevices = {
      likedVideos,

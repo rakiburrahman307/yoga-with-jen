@@ -3,6 +3,7 @@ import { INotification } from './notification.interface';
 
 enum NotificationType {
      ADMIN = 'ADMIN',
+     SUPER_ADMIN = 'SUPER_ADMIN',
      SYSTEM = 'SYSTEM',
      PAYMENT = 'PAYMENT',
      MESSAGE = 'MESSAGE',

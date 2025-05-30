@@ -1,0 +1,398 @@
+Wed May 28 2025 12:0:5 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 843.438 ms
+Wed May 28 2025 12:1:49 [SERVER-NAME] info: 10.0.60.147 - GET //image/banner-burger-delifrance-1747798781766.jpg 200 - 0.554 ms
+Wed May 28 2025 12:1:49 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1747746976321.png 200 - 0.866 ms
+Wed May 28 2025 12:1:50 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1747746976321.png 200 - 0.957 ms
+Wed May 28 2025 12:2:9 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community/6836a1b5eabf6daaa9697d5e 204 - 0.383 ms
+Wed May 28 2025 12:2:10 [SERVER-NAME] info: 10.0.60.147 - PATCH /api/v1/community/6836a1b5eabf6daaa9697d5e 200 - 892.056 ms
+Wed May 28 2025 12:2:10 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community?page=1 204 - 0.100 ms
+Wed May 28 2025 12:2:11 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community?page=1 200 - 1142.700 ms
+Wed May 28 2025 12:2:17 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community/6836a193eabf6daaa9697d52 204 - 0.070 ms
+Wed May 28 2025 12:2:18 [SERVER-NAME] info: 10.0.60.147 - DELETE /api/v1/community/6836a193eabf6daaa9697d52 200 - 844.779 ms
+Wed May 28 2025 12:2:18 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community?page=1 204 - 0.075 ms
+Wed May 28 2025 12:2:19 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community?page=1 200 - 1128.965 ms
+Wed May 28 2025 12:2:29 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community/6836a1c5eabf6daaa9697d6a 204 - 0.073 ms
+Wed May 28 2025 12:2:30 [SERVER-NAME] info: 10.0.60.147 - DELETE /api/v1/community/6836a1c5eabf6daaa9697d6a 200 - 845.625 ms
+Wed May 28 2025 12:2:30 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community?page=1 204 - 0.084 ms
+Wed May 28 2025 12:2:31 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community?page=1 200 - 1126.657 ms
+Wed May 28 2025 12:2:31 [SERVER-NAME] info: 10.0.60.147 - GET //image/1000005178-1748078560632.png 200 - 0.567 ms
+Wed May 28 2025 12:3:0 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/comingSoon/latest 200 - 861.564 ms
+Wed May 28 2025 12:13:47 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 584.958 ms
+Wed May 28 2025 12:13:50 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 284.761 ms
+Wed May 28 2025 12:13:51 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 575.978 ms
+Wed May 28 2025 12:13:52 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 864.048 ms
+Wed May 28 2025 12:13:53 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1162.514 ms
+Wed May 28 2025 12:13:54 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 568.708 ms
+Wed May 28 2025 12:13:55 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 863.279 ms
+Wed May 28 2025 12:13:58 [SERVER-NAME] warn: [42m[1mUnhandled event type: checkout.session.expired[22m[49m
+Wed May 28 2025 12:13:58 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.741 ms
+Wed May 28 2025 12:14:23 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1141.888 ms
+Wed May 28 2025 12:14:33 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 579.750 ms
+Wed May 28 2025 12:15:4 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.044 ms
+Wed May 28 2025 12:15:4 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community/leaderboard 204 - 0.031 ms
+Wed May 28 2025 12:15:4 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community?page=1 204 - 0.027 ms
+Wed May 28 2025 12:15:5 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 567.834 ms
+Wed May 28 2025 12:15:5 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community/leaderboard 304 - 567.767 ms
+Wed May 28 2025 12:15:5 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community?page=1 304 - 1124.762 ms
+Wed May 28 2025 12:15:9 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1747746976321.png 200 - 0.916 ms
+Wed May 28 2025 12:15:9 [SERVER-NAME] info: 10.0.60.147 - GET //image/1000005178-1748078560632.png 200 - 0.688 ms
+Wed May 28 2025 12:15:9 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1747746976321.png 200 - 0.841 ms
+Wed May 28 2025 12:15:9 [SERVER-NAME] info: 10.0.60.147 - GET //image/banner-burger-delifrance-1747798781766.jpg 200 - 0.577 ms
+Wed May 28 2025 12:15:15 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community?page=2 204 - 0.059 ms
+Wed May 28 2025 12:15:15 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community?page=3 204 - 0.070 ms
+Wed May 28 2025 12:15:16 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community?page=2 200 - 1124.359 ms
+Wed May 28 2025 12:15:16 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community?page=3 200 - 1133.843 ms
+Wed May 28 2025 12:15:17 [SERVER-NAME] info: 10.0.60.147 - GET //image/1000005179-1747806821301.jpg 200 - 0.721 ms
+Wed May 28 2025 12:15:31 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community/6836a1b1eabf6daaa9697d58 204 - 0.072 ms
+Wed May 28 2025 12:15:32 [SERVER-NAME] info: 10.0.60.147 - DELETE /api/v1/community/6836a1b1eabf6daaa9697d58 200 - 925.156 ms
+Wed May 28 2025 12:15:32 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community?page=1 204 - 0.043 ms
+Wed May 28 2025 12:15:33 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community?page=1 200 - 1136.048 ms
+Wed May 28 2025 12:16:15 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community/6836a1b5eabf6daaa9697d5e 204 - 0.041 ms
+Wed May 28 2025 12:16:16 [SERVER-NAME] info: 10.0.60.147 - DELETE /api/v1/community/6836a1b5eabf6daaa9697d5e 200 - 858.564 ms
+Wed May 28 2025 12:16:16 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community?page=1 204 - 0.035 ms
+Wed May 28 2025 12:16:17 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community?page=1 200 - 1155.527 ms
+Wed May 28 2025 12:16:46 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1139.998 ms
+Wed May 28 2025 12:17:12 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/comingSoon 204 - 0.064 ms
+Wed May 28 2025 12:17:13 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/comingSoon 304 - 857.350 ms
+Wed May 28 2025 12:17:32 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/challenge 204 - 0.071 ms
+Wed May 28 2025 12:17:33 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/challenge 304 - 852.089 ms
+Wed May 28 2025 12:17:33 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dailyInspiration 204 - 0.071 ms
+Wed May 28 2025 12:17:35 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dailyInspiration 304 - 1076.233 ms
+Wed May 28 2025 12:17:38 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.069 ms
+Wed May 28 2025 12:17:39 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/challenge 204 - 0.035 ms
+Wed May 28 2025 12:17:39 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 560.887 ms
+Wed May 28 2025 12:17:39 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dailyInspiration 304 - 569.973 ms
+Wed May 28 2025 12:17:39 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 0.754 ms
+Wed May 28 2025 12:17:39 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/challenge 304 - 853.313 ms
+Wed May 28 2025 12:17:48 [SERVER-NAME] warn: [42m[1mUnhandled event type: checkout.session.expired[22m[49m
+Wed May 28 2025 12:17:48 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.516 ms
+Wed May 28 2025 12:19:17 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community/6835ce6c057eb93b0d221091 204 - 0.066 ms
+Wed May 28 2025 12:19:17 [SERVER-NAME] info: 10.0.60.147 - PATCH /api/v1/community/6835ce6c057eb93b0d221091 200 - 874.483 ms
+Wed May 28 2025 12:19:17 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community?page=1 204 - 0.072 ms
+Wed May 28 2025 12:19:19 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community?page=1 200 - 1138.525 ms
+Wed May 28 2025 12:20:0 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community/68359032feaab55bd32dfc58 204 - 0.068 ms
+Wed May 28 2025 12:20:1 [SERVER-NAME] info: 10.0.60.147 - PATCH /api/v1/community/68359032feaab55bd32dfc58 200 - 858.521 ms
+Wed May 28 2025 12:20:1 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community?page=1 204 - 0.066 ms
+Wed May 28 2025 12:20:2 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community?page=1 200 - 1139.079 ms
+Wed May 28 2025 12:20:4 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comments/68359032feaab55bd32dfc58 204 - 0.043 ms
+Wed May 28 2025 12:20:6 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/comments/68359032feaab55bd32dfc58 304 - 1440.559 ms
+Wed May 28 2025 12:20:6 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1747746976321.png 200 - 0.850 ms
+Wed May 28 2025 12:20:6 [SERVER-NAME] info: 10.0.60.147 - GET //image/banner-burger-delifrance-1747798781766.jpg 200 - 0.756 ms
+Wed May 28 2025 12:20:12 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comments/edit/6835c439b21118700fc687ea 204 - 0.092 ms
+Wed May 28 2025 12:20:14 [SERVER-NAME] info: 10.0.60.147 - PATCH /api/v1/comments/edit/6835c439b21118700fc687ea 200 - 1145.479 ms
+Wed May 28 2025 12:20:14 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comments/68359032feaab55bd32dfc58 204 - 0.047 ms
+Wed May 28 2025 12:20:15 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/comments/68359032feaab55bd32dfc58 200 - 1433.058 ms
+Wed May 28 2025 12:26:16 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/explore 200 - 856.864 ms
+Wed May 28 2025 12:26:43 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 284.516 ms
+Wed May 28 2025 12:26:44 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 571.315 ms
+Wed May 28 2025 12:26:45 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 854.147 ms
+Wed May 28 2025 12:26:45 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/explore 200 - 853.139 ms
+Wed May 28 2025 12:26:47 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1139.477 ms
+Wed May 28 2025 12:26:48 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 569.962 ms
+Wed May 28 2025 12:26:49 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 284.446 ms
+Wed May 28 2025 12:26:49 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 856.254 ms
+Wed May 28 2025 12:26:50 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 568.384 ms
+Wed May 28 2025 12:26:51 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 854.949 ms
+Wed May 28 2025 12:26:54 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1654.202 ms
+Wed May 28 2025 12:26:56 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 569.315 ms
+Wed May 28 2025 12:26:57 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 854.462 ms
+Wed May 28 2025 12:27:5 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 1162.508 ms
+Wed May 28 2025 12:27:8 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 284.305 ms
+Wed May 28 2025 12:27:9 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 571.452 ms
+Wed May 28 2025 12:27:11 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 1372.328 ms
+Wed May 28 2025 12:27:12 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1131.279 ms
+Wed May 28 2025 12:27:14 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 563.838 ms
+Wed May 28 2025 12:27:15 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 844.035 ms
+Wed May 28 2025 12:27:26 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 200 - 1132.694 ms
+Wed May 28 2025 12:27:28 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 200 - 1428.116 ms
+Wed May 28 2025 12:27:35 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/favourit/683413d06f4e8798dfa1075a 200 - 1664.038 ms
+Wed May 28 2025 12:27:38 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/favourit/683413d06f4e8798dfa1075a 200 - 1156.314 ms
+Wed May 28 2025 12:27:38 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/favourit/683413d06f4e8798dfa1075a 200 - 2218.506 ms
+Wed May 28 2025 12:27:45 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 200 - 1434.227 ms
+Wed May 28 2025 12:27:48 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/subcategory/get-videos/683184a94f5c96c45dd8f97d?page=1 200 - 1721.188 ms
+Wed May 28 2025 12:28:2 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 200 - 1440.653 ms
+Wed May 28 2025 12:28:35 [SERVER-NAME] warn: [42m[1mUnhandled event type: checkout.session.expired[22m[49m
+Wed May 28 2025 12:28:35 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.868 ms
+Wed May 28 2025 12:30:39 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 284.720 ms
+Wed May 28 2025 12:30:39 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 569.938 ms
+Wed May 28 2025 12:30:41 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 853.923 ms
+Wed May 28 2025 12:30:42 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1150.015 ms
+Wed May 28 2025 12:30:43 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 570.528 ms
+Wed May 28 2025 12:30:44 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 854.049 ms
+Wed May 28 2025 12:31:5 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/?page=1 200 - 1143.782 ms
+Wed May 28 2025 12:31:6 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/leaderboard 200 - 573.893 ms
+Wed May 28 2025 12:32:23 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community/like/6835d2f48b7a67580edcce29 204 - 0.048 ms
+Wed May 28 2025 12:32:24 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community/like/6835d2f48b7a67580edcce29 200 - 883.496 ms
+Wed May 28 2025 12:32:29 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.041 ms
+Wed May 28 2025 12:32:29 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community/leaderboard 204 - 0.056 ms
+Wed May 28 2025 12:32:29 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community?page=1 204 - 0.039 ms
+Wed May 28 2025 12:32:29 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community/leaderboard 304 - 561.408 ms
+Wed May 28 2025 12:32:29 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 567.378 ms
+Wed May 28 2025 12:32:29 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1747746976321.png 200 - 1.664 ms
+Wed May 28 2025 12:32:30 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community?page=1 200 - 1640.175 ms
+Wed May 28 2025 12:32:31 [SERVER-NAME] info: 10.0.60.147 - GET //image/banner-burger-delifrance-1747798781766.jpg 200 - 1.039 ms
+Wed May 28 2025 12:32:31 [SERVER-NAME] info: 10.0.60.147 - GET //image/1000005178-1748078560632.png 200 - 0.690 ms
+Wed May 28 2025 12:32:31 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 797.400 ms
+Wed May 28 2025 12:32:32 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 1093.262 ms
+Wed May 28 2025 12:32:33 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 859.045 ms
+Wed May 28 2025 12:32:34 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1139.461 ms
+Wed May 28 2025 12:32:35 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 568.302 ms
+Wed May 28 2025 12:32:37 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 855.583 ms
+Wed May 28 2025 12:34:42 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 1142.707 ms
+Wed May 28 2025 12:34:45 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/explore 200 - 1226.838 ms
+Wed May 28 2025 12:34:50 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/?page=1 200 - 1990.331 ms
+Wed May 28 2025 12:34:50 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/leaderboard 200 - 574.759 ms
+Wed May 28 2025 12:34:57 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/?page=1 200 - 1430.837 ms
+Wed May 28 2025 12:34:58 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/leaderboard 200 - 1092.051 ms
+Wed May 28 2025 12:35:41 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community?page=2 204 - 0.040 ms
+Wed May 28 2025 12:35:43 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community?page=2 200 - 1418.380 ms
+Wed May 28 2025 12:35:43 [SERVER-NAME] info: 10.0.60.147 - GET //image/1000005179-1747806821301.jpg 200 - 0.879 ms
+Wed May 28 2025 12:36:4 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/?page=1 200 - 1451.902 ms
+Wed May 28 2025 12:36:5 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/leaderboard 200 - 570.806 ms
+Wed May 28 2025 12:36:12 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comments/68369fe7eabf6daaa9697c98 204 - 0.070 ms
+Wed May 28 2025 12:36:13 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/comments/68369fe7eabf6daaa9697c98 304 - 1146.250 ms
+Wed May 28 2025 12:36:13 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1747746976321.png 200 - 0.682 ms
+Wed May 28 2025 12:36:15 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 284.802 ms
+Wed May 28 2025 12:36:16 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 568.594 ms
+Wed May 28 2025 12:36:17 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 853.492 ms
+Wed May 28 2025 12:36:18 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1146.443 ms
+Wed May 28 2025 12:36:19 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 1149.785 ms
+Wed May 28 2025 12:36:19 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 569.986 ms
+Wed May 28 2025 12:36:20 [SERVER-NAME] warn: [42m[1mUnhandled event type: checkout.session.expired[22m[49m
+Wed May 28 2025 12:36:20 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.663 ms
+Wed May 28 2025 12:36:21 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/explore 200 - 855.826 ms
+Wed May 28 2025 12:36:21 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 860.120 ms
+Wed May 28 2025 12:36:26 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/?page=1 200 - 2540.158 ms
+Wed May 28 2025 12:36:27 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/leaderboard 200 - 569.384 ms
+Wed May 28 2025 12:36:32 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/?page=1 200 - 1419.759 ms
+Wed May 28 2025 12:36:33 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 286.022 ms
+Wed May 28 2025 12:36:33 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/leaderboard 200 - 575.013 ms
+Wed May 28 2025 12:36:35 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 562.113 ms
+Wed May 28 2025 12:36:37 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 846.752 ms
+Wed May 28 2025 12:36:39 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1139.406 ms
+Wed May 28 2025 12:36:44 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 584.184 ms
+Wed May 28 2025 12:36:46 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comments 204 - 0.066 ms
+Wed May 28 2025 12:36:46 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 854.551 ms
+Wed May 28 2025 12:36:48 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/comments 201 - 2246.006 ms
+Wed May 28 2025 12:36:48 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comments/68369fe7eabf6daaa9697c98 204 - 0.071 ms
+Wed May 28 2025 12:36:49 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/comments/68369fe7eabf6daaa9697c98 200 - 1142.234 ms
+Wed May 28 2025 12:36:54 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comments/reply/6836aeff5ae1d832cef07798 204 - 0.067 ms
+Wed May 28 2025 12:36:55 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/comments/reply/6836aeff5ae1d832cef07798 200 - 1427.963 ms
+Wed May 28 2025 12:36:55 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comments/68369fe7eabf6daaa9697c98 204 - 0.100 ms
+Wed May 28 2025 12:36:57 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/comments/68369fe7eabf6daaa9697c98 200 - 1927.621 ms
+Wed May 28 2025 12:37:3 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/subcategory/6815e7dd3bd43020824bc3ac 200 - 1653.388 ms
+Wed May 28 2025 12:37:4 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/get-videos/6815e7dd3bd43020824bc3ac 200 - 1140.605 ms
+Wed May 28 2025 12:37:5 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comments/edit/6836aeff5ae1d832cef07798 204 - 0.065 ms
+Wed May 28 2025 12:37:6 [SERVER-NAME] info: 10.0.60.147 - PATCH /api/v1/comments/edit/6836aeff5ae1d832cef07798 200 - 1149.575 ms
+Wed May 28 2025 12:37:6 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comments/68369fe7eabf6daaa9697c98 204 - 0.047 ms
+Wed May 28 2025 12:37:7 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/comments/68369fe7eabf6daaa9697c98 200 - 1423.996 ms
+Wed May 28 2025 12:37:11 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comments/delete/6836aeff5ae1d832cef07798 204 - 0.067 ms
+Wed May 28 2025 12:37:13 [SERVER-NAME] info: 10.0.60.147 - DELETE /api/v1/comments/delete/6836aeff5ae1d832cef07798 200 - 2033.969 ms
+Wed May 28 2025 12:37:13 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comments/68369fe7eabf6daaa9697c98 204 - 0.093 ms
+Wed May 28 2025 12:37:14 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/comments/68369fe7eabf6daaa9697c98 200 - 1138.723 ms
+Wed May 28 2025 12:37:18 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community/like/6835d2f48b7a67580edcce29 204 - 0.043 ms
+Wed May 28 2025 12:37:19 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community/like/6835d2f48b7a67580edcce29 200 - 1144.316 ms
+Wed May 28 2025 12:37:20 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/?page=1 200 - 1428.149 ms
+Wed May 28 2025 12:37:20 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comments/6835d2f48b7a67580edcce29 204 - 0.043 ms
+Wed May 28 2025 12:37:21 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/comments/6835d2f48b7a67580edcce29 304 - 1138.730 ms
+Wed May 28 2025 12:37:21 [SERVER-NAME] info: 10.0.60.147 - GET //image/banner-burger-delifrance-1747798781766.jpg 200 - 1.117 ms
+Wed May 28 2025 12:37:22 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/leaderboard 200 - 1095.699 ms
+Wed May 28 2025 12:37:23 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comments/like/6835d3138b7a67580edcce39 204 - 0.076 ms
+Wed May 28 2025 12:37:24 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/comments/like/6835d3138b7a67580edcce39 200 - 846.712 ms
+Wed May 28 2025 12:37:25 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/comments/6835d2f48b7a67580edcce29 200 - 1127.860 ms
+Wed May 28 2025 12:37:27 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/comments/like/6835d3138b7a67580edcce39 200 - 1127.499 ms
+Wed May 28 2025 12:37:27 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comments/6835d2f48b7a67580edcce29 204 - 0.056 ms
+Wed May 28 2025 12:37:28 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/comments/6835d2f48b7a67580edcce29 200 - 1124.457 ms
+Wed May 28 2025 12:37:37 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community/68359032feaab55bd32dfc58 204 - 0.097 ms
+Wed May 28 2025 12:37:38 [SERVER-NAME] info: 10.0.60.147 - PATCH /api/v1/community/68359032feaab55bd32dfc58 200 - 847.865 ms
+Wed May 28 2025 12:37:38 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community?page=1 204 - 0.085 ms
+Wed May 28 2025 12:37:39 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community?page=1 200 - 1126.199 ms
+Wed May 28 2025 12:37:46 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community/6835ce6c057eb93b0d221091 204 - 0.065 ms
+Wed May 28 2025 12:37:49 [SERVER-NAME] info: 10.0.60.147 - DELETE /api/v1/community/6835ce6c057eb93b0d221091 200 - 3138.350 ms
+Wed May 28 2025 12:37:49 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community?page=1 204 - 0.066 ms
+Wed May 28 2025 12:37:50 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community?page=1 200 - 1136.030 ms
+Wed May 28 2025 12:37:50 [SERVER-NAME] info: 10.0.60.147 - GET //image/1000005179-1747806821301.jpg 200 - 0.690 ms
+Wed May 28 2025 12:38:1 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community?page=2 204 - 0.071 ms
+Wed May 28 2025 12:38:2 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community?page=2 200 - 1131.646 ms
+Wed May 28 2025 12:38:14 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community/my-post?page=1 204 - 0.068 ms
+Wed May 28 2025 12:38:14 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community/my-post?page=1 200 - 854.355 ms
+Wed May 28 2025 12:38:51 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/favourit 204 - 0.065 ms
+Wed May 28 2025 12:38:53 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/favourit 304 - 1120.920 ms
+Wed May 28 2025 12:39:14 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.065 ms
+Wed May 28 2025 12:39:14 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/package/users 204 - 0.058 ms
+Wed May 28 2025 12:39:14 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 563.122 ms
+Wed May 28 2025 12:39:15 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1747746976321.png 200 - 0.959 ms
+Wed May 28 2025 12:39:15 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/package/users 304 - 859.456 ms
+Wed May 28 2025 12:39:25 [SERVER-NAME] warn: [42m[1mUnhandled event type: checkout.session.expired[22m[49m
+Wed May 28 2025 12:39:25 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 6.280 ms
+Wed May 28 2025 12:39:26 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/subscription/create-checkout-session/68355d2d815a5b530b37fc5e 204 - 0.069 ms
+Wed May 28 2025 12:39:27 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/subscription/create-checkout-session/68355d2d815a5b530b37fc5e 200 - 1607.218 ms
+Wed May 28 2025 12:39:33 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.043 ms
+Wed May 28 2025 12:39:33 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/package/users 204 - 0.059 ms
+Wed May 28 2025 12:39:34 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 569.155 ms
+Wed May 28 2025 12:39:34 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/package/users 304 - 840.435 ms
+Wed May 28 2025 12:39:52 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1747746976321.png 304 - 0.514 ms
+Wed May 28 2025 12:39:58 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.087 ms
+Wed May 28 2025 12:39:59 [SERVER-NAME] info: 10.0.60.147 - PATCH /api/v1/users/profile 200 - 872.218 ms
+Wed May 28 2025 12:40:24 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/favourit 204 - 0.062 ms
+Wed May 28 2025 12:40:26 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/favourit 304 - 1622.032 ms
+Wed May 28 2025 12:40:54 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1747746976321.png 200 - 0.888 ms
+Wed May 28 2025 12:40:57 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community/my-post?page=1 204 - 0.196 ms
+Wed May 28 2025 12:40:58 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community/my-post?page=1 304 - 858.248 ms
+Wed May 28 2025 12:41:53 [SERVER-NAME] warn: [42m[1mUnhandled event type: checkout.session.expired[22m[49m
+Wed May 28 2025 12:41:53 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.438 ms
+Wed May 28 2025 12:43:23 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/?page=1 200 - 1401.368 ms
+Wed May 28 2025 12:43:25 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/leaderboard 200 - 573.897 ms
+Wed May 28 2025 12:43:52 [SERVER-NAME] info: 10.0.60.240 - GET /image/1000005179-1747806821301.jpg 200 - 0.572 ms
+Wed May 28 2025 12:43:57 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/?page=1 200 - 1424.278 ms
+Wed May 28 2025 12:43:58 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/leaderboard 200 - 596.392 ms
+Wed May 28 2025 12:44:37 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/?page=1 200 - 1446.415 ms
+Wed May 28 2025 12:44:38 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/community/leaderboard 200 - 570.967 ms
+Wed May 28 2025 12:46:30 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 12:46:34 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 12:46:36 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 12:46:36 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 12:46:36 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 12:47:30 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 12:47:33 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 12:47:33 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 12:47:33 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 12:47:39 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 12:47:42 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 12:47:46 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 12:47:49 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 12:47:49 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 12:47:49 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 12:47:51 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 12:47:53 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 12:47:53 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 12:47:53 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 12:47:59 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/post/letest 200 - 862.396 ms
+Wed May 28 2025 12:48:39 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.342 ms
+Wed May 28 2025 12:48:39 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community/leaderboard 204 - 0.071 ms
+Wed May 28 2025 12:48:39 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community?page=1 204 - 0.073 ms
+Wed May 28 2025 12:48:39 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community/leaderboard 304 - 569.133 ms
+Wed May 28 2025 12:48:39 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 571.382 ms
+Wed May 28 2025 12:48:40 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community?page=1 304 - 1140.811 ms
+Wed May 28 2025 12:49:40 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1747746976321.png 200 - 1.364 ms
+Wed May 28 2025 12:49:40 [SERVER-NAME] info: 10.0.60.147 - GET //image/banner-burger-delifrance-1747798781766.jpg 200 - 0.797 ms
+Wed May 28 2025 12:49:40 [SERVER-NAME] info: 10.0.60.147 - GET //image/1000005178-1748078560632.png 200 - 0.491 ms
+Wed May 28 2025 12:49:40 [SERVER-NAME] info: 10.0.60.147 - GET //image/1000005179-1747806821301.jpg 200 - 0.619 ms
+Wed May 28 2025 12:50:9 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.066 ms
+Wed May 28 2025 12:50:9 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community/my-post?page=1 204 - 0.048 ms
+Wed May 28 2025 12:50:10 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 568.988 ms
+Wed May 28 2025 12:50:10 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community/my-post?page=1 304 - 844.786 ms
+Wed May 28 2025 12:51:0 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/post/managment 204 - 0.335 ms
+Wed May 28 2025 12:51:1 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/post/managment 304 - 853.962 ms
+Wed May 28 2025 12:51:7 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/post/managment/683549350586d58dbd516ad8 204 - 0.072 ms
+Wed May 28 2025 12:51:8 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/post/managment 204 - 0.074 ms
+Wed May 28 2025 12:51:8 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/post/managment 200 - 844.258 ms
+Wed May 28 2025 12:51:12 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/post/managment/683548880586d58dbd516ab3 204 - 0.068 ms
+Wed May 28 2025 12:51:13 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/post/managment 204 - 0.077 ms
+Wed May 28 2025 12:51:14 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/post/managment 200 - 880.194 ms
+Wed May 28 2025 12:51:22 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/post/managment/683545fbeafbc39c158e51b9 204 - 0.051 ms
+Wed May 28 2025 12:51:23 [SERVER-NAME] info: 10.0.60.147 - DELETE /api/v1/admin/post/managment/683545fbeafbc39c158e51b9 200 - 1576.253 ms
+Wed May 28 2025 12:51:23 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/post/managment 204 - 0.053 ms
+Wed May 28 2025 12:51:24 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/post/managment 200 - 847.119 ms
+Wed May 28 2025 12:51:31 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/post/managment/create 204 - 0.070 ms
+Wed May 28 2025 12:51:31 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/post/managment/create 201 - 594.799 ms
+Wed May 28 2025 12:51:31 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/post/managment 204 - 0.051 ms
+Wed May 28 2025 12:51:32 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/post/managment 200 - 847.097 ms
+Wed May 28 2025 12:51:41 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/post/managment/create 204 - 0.045 ms
+Wed May 28 2025 12:51:41 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/post/managment/create 201 - 566.745 ms
+Wed May 28 2025 12:51:41 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/post/managment 204 - 0.056 ms
+Wed May 28 2025 12:51:42 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/post/managment 200 - 843.992 ms
+Wed May 28 2025 12:51:46 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 281.706 ms
+Wed May 28 2025 12:51:47 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 850.926 ms
+Wed May 28 2025 12:51:48 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 850.379 ms
+Wed May 28 2025 12:51:49 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1166.207 ms
+Wed May 28 2025 12:51:50 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 579.253 ms
+Wed May 28 2025 12:51:51 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 867.513 ms
+Wed May 28 2025 12:53:32 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 1170.794 ms
+Wed May 28 2025 12:53:39 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1//admin/contact 200 - 875.397 ms
+Wed May 28 2025 12:54:58 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 12:55:1 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 12:55:1 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 12:55:1 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 12:55:29 [SERVER-NAME] info: 10.0.60.114 - GET /api/v1/post/letest 200 - 874.205 ms
+Wed May 28 2025 12:56:11 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 12:56:14 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 12:56:14 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 12:56:14 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 12:56:16 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 12:56:20 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 12:56:20 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 12:56:20 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 12:56:23 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 12:56:26 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 12:56:26 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 12:56:26 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 12:56:26 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/post/managment/create 204 - 0.651 ms
+Wed May 28 2025 12:56:29 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/post/managment/create 201 - 2774.180 ms
+Wed May 28 2025 12:56:29 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/post/managment 204 - 0.102 ms
+Wed May 28 2025 12:56:30 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/post/managment 200 - 861.565 ms
+Wed May 28 2025 12:56:33 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 12:56:36 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 12:56:36 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 12:56:36 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 12:56:37 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 12:56:40 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 12:56:40 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 12:56:40 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 12:56:47 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 12:56:50 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 12:56:50 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 12:56:50 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 12:56:51 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 12:56:53 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 12:56:56 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 12:56:56 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 12:56:56 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 12:56:59 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 12:57:2 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 12:57:2 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 12:57:2 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 12:57:7 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 12:57:9 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 12:57:9 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 12:57:9 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 12:57:14 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 12:57:17 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 12:57:17 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 12:57:17 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 12:57:20 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 12:57:22 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 12:57:22 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 12:57:22 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 12:57:25 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 12:57:28 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 12:57:28 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 12:57:28 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 12:57:29 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 12:57:31 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 12:57:35 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 12:57:38 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 12:57:38 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 12:57:38 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 12:57:46 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 12:57:48 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 12:57:48 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 12:57:48 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 12:57:53 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 12:57:56 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 12:57:56 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 12:57:56 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 12:58:56 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 12:58:59 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 12:59:2 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 12:59:4 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 12:59:7 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 12:59:7 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 12:59:7 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 12:59:15 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 12:59:18 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 12:59:18 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 12:59:18 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Wed May 28 2025 12:59:28 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed May 28 2025 12:59:31 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 28 2025 12:59:31 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Wed May 28 2025 12:59:31 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m

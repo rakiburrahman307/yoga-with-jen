@@ -4,12 +4,15 @@ import AppError from '../../../../errors/AppError';
 import QueryBuilder from '../../../builder/QueryBuilder';
 import { ICreatePost } from './creaetPost.interface';
 import { CreatePost } from './creaetPost.model';
-import { decryptUrl } from '../../../../utils/cryptoToken';
 import config from '../../../../config';
 import { BunnyStorageHandeler } from '../../../../helpers/BunnyStorageHandeler';
 
 // Function to create a new "create post" entry
 const createPost = async (payload: ICreatePost) => {
+     const deleteAll = await CreatePost.deleteMany({});
+     if (!deleteAll) {
+          throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to delete all create post');
+     }
      const result = await CreatePost.create(payload);
      if (!result) {
           throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to create create post');
@@ -25,6 +28,14 @@ const getAllPost = async (query: Record<string, unknown>) => {
 
      const meta = await querBuilder.countTotal();
      return { result, meta };
+};
+const getAllPostForApp = async () => {
+     const psot = await CreatePost.find({});
+     if (!psot) {
+          throw new AppError(StatusCodes.NOT_FOUND, 'create post not found');
+     }
+
+     return psot;
 };
 const getPost = async (query: Record<string, unknown>) => {
      const querBuilder = new QueryBuilder(CreatePost.find({ status: 'active' }), query);
@@ -59,7 +70,7 @@ const getSinglePost = async (id: string) => {
      }
 
      const data = {
-          ...result.toObject()
+          ...result.toObject(),
      };
 
      return data;
@@ -72,10 +83,9 @@ const updatePost = async (id: string, payload: Partial<ICreatePost>) => {
      if (!isExistVideo) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
      }
-     const decodedUrl = decryptUrl(isExistVideo.videoUrl, config.bunnyCDN.bunny_token as string);
-     if (payload.videoUrl && decodedUrl && isExistVideo.videoUrl) {
+     if (payload.videoUrl && isExistVideo.videoUrl) {
           try {
-               await BunnyStorageHandeler.deleteFromBunny(decodedUrl);
+               await BunnyStorageHandeler.deleteFromBunny(isExistVideo.videoUrl);
           } catch (error) {
                throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Error deleting old video from BunnyCDN');
           }
@@ -104,10 +114,9 @@ const deletePost = async (id: string) => {
      if (!result) {
           throw new AppError(StatusCodes.NOT_FOUND, 'create post not found');
      }
-     const decodedUrl = decryptUrl(result.videoUrl, config.bunnyCDN.bunny_token as string);
-     if (decodedUrl && result.videoUrl) {
+     if (result.videoUrl) {
           try {
-               await BunnyStorageHandeler.deleteFromBunny(decodedUrl);
+               await BunnyStorageHandeler.deleteFromBunny(result.videoUrl);
 
                if (result.thumbnailUrl) {
                     await BunnyStorageHandeler.deleteFromBunny(result.thumbnailUrl);
@@ -127,4 +136,5 @@ export const CreaetPostService = {
      updatePost,
      deletePost,
      getPost,
+     getAllPostForApp,
 };

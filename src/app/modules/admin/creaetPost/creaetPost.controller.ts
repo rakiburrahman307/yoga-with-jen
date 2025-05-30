@@ -32,6 +32,18 @@ const getAllCreatePost = catchAsync(async (req, res) => {
           pagination: result.meta,
      });
 });
+const getAllCreatePostForApp = catchAsync(async (req, res) => {
+     // Fetching all "Create post" entries using query parameters (e.g., for pagination)
+     const result = await CreaetPostService.getAllPostForApp();
+
+     // Sending the response with the result and pagination data
+     sendResponse(res, {
+          statusCode: StatusCodes.OK,
+          success: true,
+          message: 'Post retrieved successfully',
+          data: result[0],
+     });
+});
 
 // Controller function to fetch a specific "Create post" entry by ID
 const singlePost = catchAsync(async (req, res) => {
@@ -94,4 +106,5 @@ export const CreaetPostController = {
      updatePost,
      deletePost,
      getPost,
+     getAllCreatePostForApp,
 };

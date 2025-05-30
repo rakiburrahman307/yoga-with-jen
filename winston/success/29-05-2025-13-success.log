@@ -1,0 +1,29 @@
+Thu May 29 2025 13:0:27 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 13:0:28 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.050 ms
+Thu May 29 2025 13:0:28 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications 204 - 0.039 ms
+Thu May 29 2025 13:0:28 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/package/users 204 - 0.039 ms
+Thu May 29 2025 13:0:28 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 13:0:29 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 571.290 ms
+Thu May 29 2025 13:0:29 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/package/users 304 - 853.303 ms
+Thu May 29 2025 13:0:30 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications 304 - 1418.018 ms
+Thu May 29 2025 13:0:33 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 13:1:44 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.047 ms
+Thu May 29 2025 13:1:44 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications 204 - 0.034 ms
+Thu May 29 2025 13:1:44 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/package/users 204 - 0.030 ms
+Thu May 29 2025 13:1:44 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 13:1:44 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 563.869 ms
+Thu May 29 2025 13:1:45 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/package/users 304 - 870.143 ms
+Thu May 29 2025 13:1:45 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications 304 - 1439.047 ms
+Thu May 29 2025 13:1:49 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 13:1:49 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 13:4:13 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 13:4:13 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 13:4:17 [SERVER-NAME] info: [31mA user disconnect[39m
+Thu May 29 2025 13:4:18 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.038 ms
+Thu May 29 2025 13:4:18 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications 204 - 0.030 ms
+Thu May 29 2025 13:4:18 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/package/users 204 - 0.027 ms
+Thu May 29 2025 13:4:18 [SERVER-NAME] info: [34mA user connected[39m
+Thu May 29 2025 13:4:19 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 580.561 ms
+Thu May 29 2025 13:4:19 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/package/users 304 - 851.651 ms
+Thu May 29 2025 13:4:19 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications 304 - 1433.991 ms
+Thu May 29 2025 13:4:20 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1747746976321.png 200 - 0.613 ms

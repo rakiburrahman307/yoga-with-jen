@@ -44,7 +44,7 @@ const getComingSoonContentLetest = catchAsync(async (req, res) => {
           statusCode: StatusCodes.OK,
           success: true,
           message: 'Coming Soon retrieved successfully',
-          data: result,
+          data: result[0],
      });
 });
 

@@ -5,14 +5,14 @@ import { sendNotifications } from '../../../helpers/notificationsHelper';
 import AppError from '../../../errors/AppError';
 import { StatusCodes } from 'http-status-codes';
 import { User } from '../user/user.model';
+import QueryBuilder from '../../builder/QueryBuilder';
+import { USER_ROLES } from '../../../enums/user';
 
 // get notifications
-const getNotificationFromDB = async (user: JwtPayload): Promise<INotification> => {
-     const result = await Notification.find({ receiver: user.id }).populate(
-          'receiver',
-          'name email phoneNumber',
-     );
-
+const getNotificationFromDB = async (user: JwtPayload, query: Record<string, unknown>) => {
+     const queryBuilder = new QueryBuilder(Notification.find({ receiver: user.id }).populate('receiver', 'name email phoneNumber'), query);
+     const result = await queryBuilder.filter().sort().paginate().fields().modelQuery.exec();
+     const meta = await queryBuilder.countTotal();
      const unreadCount = await Notification.countDocuments({
           receiver: user.id,
           read: false,
@@ -20,6 +20,7 @@ const getNotificationFromDB = async (user: JwtPayload): Promise<INotification> =
 
      const data: any = {
           result,
+          meta,
           unreadCount,
      };
 
@@ -28,10 +29,7 @@ const getNotificationFromDB = async (user: JwtPayload): Promise<INotification> =
 
 // read notifications only for user
 const readNotificationToDB = async (user: JwtPayload): Promise<INotification | undefined> => {
-     const result: any = await Notification.updateMany(
-          { receiver: user.id, read: false },
-          { $set: { read: true } },
-     );
+     const result: any = await Notification.updateMany({ receiver: user.id, read: false }, { $set: { read: true } });
      return result;
 };
 const readNotificationSingleToDB = async (id: string): Promise<INotification | undefined> => {
@@ -48,18 +46,25 @@ const readNotificationSingleToDB = async (id: string): Promise<INotification | u
 };
 
 // get notifications for admin
-const adminNotificationFromDB = async () => {
-     const result = await Notification.find({ type: 'ADMIN' });
-     return result;
+const adminNotificationFromDB = async (userId: string, query: Record<string, unknown>) => {
+     const user = await User.findById(userId);
+     if (!user) {
+          throw new AppError(StatusCodes.NOT_FOUND, 'Admin not found');
+     }
+     if (user.role === USER_ROLES.SUPER_ADMIN || user.role === USER_ROLES.ADMIN) {
+          const querBuilder = new QueryBuilder(Notification.find({ receiver: user.id }), query).filter().sort().paginate().fields();
+          const result = await querBuilder.modelQuery;
+          const meta = await querBuilder.countTotal();
+          return {
+               result,
+               meta,
+          };
+     }
 };
 
 // read notifications only for admin
 const adminReadNotificationToDB = async (): Promise<INotification | null> => {
-     const result: any = await Notification.updateMany(
-          { type: 'ADMIN', read: false },
-          { $set: { read: true } },
-          { new: true },
-     );
+     const result: any = await Notification.updateMany({ type: 'ADMIN', read: false }, { $set: { read: true } }, { new: true });
      return result;
 };
 const adminSendNotificationFromDB = async (payload: any) => {
@@ -82,10 +87,7 @@ const adminSendNotificationFromDB = async (payload: any) => {
           try {
                await sendNotifications(notificationData);
           } catch (error) {
-               throw new AppError(
-                    StatusCodes.INTERNAL_SERVER_ERROR,
-                    'Error sending notification to receiver',
-               );
+               throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Error sending notification to receiver');
           }
      }
 
@@ -110,10 +112,7 @@ const adminSendNotificationFromDB = async (payload: any) => {
      try {
           await Promise.all(notificationPromises);
      } catch (error) {
-          throw new AppError(
-               StatusCodes.INTERNAL_SERVER_ERROR,
-               'Error sending notifications to users',
-          );
+          throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Error sending notifications to users');
      }
 
      return;

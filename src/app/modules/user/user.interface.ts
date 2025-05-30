@@ -14,12 +14,14 @@ export type IUser = {
      subscription: Schema.Types.ObjectId;
      completedSessions: Schema.Types.ObjectId[];
      packageName: string;
+     earlyWarningEmailSent: boolean;
      isFreeTrial: boolean;
      isDeleted: boolean;
      isSubscribed: boolean;
      hasAccess: boolean;
      address: string;
      lastLogin: Date;
+     tokenVersion : number;
      loginCount: number;
      stripeCustomerId: string;
      status: 'active' | 'blocked';

@@ -7,6 +7,7 @@ import { notFound } from './app/middleware/notFound';
 import { welcome } from './utils/welcome';
 import handleStripeWebhook from './helpers/stripe/handleStripeWebhook';
 import path from 'path';
+import setupTrialManagement from './utils/cornJobs';
 const app: Application = express();
 
 app.set('view engine', 'ejs');
@@ -41,5 +42,5 @@ app.use(globalErrorHandler);
 
 //handle not found route;
 app.use(notFound);
-
+// setupTrialManagement();
 export default app;

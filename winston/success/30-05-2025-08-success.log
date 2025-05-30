@@ -1,0 +1,653 @@
+Fri May 30 2025 8:0:1 [SERVER-NAME] info: [31mA user disconnect[39m
+Fri May 30 2025 8:0:1 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/category/subcategory/682f19cebbf267bba7c82275 204 - 0.041 ms
+Fri May 30 2025 8:0:1 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/category/get-videos/682f19cebbf267bba7c82275 204 - 0.061 ms
+Fri May 30 2025 8:0:2 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/category/subcategory/682f19cebbf267bba7c82275 304 - 1109.483 ms
+Fri May 30 2025 8:0:2 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/category/get-videos/682f19cebbf267bba7c82275 304 - 1127.529 ms
+Fri May 30 2025 8:0:2 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/frame-2147227088-(1)-1748347383511.png 304 - 0.970 ms
+Fri May 30 2025 8:0:2 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(13)-1748184060254.png 304 - 1.149 ms
+Fri May 30 2025 8:0:2 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/image5-1748184017064.png 304 - 0.829 ms
+Fri May 30 2025 8:0:6 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/subcategory/get-videos/68332bfcdf7ae842b4bbede6 204 - 0.046 ms
+Fri May 30 2025 8:0:8 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/subcategory/get-videos/68332bfcdf7ae842b4bbede6 304 - 1692.799 ms
+Fri May 30 2025 8:0:12 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/frame-2147227088-(1)-1748347383511.png 304 - 0.239 ms
+Fri May 30 2025 8:0:12 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(13)-1748184060254.png 304 - 0.550 ms
+Fri May 30 2025 8:0:12 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/image5-1748184017064.png 304 - 0.678 ms
+Fri May 30 2025 8:0:13 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/subcategory/get-videos/6835a9f8b21118700fc68199 204 - 0.073 ms
+Fri May 30 2025 8:0:15 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/subcategory/get-videos/6835a9f8b21118700fc68199 304 - 1414.115 ms
+Fri May 30 2025 8:0:18 [SERVER-NAME] info: [34mA user connected[39m
+Fri May 30 2025 8:0:20 [SERVER-NAME] info: [31mA user disconnect[39m
+Fri May 30 2025 8:0:20 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/category/subcategory/681243ae9dc2b65a00127d8e 204 - 0.070 ms
+Fri May 30 2025 8:0:20 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/category/get-videos/681243ae9dc2b65a00127d8e 204 - 0.034 ms
+Fri May 30 2025 8:0:21 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/category/get-videos/681243ae9dc2b65a00127d8e 304 - 1106.954 ms
+Fri May 30 2025 8:0:21 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/category/subcategory/681243ae9dc2b65a00127d8e 304 - 1126.325 ms
+Fri May 30 2025 8:0:21 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(10)-1747922106580.png 304 - 0.656 ms
+Fri May 30 2025 8:0:21 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(7)-1746288260397.png 304 - 0.764 ms
+Fri May 30 2025 8:0:21 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/msi_pro-1746027917413.jpg 304 - 0.945 ms
+Fri May 30 2025 8:0:23 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/subcategory/get-videos/682f2cbbbbf267bba7c82311 204 - 0.040 ms
+Fri May 30 2025 8:0:24 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/subcategory/get-videos/682f2cbbbbf267bba7c82311 304 - 1408.252 ms
+Fri May 30 2025 8:0:28 [SERVER-NAME] info: [34mA user connected[39m
+Fri May 30 2025 8:0:45 [SERVER-NAME] info: [31mA user disconnect[39m
+Fri May 30 2025 8:0:45 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/category/subcategory/682f0af832c5c0d12e1deec5 204 - 0.044 ms
+Fri May 30 2025 8:0:45 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/category/get-videos/682f0af832c5c0d12e1deec5 204 - 0.033 ms
+Fri May 30 2025 8:0:46 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/category/subcategory/682f0af832c5c0d12e1deec5 200 - 1106.951 ms
+Fri May 30 2025 8:0:46 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/category/get-videos/682f0af832c5c0d12e1deec5 200 - 1409.197 ms
+Fri May 30 2025 8:0:46 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(9)-1748183923617.png 200 - 6.609 ms
+Fri May 30 2025 8:0:46 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(10)-1748183872063.png 200 - 6.510 ms
+Fri May 30 2025 8:0:50 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/subcategory/get-videos/68332b40df7ae842b4bbedbc 204 - 0.037 ms
+Fri May 30 2025 8:0:51 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/subcategory/get-videos/68332b40df7ae842b4bbedbc 200 - 1408.464 ms
+Fri May 30 2025 8:0:54 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/subcategory/get-videos/68332b74df7ae842b4bbedc5 204 - 0.041 ms
+Fri May 30 2025 8:0:56 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/subcategory/get-videos/68332b74df7ae842b4bbedc5 200 - 1691.028 ms
+Fri May 30 2025 8:1:1 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(9)-1748183923617.png 304 - 0.302 ms
+Fri May 30 2025 8:1:1 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(10)-1748183872063.png 304 - 0.142 ms
+Fri May 30 2025 8:1:2 [SERVER-NAME] info: [34mA user connected[39m
+Fri May 30 2025 8:1:6 [SERVER-NAME] info: [31mA user disconnect[39m
+Fri May 30 2025 8:1:6 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/challenge/single/68344777123608c67303b6af 204 - 0.036 ms
+Fri May 30 2025 8:1:6 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/challenge/single/68344777123608c67303b6af 200 - 566.700 ms
+Fri May 30 2025 8:1:14 [SERVER-NAME] info: [34mA user connected[39m
+Fri May 30 2025 8:2:33 [SERVER-NAME] info: [31mA user disconnect[39m
+Fri May 30 2025 8:2:33 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/challenge/single/6836f6ff138accc2fd513e49 204 - 0.038 ms
+Fri May 30 2025 8:2:34 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/challenge/single/6836f6ff138accc2fd513e49 304 - 565.056 ms
+Fri May 30 2025 8:2:37 [SERVER-NAME] info: [34mA user connected[39m
+Fri May 30 2025 8:2:39 [SERVER-NAME] info: [31mA user disconnect[39m
+Fri May 30 2025 8:2:39 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/challenge/single/68344777123608c67303b6af 204 - 0.043 ms
+Fri May 30 2025 8:2:40 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/challenge/single/68344777123608c67303b6af 304 - 564.043 ms
+Fri May 30 2025 8:2:43 [SERVER-NAME] info: [34mA user connected[39m
+Fri May 30 2025 8:2:44 [SERVER-NAME] info: [31mA user disconnect[39m
+Fri May 30 2025 8:2:44 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/challenge/single/683446a6123608c67303b6ad 204 - 0.040 ms
+Fri May 30 2025 8:2:45 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/challenge/single/683446a6123608c67303b6ad 200 - 564.274 ms
+Fri May 30 2025 8:2:49 [SERVER-NAME] info: [34mA user connected[39m
+Fri May 30 2025 8:2:51 [SERVER-NAME] info: [31mA user disconnect[39m
+Fri May 30 2025 8:2:56 [SERVER-NAME] info: [34mA user connected[39m
+Fri May 30 2025 8:2:58 [SERVER-NAME] info: [31mA user disconnect[39m
+Fri May 30 2025 8:2:58 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/challenge/single/68344585123608c67303b6a0 204 - 0.061 ms
+Fri May 30 2025 8:2:58 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/challenge/single/68344585123608c67303b6a0 200 - 565.629 ms
+Fri May 30 2025 8:3:1 [SERVER-NAME] info: [34mA user connected[39m
+Fri May 30 2025 8:3:2 [SERVER-NAME] info: [31mA user disconnect[39m
+Fri May 30 2025 8:3:2 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/challenge/single/683443b3123608c67303b5dc 204 - 0.042 ms
+Fri May 30 2025 8:3:3 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/challenge/single/683443b3123608c67303b5dc 304 - 564.143 ms
+Fri May 30 2025 8:3:5 [SERVER-NAME] info: [34mA user connected[39m
+Fri May 30 2025 8:3:6 [SERVER-NAME] info: [31mA user disconnect[39m
+Fri May 30 2025 8:3:6 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/challenge/single/6833e67a691c1e67c4617afe 204 - 0.041 ms
+Fri May 30 2025 8:3:7 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/challenge/single/6833e67a691c1e67c4617afe 304 - 577.260 ms
+Fri May 30 2025 8:3:9 [SERVER-NAME] info: [34mA user connected[39m
+Fri May 30 2025 8:3:15 [SERVER-NAME] info: [31mA user disconnect[39m
+Fri May 30 2025 8:3:18 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 204 - 0.041 ms
+Fri May 30 2025 8:3:18 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 204 - 0.034 ms
+Fri May 30 2025 8:3:20 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 304 - 1127.166 ms
+Fri May 30 2025 8:3:20 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 304 - 1383.762 ms
+Fri May 30 2025 8:3:20 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(10)-1748075688948.png 304 - 0.342 ms
+Fri May 30 2025 8:3:23 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/subcategory/get-videos/683184a94f5c96c45dd8f97d 204 - 0.042 ms
+Fri May 30 2025 8:3:24 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/subcategory/get-videos/683184a94f5c96c45dd8f97d 200 - 1665.727 ms
+Fri May 30 2025 8:4:5 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/subcategory/get-videos/683184a94f5c96c45dd8f97d 204 - 0.065 ms
+Fri May 30 2025 8:4:7 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/subcategory/get-videos/683184a94f5c96c45dd8f97d 304 - 1699.265 ms
+Fri May 30 2025 8:4:13 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 204 - 0.042 ms
+Fri May 30 2025 8:4:13 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 204 - 0.037 ms
+Fri May 30 2025 8:4:14 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 304 - 1128.352 ms
+Fri May 30 2025 8:4:15 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 304 - 1384.529 ms
+Fri May 30 2025 8:4:15 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(10)-1748075688948.png 304 - 0.292 ms
+Fri May 30 2025 8:4:18 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/videos/683413d06f4e8798dfa1075a 204 - 0.081 ms
+Fri May 30 2025 8:4:18 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/videos/comments/683413d06f4e8798dfa1075a 204 - 0.034 ms
+Fri May 30 2025 8:4:19 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/videos/comments/683413d06f4e8798dfa1075a 304 - 1390.258 ms
+Fri May 30 2025 8:4:19 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/videos/683413d06f4e8798dfa1075a 304 - 1409.907 ms
+Fri May 30 2025 8:4:26 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(10)-1748075688948.png 304 - 0.338 ms
+Fri May 30 2025 8:4:40 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(10)-1748075688948.png 304 - 0.364 ms
+Fri May 30 2025 8:4:44 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/category 204 - 0.051 ms
+Fri May 30 2025 8:4:45 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/category 304 - 1130.861 ms
+Fri May 30 2025 8:4:45 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/frame-2147227088-(2)-1746266077431.png 200 - 0.660 ms
+Fri May 30 2025 8:4:45 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(12)-1747913463996.png 200 - 1.441 ms
+Fri May 30 2025 8:4:45 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(11)-1747917262458.png 200 - 1.425 ms
+Fri May 30 2025 8:4:45 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(15)-1747912796892.png 200 - 0.581 ms
+Fri May 30 2025 8:4:45 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(7)-1748075513522.png 200 - 1.419 ms
+Fri May 30 2025 8:4:45 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/msi-1746027437618.png 200 - 0.970 ms
+Fri May 30 2025 8:4:48 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/category/subcategory/682f19cebbf267bba7c82275 204 - 0.054 ms
+Fri May 30 2025 8:4:48 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/category/get-videos/682f19cebbf267bba7c82275 204 - 0.053 ms
+Fri May 30 2025 8:4:50 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/category/get-videos/682f19cebbf267bba7c82275 304 - 1101.072 ms
+Fri May 30 2025 8:4:50 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/category/subcategory/682f19cebbf267bba7c82275 304 - 1128.634 ms
+Fri May 30 2025 8:4:50 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/frame-2147227088-(1)-1748347383511.png 304 - 0.640 ms
+Fri May 30 2025 8:4:50 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(13)-1748184060254.png 304 - 0.368 ms
+Fri May 30 2025 8:4:50 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/image5-1748184017064.png 304 - 0.605 ms
+Fri May 30 2025 8:4:53 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/subcategory/get-videos/68332bfcdf7ae842b4bbede6 204 - 0.072 ms
+Fri May 30 2025 8:4:54 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/subcategory/get-videos/68332bfcdf7ae842b4bbede6 304 - 1692.223 ms
+Fri May 30 2025 8:4:57 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/frame-2147227088-(1)-1748347383511.png 304 - 0.362 ms
+Fri May 30 2025 8:4:57 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(13)-1748184060254.png 304 - 0.380 ms
+Fri May 30 2025 8:4:57 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/image5-1748184017064.png 304 - 0.500 ms
+Fri May 30 2025 8:4:58 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/subcategory/get-videos/68332bd1df7ae842b4bbeddd 204 - 0.046 ms
+Fri May 30 2025 8:5:0 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/subcategory/get-videos/68332bd1df7ae842b4bbeddd 304 - 1692.866 ms
+Fri May 30 2025 8:5:3 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/frame-2147227088-(1)-1748347383511.png 304 - 0.872 ms
+Fri May 30 2025 8:5:3 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(13)-1748184060254.png 304 - 0.340 ms
+Fri May 30 2025 8:5:3 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/image5-1748184017064.png 304 - 0.648 ms
+Fri May 30 2025 8:5:10 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/category/subcategory/682f0af832c5c0d12e1deec5 204 - 0.065 ms
+Fri May 30 2025 8:5:10 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/category/get-videos/682f0af832c5c0d12e1deec5 204 - 0.038 ms
+Fri May 30 2025 8:5:11 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/category/subcategory/682f0af832c5c0d12e1deec5 304 - 1128.177 ms
+Fri May 30 2025 8:5:11 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/category/get-videos/682f0af832c5c0d12e1deec5 304 - 1375.458 ms
+Fri May 30 2025 8:5:11 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(9)-1748183923617.png 304 - 0.238 ms
+Fri May 30 2025 8:5:11 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(10)-1748183872063.png 304 - 0.181 ms
+Fri May 30 2025 8:5:14 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/subcategory/get-videos/68332b40df7ae842b4bbedbc 204 - 0.070 ms
+Fri May 30 2025 8:5:16 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/subcategory/get-videos/68332b40df7ae842b4bbedbc 304 - 1373.807 ms
+Fri May 30 2025 8:5:18 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/subcategory/get-videos/68332b74df7ae842b4bbedc5 204 - 0.036 ms
+Fri May 30 2025 8:5:20 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/subcategory/get-videos/68332b74df7ae842b4bbedc5 304 - 1647.454 ms
+Fri May 30 2025 8:5:23 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(10)-1748183872063.png 304 - 0.364 ms
+Fri May 30 2025 8:5:23 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(9)-1748183923617.png 304 - 0.772 ms
+Fri May 30 2025 8:5:57 [SERVER-NAME] info: [31mA user disconnect[39m
+Fri May 30 2025 8:5:58 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.068 ms
+Fri May 30 2025 8:5:58 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/quotation/managment/admin?page=undefined 204 - 0.031 ms
+Fri May 30 2025 8:5:58 [SERVER-NAME] info: [34mA user connected[39m
+Fri May 30 2025 8:5:59 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 550.246 ms
+Fri May 30 2025 8:5:59 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/quotation/managment/admin?page=undefined 304 - 858.383 ms
+Fri May 30 2025 8:6:0 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 0.493 ms
+Fri May 30 2025 8:7:38 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/category 204 - 0.042 ms
+Fri May 30 2025 8:7:39 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/category 304 - 1134.560 ms
+Fri May 30 2025 8:7:39 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/frame-2147227088-(2)-1746266077431.png 200 - 1.210 ms
+Fri May 30 2025 8:7:39 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(15)-1747912796892.png 200 - 1.262 ms
+Fri May 30 2025 8:7:39 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(12)-1747913463996.png 200 - 1.422 ms
+Fri May 30 2025 8:7:39 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(7)-1748075513522.png 200 - 1.587 ms
+Fri May 30 2025 8:7:39 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(11)-1747917262458.png 200 - 1.628 ms
+Fri May 30 2025 8:7:39 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/msi-1746027437618.png 200 - 0.402 ms
+Fri May 30 2025 8:7:43 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 204 - 0.071 ms
+Fri May 30 2025 8:7:43 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 204 - 0.033 ms
+Fri May 30 2025 8:7:44 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 304 - 1127.694 ms
+Fri May 30 2025 8:7:44 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 304 - 1376.075 ms
+Fri May 30 2025 8:7:44 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(10)-1748075688948.png 304 - 0.246 ms
+Fri May 30 2025 8:7:47 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/subcategory/get-videos/683184a94f5c96c45dd8f97d 204 - 0.073 ms
+Fri May 30 2025 8:7:49 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/subcategory/get-videos/683184a94f5c96c45dd8f97d 304 - 1667.369 ms
+Fri May 30 2025 8:8:16 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/subcategory/get-videos/683184a94f5c96c45dd8f97d 204 - 0.042 ms
+Fri May 30 2025 8:8:17 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/subcategory/get-videos/683184a94f5c96c45dd8f97d 304 - 1694.833 ms
+Fri May 30 2025 8:8:22 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 204 - 0.042 ms
+Fri May 30 2025 8:8:22 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 204 - 0.033 ms
+Fri May 30 2025 8:8:23 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 304 - 1128.594 ms
+Fri May 30 2025 8:8:24 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 304 - 1394.584 ms
+Fri May 30 2025 8:8:24 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(10)-1748075688948.png 304 - 0.725 ms
+Fri May 30 2025 8:8:30 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/videos/683413d06f4e8798dfa1075a 204 - 0.045 ms
+Fri May 30 2025 8:8:30 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/videos/comments/683413d06f4e8798dfa1075a 204 - 0.074 ms
+Fri May 30 2025 8:8:31 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/videos/comments/683413d06f4e8798dfa1075a 304 - 1385.323 ms
+Fri May 30 2025 8:8:31 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/videos/683413d06f4e8798dfa1075a 304 - 1413.689 ms
+Fri May 30 2025 8:8:54 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/videos/comments/create 204 - 0.040 ms
+Fri May 30 2025 8:8:55 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/videos/comments/create 201 - 1434.469 ms
+Fri May 30 2025 8:8:55 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/videos/comments/683413d06f4e8798dfa1075a 204 - 0.104 ms
+Fri May 30 2025 8:8:57 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/videos/comments/683413d06f4e8798dfa1075a 200 - 1390.646 ms
+Fri May 30 2025 8:9:32 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/videos/comments/create 204 - 0.040 ms
+Fri May 30 2025 8:9:33 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/videos/comments/create 201 - 1382.265 ms
+Fri May 30 2025 8:9:33 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/videos/comments/683413d06f4e8798dfa1075a 204 - 0.037 ms
+Fri May 30 2025 8:9:35 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/videos/comments/683413d06f4e8798dfa1075a 200 - 1395.495 ms
+Fri May 30 2025 8:9:51 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/videos/683413d06f4e8798dfa1075a 204 - 0.045 ms
+Fri May 30 2025 8:9:51 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/videos/comments/683413d06f4e8798dfa1075a 204 - 0.030 ms
+Fri May 30 2025 8:9:52 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/videos/comments/683413d06f4e8798dfa1075a 304 - 1390.419 ms
+Fri May 30 2025 8:9:53 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/videos/683413d06f4e8798dfa1075a 200 - 1416.894 ms
+Fri May 30 2025 8:10:7 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comments/delete/6836ef69aae3062d02423e56 204 - 0.039 ms
+Fri May 30 2025 8:10:8 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/videos/comments/683413d06f4e8798dfa1075a 204 - 0.040 ms
+Fri May 30 2025 8:10:9 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/videos/comments/683413d06f4e8798dfa1075a 304 - 1402.971 ms
+Fri May 30 2025 8:10:14 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comments/delete/683708bd54ba6b1aefbc9720 204 - 0.066 ms
+Fri May 30 2025 8:10:15 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/videos/comments/683413d06f4e8798dfa1075a 204 - 0.035 ms
+Fri May 30 2025 8:10:16 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/videos/comments/683413d06f4e8798dfa1075a 304 - 1403.579 ms
+Fri May 30 2025 8:10:25 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comments/delete/68372122cac338e111ad737b 204 - 0.043 ms
+Fri May 30 2025 8:10:25 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/videos/comments/683413d06f4e8798dfa1075a 204 - 0.040 ms
+Fri May 30 2025 8:10:27 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/videos/comments/683413d06f4e8798dfa1075a 304 - 1403.210 ms
+Fri May 30 2025 8:10:37 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comments/delete/68372122cac338e111ad737b 204 - 0.048 ms
+Fri May 30 2025 8:10:38 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/videos/comments/683413d06f4e8798dfa1075a 204 - 0.041 ms
+Fri May 30 2025 8:10:39 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/videos/comments/683413d06f4e8798dfa1075a 304 - 1400.451 ms
+Fri May 30 2025 8:10:54 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/videos/comments/683413d06f4e8798dfa1075a 204 - 0.040 ms
+Fri May 30 2025 8:10:54 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/videos/683413d06f4e8798dfa1075a 204 - 0.033 ms
+Fri May 30 2025 8:10:55 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/videos/comments/683413d06f4e8798dfa1075a 304 - 1389.998 ms
+Fri May 30 2025 8:10:55 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/videos/683413d06f4e8798dfa1075a 304 - 1393.688 ms
+Fri May 30 2025 8:12:4 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 204 - 0.051 ms
+Fri May 30 2025 8:12:4 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 204 - 0.031 ms
+Fri May 30 2025 8:12:6 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 304 - 1108.923 ms
+Fri May 30 2025 8:12:6 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 200 - 1382.493 ms
+Fri May 30 2025 8:12:6 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(10)-1748075688948.png 304 - 0.784 ms
+Fri May 30 2025 8:12:8 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/category 204 - 0.068 ms
+Fri May 30 2025 8:12:9 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/category 304 - 1104.402 ms
+Fri May 30 2025 8:12:9 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/frame-2147227088-(2)-1746266077431.png 200 - 1.181 ms
+Fri May 30 2025 8:12:9 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(7)-1748075513522.png 200 - 0.490 ms
+Fri May 30 2025 8:12:9 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(11)-1747917262458.png 200 - 1.144 ms
+Fri May 30 2025 8:12:9 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(15)-1747912796892.png 200 - 1.403 ms
+Fri May 30 2025 8:12:9 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(12)-1747913463996.png 200 - 1.429 ms
+Fri May 30 2025 8:12:9 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/msi-1746027437618.png 200 - 0.975 ms
+Fri May 30 2025 8:12:13 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(10)-1748075688948.png 304 - 0.232 ms
+Fri May 30 2025 8:12:20 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/category/subcategory/682f19cebbf267bba7c82275 204 - 0.072 ms
+Fri May 30 2025 8:12:20 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/category/get-videos/682f19cebbf267bba7c82275 204 - 0.031 ms
+Fri May 30 2025 8:12:22 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/category/subcategory/682f19cebbf267bba7c82275 304 - 1100.590 ms
+Fri May 30 2025 8:12:22 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/category/get-videos/682f19cebbf267bba7c82275 304 - 1107.693 ms
+Fri May 30 2025 8:12:22 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/frame-2147227088-(1)-1748347383511.png 304 - 0.689 ms
+Fri May 30 2025 8:12:22 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(13)-1748184060254.png 304 - 0.790 ms
+Fri May 30 2025 8:12:22 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/image5-1748184017064.png 304 - 1.062 ms
+Fri May 30 2025 8:12:28 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/subcategory/get-videos/68332bfcdf7ae842b4bbede6 204 - 0.042 ms
+Fri May 30 2025 8:12:29 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/subcategory/get-videos/68332bfcdf7ae842b4bbede6 304 - 1660.708 ms
+Fri May 30 2025 8:12:35 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/frame-2147227088-(1)-1748347383511.png 304 - 0.499 ms
+Fri May 30 2025 8:12:35 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(13)-1748184060254.png 304 - 1.057 ms
+Fri May 30 2025 8:12:35 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/image5-1748184017064.png 304 - 0.198 ms
+Fri May 30 2025 8:12:56 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.041 ms
+Fri May 30 2025 8:12:57 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 200 - 1388.023 ms
+Fri May 30 2025 8:12:57 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/revenue 204 - 0.041 ms
+Fri May 30 2025 8:12:57 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.029 ms
+Fri May 30 2025 8:12:58 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/resent-users 200 - 550.510 ms
+Fri May 30 2025 8:12:58 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/revenue 200 - 560.776 ms
+Fri May 30 2025 8:21:35 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.227 ms
+Fri May 30 2025 8:21:35 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.026 ms
+Fri May 30 2025 8:21:36 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 200 - 1118.758 ms
+Fri May 30 2025 8:21:36 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 200 - 1127.429 ms
+Fri May 30 2025 8:21:58 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/682f19cebbf267bba7c82275 204 - 0.046 ms
+Fri May 30 2025 8:21:59 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory/682f19cebbf267bba7c82275 200 - 563.658 ms
+Fri May 30 2025 8:23:9 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/upload-video 204 - 0.041 ms
+Fri May 30 2025 8:23:13 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/videos/managment/upload-video 200 - 4430.256 ms
+Fri May 30 2025 8:23:13 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.047 ms
+Fri May 30 2025 8:23:14 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 200 - 1129.944 ms
+Fri May 30 2025 8:23:20 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/category/subcategory/682f19cebbf267bba7c82275 204 - 0.041 ms
+Fri May 30 2025 8:23:20 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/category/get-videos/682f19cebbf267bba7c82275 204 - 0.033 ms
+Fri May 30 2025 8:23:21 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/category/get-videos/682f19cebbf267bba7c82275 304 - 1111.712 ms
+Fri May 30 2025 8:23:21 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/category/subcategory/682f19cebbf267bba7c82275 200 - 1127.146 ms
+Fri May 30 2025 8:23:21 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/frame-2147227088-(1)-1748347383511.png 304 - 0.971 ms
+Fri May 30 2025 8:23:21 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(13)-1748184060254.png 304 - 1.393 ms
+Fri May 30 2025 8:23:21 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/image5-1748184017064.png 304 - 0.902 ms
+Fri May 30 2025 8:23:23 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/subcategory/get-videos/68332bfcdf7ae842b4bbede6 204 - 0.108 ms
+Fri May 30 2025 8:23:25 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/subcategory/get-videos/68332bfcdf7ae842b4bbede6 200 - 1689.045 ms
+Fri May 30 2025 8:25:50 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/subcategory/get-videos/68332bfcdf7ae842b4bbede6 204 - 0.063 ms
+Fri May 30 2025 8:25:52 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/subcategory/get-videos/68332bfcdf7ae842b4bbede6 304 - 1692.138 ms
+Fri May 30 2025 8:29:39 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/category/subcategory/682f19cebbf267bba7c82275 204 - 0.039 ms
+Fri May 30 2025 8:29:39 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/category/get-videos/682f19cebbf267bba7c82275 204 - 0.032 ms
+Fri May 30 2025 8:29:40 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/category/get-videos/682f19cebbf267bba7c82275 304 - 1115.003 ms
+Fri May 30 2025 8:29:40 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/category/subcategory/682f19cebbf267bba7c82275 304 - 1132.348 ms
+Fri May 30 2025 8:29:40 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/frame-2147227088-(1)-1748347383511.png 304 - 0.870 ms
+Fri May 30 2025 8:29:40 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(13)-1748184060254.png 304 - 1.043 ms
+Fri May 30 2025 8:29:40 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/image5-1748184017064.png 304 - 1.000 ms
+Fri May 30 2025 8:29:42 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/category 204 - 0.052 ms
+Fri May 30 2025 8:29:43 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/category 200 - 1135.778 ms
+Fri May 30 2025 8:29:43 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/frame-2147227088-(2)-1746266077431.png 200 - 0.478 ms
+Fri May 30 2025 8:29:43 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(11)-1747917262458.png 200 - 0.767 ms
+Fri May 30 2025 8:29:43 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(12)-1747913463996.png 200 - 0.770 ms
+Fri May 30 2025 8:29:43 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(7)-1748075513522.png 200 - 1.088 ms
+Fri May 30 2025 8:29:43 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(15)-1747912796892.png 200 - 0.571 ms
+Fri May 30 2025 8:29:43 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/msi-1746027437618.png 200 - 0.804 ms
+Fri May 30 2025 8:29:49 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.060 ms
+Fri May 30 2025 8:29:49 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/quotation 204 - 0.032 ms
+Fri May 30 2025 8:29:49 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comingSoon/latest 204 - 0.029 ms
+Fri May 30 2025 8:29:49 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comingSoon/latest 204 - 0.028 ms
+Fri May 30 2025 8:29:49 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.026 ms
+Fri May 30 2025 8:29:49 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/challenge/letest 204 - 0.024 ms
+Fri May 30 2025 8:29:49 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/quotation 304 - 553.846 ms
+Fri May 30 2025 8:29:49 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 590.027 ms
+Fri May 30 2025 8:29:49 [SERVER-NAME] info: [34mA user connected[39m
+Fri May 30 2025 8:29:49 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1748535499218.png 200 - 0.951 ms
+Fri May 30 2025 8:29:50 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/comingSoon/latest 304 - 827.822 ms
+Fri May 30 2025 8:29:50 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/challenge/letest 304 - 880.410 ms
+Fri May 30 2025 8:29:50 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications?page=1&limit=30 304 - 1419.278 ms
+Fri May 30 2025 8:29:50 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/comingSoon/latest 304 - 829.552 ms
+Fri May 30 2025 8:29:55 [SERVER-NAME] info: [31mA user disconnect[39m
+Fri May 30 2025 8:29:55 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.041 ms
+Fri May 30 2025 8:29:55 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.030 ms
+Fri May 30 2025 8:29:55 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comingSoon/latest 204 - 0.028 ms
+Fri May 30 2025 8:29:55 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comingSoon/latest 204 - 0.029 ms
+Fri May 30 2025 8:29:55 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/quotation 204 - 0.046 ms
+Fri May 30 2025 8:29:55 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/category 204 - 0.033 ms
+Fri May 30 2025 8:29:55 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/challenge/letest 204 - 0.031 ms
+Fri May 30 2025 8:29:56 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 550.365 ms
+Fri May 30 2025 8:29:56 [SERVER-NAME] info: [34mA user connected[39m
+Fri May 30 2025 8:29:56 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/quotation 304 - 585.202 ms
+Fri May 30 2025 8:29:56 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/challenge/letest 304 - 832.328 ms
+Fri May 30 2025 8:29:56 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/comingSoon/latest 304 - 875.081 ms
+Fri May 30 2025 8:29:57 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/category 304 - 1126.713 ms
+Fri May 30 2025 8:29:57 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications?page=1&limit=30 304 - 1409.967 ms
+Fri May 30 2025 8:29:57 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/comingSoon/latest 304 - 893.341 ms
+Fri May 30 2025 8:30:12 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community/leaderboard 204 - 0.040 ms
+Fri May 30 2025 8:30:12 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community?page=1&limit=10 204 - 0.030 ms
+Fri May 30 2025 8:30:13 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community/leaderboard 304 - 586.512 ms
+Fri May 30 2025 8:30:13 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community?page=1&limit=10 200 - 1127.888 ms
+Fri May 30 2025 8:30:14 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1748535499218.png 200 - 0.705 ms
+Fri May 30 2025 8:30:15 [SERVER-NAME] info: 10.0.60.147 - GET //image/1000005178-1748078560632.png 200 - 8.194 ms
+Fri May 30 2025 8:30:15 [SERVER-NAME] info: 10.0.60.147 - GET //image/banner-burger-delifrance-1747798781766.jpg 200 - 7.435 ms
+Fri May 30 2025 8:30:21 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community?page=2&limit=10 204 - 0.040 ms
+Fri May 30 2025 8:30:22 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community?page=2&limit=10 200 - 1126.318 ms
+Fri May 30 2025 8:30:22 [SERVER-NAME] info: 10.0.60.147 - GET //image/1000005179-1747806821301.jpg 200 - 6.946 ms
+Fri May 30 2025 8:31:0 [SERVER-NAME] info: [31mA user disconnect[39m
+Fri May 30 2025 8:31:0 [SERVER-NAME] info: [34mA user connected[39m
+Fri May 30 2025 8:31:2 [SERVER-NAME] info: [31mA user disconnect[39m
+Fri May 30 2025 8:31:2 [SERVER-NAME] info: [34mA user connected[39m
+Fri May 30 2025 8:31:14 [SERVER-NAME] info: [31mA user disconnect[39m
+Fri May 30 2025 8:31:14 [SERVER-NAME] info: [34mA user connected[39m
+Fri May 30 2025 8:31:20 [SERVER-NAME] info: [31mA user disconnect[39m
+Fri May 30 2025 8:31:20 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.048 ms
+Fri May 30 2025 8:31:20 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community/leaderboard 204 - 0.033 ms
+Fri May 30 2025 8:31:20 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.029 ms
+Fri May 30 2025 8:31:20 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community?page=1&limit=10 204 - 0.029 ms
+Fri May 30 2025 8:31:21 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 569.771 ms
+Fri May 30 2025 8:31:21 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community/leaderboard 304 - 572.377 ms
+Fri May 30 2025 8:31:21 [SERVER-NAME] info: [34mA user connected[39m
+Fri May 30 2025 8:31:21 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1748535499218.png 200 - 1.006 ms
+Fri May 30 2025 8:31:22 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community?page=1&limit=10 304 - 1172.030 ms
+Fri May 30 2025 8:31:22 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1748535499218.png 200 - 0.578 ms
+Fri May 30 2025 8:31:22 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications?page=1&limit=30 304 - 1418.376 ms
+Fri May 30 2025 8:31:43 [SERVER-NAME] info: [31mA user disconnect[39m
+Fri May 30 2025 8:31:43 [SERVER-NAME] info: [34mA user connected[39m
+Fri May 30 2025 8:31:48 [SERVER-NAME] info: [31mA user disconnect[39m
+Fri May 30 2025 8:31:48 [SERVER-NAME] info: [34mA user connected[39m
+Fri May 30 2025 8:32:20 [SERVER-NAME] info: [31mA user disconnect[39m
+Fri May 30 2025 8:32:20 [SERVER-NAME] info: [34mA user connected[39m
+Fri May 30 2025 8:33:9 [SERVER-NAME] info: [31mA user disconnect[39m
+Fri May 30 2025 8:33:9 [SERVER-NAME] info: [34mA user connected[39m
+Fri May 30 2025 8:33:17 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications 204 - 0.102 ms
+Fri May 30 2025 8:33:18 [SERVER-NAME] info: 10.0.60.147 - PATCH /api/v1/notifications 200 - 599.829 ms
+Fri May 30 2025 8:33:18 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.034 ms
+Fri May 30 2025 8:33:18 [SERVER-NAME] info: 10.0.60.147 - PATCH /api/v1/notifications 200 - 602.397 ms
+Fri May 30 2025 8:33:19 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications?page=1&limit=30 200 - 1412.607 ms
+Fri May 30 2025 8:33:21 [SERVER-NAME] info: [31mA user disconnect[39m
+Fri May 30 2025 8:33:21 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.052 ms
+Fri May 30 2025 8:33:21 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community/leaderboard 204 - 0.033 ms
+Fri May 30 2025 8:33:22 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community?page=1&limit=10 204 - 0.036 ms
+Fri May 30 2025 8:33:22 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 590.091 ms
+Fri May 30 2025 8:33:22 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community/leaderboard 304 - 601.956 ms
+Fri May 30 2025 8:33:22 [SERVER-NAME] info: [34mA user connected[39m
+Fri May 30 2025 8:33:22 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1748535499218.png 200 - 0.548 ms
+Fri May 30 2025 8:33:23 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community?page=1&limit=10 304 - 1191.376 ms
+Fri May 30 2025 8:33:23 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1748535499218.png 200 - 0.679 ms
+Fri May 30 2025 8:33:23 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications?page=1&limit=30 304 - 1440.115 ms
+Fri May 30 2025 8:33:51 [SERVER-NAME] info: [31mA user disconnect[39m
+Fri May 30 2025 8:33:52 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.097 ms
+Fri May 30 2025 8:33:52 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.048 ms
+Fri May 30 2025 8:33:52 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community/leaderboard 204 - 0.058 ms
+Fri May 30 2025 8:33:52 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community?page=1&limit=10 204 - 0.046 ms
+Fri May 30 2025 8:33:52 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 587.533 ms
+Fri May 30 2025 8:33:52 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community/leaderboard 304 - 596.068 ms
+Fri May 30 2025 8:33:52 [SERVER-NAME] info: [34mA user connected[39m
+Fri May 30 2025 8:33:53 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community?page=1&limit=10 304 - 1130.417 ms
+Fri May 30 2025 8:33:53 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications?page=1&limit=30 304 - 1416.802 ms
+Fri May 30 2025 8:36:13 [SERVER-NAME] info: [31mA user disconnect[39m
+Fri May 30 2025 8:36:13 [SERVER-NAME] info: [34mA user connected[39m
+Fri May 30 2025 8:36:22 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/challenge/letest 204 - 0.059 ms
+Fri May 30 2025 8:36:22 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/category 204 - 0.032 ms
+Fri May 30 2025 8:36:22 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/challenge/letest 304 - 845.907 ms
+Fri May 30 2025 8:36:23 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/category 304 - 1128.449 ms
+Fri May 30 2025 8:36:24 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(7)-1748075513522.png 200 - 0.571 ms
+Fri May 30 2025 8:36:24 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(11)-1747917262458.png 200 - 0.557 ms
+Fri May 30 2025 8:36:25 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(12)-1747913463996.png 200 - 2.121 ms
+Fri May 30 2025 8:36:25 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(15)-1747912796892.png 200 - 1.756 ms
+Fri May 30 2025 8:36:26 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/frame-2147227088-(2)-1746266077431.png 200 - 0.514 ms
+Fri May 30 2025 8:36:26 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/msi-1746027437618.png 200 - 0.545 ms
+Fri May 30 2025 8:36:48 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/favourit 204 - 0.048 ms
+Fri May 30 2025 8:36:49 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/favourit 304 - 1129.553 ms
+Fri May 30 2025 8:38:28 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/quotation 204 - 0.037 ms
+Fri May 30 2025 8:38:28 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comingSoon/latest 204 - 0.030 ms
+Fri May 30 2025 8:38:28 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/category 204 - 0.029 ms
+Fri May 30 2025 8:38:28 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comingSoon/latest 204 - 0.025 ms
+Fri May 30 2025 8:38:28 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/challenge/letest 204 - 0.027 ms
+Fri May 30 2025 8:38:29 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/quotation 304 - 560.331 ms
+Fri May 30 2025 8:38:29 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/comingSoon/latest 304 - 844.947 ms
+Fri May 30 2025 8:38:29 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/challenge/letest 304 - 876.029 ms
+Fri May 30 2025 8:38:30 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/category 304 - 1183.899 ms
+Fri May 30 2025 8:38:30 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(12)-1747913463996.png 200 - 0.748 ms
+Fri May 30 2025 8:38:30 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(11)-1747917262458.png 200 - 0.521 ms
+Fri May 30 2025 8:38:30 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(7)-1748075513522.png 200 - 3.333 ms
+Fri May 30 2025 8:38:30 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(15)-1747912796892.png 200 - 1.316 ms
+Fri May 30 2025 8:38:30 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/frame-2147227088-(2)-1746266077431.png 200 - 3.729 ms
+Fri May 30 2025 8:38:30 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/comingSoon/latest 304 - 844.571 ms
+Fri May 30 2025 8:38:30 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/msi-1746027437618.png 200 - 2.120 ms
+Fri May 30 2025 8:38:35 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community/leaderboard 204 - 0.054 ms
+Fri May 30 2025 8:38:35 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community?page=1&limit=10 204 - 0.033 ms
+Fri May 30 2025 8:38:35 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community/leaderboard 304 - 581.630 ms
+Fri May 30 2025 8:38:36 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community?page=1&limit=10 304 - 1176.943 ms
+Fri May 30 2025 8:38:36 [SERVER-NAME] info: 10.0.60.147 - GET //image/1000005178-1748078560632.png 200 - 0.772 ms
+Fri May 30 2025 8:38:36 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1748535499218.png 200 - 1.085 ms
+Fri May 30 2025 8:38:37 [SERVER-NAME] info: 10.0.60.147 - GET //image/banner-burger-delifrance-1747798781766.jpg 200 - 0.440 ms
+Fri May 30 2025 8:39:14 [SERVER-NAME] info: 10.0.60.123 - POST /api/v1/auth/login 200 - 1703.501 ms
+Fri May 30 2025 8:40:21 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1748535499218.png 200 - 0.428 ms
+Fri May 30 2025 8:42:58 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/login 200 - 1453.080 ms
+Fri May 30 2025 8:42:59 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 587.430 ms
+Fri May 30 2025 8:43:2 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 597.307 ms
+Fri May 30 2025 8:43:3 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 882.251 ms
+Fri May 30 2025 8:43:4 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 885.124 ms
+Fri May 30 2025 8:43:6 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1178.497 ms
+Fri May 30 2025 8:43:7 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 590.247 ms
+Fri May 30 2025 8:43:8 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 889.015 ms
+Fri May 30 2025 8:44:13 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/quotation/managment/admin?page=undefined 204 - 0.057 ms
+Fri May 30 2025 8:44:13 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/quotation/managment/admin?page=undefined 304 - 882.847 ms
+Fri May 30 2025 8:44:17 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/quotation/managment/68386feee1e215441adb7ebe 204 - 0.064 ms
+Fri May 30 2025 8:44:18 [SERVER-NAME] info: 10.0.60.147 - DELETE /api/v1/admin/quotation/managment/68386feee1e215441adb7ebe 200 - 886.889 ms
+Fri May 30 2025 8:44:18 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/quotation/managment/admin?page=undefined 204 - 0.062 ms
+Fri May 30 2025 8:44:19 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/quotation/managment/admin?page=undefined 200 - 881.690 ms
+Fri May 30 2025 8:44:22 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/quotation/managment/683830c1fb55eed9f54bf0bc 204 - 0.059 ms
+Fri May 30 2025 8:44:23 [SERVER-NAME] info: 10.0.60.147 - DELETE /api/v1/admin/quotation/managment/683830c1fb55eed9f54bf0bc 200 - 886.478 ms
+Fri May 30 2025 8:44:24 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/quotation/managment/admin?page=undefined 200 - 884.027 ms
+Fri May 30 2025 8:44:26 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/quotation/managment/68382936861bfc0165f7ba14 204 - 0.061 ms
+Fri May 30 2025 8:44:27 [SERVER-NAME] info: 10.0.60.147 - DELETE /api/v1/admin/quotation/managment/68382936861bfc0165f7ba14 200 - 885.564 ms
+Fri May 30 2025 8:44:27 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/quotation/managment/admin?page=undefined 204 - 0.063 ms
+Fri May 30 2025 8:44:28 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/quotation/managment/admin?page=undefined 200 - 884.230 ms
+Fri May 30 2025 8:44:30 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/quotation/managment/68381efcdbf31ae9ed0157a9 204 - 0.082 ms
+Fri May 30 2025 8:44:31 [SERVER-NAME] info: 10.0.60.147 - DELETE /api/v1/admin/quotation/managment/68381efcdbf31ae9ed0157a9 200 - 884.164 ms
+Fri May 30 2025 8:44:32 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/quotation/managment/admin?page=undefined 200 - 881.829 ms
+Fri May 30 2025 8:44:57 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1174.733 ms
+Fri May 30 2025 8:44:59 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 887.523 ms
+Fri May 30 2025 8:45:0 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 591.797 ms
+Fri May 30 2025 8:45:1 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 587.204 ms
+Fri May 30 2025 8:45:2 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 889.305 ms
+Fri May 30 2025 8:45:3 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1175.694 ms
+Fri May 30 2025 8:45:4 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 587.827 ms
+Fri May 30 2025 8:45:5 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 881.599 ms
+Fri May 30 2025 8:45:52 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 200 - 1174.879 ms
+Fri May 30 2025 8:45:54 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 200 - 1472.894 ms
+Fri May 30 2025 8:45:55 [SERVER-NAME] info: 10.0.60.240 - GET //thumbnail/rectangle-(10)-1748075688948.png 200 - 7.644 ms
+Fri May 30 2025 8:46:6 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/subcategory/682f19cebbf267bba7c82275 200 - 1176.105 ms
+Fri May 30 2025 8:46:7 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/get-videos/682f19cebbf267bba7c82275 200 - 1175.739 ms
+Fri May 30 2025 8:46:7 [SERVER-NAME] info: 10.0.60.240 - GET //thumbnail/frame-2147227088-(1)-1748347383511.png 200 - 7.621 ms
+Fri May 30 2025 8:46:7 [SERVER-NAME] info: 10.0.60.240 - GET //thumbnail/rectangle-(13)-1748184060254.png 200 - 7.443 ms
+Fri May 30 2025 8:46:12 [SERVER-NAME] info: 10.0.60.240 - GET //thumbnail/image5-1748184017064.png 200 - 12.808 ms
+Fri May 30 2025 8:46:18 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/subcategory/get-videos/6835a9f8b21118700fc68199?page=1 200 - 1477.827 ms
+Fri May 30 2025 8:46:18 [SERVER-NAME] info: 10.0.60.240 - GET /thumbnail/frame-2147227088-(1)-1748347383511.png 200 - 0.822 ms
+Fri May 30 2025 8:46:20 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subscription?page=1&limit=10 204 - 0.057 ms
+Fri May 30 2025 8:46:20 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subscription?page=1&limit=10&page=1&limit=10 204 - 0.063 ms
+Fri May 30 2025 8:46:21 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subscription?page=1&limit=10 200 - 1185.788 ms
+Fri May 30 2025 8:46:21 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subscription?page=1&limit=10&page=1&limit=10 200 - 1171.008 ms
+Fri May 30 2025 8:46:23 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.061 ms
+Fri May 30 2025 8:46:24 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 200 - 1474.932 ms
+Fri May 30 2025 8:46:24 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/revenue 204 - 0.061 ms
+Fri May 30 2025 8:46:24 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.047 ms
+Fri May 30 2025 8:46:25 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/revenue 304 - 586.773 ms
+Fri May 30 2025 8:46:25 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/resent-users 304 - 589.880 ms
+Fri May 30 2025 8:46:27 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/user/managment? 204 - 0.059 ms
+Fri May 30 2025 8:46:28 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/user/managment? 200 - 890.290 ms
+Fri May 30 2025 8:46:35 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.081 ms
+Fri May 30 2025 8:46:36 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 200 - 1184.768 ms
+Fri May 30 2025 8:46:36 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/frame-2147227088-(2)-1746266077431.png 200 - 1.922 ms
+Fri May 30 2025 8:46:36 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(12)-1747913463996.png 200 - 2.501 ms
+Fri May 30 2025 8:46:36 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(15)-1747912796892.png 200 - 2.276 ms
+Fri May 30 2025 8:46:36 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(11)-1747917262458.png 200 - 1.999 ms
+Fri May 30 2025 8:46:36 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(7)-1748075513522.png 200 - 2.752 ms
+Fri May 30 2025 8:46:36 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/msi-1746027437618.png 200 - 2.280 ms
+Fri May 30 2025 8:46:43 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/subcategory/681243ae9dc2b65a00127d8e 200 - 1177.399 ms
+Fri May 30 2025 8:46:45 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/get-videos/681243ae9dc2b65a00127d8e 200 - 1173.309 ms
+Fri May 30 2025 8:46:45 [SERVER-NAME] info: 10.0.60.240 - GET //thumbnail/rectangle-(10)-1747922106580.png 200 - 8.159 ms
+Fri May 30 2025 8:46:46 [SERVER-NAME] info: 10.0.60.240 - GET //thumbnail/rectangle-(7)-1746288260397.png 200 - 8.562 ms
+Fri May 30 2025 8:46:50 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 880.755 ms
+Fri May 30 2025 8:46:53 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/explore 200 - 886.317 ms
+Fri May 30 2025 8:46:54 [SERVER-NAME] info: 10.0.60.240 - GET /thumbnail/frame-2147227088-(2)-1746266077431.png 200 - 0.681 ms
+Fri May 30 2025 8:46:54 [SERVER-NAME] info: 10.0.60.240 - GET /thumbnail/rectangle-(11)-1747917262458.png 200 - 0.875 ms
+Fri May 30 2025 8:46:55 [SERVER-NAME] info: 10.0.60.240 - GET /thumbnail/rectangle-(7)-1748075513522.png 200 - 0.643 ms
+Fri May 30 2025 8:46:55 [SERVER-NAME] info: 10.0.60.240 - GET /thumbnail/rectangle-(15)-1747912796892.png 200 - 1.377 ms
+Fri May 30 2025 8:46:55 [SERVER-NAME] info: 10.0.60.240 - GET /thumbnail/rectangle-(12)-1747913463996.png 200 - 0.821 ms
+Fri May 30 2025 8:46:58 [SERVER-NAME] info: 10.0.60.240 - GET /thumbnail/msi-1746027437618.png 200 - 0.758 ms
+Fri May 30 2025 8:47:23 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category/682f06abd381266a8da5d49c 204 - 0.107 ms
+Fri May 30 2025 8:47:24 [SERVER-NAME] info: 10.0.60.147 - PATCH /api/v1/admin/category/682f06abd381266a8da5d49c 200 - 896.497 ms
+Fri May 30 2025 8:47:24 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.071 ms
+Fri May 30 2025 8:47:25 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 200 - 1174.597 ms
+Fri May 30 2025 8:47:44 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category/681243ae9dc2b65a00127d8e 204 - 0.060 ms
+Fri May 30 2025 8:47:45 [SERVER-NAME] info: 10.0.60.147 - PATCH /api/v1/admin/category/681243ae9dc2b65a00127d8e 200 - 903.602 ms
+Fri May 30 2025 8:47:45 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.056 ms
+Fri May 30 2025 8:47:47 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 200 - 1175.175 ms
+Fri May 30 2025 8:47:47 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(16)-1748573265280.png 200 - 1.212 ms
+Fri May 30 2025 8:47:50 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 588.348 ms
+Fri May 30 2025 8:47:53 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 586.360 ms
+Fri May 30 2025 8:47:54 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 587.516 ms
+Fri May 30 2025 8:47:55 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 884.588 ms
+Fri May 30 2025 8:47:56 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1175.644 ms
+Fri May 30 2025 8:47:57 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 588.983 ms
+Fri May 30 2025 8:47:58 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 887.717 ms
+Fri May 30 2025 8:48:0 [SERVER-NAME] info: 10.0.60.240 - GET //thumbnail/rectangle-(16)-1748573265280.png 200 - 0.502 ms
+Fri May 30 2025 8:48:6 [SERVER-NAME] info: [31mA user disconnect[39m
+Fri May 30 2025 8:48:35 [SERVER-NAME] info: [31mA user disconnect[39m
+Fri May 30 2025 8:48:41 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 878.806 ms
+Fri May 30 2025 8:48:42 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/explore 200 - 875.982 ms
+Fri May 30 2025 8:48:42 [SERVER-NAME] info: 10.0.60.240 - GET /thumbnail/rectangle-(16)-1748573265280.png 200 - 0.441 ms
+Fri May 30 2025 8:48:57 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users 204 - 0.040 ms
+Fri May 30 2025 8:48:59 [SERVER-NAME] warn: [42m[1mUnhandled event type: customer.created[22m[49m
+Fri May 30 2025 8:48:59 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.717 ms
+Fri May 30 2025 8:48:59 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/users 200 - 2289.322 ms
+Fri May 30 2025 8:49:1 [SERVER-NAME] info: Mail send successfully
+Fri May 30 2025 8:49:25 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/auth/verify-email 204 - 0.043 ms
+Fri May 30 2025 8:49:26 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/verify-email 200 - 900.643 ms
+Fri May 30 2025 8:49:27 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.043 ms
+Fri May 30 2025 8:49:27 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.033 ms
+Fri May 30 2025 8:49:27 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/quotation 204 - 0.029 ms
+Fri May 30 2025 8:49:27 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comingSoon/latest 204 - 0.029 ms
+Fri May 30 2025 8:49:27 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comingSoon/latest 204 - 0.026 ms
+Fri May 30 2025 8:49:27 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/challenge/letest 204 - 0.029 ms
+Fri May 30 2025 8:49:27 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/category 204 - 0.033 ms
+Fri May 30 2025 8:49:27 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/quotation 200 - 586.379 ms
+Fri May 30 2025 8:49:50 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/auth/login 204 - 0.042 ms
+Fri May 30 2025 8:49:56 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/login 200 - 1391.043 ms
+Fri May 30 2025 8:49:56 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.043 ms
+Fri May 30 2025 8:49:56 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.050 ms
+Fri May 30 2025 8:49:56 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comingSoon/latest 204 - 0.036 ms
+Fri May 30 2025 8:49:56 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comingSoon/latest 204 - 0.038 ms
+Fri May 30 2025 8:49:56 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/category 204 - 0.034 ms
+Fri May 30 2025 8:49:56 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/challenge/letest 204 - 0.030 ms
+Fri May 30 2025 8:49:56 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/quotation 204 - 0.038 ms
+Fri May 30 2025 8:49:57 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/quotation 304 - 554.875 ms
+Fri May 30 2025 8:49:57 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 590.260 ms
+Fri May 30 2025 8:49:57 [SERVER-NAME] info: [34mA user connected[39m
+Fri May 30 2025 8:49:57 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/challenge/letest 304 - 827.438 ms
+Fri May 30 2025 8:49:57 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/comingSoon/latest 304 - 883.433 ms
+Fri May 30 2025 8:49:58 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/category 200 - 1136.910 ms
+Fri May 30 2025 8:49:58 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications?page=1&limit=30 200 - 1415.537 ms
+Fri May 30 2025 8:49:58 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/comingSoon/latest 304 - 885.725 ms
+Fri May 30 2025 8:49:59 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(12)-1747913463996.png 200 - 0.797 ms
+Fri May 30 2025 8:49:59 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(11)-1747917262458.png 200 - 0.763 ms
+Fri May 30 2025 8:49:59 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(7)-1748075513522.png 200 - 0.600 ms
+Fri May 30 2025 8:49:59 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/frame-2147227088-(2)-1746266077431.png 200 - 1.010 ms
+Fri May 30 2025 8:49:59 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(16)-1748573265280.png 200 - 1.321 ms
+Fri May 30 2025 8:49:59 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(15)-1747912796892.png 200 - 1.112 ms
+Fri May 30 2025 8:50:52 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 592.289 ms
+Fri May 30 2025 8:50:53 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 594.605 ms
+Fri May 30 2025 8:50:54 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 878.482 ms
+Fri May 30 2025 8:50:55 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/favourit 204 - 0.045 ms
+Fri May 30 2025 8:50:55 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1176.579 ms
+Fri May 30 2025 8:50:56 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/favourit 200 - 841.495 ms
+Fri May 30 2025 8:50:56 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 586.266 ms
+Fri May 30 2025 8:50:57 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 881.901 ms
+Fri May 30 2025 8:51:2 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/frame-2147227088-(2)-1746266077431.png 200 - 3.926 ms
+Fri May 30 2025 8:51:2 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(15)-1747912796892.png 200 - 4.604 ms
+Fri May 30 2025 8:51:2 [SERVER-NAME] info: 10.0.60.147 - GET /thumbnail/rectangle-(16)-1748573265280.png 200 - 4.272 ms
+Fri May 30 2025 8:51:7 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 200 - 1177.289 ms
+Fri May 30 2025 8:51:9 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 200 - 1464.701 ms
+Fri May 30 2025 8:51:44 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 200 - 1465.249 ms
+Fri May 30 2025 8:54:33 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/auth/login 204 - 0.048 ms
+Fri May 30 2025 8:54:35 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/login 200 - 1737.589 ms
+Fri May 30 2025 8:54:35 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.052 ms
+Fri May 30 2025 8:54:35 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.037 ms
+Fri May 30 2025 8:54:35 [SERVER-NAME] info: [34mA user connected[39m
+Fri May 30 2025 8:54:36 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 590.277 ms
+Fri May 30 2025 8:54:36 [SERVER-NAME] info: 10.0.60.147 - GET //image/portrait-confident-male-doctor-1746094899709.png 304 - 1.898 ms
+Fri May 30 2025 8:54:37 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 200 - 1413.490 ms
+Fri May 30 2025 8:54:37 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/revenue 204 - 0.044 ms
+Fri May 30 2025 8:54:37 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.031 ms
+Fri May 30 2025 8:54:37 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/revenue 304 - 562.478 ms
+Fri May 30 2025 8:54:37 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/resent-users 200 - 587.835 ms
+Fri May 30 2025 8:54:41 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.040 ms
+Fri May 30 2025 8:54:41 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.031 ms
+Fri May 30 2025 8:54:42 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 1123.299 ms
+Fri May 30 2025 8:54:42 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 200 - 1178.943 ms
+Fri May 30 2025 8:55:24 [SERVER-NAME] info: [31mA user disconnect[39m
+Fri May 30 2025 8:55:31 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 906.336 ms
+Fri May 30 2025 8:55:36 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/explore 200 - 882.438 ms
+Fri May 30 2025 8:55:36 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/auth/login 204 - 0.040 ms
+Fri May 30 2025 8:55:38 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 841.809 ms
+Fri May 30 2025 8:55:41 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/explore 200 - 842.868 ms
+Fri May 30 2025 8:55:43 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/auth/login 204 - 0.042 ms
+Fri May 30 2025 8:55:44 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 200 - 1130.178 ms
+Fri May 30 2025 8:55:44 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/login 200 - 1672.805 ms
+Fri May 30 2025 8:55:45 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.038 ms
+Fri May 30 2025 8:55:45 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.053 ms
+Fri May 30 2025 8:55:45 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.043 ms
+Fri May 30 2025 8:55:45 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/quotation 204 - 0.031 ms
+Fri May 30 2025 8:55:45 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comingSoon/latest 204 - 0.027 ms
+Fri May 30 2025 8:55:45 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comingSoon/latest 204 - 0.024 ms
+Fri May 30 2025 8:55:45 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/category 204 - 0.023 ms
+Fri May 30 2025 8:55:45 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/challenge/letest 204 - 0.023 ms
+Fri May 30 2025 8:55:46 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/quotation 304 - 552.118 ms
+Fri May 30 2025 8:55:46 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 563.234 ms
+Fri May 30 2025 8:55:46 [SERVER-NAME] info: [34mA user connected[39m
+Fri May 30 2025 8:55:46 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1748535499218.png 200 - 0.754 ms
+Fri May 30 2025 8:55:46 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/challenge/letest 304 - 849.912 ms
+Fri May 30 2025 8:55:46 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/comingSoon/latest 304 - 875.897 ms
+Fri May 30 2025 8:55:46 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications?page=1&limit=30 200 - 1468.284 ms
+Fri May 30 2025 8:55:46 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 200 - 1897.954 ms
+Fri May 30 2025 8:55:46 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/category 304 - 1111.154 ms
+Fri May 30 2025 8:55:47 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/comingSoon/latest 304 - 875.930 ms
+Fri May 30 2025 8:55:48 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications?page=1&limit=30 200 - 2956.369 ms
+Fri May 30 2025 8:55:52 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/favourit/683413d06f4e8798dfa1075a 200 - 1139.895 ms
+Fri May 30 2025 8:55:54 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category/get-videos/683183f94f5c96c45dd8f96b 200 - 1419.285 ms
+Fri May 30 2025 8:55:55 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/?page=1 200 - 1143.315 ms
+Fri May 30 2025 8:56:0 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/favourit/watch/683413d06f4e8798dfa1075a 200 - 850.694 ms
+Fri May 30 2025 8:56:7 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 566.313 ms
+Fri May 30 2025 8:56:8 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 567.390 ms
+Fri May 30 2025 8:56:9 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 850.537 ms
+Fri May 30 2025 8:56:10 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1133.693 ms
+Fri May 30 2025 8:56:11 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 566.742 ms
+Fri May 30 2025 8:56:12 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/challenge/letest 200 - 850.380 ms
+Fri May 30 2025 8:56:28 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/single/68391e30cfe6d738d4fcd6f6 204 - 0.039 ms
+Fri May 30 2025 8:56:29 [SERVER-NAME] info: 10.0.60.147 - PATCH /api/v1/notifications/single/68391e30cfe6d738d4fcd6f6 200 - 573.556 ms
+Fri May 30 2025 8:56:29 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.041 ms
+Fri May 30 2025 8:56:30 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications?page=1&limit=30 200 - 1418.942 ms
+Fri May 30 2025 8:56:50 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community/leaderboard 204 - 0.294 ms
+Fri May 30 2025 8:56:50 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community?page=1&limit=10 204 - 0.034 ms
+Fri May 30 2025 8:56:51 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community/leaderboard 200 - 577.122 ms
+Fri May 30 2025 8:56:51 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community?page=1&limit=10 304 - 1175.069 ms
+Fri May 30 2025 8:56:51 [SERVER-NAME] info: 10.0.60.147 - GET //image/1000005178-1748078560632.png 200 - 0.776 ms
+Fri May 30 2025 8:56:51 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1748535499218.png 200 - 0.514 ms
+Fri May 30 2025 8:56:51 [SERVER-NAME] info: 10.0.60.147 - GET //image/banner-burger-delifrance-1747798781766.jpg 200 - 0.589 ms
+Fri May 30 2025 8:56:54 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comments/68388899cfe6d738d4fcd306 204 - 0.289 ms
+Fri May 30 2025 8:56:55 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/comments/68388899cfe6d738d4fcd306 200 - 888.751 ms
+Fri May 30 2025 8:57:19 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comments 204 - 0.115 ms
+Fri May 30 2025 8:57:20 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/comments 201 - 1773.603 ms
+Fri May 30 2025 8:57:20 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comments/68388899cfe6d738d4fcd306 204 - 0.036 ms
+Fri May 30 2025 8:57:22 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/comments/68388899cfe6d738d4fcd306 200 - 1167.422 ms
+Fri May 30 2025 8:57:56 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comments 204 - 0.048 ms
+Fri May 30 2025 8:57:58 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/comments 201 - 2273.946 ms
+Fri May 30 2025 8:57:58 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/comments/68388899cfe6d738d4fcd306 204 - 0.048 ms
+Fri May 30 2025 8:58:0 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/comments/68388899cfe6d738d4fcd306 200 - 1170.611 ms
+Fri May 30 2025 8:58:13 [SERVER-NAME] info: [31mA user disconnect[39m
+Fri May 30 2025 8:58:14 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.050 ms
+Fri May 30 2025 8:58:14 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.029 ms
+Fri May 30 2025 8:58:14 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community/leaderboard 204 - 0.029 ms
+Fri May 30 2025 8:58:14 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/community?page=1&limit=10 204 - 0.028 ms
+Fri May 30 2025 8:58:15 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community/leaderboard 304 - 575.154 ms
+Fri May 30 2025 8:58:15 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 585.676 ms
+Fri May 30 2025 8:58:15 [SERVER-NAME] info: [34mA user connected[39m
+Fri May 30 2025 8:58:15 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1748535499218.png 200 - 0.519 ms
+Fri May 30 2025 8:58:15 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/community?page=1&limit=10 200 - 1113.255 ms
+Fri May 30 2025 8:58:15 [SERVER-NAME] info: 10.0.60.147 - GET //image/1000005178-1748078560632.png 200 - 0.543 ms
+Fri May 30 2025 8:58:15 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1748535499218.png 200 - 0.524 ms
+Fri May 30 2025 8:58:15 [SERVER-NAME] info: 10.0.60.147 - GET //image/banner-burger-delifrance-1747798781766.jpg 200 - 0.768 ms
+Fri May 30 2025 8:58:15 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications?page=1&limit=30 304 - 1423.851 ms
+Fri May 30 2025 8:58:47 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/login 200 - 1389.461 ms
+Fri May 30 2025 8:58:48 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 566.064 ms
+Fri May 30 2025 8:58:50 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/package/users 200 - 852.585 ms
+Fri May 30 2025 8:59:0 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/subscription/create-checkout-session/68384ffb21e867b7c7b41a69 200 - 1627.589 ms
+Fri May 30 2025 8:59:56 [SERVER-NAME] warn: [42m[1mUnhandled event type: charge.succeeded[22m[49m
+Fri May 30 2025 8:59:56 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.158 ms
+Fri May 30 2025 8:59:56 [SERVER-NAME] warn: [42m[1mUnhandled event type: checkout.session.completed[22m[49m
+Fri May 30 2025 8:59:56 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.870 ms
+Fri May 30 2025 8:59:56 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_method.attached[22m[49m
+Fri May 30 2025 8:59:56 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.914 ms
+Fri May 30 2025 8:59:56 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.404 ms
+Fri May 30 2025 8:59:56 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.385 ms
+Fri May 30 2025 8:59:56 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.succeeded[22m[49m
+Fri May 30 2025 8:59:56 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.919 ms
+Fri May 30 2025 8:59:56 [SERVER-NAME] warn: [42m[1mUnhandled event type: payment_intent.created[22m[49m
+Fri May 30 2025 8:59:56 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.900 ms
+Fri May 30 2025 8:59:56 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.created[22m[49m
+Fri May 30 2025 8:59:56 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.201 ms
+Fri May 30 2025 8:59:56 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.finalized[22m[49m
+Fri May 30 2025 8:59:56 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 0.988 ms
+Fri May 30 2025 8:59:56 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.updated[22m[49m
+Fri May 30 2025 8:59:56 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.007 ms
+Fri May 30 2025 8:59:56 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.paid[22m[49m
+Fri May 30 2025 8:59:56 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 2.834 ms
+Fri May 30 2025 8:59:57 [SERVER-NAME] warn: [42m[1mUnhandled event type: invoice.payment_succeeded[22m[49m
+Fri May 30 2025 8:59:57 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/stripe/webhook 200 - 1.500 ms
+Fri May 30 2025 8:59:59 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/subscription/details 200 - 1179.277 ms

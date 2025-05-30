@@ -23,6 +23,16 @@ const getAllQuotation = catchAsync(async (req, res) => {
           data: result,
      });
 });
+const getAllQuotationforDasgboard = catchAsync(async (req, res) => {
+     const result = await quotationManagementService.getQuotationFromDb2(req.query);
+     sendResponse(res, {
+          success: true,
+          statusCode: StatusCodes.OK,
+          message: 'Quotation retrived successfuly',
+          data: result.result,
+          pagination: result.meta,
+     });
+});
 // update status
 const getByIdQuotation = catchAsync(async (req, res) => {
      const result = await quotationManagementService.getSingleQuotation(req.params.id);
@@ -73,4 +83,5 @@ export const QuotationManagementController = {
      updateQuotation,
      deleteQuotation,
      updateStatusQuotation,
+     getAllQuotationforDasgboard,
 };

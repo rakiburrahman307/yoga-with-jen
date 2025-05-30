@@ -1,8 +1,6 @@
 import { StatusCodes } from 'http-status-codes';
 import AppError from '../../../errors/AppError';
 import { Video } from '../admin/videosManagement/videoManagement.model';
-import { decryptUrl } from '../../../utils/cryptoToken';
-import config from '../../../config';
 import { User } from '../user/user.model';
 import { Favourite } from '../favourit/favourit.model';
 const getFevVideosOrNot = async (videoId: string, userId: string) => {

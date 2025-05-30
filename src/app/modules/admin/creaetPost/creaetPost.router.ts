@@ -12,7 +12,7 @@ const router = express.Router();
 router.post('/create', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), fileUploadHandlerbunny, validateRequest(CreatePostValidation.createPost), CreaetPostController.createPost);
 
 // Route to get all "Create Post" entries
-router.get('/letest', auth(USER_ROLES.USER), CreaetPostController.getAllCreatePost);
+router.get('/letest', auth(USER_ROLES.USER), CreaetPostController.getAllCreatePostForApp);
 // Route to get all "Create Post" entries
 router.get('/', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), CreaetPostController.getAllCreatePost);
 

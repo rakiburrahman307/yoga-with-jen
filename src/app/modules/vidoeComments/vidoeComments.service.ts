@@ -2,7 +2,6 @@ import { StatusCodes } from 'http-status-codes';
 import AppError from '../../../errors/AppError';
 import QueryBuilder from '../../builder/QueryBuilder';
 import { Community } from '../community/community.model';
-import { sendNotifications } from '../../../helpers/notificationsHelper';
 import { User } from '../user/user.model';
 import { VideoComment } from './vidoeComments.model';
 import { Video } from '../admin/videosManagement/videoManagement.model';
@@ -189,15 +188,7 @@ const replyToComment = async (commentId: string, commentCreatorId: string, conte
           throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Failed to update parent comment with the new reply');
      }
 
-     // Send notification to the person being replied to
-     if (commentCreatorId !== parentComment.commentCreatorId.toString()) {
-          await sendNotifications({
-               title: `${user.name}`,
-               receiver: parentComment.commentCreatorId,
-               message: `A new reply has been posted`,
-               type: 'MESSAGE',
-          });
-     }
+  
 
      return reply;
 };

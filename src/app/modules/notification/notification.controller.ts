@@ -1,4 +1,3 @@
-import { Request, Response } from 'express';
 import catchAsync from '../../../shared/catchAsync';
 import sendResponse from '../../../shared/sendResponse';
 import { StatusCodes } from 'http-status-codes';
@@ -6,24 +5,30 @@ import { NotificationService } from './notification.service';
 
 const getNotificationFromDB = catchAsync(async (req, res) => {
      const user: any = req.user;
-     const result = await NotificationService.getNotificationFromDB(user);
+     const result = await NotificationService.getNotificationFromDB(user, req.query);
 
      sendResponse(res, {
           statusCode: StatusCodes.OK,
           success: true,
           message: 'Notifications Retrieved Successfully',
-          data: result,
+          data: {
+               result: result.result,
+               unreadCount: result?.unreadCount,
+          },
+          pagination: result?.meta,
      });
 });
 
 const adminNotificationFromDB = catchAsync(async (req, res) => {
-     const result = await NotificationService.adminNotificationFromDB();
+     const { id }: any = req.user;
+     const result = await NotificationService.adminNotificationFromDB(id, req.query);
 
      sendResponse(res, {
           statusCode: StatusCodes.OK,
           success: true,
           message: 'Notifications Retrieved Successfully',
-          data: result,
+          data: result?.result,
+          pagination: result?.meta,
      });
 });
 

@@ -5,11 +5,19 @@ import AppError from '../../../errors/AppError';
 import { Package } from '../../../app/modules/package/package.model';
 import { User } from '../../../app/modules/user/user.model';
 import { Subscription } from '../../../app/modules/subscription/subscription.model';
+import { sendNotifications } from '../../notificationsHelper';
 
-const formatUnixToDate = (timestamp: number) => new Date(timestamp * 1000);
+const formatUnixToIsoUtc = (timestamp: number): string => {
+     const date = new Date(timestamp * 1000);
+     return date.toISOString().replace('Z', '+00:00');
+};
 
 export const handleSubscriptionCreated = async (data: Stripe.Subscription) => {
      try {
+          const getAdmin = await User.findOne({ role: 'SUPER_ADMIN' });
+          if (!getAdmin) {
+               throw new AppError(StatusCodes.NOT_FOUND, 'Admin not found!');
+          }
           const subscription = await stripe.subscriptions.retrieve(data.id);
           const customer = (await stripe.customers.retrieve(subscription.customer as string)) as Stripe.Customer;
           const priceId = subscription.items.data[0]?.price?.id;
@@ -20,8 +28,8 @@ export const handleSubscriptionCreated = async (data: Stripe.Subscription) => {
           // Extract other needed fields from the subscription object
           const remaining = subscription.items.data[0]?.quantity || 0;
           // Convert Unix timestamp to Date
-          const currentPeriodStart = formatUnixToDate(subscription.current_period_start);
-          const currentPeriodEnd = formatUnixToDate(subscription.current_period_end);
+          const currentPeriodStart = formatUnixToIsoUtc(subscription.current_period_start);
+          const currentPeriodEnd = formatUnixToIsoUtc(subscription.current_period_end);
           const subscriptionId = subscription.id;
           // Check if customer email is available
           if (!customer?.email) {
@@ -79,6 +87,13 @@ export const handleSubscriptionCreated = async (data: Stripe.Subscription) => {
                               },
                               { new: true },
                          );
+
+                         await sendNotifications({
+                              title: `${existingUser.name}`,
+                              receiver: getAdmin._id,
+                              message: `A new subscription has been purchase for ${existingUser.name}`,
+                              type: 'ORDER',
+                         });
                     } else {
                          throw new AppError(StatusCodes.NOT_FOUND, `Pricing plan not found for Price ID: ${priceId}`);
                     }

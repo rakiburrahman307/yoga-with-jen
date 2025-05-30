@@ -42,7 +42,10 @@ const auth =
                     if (user?.isDeleted) {
                          throw new AppError(StatusCodes.FORBIDDEN, 'This user accaunt is deleted !!');
                     }
-
+                    // Check if tokenVersion matches
+                    // if (verifyUser.tokenVersion !== user.tokenVersion) {
+                    //      throw new AppError(StatusCodes.UNAUTHORIZED, 'Token has been invalidated!');
+                    // }
                     //guard user
                     if (roles.length && !roles.includes(verifyUser?.role)) {
                          throw new AppError(StatusCodes.FORBIDDEN, "You don't have permission to access this api !!");

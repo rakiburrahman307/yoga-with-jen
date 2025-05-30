@@ -8,6 +8,7 @@ export default {
      reset_pass_expire_time: process.env.RESET_TOKEN_EXPIRE_TIME,
      database_url: process.env.DATABASE_URL,
      frontend_url: process.env.FRONTEND_URL,
+     backend_url: process.env.BACKEND_URL,
      node_env: process.env.NODE_ENV,
      port: process.env.PORT,
      stripe_secret_key: process.env.STRIPE_SECRET_KYE,
