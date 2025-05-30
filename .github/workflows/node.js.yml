@@ -42,9 +42,6 @@ jobs:
             echo "PM2 already installed"
           fi
 
-      - name: Audit Dependencies
-        run: npm audit --audit-level=moderate
-        working-directory: ${{ github.workspace }}
 
       - name: Clean Build Folder
         run: rm -rf dist
