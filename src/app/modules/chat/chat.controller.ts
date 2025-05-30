@@ -5,7 +5,7 @@ import { StatusCodes } from 'http-status-codes';
 import { ChatService } from './chat.service';
 
 const createChat = catchAsync(async (req: Request, res: Response) => {
-     const user = req.user;
+     const user: any = req.user;
      const otherUser = req.params.id;
 
      const participants = [user?.id, otherUser];

@@ -1,15 +1,15 @@
 import { StatusCodes } from 'http-status-codes';
-import ApiError from '../../../errors/ApiErrors';
 import { IBanner } from './banner.interface';
 import { Banner } from './banner.model';
 import unlinkFile from '../../../shared/unlinkFile';
 import mongoose from 'mongoose';
+import AppError from '../../../errors/AppError';
 
 const createBannerToDB = async (payload: IBanner): Promise<IBanner> => {
      const createBanner: any = await Banner.create(payload);
      if (!createBanner) {
           unlinkFile(payload.image);
-          throw new ApiError(StatusCodes.OK, 'Failed to created banner');
+          throw new AppError(StatusCodes.OK, 'Failed to created banner');
      }
 
      return createBanner;
@@ -21,7 +21,7 @@ const getAllBannerFromDB = async (): Promise<IBanner[]> => {
 
 const updateBannerToDB = async (id: string, payload: IBanner): Promise<IBanner | {}> => {
      if (!mongoose.Types.ObjectId.isValid(id)) {
-          throw new ApiError(StatusCodes.NOT_ACCEPTABLE, 'Invalid ');
+          throw new AppError(StatusCodes.NOT_ACCEPTABLE, 'Invalid ');
      }
 
      const isBannerExist: any = await Banner.findById(id);
@@ -38,7 +38,7 @@ const updateBannerToDB = async (id: string, payload: IBanner): Promise<IBanner |
 
 const deleteBannerToDB = async (id: string): Promise<IBanner | undefined> => {
      if (!mongoose.Types.ObjectId.isValid(id)) {
-          throw new ApiError(StatusCodes.NOT_ACCEPTABLE, 'Invalid ');
+          throw new AppError(StatusCodes.NOT_ACCEPTABLE, 'Invalid ');
      }
 
      const isBannerExist: any = await Banner.findById({ _id: id });

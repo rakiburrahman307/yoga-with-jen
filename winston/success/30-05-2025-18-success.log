@@ -1,0 +1,16 @@
+Fri May 30 2025 18:25:23 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 568.590 ms
+Fri May 30 2025 18:25:25 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 562.162 ms
+Fri May 30 2025 18:25:25 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 549.572 ms
+Fri May 30 2025 18:25:25 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 576.221 ms
+Fri May 30 2025 18:25:26 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 836.980 ms
+Fri May 30 2025 18:25:26 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1134.955 ms
+Fri May 30 2025 18:25:26 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/notifications 200 - 1346.710 ms
+Fri May 30 2025 18:25:26 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/notifications?page=1 200 - 1411.248 ms
+Fri May 30 2025 18:30:15 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 572.539 ms
+Fri May 30 2025 18:30:18 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/admin/quotation/managment 200 - 563.313 ms
+Fri May 30 2025 18:30:18 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/today 200 - 569.984 ms
+Fri May 30 2025 18:30:18 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/dailyInspiration/letest 200 - 575.901 ms
+Fri May 30 2025 18:30:18 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/comingSoon/latest 200 - 804.220 ms
+Fri May 30 2025 18:30:18 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 1115.991 ms
+Fri May 30 2025 18:30:19 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/notifications?page=1 200 - 1362.524 ms
+Fri May 30 2025 18:30:19 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/notifications 200 - 1405.165 ms

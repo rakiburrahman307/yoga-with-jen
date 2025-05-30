@@ -1,14 +1,14 @@
 import twilio from 'twilio';
-import config from '../config';
-import ApiError from '../errors/ApiErrors';
 import { StatusCodes } from 'http-status-codes';
+import config from '../config';
+import AppError from '../errors/AppError';
 
 const client = twilio(config.twilio.accountSid, config.twilio.authToken);
 const sendSMS = async (to: string, message: string) => {
      try {
           await client.messages.create({
                body: message,
-               from: config.twilio.twilioNumber,
+               from: config.twilio.phoneNumber,
                to: to,
           });
           return {
@@ -16,7 +16,7 @@ const sendSMS = async (to: string, message: string) => {
                message: `Message sent successfully to ${to}`,
           };
      } catch (error) {
-          throw new ApiError(StatusCodes.INTERNAL_SERVER_ERROR, 'Failed to send sms');
+          throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Failed to send sms');
      }
 };
 

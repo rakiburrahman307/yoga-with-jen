@@ -9,7 +9,9 @@
           "lint:fix": "eslint src/**/*.ts --fix",
           "format": "prettier . --write",
           "seed": "ts-node src/seed/seedAdmin.ts",
-          "build": "tsc"
+          "build": "tsc",
+          "start": "node dist/server.js",
+          "audit": "npm audit"
      },
      "keywords": [],
      "author": "",
@@ -17,6 +19,7 @@
      "description": "",
      "dependencies": {
           "@types/bcrypt": "^5.0.2",
+          "audit": "^0.0.6",
           "aws-sdk": "^2.1692.0",
           "axios": "^1.9.0",
           "bcrypt": "^5.1.1",
@@ -47,6 +50,7 @@
           "socket.io": "^4.8.1",
           "stripe": "^17.6.0",
           "ts-node-dev": "^2.0.0",
+          "twilio": "^5.7.0",
           "uuid": "^11.0.5",
           "winston": "^3.17.0",
           "winston-daily-rotate-file": "^5.0.0",
@@ -59,6 +63,7 @@
           "@types/eslint__js": "^8.42.3",
           "@types/express": "^5.0.1",
           "@types/jsonwebtoken": "^9.0.8",
+          "@types/morgan": "^1.9.9",
           "@types/multer": "^1.4.12",
           "@types/node-cron": "^3.0.11",
           "@types/nodemailer": "^6.4.17",
