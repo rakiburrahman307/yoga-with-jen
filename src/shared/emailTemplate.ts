@@ -116,10 +116,10 @@ const contactFormTemplate = (values: IHelpContact) => {
      return data;
 };
 const sendTrialWarningEmail = (user: any) => {
-    const data = {
-      to: user.email,
-      subject: 'Your Free Trial Expires Tomorrow! ⏰',
-      html: `<body style="font-family: Arial, sans-serif; background-color: #f9f9f9; margin: 50px; padding: 20px; color: #555;">
+     const data = {
+          to: user.email,
+          subject: 'Your Free Trial Expires Tomorrow! ⏰',
+          html: `<body style="font-family: Arial, sans-serif; background-color: #f9f9f9; margin: 50px; padding: 20px; color: #555;">
         <div style="max-width: 600px; margin: 0 auto; padding: 20px; background: #fff; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
           <h2 style="color: #333;">Your Free Trial Expires Tomorrow! ⏰</h2>
           <p>Dear ${user.name},</p>
@@ -130,16 +130,16 @@ const sendTrialWarningEmail = (user: any) => {
           </a>
           <p>Questions? Reply to this email for support.</p>
         </div>
-      </body>`
-    };
-    return data;
-  };
-  
-  const sendEarlyWarningEmail = (user: any) => {
-    const data = {
-      to: user.email,
-      subject: '3 Days Left in Your Free Trial! 🚀',
-      html: `<body style="font-family: Arial, sans-serif; background-color: #f9f9f9; margin: 50px; padding: 20px; color: #555;">
+      </body>`,
+     };
+     return data;
+};
+
+const sendEarlyWarningEmail = (user: any) => {
+     const data = {
+          to: user.email,
+          subject: '3 Days Left in Your Free Trial! 🚀',
+          html: `<body style="font-family: Arial, sans-serif; background-color: #f9f9f9; margin: 50px; padding: 20px; color: #555;">
         <div style="max-width: 600px; margin: 0 auto; padding: 20px; background: #fff; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
           <h2 style="color: #333;">3 Days Left in Your Free Trial! 🚀</h2>
           <p>Hi ${user.name},</p>
@@ -149,16 +149,16 @@ const sendTrialWarningEmail = (user: any) => {
             View Plans
           </a>
         </div>
-      </body>`
-    };
-    return data;
-  };
-  
-  const sendReEngagementEmail = (user: any) => {
-    const data = {
-      to: user.email,
-      subject: 'We Miss You! Come Back with 50% Off 🎉',
-      html: `<body style="font-family: Arial, sans-serif; background-color: #f9f9f9; margin: 50px; padding: 20px; color: #555;">
+      </body>`,
+     };
+     return data;
+};
+
+const sendReEngagementEmail = (user: any) => {
+     const data = {
+          to: user.email,
+          subject: 'We Miss You! Come Back with 50% Off 🎉',
+          html: `<body style="font-family: Arial, sans-serif; background-color: #f9f9f9; margin: 50px; padding: 20px; color: #555;">
         <div style="max-width: 600px; margin: 0 auto; padding: 20px; background: #fff; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
           <h2 style="color: #333;">We Miss You! Come Back with 50% Off 🎉</h2>
           <p>Hi ${user.name},</p>
@@ -168,16 +168,16 @@ const sendTrialWarningEmail = (user: any) => {
             Get 50% Off
           </a>
         </div>
-      </body>`
-    };
-    return data;
-  };
-  
-  const sendTrialExpiredEmail = (user: any) => {
-    const data = {
-      to: user.email,
-      subject: 'Your Free Trial Has Ended 😢',
-      html: `<body style="font-family: Arial, sans-serif; background-color: #f9f9f9; margin: 50px; padding: 20px; color: #555;">
+      </body>`,
+     };
+     return data;
+};
+
+const sendTrialExpiredEmail = (user: any) => {
+     const data = {
+          to: user.email,
+          subject: 'Your Free Trial Has Ended 😢',
+          html: `<body style="font-family: Arial, sans-serif; background-color: #f9f9f9; margin: 50px; padding: 20px; color: #555;">
         <div style="max-width: 600px; margin: 0 auto; padding: 20px; background: #fff; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
           <h2 style="color: #333;">Your Free Trial Has Ended 😢</h2>
           <p>Dear ${user.name},</p>
@@ -188,11 +188,11 @@ const sendTrialWarningEmail = (user: any) => {
           </a>
           <p>Your progress is saved and will be restored when you subscribe.</p>
         </div>
-      </body>`
-    };
-    return data;
-  };
-  
+      </body>`,
+     };
+     return data;
+};
+
 export const emailTemplate = {
      createAccount,
      resetPassword,

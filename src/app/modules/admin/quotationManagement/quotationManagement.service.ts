@@ -56,45 +56,45 @@ const createQuotation = async (payload: IQuotation) => {
 const getQuotationFromDb = async () => {
      const today = new Date();
      today.setHours(0, 0, 0, 0); // Set to start of day
-     
+
      const tomorrow = new Date(today);
      tomorrow.setDate(today.getDate() + 1); // Next day start
-     
+
      // Find quotation for today
      let todayQuotation = await Quotation.findOne({
-         releaseAt: {
-             $gte: today,
-             $lt: tomorrow
-         }
+          releaseAt: {
+               $gte: today,
+               $lt: tomorrow,
+          },
      });
-     
+
      // If no quotation found for today, get the most recent one
      if (!todayQuotation) {
-         // Get the most recent quotation (newest by releaseAt)
-         todayQuotation = await Quotation.findOne().sort({ releaseAt: -1 });
-         
-         if (!todayQuotation) {
-             return {
-                 quotation: null,
-                 message: 'No quotations available'
-             };
-         }
-         
-         // Optional: Add a flag to indicate this is a fallback
-         return {
-             quotation: todayQuotation,
-             message: 'No quotation for today, showing most recent quotation',
-             isFallback: true
-         };
+          // Get the most recent quotation (newest by releaseAt)
+          todayQuotation = await Quotation.findOne().sort({ releaseAt: -1 });
+
+          if (!todayQuotation) {
+               return {
+                    quotation: null,
+                    message: 'No quotations available',
+               };
+          }
+
+          // Optional: Add a flag to indicate this is a fallback
+          return {
+               quotation: todayQuotation,
+               message: 'No quotation for today, showing most recent quotation',
+               isFallback: true,
+          };
      }
-     
+
      return {
-         quotation: todayQuotation,
-         message: 'Quotation retrieved successfully',
-         isFallback: false
+          quotation: todayQuotation,
+          message: 'Quotation retrieved successfully',
+          isFallback: false,
      };
- };
- 
+};
+
 const getQuotationFromDb2 = async (query: Record<string, unknown>) => {
      const queryBuilder = new QueryBuilder(Quotation.find(), query);
      const result = await queryBuilder.filter().sort().paginate().fields().modelQuery.exec();

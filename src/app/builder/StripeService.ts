@@ -1,7 +1,6 @@
 import Stripe from 'stripe';
 import stripe from '../../config/stripe';
 
-
 class StripeService {
      // Create a connected account for the vendor
      async createConnectedAccount(email: string): Promise<Stripe.Account> {

@@ -188,8 +188,6 @@ const replyToComment = async (commentId: string, commentCreatorId: string, conte
           throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Failed to update parent comment with the new reply');
      }
 
-  
-
      return reply;
 };
 

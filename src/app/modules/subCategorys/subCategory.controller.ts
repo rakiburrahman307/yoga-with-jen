@@ -88,5 +88,5 @@ export const CategoryController = {
      deleteSubCategory,
      getCategoryRelatedSubCategory,
      getVideosBySubCategiry,
-     getSubcategorisById
+     getSubcategorisById,
 };

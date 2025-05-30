@@ -32,17 +32,14 @@ export const uploadVideoToStreamLibrary = async (videoBuffer: Buffer, title?: st
           });
 
           // Get video details with URLs after upload
-          const videoDetailsResponse = await axios.get(
-               `https://video.bunnycdn.com/library/${BUNNY_STREAM_LIBRARY_ID}/videos/${videoId}`,
-               {
-                    headers: {
-                         'AccessKey': BUNNY_STREAM_API_KEY,
-                    },
-               }
-          );
+          const videoDetailsResponse = await axios.get(`https://video.bunnycdn.com/library/${BUNNY_STREAM_LIBRARY_ID}/videos/${videoId}`, {
+               headers: {
+                    AccessKey: BUNNY_STREAM_API_KEY,
+               },
+          });
 
           const videoData = videoDetailsResponse.data;
-          
+
           return {
                success: true,
                videoId: videoId,
@@ -52,10 +49,9 @@ export const uploadVideoToStreamLibrary = async (videoBuffer: Buffer, title?: st
                     // Embed URL for iframe
                     embedUrl: `https://iframe.mediadelivery.net/embed/${BUNNY_STREAM_LIBRARY_ID}/${videoId}`,
                     // Thumbnail URL (if available)
-                    thumbnailUrl: videoData.thumbnailFileName ? 
-                         `https://vz-${BUNNY_STREAM_LIBRARY_ID}.b-cdn.net/${videoId}/${videoData.thumbnailFileName}` : null,
+                    thumbnailUrl: videoData.thumbnailFileName ? `https://vz-${BUNNY_STREAM_LIBRARY_ID}.b-cdn.net/${videoId}/${videoData.thumbnailFileName}` : null,
                     // HLS streaming URL
-                    hlsUrl: `https://vz-${BUNNY_STREAM_LIBRARY_ID}.b-cdn.net/${videoId}/playlist.m3u8`
+                    hlsUrl: `https://vz-${BUNNY_STREAM_LIBRARY_ID}.b-cdn.net/${videoId}/playlist.m3u8`,
                },
                videoDetails: videoData,
           };

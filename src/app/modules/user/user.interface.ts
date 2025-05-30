@@ -21,7 +21,7 @@ export type IUser = {
      hasAccess: boolean;
      address: string;
      lastLogin: Date;
-     tokenVersion : number;
+     tokenVersion: number;
      loginCount: number;
      stripeCustomerId: string;
      status: 'active' | 'blocked';

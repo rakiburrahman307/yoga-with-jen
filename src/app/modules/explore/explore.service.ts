@@ -29,5 +29,5 @@ const getAllCategories = async (query: Record<string, unknown>) => {
 
 export const ExploreService = {
      getAllCategories,
-     getAllLetestVideos
+     getAllLetestVideos,
 };

@@ -4,7 +4,7 @@ import sendResponse from '../../../shared/sendResponse';
 import { TodayVideoService } from './today.service';
 
 const getTodayVideo = catchAsync(async (req, res) => {
-    const { id: userId }: any = req.user;
+     const { id: userId }: any = req.user;
      const result = await TodayVideoService.getTodayRandomVideo(userId);
      sendResponse(res, {
           success: true,

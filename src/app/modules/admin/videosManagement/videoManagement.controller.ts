@@ -14,7 +14,7 @@ const getAllVideos = catchAsync(async (req, res) => {
      });
 });
 const getAllVideosByCourse = catchAsync(async (req, res) => {
-     const result = await videoManagementService.getVideosByCourse(req.params.subCategoryId,req.query);
+     const result = await videoManagementService.getVideosByCourse(req.params.subCategoryId, req.query);
      sendResponse(res, {
           success: true,
           statusCode: StatusCodes.OK,
@@ -98,7 +98,6 @@ const markVideoAsCompleted = catchAsync(async (req, res) => {
      });
 });
 
-
 export const videoManagementController = {
      getAllVideos,
      addVideos,
@@ -108,5 +107,5 @@ export const videoManagementController = {
      getSingleVideo,
      getSingleVideoForAdmin,
      markVideoAsCompleted,
-     getAllVideosByCourse
+     getAllVideosByCourse,
 };

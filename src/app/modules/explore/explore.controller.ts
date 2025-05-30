@@ -24,5 +24,5 @@ const getAllCategories = catchAsync(async (req, res) => {
 
 export const ExploreController = {
      getAllCategories,
-     letestVideos
+     letestVideos,
 };

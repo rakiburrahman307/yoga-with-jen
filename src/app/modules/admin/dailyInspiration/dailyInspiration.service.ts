@@ -50,7 +50,7 @@ const getPostContentLetest = async (id: string) => {
           throw new AppError(StatusCodes.NOT_FOUND, 'create post not found');
      }
      const data = {
-          ...result.toObject()
+          ...result.toObject(),
      };
      return data;
 };
@@ -65,7 +65,7 @@ const getSinglePost = async (id: string) => {
           throw new AppError(StatusCodes.NOT_FOUND, 'create post not found');
      }
      const data = {
-          ...result.toObject()
+          ...result.toObject(),
      };
 
      return data;
