@@ -19,7 +19,6 @@ enum NotificationScreen {
      PAYMENT_HISTORY = 'PAYMENT_HISTORY',
      PROFILE = 'PROFILE',
 }
-
 const notificationSchema = new Schema<INotification>(
      {
           message: {
@@ -66,6 +65,19 @@ const notificationSchema = new Schema<INotification>(
                enum: Object.values(NotificationType),
                required: false,
           },
+
+          // New fields for scheduling:
+          sendAt: {
+               type: Date,
+               required: false, // optional, only set for scheduled notifications
+               index: true,
+          },
+          status: {
+               type: String,
+               enum: ['PENDING', 'SEND', 'FAILED'],
+               default: 'PENDING',
+               index: true,
+          },
      },
      {
           timestamps: true,
@@ -73,5 +85,6 @@ const notificationSchema = new Schema<INotification>(
 );
 
 notificationSchema.index({ receiver: 1, read: 1 });
+notificationSchema.index({ sendAt: 1, status: 1 }); // for efficient queries on scheduled notifications
 
 export const Notification = model<INotification>('Notification', notificationSchema);

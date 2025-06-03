@@ -5,6 +5,8 @@ export interface INotification {
      receiver: Types.ObjectId;
      postId: Types.ObjectId;
      reference?: string;
+     sendAt: Date;
+     status: 'PENDING' | 'SEND' | 'FAILED';
      referenceModel?: 'Payment' | 'Order' | 'Message';
      screen?: 'DASHBOARD' | 'PAYMENT_HISTORY' | 'PROFILE';
      read: boolean;

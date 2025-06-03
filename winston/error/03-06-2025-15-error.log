@@ -1,0 +1,15 @@
+Tue Jun 03 2025 15:28:17 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/auth/login 400 - 140.718 ms
+Tue Jun 03 2025 15:29:18 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/auth/login 400 - 17.557 ms
+Tue Jun 03 2025 15:30:3 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/auth/login 400 - 230.089 ms
+Tue Jun 03 2025 15:38:1 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/admin/videos/managment/upload-video 400 - 25.431 ms
+Tue Jun 03 2025 15:46:36 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/admin/videos/managment/upload-video 404 - 3191.414 ms
+Tue Jun 03 2025 15:48:25 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/users/profile 404 - 11.172 ms
+Tue Jun 03 2025 15:48:25 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/category 404 - 9.125 ms
+Tue Jun 03 2025 15:48:38 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/users/profile 404 - 3.290 ms
+Tue Jun 03 2025 15:48:42 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/category 404 - 14.767 ms
+Tue Jun 03 2025 15:48:42 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/users/profile 404 - 9.117 ms
+Tue Jun 03 2025 15:49:2 [SERVER-NAME] error: 10.0.60.147 - POST /api/v1/auth/login 400 - 276.051 ms
+Tue Jun 03 2025 15:51:40 [SERVER-NAME] error: 10.0.60.147 - POST /api/v1/admin/category/create 400 - 49.345 ms
+Tue Jun 03 2025 15:53:24 [SERVER-NAME] error: 10.0.60.147 - POST /api/v1/admin/category/create 400 - 16.706 ms
+Tue Jun 03 2025 15:55:30 [SERVER-NAME] error: 10.0.60.147 - POST /api/v1/admin/category/create 400 - 20.003 ms
+Tue Jun 03 2025 15:56:54 [SERVER-NAME] error: 10.0.60.147 - POST /api/v1/admin/category/create 400 - 29.995 ms

@@ -67,56 +67,135 @@ const adminReadNotificationToDB = async (): Promise<INotification | null> => {
      const result: any = await Notification.updateMany({ type: 'ADMIN', read: false }, { $set: { read: true } }, { new: true });
      return result;
 };
+// const adminSendNotificationFromDB = async (payload: any) => {
+//      const { title, message, receiver } = payload;
+
+//      // Validate required fields
+//      if (!title || !message) {
+//           throw new AppError(StatusCodes.BAD_REQUEST, 'Title and message are required');
+//      }
+
+//      // Handle specific receiver if provided
+//      if (receiver && typeof receiver === 'string') {
+//           const notificationData = {
+//                title,
+//                referenceModel: 'MESSAGE',
+//                text: message,
+//                type: 'ADMIN',
+//                receiver,
+//           };
+//           try {
+//                await sendNotifications(notificationData);
+//           } catch (error) {
+//                throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Error sending notification to receiver');
+//           }
+//      }
+
+//      // Fetch users with role 'USER'
+//      const users = await User.find({ role: 'USER' });
+//      if (!users || users.length === 0) {
+//           throw new AppError(StatusCodes.NOT_FOUND, 'No users found');
+//      }
+
+//      // Send notification to all users
+//      const notificationPromises = users.map((user) => {
+//           const notificationData = {
+//                title,
+//                referenceModel: 'MESSAGE',
+//                text: message,
+//                type: 'ADMIN',
+//                receiver: user._id,
+//           };
+//           return sendNotifications(notificationData);
+//      });
+
+//      try {
+//           await Promise.all(notificationPromises);
+//      } catch (error) {
+//           throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Error sending notifications to users');
+//      }
+
+//      return;
+// };
+
 const adminSendNotificationFromDB = async (payload: any) => {
-     const { title, message, receiver } = payload;
+     const { title, message, receiver, sendAt } = payload;
 
      // Validate required fields
      if (!title || !message) {
           throw new AppError(StatusCodes.BAD_REQUEST, 'Title and message are required');
      }
 
-     // Handle specific receiver if provided
-     if (receiver && typeof receiver === 'string') {
-          const notificationData = {
+     // Helper to save notification for scheduling
+     const saveScheduledNotification = async (receiverId: string) => {
+          const notification = new Notification({
                title,
                referenceModel: 'MESSAGE',
                text: message,
                type: 'ADMIN',
-               receiver,
-          };
-          try {
-               await sendNotifications(notificationData);
-          } catch (error) {
-               throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Error sending notification to receiver');
+               receiver: receiverId,
+               sendAt: new Date(sendAt),
+               status: 'pending',
+          });
+          await notification.save();
+     };
+
+     // Check if sendAt is provided and valid future date
+     const hasValidSendAt = sendAt && !isNaN(new Date(sendAt).getTime()) && new Date(sendAt) > new Date();
+
+     if (receiver && typeof receiver === 'string') {
+          if (hasValidSendAt) {
+               // Schedule notification for specific receiver
+               await saveScheduledNotification(receiver);
+          } else {
+               // Send immediately to specific receiver
+               const notificationData = {
+                    title,
+                    referenceModel: 'MESSAGE',
+                    text: message,
+                    type: 'ADMIN',
+                    receiver,
+               };
+               try {
+                    await sendNotifications(notificationData);
+               } catch (error) {
+                    throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Error sending notification to receiver');
+               }
+          }
+     } else {
+          // If no specific receiver, get all users with role 'USER'
+          const users = await User.find({ role: 'USER' });
+          if (!users || users.length === 0) {
+               throw new AppError(StatusCodes.NOT_FOUND, 'No users found');
+          }
+
+          if (hasValidSendAt) {
+               // Schedule notifications for all users
+               const savePromises = users.map((user: any) => saveScheduledNotification(user._id));
+               await Promise.all(savePromises);
+          } else {
+               // Send notifications immediately to all users
+               const notificationPromises = users.map((user) => {
+                    const notificationData = {
+                         title,
+                         referenceModel: 'MESSAGE',
+                         text: message,
+                         type: 'ADMIN',
+                         receiver: user._id,
+                    };
+                    return sendNotifications(notificationData);
+               });
+
+               try {
+                    await Promise.all(notificationPromises);
+               } catch (error) {
+                    throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Error sending notifications to users');
+               }
           }
      }
-
-     // Fetch users with role 'USER'
-     const users = await User.find({ role: 'USER' });
-     if (!users || users.length === 0) {
-          throw new AppError(StatusCodes.NOT_FOUND, 'No users found');
-     }
-
-     // Send notification to all users
-     const notificationPromises = users.map((user) => {
-          const notificationData = {
-               title,
-               referenceModel: 'MESSAGE',
-               text: message,
-               type: 'ADMIN',
-               receiver: user._id,
-          };
-          return sendNotifications(notificationData);
-     });
-
-     try {
-          await Promise.all(notificationPromises);
-     } catch (error) {
-          throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Error sending notifications to users');
-     }
-
-     return;
 };
+
+export default adminSendNotificationFromDB;
 
 export const NotificationService = {
      adminNotificationFromDB,

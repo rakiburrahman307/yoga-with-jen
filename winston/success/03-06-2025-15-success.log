@@ -1,0 +1,154 @@
+Tue Jun 03 2025 15:18:19 [SERVER-NAME] info: [31mA user disconnect[39m
+Tue Jun 03 2025 15:18:21 [SERVER-NAME] info: [34mA user connected[39m
+Tue Jun 03 2025 15:28:48 [SERVER-NAME] info: [34mSIGINT received. Shutting down gracefully...[39m
+Tue Jun 03 2025 15:29:14 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Jun 03 2025 15:29:14 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Jun 03 2025 15:29:14 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue Jun 03 2025 15:29:14 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue Jun 03 2025 15:29:14 [SERVER-NAME] info: [34mA user connected[39m
+Tue Jun 03 2025 15:30:2 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Jun 03 2025 15:30:2 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Jun 03 2025 15:30:2 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue Jun 03 2025 15:30:2 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue Jun 03 2025 15:30:3 [SERVER-NAME] info: [34mA user connected[39m
+Tue Jun 03 2025 15:30:8 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 316.016 ms
+Tue Jun 03 2025 15:37:49 [SERVER-NAME] info: [34mSIGINT received. Shutting down gracefully...[39m
+Tue Jun 03 2025 15:37:53 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Jun 03 2025 15:37:53 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Jun 03 2025 15:37:53 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue Jun 03 2025 15:37:53 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue Jun 03 2025 15:37:57 [SERVER-NAME] info: [34mA user connected[39m
+Tue Jun 03 2025 15:39:24 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Jun 03 2025 15:39:24 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Jun 03 2025 15:39:24 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue Jun 03 2025 15:39:24 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue Jun 03 2025 15:39:24 [SERVER-NAME] info: [34mA user connected[39m
+Tue Jun 03 2025 15:39:57 [SERVER-NAME] info: [34mSIGINT received. Shutting down gracefully...[39m
+Tue Jun 03 2025 15:40:5 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Jun 03 2025 15:40:5 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Jun 03 2025 15:40:5 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue Jun 03 2025 15:40:5 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue Jun 03 2025 15:40:6 [SERVER-NAME] info: [34mA user connected[39m
+Tue Jun 03 2025 15:42:13 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/admin/videos/managment/upload-video - - - ms
+Tue Jun 03 2025 15:46:11 [SERVER-NAME] info: [34mSIGINT received. Shutting down gracefully...[39m
+Tue Jun 03 2025 15:46:16 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Jun 03 2025 15:46:16 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Jun 03 2025 15:46:16 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue Jun 03 2025 15:46:16 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue Jun 03 2025 15:46:16 [SERVER-NAME] info: [34mA user connected[39m
+Tue Jun 03 2025 15:47:38 [SERVER-NAME] info: [31mA user disconnect[39m
+Tue Jun 03 2025 15:47:38 [SERVER-NAME] info: [34mA user connected[39m
+Tue Jun 03 2025 15:48:15 [SERVER-NAME] info: [31mA user disconnect[39m
+Tue Jun 03 2025 15:48:19 [SERVER-NAME] info: [34mA user connected[39m
+Tue Jun 03 2025 15:48:21 [SERVER-NAME] info: [31mA user disconnect[39m
+Tue Jun 03 2025 15:48:23 [SERVER-NAME] info: [34mA user connected[39m
+Tue Jun 03 2025 15:48:23 [SERVER-NAME] info: [31mA user disconnect[39m
+Tue Jun 03 2025 15:48:25 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.903 ms
+Tue Jun 03 2025 15:48:25 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.151 ms
+Tue Jun 03 2025 15:48:25 [SERVER-NAME] info: [34mA user connected[39m
+Tue Jun 03 2025 15:48:38 [SERVER-NAME] info: [31mA user disconnect[39m
+Tue Jun 03 2025 15:48:38 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.064 ms
+Tue Jun 03 2025 15:48:38 [SERVER-NAME] info: [34mA user connected[39m
+Tue Jun 03 2025 15:48:42 [SERVER-NAME] info: [31mA user disconnect[39m
+Tue Jun 03 2025 15:48:42 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.177 ms
+Tue Jun 03 2025 15:48:42 [SERVER-NAME] info: [34mA user connected[39m
+Tue Jun 03 2025 15:48:47 [SERVER-NAME] info: [31mA user disconnect[39m
+Tue Jun 03 2025 15:49:2 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/auth/login 204 - 0.078 ms
+Tue Jun 03 2025 15:49:10 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/auth/login 204 - 0.085 ms
+Tue Jun 03 2025 15:49:11 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/login 200 - 286.533 ms
+Tue Jun 03 2025 15:49:11 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.111 ms
+Tue Jun 03 2025 15:49:11 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.089 ms
+Tue Jun 03 2025 15:49:11 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 13.470 ms
+Tue Jun 03 2025 15:49:11 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 200 - 27.894 ms
+Tue Jun 03 2025 15:49:11 [SERVER-NAME] info: [34mA user connected[39m
+Tue Jun 03 2025 15:49:11 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/revenue 204 - 0.204 ms
+Tue Jun 03 2025 15:49:11 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.110 ms
+Tue Jun 03 2025 15:49:11 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/resent-users 200 - 6.253 ms
+Tue Jun 03 2025 15:49:11 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/revenue 200 - 12.456 ms
+Tue Jun 03 2025 15:49:23 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.048 ms
+Tue Jun 03 2025 15:49:23 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 200 - 7.058 ms
+Tue Jun 03 2025 15:49:25 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.075 ms
+Tue Jun 03 2025 15:49:25 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 200 - 5.789 ms
+Tue Jun 03 2025 15:49:26 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/comingSoon 204 - 0.245 ms
+Tue Jun 03 2025 15:49:26 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/comingSoon 200 - 13.564 ms
+Tue Jun 03 2025 15:49:27 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/challenge 204 - 0.098 ms
+Tue Jun 03 2025 15:49:27 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/challenge 200 - 8.858 ms
+Tue Jun 03 2025 15:49:28 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dailyInspiration 204 - 0.067 ms
+Tue Jun 03 2025 15:49:28 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dailyInspiration 200 - 6.818 ms
+Tue Jun 03 2025 15:49:29 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/post/managment 204 - 0.069 ms
+Tue Jun 03 2025 15:49:29 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/post/managment 200 - 8.473 ms
+Tue Jun 03 2025 15:49:34 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/package/managment 204 - 0.053 ms
+Tue Jun 03 2025 15:49:34 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subscription/rules 204 - 0.034 ms
+Tue Jun 03 2025 15:49:34 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/package/managment 200 - 15.179 ms
+Tue Jun 03 2025 15:49:34 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subscription/rules 201 - 14.995 ms
+Tue Jun 03 2025 15:49:38 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/quotation/managment/admin?page=undefined 204 - 0.068 ms
+Tue Jun 03 2025 15:49:38 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/quotation/managment/admin?page=undefined 200 - 15.626 ms
+Tue Jun 03 2025 15:49:41 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/managment/get-admin 204 - 0.045 ms
+Tue Jun 03 2025 15:49:41 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/managment/get-admin 200 - 3.575 ms
+Tue Jun 03 2025 15:49:43 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/contact?page=1&limit=10 204 - 0.065 ms
+Tue Jun 03 2025 15:49:43 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/contact?page=1&limit=10 200 - 11.401 ms
+Tue Jun 03 2025 15:49:43 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/contact?page=1&limit=10&page=1&limit=10 204 - 0.063 ms
+Tue Jun 03 2025 15:49:43 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/contact?page=1&limit=10&page=1&limit=10 200 - 6.223 ms
+Tue Jun 03 2025 15:51:18 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.068 ms
+Tue Jun 03 2025 15:51:18 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 9.047 ms
+Tue Jun 03 2025 15:51:40 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category/create 204 - 0.256 ms
+Tue Jun 03 2025 15:51:40 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.071 ms
+Tue Jun 03 2025 15:51:40 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 15.933 ms
+Tue Jun 03 2025 15:53:24 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category/create 204 - 0.051 ms
+Tue Jun 03 2025 15:53:24 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.072 ms
+Tue Jun 03 2025 15:53:24 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 5.595 ms
+Tue Jun 03 2025 15:55:13 [SERVER-NAME] info: [31mA user disconnect[39m
+Tue Jun 03 2025 15:55:14 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.059 ms
+Tue Jun 03 2025 15:55:14 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.050 ms
+Tue Jun 03 2025 15:55:14 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 5.421 ms
+Tue Jun 03 2025 15:55:14 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 5.640 ms
+Tue Jun 03 2025 15:55:14 [SERVER-NAME] info: [34mA user connected[39m
+Tue Jun 03 2025 15:55:30 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category/create 204 - 0.176 ms
+Tue Jun 03 2025 15:55:30 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.040 ms
+Tue Jun 03 2025 15:55:30 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 5.442 ms
+Tue Jun 03 2025 15:56:48 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Jun 03 2025 15:56:48 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Jun 03 2025 15:56:48 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue Jun 03 2025 15:56:48 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue Jun 03 2025 15:56:49 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Jun 03 2025 15:56:49 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Jun 03 2025 15:56:49 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue Jun 03 2025 15:56:49 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue Jun 03 2025 15:56:50 [SERVER-NAME] info: [34mA user connected[39m
+Tue Jun 03 2025 15:56:52 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Jun 03 2025 15:56:52 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Jun 03 2025 15:56:52 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue Jun 03 2025 15:56:52 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue Jun 03 2025 15:56:53 [SERVER-NAME] info: [34mA user connected[39m
+Tue Jun 03 2025 15:56:54 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category/create 204 - 0.372 ms
+Tue Jun 03 2025 15:56:54 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.107 ms
+Tue Jun 03 2025 15:56:54 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 10.156 ms
+Tue Jun 03 2025 15:57:35 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Jun 03 2025 15:57:35 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Jun 03 2025 15:57:35 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue Jun 03 2025 15:57:35 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue Jun 03 2025 15:57:38 [SERVER-NAME] info: [34mA user connected[39m
+Tue Jun 03 2025 15:57:55 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Jun 03 2025 15:57:55 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Jun 03 2025 15:57:55 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue Jun 03 2025 15:57:55 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue Jun 03 2025 15:57:56 [SERVER-NAME] info: [34mA user connected[39m
+Tue Jun 03 2025 15:57:58 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category/create 204 - 0.407 ms
+Tue Jun 03 2025 15:57:58 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/category/create 200 - 42.062 ms
+Tue Jun 03 2025 15:57:58 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.091 ms
+Tue Jun 03 2025 15:57:58 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 200 - 28.415 ms
+Tue Jun 03 2025 15:57:58 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(9)-1748944678331.png 200 - 1.514 ms
+Tue Jun 03 2025 15:58:12 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Jun 03 2025 15:58:12 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Jun 03 2025 15:58:12 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue Jun 03 2025 15:58:12 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue Jun 03 2025 15:58:13 [SERVER-NAME] info: [34mA user connected[39m
+Tue Jun 03 2025 15:58:21 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category/single/683ec726f410797837df6aec 204 - 0.370 ms
+Tue Jun 03 2025 15:58:21 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory 204 - 0.146 ms
+Tue Jun 03 2025 15:58:21 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category/single/683ec726f410797837df6aec 200 - 26.268 ms
+Tue Jun 03 2025 15:58:21 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory 200 - 23.783 ms
+Tue Jun 03 2025 15:59:12 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/create 204 - 0.066 ms
+Tue Jun 03 2025 15:59:12 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/subcategory/create 200 - 220.488 ms
+Tue Jun 03 2025 15:59:12 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory 204 - 0.060 ms
+Tue Jun 03 2025 15:59:12 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory 200 - 7.609 ms
+Tue Jun 03 2025 15:59:12 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(11)-1748944752254.png 200 - 1.283 ms

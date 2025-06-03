@@ -3,6 +3,7 @@ import { User } from '../app/modules/user/user.model';
 import { emailHelper } from '../helpers/emailHelper';
 import { emailTemplate } from '../shared/emailTemplate';
 import { sendNotifications } from '../helpers/notificationsHelper';
+import { Notification } from '../app/modules/notification/notification.model';
 
 // ====== CRON JOB SCHEDULERS ======
 
@@ -197,7 +198,29 @@ const getTrialStatistics = async () => {
 };
 
 // ====== MAIN SETUP FUNCTION ======
+const startNotificationScheduler = () => {
+     cron.schedule('* * * * *', async () => {
+          const now = new Date();
 
+          const pendingNotifications = await Notification.find({
+               status: 'pending',
+               sendAt: { $lte: now },
+          });
+
+          for (const notification of pendingNotifications) {
+               try {
+                    await sendNotifications(notification);
+                    notification.status = 'SEND';
+                    await notification.save();
+               } catch (error) {
+                    console.error('Error sending scheduled notification:', error);
+                    // Optionally retry later or mark as failed
+                    notification.status = 'FAILED'; // mark as failed on error
+                    await notification.save();
+               }
+          }
+     });
+};
 const setupTrialManagement = () => {
      console.log('🚀 Setting up trial management cron jobs...');
 
@@ -205,7 +228,7 @@ const setupTrialManagement = () => {
      scheduleTrialExpiryCheck(); // Every hour
      scheduleTrialWarningCheck(); // Daily at 9 AM
      scheduleEarlyWarningCheck(); // Daily at 10 AM
-
+     startNotificationScheduler(); // Every minute
      console.log('✅ All trial management jobs scheduled');
 
      // Log initial statistics

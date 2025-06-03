@@ -1,4 +1,0 @@
-Sat May 31 2025 15:33:7 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/subcategory/get-videos/683184a94f5c96c45dd8f97d 404 - 18.585 ms
-Sat May 31 2025 15:33:22 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/auth/login 400 - 131.395 ms
-Sat May 31 2025 15:33:37 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/auth/login 400 - 2.774 ms
-Sat May 31 2025 15:33:49 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/auth/login 400 - 2.483 ms

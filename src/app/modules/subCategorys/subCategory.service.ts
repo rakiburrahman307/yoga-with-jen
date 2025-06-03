@@ -198,6 +198,28 @@ const getSubCategoryDetails = async (id: string) => {
      }
      return result;
 };
+const safhaleVideoSerial = async (id: string) => {
+     const videos = await Video.find({ subCategoryId: id });
+     if (videos.length === 0) return; // no videos, nothing to update
+
+     // Create an array of serial numbers
+     const serials = videos.map((_, i) => i + 1);
+
+     // Shuffle the serials array using Fisher-Yates shuffle
+     for (let i = serials.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [serials[i], serials[j]] = [serials[j], serials[i]];
+     }
+
+     // Assign shuffled serials to videos
+     const updates = videos.map((video, idx) => {
+          video.serial = serials[idx];
+          return video.save();
+     });
+
+     await Promise.all(updates);
+};
+
 export const CategoryService = {
      createSubCategoryToDB,
      getCategoriesFromDB,
@@ -207,4 +229,5 @@ export const CategoryService = {
      getCategoryReletedSubcategory,
      getSubCategoryRelatedVideo,
      getSubCategoryDetails,
+     safhaleVideoSerial,
 };
