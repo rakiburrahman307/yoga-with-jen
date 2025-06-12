@@ -1,0 +1,4 @@
+Tue Jun 10 2025 18:1:46 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/subcategory/safhale/683ec770cdcd9dbc9a3a5995 404 - 1.151 ms
+Tue Jun 10 2025 18:2:24 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/subcategory/safhale/683ec770cdcd9dbc9a3a5995 404 - 0.912 ms
+Tue Jun 10 2025 18:2:29 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/subcategory/safhale/ 400 - 8.441 ms
+Tue Jun 10 2025 18:21:54 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/subcategory/safhale/ 400 - 3.240 ms

@@ -10,7 +10,6 @@ import { Favourite } from '../favourit/favourit.model';
 import { User } from '../user/user.model';
 // create sub category
 const createSubCategoryToDB = async (payload: ISubCategory) => {
-     console.log(payload);
      const { name, thumbnail, categoryId } = payload;
      const isExistCategory = await Category.findById(categoryId);
      if (!isExistCategory) {
@@ -198,26 +197,41 @@ const getSubCategoryDetails = async (id: string) => {
      }
      return result;
 };
-const safhaleVideoSerial = async (id: string) => {
-     const videos = await Video.find({ subCategoryId: id });
-     if (videos.length === 0) return; // no videos, nothing to update
+const safhaleVideoSerial = async (videoOrder: Array<{ _id: string; serial: number }>) => {
+     console.log('Received video order:', videoOrder);
 
-     // Create an array of serial numbers
-     const serials = videos.map((_, i) => i + 1);
-
-     // Shuffle the serials array using Fisher-Yates shuffle
-     for (let i = serials.length - 1; i > 0; i--) {
-          const j = Math.floor(Math.random() * (i + 1));
-          [serials[i], serials[j]] = [serials[j], serials[i]];
+     // Validate input
+     if (!videoOrder || !Array.isArray(videoOrder) || videoOrder.length === 0) {
+          console.log('No video order data provided.');
+          return;
      }
 
-     // Assign shuffled serials to videos
-     const updates = videos.map((video, idx) => {
-          video.serial = serials[idx];
-          return video.save();
-     });
+     // Update each video's serial number
+     const updatePromises = videoOrder.map((item) => Video.findByIdAndUpdate(item._id, { serial: item.serial }, { new: true }));
 
-     await Promise.all(updates);
+     const result = await Promise.all(updatePromises);
+     console.log('Successfully updated video serials.');
+     return result;
+     // // Find all videos for the given subCategoryId
+     // const videos = await Video.find({ subCategoryId: id });
+     // if (videos.length === 0) return; // no videos, nothing to update
+     // console.log(videos);
+     // // Create an array of serial numbers
+     // const serials = videos.map((_, i) => i + 1);
+
+     // // Shuffle the serials array using Fisher-Yates shuffle
+     // for (let i = serials.length - 1; i > 0; i--) {
+     //      const j = Math.floor(Math.random() * (i + 1));
+     //      [serials[i], serials[j]] = [serials[j], serials[i]];
+     // }
+
+     // // Assign shuffled serials to videos
+     // const updates = videos.map((video, idx) => {
+     //      video.serial = serials[idx];
+     //      return video.save();
+     // });
+
+     // await Promise.all(updates);
 };
 
 export const CategoryService = {

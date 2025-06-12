@@ -8,6 +8,7 @@ export type IPackage = {
      duration: '1 month' | '3 months' | '6 months' | '1 year';
      paymentType: 'Monthly' | 'Yearly';
      productId?: string;
+     discount?: number;
      subscriptionType: 'app' | 'web';
      status: 'active' | 'inactive';
      isDeleted: boolean;

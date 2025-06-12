@@ -1,0 +1,7 @@
+Wed Jun 04 2025 21:21:17 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 1.059 ms
+Wed Jun 04 2025 21:21:17 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.118 ms
+Wed Jun 04 2025 21:21:17 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/get-all-videos-by-course/683ec770cdcd9dbc9a3a5995 204 - 0.051 ms
+Wed Jun 04 2025 21:21:17 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/video-status/683ec770cdcd9dbc9a3a5995?page=1&limit=10 204 - 0.107 ms
+Wed Jun 04 2025 21:21:17 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 37.433 ms
+Wed Jun 04 2025 21:21:18 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/get-all-videos-by-course/683ec770cdcd9dbc9a3a5995 200 - 47.520 ms
+Wed Jun 04 2025 21:21:18 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 200 - 49.087 ms

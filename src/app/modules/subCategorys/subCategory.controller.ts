@@ -81,14 +81,14 @@ const getVideosBySubCategiry = catchAsync(async (req, res) => {
      });
 });
 const safhaleVideoSerial = catchAsync(async (req, res) => {
-     const result = await CategoryService.safhaleVideoSerial(req.params.categiryId);
+     const result = await CategoryService.safhaleVideoSerial(req.body);
      sendResponse(res, {
           success: true,
           statusCode: StatusCodes.OK,
           message: 'Videos retrive successfully',
           data: result,
      });
-})
+});
 export const CategoryController = {
      createSubCategory,
      getSubCategories,
@@ -97,5 +97,5 @@ export const CategoryController = {
      getCategoryRelatedSubCategory,
      getVideosBySubCategiry,
      getSubcategorisById,
-     safhaleVideoSerial
+     safhaleVideoSerial,
 };

@@ -17,7 +17,7 @@ router.post(
      validateRequest(CategoryValidation.createSubCategoryZodSchema),
      CategoryController.createSubCategory,
 );
-router.get('/safhale/:categiryId', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), CategoryController.safhaleVideoSerial);
+router.post('/safhale', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), CategoryController.safhaleVideoSerial);
 router.get('/get-videos/:id', auth(USER_ROLES.USER), CategoryController.getVideosBySubCategiry);
 router.get('/:id', auth(USER_ROLES.ADMIN, USER_ROLES.SUPER_ADMIN, USER_ROLES.USER), CategoryController.getCategoryRelatedSubCategory);
 router.get('/single/:id', auth(USER_ROLES.ADMIN, USER_ROLES.SUPER_ADMIN, USER_ROLES.USER), CategoryController.getSubcategorisById);

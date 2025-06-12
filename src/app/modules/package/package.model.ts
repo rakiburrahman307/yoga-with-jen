@@ -38,6 +38,10 @@ const packageSchema = new Schema<IPackage, PackageModel>(
                enum: ['app', 'web'],
                required: true,
           },
+          discount: {
+               type: Number,
+               default: 0,
+          },
           status: {
                type: String,
                enum: ['active', 'inactive'],

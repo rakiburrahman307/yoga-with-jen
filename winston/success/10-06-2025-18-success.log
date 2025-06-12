@@ -1,0 +1,96 @@
+Tue Jun 10 2025 18:0:30 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/subcategory/get-videos/683ec770cdcd9dbc9a3a5995 204 - 0.050 ms
+Tue Jun 10 2025 18:0:30 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/subcategory/get-videos/683ec770cdcd9dbc9a3a5995 304 - 12.477 ms
+Tue Jun 10 2025 18:3:10 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/subcategory/get-videos/683ec770cdcd9dbc9a3a5995 204 - 0.055 ms
+Tue Jun 10 2025 18:3:10 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/subcategory/get-videos/683ec770cdcd9dbc9a3a5995 304 - 9.967 ms
+Tue Jun 10 2025 18:19:30 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/safhale 204 - 0.080 ms
+Tue Jun 10 2025 18:19:30 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/subcategory/safhale 200 - 3.899 ms
+Tue Jun 10 2025 18:19:30 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.042 ms
+Tue Jun 10 2025 18:19:30 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 304 - 8.471 ms
+Tue Jun 10 2025 18:21:23 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/safhale 204 - 0.093 ms
+Tue Jun 10 2025 18:21:23 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/subcategory/safhale 200 - 4.927 ms
+Tue Jun 10 2025 18:21:23 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.068 ms
+Tue Jun 10 2025 18:21:23 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 304 - 10.218 ms
+Tue Jun 10 2025 18:23:5 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/admin/subcategory/safhale 200 - 16.922 ms
+Tue Jun 10 2025 18:23:39 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/subcategory/safhale/ 200 - 10.197 ms
+Tue Jun 10 2025 18:23:57 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Jun 10 2025 18:23:57 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Jun 10 2025 18:23:57 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue Jun 10 2025 18:23:57 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue Jun 10 2025 18:24:5 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Jun 10 2025 18:24:5 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Jun 10 2025 18:24:5 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue Jun 10 2025 18:24:5 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue Jun 10 2025 18:24:8 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/safhale 204 - 0.632 ms
+Tue Jun 10 2025 18:24:8 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/subcategory/safhale 200 - 27.310 ms
+Tue Jun 10 2025 18:24:8 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.091 ms
+Tue Jun 10 2025 18:24:8 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 200 - 21.467 ms
+Tue Jun 10 2025 18:24:11 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Jun 10 2025 18:24:11 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Jun 10 2025 18:24:11 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue Jun 10 2025 18:24:11 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue Jun 10 2025 18:24:13 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/admin/subcategory/safhale 200 - 34.379 ms
+Tue Jun 10 2025 18:24:16 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.360 ms
+Tue Jun 10 2025 18:24:16 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.072 ms
+Tue Jun 10 2025 18:24:16 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.064 ms
+Tue Jun 10 2025 18:24:16 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 21.926 ms
+Tue Jun 10 2025 18:24:16 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 29.564 ms
+Tue Jun 10 2025 18:24:16 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 200 - 31.239 ms
+Tue Jun 10 2025 18:24:24 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/subcategory/safhale/ 200 - 11.469 ms
+Tue Jun 10 2025 18:24:32 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.051 ms
+Tue Jun 10 2025 18:24:32 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.052 ms
+Tue Jun 10 2025 18:24:32 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.070 ms
+Tue Jun 10 2025 18:24:32 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 7.941 ms
+Tue Jun 10 2025 18:24:32 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 17.496 ms
+Tue Jun 10 2025 18:24:32 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 200 - 18.569 ms
+Tue Jun 10 2025 18:24:39 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/safhale 204 - 0.082 ms
+Tue Jun 10 2025 18:24:39 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/subcategory/safhale 200 - 4.051 ms
+Tue Jun 10 2025 18:24:40 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.071 ms
+Tue Jun 10 2025 18:24:40 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 304 - 9.008 ms
+Tue Jun 10 2025 18:24:43 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.146 ms
+Tue Jun 10 2025 18:24:43 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.057 ms
+Tue Jun 10 2025 18:24:43 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 9.858 ms
+Tue Jun 10 2025 18:24:43 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 304 - 16.137 ms
+Tue Jun 10 2025 18:24:43 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 14.326 ms
+Tue Jun 10 2025 18:24:59 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/subcategory/safhale/ 200 - 8.143 ms
+Tue Jun 10 2025 18:25:10 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.066 ms
+Tue Jun 10 2025 18:25:10 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.040 ms
+Tue Jun 10 2025 18:25:10 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.036 ms
+Tue Jun 10 2025 18:25:10 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 6.762 ms
+Tue Jun 10 2025 18:25:10 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 14.748 ms
+Tue Jun 10 2025 18:25:10 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 200 - 16.132 ms
+Tue Jun 10 2025 18:26:27 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/safhale 204 - 0.069 ms
+Tue Jun 10 2025 18:26:27 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/subcategory/safhale 200 - 3.341 ms
+Tue Jun 10 2025 18:26:27 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.053 ms
+Tue Jun 10 2025 18:26:27 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 304 - 8.805 ms
+Tue Jun 10 2025 18:26:30 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.047 ms
+Tue Jun 10 2025 18:26:30 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.037 ms
+Tue Jun 10 2025 18:26:30 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 8.267 ms
+Tue Jun 10 2025 18:26:30 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 304 - 13.499 ms
+Tue Jun 10 2025 18:26:30 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 14.357 ms
+Tue Jun 10 2025 18:26:43 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/safhale 204 - 0.045 ms
+Tue Jun 10 2025 18:26:43 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/subcategory/safhale 200 - 9.875 ms
+Tue Jun 10 2025 18:26:43 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.039 ms
+Tue Jun 10 2025 18:26:43 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 200 - 6.614 ms
+Tue Jun 10 2025 18:26:55 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.054 ms
+Tue Jun 10 2025 18:26:55 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.048 ms
+Tue Jun 10 2025 18:26:55 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.030 ms
+Tue Jun 10 2025 18:26:55 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 7.676 ms
+Tue Jun 10 2025 18:26:55 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 13.027 ms
+Tue Jun 10 2025 18:26:55 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 304 - 15.030 ms
+Tue Jun 10 2025 18:27:1 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/safhale 204 - 0.046 ms
+Tue Jun 10 2025 18:27:1 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/subcategory/safhale 200 - 8.431 ms
+Tue Jun 10 2025 18:27:1 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.059 ms
+Tue Jun 10 2025 18:27:1 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 200 - 7.097 ms
+Tue Jun 10 2025 18:27:4 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.054 ms
+Tue Jun 10 2025 18:27:4 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.037 ms
+Tue Jun 10 2025 18:27:4 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 7.502 ms
+Tue Jun 10 2025 18:27:4 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 304 - 13.947 ms
+Tue Jun 10 2025 18:27:4 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 14.572 ms
+Tue Jun 10 2025 18:31:40 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Jun 10 2025 18:31:40 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Jun 10 2025 18:31:40 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue Jun 10 2025 18:31:40 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue Jun 10 2025 18:32:12 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Jun 10 2025 18:32:13 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Jun 10 2025 18:32:13 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue Jun 10 2025 18:32:13 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m

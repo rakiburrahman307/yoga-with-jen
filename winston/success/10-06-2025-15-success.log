@@ -1,0 +1,23 @@
+Tue Jun 10 2025 15:29:25 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.059 ms
+Tue Jun 10 2025 15:29:25 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.051 ms
+Tue Jun 10 2025 15:29:25 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 12.331 ms
+Tue Jun 10 2025 15:29:25 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 304 - 9.351 ms
+Tue Jun 10 2025 15:29:29 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/videos/reorder 204 - 0.045 ms
+Tue Jun 10 2025 15:39:2 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin?page=1&limit=10 204 - 0.057 ms
+Tue Jun 10 2025 15:39:2 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 200 - 6.645 ms
+Tue Jun 10 2025 15:57:32 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Jun 10 2025 15:57:32 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Jun 10 2025 15:57:32 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Tue Jun 10 2025 15:57:32 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Tue Jun 10 2025 15:57:34 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subscription?page=1&limit=10 204 - 1.149 ms
+Tue Jun 10 2025 15:57:34 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subscription?page=1&limit=10&page=1&limit=10 204 - 0.146 ms
+Tue Jun 10 2025 15:57:34 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subscription?page=1&limit=10 200 - 30.516 ms
+Tue Jun 10 2025 15:57:34 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subscription?page=1&limit=10&page=1&limit=10 200 - 12.258 ms
+Tue Jun 10 2025 15:57:36 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/quotation/managment/admin?page=undefined 204 - 0.099 ms
+Tue Jun 10 2025 15:57:36 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/quotation/managment/admin?page=undefined 304 - 25.078 ms
+Tue Jun 10 2025 15:57:39 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.112 ms
+Tue Jun 10 2025 15:57:39 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.107 ms
+Tue Jun 10 2025 15:57:39 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 36.707 ms
+Tue Jun 10 2025 15:57:39 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 304 - 38.354 ms
+Tue Jun 10 2025 15:58:16 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/notifications/send-notification 204 - 0.125 ms
+Tue Jun 10 2025 15:58:17 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/notifications/send-notification 200 - 154.983 ms
