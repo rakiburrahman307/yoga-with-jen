@@ -9,6 +9,7 @@ import { User } from '../../user/user.model';
 import mongoose from 'mongoose';
 import { SubCategory } from '../../subCategorys/subCategory.model';
 import { Favourite } from '../../favourit/favourit.model';
+import { checkNextVideoUnlock } from '../../../../helpers/checkNExtVideoUnlocak';
 
 // get videos
 const getVideos = async (query: Record<string, unknown>) => {
@@ -40,7 +41,7 @@ const addVideo = async (payload: IVideo) => {
      if (isExistCategory.status === 'inactive') {
           throw new AppError(StatusCodes.BAD_REQUEST, 'Category is inactive');
      }
-
+     payload.category = isExistCategory.name;
      // Increment videoCount of main category
      const updatedCategory = await Category.findByIdAndUpdate(isExistCategory._id, { $inc: { videoCount: 1 } }, { new: true });
      if (!updatedCategory) {
@@ -56,7 +57,7 @@ const addVideo = async (payload: IVideo) => {
           if (isExistSubCategory.status === 'inactive') {
                throw new AppError(StatusCodes.BAD_REQUEST, 'SubCategory is inactive');
           }
-
+          payload.subCategory = isExistSubCategory.name;
           // Here you can update either the subCategory document or the main category document
           // I'm assuming you want to increment the subCategoryCount on the main category:
           const updatedCategoryForSub = await SubCategory.findByIdAndUpdate(isExistSubCategory._id, { $inc: { videoCount: 1 } }, { new: true });
@@ -120,6 +121,8 @@ const removeVideo = async (id: string) => {
      if (!isExistVideo) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
      }
+
+     // Delete video and thumbnail from BunnyCDN
      if (isExistVideo.videoUrl) {
           try {
                await BunnyStorageHandeler.deleteFromBunny(isExistVideo.videoUrl);
@@ -132,10 +135,24 @@ const removeVideo = async (id: string) => {
           }
      }
 
+     // Decrease video count in category
+     const decreaseCountVideoCategory = await Category.findByIdAndUpdate(isExistVideo.categoryId, {
+          $inc: { videoCount: -1 },
+     });
+
+     // Also decrease count in subcategory if video belongs to one
+     if (isExistVideo.subCategoryId) {
+          await SubCategory.findByIdAndUpdate(isExistVideo.subCategoryId, {
+               $inc: { videoCount: -1 },
+          });
+     }
+
+     // Delete the video
      const result = await Video.findByIdAndDelete(id);
      if (!result) {
           throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to delete video');
      }
+
      return result;
 };
 const getSingleVideoFromDb = async (id: string, userId: string) => {
@@ -171,6 +188,58 @@ const getSingleVideoForAdmin = async (id: string, userId: string) => {
      return data;
 };
 // Mark a video as completed for a user
+// const markVideoAsCompleted = async (userId: string, videoId: string) => {
+//      try {
+//           // Find the user first
+//           const user = await User.findById(userId);
+//           if (!user) {
+//                throw new AppError(StatusCodes.NOT_FOUND, 'User not found');
+//           }
+
+//           // Convert videoId to ObjectId if using MongoDB ObjectIds
+//           const videoObjectId = new mongoose.Types.ObjectId(videoId);
+
+//           // Check if video is already completed (more reliable comparison)
+//           const isAlreadyCompleted = user.completedSessions.some((sessionId) => sessionId.toString() === videoId.toString());
+
+//           if (!isAlreadyCompleted) {
+//                // Use findByIdAndUpdate with proper options
+//                const updatedUser = await User.findByIdAndUpdate(
+//                     userId,
+//                     { $push: { completedSessions: videoObjectId } },
+//                     {
+//                          new: true, // Return updated document
+//                          runValidators: true, // Run schema validations
+//                     },
+//                );
+
+//                if (!updatedUser) {
+//                     throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to mark video as completed');
+//                }
+
+//                console.log('Video marked as completed:', {
+//                     userId,
+//                     videoId,
+//                     completedSessions: updatedUser.completedSessions,
+//                });
+
+//                return {
+//                     success: true,
+//                     message: 'Video marked as completed',
+//                     completedSessions: updatedUser.completedSessions,
+//                };
+//           } else {
+//                return {
+//                     success: true,
+//                     message: 'Video already completed',
+//                     completedSessions: user.completedSessions,
+//                };
+//           }
+//      } catch (error) {
+//           console.error('Error marking video as completed:', error);
+//           throw error;
+//      }
+// };
 const markVideoAsCompleted = async (userId: string, videoId: string) => {
      try {
           // Find the user first
@@ -186,6 +255,12 @@ const markVideoAsCompleted = async (userId: string, videoId: string) => {
           const isAlreadyCompleted = user.completedSessions.some((sessionId) => sessionId.toString() === videoId.toString());
 
           if (!isAlreadyCompleted) {
+               // Find the video to get subcategory info
+               const currentVideo = await Video.findById(videoId);
+               if (!currentVideo) {
+                    throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
+               }
+
                // Use findByIdAndUpdate with proper options
                const updatedUser = await User.findByIdAndUpdate(
                     userId,
@@ -200,6 +275,9 @@ const markVideoAsCompleted = async (userId: string, videoId: string) => {
                     throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to mark video as completed');
                }
 
+               // Check what gets unlocked next
+               const nextVideoInfo = await checkNextVideoUnlock(userId, currentVideo?.subCategoryId.toString(), videoId);
+
                console.log('Video marked as completed:', {
                     userId,
                     videoId,
@@ -210,12 +288,14 @@ const markVideoAsCompleted = async (userId: string, videoId: string) => {
                     success: true,
                     message: 'Video marked as completed',
                     completedSessions: updatedUser.completedSessions,
+                    nextVideoInfo: nextVideoInfo,
                };
           } else {
                return {
                     success: true,
                     message: 'Video already completed',
                     completedSessions: user.completedSessions,
+                    nextVideoInfo: { nextVideoUnlocked: false, reason: 'Already completed' },
                };
           }
      } catch (error) {
@@ -223,6 +303,7 @@ const markVideoAsCompleted = async (userId: string, videoId: string) => {
           throw error;
      }
 };
+
 export const videoManagementService = {
      getVideos,
      addVideo,

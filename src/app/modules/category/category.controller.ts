@@ -94,6 +94,17 @@ const getVideosByCategory = catchAsync(async (req, res) => {
           data: result,
      });
 });
+const getCategoriesAllVideos = catchAsync(async (req, res) => {
+     const { id } = req.params;
+     const { id: userId }: any = req.user;
+     const result = await CategoryService.getCategoriesAllVideos(id, userId, req.query);
+     sendResponse(res, {
+          success: true,
+          statusCode: StatusCodes.OK,
+          message: 'Videos retrieved successfully',
+          data: result,
+     });
+});
 export const CategoryController = {
      createCategory,
      getCategories,
@@ -103,4 +114,5 @@ export const CategoryController = {
      getSingleCategory,
      getSubcategorisByCategoris,
      getVideosByCategory,
+     getCategoriesAllVideos
 };

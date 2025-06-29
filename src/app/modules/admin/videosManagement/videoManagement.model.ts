@@ -7,6 +7,16 @@ const VideoSchema = new Schema<IVideo>(
           title: { type: String, required: true },
           serial: { type: Number, default: 1 },
           categoryId: { type: mongoose.Schema.Types.ObjectId, ref: 'Category', required: true, trim: true },
+          category: {
+               type: String,
+               required: true,
+               trim: true,
+          },
+          subCategory: {
+               type: String,
+               required: true,
+               trim: true,
+          },
           subCategoryId: {
                type: mongoose.Schema.Types.ObjectId,
                required: false,

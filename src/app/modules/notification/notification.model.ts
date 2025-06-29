@@ -72,6 +72,10 @@ const notificationSchema = new Schema<INotification>(
                required: false, // optional, only set for scheduled notifications
                index: true,
           },
+          notificationType: {
+               type: String,
+               default: '',
+          },
           status: {
                type: String,
                enum: ['PENDING', 'SEND', 'FAILED'],

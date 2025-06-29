@@ -42,5 +42,5 @@ app.use(globalErrorHandler);
 
 //handle not found route;
 app.use(notFound);
-// setupTrialManagement();
+setupTrialManagement();
 export default app;

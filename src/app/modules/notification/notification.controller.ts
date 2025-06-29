@@ -75,7 +75,16 @@ const sendAdminNotification = catchAsync(async (req, res) => {
           data: result,
      });
 });
-
+const getPushNotification = catchAsync(async (req, res) => {
+     const result = await NotificationService.getAllPushNotification(req.query);
+     sendResponse(res, {
+          statusCode: StatusCodes.OK,
+          success: true,
+          message: 'Notification Send Successfully',
+          data: result.result,
+          pagination: result.meta,
+     });
+});
 export const NotificationController = {
      adminNotificationFromDB,
      getNotificationFromDB,
@@ -83,4 +92,5 @@ export const NotificationController = {
      adminReadNotification,
      sendAdminNotification,
      readNotificationSingle,
+     getPushNotification,
 };

@@ -54,7 +54,32 @@ class QueryBuilder<T> {
           this.modelQuery = this.modelQuery.select(fields);
           return this;
      }
+     populateFields() {
+          const populate = typeof this.query?.category === 'string' ? this.query.category.split(',') : [];
+          populate.forEach((field) => {
+               // You can add more conditions for other fields if needed
+               if (field === 'categoryId') {
+                    this.modelQuery = this.modelQuery.populate({
+                         path: 'categoryId',
+                         select: 'name', 
+                    });
+               }
+               if (field === 'subCategoryId') {
+                    this.modelQuery = this.modelQuery.populate({
+                         path: 'subCategoryId',
+                         select: 'name', 
+                    });
+               }
+               if (field === 'userId') {
+                    this.modelQuery = this.modelQuery.populate({
+                         path: 'userId',
+                         select: 'name email', 
+                    });
+               }
+          });
 
+          return this;
+     }
      async countTotal() {
           try {
                const totalQueries = this.modelQuery.getFilter();

@@ -1,0 +1,374 @@
+Sat Jun 14 2025 20:0:1 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:0:2 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.070 ms
+Sat Jun 14 2025 20:0:2 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin?page=1&limit=10 204 - 0.064 ms
+Sat Jun 14 2025 20:0:2 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 8.362 ms
+Sat Jun 14 2025 20:0:2 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 304 - 12.220 ms
+Sat Jun 14 2025 20:0:2 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:0:2 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:0:2 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 10.363 ms
+Sat Jun 14 2025 20:0:2 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 304 - 13.800 ms
+Sat Jun 14 2025 20:0:2 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:0:2 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:0:3 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 7.197 ms
+Sat Jun 14 2025 20:0:3 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 304 - 12.468 ms
+Sat Jun 14 2025 20:0:3 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:0:3 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:0:3 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 8.713 ms
+Sat Jun 14 2025 20:0:3 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 304 - 14.671 ms
+Sat Jun 14 2025 20:0:3 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:0:3 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:0:3 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 6.702 ms
+Sat Jun 14 2025 20:0:3 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 304 - 12.173 ms
+Sat Jun 14 2025 20:0:3 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:0:3 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:0:4 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 12.962 ms
+Sat Jun 14 2025 20:0:4 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 304 - 19.017 ms
+Sat Jun 14 2025 20:0:4 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:0:4 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:0:4 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 7.853 ms
+Sat Jun 14 2025 20:0:4 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 304 - 12.322 ms
+Sat Jun 14 2025 20:0:4 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:0:4 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:0:5 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 7.846 ms
+Sat Jun 14 2025 20:0:5 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 304 - 12.927 ms
+Sat Jun 14 2025 20:0:5 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:0:5 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:0:5 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 7.605 ms
+Sat Jun 14 2025 20:0:5 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 304 - 14.006 ms
+Sat Jun 14 2025 20:0:5 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:0:9 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:0:18 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/auth/login 204 - 0.097 ms
+Sat Jun 14 2025 20:0:18 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/login 200 - 271.781 ms
+Sat Jun 14 2025 20:0:18 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.093 ms
+Sat Jun 14 2025 20:0:18 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 304 - 11.973 ms
+Sat Jun 14 2025 20:0:18 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:0:18 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/revenue 204 - 0.101 ms
+Sat Jun 14 2025 20:0:18 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.057 ms
+Sat Jun 14 2025 20:0:18 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/revenue 304 - 7.553 ms
+Sat Jun 14 2025 20:0:18 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/resent-users 304 - 11.839 ms
+Sat Jun 14 2025 20:1:11 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin?page=1&limit=10 204 - 0.060 ms
+Sat Jun 14 2025 20:1:11 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 200 - 12.480 ms
+Sat Jun 14 2025 20:1:25 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:1:26 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.044 ms
+Sat Jun 14 2025 20:1:26 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin?page=1&limit=10 204 - 0.122 ms
+Sat Jun 14 2025 20:1:26 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 6.711 ms
+Sat Jun 14 2025 20:1:26 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 304 - 11.715 ms
+Sat Jun 14 2025 20:1:26 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:1:27 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:1:28 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 6.269 ms
+Sat Jun 14 2025 20:1:28 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 304 - 10.836 ms
+Sat Jun 14 2025 20:1:28 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:1:28 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:1:28 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 7.687 ms
+Sat Jun 14 2025 20:1:28 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 304 - 11.906 ms
+Sat Jun 14 2025 20:1:28 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:1:28 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:1:28 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 6.141 ms
+Sat Jun 14 2025 20:1:28 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 304 - 11.058 ms
+Sat Jun 14 2025 20:1:28 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:1:28 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:1:29 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 7.944 ms
+Sat Jun 14 2025 20:1:29 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 304 - 12.044 ms
+Sat Jun 14 2025 20:1:29 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 6.672 ms
+Sat Jun 14 2025 20:1:29 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 304 - 14.538 ms
+Sat Jun 14 2025 20:1:29 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:1:49 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:1:49 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.088 ms
+Sat Jun 14 2025 20:1:49 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin?page=1&limit=10 204 - 0.083 ms
+Sat Jun 14 2025 20:1:49 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 7.084 ms
+Sat Jun 14 2025 20:1:49 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 200 - 23.802 ms
+Sat Jun 14 2025 20:1:49 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:1:59 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:2:10 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/auth/login 204 - 0.067 ms
+Sat Jun 14 2025 20:2:10 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/login 200 - 292.591 ms
+Sat Jun 14 2025 20:2:10 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.076 ms
+Sat Jun 14 2025 20:2:10 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 200 - 12.816 ms
+Sat Jun 14 2025 20:2:10 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:2:10 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/revenue 204 - 0.069 ms
+Sat Jun 14 2025 20:2:10 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.053 ms
+Sat Jun 14 2025 20:2:10 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/resent-users 200 - 4.497 ms
+Sat Jun 14 2025 20:2:10 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/revenue 200 - 6.581 ms
+Sat Jun 14 2025 20:2:48 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?category=Fitness 200 - 13.247 ms
+Sat Jun 14 2025 20:3:11 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:3:13 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.082 ms
+Sat Jun 14 2025 20:3:13 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.056 ms
+Sat Jun 14 2025 20:3:13 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 5.517 ms
+Sat Jun 14 2025 20:3:13 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 304 - 12.001 ms
+Sat Jun 14 2025 20:3:40 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/revenue 204 - 0.066 ms
+Sat Jun 14 2025 20:3:40 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.052 ms
+Sat Jun 14 2025 20:3:40 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/resent-users 304 - 5.058 ms
+Sat Jun 14 2025 20:3:40 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:3:40 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/revenue 304 - 11.659 ms
+Sat Jun 14 2025 20:4:48 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:4:48 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:5:33 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:5:33 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:5:50 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:5:50 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:5:57 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:5:57 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:6:0 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:6:0 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:6:9 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:6:18 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.090 ms
+Sat Jun 14 2025 20:6:18 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.076 ms
+Sat Jun 14 2025 20:6:18 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 18.285 ms
+Sat Jun 14 2025 20:6:18 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 304 - 26.881 ms
+Sat Jun 14 2025 20:6:21 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 6.157 ms
+Sat Jun 14 2025 20:6:21 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 304 - 10.263 ms
+Sat Jun 14 2025 20:6:33 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:6:34 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.073 ms
+Sat Jun 14 2025 20:6:34 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.062 ms
+Sat Jun 14 2025 20:6:34 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.052 ms
+Sat Jun 14 2025 20:6:34 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 23.901 ms
+Sat Jun 14 2025 20:6:34 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 200 - 34.327 ms
+Sat Jun 14 2025 20:6:34 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 200 - 36.587 ms
+Sat Jun 14 2025 20:6:34 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:6:40 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/revenue 204 - 0.078 ms
+Sat Jun 14 2025 20:6:40 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.060 ms
+Sat Jun 14 2025 20:6:40 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/revenue 304 - 6.736 ms
+Sat Jun 14 2025 20:6:40 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/resent-users 304 - 18.072 ms
+Sat Jun 14 2025 20:6:40 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:7:8 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.070 ms
+Sat Jun 14 2025 20:7:8 [SERVER-NAME] info: 10.0.60.147 - PATCH /api/v1/users/profile 200 - 43.316 ms
+Sat Jun 14 2025 20:7:8 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 4.934 ms
+Sat Jun 14 2025 20:7:8 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1749910028724.png 200 - 1.975 ms
+Sat Jun 14 2025 20:8:6 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:8:18 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/auth/login 204 - 0.091 ms
+Sat Jun 14 2025 20:8:18 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/login 200 - 256.945 ms
+Sat Jun 14 2025 20:8:18 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1749910028724.png 304 - 0.551 ms
+Sat Jun 14 2025 20:8:18 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.057 ms
+Sat Jun 14 2025 20:8:18 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 304 - 8.636 ms
+Sat Jun 14 2025 20:8:18 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:8:18 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/revenue 204 - 0.098 ms
+Sat Jun 14 2025 20:8:18 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.064 ms
+Sat Jun 14 2025 20:8:18 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/revenue 304 - 6.875 ms
+Sat Jun 14 2025 20:8:18 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/resent-users 304 - 8.675 ms
+Sat Jun 14 2025 20:8:27 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.065 ms
+Sat Jun 14 2025 20:8:27 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.061 ms
+Sat Jun 14 2025 20:8:27 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 28.235 ms
+Sat Jun 14 2025 20:8:27 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 304 - 31.317 ms
+Sat Jun 14 2025 20:8:29 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos/684d4ffb8d52aa8cd406305f 204 - 0.086 ms
+Sat Jun 14 2025 20:8:29 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos/684d4ffb8d52aa8cd406305f 200 - 8.643 ms
+Sat Jun 14 2025 20:8:32 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/get-all-videos-by-course/683ec770cdcd9dbc9a3a5995 204 - 0.073 ms
+Sat Jun 14 2025 20:8:32 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/get-all-videos-by-course/683ec770cdcd9dbc9a3a5995 200 - 21.174 ms
+Sat Jun 14 2025 20:8:40 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin?page=1&limit=10 204 - 0.072 ms
+Sat Jun 14 2025 20:8:40 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 200 - 14.402 ms
+Sat Jun 14 2025 20:16:59 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:17:17 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:17:20 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:20:12 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:20:27 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/auth/login 204 - 0.048 ms
+Sat Jun 14 2025 20:20:28 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/login 200 - 224.107 ms
+Sat Jun 14 2025 20:20:28 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1749910028724.png 304 - 0.434 ms
+Sat Jun 14 2025 20:20:28 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.049 ms
+Sat Jun 14 2025 20:20:28 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 304 - 10.903 ms
+Sat Jun 14 2025 20:20:28 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:20:28 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/revenue 204 - 0.067 ms
+Sat Jun 14 2025 20:20:28 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.076 ms
+Sat Jun 14 2025 20:20:28 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/revenue 304 - 8.478 ms
+Sat Jun 14 2025 20:20:28 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/resent-users 304 - 6.631 ms
+Sat Jun 14 2025 20:21:28 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:21:28 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:21:28 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:21:28 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:21:30 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:21:30 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:21:30 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:21:30 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:21:31 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:21:31 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:21:31 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:21:31 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:21:36 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:21:36 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:21:36 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:21:36 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:21:44 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:21:44 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:21:44 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:21:44 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:21:46 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:21:46 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:21:46 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:21:46 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:21:50 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:21:51 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.043 ms
+Sat Jun 14 2025 20:21:51 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.043 ms
+Sat Jun 14 2025 20:21:51 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 5.354 ms
+Sat Jun 14 2025 20:21:51 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 304 - 7.846 ms
+Sat Jun 14 2025 20:21:51 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/revenue 204 - 0.044 ms
+Sat Jun 14 2025 20:21:51 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.032 ms
+Sat Jun 14 2025 20:21:51 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/resent-users 304 - 6.240 ms
+Sat Jun 14 2025 20:21:51 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/revenue 304 - 7.002 ms
+Sat Jun 14 2025 20:21:51 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1749910028724.png 304 - 0.262 ms
+Sat Jun 14 2025 20:21:51 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:21:57 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:22:9 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/auth/login 204 - 0.066 ms
+Sat Jun 14 2025 20:22:9 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/login 200 - 263.225 ms
+Sat Jun 14 2025 20:22:10 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1749910028724.png 304 - 0.504 ms
+Sat Jun 14 2025 20:22:10 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:22:46 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:22:46 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.070 ms
+Sat Jun 14 2025 20:22:46 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.060 ms
+Sat Jun 14 2025 20:22:46 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 8.486 ms
+Sat Jun 14 2025 20:22:46 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 304 - 15.610 ms
+Sat Jun 14 2025 20:22:46 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/revenue 204 - 0.072 ms
+Sat Jun 14 2025 20:22:46 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/revenue 304 - 4.642 ms
+Sat Jun 14 2025 20:22:46 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.070 ms
+Sat Jun 14 2025 20:22:46 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1749910028724.png 304 - 3.432 ms
+Sat Jun 14 2025 20:22:46 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/resent-users 304 - 9.065 ms
+Sat Jun 14 2025 20:22:46 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:23:30 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.072 ms
+Sat Jun 14 2025 20:23:30 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.130 ms
+Sat Jun 14 2025 20:23:30 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 6.850 ms
+Sat Jun 14 2025 20:23:30 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 304 - 14.685 ms
+Sat Jun 14 2025 20:23:30 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/revenue 204 - 0.070 ms
+Sat Jun 14 2025 20:23:30 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.064 ms
+Sat Jun 14 2025 20:23:30 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/revenue 304 - 5.802 ms
+Sat Jun 14 2025 20:23:30 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1749910028724.png 304 - 4.243 ms
+Sat Jun 14 2025 20:23:30 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/resent-users 304 - 9.335 ms
+Sat Jun 14 2025 20:23:30 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:23:36 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:23:44 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/auth/login 204 - 0.086 ms
+Sat Jun 14 2025 20:23:45 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/login 200 - 263.926 ms
+Sat Jun 14 2025 20:23:45 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1749910028724.png 304 - 0.598 ms
+Sat Jun 14 2025 20:23:45 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:24:3 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:24:4 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.074 ms
+Sat Jun 14 2025 20:24:4 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.055 ms
+Sat Jun 14 2025 20:24:4 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 6.375 ms
+Sat Jun 14 2025 20:24:4 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 304 - 12.407 ms
+Sat Jun 14 2025 20:24:4 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.066 ms
+Sat Jun 14 2025 20:24:4 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/revenue 204 - 0.059 ms
+Sat Jun 14 2025 20:24:4 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/resent-users 304 - 4.946 ms
+Sat Jun 14 2025 20:24:4 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/revenue 304 - 5.628 ms
+Sat Jun 14 2025 20:24:4 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1749910028724.png 304 - 0.351 ms
+Sat Jun 14 2025 20:24:4 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:24:49 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/login 200 - 226.368 ms
+Sat Jun 14 2025 20:25:18 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/login 200 - 225.512 ms
+Sat Jun 14 2025 20:25:29 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/login 200 - 222.677 ms
+Sat Jun 14 2025 20:25:58 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:26:3 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/login 200 - 256.912 ms
+Sat Jun 14 2025 20:26:33 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:26:45 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/auth/login 204 - 0.045 ms
+Sat Jun 14 2025 20:26:45 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/login 200 - 225.371 ms
+Sat Jun 14 2025 20:26:45 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1749910028724.png 304 - 0.291 ms
+Sat Jun 14 2025 20:26:45 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:27:7 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/login 200 - 252.964 ms
+Sat Jun 14 2025 20:27:20 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:27:39 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/auth/login 204 - 0.065 ms
+Sat Jun 14 2025 20:27:39 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/login 200 - 256.633 ms
+Sat Jun 14 2025 20:27:40 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.071 ms
+Sat Jun 14 2025 20:27:40 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.067 ms
+Sat Jun 14 2025 20:27:40 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 14.667 ms
+Sat Jun 14 2025 20:27:40 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 304 - 21.245 ms
+Sat Jun 14 2025 20:27:40 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/revenue 204 - 0.077 ms
+Sat Jun 14 2025 20:27:40 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.052 ms
+Sat Jun 14 2025 20:27:40 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/revenue 304 - 5.758 ms
+Sat Jun 14 2025 20:27:40 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/resent-users 304 - 9.916 ms
+Sat Jun 14 2025 20:27:40 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1749910028724.png 304 - 2.037 ms
+Sat Jun 14 2025 20:28:2 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin?page=1&limit=10 204 - 0.064 ms
+Sat Jun 14 2025 20:28:2 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 200 - 7.541 ms
+Sat Jun 14 2025 20:28:16 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications 204 - 0.230 ms
+Sat Jun 14 2025 20:28:16 [SERVER-NAME] info: 10.0.60.147 - PATCH /api/v1/notifications 200 - 10.426 ms
+Sat Jun 14 2025 20:28:16 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin?page=1&limit=10 204 - 0.064 ms
+Sat Jun 14 2025 20:28:16 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 200 - 7.554 ms
+Sat Jun 14 2025 20:39:13 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/auth/login 204 - 0.067 ms
+Sat Jun 14 2025 20:39:13 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/login 200 - 255.102 ms
+Sat Jun 14 2025 20:39:13 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.063 ms
+Sat Jun 14 2025 20:39:13 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1749910028724.png 304 - 0.430 ms
+Sat Jun 14 2025 20:39:13 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 304 - 8.373 ms
+Sat Jun 14 2025 20:39:13 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/revenue 204 - 0.043 ms
+Sat Jun 14 2025 20:39:13 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.067 ms
+Sat Jun 14 2025 20:39:13 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/revenue 304 - 11.171 ms
+Sat Jun 14 2025 20:39:13 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/resent-users 304 - 14.235 ms
+Sat Jun 14 2025 20:39:24 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/login 200 - 294.740 ms
+Sat Jun 14 2025 20:39:41 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:39:49 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:40:2 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/login 200 - 286.019 ms
+Sat Jun 14 2025 20:40:21 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/user/managment? 204 - 0.074 ms
+Sat Jun 14 2025 20:40:21 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/user/managment? 200 - 9.404 ms
+Sat Jun 14 2025 20:40:41 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:40:41 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.068 ms
+Sat Jun 14 2025 20:40:41 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.054 ms
+Sat Jun 14 2025 20:40:41 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 6.641 ms
+Sat Jun 14 2025 20:40:41 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 304 - 36.366 ms
+Sat Jun 14 2025 20:40:42 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/revenue 204 - 0.072 ms
+Sat Jun 14 2025 20:40:42 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.049 ms
+Sat Jun 14 2025 20:40:42 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/revenue 304 - 4.770 ms
+Sat Jun 14 2025 20:40:42 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/resent-users 304 - 5.148 ms
+Sat Jun 14 2025 20:40:42 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1749910028724.png 304 - 0.458 ms
+Sat Jun 14 2025 20:40:42 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:40:57 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/login 200 - 283.085 ms
+Sat Jun 14 2025 20:41:44 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/user/managment? 204 - 0.064 ms
+Sat Jun 14 2025 20:41:44 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/user/managment? 304 - 6.355 ms
+Sat Jun 14 2025 20:42:8 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/login 200 - 257.409 ms
+Sat Jun 14 2025 20:42:18 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/login 200 - 263.944 ms
+Sat Jun 14 2025 20:42:34 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/login 200 - 249.766 ms
+Sat Jun 14 2025 20:42:43 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin?page=1&limit=10 204 - 0.073 ms
+Sat Jun 14 2025 20:42:43 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 200 - 7.829 ms
+Sat Jun 14 2025 20:42:55 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.073 ms
+Sat Jun 14 2025 20:42:55 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.051 ms
+Sat Jun 14 2025 20:42:55 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 6.990 ms
+Sat Jun 14 2025 20:42:55 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 304 - 13.004 ms
+Sat Jun 14 2025 20:42:55 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1749910028724.png 304 - 0.395 ms
+Sat Jun 14 2025 20:42:55 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/revenue 204 - 0.090 ms
+Sat Jun 14 2025 20:42:55 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.066 ms
+Sat Jun 14 2025 20:42:55 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/resent-users 304 - 5.568 ms
+Sat Jun 14 2025 20:42:55 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/revenue 304 - 5.106 ms
+Sat Jun 14 2025 20:42:55 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 20:43:1 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:43:49 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications 204 - 0.044 ms
+Sat Jun 14 2025 20:43:49 [SERVER-NAME] info: 10.0.60.147 - PATCH /api/v1/notifications 200 - 5.574 ms
+Sat Jun 14 2025 20:43:49 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin?page=1&limit=10 204 - 0.043 ms
+Sat Jun 14 2025 20:43:49 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 200 - 9.173 ms
+Sat Jun 14 2025 20:43:55 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin?page=1&limit=10 204 - 0.074 ms
+Sat Jun 14 2025 20:43:55 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 304 - 8.689 ms
+Sat Jun 14 2025 20:44:6 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/user/managment? 204 - 0.066 ms
+Sat Jun 14 2025 20:44:6 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/user/managment? 304 - 6.961 ms
+Sat Jun 14 2025 20:46:16 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:46:16 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 20:46:19 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.068 ms
+Sat Jun 14 2025 20:46:19 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/user/managment? 204 - 0.049 ms
+Sat Jun 14 2025 20:46:19 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 6.342 ms
+Sat Jun 14 2025 20:46:19 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/user/managment? 304 - 12.405 ms
+Sat Jun 14 2025 20:46:20 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin?page=1&limit=10 204 - 0.075 ms
+Sat Jun 14 2025 20:46:20 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 4.673 ms
+Sat Jun 14 2025 20:46:20 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 304 - 8.221 ms
+Sat Jun 14 2025 20:46:22 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/user/managment? 304 - 9.240 ms
+Sat Jun 14 2025 20:46:22 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 9.809 ms
+Sat Jun 14 2025 20:46:24 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 304 - 9.827 ms
+Sat Jun 14 2025 20:46:24 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 9.217 ms
+Sat Jun 14 2025 20:49:41 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.067 ms
+Sat Jun 14 2025 20:49:41 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/user/managment? 204 - 0.053 ms
+Sat Jun 14 2025 20:49:41 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 19.983 ms
+Sat Jun 14 2025 20:49:41 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/user/managment? 304 - 24.903 ms
+Sat Jun 14 2025 20:49:42 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin?page=1&limit=10 204 - 0.060 ms
+Sat Jun 14 2025 20:49:42 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 5.485 ms
+Sat Jun 14 2025 20:49:42 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 304 - 9.029 ms
+Sat Jun 14 2025 20:51:21 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.072 ms
+Sat Jun 14 2025 20:51:21 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/user/managment? 204 - 0.063 ms
+Sat Jun 14 2025 20:51:21 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 7.683 ms
+Sat Jun 14 2025 20:51:21 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/user/managment? 304 - 11.168 ms
+Sat Jun 14 2025 20:51:22 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin?page=1&limit=10 204 - 0.073 ms
+Sat Jun 14 2025 20:51:22 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 5.210 ms
+Sat Jun 14 2025 20:51:22 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 304 - 13.542 ms
+Sat Jun 14 2025 20:52:39 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.066 ms
+Sat Jun 14 2025 20:52:39 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 4.596 ms
+Sat Jun 14 2025 20:52:39 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/user/managment? 204 - 0.095 ms
+Sat Jun 14 2025 20:52:39 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/user/managment? 304 - 7.249 ms
+Sat Jun 14 2025 20:52:40 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin?page=1&limit=10 204 - 0.059 ms
+Sat Jun 14 2025 20:52:40 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 7.077 ms
+Sat Jun 14 2025 20:52:40 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 304 - 13.985 ms
+Sat Jun 14 2025 20:52:48 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.065 ms
+Sat Jun 14 2025 20:52:48 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 5.284 ms
+Sat Jun 14 2025 20:52:48 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/user/managment? 204 - 0.071 ms
+Sat Jun 14 2025 20:52:48 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/user/managment? 304 - 7.797 ms
+Sat Jun 14 2025 20:52:48 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin?page=1&limit=10 204 - 0.055 ms
+Sat Jun 14 2025 20:52:48 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 5.306 ms
+Sat Jun 14 2025 20:52:48 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 304 - 14.709 ms
+Sat Jun 14 2025 20:52:50 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 9.192 ms
+Sat Jun 14 2025 20:52:50 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/user/managment? 304 - 13.032 ms
+Sat Jun 14 2025 20:52:52 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 4.638 ms
+Sat Jun 14 2025 20:52:52 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 304 - 9.142 ms

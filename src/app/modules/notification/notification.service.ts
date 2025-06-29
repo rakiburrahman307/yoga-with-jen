@@ -135,7 +135,8 @@ const adminSendNotificationFromDB = async (payload: any) => {
                type: 'ADMIN',
                receiver: receiverId,
                sendAt: new Date(sendAt),
-               status: 'pending',
+               notificationType: 'schedule',
+               status: 'PENDING',
           });
           await notification.save();
      };
@@ -152,7 +153,7 @@ const adminSendNotificationFromDB = async (payload: any) => {
                const notificationData = {
                     title,
                     referenceModel: 'MESSAGE',
-                    text: message,
+                    message,
                     type: 'ADMIN',
                     receiver,
                };
@@ -194,8 +195,17 @@ const adminSendNotificationFromDB = async (payload: any) => {
           }
      }
 };
+const getAllPushNotification = async (query: Record<string, unknown>) => {
+     const querBuilder = new QueryBuilder(Notification.find({ notificationType: 'schedule' }), query);
+     const result = await querBuilder.fields().filter().paginate().sort().modelQuery.exec();
 
-export default adminSendNotificationFromDB;
+     const meta = await querBuilder.countTotal();
+
+     return {
+          result,
+          meta,
+     };
+};
 
 export const NotificationService = {
      adminNotificationFromDB,
@@ -204,4 +214,5 @@ export const NotificationService = {
      adminReadNotificationToDB,
      adminSendNotificationFromDB,
      readNotificationSingleToDB,
+     getAllPushNotification,
 };

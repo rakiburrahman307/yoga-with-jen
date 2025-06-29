@@ -1,0 +1,44 @@
+Thu Jun 26 2025 9:24:44 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Jun 26 2025 9:24:44 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Jun 26 2025 9:24:44 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Thu Jun 26 2025 9:24:44 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Thu Jun 26 2025 9:24:55 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/login 200 - 467.829 ms
+Thu Jun 26 2025 9:24:59 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/auth/login 204 - 0.625 ms
+Thu Jun 26 2025 9:25:0 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/login 200 - 325.371 ms
+Thu Jun 26 2025 9:25:0 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.227 ms
+Thu Jun 26 2025 9:25:0 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.110 ms
+Thu Jun 26 2025 9:25:0 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 18.330 ms
+Thu Jun 26 2025 9:25:0 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 200 - 42.747 ms
+Thu Jun 26 2025 9:25:0 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.091 ms
+Thu Jun 26 2025 9:25:0 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/revenue 204 - 0.093 ms
+Thu Jun 26 2025 9:25:0 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/resent-users 200 - 14.786 ms
+Thu Jun 26 2025 9:25:0 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/revenue 200 - 17.463 ms
+Thu Jun 26 2025 9:25:0 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1749910028724.png 200 - 10.929 ms
+Thu Jun 26 2025 9:25:0 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1749910028724.png 200 - 1.160 ms
+Thu Jun 26 2025 9:25:11 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.119 ms
+Thu Jun 26 2025 9:25:11 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 200 - 52.917 ms
+Thu Jun 26 2025 9:25:11 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(9)-1748944678331.png 200 - 2.535 ms
+Thu Jun 26 2025 9:25:11 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(11)-1749903037598.png 200 - 2.295 ms
+Thu Jun 26 2025 9:25:17 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.101 ms
+Thu Jun 26 2025 9:25:17 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 200 - 23.613 ms
+Thu Jun 26 2025 9:25:44 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/683ec726f410797837df6aec 204 - 0.095 ms
+Thu Jun 26 2025 9:25:44 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory/683ec726f410797837df6aec 200 - 8.340 ms
+Thu Jun 26 2025 9:26:55 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/upload-video 204 - 0.102 ms
+Thu Jun 26 2025 9:27:8 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/upload-video 204 - 0.121 ms
+Thu Jun 26 2025 9:27:41 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/683ec726f410797837df6aec 204 - 0.098 ms
+Thu Jun 26 2025 9:27:41 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory/683ec726f410797837df6aec 304 - 7.695 ms
+Thu Jun 26 2025 9:27:49 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/upload-video 204 - 0.089 ms
+Thu Jun 26 2025 9:27:54 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/videos/managment/upload-video 200 - 5263.067 ms
+Thu Jun 26 2025 9:27:54 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.105 ms
+Thu Jun 26 2025 9:27:54 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 200 - 21.160 ms
+Thu Jun 26 2025 9:28:4 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos/684d4ffb8d52aa8cd406305f 204 - 0.086 ms
+Thu Jun 26 2025 9:28:4 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos/684d4ffb8d52aa8cd406305f 200 - 7.469 ms
+Thu Jun 26 2025 9:28:44 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/684d66bd8d52aa8cd4063199 204 - 0.103 ms
+Thu Jun 26 2025 9:28:44 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory/684d66bd8d52aa8cd4063199 200 - 10.845 ms
+Thu Jun 26 2025 9:29:47 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/upload-video 204 - 0.084 ms
+Thu Jun 26 2025 9:29:54 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/subcategory/683ec726f410797837df6aec 204 - 0.098 ms
+Thu Jun 26 2025 9:29:54 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/subcategory/683ec726f410797837df6aec 200 - 7.008 ms
+Thu Jun 26 2025 9:29:58 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/upload-video 204 - 0.101 ms
+Thu Jun 26 2025 9:30:11 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/videos/managment/upload-video 200 - 13169.022 ms
+Thu Jun 26 2025 9:30:11 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.100 ms
+Thu Jun 26 2025 9:30:11 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 200 - 15.699 ms

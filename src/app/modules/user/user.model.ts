@@ -59,7 +59,7 @@ const userSchema = new Schema<IUser, UserModel>(
           },
           packageName: {
                type: String,
-               default: 'N/A',
+               default: '7 Days Free Trail',
           },
           trialExpireAt: {
                type: Date,

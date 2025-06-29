@@ -1,0 +1,318 @@
+Sat Jun 14 2025 19:0:14 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?category=Fitness 200 - 4.768 ms
+Sat Jun 14 2025 19:0:24 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 200 - 13.685 ms
+Sat Jun 14 2025 19:1:17 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?type=course&category=yoga+style&page=1&limit=10 204 - 0.079 ms
+Sat Jun 14 2025 19:1:17 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?type=course&category=yoga+style&page=1&limit=10 200 - 7.004 ms
+Sat Jun 14 2025 19:1:19 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?type=course&category=fitness&page=1&limit=10 204 - 0.069 ms
+Sat Jun 14 2025 19:1:19 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?type=course&category=fitness&page=1&limit=10 304 - 7.356 ms
+Sat Jun 14 2025 19:1:24 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos 200 - 10.671 ms
+Sat Jun 14 2025 19:1:29 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?category=Fitness 200 - 6.935 ms
+Sat Jun 14 2025 19:1:53 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?category=fitness 200 - 8.790 ms
+Sat Jun 14 2025 19:3:36 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 258.839 ms
+Sat Jun 14 2025 19:3:44 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/videos/managment/videos 200 - 10.321 ms
+Sat Jun 14 2025 19:5:7 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jun 14 2025 19:5:7 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jun 14 2025 19:5:7 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sat Jun 14 2025 19:5:7 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sat Jun 14 2025 19:5:9 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:5:12 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jun 14 2025 19:5:12 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jun 14 2025 19:5:12 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sat Jun 14 2025 19:5:12 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sat Jun 14 2025 19:5:13 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:5:18 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jun 14 2025 19:5:18 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jun 14 2025 19:5:18 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sat Jun 14 2025 19:5:18 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sat Jun 14 2025 19:5:18 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:5:54 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jun 14 2025 19:5:54 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jun 14 2025 19:5:54 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sat Jun 14 2025 19:5:54 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sat Jun 14 2025 19:5:54 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:5:56 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jun 14 2025 19:5:56 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jun 14 2025 19:5:56 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sat Jun 14 2025 19:5:56 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sat Jun 14 2025 19:5:56 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:7:47 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin?page=1&limit=10 204 - 0.394 ms
+Sat Jun 14 2025 19:7:47 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 200 - 23.812 ms
+Sat Jun 14 2025 19:7:54 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin/single/684d4e528d52aa8cd406302b 204 - 0.110 ms
+Sat Jun 14 2025 19:7:54 [SERVER-NAME] info: 10.0.60.147 - PATCH /api/v1/notifications/admin/single/684d4e528d52aa8cd406302b 200 - 10.236 ms
+Sat Jun 14 2025 19:7:54 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin?page=1&limit=10 204 - 0.082 ms
+Sat Jun 14 2025 19:7:54 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 200 - 8.791 ms
+Sat Jun 14 2025 19:7:55 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin/single/684d4e168d52aa8cd406301b 204 - 0.059 ms
+Sat Jun 14 2025 19:7:55 [SERVER-NAME] info: 10.0.60.147 - PATCH /api/v1/notifications/admin/single/684d4e168d52aa8cd406301b 200 - 6.864 ms
+Sat Jun 14 2025 19:7:55 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 200 - 8.260 ms
+Sat Jun 14 2025 19:7:57 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications 204 - 0.063 ms
+Sat Jun 14 2025 19:7:57 [SERVER-NAME] info: 10.0.60.147 - PATCH /api/v1/notifications 200 - 6.416 ms
+Sat Jun 14 2025 19:7:57 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 200 - 7.392 ms
+Sat Jun 14 2025 19:8:3 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.142 ms
+Sat Jun 14 2025 19:8:3 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 304 - 7.735 ms
+Sat Jun 14 2025 19:8:3 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/revenue 204 - 0.071 ms
+Sat Jun 14 2025 19:8:3 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.063 ms
+Sat Jun 14 2025 19:8:3 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/resent-users 304 - 7.390 ms
+Sat Jun 14 2025 19:8:3 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/revenue 304 - 6.778 ms
+Sat Jun 14 2025 19:9:46 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jun 14 2025 19:9:46 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jun 14 2025 19:9:46 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sat Jun 14 2025 19:9:46 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sat Jun 14 2025 19:9:47 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:9:52 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jun 14 2025 19:9:52 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jun 14 2025 19:9:52 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sat Jun 14 2025 19:9:52 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sat Jun 14 2025 19:9:53 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:9:56 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jun 14 2025 19:9:56 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jun 14 2025 19:9:56 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sat Jun 14 2025 19:9:56 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sat Jun 14 2025 19:9:56 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:10:1 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jun 14 2025 19:10:1 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jun 14 2025 19:10:1 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sat Jun 14 2025 19:10:1 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sat Jun 14 2025 19:10:2 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:10:6 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jun 14 2025 19:10:6 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jun 14 2025 19:10:6 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sat Jun 14 2025 19:10:6 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sat Jun 14 2025 19:10:6 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:10:14 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jun 14 2025 19:10:14 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jun 14 2025 19:10:14 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sat Jun 14 2025 19:10:14 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sat Jun 14 2025 19:10:15 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:10:22 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jun 14 2025 19:10:23 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jun 14 2025 19:10:23 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sat Jun 14 2025 19:10:23 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sat Jun 14 2025 19:10:23 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:10:25 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jun 14 2025 19:10:25 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jun 14 2025 19:10:25 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sat Jun 14 2025 19:10:25 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sat Jun 14 2025 19:10:26 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:10:30 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jun 14 2025 19:10:30 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jun 14 2025 19:10:30 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sat Jun 14 2025 19:10:30 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sat Jun 14 2025 19:10:31 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:10:45 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jun 14 2025 19:10:45 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jun 14 2025 19:10:45 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sat Jun 14 2025 19:10:45 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sat Jun 14 2025 19:10:45 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:10:49 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jun 14 2025 19:10:49 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jun 14 2025 19:10:49 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sat Jun 14 2025 19:10:49 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sat Jun 14 2025 19:10:49 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:13:5 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 19:13:6 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.477 ms
+Sat Jun 14 2025 19:13:6 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.166 ms
+Sat Jun 14 2025 19:13:6 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 24.428 ms
+Sat Jun 14 2025 19:13:6 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 304 - 30.770 ms
+Sat Jun 14 2025 19:13:6 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.068 ms
+Sat Jun 14 2025 19:13:6 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/revenue 204 - 0.049 ms
+Sat Jun 14 2025 19:13:6 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/resent-users 304 - 7.291 ms
+Sat Jun 14 2025 19:13:6 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:13:6 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/revenue 304 - 5.944 ms
+Sat Jun 14 2025 19:13:7 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jun 14 2025 19:13:7 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jun 14 2025 19:13:7 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sat Jun 14 2025 19:13:7 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sat Jun 14 2025 19:13:7 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:13:29 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jun 14 2025 19:13:29 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jun 14 2025 19:13:29 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sat Jun 14 2025 19:13:29 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sat Jun 14 2025 19:13:32 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:13:53 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jun 14 2025 19:13:53 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jun 14 2025 19:13:53 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sat Jun 14 2025 19:13:53 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sat Jun 14 2025 19:13:53 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:14:0 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jun 14 2025 19:14:0 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jun 14 2025 19:14:0 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sat Jun 14 2025 19:14:0 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sat Jun 14 2025 19:14:0 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:16:17 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jun 14 2025 19:16:17 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jun 14 2025 19:16:17 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sat Jun 14 2025 19:16:17 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sat Jun 14 2025 19:16:23 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:16:37 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jun 14 2025 19:16:37 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jun 14 2025 19:16:37 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sat Jun 14 2025 19:16:37 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sat Jun 14 2025 19:16:37 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:16:43 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jun 14 2025 19:16:43 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jun 14 2025 19:16:43 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sat Jun 14 2025 19:16:43 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sat Jun 14 2025 19:16:46 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jun 14 2025 19:16:47 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jun 14 2025 19:16:47 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sat Jun 14 2025 19:16:47 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sat Jun 14 2025 19:16:48 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:17:8 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jun 14 2025 19:17:8 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jun 14 2025 19:17:8 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sat Jun 14 2025 19:17:8 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sat Jun 14 2025 19:17:9 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jun 14 2025 19:17:9 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jun 14 2025 19:17:9 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sat Jun 14 2025 19:17:9 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sat Jun 14 2025 19:17:16 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jun 14 2025 19:17:16 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jun 14 2025 19:17:16 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sat Jun 14 2025 19:17:16 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sat Jun 14 2025 19:17:19 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jun 14 2025 19:17:19 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jun 14 2025 19:17:19 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sat Jun 14 2025 19:17:19 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sat Jun 14 2025 19:17:19 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:17:22 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jun 14 2025 19:17:22 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jun 14 2025 19:17:22 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6002[39m
+Sat Jun 14 2025 19:17:22 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:7000[39m
+Sat Jun 14 2025 19:17:22 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:22:53 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/videos/managment/videos?category=Yoga 200 - 24.134 ms
+Sat Jun 14 2025 19:23:0 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/videos/managment/videos?category=Fitness 200 - 16.483 ms
+Sat Jun 14 2025 19:23:17 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/videos/managment/videos?category=Gym 200 - 6.566 ms
+Sat Jun 14 2025 19:23:32 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/videos/managment/videos?subCategory=Gym 200 - 10.802 ms
+Sat Jun 14 2025 19:23:49 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/videos/managment/videos?category=Gym 200 - 5.966 ms
+Sat Jun 14 2025 19:23:54 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/videos/managment/videos?category=Fitness 200 - 8.740 ms
+Sat Jun 14 2025 19:31:5 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/user/managment? 204 - 0.370 ms
+Sat Jun 14 2025 19:31:5 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/user/managment? 304 - 7.441 ms
+Sat Jun 14 2025 19:31:6 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.201 ms
+Sat Jun 14 2025 19:31:6 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 12.285 ms
+Sat Jun 14 2025 19:31:6 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(11)-1749903037598.png 304 - 3.753 ms
+Sat Jun 14 2025 19:31:6 [SERVER-NAME] info: 10.0.60.147 - GET //thumbnail/rectangle-(9)-1748944678331.png 304 - 3.103 ms
+Sat Jun 14 2025 19:31:7 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.068 ms
+Sat Jun 14 2025 19:31:7 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 200 - 9.835 ms
+Sat Jun 14 2025 19:31:9 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?category=yoga+style&page=1&limit=10 204 - 0.069 ms
+Sat Jun 14 2025 19:31:9 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?category=yoga+style&page=1&limit=10 304 - 5.310 ms
+Sat Jun 14 2025 19:31:11 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?category=fitness&page=1&limit=10 204 - 0.064 ms
+Sat Jun 14 2025 19:31:11 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?category=fitness&page=1&limit=10 304 - 4.922 ms
+Sat Jun 14 2025 19:31:18 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?category=fitness 200 - 4.471 ms
+Sat Jun 14 2025 19:31:34 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?category=Fitness 200 - 7.423 ms
+Sat Jun 14 2025 19:36:37 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.123 ms
+Sat Jun 14 2025 19:36:37 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 304 - 12.548 ms
+Sat Jun 14 2025 19:36:39 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?category=Yoga+Style&page=1&limit=10 204 - 0.113 ms
+Sat Jun 14 2025 19:36:39 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?category=Yoga+Style&page=1&limit=10 200 - 5.657 ms
+Sat Jun 14 2025 19:36:41 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?category=Fitness&page=1&limit=10 204 - 0.137 ms
+Sat Jun 14 2025 19:36:41 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?category=Fitness&page=1&limit=10 200 - 13.624 ms
+Sat Jun 14 2025 19:36:45 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 19:36:46 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.211 ms
+Sat Jun 14 2025 19:36:46 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/category 204 - 0.104 ms
+Sat Jun 14 2025 19:36:46 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.066 ms
+Sat Jun 14 2025 19:36:46 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 17.777 ms
+Sat Jun 14 2025 19:36:46 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/category 304 - 27.741 ms
+Sat Jun 14 2025 19:36:46 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 304 - 26.829 ms
+Sat Jun 14 2025 19:36:46 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:49:9 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:50:33 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 19:50:34 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:50:37 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 19:50:38 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:50:41 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 19:50:42 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:52:41 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 19:52:42 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:53:18 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 19:53:19 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:54:7 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 19:54:18 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:54:50 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 19:55:7 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:55:26 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 19:55:27 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:57:26 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 19:57:27 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:57:31 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 19:57:42 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:58:42 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.085 ms
+Sat Jun 14 2025 19:58:42 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.063 ms
+Sat Jun 14 2025 19:58:42 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 304 - 17.706 ms
+Sat Jun 14 2025 19:58:42 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 12.927 ms
+Sat Jun 14 2025 19:58:42 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/revenue 204 - 0.143 ms
+Sat Jun 14 2025 19:58:42 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.078 ms
+Sat Jun 14 2025 19:58:42 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/revenue 304 - 9.343 ms
+Sat Jun 14 2025 19:58:42 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:58:42 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/resent-users 304 - 11.481 ms
+Sat Jun 14 2025 19:58:46 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 19:58:57 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/auth/login 204 - 0.075 ms
+Sat Jun 14 2025 19:58:58 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/auth/login 200 - 521.986 ms
+Sat Jun 14 2025 19:58:58 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:59:9 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 19:59:10 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.098 ms
+Sat Jun 14 2025 19:59:10 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.063 ms
+Sat Jun 14 2025 19:59:10 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 200 - 14.279 ms
+Sat Jun 14 2025 19:59:10 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 304 - 20.493 ms
+Sat Jun 14 2025 19:59:10 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/revenue 204 - 0.074 ms
+Sat Jun 14 2025 19:59:10 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.054 ms
+Sat Jun 14 2025 19:59:10 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:59:10 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/resent-users 304 - 11.167 ms
+Sat Jun 14 2025 19:59:10 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/revenue 304 - 11.968 ms
+Sat Jun 14 2025 19:59:14 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin?page=1&limit=10 204 - 0.091 ms
+Sat Jun 14 2025 19:59:14 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 200 - 13.364 ms
+Sat Jun 14 2025 19:59:17 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 19:59:17 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.069 ms
+Sat Jun 14 2025 19:59:17 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 304 - 10.476 ms
+Sat Jun 14 2025 19:59:17 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 9.392 ms
+Sat Jun 14 2025 19:59:17 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:59:18 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 19:59:18 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 8.466 ms
+Sat Jun 14 2025 19:59:18 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 304 - 14.934 ms
+Sat Jun 14 2025 19:59:18 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:59:18 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 19:59:19 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 8.051 ms
+Sat Jun 14 2025 19:59:19 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 304 - 12.128 ms
+Sat Jun 14 2025 19:59:19 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 8.134 ms
+Sat Jun 14 2025 19:59:19 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 304 - 16.022 ms
+Sat Jun 14 2025 19:59:19 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:59:19 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 19:59:19 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin?page=1&limit=10 204 - 0.084 ms
+Sat Jun 14 2025 19:59:19 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 5.168 ms
+Sat Jun 14 2025 19:59:19 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 304 - 9.453 ms
+Sat Jun 14 2025 19:59:19 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:59:19 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 19:59:20 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 8.873 ms
+Sat Jun 14 2025 19:59:20 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 304 - 16.030 ms
+Sat Jun 14 2025 19:59:20 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:59:20 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 19:59:20 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 6.709 ms
+Sat Jun 14 2025 19:59:20 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 304 - 14.991 ms
+Sat Jun 14 2025 19:59:20 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:59:27 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 19:59:27 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.166 ms
+Sat Jun 14 2025 19:59:27 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin?page=1&limit=10 204 - 0.072 ms
+Sat Jun 14 2025 19:59:27 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 7.982 ms
+Sat Jun 14 2025 19:59:27 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 304 - 13.744 ms
+Sat Jun 14 2025 19:59:27 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:59:27 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 19:59:28 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 6.700 ms
+Sat Jun 14 2025 19:59:28 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 304 - 12.229 ms
+Sat Jun 14 2025 19:59:28 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:59:31 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 19:59:31 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 6.671 ms
+Sat Jun 14 2025 19:59:31 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 304 - 12.696 ms
+Sat Jun 14 2025 19:59:31 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:59:34 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 19:59:34 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.068 ms
+Sat Jun 14 2025 19:59:34 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/notifications/admin?page=1&limit=10 204 - 0.049 ms
+Sat Jun 14 2025 19:59:34 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 6.240 ms
+Sat Jun 14 2025 19:59:34 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 304 - 11.286 ms
+Sat Jun 14 2025 19:59:35 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 7.518 ms
+Sat Jun 14 2025 19:59:35 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 304 - 12.626 ms
+Sat Jun 14 2025 19:59:35 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:59:35 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 19:59:35 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 5.193 ms
+Sat Jun 14 2025 19:59:35 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 304 - 8.865 ms
+Sat Jun 14 2025 19:59:35 [SERVER-NAME] info: [34mA user connected[39m
+Sat Jun 14 2025 19:59:35 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Jun 14 2025 19:59:35 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 8.226 ms
+Sat Jun 14 2025 19:59:35 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/notifications/admin?page=1&limit=10 304 - 11.666 ms
+Sat Jun 14 2025 19:59:35 [SERVER-NAME] info: [34mA user connected[39m

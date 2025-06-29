@@ -1,0 +1,8 @@
+Sun Jun 29 2025 21:11:40 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/subscription/create-checkout-session/6861579d093c6d50e4d2f97e 400 - 296.127 ms
+Sun Jun 29 2025 21:11:54 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/subscription/create-checkout-session/6861579d093c6d50e4d2f97e 400 - 307.525 ms
+Sun Jun 29 2025 21:12:0 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/subscription/create-checkout-session/6861579d093c6d50e4d2f97e 400 - 304.950 ms
+Sun Jun 29 2025 21:15:34 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/subscription/create-checkout-session/6861579d093c6d50e4d2f97e 400 - 472.148 ms
+Sun Jun 29 2025 21:20:49 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/subscription/create-checkout-session/6861579d093c6d50e4d2f97e 400 - 508.126 ms
+Sun Jun 29 2025 21:46:33 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/subscription/success 400 - 14.807 ms
+Sun Jun 29 2025 21:46:33 [SERVER-NAME] error: 10.0.60.126 - GET /favicon.ico 404 - 1.033 ms
+Sun Jun 29 2025 21:46:33 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/subscription/success 400 - 2.667 ms

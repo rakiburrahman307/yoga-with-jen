@@ -203,7 +203,7 @@ const startNotificationScheduler = () => {
           const now = new Date();
 
           const pendingNotifications = await Notification.find({
-               status: 'pending',
+               status: 'PENDING',
                sendAt: { $lte: now },
           });
 

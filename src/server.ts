@@ -25,7 +25,6 @@ export async function startServer() {
           // Create HTTP server
           httpServer = createServer(app);
           const httpPort = Number(config.port);
-          const socketPort = Number(config.socket_port);
           const ipAddress = config.ip_address as string;
 
           // Set timeouts
@@ -35,21 +34,20 @@ export async function startServer() {
 
           // Start HTTP server
           httpServer.listen(httpPort, ipAddress, () => {
-               logger.info(colors.yellow(`♻️  Application listening on http://${ipAddress}:${httpPort}`));
+               logger.info(colors.bgCyan(`♻️  Application listening on http://${ipAddress}:${httpPort}`));
           });
 
-          // Set up Socket.io server
-          socketServer = new SocketServer({
+          // Set up Socket.io server on same port as HTTP server
+          socketServer = new SocketServer(httpServer, {
                cors: {
                     origin: config.allowed_origins || '*',
                },
           });
 
-          socketServer.listen(socketPort);
           socketHelper.socket(socketServer);
           //@ts-ignore
           global.io = socketServer;
-          logger.info(colors.yellow(`♻️  Socket is listening on ${ipAddress}:${socketPort}`));
+          logger.info(colors.yellow(`♻️  Socket is listening on same port ${httpPort}`));
      } catch (error) {
           logger.error(colors.red('Failed to start server'), error);
           process.exit(1);

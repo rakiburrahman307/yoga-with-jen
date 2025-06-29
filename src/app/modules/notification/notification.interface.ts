@@ -11,5 +11,6 @@ export interface INotification {
      screen?: 'DASHBOARD' | 'PAYMENT_HISTORY' | 'PROFILE';
      read: boolean;
      type?: 'ADMIN' | 'SYSTEM' | 'PAYMENT' | 'MESSAGE' | 'ALERT';
+     notificationType?: string;
      title?: string;
 }

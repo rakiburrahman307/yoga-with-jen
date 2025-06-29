@@ -210,7 +210,6 @@ const safhaleVideoSerial = async (videoOrder: Array<{ _id: string; serial: numbe
      const updatePromises = videoOrder.map((item) => Video.findByIdAndUpdate(item._id, { serial: item.serial }, { new: true }));
 
      const result = await Promise.all(updatePromises);
-     console.log('Successfully updated video serials.');
      return result;
      // // Find all videos for the given subCategoryId
      // const videos = await Video.find({ subCategoryId: id });

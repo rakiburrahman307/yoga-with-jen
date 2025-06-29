@@ -172,6 +172,54 @@ const getCategoryRelatedSubCategory = async (id: string, userId: string, query: 
           meta,
      };
 };
+const getCategoriesAllVideos = async (id: string, userId: string, query: Record<string, unknown>) => {
+     // Find category and populate subcategories
+     const isExistCategory = await Category.findById(id).populate('subCategory');
+     if (!isExistCategory) {
+          throw new AppError(StatusCodes.NOT_FOUND, 'Category not found');
+     }
+     
+     // Get subcategory IDs for filtering
+     const subCategoryIds = isExistCategory.subCategory.map((sub: any) => sub._id);
+     
+     // Get videos for this category (both direct category videos and subcategory videos)
+     const queryBuilder = new QueryBuilder(
+          Video.find({ 
+               categoryId: isExistCategory._id,
+               $or: [
+                    { subCategoryId: '' }, // Direct category videos
+                    { subCategoryId: { $in: subCategoryIds } } // Subcategory videos
+               ]
+          }), 
+          query
+     );
+     
+     const result = await queryBuilder
+          .fields()
+          .filter()
+          .paginate()
+          .search(['name'])
+          .sort()
+          .modelQuery.exec();
+          
+     const meta = await queryBuilder.countTotal();
+
+     // Add favorite status to videos
+     const videosWithFavorites = await Promise.all(
+          result.map(async (video: any) => {
+               const isFevorite = await getFevVideosOrNot(video._id, userId);
+               return {
+                    ...video.toObject(),
+                    isFevorite,
+               };
+          }),
+     );
+
+     return {
+          videos: videosWithFavorites,
+          meta,
+     };
+};
 export const CategoryService = {
      createCategoryToDB,
      getCategoriesFromDB,
@@ -181,4 +229,5 @@ export const CategoryService = {
      getSingleCategoryFromDB,
      getSubcategoryWithCategoryIdFromDB,
      getCategoryRelatedSubCategory,
+     getCategoriesAllVideos
 };
