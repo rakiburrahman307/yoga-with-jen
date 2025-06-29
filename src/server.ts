@@ -26,6 +26,7 @@ export async function startServer() {
           httpServer = createServer(app);
           const httpPort = Number(config.port);
           const ipAddress = config.ip_address as string;
+          const socketPort = Number(config.socket_port);
 
           // Set timeouts
           httpServer.timeout = 120000;
@@ -47,7 +48,7 @@ export async function startServer() {
           socketHelper.socket(socketServer);
           //@ts-ignore
           global.io = socketServer;
-          logger.info(colors.yellow(`♻️  Socket is listening on same port ${httpPort}`));
+          logger.info(colors.yellow(`♻️  Socket is listening on same port ${socketPort}`));
      } catch (error) {
           logger.error(colors.red('Failed to start server'), error);
           process.exit(1);
