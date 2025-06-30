@@ -4,6 +4,9 @@ import { emailHelper } from '../helpers/emailHelper';
 import { emailTemplate } from '../shared/emailTemplate';
 import { sendNotifications } from '../helpers/notificationsHelper';
 import { Notification } from '../app/modules/notification/notification.model';
+import { ScheduledNotification } from '../app/modules/scheduledNotification/scheduledNotification.model';
+import { NotificationStatus } from '../app/modules/scheduledNotification/scheduledNotification.interface';
+import { USER_ROLES } from '../enums/user';
 
 // ====== CRON JOB SCHEDULERS ======
 
@@ -198,25 +201,83 @@ const getTrialStatistics = async () => {
 };
 
 // ====== MAIN SETUP FUNCTION ======
+// const startNotificationScheduler = () => {
+//      cron.schedule('* * * * *', async () => {
+//           const now = new Date();
+
+//           const pendingNotifications = await ScheduledNotification.find({
+//                status: 'PENDING',
+//                sendAt: { $lte: now },
+//           });
+
+//           for (const notification of pendingNotifications) {
+//                try {
+//                     await sendNotifications(notification);
+//                     notification.status = NotificationStatus.SENT;
+//                     await notification.save();
+//                } catch (error) {
+//                     // Optionally retry later or mark as failed
+//                     notification.status = NotificationStatus.FAILED; // mark as failed on error
+//                     await notification.save();
+//                }
+//           }
+//      });
+// };
+
 const startNotificationScheduler = () => {
      cron.schedule('* * * * *', async () => {
           const now = new Date();
 
-          const pendingNotifications = await Notification.find({
+          const pendingNotifications = await ScheduledNotification.find({
                status: 'PENDING',
                sendAt: { $lte: now },
           });
 
-          for (const notification of pendingNotifications) {
+          for (const scheduledNotification of pendingNotifications) {
                try {
-                    await sendNotifications(notification);
-                    notification.status = 'SEND';
-                    await notification.save();
+                    if (scheduledNotification.receiver && scheduledNotification.isIndividual) {
+                         // Individual notification - send to specific user
+                         const notificationData = {
+                              title: scheduledNotification.title,
+                              referenceModel: scheduledNotification.referenceModel,
+                              message: scheduledNotification.message,
+                              type: scheduledNotification.type,
+                              receiver: scheduledNotification.receiver,
+                         };
+
+                         // Send to specific user
+                         await sendNotifications(notificationData);
+                    } else {
+                         // Bulk notification - send to all users with role 'USER'
+                         const users = await User.find({ role: USER_ROLES.USER });
+
+                         if (users && users.length > 0) {
+                              // Process each user individually
+                              const notificationPromises = users.map(async (user) => {
+                                   const notificationData = {
+                                        title: scheduledNotification.title,
+                                        referenceModel: scheduledNotification.referenceModel,
+                                        message: scheduledNotification.message,
+                                        type: scheduledNotification.type,
+                                        receiver: user._id,
+                                   };
+                                   // Send notification to individual user
+                                   return sendNotifications(notificationData);
+                              });
+
+                              // Wait for all notifications to be sent
+                              await Promise.all(notificationPromises);
+                         }
+                    }
+
+                    // Mark scheduled notification as sent
+                    scheduledNotification.status = NotificationStatus.SENT;
+                    scheduledNotification.sentAt = new Date();
+                    await scheduledNotification.save();
                } catch (error) {
                     console.error('Error sending scheduled notification:', error);
-                    // Optionally retry later or mark as failed
-                    notification.status = 'FAILED'; // mark as failed on error
-                    await notification.save();
+                    scheduledNotification.status = NotificationStatus.FAILED;
+                    await scheduledNotification.save();
                }
           }
      });

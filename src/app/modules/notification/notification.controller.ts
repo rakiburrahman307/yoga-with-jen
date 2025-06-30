@@ -66,31 +66,31 @@ const adminReadNotification = catchAsync(async (req, res) => {
      });
 });
 // send admin notifications to the users accaunts
-const sendAdminNotification = catchAsync(async (req, res) => {
-     const result = await NotificationService.adminSendNotificationFromDB(req.body);
-     sendResponse(res, {
-          statusCode: StatusCodes.OK,
-          success: true,
-          message: 'Notification Send Successfully',
-          data: result,
-     });
-});
-const getPushNotification = catchAsync(async (req, res) => {
-     const result = await NotificationService.getAllPushNotification(req.query);
-     sendResponse(res, {
-          statusCode: StatusCodes.OK,
-          success: true,
-          message: 'Notification Send Successfully',
-          data: result.result,
-          pagination: result.meta,
-     });
-});
+// const sendAdminNotification = catchAsync(async (req, res) => {
+//      const result = await NotificationService.adminSendNotificationFromDB(req.body);
+//      sendResponse(res, {
+//           statusCode: StatusCodes.OK,
+//           success: true,
+//           message: 'Notification Send Successfully',
+//           data: result,
+//      });
+// });
+// const getPushNotification = catchAsync(async (req, res) => {
+//      const result = await NotificationService.getAllPushNotification(req.query);
+//      sendResponse(res, {
+//           statusCode: StatusCodes.OK,
+//           success: true,
+//           message: 'Notification Send Successfully',
+//           data: result.result,
+//           pagination: result.meta,
+//      });
+// });
 export const NotificationController = {
      adminNotificationFromDB,
      getNotificationFromDB,
      readNotification,
      adminReadNotification,
-     sendAdminNotification,
+     // sendAdminNotification,
      readNotificationSingle,
-     getPushNotification,
+     // getPushNotification,
 };

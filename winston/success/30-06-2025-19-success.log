@@ -1,0 +1,167 @@
+Mon Jun 30 2025 19:0:55 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.054 ms
+Mon Jun 30 2025 19:0:55 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/notifications/get-notification? 204 - 0.034 ms
+Mon Jun 30 2025 19:0:55 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 3.644 ms
+Mon Jun 30 2025 19:0:55 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/notifications/get-notification? 304 - 5.932 ms
+Mon Jun 30 2025 19:0:55 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1749910028724.png 304 - 0.251 ms
+Mon Jun 30 2025 19:4:31 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.059 ms
+Mon Jun 30 2025 19:4:31 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/notifications/get-notification? 204 - 0.049 ms
+Mon Jun 30 2025 19:4:31 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 5.078 ms
+Mon Jun 30 2025 19:4:31 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/notifications/get-notification? 304 - 8.379 ms
+Mon Jun 30 2025 19:4:31 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1749910028724.png 304 - 0.307 ms
+Mon Jun 30 2025 19:7:8 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/notifications/get-notification? 204 - 0.131 ms
+Mon Jun 30 2025 19:7:8 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.077 ms
+Mon Jun 30 2025 19:7:8 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 12.656 ms
+Mon Jun 30 2025 19:7:8 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/notifications/get-notification? 304 - 16.556 ms
+Mon Jun 30 2025 19:7:8 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1749910028724.png 304 - 0.562 ms
+Mon Jun 30 2025 19:7:10 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/notifications/get-notification?page=2 204 - 0.077 ms
+Mon Jun 30 2025 19:7:10 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/notifications/get-notification?page=2 304 - 4.772 ms
+Mon Jun 30 2025 19:15:51 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Jun 30 2025 19:15:51 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Jun 30 2025 19:15:51 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Jun 30 2025 19:15:51 [SERVER-NAME] info: [46m♻️  Application listening on http://10.0.60.126:7000[49m
+Mon Jun 30 2025 19:15:54 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Jun 30 2025 19:15:54 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Jun 30 2025 19:15:54 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Jun 30 2025 19:15:54 [SERVER-NAME] info: [46m♻️  Application listening on http://10.0.60.126:7000[49m
+Mon Jun 30 2025 19:15:54 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.639 ms
+Mon Jun 30 2025 19:15:54 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/notifications/get-notification? 204 - 0.111 ms
+Mon Jun 30 2025 19:15:54 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 17.942 ms
+Mon Jun 30 2025 19:15:54 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/notifications/get-notification? 304 - 22.763 ms
+Mon Jun 30 2025 19:15:57 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Jun 30 2025 19:15:57 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Jun 30 2025 19:15:57 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Jun 30 2025 19:15:57 [SERVER-NAME] info: [46m♻️  Application listening on http://10.0.60.126:7000[49m
+Mon Jun 30 2025 19:16:0 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Jun 30 2025 19:16:0 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Jun 30 2025 19:16:0 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Jun 30 2025 19:16:0 [SERVER-NAME] info: [46m♻️  Application listening on http://10.0.60.126:7000[49m
+Mon Jun 30 2025 19:16:1 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Jun 30 2025 19:16:1 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Jun 30 2025 19:16:1 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Jun 30 2025 19:16:1 [SERVER-NAME] info: [46m♻️  Application listening on http://10.0.60.126:7000[49m
+Mon Jun 30 2025 19:16:17 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Jun 30 2025 19:16:17 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Jun 30 2025 19:16:17 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Jun 30 2025 19:16:17 [SERVER-NAME] info: [46m♻️  Application listening on http://10.0.60.126:7000[49m
+Mon Jun 30 2025 19:16:20 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Jun 30 2025 19:16:20 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Jun 30 2025 19:16:20 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Jun 30 2025 19:16:20 [SERVER-NAME] info: [46m♻️  Application listening on http://10.0.60.126:7000[49m
+Mon Jun 30 2025 19:16:23 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Jun 30 2025 19:16:23 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Jun 30 2025 19:16:23 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Jun 30 2025 19:16:23 [SERVER-NAME] info: [46m♻️  Application listening on http://10.0.60.126:7000[49m
+Mon Jun 30 2025 19:16:36 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1749910028724.png 304 - 1.966 ms
+Mon Jun 30 2025 19:16:40 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/notifications/get-notification?page=2 204 - 0.462 ms
+Mon Jun 30 2025 19:16:40 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/notifications/get-notification?page=2 304 - 28.116 ms
+Mon Jun 30 2025 19:21:42 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.091 ms
+Mon Jun 30 2025 19:21:42 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 304 - 9.604 ms
+Mon Jun 30 2025 19:21:42 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.057 ms
+Mon Jun 30 2025 19:21:42 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/dashboard/revenue 204 - 0.043 ms
+Mon Jun 30 2025 19:21:42 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/resent-users 304 - 6.171 ms
+Mon Jun 30 2025 19:21:42 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/dashboard/revenue 304 - 8.237 ms
+Mon Jun 30 2025 19:22:5 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Jun 30 2025 19:22:5 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Jun 30 2025 19:22:5 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Jun 30 2025 19:22:5 [SERVER-NAME] info: [46m♻️  Application listening on http://10.0.60.126:7000[49m
+Mon Jun 30 2025 19:22:42 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/notifications/get-notification? 204 - 0.558 ms
+Mon Jun 30 2025 19:22:42 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/notifications/get-notification? 304 - 19.838 ms
+Mon Jun 30 2025 19:22:44 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Jun 30 2025 19:22:44 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Jun 30 2025 19:22:44 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Jun 30 2025 19:22:44 [SERVER-NAME] info: [46m♻️  Application listening on http://10.0.60.126:7000[49m
+Mon Jun 30 2025 19:22:45 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/notifications/get-notification?page=2 204 - 0.322 ms
+Mon Jun 30 2025 19:22:45 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/notifications/get-notification?page=2 304 - 10.285 ms
+Mon Jun 30 2025 19:22:47 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/notifications/get-notification?page=1 204 - 0.111 ms
+Mon Jun 30 2025 19:22:47 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/notifications/get-notification?page=1 304 - 7.517 ms
+Mon Jun 30 2025 19:22:51 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 273.087 ms
+Mon Jun 30 2025 19:22:59 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 257.775 ms
+Mon Jun 30 2025 19:23:18 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/notifications/send-notification 204 - 0.060 ms
+Mon Jun 30 2025 19:23:18 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/notifications/send-notification 200 - 9.602 ms
+Mon Jun 30 2025 19:23:18 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/notifications/get-notification?page=1 204 - 0.065 ms
+Mon Jun 30 2025 19:23:18 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/notifications/get-notification?page=1 304 - 7.379 ms
+Mon Jun 30 2025 19:23:31 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 226.803 ms
+Mon Jun 30 2025 19:25:30 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/admin/scheduled-notifications/send-notification 200 - 9.019 ms
+Mon Jun 30 2025 19:26:6 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Jun 30 2025 19:26:6 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Jun 30 2025 19:26:6 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Jun 30 2025 19:26:6 [SERVER-NAME] info: [46m♻️  Application listening on http://10.0.60.126:7000[49m
+Mon Jun 30 2025 19:26:9 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Jun 30 2025 19:26:9 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Jun 30 2025 19:26:9 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Jun 30 2025 19:26:9 [SERVER-NAME] info: [46m♻️  Application listening on http://10.0.60.126:7000[49m
+Mon Jun 30 2025 19:26:12 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Jun 30 2025 19:26:12 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Jun 30 2025 19:26:12 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Jun 30 2025 19:26:12 [SERVER-NAME] info: [46m♻️  Application listening on http://10.0.60.126:7000[49m
+Mon Jun 30 2025 19:26:16 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Jun 30 2025 19:26:16 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Jun 30 2025 19:26:16 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Jun 30 2025 19:26:16 [SERVER-NAME] info: [46m♻️  Application listening on http://10.0.60.126:7000[49m
+Mon Jun 30 2025 19:29:44 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Jun 30 2025 19:29:44 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Jun 30 2025 19:29:44 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Jun 30 2025 19:29:44 [SERVER-NAME] info: [46m♻️  Application listening on http://10.0.60.126:7000[49m
+Mon Jun 30 2025 19:29:57 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Jun 30 2025 19:29:57 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Jun 30 2025 19:29:57 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Jun 30 2025 19:29:57 [SERVER-NAME] info: [46m♻️  Application listening on http://10.0.60.126:7000[49m
+Mon Jun 30 2025 19:30:10 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Jun 30 2025 19:30:10 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Jun 30 2025 19:30:10 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Jun 30 2025 19:30:10 [SERVER-NAME] info: [46m♻️  Application listening on http://10.0.60.126:7000[49m
+Mon Jun 30 2025 19:31:49 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Jun 30 2025 19:31:49 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Jun 30 2025 19:31:49 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Jun 30 2025 19:31:49 [SERVER-NAME] info: [46m♻️  Application listening on http://10.0.60.126:7000[49m
+Mon Jun 30 2025 19:31:51 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Jun 30 2025 19:31:51 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Jun 30 2025 19:31:51 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Jun 30 2025 19:31:51 [SERVER-NAME] info: [46m♻️  Application listening on http://10.0.60.126:7000[49m
+Mon Jun 30 2025 19:32:28 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/admin/scheduled-notifications/send-notification 200 - 29.434 ms
+Mon Jun 30 2025 19:33:13 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/admin/scheduled-notifications/send-notification 200 - 8.760 ms
+Mon Jun 30 2025 19:34:6 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Jun 30 2025 19:34:6 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Jun 30 2025 19:34:6 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Jun 30 2025 19:34:6 [SERVER-NAME] info: [46m♻️  Application listening on http://10.0.60.126:7000[49m
+Mon Jun 30 2025 19:34:8 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Jun 30 2025 19:34:9 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Jun 30 2025 19:34:9 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Jun 30 2025 19:34:9 [SERVER-NAME] info: [46m♻️  Application listening on http://10.0.60.126:7000[49m
+Mon Jun 30 2025 19:34:12 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Jun 30 2025 19:34:12 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Jun 30 2025 19:34:12 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Jun 30 2025 19:34:12 [SERVER-NAME] info: [46m♻️  Application listening on http://10.0.60.126:7000[49m
+Mon Jun 30 2025 19:34:14 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Jun 30 2025 19:34:14 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Jun 30 2025 19:34:14 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Jun 30 2025 19:34:14 [SERVER-NAME] info: [46m♻️  Application listening on http://10.0.60.126:7000[49m
+Mon Jun 30 2025 19:34:18 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Jun 30 2025 19:34:18 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Jun 30 2025 19:34:18 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Jun 30 2025 19:34:18 [SERVER-NAME] info: [46m♻️  Application listening on http://10.0.60.126:7000[49m
+Mon Jun 30 2025 19:34:20 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Jun 30 2025 19:34:20 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Jun 30 2025 19:34:20 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Jun 30 2025 19:34:20 [SERVER-NAME] info: [46m♻️  Application listening on http://10.0.60.126:7000[49m
+Mon Jun 30 2025 19:34:21 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/admin/scheduled-notifications/send-notification 200 - 32.958 ms
+Mon Jun 30 2025 19:34:59 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Jun 30 2025 19:34:59 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Jun 30 2025 19:34:59 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Jun 30 2025 19:34:59 [SERVER-NAME] info: [46m♻️  Application listening on http://10.0.60.126:7000[49m
+Mon Jun 30 2025 19:35:1 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Jun 30 2025 19:35:1 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Jun 30 2025 19:35:1 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Jun 30 2025 19:35:1 [SERVER-NAME] info: [46m♻️  Application listening on http://10.0.60.126:7000[49m
+Mon Jun 30 2025 19:35:24 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Jun 30 2025 19:35:24 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Jun 30 2025 19:35:24 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Jun 30 2025 19:35:24 [SERVER-NAME] info: [46m♻️  Application listening on http://10.0.60.126:7000[49m
+Mon Jun 30 2025 19:35:25 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Jun 30 2025 19:35:25 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Jun 30 2025 19:35:25 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Jun 30 2025 19:35:25 [SERVER-NAME] info: [46m♻️  Application listening on http://10.0.60.126:7000[49m
+Mon Jun 30 2025 19:35:28 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Jun 30 2025 19:35:28 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Jun 30 2025 19:35:28 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Jun 30 2025 19:35:28 [SERVER-NAME] info: [46m♻️  Application listening on http://10.0.60.126:7000[49m

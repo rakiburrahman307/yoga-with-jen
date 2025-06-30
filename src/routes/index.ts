@@ -24,6 +24,7 @@ import { TodayVideoRoutes } from '../app/modules/todayVideo/today.route';
 import { DailyInspirationRoutes } from '../app/modules/admin/dailyInspiration/dailyInspiration.router';
 import { ChallengeRoutes } from '../app/modules/admin/challanges/challanges.router';
 import { VideoCommentRouter } from '../app/modules/vidoeComments/vidoeComments.router';
+import { ScheduledNotificationRoute } from '../app/modules/scheduledNotification/scheduledNotification.routes';
 
 const router = express.Router();
 const routes = [
@@ -134,6 +135,10 @@ const routes = [
      {
           path: '/notifications',
           route: NotificationRoutes,
+     },
+     {
+          path: '/admin/push-notifications',
+          route: ScheduledNotificationRoute,
      },
      {
           path: '/subscription',

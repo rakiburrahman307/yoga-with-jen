@@ -1,0 +1,104 @@
+Mon Jun 30 2025 17:7:44 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/notifications/get-notification?notificationType=undefined 204 - 0.090 ms
+Mon Jun 30 2025 17:8:20 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/notifications/get-notification?notificationType=undefined 204 - 0.041 ms
+Mon Jun 30 2025 17:10:27 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/notifications/get-notification?notificationType=undefined 204 - 0.063 ms
+Mon Jun 30 2025 17:10:32 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.039 ms
+Mon Jun 30 2025 17:10:32 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/notifications/get-notification 204 - 0.033 ms
+Mon Jun 30 2025 17:10:32 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 7.114 ms
+Mon Jun 30 2025 17:10:32 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/notifications/get-notification 304 - 12.344 ms
+Mon Jun 30 2025 17:10:32 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1749910028724.png 304 - 0.408 ms
+Mon Jun 30 2025 17:18:3 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/notifications/send-notification 204 - 0.066 ms
+Mon Jun 30 2025 17:18:3 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/notifications/send-notification 200 - 13.160 ms
+Mon Jun 30 2025 17:18:3 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/notifications/get-notification 204 - 0.041 ms
+Mon Jun 30 2025 17:18:3 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/notifications/get-notification 304 - 5.240 ms
+Mon Jun 30 2025 17:18:9 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.064 ms
+Mon Jun 30 2025 17:18:9 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/notifications/get-notification 204 - 0.037 ms
+Mon Jun 30 2025 17:18:9 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 11.512 ms
+Mon Jun 30 2025 17:18:9 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/notifications/get-notification 304 - 14.669 ms
+Mon Jun 30 2025 17:18:9 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1749910028724.png 304 - 0.439 ms
+Mon Jun 30 2025 17:18:17 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/notifications/get-notification 200 - 7.154 ms
+Mon Jun 30 2025 17:18:23 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/notifications/get-notification?notificationType=schedule 200 - 8.406 ms
+Mon Jun 30 2025 17:18:26 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/notifications/get-notification?notificationType=schedule 200 - 7.288 ms
+Mon Jun 30 2025 17:20:28 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/notifications/send-notification 204 - 0.073 ms
+Mon Jun 30 2025 17:20:28 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/notifications/send-notification 200 - 7.365 ms
+Mon Jun 30 2025 17:20:28 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/notifications/get-notification 204 - 0.066 ms
+Mon Jun 30 2025 17:20:28 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/notifications/get-notification 304 - 6.921 ms
+Mon Jun 30 2025 17:20:46 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/notifications/send-notification 200 - 9.439 ms
+Mon Jun 30 2025 17:20:50 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/notifications/get-notification?notificationType=schedule 200 - 5.015 ms
+Mon Jun 30 2025 17:22:14 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/notifications/get-notification?notificationType=schedule&status=PENDING 200 - 7.104 ms
+Mon Jun 30 2025 17:24:17 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.045 ms
+Mon Jun 30 2025 17:24:17 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/notifications/get-notification 204 - 0.034 ms
+Mon Jun 30 2025 17:24:17 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 4.866 ms
+Mon Jun 30 2025 17:24:17 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/notifications/get-notification 200 - 7.034 ms
+Mon Jun 30 2025 17:24:17 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1749910028724.png 304 - 0.306 ms
+Mon Jun 30 2025 17:24:21 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Jun 30 2025 17:24:21 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Jun 30 2025 17:24:21 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Jun 30 2025 17:24:21 [SERVER-NAME] info: [46m♻️  Application listening on http://10.0.60.126:7000[49m
+Mon Jun 30 2025 17:24:31 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Jun 30 2025 17:24:31 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Jun 30 2025 17:24:31 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Jun 30 2025 17:24:31 [SERVER-NAME] info: [46m♻️  Application listening on http://10.0.60.126:7000[49m
+Mon Jun 30 2025 17:24:56 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/notifications/send-notification 200 - 28.923 ms
+Mon Jun 30 2025 17:25:0 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/notifications/get-notification?notificationType=schedule&status=PENDING 200 - 14.424 ms
+Mon Jun 30 2025 17:25:7 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.331 ms
+Mon Jun 30 2025 17:25:7 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/notifications/get-notification 204 - 0.126 ms
+Mon Jun 30 2025 17:25:7 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 7.078 ms
+Mon Jun 30 2025 17:25:7 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/notifications/get-notification 200 - 8.435 ms
+Mon Jun 30 2025 17:25:7 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1749910028724.png 304 - 0.663 ms
+Mon Jun 30 2025 17:25:51 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/notifications/send-notification 204 - 0.268 ms
+Mon Jun 30 2025 17:25:51 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/notifications/send-notification 200 - 14.282 ms
+Mon Jun 30 2025 17:25:51 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/notifications/get-notification 204 - 0.318 ms
+Mon Jun 30 2025 17:25:51 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/notifications/get-notification 304 - 9.328 ms
+Mon Jun 30 2025 17:27:24 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Jun 30 2025 17:27:24 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Jun 30 2025 17:27:24 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Jun 30 2025 17:27:24 [SERVER-NAME] info: [46m♻️  Application listening on http://10.0.60.126:7000[49m
+Mon Jun 30 2025 17:27:28 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Jun 30 2025 17:27:28 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Jun 30 2025 17:27:28 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Jun 30 2025 17:27:28 [SERVER-NAME] info: [46m♻️  Application listening on http://10.0.60.126:7000[49m
+Mon Jun 30 2025 17:27:29 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Jun 30 2025 17:27:30 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Jun 30 2025 17:27:30 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Jun 30 2025 17:27:30 [SERVER-NAME] info: [46m♻️  Application listening on http://10.0.60.126:7000[49m
+Mon Jun 30 2025 17:27:32 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Jun 30 2025 17:27:32 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Jun 30 2025 17:27:32 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Jun 30 2025 17:27:32 [SERVER-NAME] info: [46m♻️  Application listening on http://10.0.60.126:7000[49m
+Mon Jun 30 2025 17:27:36 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Jun 30 2025 17:27:36 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Jun 30 2025 17:27:36 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Jun 30 2025 17:27:36 [SERVER-NAME] info: [46m♻️  Application listening on http://10.0.60.126:7000[49m
+Mon Jun 30 2025 17:28:2 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/notifications/send-notification 204 - 0.606 ms
+Mon Jun 30 2025 17:28:2 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/notifications/send-notification 200 - 36.883 ms
+Mon Jun 30 2025 17:28:2 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/notifications/get-notification 204 - 0.102 ms
+Mon Jun 30 2025 17:28:2 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/notifications/get-notification 304 - 12.188 ms
+Mon Jun 30 2025 17:30:52 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/users/profile 204 - 0.094 ms
+Mon Jun 30 2025 17:30:52 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/notifications/get-notification 204 - 0.076 ms
+Mon Jun 30 2025 17:30:52 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/users/profile 304 - 10.545 ms
+Mon Jun 30 2025 17:30:52 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/notifications/get-notification 304 - 9.753 ms
+Mon Jun 30 2025 17:30:52 [SERVER-NAME] info: 10.0.60.147 - GET //image/image5-1749910028724.png 304 - 0.830 ms
+Mon Jun 30 2025 17:31:18 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/notifications/send-notification 204 - 0.107 ms
+Mon Jun 30 2025 17:31:18 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/notifications/send-notification 200 - 12.354 ms
+Mon Jun 30 2025 17:31:18 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/notifications/get-notification 204 - 0.111 ms
+Mon Jun 30 2025 17:31:19 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/notifications/get-notification 200 - 7.805 ms
+Mon Jun 30 2025 17:33:32 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/notifications/send-notification 204 - 0.128 ms
+Mon Jun 30 2025 17:33:32 [SERVER-NAME] info: 10.0.60.147 - POST /api/v1/admin/notifications/send-notification 200 - 11.501 ms
+Mon Jun 30 2025 17:33:32 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/notifications/get-notification 204 - 0.095 ms
+Mon Jun 30 2025 17:33:32 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/notifications/get-notification 200 - 7.634 ms
+Mon Jun 30 2025 17:35:43 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/notifications/get-notification?notificationType=schedule&status=PENDING 200 - 8.696 ms
+Mon Jun 30 2025 17:36:27 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/notifications/get-notification?notificationType=schedule&status=PENDING 200 - 5.710 ms
+Mon Jun 30 2025 17:38:18 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Jun 30 2025 17:38:18 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Jun 30 2025 17:38:18 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Jun 30 2025 17:38:18 [SERVER-NAME] info: [46m♻️  Application listening on http://10.0.60.126:7000[49m
+Mon Jun 30 2025 17:38:28 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Jun 30 2025 17:38:28 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Jun 30 2025 17:38:28 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Jun 30 2025 17:38:28 [SERVER-NAME] info: [46m♻️  Application listening on http://10.0.60.126:7000[49m
+Mon Jun 30 2025 17:38:47 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Jun 30 2025 17:38:47 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Jun 30 2025 17:38:47 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Jun 30 2025 17:38:47 [SERVER-NAME] info: [46m♻️  Application listening on http://10.0.60.126:7000[49m
+Mon Jun 30 2025 17:48:31 [SERVER-NAME] info: 10.0.60.147 - OPTIONS /api/v1/admin/notifications/get-notification 204 - 0.694 ms
+Mon Jun 30 2025 17:48:31 [SERVER-NAME] info: 10.0.60.147 - GET /api/v1/admin/notifications/get-notification 304 - 19.080 ms

@@ -1,2 +1,0 @@
-Sun Jun 29 2025 17:34:44 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/admin/notifications/send-notification?status=SEND 500 - 17.557 ms
-Sun Jun 29 2025 17:37:51 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/admin/notifications/send-notification 500 - 5.447 ms

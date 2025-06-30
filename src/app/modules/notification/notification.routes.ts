@@ -10,7 +10,7 @@ router.patch('/admin/single/:id', auth(USER_ROLES.ADMIN, USER_ROLES.SUPER_ADMIN)
 router.patch('/single/:id', auth(USER_ROLES.USER), NotificationController.readNotificationSingle);
 router.patch('/', auth(USER_ROLES.USER, USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), NotificationController.readNotification);
 router.patch('/admin', auth(USER_ROLES.ADMIN, USER_ROLES.SUPER_ADMIN), NotificationController.adminReadNotification);
-router.post('/send-notification', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), NotificationController.sendAdminNotification);
-router.get('/get-notification', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), NotificationController.getPushNotification);
+// router.post('/send-notification', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), NotificationController.sendAdminNotification);
+// router.get('/get-notification', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), NotificationController.getPushNotification);
 
 export const NotificationRoutes = router;
