@@ -30,7 +30,7 @@ const getSettings = async (title: string) => {
 const getTermsOfService = async () => {
      const settings: any = await Settings.findOne();
      if (!settings) {
-          throw new AppError(StatusCodes.NOT_FOUND, 'Settings not found');
+          return '';
      }
      return settings.termsOfService;
 };
@@ -38,7 +38,7 @@ const getSupport = async () => {
      const settings: any = await Settings.findOne();
 
      if (!settings) {
-          throw new AppError(StatusCodes.NOT_FOUND, 'Settings not found');
+          return '';
      }
      return settings.support;
 };
@@ -46,7 +46,7 @@ const getPrivacyPolicy = async () => {
      const settings: any = await Settings.findOne();
 
      if (!settings) {
-          throw new AppError(StatusCodes.NOT_FOUND, 'Settings not found');
+          return '';
      }
      return settings.privacyPolicy;
 };
@@ -54,7 +54,7 @@ const getAboutUs = async () => {
      const settings: any = await Settings.findOne();
 
      if (!settings) {
-          throw new AppError(StatusCodes.NOT_FOUND, 'Settings not found');
+          return '';
      }
      return settings.aboutUs;
 };

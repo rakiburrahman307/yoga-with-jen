@@ -1,3 +1,0 @@
-Mon Jun 30 2025 19:21:17 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/admin/scheduled-notifications/send-notification 404 - 9.234 ms
-Mon Jun 30 2025 19:22:19 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/admin/scheduled-notifications/send-notification 404 - 16.846 ms
-Mon Jun 30 2025 19:22:44 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/admin/scheduled-notifications/send-notification 403 - 19.186 ms

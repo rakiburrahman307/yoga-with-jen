@@ -24,21 +24,21 @@ const createUserToDB = async (payload: IUser): Promise<IUser> => {
      }
 
      //send email
-     const otp = generateOTP(4);
-     const values = {
-          name: createUser.name,
-          otp: otp,
-          email: createUser.email!,
-     };
-     const createAccountTemplate = emailTemplate.createAccount(values);
-     emailHelper.sendEmail(createAccountTemplate);
+     // const otp = generateOTP(4);
+     // const values = {
+     //      name: createUser.name,
+     //      otp: otp,
+     //      email: createUser.email!,
+     // };
+     // const createAccountTemplate = emailTemplate.createAccount(values);
+     // emailHelper.sendEmail(createAccountTemplate);
 
-     //save to DB
-     const authentication = {
-          oneTimeCode: otp,
-          expireAt: new Date(Date.now() + 3 * 60000),
-     };
-     await User.findOneAndUpdate({ _id: createUser._id }, { $set: { authentication } });
+     // //save to DB
+     // const authentication = {
+     //      oneTimeCode: otp,
+     //      expireAt: new Date(Date.now() + 3 * 60000),
+     // };
+     // await User.findOneAndUpdate({ _id: createUser._id }, { $set: { authentication } });
 
      let stripeCustomer;
      try {
@@ -51,7 +51,7 @@ const createUserToDB = async (payload: IUser): Promise<IUser> => {
      }
 
      createUser.stripeCustomerId = stripeCustomer.id;
-     await User.findOneAndUpdate({ _id: createUser._id }, { $set: { authentication, stripeCustomerId: stripeCustomer.id } });
+     await User.findOneAndUpdate({ _id: createUser._id }, { $set: { stripeCustomerId: stripeCustomer.id } });
      return createUser;
 };
 

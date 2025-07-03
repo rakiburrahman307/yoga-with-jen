@@ -1,0 +1,6 @@
+Thu Jul 03 2025 16:37:0 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/settings/termsOfService 404 - 39.723 ms
+Thu Jul 03 2025 16:37:4 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/settings/support 404 - 7.236 ms
+Thu Jul 03 2025 16:37:8 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/settings/aboutus 404 - 2.969 ms
+Thu Jul 03 2025 16:37:13 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/setting/aboutus 404 - 1.708 ms
+Thu Jul 03 2025 16:37:20 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/settings/aboutus 404 - 2.379 ms
+Thu Jul 03 2025 16:37:24 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/settings/privacy-policy 404 - 4.013 ms
