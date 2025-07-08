@@ -1,0 +1,42 @@
+Tue Jul 08 2025 11:1:13 [SERVER-NAME] info: OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.076 ms
+Tue Jul 08 2025 11:1:13 [SERVER-NAME] info: GET /api/v1/admin/videos/managment/videos?page=1&limit=10 304 - 14.176 ms
+Tue Jul 08 2025 11:1:20 [SERVER-NAME] info: GET //thumbnail/woman-yoga-video-laptop-on-260nw-2518833075-1751798188490.jpg 304 - 0.660 ms
+Tue Jul 08 2025 11:2:1 [SERVER-NAME] info: OPTIONS /api/v1/admin/category/create 204 - 0.085 ms
+Tue Jul 08 2025 11:2:1 [SERVER-NAME] info: POST /api/v1/admin/category/create 200 - 23.414 ms
+Tue Jul 08 2025 11:2:1 [SERVER-NAME] info: OPTIONS /api/v1/admin/category 204 - 0.057 ms
+Tue Jul 08 2025 11:2:1 [SERVER-NAME] info: GET /api/v1/admin/category 200 - 8.425 ms
+Tue Jul 08 2025 11:2:1 [SERVER-NAME] info: GET //thumbnail/horizontal-portrait-beautiful-young-fit-260nw-2284458621-1751950921922.jpg 200 - 0.967 ms
+Tue Jul 08 2025 11:2:17 [SERVER-NAME] info: OPTIONS /api/v1/admin/subcategory/686ca649314f6233882f0a74 204 - 0.198 ms
+Tue Jul 08 2025 11:2:17 [SERVER-NAME] info: GET /api/v1/admin/subcategory/686ca649314f6233882f0a74 200 - 5.606 ms
+Tue Jul 08 2025 11:2:27 [SERVER-NAME] info: OPTIONS /api/v1/admin/subcategory/686a51ac9382c57a0019bf60 204 - 0.145 ms
+Tue Jul 08 2025 11:2:27 [SERVER-NAME] info: GET /api/v1/admin/subcategory/686a51ac9382c57a0019bf60 304 - 5.037 ms
+Tue Jul 08 2025 11:9:46 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Jul 08 2025 11:9:46 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Jul 08 2025 11:9:46 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Jul 08 2025 11:9:46 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
+Tue Jul 08 2025 11:10:8 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Jul 08 2025 11:10:8 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Jul 08 2025 11:10:8 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Jul 08 2025 11:10:8 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
+Tue Jul 08 2025 11:10:11 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Jul 08 2025 11:10:11 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Jul 08 2025 11:10:11 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Jul 08 2025 11:10:11 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
+Tue Jul 08 2025 11:13:5 [SERVER-NAME] info: GET //thumbnail/horizontal-portrait-beautiful-young-fit-260nw-2284458621-1751950921922.jpg 304 - 1.875 ms
+Tue Jul 08 2025 11:13:5 [SERVER-NAME] info: GET //thumbnail/woman-yoga-video-laptop-on-260nw-2518833075-1751798188490.jpg 304 - 0.532 ms
+Tue Jul 08 2025 11:13:32 [SERVER-NAME] info: OPTIONS /api/v1/admin/category/create 204 - 1.763 ms
+Tue Jul 08 2025 11:13:32 [SERVER-NAME] info: OPTIONS /api/v1/admin/category 204 - 0.082 ms
+Tue Jul 08 2025 11:13:32 [SERVER-NAME] info: GET /api/v1/admin/category 304 - 15.281 ms
+Tue Jul 08 2025 11:13:46 [SERVER-NAME] info: OPTIONS /api/v1/admin/category/create 204 - 0.160 ms
+Tue Jul 08 2025 11:13:46 [SERVER-NAME] info: OPTIONS /api/v1/admin/category 204 - 0.079 ms
+Tue Jul 08 2025 11:13:46 [SERVER-NAME] info: GET /api/v1/admin/category 304 - 8.129 ms
+Tue Jul 08 2025 11:13:58 [SERVER-NAME] info: OPTIONS /api/v1/users/profile 204 - 0.165 ms
+Tue Jul 08 2025 11:13:58 [SERVER-NAME] info: OPTIONS /api/v1/admin/category 204 - 0.257 ms
+Tue Jul 08 2025 11:13:58 [SERVER-NAME] info: GET /api/v1/users/profile 304 - 5.688 ms
+Tue Jul 08 2025 11:13:58 [SERVER-NAME] info: GET /api/v1/admin/category 304 - 10.415 ms
+Tue Jul 08 2025 11:13:58 [SERVER-NAME] info: GET //thumbnail/horizontal-portrait-beautiful-young-fit-260nw-2284458621-1751950921922.jpg 304 - 1.339 ms
+Tue Jul 08 2025 11:13:58 [SERVER-NAME] info: GET //thumbnail/woman-yoga-video-laptop-on-260nw-2518833075-1751798188490.jpg 304 - 0.655 ms
+Tue Jul 08 2025 11:14:9 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Jul 08 2025 11:14:9 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Jul 08 2025 11:14:9 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Jul 08 2025 11:14:9 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m

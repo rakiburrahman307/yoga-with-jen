@@ -1,0 +1,3 @@
+Thu Jul 03 2025 17:4:54 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/settings 404 - 0.990 ms
+Thu Jul 03 2025 17:5:39 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/settings 404 - 0.892 ms
+Thu Jul 03 2025 17:5:41 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/settings 404 - 1.582 ms

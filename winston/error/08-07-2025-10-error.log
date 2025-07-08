@@ -1,0 +1,2 @@
+Tue Jul 08 2025 10:11:23 [SERVER-NAME] error: GET /api/v1/admin/dailyInspiration/scheduled 400 - 5.131 ms
+Tue Jul 08 2025 10:11:23 [SERVER-NAME] error: GET /api/v1/admin/dailyInspiration/library?category=Daily+Inspiration 400 - 9.324 ms

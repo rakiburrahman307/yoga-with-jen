@@ -1,0 +1,25 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 1
+    },
+    "auditLog": "C:\\Users\\Rakibur Rahman\\Desktop\\projects\\yoga-with-jen\\winston\\error\\.ace13c29e134e8aeb54f8bf3c71f0b3e46112ce5-audit.json",
+    "files": [
+        {
+            "date": 1751946284697,
+            "name": "C:\\Users\\Rakibur Rahman\\Desktop\\projects\\yoga-with-jen\\winston\\error\\08-07-2025-09-error.log",
+            "hash": "19dc45e50544a5df769e51b1fe8559cbb72015ea93c3bf09791a3baaf8f7fd2e"
+        },
+        {
+            "date": 1751947883699,
+            "name": "C:\\Users\\Rakibur Rahman\\Desktop\\projects\\yoga-with-jen\\winston\\error\\08-07-2025-10-error.log",
+            "hash": "5f0d4c53d833e860278e2e45cd8ea001db533a66eea2134e5a65b414252a565b"
+        },
+        {
+            "date": 1751951385478,
+            "name": "C:\\Users\\Rakibur Rahman\\Desktop\\projects\\yoga-with-jen\\winston\\error\\08-07-2025-11-error.log",
+            "hash": "03e1d2faa4ce6570438223e44adcf52c0bc7bcef6b8cada3546c429f7a71b7e2"
+        }
+    ],
+    "hashType": "sha256"
+}

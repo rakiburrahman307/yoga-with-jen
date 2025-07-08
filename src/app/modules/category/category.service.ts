@@ -11,7 +11,7 @@ import { Video } from '../admin/videosManagement/videoManagement.model';
 import { Favourite } from '../favourit/favourit.model';
 
 const createCategoryToDB = async (payload: ICategory) => {
-     const { name, thumbnail, categoryType } = payload;
+     const { name, thumbnail } = payload;
      const isExistName = await Category.findOne({ name });
 
      if (isExistName) {
@@ -20,7 +20,7 @@ const createCategoryToDB = async (payload: ICategory) => {
      }
      const newCategory = new Category({
           name,
-          categoryType,
+          // categoryType,
           thumbnail,
      });
 

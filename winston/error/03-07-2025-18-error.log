@@ -1,0 +1,7 @@
+Thu Jul 03 2025 18:33:4 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 404 - 6.855 ms
+Thu Jul 03 2025 18:33:4 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/dashboard/revenue 404 - 3.902 ms
+Thu Jul 03 2025 18:33:4 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/dashboard/resent-users 404 - 2.990 ms
+Thu Jul 03 2025 18:33:7 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/dashboard/statistics 404 - 3.441 ms
+Thu Jul 03 2025 18:33:7 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/users/profile 404 - 2.850 ms
+Thu Jul 03 2025 18:33:7 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/dashboard/revenue 404 - 4.022 ms
+Thu Jul 03 2025 18:33:7 [SERVER-NAME] error: 10.0.60.147 - GET /api/v1/admin/dashboard/resent-users 404 - 4.680 ms

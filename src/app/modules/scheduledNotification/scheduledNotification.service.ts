@@ -10,7 +10,6 @@ import { USER_ROLES } from '../../../enums/user';
 // Updated admin function - stores only ONE scheduled notification
 const adminSendNotificationFromDB = async (payload: any) => {
      const { title, message, receiver, sendAt, isScheduled } = payload;
-     console.log('payload', payload);
      // Validate required fields
      if (!title || !message) {
           throw new AppError(StatusCodes.BAD_REQUEST, 'Title and message are required');

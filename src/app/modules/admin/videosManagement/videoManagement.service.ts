@@ -58,6 +58,7 @@ const addVideo = async (payload: IVideo) => {
                throw new AppError(StatusCodes.BAD_REQUEST, 'SubCategory is inactive');
           }
           payload.subCategory = isExistSubCategory.name;
+          // payload.type = isExistSubCategory.type;
           // Here you can update either the subCategory document or the main category document
           // I'm assuming you want to increment the subCategoryCount on the main category:
           const updatedCategoryForSub = await SubCategory.findByIdAndUpdate(isExistSubCategory._id, { $inc: { videoCount: 1 } }, { new: true });
