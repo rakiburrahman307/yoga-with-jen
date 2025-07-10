@@ -10,9 +10,9 @@ const router = express.Router();
 
 // Route to create a new "Create Challenge" entry
 router.post('/create', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), fileUploadHandlerbunny, validateRequest(CreateDailyInspiration.createDailyInspiration), ChallengeController.createChallenge);
-
+router.post('/schedule-create', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), fileUploadHandlerbunny, ChallengeController.createChallengeForSchedule);
 // Route to get all "Create Challenge" entries
-router.get('/letest', auth(USER_ROLES.USER), ChallengeController.getAllCreateChallenge);
+router.get('/letest', auth(USER_ROLES.USER), ChallengeController.getChallenges);
 router.get('/single/:id', auth(USER_ROLES.USER), ChallengeController.singleChallenge);
 // Route to get all "Create Challenge" entries
 router.get('/', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), ChallengeController.getAllCreateChallenge);

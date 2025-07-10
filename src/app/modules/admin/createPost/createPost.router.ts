@@ -2,7 +2,7 @@ import express from 'express';
 import auth from '../../../middleware/auth';
 import { USER_ROLES } from '../../../../enums/user';
 import validateRequest from '../../../middleware/validateRequest';
-import { CreatePostValidation } from './createPost.validation';
+import { CreatePostValidation } from './creaetPost.validation';
 import fileUploadHandlerbunny from '../../../middleware/fileUploadHandlerbunny';
 import { CreatePostController } from './createPost.controller';
 

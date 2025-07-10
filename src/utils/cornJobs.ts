@@ -8,6 +8,8 @@ import { NotificationStatus } from '../app/modules/scheduledNotification/schedul
 import { USER_ROLES } from '../enums/user';
 import { DailyInspiration } from '../app/modules/admin/dailyInspiration/dailyInspiration.model';
 import { CreatePost } from '../app/modules/admin/createPost/createPost.model';
+import { Challenge } from '../app/modules/admin/challanges/challanges.model';
+import { pickRandomChallenge } from '../app/modules/admin/challanges/challanges.service';
 
 // ====== CRON JOB SCHEDULERS ======
 
@@ -336,6 +338,35 @@ const scheduleDailyPost = () => {
           }
      });
 };
+const scheduleDailyChallenge = () => {
+     cron.schedule('* * * * *', async () => {
+          const now = new Date();
+
+          // Find pending posts that should be activated
+          const pendingChallenge = await Challenge.find({
+               status: 'inactive',
+               publishAt: { $lte: now },
+          });
+
+          for (const challenge of pendingChallenge) {
+               try {
+                    // Update the current post to 'active'
+                    if (challenge.publishAt) {
+                         await Challenge.findByIdAndUpdate(challenge._id, {
+                              status: 'active',
+                         });
+                    }
+               } catch (error) {
+                    console.error('Error sending scheduled notification:', error);
+               }
+          }
+     });
+};
+const pickRandom = () => {
+     cron.schedule('0 0 * * *', async () => {
+          await pickRandomChallenge();
+     });
+};
 
 const setupTrialManagement = () => {
      console.log('🚀 Setting up trial management cron jobs...');
@@ -346,6 +377,8 @@ const setupTrialManagement = () => {
      startNotificationScheduler(); // Every minute
      scheduleDailyInspiration(); // Every minute
      scheduleDailyPost(); // Every minute
+     scheduleDailyChallenge(); // Every minute
+     pickRandom(); // Every minute
      console.log('✅ All trial management jobs scheduled');
      // Log initial statistics
      getTrialStatistics().then((stats) => {

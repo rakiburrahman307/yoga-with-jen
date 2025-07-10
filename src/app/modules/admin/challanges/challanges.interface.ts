@@ -6,5 +6,6 @@ export interface IChallenge {
      thumbnailUrl: string;
      videoUrl: string;
      description: string;
+     publishAt: Date;
      status: 'active' | 'inactive';
 }

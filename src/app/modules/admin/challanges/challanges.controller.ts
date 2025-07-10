@@ -8,12 +8,23 @@ import { ChallengeService } from './challanges.service';
 const createChallenge = catchAsync(async (req, res) => {
      // Calling the service to create a new entry
      const result = await ChallengeService.createChallenge(req.body);
-
      // Sending a success response with the result
      sendResponse(res, {
           statusCode: StatusCodes.CREATED,
           success: true,
           message: 'Challenge created successfully',
+          data: result,
+     });
+});
+const createChallengeForSchedule = catchAsync(async (req, res) => {
+     // Calling the service to create a new entry
+     const result = await ChallengeService.createChallengeForSchedule(req.body);
+
+     // Sending a success response with the result
+     sendResponse(res, {
+          statusCode: StatusCodes.CREATED,
+          success: true,
+          message: 'Post created successfully',
           data: result,
      });
 });
@@ -30,6 +41,17 @@ const getAllCreateChallenge = catchAsync(async (req, res) => {
           message: 'Challenge retrieved successfully',
           data: result.result,
           pagination: result.meta,
+     });
+});
+const getChallenges = catchAsync(async (req, res) => {
+     const result = await ChallengeService.pickRandomChallenge();
+
+     // Sending the response with the result and pagination data
+     sendResponse(res, {
+          statusCode: StatusCodes.OK,
+          success: true,
+          message: 'Challenge retrieved successfully',
+          data: result,
      });
 });
 
@@ -87,4 +109,4 @@ const getChallenge = catchAsync(async (req, res) => {
      });
 });
 
-export const ChallengeController = { createChallenge, getAllCreateChallenge, singleChallenge, updateChallenge, deleteChallenge, getChallenge };
+export const ChallengeController = { createChallenge, getAllCreateChallenge, singleChallenge, updateChallenge, deleteChallenge, getChallenge, createChallengeForSchedule, getChallenges };

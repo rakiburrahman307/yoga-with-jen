@@ -5,35 +5,76 @@ import QueryBuilder from '../../../builder/QueryBuilder';
 import { BunnyStorageHandeler } from '../../../../helpers/BunnyStorageHandeler';
 import { Challenge } from './challanges.model';
 import { IChallenge } from './challanges.interface';
+import { Video } from '../videosManagement/videoManagement.model';
 
 // Function to create a new "create Challenge" entry
 const createChallenge = async (payload: IChallenge) => {
-     const deletedData = await Challenge.deleteMany({});
-     if (!deletedData) {
-          throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to delete all create Challenge');
-     }
      const result = await Challenge.create(payload);
      if (!result) {
           throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to create create Challenge');
      }
      return result;
 };
-
+const createChallengeForSchedule = async (payload: { publishAt: string; videoId: string }) => {
+     const { publishAt, videoId } = payload;
+     const isExistVideo = await Video.findById(videoId);
+     if (!isExistVideo) {
+          throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
+     }
+     const data = {
+          title: isExistVideo.title,
+          category: isExistVideo.category,
+          duration: isExistVideo.duration,
+          equipment: isExistVideo.equipment,
+          thumbnailUrl: isExistVideo.thumbnailUrl,
+          videoUrl: isExistVideo.videoUrl,
+          description: isExistVideo.description,
+          publishAt,
+     };
+     // Create the new post
+     const result = await Challenge.create(data);
+     if (!result) {
+          throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to create Challenge');
+     }
+     return result;
+};
 // Function to fetch all "create Challenge" entries, including pagination, filtering, and sorting
 const getAllChallenge = async (query: Record<string, unknown>) => {
-     const querBuilder = new QueryBuilder(Challenge.find({}), query);
+     const queryBuilder = new QueryBuilder(Challenge.find({}), query);
 
-     const result = await querBuilder.fields().sort().paginate().filter().search(['title', 'category', 'subCategory']).modelQuery; // Final query model
+     const result = await queryBuilder.fields().sort().paginate().filter().search(['title', 'category', 'subCategory']).modelQuery; // Final query model
 
-     const meta = await querBuilder.countTotal();
+     const meta = await queryBuilder.countTotal();
      return { result, meta };
 };
+let lastPickedChallenge = null;
+export const pickRandomChallenge = async () => {
+     const result = await Challenge.find({ status: 'active' });
+
+     // If no active challenges are found, throw an error
+     if (!result || result.length === 0) {
+          console.error('No active challenges found');
+          return;
+     }
+
+     // Get a random challenge from the list of active challenges
+     const randomIndex = Math.floor(Math.random() * result.length);
+     const randomChallenge = result[randomIndex];
+
+     // Store the selected challenge
+     lastPickedChallenge = randomChallenge;
+     console.log('Picked a new random challenge:', randomChallenge);
+     return lastPickedChallenge;
+     // You could also save this in a persistent database or cache here
+};
+
+
 const getChallenge = async (query: Record<string, unknown>) => {
-     const querBuilder = new QueryBuilder(Challenge.find({ status: 'active' }), query);
+     const queryBuilder = new QueryBuilder(Challenge.find({ status: 'active' }), query);
 
-     const result = await querBuilder.fields().sort().paginate().filter().search(['title', 'category', 'subCategory']).modelQuery; // Final query model
+     const result = await queryBuilder.fields().sort().paginate().filter().search(['title', 'category', 'subCategory']).modelQuery; // Final query model
 
-     const meta = await querBuilder.countTotal();
+     const meta = await queryBuilder.countTotal();
      return { result, meta };
 };
 
@@ -120,4 +161,14 @@ const deleteChallenge = async (id: string) => {
      return result;
 };
 
-export const ChallengeService = { createChallenge, getAllChallenge, getChallengeContentLetest, getSingleChallenge, updateChallenge, deleteChallenge, getChallenge };
+export const ChallengeService = {
+     createChallenge,
+     getAllChallenge,
+     getChallengeContentLetest,
+     getSingleChallenge,
+     updateChallenge,
+     deleteChallenge,
+     getChallenge,
+     createChallengeForSchedule,
+     pickRandomChallenge,
+};
