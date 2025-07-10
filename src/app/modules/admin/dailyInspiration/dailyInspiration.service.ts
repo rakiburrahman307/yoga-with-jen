@@ -5,19 +5,35 @@ import QueryBuilder from '../../../builder/QueryBuilder';
 import { BunnyStorageHandeler } from '../../../../helpers/BunnyStorageHandeler';
 import { DailyInspiration } from './dailyInspiration.model';
 import { IDailyInspiration } from './dailyInspiration.interface';
+import { Video } from '../videosManagement/videoManagement.model';
 
 // Function to create a new "create post" entry
 const createPost = async (payload: IDailyInspiration) => {
-     // First, delete any existing daily inspiration posts
-     const deleteResult = await DailyInspiration.deleteMany({});
-
-     if (deleteResult.deletedCount > 0) {
-          console.log(`Deleted ${deleteResult.deletedCount} existing daily inspiration post(s)`);
-     }
-
      // Create the new post
      const result = await DailyInspiration.create(payload);
-
+     if (!result) {
+          throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to create daily inspiration post');
+     }
+     return result;
+};
+const createPostForSchedule = async (payload: { publishAt: string; videoId: string }) => {
+     const { publishAt, videoId } = payload;
+     const isExistVideo = await Video.findById(videoId);
+     if (!isExistVideo) {
+          throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
+     }
+     const data = {
+          title: isExistVideo.title,
+          category: isExistVideo.category,
+          duration: isExistVideo.duration,
+          equipment: isExistVideo.equipment,
+          thumbnailUrl: isExistVideo.thumbnailUrl,
+          videoUrl: isExistVideo.videoUrl,
+          description: isExistVideo.description,
+          publishAt,
+     };
+     // Create the new post
+     const result = await DailyInspiration.create(data);
      if (!result) {
           throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to create daily inspiration post');
      }
@@ -26,7 +42,7 @@ const createPost = async (payload: IDailyInspiration) => {
 
 // Function to fetch all "create post" entries, including pagination, filtering, and sorting
 const getAllPost = async () => {
-     const result = await DailyInspiration.find({});
+     const result = await DailyInspiration.find({ status: 'active' });
      if (!result) {
           return [];
      }
@@ -34,7 +50,7 @@ const getAllPost = async () => {
 };
 
 const getPost = async (query: Record<string, unknown>) => {
-     const querBuilder = new QueryBuilder(DailyInspiration.find({ status: 'active' }), query);
+     const querBuilder = new QueryBuilder(DailyInspiration.find({}), query);
 
      const result = await querBuilder.fields().sort().paginate().filter().search(['title', 'category', 'subCategory']).modelQuery; // Final query model
 
@@ -123,4 +139,4 @@ const deletePost = async (id: string) => {
      return result;
 };
 
-export const DailyInspirationService = { createPost, getAllPost, getPostContentLetest, getSinglePost, updatePost, deletePost, getPost };
+export const DailyInspirationService = { createPost, getAllPost, getPostContentLetest, getSinglePost, updatePost, deletePost, getPost, createPostForSchedule };

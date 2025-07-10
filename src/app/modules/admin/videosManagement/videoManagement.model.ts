@@ -1,4 +1,4 @@
-import mongoose, { Schema, Types } from 'mongoose';
+import mongoose, { Schema } from 'mongoose';
 import { IVideo } from './videoManagement.interface';
 
 // 🎥 Video schema with embedded comments

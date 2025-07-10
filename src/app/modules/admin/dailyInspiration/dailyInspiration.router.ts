@@ -10,6 +10,7 @@ const router = express.Router();
 
 // Route to create a new "Create Post" entry
 router.post('/create', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), fileUploadHandlerbunny, validateRequest(CreateDailyInspiration.createDailyInspiration), DailyInspirationController.createPost);
+router.post('/schedule-create', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), fileUploadHandlerbunny, DailyInspirationController.createPostForSchedule);
 
 // Route to get all "Create Post" entries
 router.get('/letest', auth(USER_ROLES.USER), DailyInspirationController.getAllCreatePost);

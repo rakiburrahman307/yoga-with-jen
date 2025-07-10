@@ -131,13 +131,13 @@ const removeVideo = async (id: string) => {
                if (isExistVideo.thumbnailUrl) {
                     await BunnyStorageHandeler.deleteFromBunny(isExistVideo.thumbnailUrl);
                }
-          } catch (error) {
+          } catch {
                throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Error deleting video from BunnyCDN');
           }
      }
 
      // Decrease video count in category
-     const decreaseCountVideoCategory = await Category.findByIdAndUpdate(isExistVideo.categoryId, {
+     await Category.findByIdAndUpdate(isExistVideo.categoryId, {
           $inc: { videoCount: -1 },
      });
 
@@ -176,7 +176,7 @@ const getSingleVideoFromDb = async (id: string, userId: string) => {
      // If the user doesn't have a subscription and the video is paid
      throw new AppError(StatusCodes.FORBIDDEN, 'You do not have access');
 };
-const getSingleVideoForAdmin = async (id: string, userId: string) => {
+const getSingleVideoForAdmin = async (id: string) => {
      const result = await Video.findById(id).populate('categoryId', 'name').populate('subCategoryId', 'name');
      if (!result) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');

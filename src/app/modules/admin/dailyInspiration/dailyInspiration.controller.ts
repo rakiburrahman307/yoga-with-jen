@@ -1,4 +1,3 @@
-// Importing necessary utilities and dependencies
 import { StatusCodes } from 'http-status-codes'; // Standard HTTP status codes for response
 import catchAsync from '../../../../shared/catchAsync'; // Error handling utility for async functions
 import sendResponse from '../../../../shared/sendResponse'; // Utility to format and send the response
@@ -8,6 +7,18 @@ import { DailyInspirationService } from './dailyInspiration.service';
 const createPost = catchAsync(async (req, res) => {
      // Calling the service to create a new entry
      const result = await DailyInspirationService.createPost(req.body);
+
+     // Sending a success response with the result
+     sendResponse(res, {
+          statusCode: StatusCodes.CREATED,
+          success: true,
+          message: 'Post created successfully',
+          data: result,
+     });
+});
+const createPostForSchedule = catchAsync(async (req, res) => {
+     // Calling the service to create a new entry
+     const result = await DailyInspirationService.createPostForSchedule(req.body);
 
      // Sending a success response with the result
      sendResponse(res, {
@@ -33,14 +44,15 @@ const getAllCreatePost = catchAsync(async (req, res) => {
 });
 const getAllCreatePostForAdmin = catchAsync(async (req, res) => {
      // Fetching all "Create post" entries using query parameters (e.g., for pagination)
-     const result = await DailyInspirationService.getAllPost();
+     const result = await DailyInspirationService.getPost(req.query);
 
      // Sending the response with the result and pagination data
      sendResponse(res, {
           statusCode: StatusCodes.OK,
           success: true,
           message: 'Post retrieved successfully',
-          data: result,
+          data: result.result,
+          pagination: result.meta,
      });
 });
 
@@ -98,4 +110,4 @@ const getPost = catchAsync(async (req, res) => {
      });
 });
 
-export const DailyInspirationController = { createPost, getAllCreatePost, singlePost, updatePost, deletePost, getPost, getAllCreatePostForAdmin };
+export const DailyInspirationController = { createPost, getAllCreatePost, singlePost, updatePost, deletePost, getPost, getAllCreatePostForAdmin, createPostForSchedule };

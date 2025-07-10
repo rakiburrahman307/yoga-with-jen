@@ -5,6 +5,7 @@ import { CategoryService } from './subCategory.service';
 
 const createSubCategory = catchAsync(async (req, res) => {
      const serviceData = req.body;
+     console.log('serviceData', serviceData);
      const result = await CategoryService.createSubCategoryToDB(serviceData);
      sendResponse(res, {
           success: true,

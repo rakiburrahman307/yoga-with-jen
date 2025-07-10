@@ -1,5 +1,5 @@
 import mongoose, { Schema } from 'mongoose';
-import { ICreatePost } from './creaetPost.interface';
+import { ICreatePost } from './createPost.interface';
 const VideoSchema = new Schema<ICreatePost>(
      {
           title: { type: String, required: false },
@@ -9,7 +9,9 @@ const VideoSchema = new Schema<ICreatePost>(
           thumbnailUrl: { type: String, default: '' },
           videoUrl: { type: String, default: '' },
           description: { type: String, required: false },
-          status: { type: String, enum: ['active', 'inactive'], default: 'active' },
+          publishAt: { type: Date, default: Date.now },
+          status: { type: String, enum: ['active', 'inactive'], default: 'inactive' },
+          isDeleted: { type: Boolean, default: false },
      },
      { timestamps: true },
 );

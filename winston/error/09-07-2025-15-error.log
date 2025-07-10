@@ -1,0 +1,13 @@
+Wed Jul 09 2025 15:4:2 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/admin/dailyInspiration/scheduled 400 - 3.309 ms
+Wed Jul 09 2025 15:4:2 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/admin/dailyInspiration/scheduled 400 - 9.291 ms
+Wed Jul 09 2025 15:4:17 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/admin/dailyInspiration/scheduled 400 - 6.821 ms
+Wed Jul 09 2025 15:4:19 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/admin/dailyInspiration/scheduled 400 - 5.626 ms
+Wed Jul 09 2025 15:5:16 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/admin/dailyInspiration/scheduled 400 - 13.604 ms
+Wed Jul 09 2025 15:11:48 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/admin/dailyInspiration/scheduled 400 - 7.198 ms
+Wed Jul 09 2025 15:11:50 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/admin/dailyInspiration/scheduled 400 - 2.512 ms
+Wed Jul 09 2025 15:14:13 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/admin/dailyInspiration/scheduled 400 - 3.317 ms
+Wed Jul 09 2025 15:14:14 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/admin/dailyInspiration/scheduled 400 - 3.335 ms
+Wed Jul 09 2025 15:44:38 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/admin/dailyInspiration/scheduled 400 - 19.423 ms
+Wed Jul 09 2025 15:45:14 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/admin/dailyInspiration/scheduled 400 - 4.800 ms
+Wed Jul 09 2025 15:45:25 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/admin/dailyInspiration/scheduled 400 - 24.152 ms
+Wed Jul 09 2025 15:45:44 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/admin/dailyInspiration/scheduled 400 - 4.391 ms

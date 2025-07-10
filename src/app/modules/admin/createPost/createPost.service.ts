@@ -2,17 +2,12 @@
 import { StatusCodes } from 'http-status-codes';
 import AppError from '../../../../errors/AppError';
 import QueryBuilder from '../../../builder/QueryBuilder';
-import { ICreatePost } from './creaetPost.interface';
-import { CreatePost } from './creaetPost.model';
-import config from '../../../../config';
+import { ICreatePost } from './createPost.interface';
+import { CreatePost } from './createPost.model';
 import { BunnyStorageHandeler } from '../../../../helpers/BunnyStorageHandeler';
 
 // Function to create a new "create post" entry
 const createPost = async (payload: ICreatePost) => {
-     const deleteAll = await CreatePost.deleteMany({});
-     if (!deleteAll) {
-          throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to delete all create post');
-     }
      const result = await CreatePost.create(payload);
      if (!result) {
           throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to create create post');
@@ -22,21 +17,22 @@ const createPost = async (payload: ICreatePost) => {
 
 // Function to fetch all "create post" entries, including pagination, filtering, and sorting
 const getAllPost = async (query: Record<string, unknown>) => {
-     const querBuilder = new QueryBuilder(CreatePost.find({}), query);
+     const queryBuilder = new QueryBuilder(CreatePost.find({}), query);
 
-     const result = await querBuilder.fields().sort().paginate().filter().search(['title', 'category', 'subCategory']).modelQuery; // Final query model
+     const result = await queryBuilder.fields().sort().paginate().filter().search(['title', 'category', 'subCategory']).modelQuery; // Final query model
 
-     const meta = await querBuilder.countTotal();
+     const meta = await queryBuilder.countTotal();
      return { result, meta };
 };
+
 const getAllPostForApp = async () => {
-     const psot = await CreatePost.find({});
-     if (!psot) {
+     const post = await CreatePost.find({ status: 'active' });
+     if (!post) {
           throw new AppError(StatusCodes.NOT_FOUND, 'create post not found');
      }
-
-     return psot;
+     return post;
 };
+
 const getPost = async (query: Record<string, unknown>) => {
      const querBuilder = new QueryBuilder(CreatePost.find({ status: 'active' }), query);
 
@@ -128,7 +124,7 @@ const deletePost = async (id: string) => {
      return result;
 };
 
-export const CreaetPostService = {
+export const CreatePostService = {
      createPost,
      getAllPost,
      getPostContentLetest,

@@ -3,10 +3,11 @@ import { User } from '../app/modules/user/user.model';
 import { emailHelper } from '../helpers/emailHelper';
 import { emailTemplate } from '../shared/emailTemplate';
 import { sendNotifications } from '../helpers/notificationsHelper';
-import { Notification } from '../app/modules/notification/notification.model';
 import { ScheduledNotification } from '../app/modules/scheduledNotification/scheduledNotification.model';
 import { NotificationStatus } from '../app/modules/scheduledNotification/scheduledNotification.interface';
 import { USER_ROLES } from '../enums/user';
+import { DailyInspiration } from '../app/modules/admin/dailyInspiration/dailyInspiration.model';
+import { CreatePost } from '../app/modules/admin/createPost/createPost.model';
 
 // ====== CRON JOB SCHEDULERS ======
 
@@ -269,7 +270,6 @@ const startNotificationScheduler = () => {
                               await Promise.all(notificationPromises);
                          }
                     }
-
                     // Mark scheduled notification as sent
                     scheduledNotification.status = NotificationStatus.SENT;
                     scheduledNotification.sentAt = new Date();
@@ -282,16 +282,71 @@ const startNotificationScheduler = () => {
           }
      });
 };
+const scheduleDailyInspiration = () => {
+     cron.schedule('* * * * *', async () => {
+          const now = new Date();
+
+          // Find pending notifications that should be activated
+          const pendingDailyInspiration = await DailyInspiration.find({
+               status: 'inactive',
+               publishAt: { $lte: now },
+          });
+
+          for (const dailyInspiration of pendingDailyInspiration) {
+               try {
+                    // Delete all active inspirations
+                    await DailyInspiration.deleteMany({ status: 'active' });
+
+                    // Update the current inspiration to 'active'
+                    if (dailyInspiration.publishAt) {
+                         await DailyInspiration.findByIdAndUpdate(dailyInspiration._id, {
+                              status: 'active',
+                         });
+                    }
+               } catch (error) {
+                    console.error('Error sending scheduled notification:', error);
+               }
+          }
+     });
+};
+const scheduleDailyPost = () => {
+     cron.schedule('* * * * *', async () => {
+          const now = new Date();
+
+          // Find pending posts that should be activated
+          const pendingPost = await CreatePost.find({
+               status: 'inactive',
+               publishAt: { $lte: now },
+          });
+
+          for (const createPost of pendingPost) {
+               try {
+                    // Optional: Deactivate all currently active posts
+                    await CreatePost.updateMany({ status: 'active' }, { status: 'inactive' });
+
+                    // Update the current post to 'active'
+                    if (createPost.publishAt) {
+                         await CreatePost.findByIdAndUpdate(createPost._id, {
+                              status: 'active',
+                         });
+                    }
+               } catch (error) {
+                    console.error('Error sending scheduled notification:', error);
+               }
+          }
+     });
+};
+
 const setupTrialManagement = () => {
      console.log('🚀 Setting up trial management cron jobs...');
-
      // Start all cron jobs
      scheduleTrialExpiryCheck(); // Every hour
      scheduleTrialWarningCheck(); // Daily at 9 AM
      scheduleEarlyWarningCheck(); // Daily at 10 AM
      startNotificationScheduler(); // Every minute
+     scheduleDailyInspiration(); // Every minute
+     scheduleDailyPost(); // Every minute
      console.log('✅ All trial management jobs scheduled');
-
      // Log initial statistics
      getTrialStatistics().then((stats) => {
           console.log('📊 Initial Trial Statistics:', stats);

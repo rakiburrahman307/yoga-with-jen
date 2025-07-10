@@ -24,12 +24,12 @@ const getSettings = catchAsync(async (req, res): Promise<void> => {
 });
 
 const getPrivacyPolicy = catchAsync(async (req, res): Promise<void> => {
-     const privacy = await settingsService.getPrivacyPolicy();
+     const result = await settingsService.getPrivacyPolicy();
      sendResponse(res, {
           statusCode: StatusCodes.OK,
           success: true,
           message: 'Privacy retrieved successfully',
-          data: privacy,
+          data: result,
      });
 });
 const getTermsOfService = catchAsync(async (req, res): Promise<void> => {
@@ -42,21 +42,21 @@ const getTermsOfService = catchAsync(async (req, res): Promise<void> => {
      });
 });
 const getSupport = catchAsync(async (req, res): Promise<void> => {
-     const privacy = await settingsService.getSupport();
+     const result = await settingsService.getSupport();
      sendResponse(res, {
           statusCode: StatusCodes.OK,
           success: true,
           message: 'Support retrieved successfully',
-          data: privacy,
+          data: result,
      });
 });
 const getAboutUs = catchAsync(async (req, res): Promise<void> => {
-     const privacy = await settingsService.getAboutUs();
+     const result = await settingsService.getAboutUs();
      sendResponse(res, {
           statusCode: StatusCodes.OK,
           success: true,
           message: 'AboutUs retrieved successfully',
-          data: privacy,
+          data: result,
      });
 });
 
