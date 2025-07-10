@@ -1,0 +1,57 @@
+Thu Jul 10 2025 15:0:20 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Jul 10 2025 15:0:20 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Jul 10 2025 15:0:20 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Jul 10 2025 15:0:20 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
+Thu Jul 10 2025 15:0:31 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/users/profile 204 - 1.016 ms
+Thu Jul 10 2025 15:0:31 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/category 204 - 0.136 ms
+Thu Jul 10 2025 15:0:31 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/users/profile 304 - 20.802 ms
+Thu Jul 10 2025 15:0:31 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/category 304 - 29.072 ms
+Thu Jul 10 2025 15:0:31 [SERVER-NAME] info: 10.10.7.104 - GET //thumbnail/woman-yoga-video-laptop-on-260nw-2518833075-1751798188490.jpg 304 - 1.251 ms
+Thu Jul 10 2025 15:0:31 [SERVER-NAME] info: 10.10.7.104 - GET //thumbnail/horizontal-portrait-beautiful-young-fit-260nw-2284458621-1751950921922.jpg 304 - 1.789 ms
+Thu Jul 10 2025 15:0:31 [SERVER-NAME] info: 10.10.7.104 - GET //thumbnail/three-women-dressed-activewear-sharing-260nw-2593071123-1751951710430.jpg 304 - 2.150 ms
+Thu Jul 10 2025 15:0:31 [SERVER-NAME] info: 10.10.7.104 - GET //image/diverse-yoga-class-executes-kneeling-260nw-2477087915-1752043653938.jpg 304 - 0.286 ms
+Thu Jul 10 2025 15:0:38 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/category/shuffle 204 - 0.140 ms
+Thu Jul 10 2025 15:0:38 [SERVER-NAME] info: 10.10.7.104 - POST /api/v1/admin/category/shuffle 200 - 17.585 ms
+Thu Jul 10 2025 15:0:38 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/category 204 - 0.073 ms
+Thu Jul 10 2025 15:0:38 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/category 304 - 7.293 ms
+Thu Jul 10 2025 15:0:38 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/category 304 - 5.615 ms
+Thu Jul 10 2025 15:0:44 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/users/profile 204 - 0.291 ms
+Thu Jul 10 2025 15:0:44 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/category 204 - 0.056 ms
+Thu Jul 10 2025 15:0:44 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/users/profile 304 - 6.481 ms
+Thu Jul 10 2025 15:0:44 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/category 304 - 9.343 ms
+Thu Jul 10 2025 15:0:44 [SERVER-NAME] info: 10.10.7.104 - GET //thumbnail/woman-yoga-video-laptop-on-260nw-2518833075-1751798188490.jpg 304 - 4.218 ms
+Thu Jul 10 2025 15:0:44 [SERVER-NAME] info: 10.10.7.104 - GET //thumbnail/horizontal-portrait-beautiful-young-fit-260nw-2284458621-1751950921922.jpg 304 - 2.554 ms
+Thu Jul 10 2025 15:0:44 [SERVER-NAME] info: 10.10.7.104 - GET //thumbnail/three-women-dressed-activewear-sharing-260nw-2593071123-1751951710430.jpg 304 - 2.660 ms
+Thu Jul 10 2025 15:0:44 [SERVER-NAME] info: 10.10.7.104 - GET //image/diverse-yoga-class-executes-kneeling-260nw-2477087915-1752043653938.jpg 304 - 0.699 ms
+Thu Jul 10 2025 15:0:59 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.259 ms
+Thu Jul 10 2025 15:0:59 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 304 - 22.032 ms
+Thu Jul 10 2025 15:47:53 [SERVER-NAME] info: 10.10.7.104 - GET //thumbnail/three-women-dressed-activewear-sharing-260nw-2593071123-1751951710430.jpg 304 - 2.559 ms
+Thu Jul 10 2025 15:47:53 [SERVER-NAME] info: 10.10.7.104 - GET //thumbnail/woman-yoga-video-laptop-on-260nw-2518833075-1751798188490.jpg 304 - 4.493 ms
+Thu Jul 10 2025 15:47:53 [SERVER-NAME] info: 10.10.7.104 - GET //thumbnail/horizontal-portrait-beautiful-young-fit-260nw-2284458621-1751950921922.jpg 304 - 4.058 ms
+Thu Jul 10 2025 15:48:13 [SERVER-NAME] info: 10.10.7.104 - POST /api/v1/admin/category/shuffle 200 - 25.457 ms
+Thu Jul 10 2025 15:48:17 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/category 204 - 0.149 ms
+Thu Jul 10 2025 15:48:17 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/users/profile 204 - 0.142 ms
+Thu Jul 10 2025 15:48:17 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/users/profile 304 - 7.979 ms
+Thu Jul 10 2025 15:48:17 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/category 200 - 18.727 ms
+Thu Jul 10 2025 15:48:18 [SERVER-NAME] info: 10.10.7.104 - GET //image/diverse-yoga-class-executes-kneeling-260nw-2477087915-1752043653938.jpg 304 - 0.364 ms
+Thu Jul 10 2025 15:48:18 [SERVER-NAME] info: 10.10.7.104 - GET //thumbnail/horizontal-portrait-beautiful-young-fit-260nw-2284458621-1751950921922.jpg 304 - 2.866 ms
+Thu Jul 10 2025 15:48:18 [SERVER-NAME] info: 10.10.7.104 - GET //thumbnail/woman-yoga-video-laptop-on-260nw-2518833075-1751798188490.jpg 304 - 0.897 ms
+Thu Jul 10 2025 15:48:18 [SERVER-NAME] info: 10.10.7.104 - GET //thumbnail/three-women-dressed-activewear-sharing-260nw-2593071123-1751951710430.jpg 304 - 1.217 ms
+Thu Jul 10 2025 15:48:45 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/category/shuffle 204 - 0.282 ms
+Thu Jul 10 2025 15:48:45 [SERVER-NAME] info: 10.10.7.104 - POST /api/v1/admin/category/shuffle 200 - 6.948 ms
+Thu Jul 10 2025 15:48:45 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/category 204 - 0.068 ms
+Thu Jul 10 2025 15:48:45 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/category 304 - 13.603 ms
+Thu Jul 10 2025 15:48:45 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/category 304 - 4.976 ms
+Thu Jul 10 2025 15:48:48 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/users/profile 204 - 0.082 ms
+Thu Jul 10 2025 15:48:48 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/users/profile 304 - 7.126 ms
+Thu Jul 10 2025 15:48:48 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/category 304 - 12.535 ms
+Thu Jul 10 2025 15:48:48 [SERVER-NAME] info: 10.10.7.104 - GET //thumbnail/horizontal-portrait-beautiful-young-fit-260nw-2284458621-1751950921922.jpg 304 - 1.145 ms
+Thu Jul 10 2025 15:48:48 [SERVER-NAME] info: 10.10.7.104 - GET //thumbnail/woman-yoga-video-laptop-on-260nw-2518833075-1751798188490.jpg 304 - 1.091 ms
+Thu Jul 10 2025 15:48:48 [SERVER-NAME] info: 10.10.7.104 - GET //thumbnail/three-women-dressed-activewear-sharing-260nw-2593071123-1751951710430.jpg 304 - 1.267 ms
+Thu Jul 10 2025 15:48:48 [SERVER-NAME] info: 10.10.7.104 - GET //image/diverse-yoga-class-executes-kneeling-260nw-2477087915-1752043653938.jpg 304 - 0.542 ms
+Thu Jul 10 2025 15:49:17 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Jul 10 2025 15:49:17 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Jul 10 2025 15:49:17 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Jul 10 2025 15:49:17 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
+Thu Jul 10 2025 15:53:21 [SERVER-NAME] info: 10.10.7.37 - OPTIONS /api/v1/users/profile 204 - 0.832 ms
+Thu Jul 10 2025 15:53:21 [SERVER-NAME] info: 10.10.7.37 - OPTIONS /api/v1/admin/push-notifications? 204 - 0.109 ms

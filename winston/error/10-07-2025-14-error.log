@@ -1,0 +1,2 @@
+Thu Jul 10 2025 14:21:11 [SERVER-NAME] error: 10.10.7.104 - PUT /api/v1/admin/category/update-order 400 - 23.604 ms
+Thu Jul 10 2025 14:51:52 [SERVER-NAME] error: 10.10.7.104 - POST /api/v1/admin/category/shuffle 400 - 10.878 ms

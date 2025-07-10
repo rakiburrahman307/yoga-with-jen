@@ -12,7 +12,6 @@ import { Challenge } from '../app/modules/admin/challanges/challanges.model';
 import { pickRandomChallenge } from '../app/modules/admin/challanges/challanges.service';
 
 // ====== CRON JOB SCHEDULERS ======
-
 // 1. Check for users expiring in 24 hours (send warning email)
 const scheduleTrialWarningCheck = () => {
      // Run every day at 9:00 AM '0 9 * * *'
@@ -61,7 +60,6 @@ const scheduleTrialWarningCheck = () => {
           }
      });
 };
-
 // 2. Check for expired trials every hour
 const scheduleTrialExpiryCheck = () => {
      // Run every hour '0 * * * *'
@@ -117,7 +115,6 @@ const scheduleTrialExpiryCheck = () => {
           }
      });
 };
-
 // 3. Check for users expiring in 3 days (early warning)
 const scheduleEarlyWarningCheck = () => {
      // Run every day at 10:00 AM '0 10 * * *'
@@ -166,9 +163,7 @@ const scheduleEarlyWarningCheck = () => {
           }
      });
 };
-
 // ====== UTILITY FUNCTIONS ======
-
 // Get trial statistics
 const getTrialStatistics = async () => {
      const now = new Date();

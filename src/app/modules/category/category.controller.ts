@@ -104,6 +104,15 @@ const getCategoriesAllVideos = catchAsync(async (req, res) => {
           message: 'Videos retrieved successfully',
           data: result,
      });
+});  
+const shuffleCategorySerial = catchAsync(async (req, res) => {
+     const result = await CategoryService.shuffleCategorySerial(req.body);
+     sendResponse(res, {
+          success: true,
+          statusCode: StatusCodes.OK,
+          message: 'Videos retrive successfully',
+          data: result,
+     });
 });
 export const CategoryController = {
      createCategory,
@@ -114,5 +123,6 @@ export const CategoryController = {
      getSingleCategory,
      getSubcategorisByCategoris,
      getVideosByCategory,
-     getCategoriesAllVideos
+     getCategoriesAllVideos,
+     shuffleCategorySerial
 };

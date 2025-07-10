@@ -198,7 +198,6 @@ const getSubCategoryDetails = async (id: string) => {
      return result;
 };
 const safhaleVideoSerial = async (videoOrder: Array<{ _id: string; serial: number }>) => {
-     console.log('Received video order:', videoOrder);
 
      // Validate input
      if (!videoOrder || !Array.isArray(videoOrder) || videoOrder.length === 0) {
@@ -211,26 +210,6 @@ const safhaleVideoSerial = async (videoOrder: Array<{ _id: string; serial: numbe
 
      const result = await Promise.all(updatePromises);
      return result;
-     // // Find all videos for the given subCategoryId
-     // const videos = await Video.find({ subCategoryId: id });
-     // if (videos.length === 0) return; // no videos, nothing to update
-     // console.log(videos);
-     // // Create an array of serial numbers
-     // const serials = videos.map((_, i) => i + 1);
-
-     // // Shuffle the serials array using Fisher-Yates shuffle
-     // for (let i = serials.length - 1; i > 0; i--) {
-     //      const j = Math.floor(Math.random() * (i + 1));
-     //      [serials[i], serials[j]] = [serials[j], serials[i]];
-     // }
-
-     // // Assign shuffled serials to videos
-     // const updates = videos.map((video, idx) => {
-     //      video.serial = serials[idx];
-     //      return video.save();
-     // });
-
-     // await Promise.all(updates);
 };
 
 export const CategoryService = {

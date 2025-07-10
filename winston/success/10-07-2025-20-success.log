@@ -1,0 +1,180 @@
+Thu Jul 10 2025 20:4:26 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/category/shuffle 204 - 0.264 ms
+Thu Jul 10 2025 20:4:26 [SERVER-NAME] info: 10.10.7.104 - POST /api/v1/admin/category/shuffle 200 - 19.364 ms
+Thu Jul 10 2025 20:4:36 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/category/shuffle 204 - 0.168 ms
+Thu Jul 10 2025 20:4:36 [SERVER-NAME] info: 10.10.7.104 - POST /api/v1/admin/category/shuffle 200 - 7.198 ms
+Thu Jul 10 2025 20:5:16 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/category/shuffle 204 - 0.163 ms
+Thu Jul 10 2025 20:5:16 [SERVER-NAME] info: 10.10.7.104 - POST /api/v1/admin/category/shuffle 200 - 5.992 ms
+Thu Jul 10 2025 20:5:53 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/category/shuffle 204 - 0.103 ms
+Thu Jul 10 2025 20:5:53 [SERVER-NAME] info: 10.10.7.104 - POST /api/v1/admin/category/shuffle 200 - 3.694 ms
+Thu Jul 10 2025 20:6:13 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/category/shuffle 204 - 0.050 ms
+Thu Jul 10 2025 20:6:13 [SERVER-NAME] info: 10.10.7.104 - POST /api/v1/admin/category/shuffle 200 - 4.526 ms
+Thu Jul 10 2025 20:10:14 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/users/profile 204 - 0.197 ms
+Thu Jul 10 2025 20:10:14 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/category/category-all-videos/686a51ac9382c57a0019bf60 204 - 0.067 ms
+Thu Jul 10 2025 20:10:14 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/category 204 - 0.077 ms
+Thu Jul 10 2025 20:10:14 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/videos/managment/videos? 204 - 0.227 ms
+Thu Jul 10 2025 20:10:14 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/users/profile 304 - 29.040 ms
+Thu Jul 10 2025 20:10:14 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/category 304 - 21.411 ms
+Thu Jul 10 2025 20:10:14 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/videos/managment/videos? 304 - 27.412 ms
+Thu Jul 10 2025 20:10:14 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/category/category-all-videos/686a51ac9382c57a0019bf60 304 - 29.002 ms
+Thu Jul 10 2025 20:10:15 [SERVER-NAME] info: 10.10.7.104 - GET //image/diverse-yoga-class-executes-kneeling-260nw-2477087915-1752043653938.jpg 304 - 0.690 ms
+Thu Jul 10 2025 20:11:23 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/users/profile 204 - 0.245 ms
+Thu Jul 10 2025 20:11:23 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/category/category-all-videos/686a51ac9382c57a0019bf60 204 - 0.109 ms
+Thu Jul 10 2025 20:11:23 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/category 204 - 0.244 ms
+Thu Jul 10 2025 20:11:23 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/videos/managment/videos? 204 - 0.213 ms
+Thu Jul 10 2025 20:11:23 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/users/profile 200 - 24.332 ms
+Thu Jul 10 2025 20:11:23 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/category 200 - 19.018 ms
+Thu Jul 10 2025 20:11:23 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/videos/managment/videos? 200 - 21.325 ms
+Thu Jul 10 2025 20:11:23 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/category/category-all-videos/686a51ac9382c57a0019bf60 200 - 26.722 ms
+Thu Jul 10 2025 20:11:23 [SERVER-NAME] info: 10.10.7.104 - GET //image/diverse-yoga-class-executes-kneeling-260nw-2477087915-1752043653938.jpg 200 - 8.982 ms
+Thu Jul 10 2025 20:11:29 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/videos/copy-video 204 - 0.205 ms
+Thu Jul 10 2025 20:11:29 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/category 204 - 0.038 ms
+Thu Jul 10 2025 20:11:29 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/category 304 - 4.850 ms
+Thu Jul 10 2025 20:11:44 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/users/profile 204 - 0.101 ms
+Thu Jul 10 2025 20:11:44 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/category/category-all-videos/686a51ac9382c57a0019bf60 204 - 0.054 ms
+Thu Jul 10 2025 20:11:44 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/category 204 - 0.058 ms
+Thu Jul 10 2025 20:11:44 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/videos/managment/videos? 204 - 0.033 ms
+Thu Jul 10 2025 20:11:44 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/users/profile 304 - 12.093 ms
+Thu Jul 10 2025 20:11:44 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/category 304 - 19.045 ms
+Thu Jul 10 2025 20:11:44 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/category/category-all-videos/686a51ac9382c57a0019bf60 304 - 25.242 ms
+Thu Jul 10 2025 20:11:44 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/videos/managment/videos? 304 - 19.261 ms
+Thu Jul 10 2025 20:11:44 [SERVER-NAME] info: 10.10.7.104 - GET //image/diverse-yoga-class-executes-kneeling-260nw-2477087915-1752043653938.jpg 304 - 0.717 ms
+Thu Jul 10 2025 20:11:56 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/videos/copy-video 204 - 0.292 ms
+Thu Jul 10 2025 20:11:56 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/category 204 - 0.040 ms
+Thu Jul 10 2025 20:11:56 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/category 304 - 4.909 ms
+Thu Jul 10 2025 20:12:26 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/videos/copy-video 204 - 0.417 ms
+Thu Jul 10 2025 20:12:26 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/category 204 - 0.048 ms
+Thu Jul 10 2025 20:12:26 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/category 304 - 5.080 ms
+Thu Jul 10 2025 20:18:8 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Jul 10 2025 20:18:8 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Jul 10 2025 20:18:8 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Jul 10 2025 20:18:8 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
+Thu Jul 10 2025 20:18:15 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Jul 10 2025 20:18:15 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Jul 10 2025 20:18:15 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Jul 10 2025 20:18:15 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
+Thu Jul 10 2025 20:18:58 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Jul 10 2025 20:18:58 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Jul 10 2025 20:18:58 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Jul 10 2025 20:18:58 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
+Thu Jul 10 2025 20:19:22 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Jul 10 2025 20:19:22 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Jul 10 2025 20:19:22 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Jul 10 2025 20:19:22 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
+Thu Jul 10 2025 20:19:25 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Jul 10 2025 20:19:25 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Jul 10 2025 20:19:25 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Jul 10 2025 20:19:25 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
+Thu Jul 10 2025 20:19:29 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/users/profile 204 - 2.055 ms
+Thu Jul 10 2025 20:19:29 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/category/category-all-videos/686a51ac9382c57a0019bf60 204 - 0.101 ms
+Thu Jul 10 2025 20:19:29 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/category 204 - 0.119 ms
+Thu Jul 10 2025 20:19:29 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/videos/managment/videos? 204 - 0.130 ms
+Thu Jul 10 2025 20:19:29 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/users/profile 304 - 33.286 ms
+Thu Jul 10 2025 20:19:29 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/category 304 - 40.521 ms
+Thu Jul 10 2025 20:19:29 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/videos/managment/videos? 304 - 45.351 ms
+Thu Jul 10 2025 20:19:29 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/category/category-all-videos/686a51ac9382c57a0019bf60 304 - 47.784 ms
+Thu Jul 10 2025 20:19:29 [SERVER-NAME] info: 10.10.7.104 - GET //image/diverse-yoga-class-executes-kneeling-260nw-2477087915-1752043653938.jpg 304 - 1.326 ms
+Thu Jul 10 2025 20:19:34 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/videos/copy-video 204 - 0.218 ms
+Thu Jul 10 2025 20:19:34 [SERVER-NAME] info: 10.10.7.104 - POST /api/v1/videos/copy-video 200 - 56.079 ms
+Thu Jul 10 2025 20:19:34 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/category 204 - 0.091 ms
+Thu Jul 10 2025 20:19:34 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/category 304 - 6.254 ms
+Thu Jul 10 2025 20:19:49 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/users/profile 204 - 0.091 ms
+Thu Jul 10 2025 20:19:49 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/category/category-all-videos/686a51ac9382c57a0019bf60 204 - 0.063 ms
+Thu Jul 10 2025 20:19:49 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/category 204 - 0.048 ms
+Thu Jul 10 2025 20:19:49 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/videos/managment/videos? 204 - 0.064 ms
+Thu Jul 10 2025 20:19:49 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/users/profile 304 - 21.507 ms
+Thu Jul 10 2025 20:19:49 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/category 304 - 28.840 ms
+Thu Jul 10 2025 20:19:49 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/category/category-all-videos/686a51ac9382c57a0019bf60 200 - 36.069 ms
+Thu Jul 10 2025 20:19:49 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/videos/managment/videos? 200 - 26.322 ms
+Thu Jul 10 2025 20:19:49 [SERVER-NAME] info: 10.10.7.104 - GET //image/diverse-yoga-class-executes-kneeling-260nw-2477087915-1752043653938.jpg 304 - 0.739 ms
+Thu Jul 10 2025 20:22:26 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.064 ms
+Thu Jul 10 2025 20:22:26 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 200 - 16.898 ms
+Thu Jul 10 2025 20:22:34 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/subcategory/686ca649314f6233882f0a74 204 - 0.113 ms
+Thu Jul 10 2025 20:22:34 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/subcategory/686ca649314f6233882f0a74 200 - 8.549 ms
+Thu Jul 10 2025 20:22:56 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/videos/managment/upload-video 204 - 0.258 ms
+Thu Jul 10 2025 20:23:13 [SERVER-NAME] info: 10.10.7.104 - POST /api/v1/admin/videos/managment/upload-video 200 - 17495.232 ms
+Thu Jul 10 2025 20:23:13 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.041 ms
+Thu Jul 10 2025 20:23:13 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 200 - 9.452 ms
+Thu Jul 10 2025 20:23:24 [SERVER-NAME] info: 10.10.7.104 - GET //thumbnail/horizontal-portrait-beautiful-young-fit-260nw-2284458621-1751950921922.jpg 200 - 4.790 ms
+Thu Jul 10 2025 20:23:24 [SERVER-NAME] info: 10.10.7.104 - GET //thumbnail/woman-yoga-video-laptop-on-260nw-2518833075-1751798188490.jpg 200 - 4.590 ms
+Thu Jul 10 2025 20:23:24 [SERVER-NAME] info: 10.10.7.104 - GET //thumbnail/three-women-dressed-activewear-sharing-260nw-2593071123-1751951710430.jpg 200 - 6.120 ms
+Thu Jul 10 2025 20:23:27 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/category/category-all-videos/686ca649314f6233882f0a74 204 - 0.294 ms
+Thu Jul 10 2025 20:23:27 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/videos/managment/videos? 204 - 0.037 ms
+Thu Jul 10 2025 20:23:27 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/category/category-all-videos/686ca649314f6233882f0a74 200 - 11.655 ms
+Thu Jul 10 2025 20:23:27 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/videos/managment/videos? 200 - 10.704 ms
+Thu Jul 10 2025 20:23:41 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/videos/copy-video 204 - 0.059 ms
+Thu Jul 10 2025 20:23:41 [SERVER-NAME] info: 10.10.7.104 - POST /api/v1/videos/copy-video 200 - 7.246 ms
+Thu Jul 10 2025 20:23:41 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/category 204 - 0.061 ms
+Thu Jul 10 2025 20:23:41 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/category 200 - 7.194 ms
+Thu Jul 10 2025 20:23:46 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/users/profile 204 - 0.254 ms
+Thu Jul 10 2025 20:23:46 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/category/category-all-videos/686ca649314f6233882f0a74 204 - 0.047 ms
+Thu Jul 10 2025 20:23:46 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/videos/managment/videos? 204 - 0.062 ms
+Thu Jul 10 2025 20:23:46 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/users/profile 304 - 12.605 ms
+Thu Jul 10 2025 20:23:46 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/category 304 - 16.954 ms
+Thu Jul 10 2025 20:23:46 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/videos/managment/videos? 200 - 19.469 ms
+Thu Jul 10 2025 20:23:46 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/category/category-all-videos/686ca649314f6233882f0a74 200 - 21.503 ms
+Thu Jul 10 2025 20:23:46 [SERVER-NAME] info: 10.10.7.104 - GET //image/diverse-yoga-class-executes-kneeling-260nw-2477087915-1752043653938.jpg 304 - 1.018 ms
+Thu Jul 10 2025 20:24:55 [SERVER-NAME] info: 10.10.7.37 - OPTIONS /api/v1/users/profile 204 - 0.140 ms
+Thu Jul 10 2025 20:24:55 [SERVER-NAME] info: 10.10.7.37 - OPTIONS /api/v1/admin/category 204 - 0.113 ms
+Thu Jul 10 2025 20:24:55 [SERVER-NAME] info: 10.10.7.37 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.093 ms
+Thu Jul 10 2025 20:24:55 [SERVER-NAME] info: 10.10.7.37 - GET /api/v1/users/profile 304 - 12.784 ms
+Thu Jul 10 2025 20:24:55 [SERVER-NAME] info: 10.10.7.37 - GET /api/v1/admin/category 200 - 18.301 ms
+Thu Jul 10 2025 20:24:55 [SERVER-NAME] info: 10.10.7.37 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 200 - 21.865 ms
+Thu Jul 10 2025 20:24:55 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/users/profile 204 - 0.071 ms
+Thu Jul 10 2025 20:24:55 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/category/category-all-videos/686ca649314f6233882f0a74 204 - 0.043 ms
+Thu Jul 10 2025 20:24:55 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/category 204 - 0.032 ms
+Thu Jul 10 2025 20:24:55 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/videos/managment/videos? 204 - 0.047 ms
+Thu Jul 10 2025 20:24:55 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/users/profile 304 - 9.973 ms
+Thu Jul 10 2025 20:24:55 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/category 304 - 17.959 ms
+Thu Jul 10 2025 20:24:55 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/category/category-all-videos/686ca649314f6233882f0a74 304 - 23.626 ms
+Thu Jul 10 2025 20:24:55 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/videos/managment/videos? 304 - 22.213 ms
+Thu Jul 10 2025 20:24:56 [SERVER-NAME] info: 10.10.7.104 - GET //image/diverse-yoga-class-executes-kneeling-260nw-2477087915-1752043653938.jpg 304 - 1.738 ms
+Thu Jul 10 2025 20:25:6 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/videos/copy-video 204 - 0.110 ms
+Thu Jul 10 2025 20:25:6 [SERVER-NAME] info: 10.10.7.104 - POST /api/v1/videos/copy-video 200 - 10.521 ms
+Thu Jul 10 2025 20:25:6 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/category 204 - 0.067 ms
+Thu Jul 10 2025 20:25:6 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/category/category-all-videos/686ca649314f6233882f0a74 204 - 0.096 ms
+Thu Jul 10 2025 20:25:6 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/category 304 - 16.480 ms
+Thu Jul 10 2025 20:25:6 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/category/category-all-videos/686ca649314f6233882f0a74 200 - 20.398 ms
+Thu Jul 10 2025 20:25:11 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/users/profile 204 - 0.239 ms
+Thu Jul 10 2025 20:25:11 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/videos/managment/videos? 204 - 0.103 ms
+Thu Jul 10 2025 20:25:11 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/users/profile 304 - 14.091 ms
+Thu Jul 10 2025 20:25:11 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/category 304 - 23.502 ms
+Thu Jul 10 2025 20:25:11 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/videos/managment/videos? 200 - 22.296 ms
+Thu Jul 10 2025 20:25:11 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/category/category-all-videos/686ca649314f6233882f0a74 304 - 24.701 ms
+Thu Jul 10 2025 20:25:11 [SERVER-NAME] info: 10.10.7.104 - GET //image/diverse-yoga-class-executes-kneeling-260nw-2477087915-1752043653938.jpg 304 - 1.303 ms
+Thu Jul 10 2025 20:25:12 [SERVER-NAME] info: 10.10.7.104 - GET //thumbnail/horizontal-portrait-beautiful-young-fit-260nw-2284458621-1751950921922.jpg 304 - 5.003 ms
+Thu Jul 10 2025 20:25:12 [SERVER-NAME] info: 10.10.7.104 - GET //thumbnail/three-women-dressed-activewear-sharing-260nw-2593071123-1751951710430.jpg 304 - 2.337 ms
+Thu Jul 10 2025 20:25:12 [SERVER-NAME] info: 10.10.7.104 - GET //thumbnail/woman-yoga-video-laptop-on-260nw-2518833075-1751798188490.jpg 304 - 2.306 ms
+Thu Jul 10 2025 20:25:18 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/category/category-all-videos/686ca95ea0e2ddeaaaebb1c4 204 - 0.070 ms
+Thu Jul 10 2025 20:25:18 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/category/category-all-videos/686ca95ea0e2ddeaaaebb1c4 200 - 13.347 ms
+Thu Jul 10 2025 20:25:22 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/videos/copy-video 204 - 0.123 ms
+Thu Jul 10 2025 20:25:22 [SERVER-NAME] info: 10.10.7.104 - POST /api/v1/videos/copy-video 200 - 8.771 ms
+Thu Jul 10 2025 20:25:22 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/category 204 - 0.051 ms
+Thu Jul 10 2025 20:25:22 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/category 304 - 8.545 ms
+Thu Jul 10 2025 20:25:22 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/category/category-all-videos/686ca95ea0e2ddeaaaebb1c4 200 - 12.174 ms
+Thu Jul 10 2025 20:25:34 [SERVER-NAME] info: 10.10.7.104 - GET //thumbnail/horizontal-portrait-beautiful-young-fit-260nw-2284458621-1751950921922.jpg 304 - 0.591 ms
+Thu Jul 10 2025 20:25:34 [SERVER-NAME] info: 10.10.7.104 - GET //thumbnail/three-women-dressed-activewear-sharing-260nw-2593071123-1751951710430.jpg 304 - 0.957 ms
+Thu Jul 10 2025 20:25:34 [SERVER-NAME] info: 10.10.7.104 - GET //thumbnail/woman-yoga-video-laptop-on-260nw-2518833075-1751798188490.jpg 304 - 1.206 ms
+Thu Jul 10 2025 20:27:54 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Jul 10 2025 20:27:54 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Jul 10 2025 20:27:54 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Jul 10 2025 20:27:54 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
+Thu Jul 10 2025 20:28:16 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Jul 10 2025 20:28:16 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Jul 10 2025 20:28:16 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Jul 10 2025 20:28:16 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
+Thu Jul 10 2025 20:28:25 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Jul 10 2025 20:28:25 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Jul 10 2025 20:28:25 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Jul 10 2025 20:28:25 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
+Thu Jul 10 2025 20:28:29 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Jul 10 2025 20:28:29 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Jul 10 2025 20:28:29 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Jul 10 2025 20:28:29 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
+Thu Jul 10 2025 20:28:31 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Jul 10 2025 20:28:31 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Jul 10 2025 20:28:31 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Jul 10 2025 20:28:31 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
+Thu Jul 10 2025 20:28:34 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Jul 10 2025 20:28:34 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Jul 10 2025 20:28:34 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Jul 10 2025 20:28:34 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m

@@ -35,7 +35,7 @@ const createCategoryToDB = async (payload: ICategory) => {
 };
 // get c  ategorys
 const getCategoriesFromDB = async (query: Record<string, unknown>) => {
-     const queryBuilder = new QueryBuilder(Category.find({}), query);
+     const queryBuilder = new QueryBuilder(Category.find().sort({ serial: 1 }), query);
      const categorys = await queryBuilder
           .fields()
           .filter()
@@ -178,30 +178,24 @@ const getCategoriesAllVideos = async (id: string, userId: string, query: Record<
      if (!isExistCategory) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Category not found');
      }
-     
+
      // Get subcategory IDs for filtering
      const subCategoryIds = isExistCategory.subCategory.map((sub: any) => sub._id);
-     
+
      // Get videos for this category (both direct category videos and subcategory videos)
      const queryBuilder = new QueryBuilder(
-          Video.find({ 
+          Video.find({
                categoryId: isExistCategory._id,
                $or: [
                     { subCategoryId: '' }, // Direct category videos
-                    { subCategoryId: { $in: subCategoryIds } } // Subcategory videos
-               ]
-          }), 
-          query
+                    { subCategoryId: { $in: subCategoryIds } }, // Subcategory videos
+               ],
+          }),
+          query,
      );
-     
-     const result = await queryBuilder
-          .fields()
-          .filter()
-          .paginate()
-          .search(['name'])
-          .sort()
-          .modelQuery.exec();
-          
+
+     const result = await queryBuilder.fields().filter().paginate().search(['name']).sort().modelQuery.exec();
+
      const meta = await queryBuilder.countTotal();
 
      // Add favorite status to videos
@@ -220,6 +214,20 @@ const getCategoriesAllVideos = async (id: string, userId: string, query: Record<
           meta,
      };
 };
+
+const shuffleCategorySerial = async (categoryOrder: Array<{ _id: string; serial: number }>) => {
+     // Validate input
+     if (!categoryOrder || !Array.isArray(categoryOrder) || categoryOrder.length === 0) {
+          console.log('No category order data provided.');
+          return;
+     }
+
+     // Update each video's serial number
+     const updatePromises = categoryOrder.map((item) => Category.findByIdAndUpdate(item._id, { serial: item.serial }, { new: true }));
+
+     const result = await Promise.all(updatePromises);
+     return result;
+};
 export const CategoryService = {
      createCategoryToDB,
      getCategoriesFromDB,
@@ -229,5 +237,6 @@ export const CategoryService = {
      getSingleCategoryFromDB,
      getSubcategoryWithCategoryIdFromDB,
      getCategoryRelatedSubCategory,
-     getCategoriesAllVideos
+     getCategoriesAllVideos,
+     shuffleCategorySerial,
 };

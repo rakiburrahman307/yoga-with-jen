@@ -16,6 +16,7 @@ router.put('/video-status/:id', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), 
 router.delete('/video-delete/:id', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), videoManagementController.removeVideos);
 router.post('/mark-video-watched/:videoId', auth(USER_ROLES.USER), videoManagementController.markVideoAsCompleted);
 router.get('/get-all-videos-by-course/:subCategoryId', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), videoManagementController.getAllVideosByCourse);
+router.post('/copy-video', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), videoManagementController.copyVideo);
 // POST /videos/:videoId/comments
 
 export const videoManagementRoute = router;

@@ -8,7 +8,7 @@ const getAllVideos = catchAsync(async (req, res) => {
      sendResponse(res, {
           success: true,
           statusCode: StatusCodes.OK,
-          message: 'Videos retrived successfuly',
+          message: 'Videos retrieved successfully',
           data: result.videos,
           pagination: result.meta,
      });
@@ -18,7 +18,7 @@ const getAllVideosByCourse = catchAsync(async (req, res) => {
      sendResponse(res, {
           success: true,
           statusCode: StatusCodes.OK,
-          message: 'Videos retrived successfuly',
+          message: 'Videos retrieved successfully',
           data: result.videos,
           pagination: result.meta,
      });
@@ -30,18 +30,17 @@ const getSingleVideo = catchAsync(async (req, res) => {
      sendResponse(res, {
           success: true,
           statusCode: StatusCodes.OK,
-          message: 'Videos retrived successfuly',
+          message: 'Videos retrieved successfully',
           data: result,
      });
 });
 // get all videos
 const getSingleVideoForAdmin = catchAsync(async (req, res) => {
-     const { id }: any = req.user;
-     const result = await videoManagementService.getSingleVideoForAdmin(req.params.id, id);
+     const result = await videoManagementService.getSingleVideoForAdmin(req.params.id);
      sendResponse(res, {
           success: true,
           statusCode: StatusCodes.OK,
-          message: 'Videos retrived successfuly',
+          message: 'Videos retrieved successfully',
           data: result,
      });
 });
@@ -51,7 +50,7 @@ const addVideos = catchAsync(async (req, res) => {
      sendResponse(res, {
           success: true,
           statusCode: StatusCodes.OK,
-          message: 'Video uploaded successfuly',
+          message: 'Video uploaded successfully',
           data: result,
      });
 });
@@ -62,7 +61,7 @@ const updateVideos = catchAsync(async (req, res) => {
      sendResponse(res, {
           success: true,
           statusCode: StatusCodes.OK,
-          message: 'Videos updated successfuly',
+          message: 'Videos updated successfully',
           data: result,
      });
 });
@@ -74,7 +73,7 @@ const statusChange = catchAsync(async (req, res) => {
      sendResponse(res, {
           success: true,
           statusCode: StatusCodes.OK,
-          message: 'Videos status changes successfuly',
+          message: 'Videos status changes successfully',
      });
 });
 const removeVideos = catchAsync(async (req, res) => {
@@ -83,7 +82,7 @@ const removeVideos = catchAsync(async (req, res) => {
      sendResponse(res, {
           success: true,
           statusCode: StatusCodes.OK,
-          message: 'Videos deleted successfuly',
+          message: 'Videos deleted successfully',
      });
 });
 const markVideoAsCompleted = catchAsync(async (req, res) => {
@@ -97,7 +96,16 @@ const markVideoAsCompleted = catchAsync(async (req, res) => {
           data: result,
      });
 });
-
+const copyVideo = catchAsync(async (req, res) => {
+     const { videoId, categoryId } = req.body;
+     const result = await videoManagementService.copyVideo(videoId, categoryId);
+     sendResponse(res, {
+          success: true,
+          statusCode: StatusCodes.OK,
+          message: 'Video copy successfully',
+          data: result,
+     });
+});
 export const videoManagementController = {
      getAllVideos,
      addVideos,
@@ -108,4 +116,5 @@ export const videoManagementController = {
      getSingleVideoForAdmin,
      markVideoAsCompleted,
      getAllVideosByCourse,
+     copyVideo,
 };

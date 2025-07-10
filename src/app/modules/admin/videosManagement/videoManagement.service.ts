@@ -135,17 +135,20 @@ const removeVideo = async (id: string) => {
                throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Error deleting video from BunnyCDN');
           }
      }
-
-     // Decrease video count in category
-     await Category.findByIdAndUpdate(isExistVideo.categoryId, {
-          $inc: { videoCount: -1 },
-     });
-
-     // Also decrease count in subcategory if video belongs to one
-     if (isExistVideo.subCategoryId) {
-          await SubCategory.findByIdAndUpdate(isExistVideo.subCategoryId, {
+     try {
+          // Decrease video count in category
+          await Category.findByIdAndUpdate(isExistVideo.categoryId, {
                $inc: { videoCount: -1 },
           });
+
+          // Also decrease count in subcategory if video belongs to one
+          if (isExistVideo.subCategoryId) {
+               await SubCategory.findByIdAndUpdate(isExistVideo.subCategoryId, {
+                    $inc: { videoCount: -1 },
+               });
+          }
+     } catch (error) {
+          console.log('Error in decrease video count in category', error);
      }
 
      // Delete the video
@@ -304,7 +307,54 @@ const markVideoAsCompleted = async (userId: string, videoId: string) => {
           throw error;
      }
 };
+const copyVideo = async (videoId: string, categoryId: string) => {
+     // Fetch the original video by ID
+     const video = await Video.findById(videoId);
+     if (!video) {
+          throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
+     }
 
+     let categoryName = '';
+     // If a categoryId is provided, fetch the category
+     if (categoryId) {
+          const category = await Category.findById(categoryId);
+          if (!category) {
+               throw new AppError(StatusCodes.NOT_FOUND, 'Category not found');
+          }
+          categoryName = category.name; // Assuming the category has a 'name' field
+     }
+
+     // Create a new video object based on the original video
+     const videoData = video.toObject();
+
+     // Remove _id and __v fields to avoid duplicate key errors
+     const { _id, __v, ...videoDataWithoutId } = videoData;
+
+     const newVideo = new Video({
+          ...videoDataWithoutId,
+          categoryId,
+          category: categoryName, // Set the category name
+     });
+     try {
+          // Decrease video count in category
+          await Category.findByIdAndUpdate(categoryId, {
+               $inc: { videoCount: 1 },
+          });
+
+          // // Also decrease count in subcategory if video belongs to one
+          // if (isExistVideo.subCategoryId) {
+          //      await SubCategory.findByIdAndUpdate(isExistVideo.subCategoryId, {
+          //           $inc: { videoCount: -1 },
+          //      });
+          // }
+     } catch (error) {
+          console.log('Error in decrease video count in category', error);
+     }
+
+     // Save the new video to the database
+     await newVideo.save();
+     return newVideo;
+};
 export const videoManagementService = {
      getVideos,
      addVideo,
@@ -315,4 +365,5 @@ export const videoManagementService = {
      markVideoAsCompleted,
      getSingleVideoForAdmin,
      getVideosByCourse,
+     copyVideo,
 };

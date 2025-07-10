@@ -7,6 +7,7 @@ export interface ISubCategory {
 
 export interface ICategory {
      name: string;
+     serial: number;
      thumbnail: string;
      subCategory: ISubCategory[] | [];
      videoCount: number;

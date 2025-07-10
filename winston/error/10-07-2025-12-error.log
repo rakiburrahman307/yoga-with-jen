@@ -1,0 +1,7 @@
+Thu Jul 10 2025 12:38:41 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/admin/dailyInspiration/scheduled 400 - 17.960 ms
+Thu Jul 10 2025 12:41:1 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/admin/dailyInspiration/scheduled 400 - 27.039 ms
+Thu Jul 10 2025 12:54:2 [SERVER-NAME] error: 10.10.7.37 - GET /api/v1/admin/dailyInspiration/scheduled 400 - 6.971 ms
+Thu Jul 10 2025 12:57:3 [SERVER-NAME] error: 10.10.7.104 - PUT /api/v1/admin/category/update-order 400 - 25.731 ms
+Thu Jul 10 2025 12:57:59 [SERVER-NAME] error: 10.10.7.37 - POST /api/v1/auth/login 400 - 243.245 ms
+Thu Jul 10 2025 12:58:27 [SERVER-NAME] error: 10.10.7.37 - GET /api/v1/admin/comingSoon 403 - 4.099 ms
+Thu Jul 10 2025 12:58:31 [SERVER-NAME] error: 10.10.7.37 - GET /api/v1/admin/dailyInspiration/scheduled 400 - 5.391 ms
