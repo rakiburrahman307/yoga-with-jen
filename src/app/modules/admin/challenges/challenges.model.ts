@@ -10,7 +10,7 @@ const VideoSchema = new Schema<IChallenge>(
           thumbnailUrl: { type: String, default: '' },
           videoUrl: { type: String, default: '' },
           description: { type: String, required: true },
-          publishAt: { type: Date, default: Date.now },
+          publishAt: { type: Date},
           status: { type: String, enum: ['active', 'inactive'], default: 'active' },
      },
      { timestamps: true },
