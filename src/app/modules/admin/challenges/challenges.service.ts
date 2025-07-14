@@ -41,6 +41,7 @@ const createChallengeForSchedule = async (payload: { publishAt: string; videoId:
           thumbnailUrl: isExistVideo.thumbnailUrl,
           videoUrl: isExistVideo.videoUrl,
           description: isExistVideo.description,
+          status: 'inactive',
           publishAt,
      };
      // Create the new post

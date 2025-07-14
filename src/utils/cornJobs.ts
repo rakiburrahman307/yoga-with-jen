@@ -8,8 +8,7 @@ import { NotificationStatus } from '../app/modules/scheduledNotification/schedul
 import { USER_ROLES } from '../enums/user';
 import { DailyInspiration } from '../app/modules/admin/dailyInspiration/dailyInspiration.model';
 import { CreatePost } from '../app/modules/admin/createPost/createPost.model';
-import { Challenge } from '../app/modules/admin/challenges/challenges.model';
-import { pickRandomChallenge } from '../app/modules/admin/challenges/challenges.service';
+import { ChallengeVideo } from '../app/modules/admin/challenges/challenges.model';
 
 // ====== CRON JOB SCHEDULERS ======
 // 1. Check for users expiring in 24 hours (send warning email)
@@ -338,7 +337,7 @@ const scheduleDailyChallenge = () => {
           const now = new Date();
 
           // Find pending posts that should be activated
-          const pendingChallenge = await Challenge.find({
+          const pendingChallenge = await ChallengeVideo.find({
                status: 'inactive',
                publishAt: { $lte: now },
           });
@@ -347,7 +346,7 @@ const scheduleDailyChallenge = () => {
                try {
                     // Update the current post to 'active'
                     if (challenge.publishAt) {
-                         await Challenge.findByIdAndUpdate(challenge._id, {
+                         await ChallengeVideo.findByIdAndUpdate(challenge._id, {
                               status: 'active',
                          });
                     }
@@ -355,11 +354,6 @@ const scheduleDailyChallenge = () => {
                     console.error('Error sending scheduled notification:', error);
                }
           }
-     });
-};
-const pickRandom = () => {
-     cron.schedule('0 0 * * *', async () => {
-          await pickRandomChallenge();
      });
 };
 
@@ -373,7 +367,6 @@ const setupTrialManagement = () => {
      scheduleDailyInspiration(); // Every minute
      scheduleDailyPost(); // Every minute
      scheduleDailyChallenge(); // Every minute
-     pickRandom(); // Every minute
      console.log('✅ All trial management jobs scheduled');
      // Log initial statistics
      getTrialStatistics().then((stats) => {
