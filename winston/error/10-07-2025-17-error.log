@@ -1,3 +1,0 @@
-Thu Jul 10 2025 17:8:37 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/admin/dailyInspiration/scheduled 400 - 7.766 ms
-Thu Jul 10 2025 17:9:33 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/admin/dailyInspiration/scheduled 400 - 3.713 ms
-Thu Jul 10 2025 17:57:59 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/admin/dailyInspiration/scheduled 400 - 12.527 ms

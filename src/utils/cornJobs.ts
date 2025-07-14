@@ -8,8 +8,8 @@ import { NotificationStatus } from '../app/modules/scheduledNotification/schedul
 import { USER_ROLES } from '../enums/user';
 import { DailyInspiration } from '../app/modules/admin/dailyInspiration/dailyInspiration.model';
 import { CreatePost } from '../app/modules/admin/createPost/createPost.model';
-import { Challenge } from '../app/modules/admin/challanges/challanges.model';
-import { pickRandomChallenge } from '../app/modules/admin/challanges/challanges.service';
+import { Challenge } from '../app/modules/admin/challenges/challenges.model';
+import { pickRandomChallenge } from '../app/modules/admin/challenges/challenges.service';
 
 // ====== CRON JOB SCHEDULERS ======
 // 1. Check for users expiring in 24 hours (send warning email)

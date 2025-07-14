@@ -1,0 +1,6 @@
+Sat Jul 12 2025 8:56:1 [SERVER-NAME] error: 10.10.7.37 - GET /api/v1/admin/challenge/create-challenge-category 403 - 22.436 ms
+Sat Jul 12 2025 8:56:31 [SERVER-NAME] error: 10.10.7.37 - POST /api/v1/admin/challenge/create-challenge-category 400 - 6.085 ms
+Sat Jul 12 2025 8:58:8 [SERVER-NAME] error: 10.10.7.37 - POST /api/v1/admin/challenge/create-challenge-category 400 - 16.482 ms
+Sat Jul 12 2025 8:58:55 [SERVER-NAME] error: 10.10.7.37 - GET /api/v1/admin/challenge/get-all-challenge-category 400 - 5.928 ms
+Sat Jul 12 2025 8:59:9 [SERVER-NAME] error: 10.10.7.37 - GET /api/v1/admin/challenge/get-all-challenge-category 400 - 3.680 ms
+Sat Jul 12 2025 8:59:22 [SERVER-NAME] error: 10.10.7.37 - GET /api/v1/admin/challenge/get-all-challenge-category 400 - 12.908 ms

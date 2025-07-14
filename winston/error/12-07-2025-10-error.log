@@ -1,0 +1,10 @@
+Sat Jul 12 2025 10:18:15 [SERVER-NAME] error: 10.10.7.37 - GET /api/v1/admin/challenge-category/get-all-challenge-category 400 - 4.867 ms
+Sat Jul 12 2025 10:19:18 [SERVER-NAME] error: 10.10.7.37 - GET /api/v1/admin/challenge-category/get-all-challenge-category 400 - 3.241 ms
+Sat Jul 12 2025 10:35:38 [SERVER-NAME] error: 10.10.7.37 - POST /api/v1/admin/challenge/create 400 - 25446.531 ms
+Sat Jul 12 2025 10:36:55 [SERVER-NAME] error: 10.10.7.37 - POST /api/v1/admin/challenge/create 400 - 6576.649 ms
+Sat Jul 12 2025 10:39:47 [SERVER-NAME] error: 10.10.7.37 - POST /api/v1/admin/challenge-category/create-challenge-category 400 - 25.413 ms
+Sat Jul 12 2025 10:55:45 [SERVER-NAME] error: 10.10.7.104 - GET //image/yoga-workout-people-studio-class-260nw-2535975187-1752205072093.jpg 404 - 1.059 ms
+Sat Jul 12 2025 10:56:10 [SERVER-NAME] error: 10.10.7.104 - POST /api/v1/admin/challenge-category/create-challenge-category 400 - 24.919 ms
+Sat Jul 12 2025 10:58:8 [SERVER-NAME] error: 10.10.7.104 - POST /api/v1/admin/challenge-category/create-challenge-category 400 - 4.421 ms
+Sat Jul 12 2025 10:58:15 [SERVER-NAME] error: 10.10.7.104 - GET //image/yoga-workout-people-studio-class-260nw-2535975187-1752205072093.jpg 404 - 1.106 ms
+Sat Jul 12 2025 10:58:38 [SERVER-NAME] error: 10.10.7.104 - POST /api/v1/admin/challenge-category/create-challenge-category 400 - 4.196 ms

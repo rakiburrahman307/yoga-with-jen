@@ -1,0 +1,139 @@
+Sat Jul 12 2025 15:2:17 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/challenge-category/get-all-challenge-category 204 - 0.994 ms
+Sat Jul 12 2025 15:2:17 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/challenge-category/get-all-challenge-category 304 - 10.461 ms
+Sat Jul 12 2025 15:2:17 [SERVER-NAME] info: 10.10.7.104 - GET //image/class-meditation-hands-woman-nature-260nw-2603763821-1752299564654.jpg 304 - 4.766 ms
+Sat Jul 12 2025 15:2:17 [SERVER-NAME] info: 10.10.7.104 - GET //image/three-women-dressed-activewear-sharing-260nw-2593071123-1752309346181.jpg 304 - 3.818 ms
+Sat Jul 12 2025 15:2:17 [SERVER-NAME] info: 10.10.7.104 - GET //image/horizontal-portrait-beautiful-young-fit-260nw-2284458621-1752296446830.jpg 304 - 3.713 ms
+Sat Jul 12 2025 15:2:17 [SERVER-NAME] info: 10.10.7.104 - GET //image/markus-winkler-n-e0xnngc-q-unsplash-1752295210196.jpg 304 - 3.446 ms
+Sat Jul 12 2025 15:2:17 [SERVER-NAME] info: 10.10.7.104 - GET //image/markus-winkler-n-e0xnngc-q-unsplash-1752290243331.jpg 304 - 3.225 ms
+Sat Jul 12 2025 15:2:22 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/challenge-category/delete-challenge-category/6871cf4d4d5fa8be407a75d8 204 - 0.102 ms
+Sat Jul 12 2025 15:2:22 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/challenge-category/get-all-challenge-category 204 - 0.052 ms
+Sat Jul 12 2025 15:2:22 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/challenge-category/get-all-challenge-category 304 - 6.154 ms
+Sat Jul 12 2025 15:3:48 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jul 12 2025 15:3:49 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jul 12 2025 15:3:49 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sat Jul 12 2025 15:3:49 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
+Sat Jul 12 2025 15:4:14 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jul 12 2025 15:4:14 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jul 12 2025 15:4:14 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sat Jul 12 2025 15:4:14 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
+Sat Jul 12 2025 15:4:29 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jul 12 2025 15:4:29 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jul 12 2025 15:4:29 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sat Jul 12 2025 15:4:29 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
+Sat Jul 12 2025 15:4:50 [SERVER-NAME] info: 10.10.7.104 - DELETE /api/v1/admin/challenge-category/delete-challenge-category/6871cf4d4d5fa8be407a75d8 200 - 18.442 ms
+Sat Jul 12 2025 15:4:59 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/users/profile 204 - 0.511 ms
+Sat Jul 12 2025 15:4:59 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/videos/managment/videos? 204 - 0.114 ms
+Sat Jul 12 2025 15:4:59 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/challenge-category/get-all-challenge-category 204 - 0.064 ms
+Sat Jul 12 2025 15:4:59 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/users/profile 304 - 9.725 ms
+Sat Jul 12 2025 15:4:59 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/challenge-category/get-all-challenge-category 200 - 31.011 ms
+Sat Jul 12 2025 15:4:59 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/videos/managment/videos? 304 - 35.242 ms
+Sat Jul 12 2025 15:4:59 [SERVER-NAME] info: 10.10.7.104 - GET //image/class-meditation-hands-woman-nature-260nw-2603763821-1752299564654.jpg 304 - 3.321 ms
+Sat Jul 12 2025 15:4:59 [SERVER-NAME] info: 10.10.7.104 - GET //image/horizontal-portrait-beautiful-young-fit-260nw-2284458621-1752296446830.jpg 304 - 2.315 ms
+Sat Jul 12 2025 15:4:59 [SERVER-NAME] info: 10.10.7.104 - GET //image/three-women-dressed-activewear-sharing-260nw-2593071123-1752309346181.jpg 304 - 2.075 ms
+Sat Jul 12 2025 15:4:59 [SERVER-NAME] info: 10.10.7.104 - GET //image/markus-winkler-n-e0xnngc-q-unsplash-1752295210196.jpg 304 - 0.273 ms
+Sat Jul 12 2025 15:5:8 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/challenge-category/delete-challenge-category/6871e72a3e210a79fe1e17f9 204 - 0.182 ms
+Sat Jul 12 2025 15:5:8 [SERVER-NAME] info: 10.10.7.104 - DELETE /api/v1/admin/challenge-category/delete-challenge-category/6871e72a3e210a79fe1e17f9 200 - 7.797 ms
+Sat Jul 12 2025 15:5:8 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/challenge-category/get-all-challenge-category 204 - 0.105 ms
+Sat Jul 12 2025 15:5:8 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/challenge-category/get-all-challenge-category 200 - 12.043 ms
+Sat Jul 12 2025 15:5:19 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/challenge/[object%20Object],[object%20Object] 204 - 0.113 ms
+Sat Jul 12 2025 15:10:33 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/category 204 - 0.161 ms
+Sat Jul 12 2025 15:10:33 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/category 304 - 13.021 ms
+Sat Jul 12 2025 15:10:33 [SERVER-NAME] info: 10.10.7.104 - GET //thumbnail/class-meditation-hands-woman-nature-260nw-2603763821-1752291385710.jpg 304 - 3.970 ms
+Sat Jul 12 2025 15:10:33 [SERVER-NAME] info: 10.10.7.104 - GET //thumbnail/yoga-workout-people-studio-class-260nw-2535975187-1752212019755.jpg 304 - 1.316 ms
+Sat Jul 12 2025 15:10:33 [SERVER-NAME] info: 10.10.7.104 - GET //thumbnail/woman-yoga-video-laptop-on-260nw-2518833075-1751798188490.jpg 304 - 1.603 ms
+Sat Jul 12 2025 15:10:35 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/category/category-all-videos/6871d839383acdb5d5af70fd 204 - 0.244 ms
+Sat Jul 12 2025 15:10:35 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/category/category-all-videos/6871d839383acdb5d5af70fd 200 - 10.273 ms
+Sat Jul 12 2025 15:10:45 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/dailyInspiration 204 - 0.306 ms
+Sat Jul 12 2025 15:10:45 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/dailyInspiration/scheduled 204 - 0.081 ms
+Sat Jul 12 2025 15:10:45 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/dailyInspiration 304 - 11.504 ms
+Sat Jul 12 2025 15:10:49 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/challenge-category/get-all-challenge-category 204 - 0.191 ms
+Sat Jul 12 2025 15:10:49 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/challenge-category/get-all-challenge-category 304 - 7.771 ms
+Sat Jul 12 2025 15:10:49 [SERVER-NAME] info: 10.10.7.104 - GET //image/class-meditation-hands-woman-nature-260nw-2603763821-1752299564654.jpg 304 - 1.289 ms
+Sat Jul 12 2025 15:10:49 [SERVER-NAME] info: 10.10.7.104 - GET //image/three-women-dressed-activewear-sharing-260nw-2593071123-1752309346181.jpg 304 - 1.554 ms
+Sat Jul 12 2025 15:10:49 [SERVER-NAME] info: 10.10.7.104 - GET //image/horizontal-portrait-beautiful-young-fit-260nw-2284458621-1752296446830.jpg 304 - 2.054 ms
+Sat Jul 12 2025 15:12:51 [SERVER-NAME] info: 10.10.7.104 - POST /api/v1/admin/challenge/create 201 - 15.571 ms
+Sat Jul 12 2025 15:14:34 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/challenge-category/get-all-challenge-category 200 - 7.712 ms
+Sat Jul 12 2025 15:17:33 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/challenge/?challengeId=6871cf4d4d5fa8be407a75d8 200 - 5.692 ms
+Sat Jul 12 2025 15:22:57 [SERVER-NAME] info: 10.10.7.104 - POST /api/v1/admin/challenge/create 201 - 8.189 ms
+Sat Jul 12 2025 15:23:45 [SERVER-NAME] info: 10.10.7.104 - POST /api/v1/admin/challenge/create 201 - 6.300 ms
+Sat Jul 12 2025 15:24:14 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/challenge/?challengeId=6871f82c5d166b8629faac54 200 - 6.008 ms
+Sat Jul 12 2025 15:31:6 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/challenge/[object%20Object],[object%20Object] 204 - 0.257 ms
+Sat Jul 12 2025 15:34:58 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/users/profile 204 - 0.087 ms
+Sat Jul 12 2025 15:34:58 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/challenge/[object%20Object],[object%20Object] 204 - 0.055 ms
+Sat Jul 12 2025 15:34:58 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/videos/managment/videos? 204 - 0.050 ms
+Sat Jul 12 2025 15:34:58 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/users/profile 304 - 8.533 ms
+Sat Jul 12 2025 15:34:58 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/videos/managment/videos? 304 - 11.768 ms
+Sat Jul 12 2025 15:35:34 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/challenge/[object%20Object],[object%20Object] 204 - 0.286 ms
+Sat Jul 12 2025 15:36:51 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/users/profile 204 - 0.072 ms
+Sat Jul 12 2025 15:36:51 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/challenge/[object%20Object],[object%20Object] 204 - 0.050 ms
+Sat Jul 12 2025 15:36:51 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/videos/managment/videos? 204 - 0.027 ms
+Sat Jul 12 2025 15:36:51 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/users/profile 304 - 10.627 ms
+Sat Jul 12 2025 15:36:51 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/videos/managment/videos? 304 - 15.238 ms
+Sat Jul 12 2025 15:56:35 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jul 12 2025 15:56:35 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jul 12 2025 15:56:35 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sat Jul 12 2025 15:56:35 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
+Sat Jul 12 2025 15:57:51 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jul 12 2025 15:57:51 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jul 12 2025 15:57:51 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sat Jul 12 2025 15:57:51 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
+Sat Jul 12 2025 15:57:56 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jul 12 2025 15:57:56 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jul 12 2025 15:57:56 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sat Jul 12 2025 15:57:56 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
+Sat Jul 12 2025 15:58:0 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jul 12 2025 15:58:0 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jul 12 2025 15:58:0 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sat Jul 12 2025 15:58:0 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
+Sat Jul 12 2025 15:58:6 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jul 12 2025 15:58:6 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jul 12 2025 15:58:7 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jul 12 2025 15:58:7 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jul 12 2025 15:58:7 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sat Jul 12 2025 15:58:7 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
+Sat Jul 12 2025 15:58:13 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jul 12 2025 15:58:13 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jul 12 2025 15:58:13 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sat Jul 12 2025 15:58:13 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
+Sat Jul 12 2025 15:58:24 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jul 12 2025 15:58:24 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jul 12 2025 15:58:24 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sat Jul 12 2025 15:58:24 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
+Sat Jul 12 2025 15:58:27 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jul 12 2025 15:58:27 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jul 12 2025 15:58:27 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sat Jul 12 2025 15:58:27 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
+Sat Jul 12 2025 15:58:42 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jul 12 2025 15:58:42 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jul 12 2025 15:58:42 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sat Jul 12 2025 15:58:42 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
+Sat Jul 12 2025 15:58:46 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jul 12 2025 15:58:46 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jul 12 2025 15:58:46 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sat Jul 12 2025 15:58:46 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
+Sat Jul 12 2025 15:58:48 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jul 12 2025 15:58:48 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jul 12 2025 15:58:48 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sat Jul 12 2025 15:58:48 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
+Sat Jul 12 2025 15:58:59 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jul 12 2025 15:58:59 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jul 12 2025 15:58:59 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sat Jul 12 2025 15:58:59 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
+Sat Jul 12 2025 15:59:2 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/challenge-category/get-all-challenge-category 204 - 0.714 ms
+Sat Jul 12 2025 15:59:2 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/challenge-category/get-all-challenge-category 304 - 15.915 ms
+Sat Jul 12 2025 15:59:2 [SERVER-NAME] info: 10.10.7.104 - GET //image/three-women-dressed-activewear-sharing-260nw-2593071123-1752309346181.jpg 304 - 0.715 ms
+Sat Jul 12 2025 15:59:2 [SERVER-NAME] info: 10.10.7.104 - GET //image/horizontal-portrait-beautiful-young-fit-260nw-2284458621-1752296446830.jpg 304 - 2.228 ms
+Sat Jul 12 2025 15:59:2 [SERVER-NAME] info: 10.10.7.104 - GET //image/class-meditation-hands-woman-nature-260nw-2603763821-1752299564654.jpg 304 - 0.764 ms
+Sat Jul 12 2025 15:59:51 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jul 12 2025 15:59:51 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jul 12 2025 15:59:51 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sat Jul 12 2025 15:59:51 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
+Sat Jul 12 2025 15:59:52 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jul 12 2025 15:59:52 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jul 12 2025 15:59:52 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sat Jul 12 2025 15:59:52 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
+Sat Jul 12 2025 15:59:55 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jul 12 2025 15:59:55 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jul 12 2025 15:59:55 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sat Jul 12 2025 15:59:55 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
+Sat Jul 12 2025 15:59:59 [SERVER-NAME] info: [32mConfig validation successful.[39m

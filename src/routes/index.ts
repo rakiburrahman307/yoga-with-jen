@@ -22,9 +22,10 @@ import { AdminRoutes } from '../app/modules/admin/admin.route';
 import { NotificationRoutes } from '../app/modules/notification/notification.routes';
 import { TodayVideoRoutes } from '../app/modules/todayVideo/today.route';
 import { DailyInspirationRoutes } from '../app/modules/admin/dailyInspiration/dailyInspiration.router';
-import { ChallengeRoutes } from '../app/modules/admin/challanges/challanges.router';
+import { ChallengeRoutes } from '../app/modules/admin/challenges/challenges.router';
 import { VideoCommentRouter } from '../app/modules/vidoeComments/vidoeComments.router';
 import { ScheduledNotificationRoute } from '../app/modules/scheduledNotification/scheduledNotification.routes';
+import { ChallengeCategoryRoutes } from '../app/modules/admin/challengesCategory/challengesCategory.router';
 
 const router = express.Router();
 const routes = [
@@ -159,6 +160,10 @@ const routes = [
      {
           path: '/admin/challenge',
           route: ChallengeRoutes,
+     },
+     {
+          path: '/admin/challenge-category',
+          route: ChallengeCategoryRoutes,
      },
      {
           path: '/challenge',
