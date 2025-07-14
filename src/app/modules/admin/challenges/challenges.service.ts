@@ -15,9 +15,6 @@ const createChallenge = async (payload: IChallenge) => {
      if (!isExistCategory) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Category not found');
      }
-     if (payload.publishAt) {
-          payload.publishAt = new Date(payload.publishAt);
-     }
      payload.challengeName = isExistCategory.name;
      const result = await ChallengeVideo.create(payload);
      if (!result) {
