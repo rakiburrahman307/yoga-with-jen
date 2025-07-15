@@ -1,0 +1,182 @@
+Tue Jul 15 2025 16:0:4 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 d9443c01a7336-23de4289274sm106032615ad.43 - gsmtp
+Tue Jul 15 2025 16:0:10 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/challenge/letest 403 - 2.696 ms
+Tue Jul 15 2025 16:0:10 [SERVER-NAME] error: 10.10.7.104 - GET //thumbnail/low-section-woman-sitting-floor_1048944-9671867-1752203894204.jpg 404 - 0.495 ms
+Tue Jul 15 2025 16:0:10 [SERVER-NAME] error: 10.10.7.104 - GET //thumbnail/physical-activity-yoga-exercises-beautiful-260nw-2610377843-1752204444556.jpg 404 - 0.786 ms
+Tue Jul 15 2025 16:1:1 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/challenge/letest 403 - 11.651 ms
+Tue Jul 15 2025 16:1:2 [SERVER-NAME] error: 10.10.7.104 - GET //thumbnail/physical-activity-yoga-exercises-beautiful-260nw-2610377843-1752204444556.jpg 404 - 0.479 ms
+Tue Jul 15 2025 16:1:2 [SERVER-NAME] error: 10.10.7.104 - GET //thumbnail/low-section-woman-sitting-floor_1048944-9671867-1752203894204.jpg 404 - 0.313 ms
+Tue Jul 15 2025 16:1:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 41be03b00d2f7-b3bbe52edd5sm11815451a12.3 - gsmtp
+Tue Jul 15 2025 16:1:24 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/challenge/letest 403 - 2.428 ms
+Tue Jul 15 2025 16:1:24 [SERVER-NAME] error: 10.10.7.104 - GET //thumbnail/physical-activity-yoga-exercises-beautiful-260nw-2610377843-1752204444556.jpg 404 - 0.328 ms
+Tue Jul 15 2025 16:1:24 [SERVER-NAME] error: 10.10.7.104 - GET //thumbnail/low-section-woman-sitting-floor_1048944-9671867-1752203894204.jpg 404 - 0.460 ms
+Tue Jul 15 2025 16:2:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 98e67ed59e1d1-31c3e7f7e88sm11741080a91.0 - gsmtp
+Tue Jul 15 2025 16:3:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 d2e1a72fcca58-74eb9c75734sm12104623b3a.0 - gsmtp
+Tue Jul 15 2025 16:3:23 [SERVER-NAME] error: 10.10.7.104 - GET /thumbnail/low-section-woman-sitting-floor_1048944-9671867-1752203894204.jpg 404 - 1.620 ms
+Tue Jul 15 2025 16:3:23 [SERVER-NAME] error: 10.10.7.104 - GET /favicon.ico 404 - 1.372 ms
+Tue Jul 15 2025 16:4:7 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 d2e1a72fcca58-750e08ec212sm5670262b3a.102 - gsmtp
+Tue Jul 15 2025 16:5:7 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 d9443c01a7336-23de4285d7asm106710395ad.29 - gsmtp
+Tue Jul 15 2025 16:6:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 98e67ed59e1d1-31c301a8862sm14642309a91.37 - gsmtp
+Tue Jul 15 2025 16:7:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 d2e1a72fcca58-74eb9f21227sm11996392b3a.98 - gsmtp
+Tue Jul 15 2025 16:8:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 98e67ed59e1d1-31c368240ccsm14046619a91.30 - gsmtp
+Tue Jul 15 2025 16:9:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 d9443c01a7336-23de435bba5sm104934685ad.230 - gsmtp
+Tue Jul 15 2025 16:10:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 d9443c01a7336-23de4347c24sm105127265ad.196 - gsmtp
+Tue Jul 15 2025 16:10:29 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/challenge/letest 403 - 3.363 ms
+Tue Jul 15 2025 16:10:29 [SERVER-NAME] error: 10.10.7.104 - GET //thumbnail/physical-activity-yoga-exercises-beautiful-260nw-2610377843-1752204444556.jpg 404 - 0.449 ms
+Tue Jul 15 2025 16:10:29 [SERVER-NAME] error: 10.10.7.104 - GET //thumbnail/low-section-woman-sitting-floor_1048944-9671867-1752203894204.jpg 404 - 0.762 ms
+Tue Jul 15 2025 16:10:37 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/challenge/letest 403 - 5.762 ms
+Tue Jul 15 2025 16:10:37 [SERVER-NAME] error: 10.10.7.104 - GET //thumbnail/physical-activity-yoga-exercises-beautiful-260nw-2610377843-1752204444556.jpg 404 - 0.920 ms
+Tue Jul 15 2025 16:10:37 [SERVER-NAME] error: 10.10.7.104 - GET //thumbnail/low-section-woman-sitting-floor_1048944-9671867-1752203894204.jpg 404 - 1.274 ms
+Tue Jul 15 2025 16:10:40 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/challenge/letest 403 - 2.864 ms
+Tue Jul 15 2025 16:10:40 [SERVER-NAME] error: 10.10.7.104 - GET //thumbnail/physical-activity-yoga-exercises-beautiful-260nw-2610377843-1752204444556.jpg 404 - 0.333 ms
+Tue Jul 15 2025 16:10:40 [SERVER-NAME] error: 10.10.7.104 - GET //thumbnail/low-section-woman-sitting-floor_1048944-9671867-1752203894204.jpg 404 - 0.420 ms
+Tue Jul 15 2025 16:10:43 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/challenge/letest 403 - 3.588 ms
+Tue Jul 15 2025 16:10:43 [SERVER-NAME] error: 10.10.7.104 - GET //thumbnail/physical-activity-yoga-exercises-beautiful-260nw-2610377843-1752204444556.jpg 404 - 0.611 ms
+Tue Jul 15 2025 16:10:43 [SERVER-NAME] error: 10.10.7.104 - GET //thumbnail/low-section-woman-sitting-floor_1048944-9671867-1752203894204.jpg 404 - 1.211 ms
+Tue Jul 15 2025 16:10:46 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/challenge/letest 403 - 3.760 ms
+Tue Jul 15 2025 16:10:46 [SERVER-NAME] error: 10.10.7.104 - GET //thumbnail/physical-activity-yoga-exercises-beautiful-260nw-2610377843-1752204444556.jpg 404 - 0.558 ms
+Tue Jul 15 2025 16:10:46 [SERVER-NAME] error: 10.10.7.104 - GET //thumbnail/low-section-woman-sitting-floor_1048944-9671867-1752203894204.jpg 404 - 0.786 ms
+Tue Jul 15 2025 16:10:52 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/challenge/letest 403 - 4.968 ms
+Tue Jul 15 2025 16:10:52 [SERVER-NAME] error: 10.10.7.104 - GET //thumbnail/physical-activity-yoga-exercises-beautiful-260nw-2610377843-1752204444556.jpg 404 - 0.502 ms
+Tue Jul 15 2025 16:10:52 [SERVER-NAME] error: 10.10.7.104 - GET //thumbnail/low-section-woman-sitting-floor_1048944-9671867-1752203894204.jpg 404 - 0.904 ms
+Tue Jul 15 2025 16:11:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 d9443c01a7336-23de4323f0asm111512725ad.115 - gsmtp
+Tue Jul 15 2025 16:12:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 41be03b00d2f7-b3bbe5bb4e4sm11828423a12.33 - gsmtp
+Tue Jul 15 2025 16:13:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 98e67ed59e1d1-31c5d8e133fsm6470406a91.24 - gsmtp
+Tue Jul 15 2025 16:13:14 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/challenge/latest 403 - 4.082 ms
+Tue Jul 15 2025 16:13:37 [SERVER-NAME] error: 10.10.7.104 - POST /api/v1/auth/login 400 - 12.930 ms
+Tue Jul 15 2025 16:14:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 98e67ed59e1d1-31c30068878sm14792772a91.12 - gsmtp
+Tue Jul 15 2025 16:14:45 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/challenge/latest 404 - 7.809 ms
+Tue Jul 15 2025 16:14:59 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/challenge/single/6831e80fb248a4c1ae7e5bc1 404 - 4.661 ms
+Tue Jul 15 2025 16:15:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 d2e1a72fcca58-74eb9f8dbf1sm11621206b3a.152 - gsmtp
+Tue Jul 15 2025 16:15:43 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/challenge/latest 404 - 3.658 ms
+Tue Jul 15 2025 16:16:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 d2e1a72fcca58-74eb9dd5e9asm12023221b3a.25 - gsmtp
+Tue Jul 15 2025 16:17:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 41be03b00d2f7-b3bbe7423f6sm11667489a12.78 - gsmtp
+Tue Jul 15 2025 16:18:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 41be03b00d2f7-b3bbe579a70sm11825092a12.17 - gsmtp
+Tue Jul 15 2025 16:23:55 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/challenge/letest 403 - 3.345 ms
+Tue Jul 15 2025 16:23:55 [SERVER-NAME] error: 10.10.7.104 - GET //thumbnail/physical-activity-yoga-exercises-beautiful-260nw-2610377843-1752204444556.jpg 404 - 0.280 ms
+Tue Jul 15 2025 16:23:55 [SERVER-NAME] error: 10.10.7.104 - GET //thumbnail/low-section-woman-sitting-floor_1048944-9671867-1752203894204.jpg 404 - 0.215 ms
+Tue Jul 15 2025 16:24:1 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/challenge/letest 403 - 4.337 ms
+Tue Jul 15 2025 16:24:1 [SERVER-NAME] error: 10.10.7.104 - GET //thumbnail/physical-activity-yoga-exercises-beautiful-260nw-2610377843-1752204444556.jpg 404 - 0.295 ms
+Tue Jul 15 2025 16:24:1 [SERVER-NAME] error: 10.10.7.104 - GET //thumbnail/low-section-woman-sitting-floor_1048944-9671867-1752203894204.jpg 404 - 0.469 ms
+Tue Jul 15 2025 16:30:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 d2e1a72fcca58-74eb9f96e79sm12110908b3a.175 - gsmtp
+Tue Jul 15 2025 16:31:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 41be03b00d2f7-b3bbe6c5f29sm11658139a12.46 - gsmtp
+Tue Jul 15 2025 16:32:6 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 d9443c01a7336-23de4359c68sm105796525ad.213 - gsmtp
+Tue Jul 15 2025 16:33:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 d9443c01a7336-23de435baccsm107011645ad.227 - gsmtp
+Tue Jul 15 2025 16:34:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 d2e1a72fcca58-74eb9e07585sm12498502b3a.65 - gsmtp
+Tue Jul 15 2025 16:35:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 d9443c01a7336-23de43346e2sm108817735ad.160 - gsmtp
+Tue Jul 15 2025 16:36:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 41be03b00d2f7-b3bbe6bd8c2sm11781041a12.39 - gsmtp
+Tue Jul 15 2025 16:37:6 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 d2e1a72fcca58-74eb9f7fa50sm12031640b3a.145 - gsmtp
+Tue Jul 15 2025 16:38:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 d9443c01a7336-23de42aea81sm107901835ad.82 - gsmtp
+Tue Jul 15 2025 16:39:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 98e67ed59e1d1-31c3e978c75sm12357146a91.19 - gsmtp
+Tue Jul 15 2025 16:39:30 [SERVER-NAME] error: 10.10.7.37 - GET /api/v1/challange/get-challenges-videos/6874f9b3c579d8a1fb53facf 404 - 4.274 ms
+Tue Jul 15 2025 16:40:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 98e67ed59e1d1-31c3e957df6sm11843327a91.2 - gsmtp
+Tue Jul 15 2025 16:41:0 [SERVER-NAME] error: 10.10.7.37 - GET /api/v1/admin/dailyInspiration/scheduled 400 - 25.172 ms
+Tue Jul 15 2025 16:41:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 d9443c01a7336-23de4322781sm107674445ad.125 - gsmtp
+Tue Jul 15 2025 16:42:4 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 98e67ed59e1d1-31c3e978c9bsm11903070a91.20 - gsmtp
+Tue Jul 15 2025 16:43:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 d9443c01a7336-23de428497fsm111824645ad.49 - gsmtp
+Tue Jul 15 2025 16:44:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 98e67ed59e1d1-31c3eb62e55sm11815278a91.35 - gsmtp
+Tue Jul 15 2025 16:45:4 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 d9443c01a7336-23de4285eb4sm112509875ad.6 - gsmtp
+Tue Jul 15 2025 16:46:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 d2e1a72fcca58-750e08ec212sm5748577b3a.102 - gsmtp
+Tue Jul 15 2025 16:47:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 d9443c01a7336-23de4285fcasm105758185ad.5 - gsmtp
+Tue Jul 15 2025 16:49:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 d2e1a72fcca58-74ec6b4cda5sm9871507b3a.108 - gsmtp
+Tue Jul 15 2025 16:50:6 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 98e67ed59e1d1-31c3003da6bsm15973041a91.1 - gsmtp
+Tue Jul 15 2025 16:50:31 [SERVER-NAME] error: 10.10.7.37 - GET /api/v1/challenge/single/68725db26524db119b02e0e8 403 - 3.854 ms
+Tue Jul 15 2025 16:50:31 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/admin/dailyInspiration/scheduled 400 - 26.759 ms
+Tue Jul 15 2025 16:51:6 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 d2e1a72fcca58-74eb9e068b1sm12534394b3a.58 - gsmtp
+Tue Jul 15 2025 16:52:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 d9443c01a7336-23de43227b7sm106015955ad.106 - gsmtp
+Tue Jul 15 2025 16:53:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 98e67ed59e1d1-31c3e958166sm11675196a91.5 - gsmtp
+Tue Jul 15 2025 16:54:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 98e67ed59e1d1-31c3006ee2esm14834308a91.18 - gsmtp
+Tue Jul 15 2025 16:55:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 d2e1a72fcca58-74eb9dd6c46sm11992440b3a.13 - gsmtp
+Tue Jul 15 2025 16:56:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 41be03b00d2f7-b3bbe6f201dsm11817248a12.62 - gsmtp
+Tue Jul 15 2025 16:57:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 d2e1a72fcca58-74eb9f1b2f6sm12784090b3a.99 - gsmtp

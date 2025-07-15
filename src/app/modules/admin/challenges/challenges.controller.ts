@@ -92,8 +92,8 @@ const deleteChallenge = catchAsync(async (req, res) => {
      });
 });
 const getChallenge = catchAsync(async (req, res) => {
-     // Deleting the "Create Challenge" entry by ID
-     const result = await ChallengeService.deleteChallenge(req.params.id);
+     const { id }: any = req.user;
+     const result = await ChallengeService.getChallengeRelateVideo(req.params.id, id, req.query);
 
      // Sending the response after successful deletion
      sendResponse(res, {
@@ -103,7 +103,17 @@ const getChallenge = catchAsync(async (req, res) => {
           data: result,
      });
 });
-
+const markVideoAsCompleted = catchAsync(async (req, res) => {
+     const { id }: any = req.user;
+     const { videoId } = req.params;
+     const result = await ChallengeService.markVideoAsCompleted(id, videoId);
+     sendResponse(res, {
+          success: true,
+          statusCode: StatusCodes.OK,
+          message: 'Video mark as complete successfully',
+          data: result,
+     });
+});
 export const ChallengeController = {
      createChallengeVideos,
      getAllCreateChallenge,
@@ -113,4 +123,5 @@ export const ChallengeController = {
      getChallenge,
      createChallengeForSchedule,
      getChallenges,
+     markVideoAsCompleted,
 };

@@ -9,7 +9,7 @@ import { FOLDER_NAMES } from '../../../../enums/files';
 const router = express.Router();
 
 router.get('/get-all-challenge-category', auth(USER_ROLES.ADMIN, USER_ROLES.SUPER_ADMIN), ChallengeController.getAllChallengeCategory);
-router.get('/get-all-challenge-category-for-user', auth(USER_ROLES.ADMIN, USER_ROLES.SUPER_ADMIN), ChallengeController.getAllChallengeCategoryForUser);
+router.get('/get-all-challenge-category-for-user', auth(USER_ROLES.USER, USER_ROLES.SUPER_ADMIN), ChallengeController.getAllChallengeCategoryForUser);
 router.post('/all-challenge-category-shuffle', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), ChallengeController.shuffleCategorySerial);
 router.get('/get-single-challenge-category/:id', auth(USER_ROLES.ADMIN, USER_ROLES.SUPER_ADMIN), ChallengeController.getSingleChallengeCategory);
 router.put('/update-challenge-category-status/:id', auth(USER_ROLES.ADMIN, USER_ROLES.SUPER_ADMIN), ChallengeController.statusUpdate);

@@ -109,3 +109,127 @@ Tue Jul 15 2025 14:38:16 [SERVER-NAME] error: [31mWorker 4324 uncaught exceptio
 Tue Jul 15 2025 14:38:16 [SERVER-NAME] error: [31mWorker 41024 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
 Tue Jul 15 2025 14:38:16 [SERVER-NAME] error: [31mWorker 34188 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
 Tue Jul 15 2025 14:38:16 [SERVER-NAME] error: [31mWorker 46612 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:38:26 [SERVER-NAME] error: [31mWorker 27332 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:38:26 [SERVER-NAME] error: [31mWorker 37020 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:38:26 [SERVER-NAME] error: [31mWorker 42896 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:38:26 [SERVER-NAME] error: [31mWorker 28472 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:38:26 [SERVER-NAME] error: [31mWorker 42944 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:38:26 [SERVER-NAME] error: [31mWorker 43296 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:38:26 [SERVER-NAME] error: [31mWorker 39512 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:38:26 [SERVER-NAME] error: [31mWorker 28260 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:38:26 [SERVER-NAME] error: [31mWorker 12772 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:38:26 [SERVER-NAME] error: [31mWorker 37484 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:38:26 [SERVER-NAME] error: [31mWorker 3628 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:38:26 [SERVER-NAME] error: [31mWorker 8452 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:38:41 [SERVER-NAME] error: [31mWorker 37612 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:38:41 [SERVER-NAME] error: [31mWorker 2940 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:38:41 [SERVER-NAME] error: [31mWorker 13568 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:38:41 [SERVER-NAME] error: [31mWorker 35032 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:38:41 [SERVER-NAME] error: [31mWorker 44228 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:38:41 [SERVER-NAME] error: [31mWorker 3020 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:38:41 [SERVER-NAME] error: [31mWorker 45016 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:38:41 [SERVER-NAME] error: [31mWorker 12844 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:38:41 [SERVER-NAME] error: [31mWorker 41276 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:38:41 [SERVER-NAME] error: [31mWorker 33560 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:38:41 [SERVER-NAME] error: [31mWorker 36720 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:38:41 [SERVER-NAME] error: [31mWorker 8852 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:39:6 [SERVER-NAME] error: [31mWorker 40792 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:39:6 [SERVER-NAME] error: [31mWorker 4116 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:39:6 [SERVER-NAME] error: [31mWorker 24816 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:39:6 [SERVER-NAME] error: [31mWorker 40576 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:39:6 [SERVER-NAME] error: [31mWorker 44356 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:39:6 [SERVER-NAME] error: [31mWorker 8184 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:39:6 [SERVER-NAME] error: [31mWorker 10448 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:39:6 [SERVER-NAME] error: [31mWorker 44920 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:39:6 [SERVER-NAME] error: [31mWorker 16236 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:39:6 [SERVER-NAME] error: [31mWorker 5336 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:39:6 [SERVER-NAME] error: [31mWorker 2940 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:39:6 [SERVER-NAME] error: [31mWorker 25776 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:39:50 [SERVER-NAME] error: [31mWorker 26700 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:39:50 [SERVER-NAME] error: [31mWorker 8376 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:39:50 [SERVER-NAME] error: [31mWorker 41788 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:39:50 [SERVER-NAME] error: [31mWorker 39080 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:39:50 [SERVER-NAME] error: [31mWorker 18652 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:39:50 [SERVER-NAME] error: [31mWorker 18096 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:39:50 [SERVER-NAME] error: [31mWorker 31584 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:39:50 [SERVER-NAME] error: [31mWorker 18300 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:39:50 [SERVER-NAME] error: [31mWorker 17668 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:39:50 [SERVER-NAME] error: [31mWorker 15528 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:39:50 [SERVER-NAME] error: [31mWorker 17896 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:39:50 [SERVER-NAME] error: [31mWorker 29100 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:40:14 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/challenge/letest 403 - 26.657 ms
+Tue Jul 15 2025 14:40:54 [SERVER-NAME] error: [31mWorker 6348 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:40:54 [SERVER-NAME] error: [31mWorker 36844 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:40:54 [SERVER-NAME] error: [31mWorker 40440 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:40:54 [SERVER-NAME] error: [31mWorker 16468 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:40:54 [SERVER-NAME] error: [31mWorker 33756 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:40:54 [SERVER-NAME] error: [31mWorker 10756 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:40:54 [SERVER-NAME] error: [31mWorker 44868 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:40:54 [SERVER-NAME] error: [31mWorker 3484 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:40:54 [SERVER-NAME] error: [31mWorker 10736 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:40:54 [SERVER-NAME] error: [31mWorker 12116 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:40:54 [SERVER-NAME] error: [31mWorker 8828 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:40:54 [SERVER-NAME] error: [31mWorker 18572 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:41:6 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 d9443c01a7336-23de43655fbsm102602155ad.239 - gsmtp
+Tue Jul 15 2025 14:41:28 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/challenge/letest 403 - 15.652 ms
+Tue Jul 15 2025 14:41:28 [SERVER-NAME] error: 10.10.7.104 - GET //thumbnail/physical-activity-yoga-exercises-beautiful-260nw-2610377843-1752204444556.jpg 404 - 1.537 ms
+Tue Jul 15 2025 14:41:28 [SERVER-NAME] error: 10.10.7.104 - GET //thumbnail/low-section-woman-sitting-floor_1048944-9671867-1752203894204.jpg 404 - 2.422 ms
+Tue Jul 15 2025 14:42:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 98e67ed59e1d1-31c301f0a3asm14721515a91.49 - gsmtp
+Tue Jul 15 2025 14:43:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 98e67ed59e1d1-31c301d9e07sm14745891a91.43 - gsmtp
+Tue Jul 15 2025 14:44:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 d9443c01a7336-23de42ad27fsm105168175ad.57 - gsmtp
+Tue Jul 15 2025 14:44:47 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/challenge/letest 403 - 14.581 ms
+Tue Jul 15 2025 14:44:47 [SERVER-NAME] error: 10.10.7.104 - GET //thumbnail/physical-activity-yoga-exercises-beautiful-260nw-2610377843-1752204444556.jpg 404 - 0.618 ms
+Tue Jul 15 2025 14:44:47 [SERVER-NAME] error: 10.10.7.104 - GET //thumbnail/low-section-woman-sitting-floor_1048944-9671867-1752203894204.jpg 404 - 1.106 ms
+Tue Jul 15 2025 14:45:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 41be03b00d2f7-b3bbe7297bcsm11411402a12.73 - gsmtp
+Tue Jul 15 2025 14:46:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 d9443c01a7336-23de42ad3c6sm112638845ad.75 - gsmtp
+Tue Jul 15 2025 14:47:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 d2e1a72fcca58-74eb9f1d34dsm12333372b3a.104 - gsmtp
+Tue Jul 15 2025 14:48:6 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 d9443c01a7336-23de4359c68sm104166175ad.213 - gsmtp
+Tue Jul 15 2025 14:49:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 d2e1a72fcca58-74eb9f49f8bsm11664592b3a.113 - gsmtp
+Tue Jul 15 2025 14:50:6 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 d9443c01a7336-23de42847d5sm110591415ad.45 - gsmtp
+Tue Jul 15 2025 14:51:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 98e67ed59e1d1-31c3eb6136bsm12419831a91.36 - gsmtp
+Tue Jul 15 2025 14:52:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 41be03b00d2f7-b3bbe6f37f3sm11540950a12.55 - gsmtp
+Tue Jul 15 2025 14:53:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 d9443c01a7336-23de434c9cbsm110940305ad.202 - gsmtp
+Tue Jul 15 2025 14:54:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 d2e1a72fcca58-74fd6c1023asm6973274b3a.61 - gsmtp
+Tue Jul 15 2025 14:55:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 d9443c01a7336-23de4286da3sm111545745ad.34 - gsmtp
+Tue Jul 15 2025 14:56:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 98e67ed59e1d1-31c3eb7b652sm12307209a91.43 - gsmtp
+Tue Jul 15 2025 14:57:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 d9443c01a7336-23de42ad25dsm105411545ad.64 - gsmtp
+Tue Jul 15 2025 14:58:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 d2e1a72fcca58-74eb9f49f80sm11336667b3a.117 - gsmtp
+Tue Jul 15 2025 14:59:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 41be03b00d2f7-b3bbe577298sm11650888a12.18 - gsmtp

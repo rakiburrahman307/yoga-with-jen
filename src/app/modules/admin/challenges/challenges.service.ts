@@ -8,6 +8,8 @@ import { IChallenge } from './challenges.interface';
 import { Video } from '../videosManagement/videoManagement.model';
 import { ChallengeCategory } from '../challengesCategory/challengesCategory.model';
 import { User } from '../../user/user.model';
+import mongoose from 'mongoose';
+import { checkNextVideoUnlock, checkNextVideoUnlockForChallenge } from '../../../../helpers/checkNExtVideoUnlocak';
 
 // Function to create a new "create Challenge" entry
 const createChallenge = async (payload: IChallenge) => {
@@ -205,6 +207,69 @@ const getChallengeRelateVideo = async (id: string, userId: string, query: Record
           meta,
      };
 };
+const markVideoAsCompleted = async (userId: string, videoId: string) => {
+     try {
+          // Find the user first
+          const user = await User.findById(userId);
+          if (!user) {
+               throw new AppError(StatusCodes.NOT_FOUND, 'User not found');
+          }
+
+          // Convert videoId to ObjectId if using MongoDB ObjectIds
+          const videoObjectId = new mongoose.Types.ObjectId(videoId);
+
+          // Check if video is already completed (more reliable comparison)
+          const isAlreadyCompleted = user.completedSessions.some((sessionId) => sessionId.toString() === videoId.toString());
+
+          if (!isAlreadyCompleted) {
+               // Find the video to get subcategory info
+               const currentVideo = await ChallengeVideo.findById(videoId);
+               if (!currentVideo) {
+                    throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
+               }
+
+               // Use findByIdAndUpdate with proper options
+               const updatedUser = await User.findByIdAndUpdate(
+                    userId,
+                    { $push: { completedSessions: videoObjectId } },
+                    {
+                         new: true, // Return updated document
+                         runValidators: true, // Run schema validations
+                    },
+               );
+
+               if (!updatedUser) {
+                    throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to mark video as completed');
+               }
+
+               // Check what gets unlocked next
+               const nextVideoInfo = await checkNextVideoUnlockForChallenge(userId, currentVideo?.challengeId.toString(), videoId);
+
+               console.log('Video marked as completed:', {
+                    userId,
+                    videoId,
+                    completedSessions: updatedUser.completedSessions,
+               });
+
+               return {
+                    success: true,
+                    message: 'Video marked as completed',
+                    completedSessions: updatedUser.completedSessions,
+                    nextVideoInfo: nextVideoInfo,
+               };
+          } else {
+               return {
+                    success: true,
+                    message: 'Video already completed',
+                    completedSessions: user.completedSessions,
+                    nextVideoInfo: { nextVideoUnlocked: false, reason: 'Already completed' },
+               };
+          }
+     } catch (error) {
+          console.error('Error marking video as completed:', error);
+          throw error;
+     }
+};
 export const ChallengeService = {
      createChallenge,
      getAllChallenge,
@@ -215,4 +280,5 @@ export const ChallengeService = {
      getChallenge,
      createChallengeForSchedule,
      getChallengeRelateVideo,
+     markVideoAsCompleted,
 };

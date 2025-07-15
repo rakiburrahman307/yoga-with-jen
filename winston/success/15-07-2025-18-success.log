@@ -1,0 +1,67 @@
+Tue Jul 15 2025 18:2:20 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Jul 15 2025 18:2:20 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Jul 15 2025 18:2:20 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Jul 15 2025 18:2:20 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
+Tue Jul 15 2025 18:2:25 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/users/profile 204 - 0.638 ms
+Tue Jul 15 2025 18:2:25 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/challenge/letest 204 - 0.117 ms
+Tue Jul 15 2025 18:2:25 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.051 ms
+Tue Jul 15 2025 18:2:25 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/quotation 204 - 0.046 ms
+Tue Jul 15 2025 18:2:25 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/comingSoon/latest 204 - 0.069 ms
+Tue Jul 15 2025 18:2:26 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/dailyInspiration/letest 204 - 0.088 ms
+Tue Jul 15 2025 18:2:26 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/category 204 - 0.093 ms
+Tue Jul 15 2025 18:2:26 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/quotation 304 - 35.886 ms
+Tue Jul 15 2025 18:2:26 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/users/profile 200 - 69.525 ms
+Tue Jul 15 2025 18:2:26 [SERVER-NAME] info: 10.10.7.104 - GET //image/happy-young-latin-woman-yoga-260nw-2472732507-1752559620327.jpg 200 - 6.831 ms
+Tue Jul 15 2025 18:2:26 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/dailyInspiration/letest 304 - 113.915 ms
+Tue Jul 15 2025 18:2:26 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/comingSoon/latest 200 - 93.222 ms
+Tue Jul 15 2025 18:2:26 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/notifications?page=1&limit=30 200 - 115.388 ms
+Tue Jul 15 2025 18:2:26 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/category 304 - 119.121 ms
+Tue Jul 15 2025 18:2:26 [SERVER-NAME] info: 10.10.7.104 - GET //thumbnail/yoga-workout-people-studio-class-260nw-2535975187-1752212019755.jpg 200 - 5.888 ms
+Tue Jul 15 2025 18:2:26 [SERVER-NAME] info: 10.10.7.104 - GET //thumbnail/woman-yoga-video-laptop-on-260nw-2518833075-1751798188490.jpg 200 - 4.323 ms
+Tue Jul 15 2025 18:2:26 [SERVER-NAME] info: 10.10.7.104 - GET //thumbnail/class-meditation-hands-woman-nature-260nw-2603763821-1752291385710.jpg 200 - 5.689 ms
+Tue Jul 15 2025 18:2:28 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/users/profile 304 - 18.989 ms
+Tue Jul 15 2025 18:2:28 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/quotation 304 - 20.068 ms
+Tue Jul 15 2025 18:2:28 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/dailyInspiration/letest 304 - 22.404 ms
+Tue Jul 15 2025 18:2:28 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/comingSoon/latest 304 - 30.218 ms
+Tue Jul 15 2025 18:2:28 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/category 304 - 41.430 ms
+Tue Jul 15 2025 18:2:28 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/notifications?page=1&limit=30 304 - 44.030 ms
+Tue Jul 15 2025 18:2:34 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/users/profile 204 - 0.119 ms
+Tue Jul 15 2025 18:2:34 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/videos/managment/videos? 204 - 0.058 ms
+Tue Jul 15 2025 18:2:34 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/challenge-category/get-all-challenge-category 204 - 0.072 ms
+Tue Jul 15 2025 18:2:34 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/users/profile 200 - 24.196 ms
+Tue Jul 15 2025 18:2:34 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/challenge-category/get-all-challenge-category 304 - 37.613 ms
+Tue Jul 15 2025 18:2:34 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/videos/managment/videos? 304 - 46.603 ms
+Tue Jul 15 2025 18:2:34 [SERVER-NAME] info: 10.10.7.104 - GET //image/image-3-1752496563677.png 304 - 1.309 ms
+Tue Jul 15 2025 18:2:34 [SERVER-NAME] info: 10.10.7.104 - GET //image/class-meditation-hands-woman-nature-260nw-2603763821-1752299564654.jpg 304 - 1.679 ms
+Tue Jul 15 2025 18:2:34 [SERVER-NAME] info: 10.10.7.104 - GET //image/class-meditation-hands-woman-nature-260nw-2603763821-1752497273729.jpg 304 - 0.525 ms
+Tue Jul 15 2025 18:2:34 [SERVER-NAME] info: 10.10.7.104 - GET //image/yoga-workout-people-studio-class-260nw-2535975187-1752497253238.jpg 304 - 0.693 ms
+Tue Jul 15 2025 18:2:34 [SERVER-NAME] info: 10.10.7.104 - GET //image/image-3-1752495501665.png 304 - 1.070 ms
+Tue Jul 15 2025 18:2:39 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/dailyInspiration 204 - 0.172 ms
+Tue Jul 15 2025 18:2:39 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/dailyInspiration/scheduled 204 - 0.119 ms
+Tue Jul 15 2025 18:2:39 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/dailyInspiration 304 - 13.557 ms
+Tue Jul 15 2025 18:2:41 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/dailyInspiration/68762124d6d45e53b8825d66 204 - 0.226 ms
+Tue Jul 15 2025 18:2:41 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/dailyInspiration/68762124d6d45e53b8825d66 304 - 12.150 ms
+Tue Jul 15 2025 18:2:50 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/dailyInspiration/schedule-create 204 - 0.050 ms
+Tue Jul 15 2025 18:2:50 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/dailyInspiration 204 - 0.045 ms
+Tue Jul 15 2025 18:2:50 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/dailyInspiration 304 - 7.880 ms
+Tue Jul 15 2025 18:10:18 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/users/profile 204 - 0.079 ms
+Tue Jul 15 2025 18:10:18 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.066 ms
+Tue Jul 15 2025 18:10:18 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/category 204 - 0.059 ms
+Tue Jul 15 2025 18:10:18 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/quotation 204 - 0.057 ms
+Tue Jul 15 2025 18:10:18 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/comingSoon/latest 204 - 0.038 ms
+Tue Jul 15 2025 18:10:18 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/dailyInspiration/letest 204 - 0.028 ms
+Tue Jul 15 2025 18:10:18 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/challenge-category/get-all-challenge-category-for-user 204 - 0.026 ms
+Tue Jul 15 2025 18:10:18 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/users/profile 200 - 15.576 ms
+Tue Jul 15 2025 18:10:18 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/quotation 304 - 26.671 ms
+Tue Jul 15 2025 18:10:18 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/comingSoon/latest 304 - 39.372 ms
+Tue Jul 15 2025 18:10:18 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/category 304 - 46.789 ms
+Tue Jul 15 2025 18:10:18 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/notifications?page=1&limit=30 304 - 50.436 ms
+Tue Jul 15 2025 18:10:18 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/dailyInspiration/letest 304 - 24.867 ms
+Tue Jul 15 2025 18:10:18 [SERVER-NAME] info: 10.10.7.104 - GET //image/happy-young-latin-woman-yoga-260nw-2472732507-1752559620327.jpg 200 - 0.844 ms
+Tue Jul 15 2025 18:10:18 [SERVER-NAME] info: 10.10.7.104 - GET //thumbnail/woman-yoga-video-laptop-on-260nw-2518833075-1751798188490.jpg 200 - 0.558 ms
+Tue Jul 15 2025 18:10:18 [SERVER-NAME] info: 10.10.7.104 - GET //thumbnail/class-meditation-hands-woman-nature-260nw-2603763821-1752291385710.jpg 200 - 1.248 ms
+Tue Jul 15 2025 18:10:18 [SERVER-NAME] info: 10.10.7.104 - GET //thumbnail/yoga-workout-people-studio-class-260nw-2535975187-1752212019755.jpg 200 - 1.335 ms
+Tue Jul 15 2025 18:13:4 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Jul 15 2025 18:13:4 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Jul 15 2025 18:13:4 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Jul 15 2025 18:13:4 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
