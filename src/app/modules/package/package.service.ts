@@ -9,11 +9,21 @@ import QueryBuilder from '../../builder/QueryBuilder';
 import { updateSubscriptionInfo } from '../../../helpers/stripe/updateSubscriptionProductInfo';
 
 const createPackageToDB = async (payload: IPackage): Promise<IPackage | null> => {
+     // Validate if the discount is between 0 and 100 if it's provided
+     if (payload.discount !== undefined && (payload.discount < 0 || payload.discount > 100)) {
+          throw new AppError(StatusCodes.BAD_REQUEST, 'Discount must be between 0 and 100');
+     }
+     // Calculate the price after discount if discount is provided
+     const finalPrice = payload.discount
+          ? payload.price - (payload.price * payload.discount) / 100 
+          : payload.price;
+     // Prepare the product payload with the calculated final price
      const productPayload = {
           title: payload.title,
           description: payload.description,
           duration: payload.duration,
-          price: Number(payload.price),
+          price: finalPrice,
+          discount: payload.discount || 0,
      };
 
      const product = await createSubscriptionProduct(productPayload);
@@ -25,6 +35,8 @@ const createPackageToDB = async (payload: IPackage): Promise<IPackage | null> =>
      if (product) {
           payload.priceId = product.priceId;
           payload.productId = product.productId;
+          payload.originalPrice = payload.price;
+          payload.price = finalPrice;
      }
 
      const result = await Package.create(payload);

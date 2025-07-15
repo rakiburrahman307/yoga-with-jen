@@ -1,0 +1,188 @@
+Mon Jul 14 2025 18:0:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:1:7 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:2:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:3:7 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:4:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:5:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:6:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:6:7 [SERVER-NAME] info: OPTIONS /api/v1/users/profile 204 - 0.067 ms
+Mon Jul 14 2025 18:6:7 [SERVER-NAME] info: OPTIONS /api/v1/admin/videos/managment/videos? 204 - 0.048 ms
+Mon Jul 14 2025 18:6:7 [SERVER-NAME] info: OPTIONS /api/v1/admin/challenge-category/get-all-challenge-category 204 - 0.109 ms
+Mon Jul 14 2025 18:6:7 [SERVER-NAME] info: GET /api/v1/users/profile 200 - 34.731 ms
+Mon Jul 14 2025 18:6:7 [SERVER-NAME] info: GET /api/v1/admin/videos/managment/videos? 304 - 36.525 ms
+Mon Jul 14 2025 18:6:7 [SERVER-NAME] info: GET /api/v1/admin/challenge-category/get-all-challenge-category 304 - 36.961 ms
+Mon Jul 14 2025 18:6:7 [SERVER-NAME] info: GET //image/class-meditation-hands-woman-nature-260nw-2603763821-1752299564654.jpg 304 - 6.165 ms
+Mon Jul 14 2025 18:6:7 [SERVER-NAME] info: GET //image/horizontal-portrait-beautiful-young-fit-260nw-2284458621-1752296446830.jpg 304 - 2.602 ms
+Mon Jul 14 2025 18:6:7 [SERVER-NAME] info: GET //image/three-women-dressed-activewear-sharing-260nw-2593071123-1752309346181.jpg 304 - 2.934 ms
+Mon Jul 14 2025 18:6:10 [SERVER-NAME] info: OPTIONS /api/v1/admin/managment/get-admin 204 - 0.215 ms
+Mon Jul 14 2025 18:6:10 [SERVER-NAME] info: GET /api/v1/admin/managment/get-admin 200 - 7.577 ms
+Mon Jul 14 2025 18:7:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:8:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:9:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:10:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:11:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:12:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:13:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:14:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:15:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:16:5 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:17:7 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:17:40 [SERVER-NAME] info: OPTIONS /api/v1/users/profile 204 - 0.087 ms
+Mon Jul 14 2025 18:17:40 [SERVER-NAME] info: GET /api/v1/users/profile 200 - 3.644 ms
+Mon Jul 14 2025 18:18:5 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:18:21 [SERVER-NAME] info: OPTIONS /api/v1/users/profile 204 - 0.280 ms
+Mon Jul 14 2025 18:18:21 [SERVER-NAME] info: PATCH /api/v1/users/profile 200 - 20.177 ms
+Mon Jul 14 2025 18:18:21 [SERVER-NAME] info: GET /api/v1/users/profile 200 - 2.805 ms
+Mon Jul 14 2025 18:18:21 [SERVER-NAME] info: GET //image/image-3-1752495501665.png 200 - 3.860 ms
+Mon Jul 14 2025 18:18:24 [SERVER-NAME] info: GET /api/v1/users/profile 304 - 9.789 ms
+Mon Jul 14 2025 18:18:24 [SERVER-NAME] info: GET //image/image-3-1752495501665.png 304 - 0.280 ms
+Mon Jul 14 2025 18:19:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:20:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:21:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:21:42 [SERVER-NAME] info: OPTIONS /api/v1/users/profile 204 - 0.241 ms
+Mon Jul 14 2025 18:21:42 [SERVER-NAME] info: GET /api/v1/users/profile 200 - 7.088 ms
+Mon Jul 14 2025 18:21:42 [SERVER-NAME] info: GET //image/image-3-1752495501665.png 304 - 0.500 ms
+Mon Jul 14 2025 18:22:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:23:5 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:23:29 [SERVER-NAME] info: OPTIONS /api/v1/admin/category 204 - 0.043 ms
+Mon Jul 14 2025 18:23:29 [SERVER-NAME] info: GET /api/v1/admin/category 304 - 21.388 ms
+Mon Jul 14 2025 18:23:29 [SERVER-NAME] info: GET //thumbnail/woman-yoga-video-laptop-on-260nw-2518833075-1751798188490.jpg 304 - 2.392 ms
+Mon Jul 14 2025 18:23:29 [SERVER-NAME] info: GET //thumbnail/yoga-workout-people-studio-class-260nw-2535975187-1752212019755.jpg 200 - 4.938 ms
+Mon Jul 14 2025 18:23:29 [SERVER-NAME] info: GET //thumbnail/class-meditation-hands-woman-nature-260nw-2603763821-1752291385710.jpg 200 - 7.632 ms
+Mon Jul 14 2025 18:23:32 [SERVER-NAME] info: OPTIONS /api/v1/admin/category/single/6871d839383acdb5d5af70fd 204 - 0.160 ms
+Mon Jul 14 2025 18:23:32 [SERVER-NAME] info: OPTIONS /api/v1/admin/subcategory 204 - 0.113 ms
+Mon Jul 14 2025 18:23:32 [SERVER-NAME] info: GET /api/v1/admin/subcategory 200 - 17.160 ms
+Mon Jul 14 2025 18:23:32 [SERVER-NAME] info: GET /api/v1/admin/category/single/6871d839383acdb5d5af70fd 200 - 20.439 ms
+Mon Jul 14 2025 18:23:32 [SERVER-NAME] info: GET //thumbnail/class-meditation-hands-woman-nature-260nw-2603763821-1752291385710.jpg 304 - 0.572 ms
+Mon Jul 14 2025 18:23:49 [SERVER-NAME] info: GET //thumbnail/yoga-workout-people-studio-class-260nw-2535975187-1752212019755.jpg 304 - 4.598 ms
+Mon Jul 14 2025 18:23:49 [SERVER-NAME] info: GET //thumbnail/woman-yoga-video-laptop-on-260nw-2518833075-1751798188490.jpg 304 - 2.013 ms
+Mon Jul 14 2025 18:23:56 [SERVER-NAME] info: OPTIONS /api/v1/admin/category/category-all-videos/6870a233bfc46cbd81f19687 204 - 0.163 ms
+Mon Jul 14 2025 18:23:56 [SERVER-NAME] info: OPTIONS /api/v1/admin/videos/managment/videos? 204 - 0.078 ms
+Mon Jul 14 2025 18:23:56 [SERVER-NAME] info: GET /api/v1/admin/category/category-all-videos/6870a233bfc46cbd81f19687 200 - 15.369 ms
+Mon Jul 14 2025 18:23:56 [SERVER-NAME] info: GET /api/v1/admin/videos/managment/videos? 304 - 12.392 ms
+Mon Jul 14 2025 18:23:58 [SERVER-NAME] info: GET //thumbnail/class-meditation-hands-woman-nature-260nw-2603763821-1752291385710.jpg 304 - 2.052 ms
+Mon Jul 14 2025 18:23:58 [SERVER-NAME] info: GET //thumbnail/yoga-workout-people-studio-class-260nw-2535975187-1752212019755.jpg 304 - 2.227 ms
+Mon Jul 14 2025 18:23:58 [SERVER-NAME] info: GET //thumbnail/woman-yoga-video-laptop-on-260nw-2518833075-1751798188490.jpg 304 - 2.182 ms
+Mon Jul 14 2025 18:24:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:24:9 [SERVER-NAME] info: OPTIONS /api/v1/admin/category/category-all-videos/686ca649314f6233882f0a74 204 - 0.138 ms
+Mon Jul 14 2025 18:24:10 [SERVER-NAME] info: GET /api/v1/admin/category/category-all-videos/686ca649314f6233882f0a74 200 - 10.256 ms
+Mon Jul 14 2025 18:24:13 [SERVER-NAME] info: GET //thumbnail/class-meditation-hands-woman-nature-260nw-2603763821-1752291385710.jpg 304 - 1.574 ms
+Mon Jul 14 2025 18:24:13 [SERVER-NAME] info: GET //thumbnail/yoga-workout-people-studio-class-260nw-2535975187-1752212019755.jpg 304 - 1.017 ms
+Mon Jul 14 2025 18:24:13 [SERVER-NAME] info: GET //thumbnail/woman-yoga-video-laptop-on-260nw-2518833075-1751798188490.jpg 304 - 1.215 ms
+Mon Jul 14 2025 18:24:21 [SERVER-NAME] info: OPTIONS /api/v1/users/profile 204 - 0.431 ms
+Mon Jul 14 2025 18:24:21 [SERVER-NAME] info: OPTIONS /api/v1/admin/category/category-all-videos/686ca649314f6233882f0a74 204 - 0.035 ms
+Mon Jul 14 2025 18:24:21 [SERVER-NAME] info: OPTIONS /api/v1/admin/category 204 - 0.043 ms
+Mon Jul 14 2025 18:24:21 [SERVER-NAME] info: OPTIONS /api/v1/admin/videos/managment/videos? 204 - 0.036 ms
+Mon Jul 14 2025 18:24:21 [SERVER-NAME] info: GET /api/v1/users/profile 200 - 17.063 ms
+Mon Jul 14 2025 18:24:21 [SERVER-NAME] info: GET /api/v1/admin/category 304 - 22.358 ms
+Mon Jul 14 2025 18:24:21 [SERVER-NAME] info: GET /api/v1/admin/videos/managment/videos? 304 - 23.040 ms
+Mon Jul 14 2025 18:24:21 [SERVER-NAME] info: GET /api/v1/admin/category/category-all-videos/686ca649314f6233882f0a74 304 - 25.550 ms
+Mon Jul 14 2025 18:24:21 [SERVER-NAME] info: GET //image/image-3-1752495501665.png 304 - 0.240 ms
+Mon Jul 14 2025 18:24:23 [SERVER-NAME] info: GET //thumbnail/class-meditation-hands-woman-nature-260nw-2603763821-1752291385710.jpg 304 - 1.144 ms
+Mon Jul 14 2025 18:24:23 [SERVER-NAME] info: GET //thumbnail/yoga-workout-people-studio-class-260nw-2535975187-1752212019755.jpg 304 - 1.392 ms
+Mon Jul 14 2025 18:24:23 [SERVER-NAME] info: GET //thumbnail/woman-yoga-video-laptop-on-260nw-2518833075-1751798188490.jpg 304 - 1.556 ms
+Mon Jul 14 2025 18:24:35 [SERVER-NAME] info: OPTIONS /api/v1/admin/category/single/6871d839383acdb5d5af70fd 204 - 0.185 ms
+Mon Jul 14 2025 18:24:35 [SERVER-NAME] info: OPTIONS /api/v1/admin/subcategory 204 - 0.051 ms
+Mon Jul 14 2025 18:24:35 [SERVER-NAME] info: GET /api/v1/admin/subcategory 304 - 6.159 ms
+Mon Jul 14 2025 18:24:35 [SERVER-NAME] info: GET /api/v1/admin/category/single/6871d839383acdb5d5af70fd 304 - 9.419 ms
+Mon Jul 14 2025 18:24:38 [SERVER-NAME] info: OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.104 ms
+Mon Jul 14 2025 18:24:38 [SERVER-NAME] info: GET /api/v1/admin/videos/managment/videos?page=1&limit=10 304 - 13.771 ms
+Mon Jul 14 2025 18:25:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:26:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:27:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:28:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:28:56 [SERVER-NAME] info: GET //thumbnail/class-meditation-hands-woman-nature-260nw-2603763821-1752291385710.jpg 304 - 4.557 ms
+Mon Jul 14 2025 18:28:56 [SERVER-NAME] info: GET //thumbnail/yoga-workout-people-studio-class-260nw-2535975187-1752212019755.jpg 304 - 1.529 ms
+Mon Jul 14 2025 18:28:56 [SERVER-NAME] info: GET //thumbnail/woman-yoga-video-laptop-on-260nw-2518833075-1751798188490.jpg 304 - 1.524 ms
+Mon Jul 14 2025 18:28:58 [SERVER-NAME] info: OPTIONS /api/v1/admin/videos/managment/videos? 204 - 0.082 ms
+Mon Jul 14 2025 18:28:58 [SERVER-NAME] info: OPTIONS /api/v1/admin/challenge-category/get-all-challenge-category 204 - 0.054 ms
+Mon Jul 14 2025 18:28:58 [SERVER-NAME] info: GET /api/v1/admin/challenge-category/get-all-challenge-category 304 - 8.259 ms
+Mon Jul 14 2025 18:28:58 [SERVER-NAME] info: GET /api/v1/admin/videos/managment/videos? 304 - 11.930 ms
+Mon Jul 14 2025 18:28:58 [SERVER-NAME] info: GET //image/class-meditation-hands-woman-nature-260nw-2603763821-1752299564654.jpg 304 - 0.662 ms
+Mon Jul 14 2025 18:28:58 [SERVER-NAME] info: GET //image/three-women-dressed-activewear-sharing-260nw-2593071123-1752309346181.jpg 304 - 1.199 ms
+Mon Jul 14 2025 18:28:58 [SERVER-NAME] info: GET //image/horizontal-portrait-beautiful-young-fit-260nw-2284458621-1752296446830.jpg 304 - 1.528 ms
+Mon Jul 14 2025 18:29:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:30:7 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:31:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:32:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:33:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:34:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:35:8 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:35:47 [SERVER-NAME] info: OPTIONS /api/v1/admin/videos/managment/videos? 204 - 0.348 ms
+Mon Jul 14 2025 18:35:47 [SERVER-NAME] info: OPTIONS /api/v1/admin/challenge-category/get-all-challenge-category 204 - 0.084 ms
+Mon Jul 14 2025 18:35:47 [SERVER-NAME] info: GET /api/v1/admin/challenge-category/get-all-challenge-category 304 - 9.786 ms
+Mon Jul 14 2025 18:35:47 [SERVER-NAME] info: GET /api/v1/admin/videos/managment/videos? 304 - 11.563 ms
+Mon Jul 14 2025 18:35:47 [SERVER-NAME] info: GET //image/class-meditation-hands-woman-nature-260nw-2603763821-1752299564654.jpg 304 - 0.782 ms
+Mon Jul 14 2025 18:35:47 [SERVER-NAME] info: GET //image/three-women-dressed-activewear-sharing-260nw-2593071123-1752309346181.jpg 304 - 0.809 ms
+Mon Jul 14 2025 18:35:47 [SERVER-NAME] info: GET //image/horizontal-portrait-beautiful-young-fit-260nw-2284458621-1752296446830.jpg 304 - 0.937 ms
+Mon Jul 14 2025 18:36:3 [SERVER-NAME] info: OPTIONS /api/v1/admin/challenge-category/create-challenge-category 204 - 0.191 ms
+Mon Jul 14 2025 18:36:3 [SERVER-NAME] info: POST /api/v1/admin/challenge-category/create-challenge-category 201 - 9.174 ms
+Mon Jul 14 2025 18:36:3 [SERVER-NAME] info: OPTIONS /api/v1/admin/challenge-category/get-all-challenge-category 204 - 0.044 ms
+Mon Jul 14 2025 18:36:3 [SERVER-NAME] info: GET /api/v1/admin/challenge-category/get-all-challenge-category 200 - 6.168 ms
+Mon Jul 14 2025 18:36:3 [SERVER-NAME] info: GET //image/image-3-1752496563677.png 200 - 0.543 ms
+Mon Jul 14 2025 18:36:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:37:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:38:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:39:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:40:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:41:5 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:42:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:43:5 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:44:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:45:5 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:46:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:47:5 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:47:19 [SERVER-NAME] info: OPTIONS /api/v1/admin/challenge-category/get-all-challenge-category 204 - 0.064 ms
+Mon Jul 14 2025 18:47:19 [SERVER-NAME] info: OPTIONS /api/v1/users/profile 204 - 0.048 ms
+Mon Jul 14 2025 18:47:19 [SERVER-NAME] info: OPTIONS /api/v1/admin/videos/managment/videos? 204 - 0.034 ms
+Mon Jul 14 2025 18:47:19 [SERVER-NAME] info: GET /api/v1/users/profile 200 - 7.178 ms
+Mon Jul 14 2025 18:47:19 [SERVER-NAME] info: GET /api/v1/admin/challenge-category/get-all-challenge-category 304 - 11.507 ms
+Mon Jul 14 2025 18:47:19 [SERVER-NAME] info: GET /api/v1/admin/videos/managment/videos? 304 - 15.069 ms
+Mon Jul 14 2025 18:47:19 [SERVER-NAME] info: GET //image/image-3-1752496563677.png 304 - 1.142 ms
+Mon Jul 14 2025 18:47:19 [SERVER-NAME] info: GET //image/class-meditation-hands-woman-nature-260nw-2603763821-1752299564654.jpg 304 - 0.642 ms
+Mon Jul 14 2025 18:47:19 [SERVER-NAME] info: GET //image/three-women-dressed-activewear-sharing-260nw-2593071123-1752309346181.jpg 304 - 0.872 ms
+Mon Jul 14 2025 18:47:19 [SERVER-NAME] info: GET //image/horizontal-portrait-beautiful-young-fit-260nw-2284458621-1752296446830.jpg 304 - 1.120 ms
+Mon Jul 14 2025 18:47:19 [SERVER-NAME] info: GET //image/image-3-1752495501665.png 304 - 0.232 ms
+Mon Jul 14 2025 18:47:33 [SERVER-NAME] info: OPTIONS /api/v1/admin/challenge-category/update-challenge-category/6871ebfe77a90c27ecfc7082 204 - 0.075 ms
+Mon Jul 14 2025 18:47:33 [SERVER-NAME] info: PATCH /api/v1/admin/challenge-category/update-challenge-category/6871ebfe77a90c27ecfc7082 200 - 7.956 ms
+Mon Jul 14 2025 18:47:33 [SERVER-NAME] info: OPTIONS /api/v1/admin/challenge-category/get-all-challenge-category 204 - 0.050 ms
+Mon Jul 14 2025 18:47:33 [SERVER-NAME] info: GET /api/v1/admin/challenge-category/get-all-challenge-category 200 - 5.148 ms
+Mon Jul 14 2025 18:47:33 [SERVER-NAME] info: GET //image/yoga-workout-people-studio-class-260nw-2535975187-1752497253238.jpg 200 - 0.584 ms
+Mon Jul 14 2025 18:47:40 [SERVER-NAME] info: OPTIONS /api/v1/users/profile 204 - 0.058 ms
+Mon Jul 14 2025 18:47:40 [SERVER-NAME] info: OPTIONS /api/v1/admin/challenge-category/get-all-challenge-category 204 - 0.031 ms
+Mon Jul 14 2025 18:47:40 [SERVER-NAME] info: OPTIONS /api/v1/admin/videos/managment/videos? 204 - 0.033 ms
+Mon Jul 14 2025 18:47:40 [SERVER-NAME] info: GET /api/v1/users/profile 304 - 6.315 ms
+Mon Jul 14 2025 18:47:40 [SERVER-NAME] info: GET /api/v1/admin/challenge-category/get-all-challenge-category 304 - 12.196 ms
+Mon Jul 14 2025 18:47:40 [SERVER-NAME] info: GET /api/v1/admin/videos/managment/videos? 304 - 14.175 ms
+Mon Jul 14 2025 18:47:40 [SERVER-NAME] info: GET //image/image-3-1752496563677.png 304 - 0.573 ms
+Mon Jul 14 2025 18:47:40 [SERVER-NAME] info: GET //image/class-meditation-hands-woman-nature-260nw-2603763821-1752299564654.jpg 304 - 0.451 ms
+Mon Jul 14 2025 18:47:40 [SERVER-NAME] info: GET //image/three-women-dressed-activewear-sharing-260nw-2593071123-1752309346181.jpg 304 - 0.646 ms
+Mon Jul 14 2025 18:47:40 [SERVER-NAME] info: GET //image/yoga-workout-people-studio-class-260nw-2535975187-1752497253238.jpg 304 - 0.839 ms
+Mon Jul 14 2025 18:47:40 [SERVER-NAME] info: GET //image/image-3-1752495501665.png 304 - 0.542 ms
+Mon Jul 14 2025 18:47:53 [SERVER-NAME] info: OPTIONS /api/v1/admin/challenge-category/update-challenge-category/6871ef1c77a90c27ecfc712a 204 - 0.063 ms
+Mon Jul 14 2025 18:47:53 [SERVER-NAME] info: PATCH /api/v1/admin/challenge-category/update-challenge-category/6871ef1c77a90c27ecfc712a 200 - 7.397 ms
+Mon Jul 14 2025 18:47:53 [SERVER-NAME] info: OPTIONS /api/v1/admin/challenge-category/get-all-challenge-category 204 - 0.038 ms
+Mon Jul 14 2025 18:47:53 [SERVER-NAME] info: GET /api/v1/admin/challenge-category/get-all-challenge-category 200 - 3.985 ms
+Mon Jul 14 2025 18:47:53 [SERVER-NAME] info: GET //image/class-meditation-hands-woman-nature-260nw-2603763821-1752497273729.jpg 200 - 0.559 ms
+Mon Jul 14 2025 18:48:3 [SERVER-NAME] info: OPTIONS /api/v1/admin/category 204 - 0.062 ms
+Mon Jul 14 2025 18:48:3 [SERVER-NAME] info: GET /api/v1/admin/category 304 - 5.941 ms
+Mon Jul 14 2025 18:48:3 [SERVER-NAME] info: GET //thumbnail/yoga-workout-people-studio-class-260nw-2535975187-1752212019755.jpg 304 - 1.173 ms
+Mon Jul 14 2025 18:48:3 [SERVER-NAME] info: GET //thumbnail/class-meditation-hands-woman-nature-260nw-2603763821-1752291385710.jpg 304 - 1.463 ms
+Mon Jul 14 2025 18:48:3 [SERVER-NAME] info: GET //thumbnail/woman-yoga-video-laptop-on-260nw-2518833075-1751798188490.jpg 304 - 1.672 ms
+Mon Jul 14 2025 18:48:7 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:48:13 [SERVER-NAME] info: OPTIONS /api/v1/admin/category/category-all-videos/686ca649314f6233882f0a74 204 - 0.060 ms
+Mon Jul 14 2025 18:48:13 [SERVER-NAME] info: GET /api/v1/admin/category/category-all-videos/686ca649314f6233882f0a74 304 - 7.260 ms
+Mon Jul 14 2025 18:49:5 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:50:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:51:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:52:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:52:27 [SERVER-NAME] info: GET //thumbnail/class-meditation-hands-woman-nature-260nw-2603763821-1752291385710.jpg 304 - 1.122 ms
+Mon Jul 14 2025 18:52:27 [SERVER-NAME] info: GET //thumbnail/yoga-workout-people-studio-class-260nw-2535975187-1752212019755.jpg 304 - 0.854 ms
+Mon Jul 14 2025 18:52:27 [SERVER-NAME] info: GET //thumbnail/woman-yoga-video-laptop-on-260nw-2518833075-1751798188490.jpg 304 - 1.085 ms
+Mon Jul 14 2025 18:53:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:54:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:55:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:56:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:57:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:58:6 [SERVER-NAME] info: Mail send successfully
+Mon Jul 14 2025 18:59:6 [SERVER-NAME] info: Mail send successfully
