@@ -61,19 +61,19 @@ class QueryBuilder<T> {
                if (field === 'categoryId') {
                     this.modelQuery = this.modelQuery.populate({
                          path: 'categoryId',
-                         select: 'name', 
+                         select: 'name',
                     });
                }
                if (field === 'subCategoryId') {
                     this.modelQuery = this.modelQuery.populate({
                          path: 'subCategoryId',
-                         select: 'name', 
+                         select: 'name',
                     });
                }
                if (field === 'userId') {
                     this.modelQuery = this.modelQuery.populate({
                          path: 'userId',
-                         select: 'name email', 
+                         select: 'name email',
                     });
                }
           });

@@ -102,5 +102,5 @@ export const ChallengeController = {
      deleteChallengeCategory,
      getAllChallengeCategoryForUser,
      shuffleCategorySerial,
-     statusUpdate
+     statusUpdate,
 };

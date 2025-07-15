@@ -198,7 +198,6 @@ const getSubCategoryDetails = async (id: string) => {
      return result;
 };
 const safhaleVideoSerial = async (videoOrder: Array<{ _id: string; serial: number }>) => {
-
      // Validate input
      if (!videoOrder || !Array.isArray(videoOrder) || videoOrder.length === 0) {
           console.log('No video order data provided.');

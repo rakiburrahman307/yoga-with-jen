@@ -11,7 +11,7 @@ const VideoSchema = new Schema<IVideo>(
                type: String,
                required: true,
                trim: true,
-          }, 
+          },
           subCategory: {
                type: String,
                required: false,

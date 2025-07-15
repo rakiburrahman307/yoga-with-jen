@@ -14,9 +14,7 @@ const createPackageToDB = async (payload: IPackage): Promise<IPackage | null> =>
           throw new AppError(StatusCodes.BAD_REQUEST, 'Discount must be between 0 and 100');
      }
      // Calculate the price after discount if discount is provided
-     const finalPrice = payload.discount
-          ? payload.price - (payload.price * payload.discount) / 100 
-          : payload.price;
+     const finalPrice = payload.discount ? payload.price - (payload.price * payload.discount) / 100 : payload.price;
      // Prepare the product payload with the calculated final price
      const productPayload = {
           title: payload.title,

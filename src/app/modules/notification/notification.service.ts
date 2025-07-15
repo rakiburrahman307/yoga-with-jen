@@ -118,12 +118,10 @@ const adminReadNotificationToDB = async (): Promise<INotification | null> => {
 //      return;
 // };
 
-
 export const NotificationService = {
      adminNotificationFromDB,
      getNotificationFromDB,
      readNotificationToDB,
      adminReadNotificationToDB,
      readNotificationSingleToDB,
-
 };

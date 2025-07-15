@@ -1,8 +1,7 @@
-import { StatusCodes } from "http-status-codes";
-import catchAsync from "../../../shared/catchAsync";
-import sendResponse from "../../../shared/sendResponse";
-import { ScheduledNotificationService } from "./scheduledNotification.service";
-
+import { StatusCodes } from 'http-status-codes';
+import catchAsync from '../../../shared/catchAsync';
+import sendResponse from '../../../shared/sendResponse';
+import { ScheduledNotificationService } from './scheduledNotification.service';
 
 // send admin notifications to the users accaunts
 const sendAdminNotification = catchAsync(async (req, res) => {

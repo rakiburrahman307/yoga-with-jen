@@ -88,3 +88,24 @@ Tue Jul 15 2025 14:34:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.
 Tue Jul 15 2025 14:35:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
 550-5.4.5 sending limits go to
 550 5.4.5  https://support.google.com/a/answer/166852 d9443c01a7336-23de4346b70sm107237925ad.195 - gsmtp
+Tue Jul 15 2025 14:36:2 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 d9443c01a7336-23de4286d71sm111954175ad.16 - gsmtp
+Tue Jul 15 2025 14:37:6 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 98e67ed59e1d1-31c3eb6136bsm12395923a91.36 - gsmtp
+Tue Jul 15 2025 14:38:5 [SERVER-NAME] error: Email Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail
+550-5.4.5 sending limits go to
+550 5.4.5  https://support.google.com/a/answer/166852 d2e1a72fcca58-74eb9f4b3b5sm11802144b3a.123 - gsmtp
+Tue Jul 15 2025 14:38:16 [SERVER-NAME] error: [31mWorker 24656 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:38:16 [SERVER-NAME] error: [31mWorker 20976 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:38:16 [SERVER-NAME] error: [31mWorker 20228 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:38:16 [SERVER-NAME] error: [31mWorker 45556 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:38:16 [SERVER-NAME] error: [31mWorker 42156 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:38:16 [SERVER-NAME] error: [31mWorker 11620 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:38:16 [SERVER-NAME] error: [31mWorker 44356 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:38:16 [SERVER-NAME] error: [31mWorker 42048 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:38:16 [SERVER-NAME] error: [31mWorker 4324 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:38:16 [SERVER-NAME] error: [31mWorker 41024 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:38:16 [SERVER-NAME] error: [31mWorker 34188 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Tue Jul 15 2025 14:38:16 [SERVER-NAME] error: [31mWorker 46612 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
