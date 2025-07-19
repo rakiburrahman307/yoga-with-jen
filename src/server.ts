@@ -41,7 +41,8 @@ export async function startServer() {
           // Set up Socket.io server on same port as HTTP server
           socketServer = new SocketServer(httpServer, {
                cors: {
-                    origin: config.allowed_origins || '*',
+                    origin: '*',
+                    methods: ['GET', 'POST'],
                },
           });
 
