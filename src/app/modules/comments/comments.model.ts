@@ -17,7 +17,7 @@ const commentSchema = new Schema<IComments>(
      },
      { timestamps: true },
 );
-// remove the likedBy field in responce
+// remove the likedBy field in response
 commentSchema.set('toJSON', {
      transform: (doc, ret, options) => {
           delete ret.likedBy;
