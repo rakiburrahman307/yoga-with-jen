@@ -236,3 +236,7 @@ Sat Jul 19 2025 11:46:4 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/category/g
 Sat Jul 19 2025 11:46:4 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/notifications?page=1&limit=30 304 - 32.209 ms
 Sat Jul 19 2025 11:46:4 [SERVER-NAME] info: 10.10.7.104 - GET //image/happy-young-latin-woman-yoga-260nw-2472732507-1752559620327.jpg 200 - 3.990 ms
 Sat Jul 19 2025 11:47:55 [SERVER-NAME] info: [34mSIGINT received. Shutting down gracefully...[39m
+Sat Jul 19 2025 11:56:47 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jul 19 2025 11:56:47 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jul 19 2025 11:56:47 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sat Jul 19 2025 11:56:47 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
