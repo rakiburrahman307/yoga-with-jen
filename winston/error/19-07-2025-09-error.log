@@ -1,0 +1,17 @@
+Sat Jul 19 2025 9:19:34 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/admin/dailyInspiration/scheduled 400 - 22.443 ms
+Sat Jul 19 2025 9:19:45 [SERVER-NAME] error: 10.10.7.104 - POST /api/v1/admin/dailyInspiration/schedule-create 404 - 6.666 ms
+Sat Jul 19 2025 9:20:17 [SERVER-NAME] error: 10.10.7.104 - POST /api/v1/admin/dailyInspiration/schedule-create 404 - 5.792 ms
+Sat Jul 19 2025 9:26:10 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/admin/dailyInspiration/scheduled 400 - 4.936 ms
+Sat Jul 19 2025 9:28:5 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/admin/dailyInspiration/scheduled 400 - 9.569 ms
+Sat Jul 19 2025 9:34:45 [SERVER-NAME] error: 10.10.7.104 - POST /api/v1/admin/challenge/schedule-create 404 - 8.693 ms
+Sat Jul 19 2025 9:34:56 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/admin/dailyInspiration/scheduled 400 - 5.965 ms
+Sat Jul 19 2025 9:35:29 [SERVER-NAME] error: 10.10.7.104 - POST /api/v1/admin/challenge/schedule-create 404 - 8.179 ms
+Sat Jul 19 2025 9:39:51 [SERVER-NAME] error: 10.10.7.104 - PATCH /api/v1/admin/challenge-category/update-challenge-category/68725dc76524db119b02e0f8 404 - 12.267 ms
+Sat Jul 19 2025 9:41:0 [SERVER-NAME] error: 10.10.7.104 - PATCH /api/v1/admin/challenge-category/update-challenge-category/68725b8d6524db119b02e083 404 - 4.745 ms
+Sat Jul 19 2025 9:43:5 [SERVER-NAME] error: 10.10.7.104 - PATCH /api/v1/admin/challenge-category/update-challenge-category/68725dc76524db119b02e0f8 404 - 5.747 ms
+Sat Jul 19 2025 9:48:51 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/admin/challenge/get-challenges-videos/6871e72a3e210a79fe1e17f9 403 - 4.658 ms
+Sat Jul 19 2025 9:49:50 [SERVER-NAME] error: 10.10.7.37 - GET /api/v1/admin/dailyInspiration/scheduled 400 - 9.358 ms
+Sat Jul 19 2025 9:50:26 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/admin/challenge/6871e694d2439e0f3e8b867c 404 - 4.859 ms
+Sat Jul 19 2025 9:55:42 [SERVER-NAME] error: 10.10.7.104 - GET //thumbnail/physical-activity-yoga-exercises-beautiful-260nw-2610377843-1752204444556.jpg 404 - 7.216 ms
+Sat Jul 19 2025 9:55:42 [SERVER-NAME] error: 10.10.7.104 - GET //thumbnail/low-section-woman-sitting-floor_1048944-9671867-1752203894204.jpg 404 - 7.878 ms
+Sat Jul 19 2025 9:57:56 [SERVER-NAME] error: 10.10.7.104 - PATCH /api/v1/admin/challenge-category/update-challenge-category/68725db26524db119b02e0e8 404 - 5.348 ms
