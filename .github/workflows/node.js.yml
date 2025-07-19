@@ -46,10 +46,6 @@ jobs:
                  run: rm -rf dist
                  working-directory: ${{ github.workspace }}
 
-               - name: Format Code
-                 run: npm run format
-                 working-directory: ${{ github.workspace }}
-
                - name: Build TypeScript
                  run: npm run build
                  working-directory: ${{ github.workspace }}
