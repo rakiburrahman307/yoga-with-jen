@@ -1,0 +1,14 @@
+Tue Jul 22 2025 16:30:59 [SERVER-NAME] error: 10.10.7.104 - PUT /api/v1/settings/ 403 - 4.745 ms
+Tue Jul 22 2025 16:32:39 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/setting/privacy-policy 404 - 0.943 ms
+Tue Jul 22 2025 16:36:52 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/users/profile 404 - 3.491 ms
+Tue Jul 22 2025 16:36:58 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/users/profile 404 - 3.407 ms
+Tue Jul 22 2025 16:37:20 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/users/profile 404 - 2.557 ms
+Tue Jul 22 2025 16:37:45 [SERVER-NAME] error: 10.10.7.104 - PUT /api/v1/settings 400 - 3.194 ms
+Tue Jul 22 2025 16:37:51 [SERVER-NAME] error: 10.10.7.104 - PUT /api/v1/settings 400 - 22.520 ms
+Tue Jul 22 2025 16:37:57 [SERVER-NAME] error: 10.10.7.104 - PUT /api/v1/settings 400 - 2.871 ms
+Tue Jul 22 2025 16:38:10 [SERVER-NAME] error: 10.10.7.104 - PUT /api/v1/settings 400 - 2.627 ms
+Tue Jul 22 2025 16:39:9 [SERVER-NAME] error: 10.10.7.104 - PUT /api/v1/settings 400 - 2.353 ms
+Tue Jul 22 2025 16:39:14 [SERVER-NAME] error: 10.10.7.104 - PUT /api/v1/settings 400 - 1.984 ms
+Tue Jul 22 2025 16:39:27 [SERVER-NAME] error: 10.10.7.104 - PUT /api/v1/settings 404 - 3.381 ms
+Tue Jul 22 2025 16:40:17 [SERVER-NAME] error: 10.10.7.104 - PUT /api/v1/settings 400 - 2.754 ms
+Tue Jul 22 2025 16:43:2 [SERVER-NAME] error: 10.10.7.104 - PUT /api/v1/settings/ 403 - 2.784 ms

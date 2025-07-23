@@ -1,0 +1,4 @@
+Wed Jul 23 2025 10:44:40 [SERVER-NAME] error: 10.10.7.33 - GET /api/v1/challenge/latest 401 - 11.412 ms
+Wed Jul 23 2025 10:44:48 [SERVER-NAME] error: 10.10.7.33 - GET /api/v1/challenge/single/68725db26524db119b02e0e8 401 - 1.694 ms
+Wed Jul 23 2025 10:45:12 [SERVER-NAME] error: 10.10.7.33 - GET /api/v1/challenge/latest 403 - 4.378 ms
+Wed Jul 23 2025 10:52:41 [SERVER-NAME] error: 10.10.7.33 - GET /api/v1/challenge/get-challenges-videos-for-users 400 - 11.054 ms

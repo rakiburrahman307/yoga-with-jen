@@ -1,0 +1,14 @@
+Wed Jul 23 2025 14:1:39 [SERVER-NAME] error: 10.10.7.33 - GET /api/v1/videos/683412926f4e8798dfa106f6 404 - 24.637 ms
+Wed Jul 23 2025 14:1:45 [SERVER-NAME] error: 10.10.7.33 - GET /api/v1/favourit/ 403 - 3.788 ms
+Wed Jul 23 2025 14:1:52 [SERVER-NAME] error: 10.10.7.33 - GET /api/v1/favourit/watch/683413d06f4e8798dfa1075a 403 - 4.481 ms
+Wed Jul 23 2025 14:17:42 [SERVER-NAME] error: 10.10.7.104 - GET //thumbnail/physical-activity-yoga-exercises-beautiful-260nw-2610377843-1752204444556.jpg 404 - 1.283 ms
+Wed Jul 23 2025 14:17:42 [SERVER-NAME] error: 10.10.7.104 - GET //thumbnail/low-section-woman-sitting-floor_1048944-9671867-1752203894204.jpg 404 - 0.778 ms
+Wed Jul 23 2025 14:35:54 [SERVER-NAME] error: 10.10.7.104 - GET //thumbnail/physical-activity-yoga-exercises-beautiful-260nw-2610377843-1752204444556.jpg 404 - 2.377 ms
+Wed Jul 23 2025 14:35:54 [SERVER-NAME] error: 10.10.7.104 - GET //thumbnail/low-section-woman-sitting-floor_1048944-9671867-1752203894204.jpg 404 - 4.602 ms
+Wed Jul 23 2025 14:36:39 [SERVER-NAME] error: 10.10.7.104 - GET //thumbnail/physical-activity-yoga-exercises-beautiful-260nw-2610377843-1752204444556.jpg 404 - 0.368 ms
+Wed Jul 23 2025 14:36:39 [SERVER-NAME] error: 10.10.7.104 - GET //thumbnail/low-section-woman-sitting-floor_1048944-9671867-1752203894204.jpg 404 - 1.349 ms
+Wed Jul 23 2025 14:41:42 [SERVER-NAME] error: 10.10.7.104 - GET //thumbnail/physical-activity-yoga-exercises-beautiful-260nw-2610377843-1752204444556.jpg 404 - 0.583 ms
+Wed Jul 23 2025 14:46:18 [SERVER-NAME] error: 10.10.7.104 - GET //thumbnail/physical-activity-yoga-exercises-beautiful-260nw-2610377843-1752204444556.jpg 404 - 1.105 ms
+Wed Jul 23 2025 14:46:58 [SERVER-NAME] error: 10.10.7.33 - GET /api/v1/favourit/ 403 - 3.600 ms
+Wed Jul 23 2025 14:47:41 [SERVER-NAME] error: 10.10.7.33 - POST /api/v1/auth/login 400 - 3.850 ms
+Wed Jul 23 2025 14:47:57 [SERVER-NAME] error: 10.10.7.33 - POST /api/v1/auth/login 400 - 1.440 ms

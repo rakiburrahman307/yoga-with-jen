@@ -1,0 +1,2 @@
+Tue Jul 22 2025 14:53:13 [SERVER-NAME] error: 10.10.7.104 - POST /api/v1/auth/login 400 - 39.448 ms
+Tue Jul 22 2025 14:53:46 [SERVER-NAME] error: 10.10.7.104 - GET //thumbnail/physical-activity-yoga-exercises-beautiful-260nw-2610377843-1752204444556.jpg 404 - 0.779 ms

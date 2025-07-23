@@ -1,0 +1,2 @@
+Wed Jul 23 2025 12:44:47 [SERVER-NAME] error: 10.10.7.33 - GET /api/v1/favourit/ 403 - 20.792 ms
+Wed Jul 23 2025 12:44:57 [SERVER-NAME] error: 10.10.7.33 - GET /api/v1/favourit/ 403 - 5.091 ms

@@ -184,8 +184,8 @@ const createSubscriptionCheckoutSession = async (userId: string, packageId: stri
                subscriptionId: String(isExistPackage._id),
           },
           // your backend url for success and cancel
-          success_url: `${config.backend_url || ' http://10.0.60.126:7000'}/api/v1/subscription/success?session_id={CHECKOUT_SESSION_ID}`,
-          cancel_url: `${config.backend_url || ' http://10.0.60.126:7000'}/subscription/cancel`,
+          success_url: `${config.backend_url || 'http://10.0.60.126:7000'}/api/v1/subscription/success?session_id={CHECKOUT_SESSION_ID}`,
+          cancel_url: `${config.backend_url || 'http://10.0.60.126:7000'}/subscription/cancel`,
      });
      return {
           url: session.url,
