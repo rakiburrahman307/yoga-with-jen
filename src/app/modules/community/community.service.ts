@@ -189,10 +189,15 @@ const getAnalysis = async () => {
      ]);
 
      // 2. Top users by loginCount (simple find query)
-     const topByLoginCountPromise = User.find().sort({ loginCount: -1 }).limit(limit).select('_id name loginCount').lean();
+     const topByLoginCountPromise = User.find({ role: USER_ROLES.USER }).sort({ loginCount: -1 }).limit(limit).select('_id name loginCount').lean();
 
      // 3. Top users by completedSessions count
      const topByCompletedSessionsPromise = User.aggregate([
+          {
+               $match: {
+                    role: USER_ROLES.USER,
+               },
+          },
           {
                $project: {
                     name: 1,
