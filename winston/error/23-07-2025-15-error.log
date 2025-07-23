@@ -1,0 +1,12 @@
+Wed Jul 23 2025 15:37:20 [SERVER-NAME] error: [31mWorker 17212 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Wed Jul 23 2025 15:37:20 [SERVER-NAME] error: [31mWorker 15568 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Wed Jul 23 2025 15:37:20 [SERVER-NAME] error: [31mWorker 27344 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Wed Jul 23 2025 15:37:20 [SERVER-NAME] error: [31mWorker 40232 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Wed Jul 23 2025 15:37:20 [SERVER-NAME] error: [31mWorker 16956 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Wed Jul 23 2025 15:37:20 [SERVER-NAME] error: [31mWorker 42568 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Wed Jul 23 2025 15:37:20 [SERVER-NAME] error: [31mWorker 33228 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Wed Jul 23 2025 15:37:20 [SERVER-NAME] error: [31mWorker 39164 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Wed Jul 23 2025 15:37:21 [SERVER-NAME] error: [31mWorker 25392 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Wed Jul 23 2025 15:37:21 [SERVER-NAME] error: [31mWorker 9204 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Wed Jul 23 2025 15:37:21 [SERVER-NAME] error: [31mWorker 26092 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Wed Jul 23 2025 15:37:21 [SERVER-NAME] error: [31mWorker 28468 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000

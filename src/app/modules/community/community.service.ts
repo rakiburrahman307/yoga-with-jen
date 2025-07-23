@@ -6,6 +6,7 @@ import { sendNotifications } from '../../../helpers/notificationsHelper';
 import { User } from '../user/user.model';
 import { Comment } from '../comments/comments.model';
 import QueryBuilder from '../../builder/QueryBuilder';
+import { USER_ROLES } from '../../../enums/user';
 
 const createPostToDb = async (userId: string, content: string): Promise<ICommunityPost> => {
      const newPost = new Community({
@@ -102,13 +103,13 @@ const likePost = async (postId: string, userId: string) => {
           },
           { new: true, runValidators: true },
      );
-      if (updatedComment) {
-           await sendNotifications({
-                receiver: updatedComment.userId,
-                message: `User '${user.name}' liked your comment`,
-                type: 'MESSAGE',
-           });
-      }
+     if (updatedComment) {
+          await sendNotifications({
+               receiver: updatedComment.userId,
+               message: `User '${user.name}' liked your comment`,
+               type: 'MESSAGE',
+          });
+     }
      if (!updatedComment) {
           const unlikedComment = await Community.findOneAndUpdate(
                { _id: postId, likedBy: { $in: [userId] } },
@@ -172,6 +173,11 @@ const getAnalysis = async () => {
 
      // 1. Top users by matTime (convert matTime string to number for sorting)
      const topByMatTimePromise = User.aggregate([
+          {
+               $match: {
+                    role: USER_ROLES.USER,
+               },
+          },
           {
                $addFields: {
                     matTimeNum: { $toDouble: '$matTime' }, // convert matTime string to double
