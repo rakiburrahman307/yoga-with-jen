@@ -1,0 +1,11 @@
+Sat Jul 26 2025 15:3:7 [SERVER-NAME] error: 10.10.7.104 - POST /api/v1/auth/forget-password 400 - 14.057 ms
+Sat Jul 26 2025 15:4:59 [SERVER-NAME] error: 10.10.7.104 - POST /api/v1/auth/forget-password 400 - 3.081 ms
+Sat Jul 26 2025 15:13:32 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/notifications?page=1&limit=30 403 - 17.871 ms
+Sat Jul 26 2025 15:13:32 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/today 403 - 19.321 ms
+Sat Jul 26 2025 15:13:32 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/comingSoon/latest 403 - 20.311 ms
+Sat Jul 26 2025 15:13:32 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/dailyInspiration/letest 403 - 20.036 ms
+Sat Jul 26 2025 15:13:32 [SERVER-NAME] error: 10.10.7.104 - GET /api/v1/admin/challenge-category/get-all-challenge-category-for-user 403 - 11.225 ms
+Sat Jul 26 2025 15:20:43 [SERVER-NAME] error: 10.10.7.104 - POST /api/v1/auth/forgot-password 404 - 0.557 ms
+Sat Jul 26 2025 15:20:47 [SERVER-NAME] error: 10.10.7.104 - POST /api/v1/auth/forgot-password 404 - 1.213 ms
+Sat Jul 26 2025 15:20:54 [SERVER-NAME] error: 10.10.7.104 - POST /api/v1/auth/forgot-password 404 - 0.810 ms
+Sat Jul 26 2025 15:21:51 [SERVER-NAME] error: 10.10.7.104 - POST /api/v1/auth/forget-password 400 - 3.353 ms

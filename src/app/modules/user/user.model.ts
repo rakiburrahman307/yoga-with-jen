@@ -196,6 +196,9 @@ userSchema.pre('aggregate', function (next) {
      this.pipeline().unshift({ $match: { isDeleted: { $ne: true } } });
      next();
 });
-
+// Add these indexes to your User schema or create them manually
+userSchema.index({ isFreeTrial: 1, trialExpireAt: 1 });
+userSchema.index({ isFreeTrial: 1, hasAccess: 1, trialExpireAt: 1 });
+userSchema.index({ trialExpireAt: 1 });
 // Export the user model
 export const User = model<IUser, UserModel>('User', userSchema);

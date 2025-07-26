@@ -96,3 +96,121 @@ Sat Jul 26 2025 12:18:1 [SERVER-NAME] info: [32m🚀 Database connected success
 Sat Jul 26 2025 12:18:1 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
 Sat Jul 26 2025 12:18:1 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
 Sat Jul 26 2025 12:18:11 [SERVER-NAME] info: [34mSIGINT received. Shutting down gracefully...[39m
+Sat Jul 26 2025 12:19:32 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jul 26 2025 12:19:32 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jul 26 2025 12:19:32 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sat Jul 26 2025 12:19:32 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
+Sat Jul 26 2025 12:39:0 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/users/profile 204 - 1.747 ms
+Sat Jul 26 2025 12:39:0 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/category 204 - 0.212 ms
+Sat Jul 26 2025 12:39:0 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.149 ms
+Sat Jul 26 2025 12:39:0 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/quotation 204 - 0.141 ms
+Sat Jul 26 2025 12:39:0 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/today 204 - 0.071 ms
+Sat Jul 26 2025 12:39:0 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/comingSoon/latest 204 - 0.048 ms
+Sat Jul 26 2025 12:39:0 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/dailyInspiration/letest 204 - 0.062 ms
+Sat Jul 26 2025 12:39:0 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/challenge-category/get-all-challenge-category-for-user 204 - 0.057 ms
+Sat Jul 26 2025 12:39:2 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/users/profile 204 - 0.097 ms
+Sat Jul 26 2025 12:39:2 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/category 204 - 0.076 ms
+Sat Jul 26 2025 12:39:2 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.070 ms
+Sat Jul 26 2025 12:39:2 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/quotation 204 - 0.047 ms
+Sat Jul 26 2025 12:39:2 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/today 204 - 0.039 ms
+Sat Jul 26 2025 12:39:2 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/comingSoon/latest 204 - 0.048 ms
+Sat Jul 26 2025 12:39:2 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/dailyInspiration/letest 204 - 0.035 ms
+Sat Jul 26 2025 12:39:2 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/challenge-category/get-all-challenge-category-for-user 204 - 0.031 ms
+Sat Jul 26 2025 12:39:3 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/users/profile 204 - 0.065 ms
+Sat Jul 26 2025 12:39:3 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.069 ms
+Sat Jul 26 2025 12:39:3 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/quotation 204 - 0.082 ms
+Sat Jul 26 2025 12:39:3 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/today 204 - 0.054 ms
+Sat Jul 26 2025 12:39:3 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/comingSoon/latest 204 - 0.170 ms
+Sat Jul 26 2025 12:39:3 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/dailyInspiration/letest 204 - 0.048 ms
+Sat Jul 26 2025 12:39:3 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/category 204 - 0.055 ms
+Sat Jul 26 2025 12:39:3 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/challenge-category/get-all-challenge-category-for-user 204 - 0.168 ms
+Sat Jul 26 2025 12:39:3 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/users/profile 204 - 0.067 ms
+Sat Jul 26 2025 12:39:3 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.038 ms
+Sat Jul 26 2025 12:39:3 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/quotation 204 - 0.040 ms
+Sat Jul 26 2025 12:39:3 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/today 204 - 0.041 ms
+Sat Jul 26 2025 12:39:3 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/comingSoon/latest 204 - 0.045 ms
+Sat Jul 26 2025 12:39:3 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/dailyInspiration/letest 204 - 0.079 ms
+Sat Jul 26 2025 12:39:3 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/category 204 - 0.090 ms
+Sat Jul 26 2025 12:39:3 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/challenge-category/get-all-challenge-category-for-user 204 - 0.151 ms
+Sat Jul 26 2025 12:39:28 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/users/profile 204 - 0.078 ms
+Sat Jul 26 2025 12:39:28 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.039 ms
+Sat Jul 26 2025 12:39:28 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/quotation 204 - 0.038 ms
+Sat Jul 26 2025 12:39:28 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/today 204 - 0.031 ms
+Sat Jul 26 2025 12:39:28 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/comingSoon/latest 204 - 0.032 ms
+Sat Jul 26 2025 12:39:28 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/dailyInspiration/letest 204 - 0.085 ms
+Sat Jul 26 2025 12:39:28 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/category 204 - 0.070 ms
+Sat Jul 26 2025 12:39:28 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/challenge-category/get-all-challenge-category-for-user 204 - 0.102 ms
+Sat Jul 26 2025 12:40:1 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/users/profile 204 - 0.065 ms
+Sat Jul 26 2025 12:40:1 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.036 ms
+Sat Jul 26 2025 12:40:1 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/quotation 204 - 0.048 ms
+Sat Jul 26 2025 12:40:1 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/today 204 - 0.031 ms
+Sat Jul 26 2025 12:40:1 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/comingSoon/latest 204 - 0.041 ms
+Sat Jul 26 2025 12:40:1 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/dailyInspiration/letest 204 - 0.028 ms
+Sat Jul 26 2025 12:40:1 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/category 204 - 0.047 ms
+Sat Jul 26 2025 12:40:1 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/challenge-category/get-all-challenge-category-for-user 204 - 0.033 ms
+Sat Jul 26 2025 12:40:41 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/users/profile 204 - 0.065 ms
+Sat Jul 26 2025 12:40:41 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.041 ms
+Sat Jul 26 2025 12:40:41 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/quotation 204 - 0.039 ms
+Sat Jul 26 2025 12:40:41 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/today 204 - 0.039 ms
+Sat Jul 26 2025 12:40:41 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/comingSoon/latest 204 - 0.032 ms
+Sat Jul 26 2025 12:40:41 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/dailyInspiration/letest 204 - 0.034 ms
+Sat Jul 26 2025 12:40:41 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/category 204 - 0.030 ms
+Sat Jul 26 2025 12:40:41 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/challenge-category/get-all-challenge-category-for-user 204 - 0.040 ms
+Sat Jul 26 2025 12:40:48 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.179 ms
+Sat Jul 26 2025 12:40:48 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/quotation 204 - 0.073 ms
+Sat Jul 26 2025 12:40:48 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/today 204 - 0.068 ms
+Sat Jul 26 2025 12:40:48 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/comingSoon/latest 204 - 0.201 ms
+Sat Jul 26 2025 12:40:48 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/category 204 - 0.281 ms
+Sat Jul 26 2025 12:40:48 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/challenge-category/get-all-challenge-category-for-user 204 - 0.056 ms
+Sat Jul 26 2025 12:40:48 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/users/profile 204 - 0.096 ms
+Sat Jul 26 2025 12:40:48 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/dailyInspiration/letest 204 - 0.035 ms
+Sat Jul 26 2025 12:40:51 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/users/profile 204 - 0.087 ms
+Sat Jul 26 2025 12:40:51 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/category 204 - 0.119 ms
+Sat Jul 26 2025 12:40:51 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.044 ms
+Sat Jul 26 2025 12:40:51 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/quotation 204 - 0.040 ms
+Sat Jul 26 2025 12:40:51 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/today 204 - 0.037 ms
+Sat Jul 26 2025 12:40:51 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/comingSoon/latest 204 - 0.035 ms
+Sat Jul 26 2025 12:40:51 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/dailyInspiration/letest 204 - 0.061 ms
+Sat Jul 26 2025 12:40:51 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/challenge-category/get-all-challenge-category-for-user 204 - 0.076 ms
+Sat Jul 26 2025 12:41:47 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/users/profile 204 - 0.090 ms
+Sat Jul 26 2025 12:41:47 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.048 ms
+Sat Jul 26 2025 12:41:47 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/quotation 204 - 0.064 ms
+Sat Jul 26 2025 12:41:47 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/today 204 - 0.035 ms
+Sat Jul 26 2025 12:41:47 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/comingSoon/latest 204 - 0.057 ms
+Sat Jul 26 2025 12:41:47 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/dailyInspiration/letest 204 - 0.057 ms
+Sat Jul 26 2025 12:41:47 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/category 204 - 0.045 ms
+Sat Jul 26 2025 12:41:47 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/challenge-category/get-all-challenge-category-for-user 204 - 0.042 ms
+Sat Jul 26 2025 12:42:37 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/auth/login 204 - 0.169 ms
+Sat Jul 26 2025 12:43:51 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/auth/login 204 - 0.067 ms
+Sat Jul 26 2025 12:47:5 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jul 26 2025 12:47:5 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jul 26 2025 12:47:5 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sat Jul 26 2025 12:47:5 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
+Sat Jul 26 2025 12:47:8 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jul 26 2025 12:47:8 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jul 26 2025 12:47:8 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sat Jul 26 2025 12:47:8 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
+Sat Jul 26 2025 12:47:9 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jul 26 2025 12:47:9 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jul 26 2025 12:47:9 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sat Jul 26 2025 12:47:9 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
+Sat Jul 26 2025 12:47:25 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/auth/login 204 - 1.018 ms
+Sat Jul 26 2025 12:47:26 [SERVER-NAME] info: 10.10.7.104 - POST /api/v1/auth/login 200 - 266.941 ms
+Sat Jul 26 2025 12:47:55 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/auth/login 204 - 0.099 ms
+Sat Jul 26 2025 12:47:55 [SERVER-NAME] info: 10.10.7.104 - POST /api/v1/auth/login 200 - 214.918 ms
+Sat Jul 26 2025 12:48:34 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/auth/login 204 - 0.050 ms
+Sat Jul 26 2025 12:48:35 [SERVER-NAME] info: 10.10.7.104 - POST /api/v1/auth/login 200 - 218.757 ms
+Sat Jul 26 2025 12:48:35 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/users/profile 204 - 0.154 ms
+Sat Jul 26 2025 12:48:35 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/comingSoon/latest 204 - 0.267 ms
+Sat Jul 26 2025 12:48:35 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/challenge-category/get-all-challenge-category-for-user 204 - 0.117 ms
+Sat Jul 26 2025 12:48:35 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.079 ms
+Sat Jul 26 2025 12:48:35 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/quotation 204 - 0.068 ms
+Sat Jul 26 2025 12:48:35 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/today 204 - 0.304 ms
+Sat Jul 26 2025 12:48:35 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/dailyInspiration/letest 204 - 0.137 ms
+Sat Jul 26 2025 12:48:35 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/category 204 - 0.066 ms
+Sat Jul 26 2025 12:48:35 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/users/profile 200 - 15.798 ms
+Sat Jul 26 2025 12:48:35 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/quotation 304 - 24.485 ms
+Sat Jul 26 2025 12:48:35 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/category 304 - 21.692 ms
+Sat Jul 26 2025 12:48:35 [SERVER-NAME] info: 10.10.7.104 - GET //thumbnail/yoga-workout-people-studio-class-260nw-2535975187-1752212019755.jpg 200 - 1.786 ms
+Sat Jul 26 2025 12:48:35 [SERVER-NAME] info: 10.10.7.104 - GET //thumbnail/class-meditation-hands-woman-nature-260nw-2603763821-1752291385710.jpg 200 - 3.110 ms
+Sat Jul 26 2025 12:48:37 [SERVER-NAME] info: 10.10.7.104 - GET //thumbnail/woman-yoga-video-laptop-on-260nw-2518833075-1751798188490.jpg 200 - 6.212 ms

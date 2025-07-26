@@ -9,12 +9,13 @@ import { USER_ROLES } from '../enums/user';
 import { DailyInspiration } from '../app/modules/admin/dailyInspiration/dailyInspiration.model';
 import { CreatePost } from '../app/modules/admin/createPost/createPost.model';
 import { ChallengeVideo } from '../app/modules/admin/challenges/challenges.model';
+import mongoose from 'mongoose';
 
 // ====== CRON JOB SCHEDULERS ======
 // 1. Check for users expiring in 24 hours (send warning email)
 const scheduleTrialWarningCheck = () => {
      // Run every day at 9:00 AM '0 9 * * *'
-     cron.schedule('*/1 * * * *', async () => {
+     cron.schedule('0 9 * * *', async () => {
           try {
                console.log('🔔 Checking for trials expiring in 24 hours...');
 
@@ -64,7 +65,10 @@ const scheduleTrialExpiryCheck = () => {
      // Run every hour '0 * * * *'
      cron.schedule('*/1 * * * *', async () => {
           try {
-               console.log('⏰ Checking for expired free trials...');
+               if (mongoose.connection.readyState !== 1) {
+                    console.log('❌ MongoDB not connected, skipping trial check');
+                    return;
+               }
 
                const now = new Date();
 
@@ -117,7 +121,7 @@ const scheduleTrialExpiryCheck = () => {
 // 3. Check for users expiring in 3 days (early warning)
 const scheduleEarlyWarningCheck = () => {
      // Run every day at 10:00 AM '0 10 * * *'
-     cron.schedule('*/1 * * * *', async () => {
+     cron.schedule('0 10 * * *', async () => {
           try {
                console.log('🔔 Checking for trials expiring in 3 days...');
 
