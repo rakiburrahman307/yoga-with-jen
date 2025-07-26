@@ -19,7 +19,7 @@ app.use(Morgan.errorHandler);
 //body parser
 app.use(
      cors({
-          origin: '*',
+          origin: ['https://web.yogawithjen.life', 'https://www.web.yogawithjen.life', 'https://dashboard.yogawithjen.life', 'https://www.dashboard.yogawithjen.life'],
           credentials: true,
      }),
 );

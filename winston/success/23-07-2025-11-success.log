@@ -1,3 +1,0 @@
-Wed Jul 23 2025 11:2:48 [SERVER-NAME] info: 10.10.7.33 - GET /api/v1/admin/challenge-category/get-all-challenge-category-for-user 200 - 24.782 ms
-Wed Jul 23 2025 11:18:33 [SERVER-NAME] info: 10.10.7.33 - GET /api/v1/challenge/get-challenges-videos-for-users/6871f82c5d166b8629faac54 200 - 33.329 ms
-Wed Jul 23 2025 11:38:24 [SERVER-NAME] info: 10.10.7.33 - GET /api/v1/challenge/get-challenges-videos-for-users/6871f82c5d166b8629faac54 200 - 9.314 ms

@@ -30,7 +30,6 @@ const handleStripeWebhook = async (req: Request, res: Response) => {
      // Extract event data and type
      const data = event.data.object as Stripe.Subscription | Stripe.Account;
      const eventType = event.type;
-     console.log('this is event type', eventType);
      // Handle the event based on its type
      try {
           switch (eventType) {
