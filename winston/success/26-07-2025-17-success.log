@@ -1,0 +1,59 @@
+Sat Jul 26 2025 17:0:13 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/auth/forget-password 204 - 0.051 ms
+Sat Jul 26 2025 17:0:13 [SERVER-NAME] info: 10.10.7.104 - POST /api/v1/auth/forget-password 200 - 7.680 ms
+Sat Jul 26 2025 17:0:19 [SERVER-NAME] info: Mail send successfully
+Sat Jul 26 2025 17:4:5 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/auth/forget-password 204 - 0.163 ms
+Sat Jul 26 2025 17:4:5 [SERVER-NAME] info: 10.10.7.104 - POST /api/v1/auth/forget-password 200 - 6.458 ms
+Sat Jul 26 2025 17:4:11 [SERVER-NAME] info: Mail send successfully
+Sat Jul 26 2025 17:7:1 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/auth/verify-email 204 - 0.223 ms
+Sat Jul 26 2025 17:7:1 [SERVER-NAME] info: 10.10.7.104 - POST /api/v1/auth/verify-email 200 - 14.997 ms
+Sat Jul 26 2025 17:8:31 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/auth/reset-password 204 - 0.172 ms
+Sat Jul 26 2025 17:8:32 [SERVER-NAME] info: 10.10.7.104 - POST /api/v1/auth/reset-password 200 - 215.772 ms
+Sat Jul 26 2025 17:12:10 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/auth/forget-password 204 - 0.068 ms
+Sat Jul 26 2025 17:12:21 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/auth/forget-password 204 - 0.133 ms
+Sat Jul 26 2025 17:12:21 [SERVER-NAME] info: 10.10.7.104 - POST /api/v1/auth/forget-password 200 - 6.979 ms
+Sat Jul 26 2025 17:12:28 [SERVER-NAME] info: Mail send successfully
+Sat Jul 26 2025 17:12:55 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/auth/verify-email 204 - 0.100 ms
+Sat Jul 26 2025 17:12:55 [SERVER-NAME] info: 10.10.7.104 - POST /api/v1/auth/verify-email 200 - 8.553 ms
+Sat Jul 26 2025 17:16:59 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jul 26 2025 17:16:59 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jul 26 2025 17:17:0 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sat Jul 26 2025 17:17:0 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
+Sat Jul 26 2025 17:17:5 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jul 26 2025 17:17:6 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jul 26 2025 17:17:6 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sat Jul 26 2025 17:17:6 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
+Sat Jul 26 2025 17:37:11 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/auth/resend-otp 204 - 0.872 ms
+Sat Jul 26 2025 17:37:11 [SERVER-NAME] info: 10.10.7.104 - POST /api/v1/auth/resend-otp 200 - 43.284 ms
+Sat Jul 26 2025 17:37:17 [SERVER-NAME] info: Mail send successfully
+Sat Jul 26 2025 17:37:52 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/auth/resend-otp 204 - 0.102 ms
+Sat Jul 26 2025 17:37:52 [SERVER-NAME] info: 10.10.7.104 - POST /api/v1/auth/resend-otp 200 - 10.213 ms
+Sat Jul 26 2025 17:37:53 [SERVER-NAME] info: 10.10.7.104 - POST /api/v1/auth/resend-otp 200 - 6.195 ms
+Sat Jul 26 2025 17:37:58 [SERVER-NAME] info: Mail send successfully
+Sat Jul 26 2025 17:37:59 [SERVER-NAME] info: Mail send successfully
+Sat Jul 26 2025 17:38:37 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/auth/verify-email 204 - 0.063 ms
+Sat Jul 26 2025 17:38:57 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/auth/verify-email 204 - 0.309 ms
+Sat Jul 26 2025 17:38:57 [SERVER-NAME] info: 10.10.7.104 - POST /api/v1/auth/verify-email 200 - 20.954 ms
+Sat Jul 26 2025 17:39:5 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/auth/reset-password 204 - 0.128 ms
+Sat Jul 26 2025 17:39:6 [SERVER-NAME] info: 10.10.7.104 - POST /api/v1/auth/reset-password 200 - 223.628 ms
+Sat Jul 26 2025 17:39:14 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/auth/login 204 - 0.567 ms
+Sat Jul 26 2025 17:39:14 [SERVER-NAME] info: 10.10.7.104 - POST /api/v1/auth/login 200 - 261.107 ms
+Sat Jul 26 2025 17:39:15 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/users/profile 204 - 0.068 ms
+Sat Jul 26 2025 17:39:15 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.048 ms
+Sat Jul 26 2025 17:39:15 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/quotation 204 - 0.049 ms
+Sat Jul 26 2025 17:39:15 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/today 204 - 0.053 ms
+Sat Jul 26 2025 17:39:15 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/comingSoon/latest 204 - 0.039 ms
+Sat Jul 26 2025 17:39:15 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/dailyInspiration/letest 204 - 0.052 ms
+Sat Jul 26 2025 17:39:15 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/category 204 - 0.042 ms
+Sat Jul 26 2025 17:39:15 [SERVER-NAME] info: 10.10.7.104 - OPTIONS /api/v1/admin/challenge-category/get-all-challenge-category-for-user 204 - 0.035 ms
+Sat Jul 26 2025 17:39:15 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/users/profile 200 - 26.873 ms
+Sat Jul 26 2025 17:39:15 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/quotation 200 - 26.696 ms
+Sat Jul 26 2025 17:39:15 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/dailyInspiration/letest 200 - 33.224 ms
+Sat Jul 26 2025 17:39:15 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/today 200 - 43.994 ms
+Sat Jul 26 2025 17:39:15 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/comingSoon/latest 200 - 38.303 ms
+Sat Jul 26 2025 17:39:15 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/notifications?page=1&limit=30 200 - 57.944 ms
+Sat Jul 26 2025 17:39:15 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/admin/challenge-category/get-all-challenge-category-for-user 200 - 26.195 ms
+Sat Jul 26 2025 17:39:15 [SERVER-NAME] info: 10.10.7.104 - GET /api/v1/category 200 - 27.803 ms
+Sat Jul 26 2025 17:42:50 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Jul 26 2025 17:42:50 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Jul 26 2025 17:42:50 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sat Jul 26 2025 17:42:50 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.37:7000[49m
