@@ -9,6 +9,8 @@ const VideoSchema = new Schema<IComeingSoon>(
           thumbnailUrl: { type: String, required: true },
           videoUrl: { type: String, required: true },
           description: { type: String, required: true },
+          isReady: { type: String, enum: ['arrivedSoon', 'ready'], default: 'arrivedSoon' },
+          redirectUrl: { type: String, default: '' },
           status: { type: String, enum: ['active', 'inactive'], default: 'active' },
      },
      { timestamps: true },

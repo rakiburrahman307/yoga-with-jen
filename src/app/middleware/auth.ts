@@ -25,7 +25,7 @@ const auth =
                     let verifyUser: any;
                     try {
                          verifyUser = verifyToken(token, config.jwt.jwt_secret as Secret);
-                    } catch (error) {
+                    } catch {
                          throw new AppError(StatusCodes.UNAUTHORIZED, 'You are not authorized !!');
                     }
 
@@ -40,7 +40,7 @@ const auth =
                     }
 
                     if (user?.isDeleted) {
-                         throw new AppError(StatusCodes.FORBIDDEN, 'This user accaunt is deleted !!');
+                         throw new AppError(StatusCodes.FORBIDDEN, 'This user account is deleted !!');
                     }
                     // Check if tokenVersion matches
                     // if (verifyUser.tokenVersion !== user.tokenVersion) {
