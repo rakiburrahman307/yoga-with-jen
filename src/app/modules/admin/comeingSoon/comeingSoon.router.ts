@@ -18,6 +18,7 @@ router.get('/latest/:id', auth(USER_ROLES.USER), ComeingSoonController.singleCom
 // Route to get a specific "Coming Soon" entry by ID
 router.get('/:id', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.SUPER_ADMIN), ComeingSoonController.singleComingSoon);
 
+router.patch('/isReady/:id', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.SUPER_ADMIN), ComeingSoonController.updateIsReady);
 // Route to update an existing "Coming Soon" entry by ID
 router.patch('/:id', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.SUPER_ADMIN), fileUploadHandlerbunny, ComeingSoonController.updateComingSoon);
 
