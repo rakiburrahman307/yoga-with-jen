@@ -70,7 +70,7 @@ const updateComingSoon = async (id: string, payload: Partial<IComeingSoon>) => {
      if (payload.videoUrl && isExistVideo.videoUrl) {
           try {
                await BunnyStorageHandeler.deleteFromBunny(isExistVideo.videoUrl);
-          } catch (error) {
+          } catch {
                throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Error deleting old video from BunnyCDN');
           }
      }
@@ -78,7 +78,7 @@ const updateComingSoon = async (id: string, payload: Partial<IComeingSoon>) => {
      if (payload.thumbnailUrl && isExistVideo.thumbnailUrl) {
           try {
                await BunnyStorageHandeler.deleteFromBunny(isExistVideo.thumbnailUrl);
-          } catch (error) {
+          } catch {
                throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Error deleting old thumbnail from BunnyCDN');
           }
      }
@@ -119,7 +119,15 @@ const getCommingSoonLetest = async (userId: string) => {
      );
      return postsWithFavorites;
 };
-
+const updateIsReady = async (id: string, payload: { isReady: 'arrivedSoon' | 'ready' }) => {
+     const result = await ComeingSoon.findByIdAndUpdate(id, payload, {
+          new: true,
+     });
+     if (!result) {
+          throw new AppError(StatusCodes.NOT_FOUND, 'Coming soon not found');
+     }
+     return result;
+};
 // Exporting the service functions to be used in the controller
 export const ComeingSoonService = {
      createComingSoon,
@@ -129,4 +137,5 @@ export const ComeingSoonService = {
      updateComingSoon,
      getSingleComingSoon,
      deleteComingSoon,
+     updateIsReady
 };

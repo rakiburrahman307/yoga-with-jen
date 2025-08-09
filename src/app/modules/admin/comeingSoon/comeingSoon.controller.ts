@@ -105,6 +105,18 @@ const deleteComingSoon = catchAsync(async (req, res) => {
      });
 });
 
+const updateIsReady = catchAsync(async (req, res) => {
+     const result = await ComeingSoonService.updateIsReady(req.params.id, req.body);
+
+     // Sending the response after successful deletion
+     sendResponse(res, {
+          statusCode: StatusCodes.OK,
+          success: true,
+          message: 'Coming Soon is ready successfully',
+          data: result,
+     });
+});
+
 export const ComeingSoonController = {
      createComingSoon,
      getAllComingSoon,
@@ -113,4 +125,5 @@ export const ComeingSoonController = {
      singleComingSoon,
      updateComingSoon,
      deleteComingSoon,
+     updateIsReady
 };
