@@ -1,9 +1,0 @@
-Mon Aug 11 2025 16:10:18 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/auth/login 204 - 1.910 ms
-Mon Aug 11 2025 16:10:25 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/auth/login 204 - 0.169 ms
-Mon Aug 11 2025 16:35:28 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/auth/login 204 - 0.573 ms
-Mon Aug 11 2025 16:52:42 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/auth/login 204 - 0.198 ms
-Mon Aug 11 2025 16:53:50 [SERVER-NAME] info: [34mSIGINT received. Shutting down gracefully...[39m
-Mon Aug 11 2025 16:54:11 [SERVER-NAME] info: [32mConfig validation successful.[39m
-Mon Aug 11 2025 16:54:11 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
-Mon Aug 11 2025 16:54:11 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
-Mon Aug 11 2025 16:54:11 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m

@@ -7,7 +7,7 @@ import { StatusCodes } from 'http-status-codes';
 import AppError from '../../../errors/AppError';
 import config from '../../../config';
 
-const subscriptionDetailsFromDB = async (id: string): Promise<{ subscription: ISubscription | {} }> => {
+const subscriptionDetailsFromDB = async (id: string): Promise<{ subscription: ISubscription | object }> => {
      const subscription = await Subscription.findOne({ userId: id }).populate('package', 'title credit duration').lean();
 
      if (!subscription) {
@@ -24,7 +24,7 @@ const subscriptionDetailsFromDB = async (id: string): Promise<{ subscription: IS
      return { subscription };
 };
 
-const companySubscriptionDetailsFromDB = async (id: string): Promise<{ subscription: ISubscription | {} }> => {
+const companySubscriptionDetailsFromDB = async (id: string): Promise<{ subscription: ISubscription | object }> => {
      const subscription = await Subscription.findOne({ userId: id }).populate('package', 'title credit').lean();
      if (!subscription) {
           return { subscription: {} }; // Return empty object if no subscription found
