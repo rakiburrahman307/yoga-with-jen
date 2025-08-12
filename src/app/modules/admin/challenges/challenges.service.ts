@@ -9,7 +9,7 @@ import { Video } from '../videosManagement/videoManagement.model';
 import { ChallengeCategory } from '../challengesCategory/challengesCategory.model';
 import { User } from '../../user/user.model';
 import mongoose from 'mongoose';
-import { checkNextVideoUnlock, checkNextVideoUnlockForChallenge } from '../../../../helpers/checkNExtVideoUnlocak';
+import { checkNextVideoUnlockForChallenge } from '../../../../helpers/checkNExtVideoUnlocak';
 
 // Function to create a new "create Challenge" entry
 const createChallenge = async (payload: IChallenge) => {
@@ -113,7 +113,7 @@ const updateChallenge = async (id: string, payload: Partial<IChallenge>) => {
      if (payload.videoUrl && isExistVideo.videoUrl) {
           try {
                await BunnyStorageHandeler.deleteFromBunny(isExistVideo.videoUrl);
-          } catch (error) {
+          } catch  {
                throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Error deleting old video from BunnyCDN');
           }
      }
@@ -121,7 +121,7 @@ const updateChallenge = async (id: string, payload: Partial<IChallenge>) => {
      if (payload.thumbnailUrl && isExistVideo.thumbnailUrl) {
           try {
                await BunnyStorageHandeler.deleteFromBunny(isExistVideo.thumbnailUrl);
-          } catch (error) {
+          } catch  {
                throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Error deleting old thumbnail from BunnyCDN');
           }
      }
@@ -148,7 +148,7 @@ const deleteChallenge = async (id: string) => {
                if (result.thumbnailUrl) {
                     await BunnyStorageHandeler.deleteFromBunny(result.thumbnailUrl);
                }
-          } catch (error) {
+          } catch  {
                throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Error deleting video from BunnyCDN');
           }
      }

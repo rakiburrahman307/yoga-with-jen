@@ -19,7 +19,7 @@ const getTodayRandomVideo = async (userId: string) => {
           activeVideo = result.length > 0 ? result[0] : null;
           activeVideoPickedAt = now;
      }
-     const isFev = await getFevVideosOrNot(activeVideo._id, userId);
+     const isFev = await getFevVideosOrNot(activeVideo?._id, userId);
      activeVideo = {
           ...activeVideo,
           isFev,

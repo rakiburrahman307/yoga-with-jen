@@ -1,0 +1,178 @@
+Tue Aug 12 2025 13:1:28 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.258 ms
+Tue Aug 12 2025 13:1:28 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.049 ms
+Tue Aug 12 2025 13:1:28 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/community/leaderboard 204 - 0.058 ms
+Tue Aug 12 2025 13:1:28 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/community?page=1&limit=10 204 - 0.069 ms
+Tue Aug 12 2025 13:1:28 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 11.657 ms
+Tue Aug 12 2025 13:1:28 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/community/leaderboard 304 - 23.576 ms
+Tue Aug 12 2025 13:1:28 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/community?page=1&limit=10 304 - 26.860 ms
+Tue Aug 12 2025 13:1:28 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 29.599 ms
+Tue Aug 12 2025 13:1:28 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/post/letest 204 - 0.040 ms
+Tue Aug 12 2025 13:1:28 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/post/letest 200 - 4.037 ms
+Tue Aug 12 2025 13:2:42 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/users/profile 200 - 4.220 ms
+Tue Aug 12 2025 13:2:45 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/admin/quotation/managment 200 - 5.298 ms
+Tue Aug 12 2025 13:2:46 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/comingSoon/latest 200 - 6.885 ms
+Tue Aug 12 2025 13:2:46 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/category 200 - 11.143 ms
+Tue Aug 12 2025 13:2:46 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/dailyInspiration/letest 200 - 7.210 ms
+Tue Aug 12 2025 13:2:46 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/admin/challenge-category/get-all-challenge-category-for-user 200 - 4.772 ms
+Tue Aug 12 2025 13:2:47 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/notifications?page=1 200 - 10.357 ms
+Tue Aug 12 2025 13:2:47 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/notifications 200 - 11.093 ms
+Tue Aug 12 2025 13:3:11 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/community?page=1&limit=10 204 - 0.039 ms
+Tue Aug 12 2025 13:3:11 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.031 ms
+Tue Aug 12 2025 13:3:11 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.033 ms
+Tue Aug 12 2025 13:3:11 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/community/leaderboard 204 - 0.031 ms
+Tue Aug 12 2025 13:3:11 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 8.939 ms
+Tue Aug 12 2025 13:3:11 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/community?page=1&limit=10 304 - 13.915 ms
+Tue Aug 12 2025 13:3:11 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/community/leaderboard 304 - 14.562 ms
+Tue Aug 12 2025 13:3:11 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 19.412 ms
+Tue Aug 12 2025 13:3:11 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/post/letest 204 - 0.062 ms
+Tue Aug 12 2025 13:3:11 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/post/letest 200 - 4.115 ms
+Tue Aug 12 2025 13:4:11 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.147 ms
+Tue Aug 12 2025 13:4:11 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.058 ms
+Tue Aug 12 2025 13:4:11 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/community/leaderboard 204 - 0.049 ms
+Tue Aug 12 2025 13:4:11 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/community?page=1&limit=10 204 - 0.032 ms
+Tue Aug 12 2025 13:4:11 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 13.240 ms
+Tue Aug 12 2025 13:4:11 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/community/leaderboard 304 - 21.774 ms
+Tue Aug 12 2025 13:4:11 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/community?page=1&limit=10 304 - 24.014 ms
+Tue Aug 12 2025 13:4:11 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 29.701 ms
+Tue Aug 12 2025 13:4:11 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/post/letest 204 - 0.044 ms
+Tue Aug 12 2025 13:4:11 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/post/letest 200 - 3.770 ms
+Tue Aug 12 2025 13:5:32 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.071 ms
+Tue Aug 12 2025 13:5:32 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.040 ms
+Tue Aug 12 2025 13:5:32 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/community/leaderboard 204 - 0.042 ms
+Tue Aug 12 2025 13:5:32 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/community?page=1&limit=10 204 - 0.035 ms
+Tue Aug 12 2025 13:5:32 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 11.184 ms
+Tue Aug 12 2025 13:5:32 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/community/leaderboard 304 - 19.690 ms
+Tue Aug 12 2025 13:5:32 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/community?page=1&limit=10 304 - 20.436 ms
+Tue Aug 12 2025 13:5:32 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 29.420 ms
+Tue Aug 12 2025 13:5:32 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/post/letest 204 - 0.041 ms
+Tue Aug 12 2025 13:5:32 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/post/letest 200 - 7.255 ms
+Tue Aug 12 2025 13:6:1 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/users/profile 200 - 4.894 ms
+Tue Aug 12 2025 13:6:4 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/admin/quotation/managment 200 - 5.203 ms
+Tue Aug 12 2025 13:6:5 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/comingSoon/latest 200 - 6.543 ms
+Tue Aug 12 2025 13:6:6 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/category 200 - 4.627 ms
+Tue Aug 12 2025 13:6:7 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/dailyInspiration/letest 200 - 3.213 ms
+Tue Aug 12 2025 13:6:7 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/admin/challenge-category/get-all-challenge-category-for-user 200 - 5.899 ms
+Tue Aug 12 2025 13:6:7 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/notifications?page=1 200 - 9.187 ms
+Tue Aug 12 2025 13:6:8 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/notifications 200 - 13.462 ms
+Tue Aug 12 2025 13:7:11 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Aug 12 2025 13:7:11 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Aug 12 2025 13:7:11 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Aug 12 2025 13:7:11 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Tue Aug 12 2025 13:7:30 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Aug 12 2025 13:7:30 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Aug 12 2025 13:7:30 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Aug 12 2025 13:7:30 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Tue Aug 12 2025 13:7:54 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Aug 12 2025 13:7:54 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Aug 12 2025 13:7:54 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Aug 12 2025 13:7:54 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Tue Aug 12 2025 13:8:22 [SERVER-NAME] info: 10.10.7.38 - POST /api/v1/auth/login 200 - 291.474 ms
+Tue Aug 12 2025 13:8:27 [SERVER-NAME] info: 10.10.7.38 - GET /api/v1/admin/challenge-category/get-all-challenge-category-for-user 200 - 17.096 ms
+Tue Aug 12 2025 13:12:1 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/users/profile 200 - 11.549 ms
+Tue Aug 12 2025 13:12:4 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/admin/quotation/managment 200 - 7.180 ms
+Tue Aug 12 2025 13:12:5 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/comingSoon/latest 200 - 6.505 ms
+Tue Aug 12 2025 13:12:6 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/category 200 - 19.098 ms
+Tue Aug 12 2025 13:12:6 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/dailyInspiration/letest 200 - 4.468 ms
+Tue Aug 12 2025 13:12:6 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/admin/challenge-category/get-all-challenge-category-for-user 200 - 12.018 ms
+Tue Aug 12 2025 13:12:6 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/notifications?page=1 200 - 18.444 ms
+Tue Aug 12 2025 13:12:7 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/notifications 200 - 10.027 ms
+Tue Aug 12 2025 13:12:26 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/users/profile 200 - 6.531 ms
+Tue Aug 12 2025 13:12:29 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/admin/quotation/managment 200 - 4.414 ms
+Tue Aug 12 2025 13:12:30 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/comingSoon/latest 200 - 8.391 ms
+Tue Aug 12 2025 13:12:30 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/category 200 - 9.076 ms
+Tue Aug 12 2025 13:12:31 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/dailyInspiration/letest 200 - 7.002 ms
+Tue Aug 12 2025 13:12:32 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/admin/challenge-category/get-all-challenge-category-for-user 200 - 6.140 ms
+Tue Aug 12 2025 13:12:33 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/notifications?page=1 200 - 7.608 ms
+Tue Aug 12 2025 13:12:33 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/notifications 200 - 11.896 ms
+Tue Aug 12 2025 13:12:57 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/users/profile 200 - 7.588 ms
+Tue Aug 12 2025 13:13:0 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/admin/quotation/managment 200 - 2.471 ms
+Tue Aug 12 2025 13:13:0 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/comingSoon/latest 200 - 4.558 ms
+Tue Aug 12 2025 13:13:0 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/category 200 - 10.772 ms
+Tue Aug 12 2025 13:13:1 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/dailyInspiration/letest 200 - 3.648 ms
+Tue Aug 12 2025 13:13:1 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/admin/challenge-category/get-all-challenge-category-for-user 200 - 5.855 ms
+Tue Aug 12 2025 13:13:1 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/notifications?page=1 200 - 7.827 ms
+Tue Aug 12 2025 13:13:2 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/notifications 200 - 11.429 ms
+Tue Aug 12 2025 13:16:31 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/quotation 204 - 3.284 ms
+Tue Aug 12 2025 13:16:31 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/today 204 - 0.519 ms
+Tue Aug 12 2025 13:16:31 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/comingSoon/latest 204 - 0.056 ms
+Tue Aug 12 2025 13:16:31 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/dailyInspiration/letest 204 - 0.054 ms
+Tue Aug 12 2025 13:16:31 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/category 204 - 0.114 ms
+Tue Aug 12 2025 13:16:31 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/challenge-category/get-all-challenge-category-for-user 204 - 0.046 ms
+Tue Aug 12 2025 13:16:31 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/quotation 200 - 18.907 ms
+Tue Aug 12 2025 13:16:31 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/dailyInspiration/letest 200 - 36.489 ms
+Tue Aug 12 2025 13:16:31 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/comingSoon/latest 200 - 44.069 ms
+Tue Aug 12 2025 13:16:31 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/category 200 - 45.199 ms
+Tue Aug 12 2025 13:16:31 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/challenge-category/get-all-challenge-category-for-user 200 - 45.957 ms
+Tue Aug 12 2025 13:17:11 [SERVER-NAME] info: 10.10.7.48 - POST /api/v1/auth/login 200 - 230.917 ms
+Tue Aug 12 2025 13:21:3 [SERVER-NAME] info: 10.10.7.38 - GET /api/v1/admin/challenge-category/get-all-challenge-category-for-user 200 - 41.614 ms
+Tue Aug 12 2025 13:21:40 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Aug 12 2025 13:21:40 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Aug 12 2025 13:21:40 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Aug 12 2025 13:21:40 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Tue Aug 12 2025 13:23:25 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Aug 12 2025 13:23:25 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Aug 12 2025 13:23:25 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Aug 12 2025 13:23:25 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Tue Aug 12 2025 13:23:29 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Aug 12 2025 13:23:29 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Aug 12 2025 13:23:29 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Aug 12 2025 13:23:29 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Tue Aug 12 2025 13:24:3 [SERVER-NAME] info: 10.10.7.38 - GET /api/v1/today 200 - 13.500 ms
+Tue Aug 12 2025 13:24:10 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/today/ 200 - 4.045 ms
+Tue Aug 12 2025 13:24:14 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/users/profile 200 - 5.767 ms
+Tue Aug 12 2025 13:24:17 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/admin/quotation/managment 200 - 5.358 ms
+Tue Aug 12 2025 13:24:17 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/today 200 - 5.039 ms
+Tue Aug 12 2025 13:24:17 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/comingSoon/latest 200 - 11.711 ms
+Tue Aug 12 2025 13:24:17 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/category 200 - 19.040 ms
+Tue Aug 12 2025 13:24:17 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/dailyInspiration/letest 200 - 5.838 ms
+Tue Aug 12 2025 13:24:17 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/admin/challenge-category/get-all-challenge-category-for-user 200 - 9.473 ms
+Tue Aug 12 2025 13:24:18 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/notifications?page=1 200 - 15.120 ms
+Tue Aug 12 2025 13:24:18 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/notifications 200 - 12.645 ms
+Tue Aug 12 2025 13:24:34 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/category 200 - 10.007 ms
+Tue Aug 12 2025 13:25:15 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/category 204 - 0.446 ms
+Tue Aug 12 2025 13:25:15 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.086 ms
+Tue Aug 12 2025 13:25:15 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/category 304 - 13.265 ms
+Tue Aug 12 2025 13:25:15 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 304 - 14.068 ms
+Tue Aug 12 2025 13:25:21 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/subcategory/6899d41b0319393bfdd4f435 204 - 0.104 ms
+Tue Aug 12 2025 13:25:21 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/subcategory/6899d41b0319393bfdd4f435 200 - 5.418 ms
+Tue Aug 12 2025 13:25:37 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/managment/upload-video 204 - 0.096 ms
+Tue Aug 12 2025 13:26:6 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/subcategory/6899d4100319393bfdd4f42e 204 - 0.100 ms
+Tue Aug 12 2025 13:26:6 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/subcategory/6899d4100319393bfdd4f42e 200 - 4.116 ms
+Tue Aug 12 2025 13:26:25 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/managment/upload-video 204 - 0.100 ms
+Tue Aug 12 2025 13:26:38 [SERVER-NAME] info: 10.10.7.48 - POST /api/v1/admin/videos/managment/upload-video 200 - 12260.449 ms
+Tue Aug 12 2025 13:26:38 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.063 ms
+Tue Aug 12 2025 13:26:38 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 200 - 15.043 ms
+Tue Aug 12 2025 13:26:49 [SERVER-NAME] info: 10.10.7.38 - GET /api/v1/today 200 - 4.589 ms
+Tue Aug 12 2025 13:26:51 [SERVER-NAME] info: 10.10.7.38 - GET /api/v1/today 200 - 3.972 ms
+Tue Aug 12 2025 13:26:52 [SERVER-NAME] info: 10.10.7.38 - GET /api/v1/today 200 - 4.416 ms
+Tue Aug 12 2025 13:26:52 [SERVER-NAME] info: 10.10.7.38 - GET /api/v1/today 200 - 3.661 ms
+Tue Aug 12 2025 13:26:53 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/today/ 200 - 5.949 ms
+Tue Aug 12 2025 13:26:53 [SERVER-NAME] info: 10.10.7.38 - GET /api/v1/today 200 - 5.710 ms
+Tue Aug 12 2025 13:26:54 [SERVER-NAME] info: 10.10.7.38 - GET /api/v1/today 200 - 6.503 ms
+Tue Aug 12 2025 13:26:55 [SERVER-NAME] info: 10.10.7.38 - GET /api/v1/today 200 - 4.184 ms
+Tue Aug 12 2025 13:27:23 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.060 ms
+Tue Aug 12 2025 13:27:23 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.119 ms
+Tue Aug 12 2025 13:27:23 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/category 204 - 0.052 ms
+Tue Aug 12 2025 13:27:23 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 200 - 13.193 ms
+Tue Aug 12 2025 13:27:23 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/category 200 - 22.014 ms
+Tue Aug 12 2025 13:27:23 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 304 - 25.505 ms
+Tue Aug 12 2025 13:29:42 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/community/?page=1 200 - 34.185 ms
+Tue Aug 12 2025 13:29:43 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/post/letest 200 - 6.681 ms
+Tue Aug 12 2025 13:29:43 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/community/leaderboard 200 - 11.332 ms
+Tue Aug 12 2025 13:29:57 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/favourit/?page=1 200 - 8.132 ms
+Tue Aug 12 2025 13:30:2 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/admin/quotation/managment 200 - 3.425 ms
+Tue Aug 12 2025 13:30:2 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/today 200 - 6.588 ms
+Tue Aug 12 2025 13:30:2 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/comingSoon/latest 200 - 9.177 ms
+Tue Aug 12 2025 13:30:2 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/category 200 - 11.083 ms
+Tue Aug 12 2025 13:30:2 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/dailyInspiration/letest 200 - 3.172 ms
+Tue Aug 12 2025 13:30:2 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/admin/challenge-category/get-all-challenge-category-for-user 200 - 8.082 ms
+Tue Aug 12 2025 13:30:2 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/notifications?page=1 200 - 10.174 ms
+Tue Aug 12 2025 13:30:14 [SERVER-NAME] info: 119.148.20.81 - PATCH /api/v1/users/profile 200 - 21.061 ms
+Tue Aug 12 2025 13:30:21 [SERVER-NAME] info: 119.148.20.81 - GET /image/images-1754983814396.jpg 200 - 9.587 ms
+Tue Aug 12 2025 13:30:23 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/admin/quotation/managment 200 - 6.348 ms
+Tue Aug 12 2025 13:30:23 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/today 200 - 5.576 ms
+Tue Aug 12 2025 13:30:23 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/comingSoon/latest 200 - 5.126 ms
+Tue Aug 12 2025 13:30:23 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/category 200 - 9.112 ms
+Tue Aug 12 2025 13:30:23 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/dailyInspiration/letest 200 - 8.255 ms
+Tue Aug 12 2025 13:30:23 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/admin/challenge-category/get-all-challenge-category-for-user 200 - 9.420 ms
+Tue Aug 12 2025 13:30:23 [SERVER-NAME] info: 119.148.20.81 - GET /api/v1/notifications?page=1 200 - 16.802 ms
