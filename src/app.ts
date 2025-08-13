@@ -19,9 +19,13 @@ app.use(Morgan.errorHandler);
 //body parser
 app.use(
      cors({
-          origin: ["https://web.yogawithjen.life", "https://api.yogawithjen.life", "https://dashboard.yogawithjen.life"],
-          credentials: true,
-     }),
+          origin: [
+               "https://web.yogawithjen.life",
+               "https://api.yogawithjen.life",
+               "https://dashboard.yogawithjen.life"
+          ],
+          credentials: true,  // Allow credentials like cookies
+     })
 );
 app.post('/api/v1/stripe/webhook', express.raw({ type: 'application/json' }), handleStripeWebhook);
 app.use(express.json());
