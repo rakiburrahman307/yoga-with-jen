@@ -9,7 +9,9 @@ import { User } from './user.model';
 import AppError from '../../../errors/AppError';
 import generateOTP from '../../../utils/generateOTP';
 import stripe from '../../../config/stripe';
+import { Subscription } from '../subscription/subscription.model';
 import mongoose from 'mongoose';
+
 // create user
 const createUserToDB = async (payload: IUser): Promise<IUser> => {
      //set role
@@ -46,7 +48,7 @@ const createUserToDB = async (payload: IUser): Promise<IUser> => {
                email: createUser.email,
                name: createUser.name,
           });
-     } catch (error) {
+     } catch {
           throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Failed to create Stripe customer');
      }
 
@@ -157,16 +159,32 @@ const verifyUserPassword = async (userId: string, password: string) => {
      return isPasswordValid;
 };
 const deleteUser = async (id: string) => {
-     const isExistUser = await User.isExistUserById(id);
-     if (!isExistUser) {
-          throw new AppError(StatusCodes.BAD_REQUEST, "User doesn't exist!");
+     const session = await mongoose.startSession();
+     session.startTransaction();
+
+     try {
+
+          const isExistUser = await User.isExistUserById(id).session(session);
+          if (!isExistUser) {
+               throw new AppError(StatusCodes.BAD_REQUEST, "User doesn't exist!");
+          }
+          const userDeletionResult = await User.findByIdAndDelete(id).session(session);
+          if (!userDeletionResult) {
+               throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Failed to delete user');
+          }
+          const subscription = await Subscription.findOneAndDelete({ userId: id }).session(session);
+          if (subscription) {
+               await Subscription.deleteMany({ userId: id }).session(session);
+          }
+          await session.commitTransaction();
+          return true;
+     } catch (error) {
+          await session.abortTransaction();
+
+          throw error; 
+     } finally {
+          session.endSession();
      }
-
-     await User.findByIdAndUpdate(id, {
-          $set: { isDeleted: true },
-     });
-
-     return true;
 };
 
 export const UserService = {
