@@ -526,3 +526,13 @@ Tue Aug 12 2025 17:26:41 [SERVER-NAME] warn: [33mWorker 37184 exited with error
 Tue Aug 12 2025 17:26:41 [SERVER-NAME] error: [31mWorker 37184 failed to restart after 5 attempts[39m
 Tue Aug 12 2025 17:26:41 [SERVER-NAME] warn: [33mWorker 27360 exited with error code: 1[39m
 Tue Aug 12 2025 17:26:41 [SERVER-NAME] error: [31mWorker 27360 failed to restart after 5 attempts[39m
+Tue Aug 12 2025 17:26:41 [SERVER-NAME] warn: [33mWorker 34172 exited with error code: 1[39m
+Tue Aug 12 2025 17:26:41 [SERVER-NAME] error: [31mWorker 34172 failed to restart after 5 attempts[39m
+Tue Aug 12 2025 17:26:41 [SERVER-NAME] warn: [33mWorker 16248 exited with error code: 1[39m
+Tue Aug 12 2025 17:26:41 [SERVER-NAME] error: [31mWorker 16248 failed to restart after 5 attempts[39m
+Tue Aug 12 2025 17:26:41 [SERVER-NAME] warn: [33mWorker 15592 exited with error code: 1[39m
+Tue Aug 12 2025 17:26:41 [SERVER-NAME] error: [31mWorker 15592 failed to restart after 5 attempts[39m
+Tue Aug 12 2025 17:26:41 [SERVER-NAME] warn: [33mWorker 33868 exited with error code: 1[39m
+Tue Aug 12 2025 17:26:41 [SERVER-NAME] error: [31mWorker 33868 failed to restart after 5 attempts[39m
+Tue Aug 12 2025 17:26:41 [SERVER-NAME] warn: [33mWorker 24564 exited with error code: 1[39m
+Tue Aug 12 2025 17:26:41 [SERVER-NAME] error: [31mWorker 24564 failed to restart after 5 attempts[39m

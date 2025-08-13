@@ -11,7 +11,7 @@ import setupTrialManagement from './utils/cornJobs';
 const app: Application = express();
 
 app.set('view engine', 'ejs');
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(process.cwd(), 'src', 'views'));
 //morgan
 app.use(Morgan.successHandler);
 app.use(Morgan.errorHandler);
@@ -19,7 +19,7 @@ app.use(Morgan.errorHandler);
 //body parser
 app.use(
      cors({
-          origin: '*',
+          origin: ["https://web.yogawithjen.life", "https://api.yogawithjen.life", "https://dashboard.yogawithjen.life"],
           credentials: true,
      }),
 );
