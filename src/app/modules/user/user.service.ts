@@ -165,6 +165,9 @@ const deleteUser = async (id: string) => {
      try {
 
           const isExistUser = await User.isExistUserById(id).session(session);
+          if (isExistUser.image) {
+               await unlinkFile(isExistUser.image);
+          }
           if (!isExistUser) {
                throw new AppError(StatusCodes.BAD_REQUEST, "User doesn't exist!");
           }
@@ -181,7 +184,7 @@ const deleteUser = async (id: string) => {
      } catch (error) {
           await session.abortTransaction();
 
-          throw error; 
+          throw error;
      } finally {
           session.endSession();
      }

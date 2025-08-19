@@ -3,7 +3,6 @@ import { z } from 'zod';
 const videoValidation = z.object({
      body: z.object({
           title: z.string().min(3, 'Title must be at least 3 characters long'),
-          categoryId: z.string().min(1, 'Category is required'),
           duration: z.string().min(1, 'Duration is required'),
           equipment: z.array(z.string()).nonempty('Equipment list cannot be empty'),
           thumbnailUrl: z.string({
@@ -22,4 +21,4 @@ const videoStatusValidation = z.object({
      }),
 });
 
-export const VideoVelidationSchema = { videoValidation, videoStatusValidation };
+export const VideoValidationSchema = { videoValidation, videoStatusValidation };

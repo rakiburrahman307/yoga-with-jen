@@ -15,7 +15,6 @@ export const checkNextVideoUnlock = async (userId: string, subCategoryId: string
           if (currentVideoIndex === -1) {
                return { isEnabled: false, reason: 'Current video not found' };
           }
-
           // Check if there's a next video
           if (currentVideoIndex >= allVideos.length - 1) {
                return {

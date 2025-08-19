@@ -3,10 +3,6 @@ import { Schema } from 'mongoose';
 export interface IVideo {
      title: string;
      serial: number;
-     categoryId: Schema.Types.ObjectId;
-     category: string;
-     subCategory: string;
-     subCategoryId: Schema.Types.ObjectId;
      duration: string;
      type: 'class' | 'course';
      equipment: string[];

@@ -33,40 +33,6 @@ const getVideosByCourse = async (id: string, query: Record<string, unknown>) => 
 };
 // upload videos
 const addVideo = async (payload: IVideo) => {
-     // Check main category
-     const isExistCategory = await Category.findById(payload.categoryId);
-     if (!isExistCategory) {
-          throw new AppError(StatusCodes.NOT_FOUND, 'Category not found');
-     }
-     if (isExistCategory.status === 'inactive') {
-          throw new AppError(StatusCodes.BAD_REQUEST, 'Category is inactive');
-     }
-     payload.category = isExistCategory.name;
-     // Increment videoCount of main category
-     const updatedCategory = await Category.findByIdAndUpdate(isExistCategory._id, { $inc: { videoCount: 1 } }, { new: true });
-     if (!updatedCategory) {
-          throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to update category!');
-     }
-
-     // If subCategory is provided, validate and increment subCategoryCount of subcategory itself (or main category if that's your design)
-     if (payload.subCategoryId && payload.categoryId) {
-          const isExistSubCategory = await SubCategory.findById(payload.subCategoryId);
-          if (!isExistSubCategory) {
-               throw new AppError(StatusCodes.NOT_FOUND, 'SubCategory not found');
-          }
-          if (isExistSubCategory.status === 'inactive') {
-               throw new AppError(StatusCodes.BAD_REQUEST, 'SubCategory is inactive');
-          }
-          payload.subCategory = isExistSubCategory.name;
-          // payload.type = isExistSubCategory.type;
-          // Here you can update either the subCategory document or the main category document
-          // I'm assuming you want to increment the subCategoryCount on the main category:
-          const updatedCategoryForSub = await SubCategory.findByIdAndUpdate(isExistSubCategory._id, { $inc: { videoCount: 1 } }, { new: true });
-          if (!updatedCategoryForSub) {
-               throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to update category!');
-          }
-     }
-
      // Create the video document
      const video = await Video.create(payload);
      if (!video) {
@@ -85,7 +51,7 @@ const updateVideo = async (id: string, payload: Partial<IVideo>) => {
      if (payload.videoUrl && isExistVideo.videoUrl) {
           try {
                await BunnyStorageHandeler.deleteFromBunny(isExistVideo.videoUrl);
-          } catch (error) {
+          } catch {
                throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Error deleting old video from BunnyCDN');
           }
      }
@@ -93,7 +59,7 @@ const updateVideo = async (id: string, payload: Partial<IVideo>) => {
      if (payload.thumbnailUrl && isExistVideo.thumbnailUrl) {
           try {
                await BunnyStorageHandeler.deleteFromBunny(isExistVideo.thumbnailUrl);
-          } catch (error) {
+          } catch  {
                throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Error deleting old thumbnail from BunnyCDN');
           }
      }
@@ -135,22 +101,6 @@ const removeVideo = async (id: string) => {
                throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Error deleting video from BunnyCDN');
           }
      }
-     try {
-          // Decrease video count in category
-          await Category.findByIdAndUpdate(isExistVideo.categoryId, {
-               $inc: { videoCount: -1 },
-          });
-
-          // Also decrease count in subcategory if video belongs to one
-          if (isExistVideo.subCategoryId) {
-               await SubCategory.findByIdAndUpdate(isExistVideo.subCategoryId, {
-                    $inc: { videoCount: -1 },
-               });
-          }
-     } catch (error) {
-          console.log('Error in decrease video count in category', error);
-     }
-
      // Delete the video
      const result = await Video.findByIdAndDelete(id);
      if (!result) {
