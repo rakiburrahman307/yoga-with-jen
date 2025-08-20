@@ -1,0 +1,28 @@
+Wed Aug 20 2025 18:7:45 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/users/profile 204 - 0.893 ms
+Wed Aug 20 2025 18:7:45 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/admin/category 204 - 0.103 ms
+Wed Aug 20 2025 18:7:45 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.085 ms
+Wed Aug 20 2025 18:7:45 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/users/profile 304 - 44.963 ms
+Wed Aug 20 2025 18:7:45 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/admin/category 304 - 40.985 ms
+Wed Aug 20 2025 18:10:46 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed Aug 20 2025 18:10:46 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Aug 20 2025 18:10:46 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Wed Aug 20 2025 18:10:46 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Wed Aug 20 2025 18:10:52 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed Aug 20 2025 18:10:52 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Aug 20 2025 18:10:52 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Wed Aug 20 2025 18:10:52 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Wed Aug 20 2025 18:10:54 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/admin/videos/managment/videos 200 - 26.539 ms
+Wed Aug 20 2025 18:11:47 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/users/profile 204 - 0.479 ms
+Wed Aug 20 2025 18:11:47 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/admin/category 204 - 0.084 ms
+Wed Aug 20 2025 18:11:47 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.071 ms
+Wed Aug 20 2025 18:11:47 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/users/profile 304 - 30.471 ms
+Wed Aug 20 2025 18:11:47 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/admin/category 304 - 46.368 ms
+Wed Aug 20 2025 18:11:47 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 200 - 43.724 ms
+Wed Aug 20 2025 18:12:5 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed Aug 20 2025 18:12:5 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Aug 20 2025 18:12:5 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Wed Aug 20 2025 18:12:5 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Wed Aug 20 2025 18:13:44 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed Aug 20 2025 18:13:44 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Aug 20 2025 18:13:44 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Wed Aug 20 2025 18:13:44 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m

@@ -6,34 +6,19 @@
     "auditLog": "R:\\projects\\yoga-with-jen\\winston\\success\\.6ff58063295533e878132c6b0927593ee498aa69-audit.json",
     "files": [
         {
-            "date": 1754989373476,
-            "name": "R:\\projects\\yoga-with-jen\\winston\\success\\12-08-2025-15-success.log",
-            "hash": "57cf58e8d9761237cbfc11d61ccde7e583b4a6329c037387136de082f5070e33"
+            "date": 1755686261826,
+            "name": "R:\\projects\\yoga-with-jen\\winston\\success\\20-08-2025-16-success.log",
+            "hash": "84fef794c968741a9c0128094d3a028d6fb598f5681adab872218457365a1399"
         },
         {
-            "date": 1754992832484,
-            "name": "R:\\projects\\yoga-with-jen\\winston\\success\\12-08-2025-16-success.log",
-            "hash": "6a80e6f7d018a59abf3abe55a188527b274f2793527623b4c71b05a80b207749"
+            "date": 1755687634425,
+            "name": "R:\\projects\\yoga-with-jen\\winston\\success\\20-08-2025-17-success.log",
+            "hash": "6f07e69a28468af888b16c0cc437e50c5ab813212fe61f4255cbb17f9205c11a"
         },
         {
-            "date": 1754996970498,
-            "name": "R:\\projects\\yoga-with-jen\\winston\\success\\12-08-2025-17-success.log",
-            "hash": "ff5f7a272e9ed805fcd884f58e2e92a99711f76f912acb11916d7afcf5cd2b01"
-        },
-        {
-            "date": 1755067625047,
-            "name": "R:\\projects\\yoga-with-jen\\winston\\success\\13-08-2025-12-success.log",
-            "hash": "cef6a0d26c191f02634b267c16812d2c4820c8348468515face63fd57acee189"
-        },
-        {
-            "date": 1755068663019,
-            "name": "R:\\projects\\yoga-with-jen\\winston\\success\\13-08-2025-13-success.log",
-            "hash": "5f716bdbb4d28090e063aca353d4da48061b470dd73b9957090c1639ed95d43c"
-        },
-        {
-            "date": 1755075697284,
-            "name": "R:\\projects\\yoga-with-jen\\winston\\success\\13-08-2025-15-success.log",
-            "hash": "d1fee780e98527009c37de51fd289d87b505474ccb02d875860855a709363fe1"
+            "date": 1755691665068,
+            "name": "R:\\projects\\yoga-with-jen\\winston\\success\\20-08-2025-18-success.log",
+            "hash": "419bb05f69f68cda84d2090fc7f7a4b59aae3f0e9893dfe7f33bfb41ba835f08"
         }
     ],
     "hashType": "sha256"

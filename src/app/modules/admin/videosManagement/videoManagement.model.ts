@@ -8,7 +8,6 @@ const VideoSchema = new Schema<IVideo>(
           serial: { type: Number, default: 1 },
           duration: { type: String, required: true },
           equipment: { type: [String], required: true },
-          type: { type: String, enum: ['class', 'course'], required: true },
           thumbnailUrl: { type: String, required: true },
           videoUrl: { type: String, required: true },
           description: { type: String, required: true },

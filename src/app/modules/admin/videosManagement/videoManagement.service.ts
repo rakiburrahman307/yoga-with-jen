@@ -7,15 +7,13 @@ import { BunnyStorageHandeler } from '../../../../helpers/BunnyStorageHandeler';
 import { Category } from '../../category/category.model';
 import { User } from '../../user/user.model';
 import mongoose from 'mongoose';
-import { SubCategory } from '../../subCategorys/subCategory.model';
 import { Favourite } from '../../favourit/favourit.model';
 import { checkNextVideoUnlock } from '../../../../helpers/checkNExtVideoUnlocak';
 
 // get videos
 const getVideos = async (query: Record<string, unknown>) => {
-     const queryBuilder = new QueryBuilder(Video.find({}).populate('categoryId', 'name').populate('subCategoryId', 'name'), query);
+     const queryBuilder = new QueryBuilder(Video.find({}), query);
      const videos = await queryBuilder.fields().filter().paginate().search([]).sort().modelQuery.exec();
-
      const meta = await queryBuilder.countTotal();
      return {
           videos,
@@ -130,7 +128,7 @@ const getSingleVideoFromDb = async (id: string, userId: string) => {
      throw new AppError(StatusCodes.FORBIDDEN, 'You do not have access');
 };
 const getSingleVideoForAdmin = async (id: string) => {
-     const result = await Video.findById(id).populate('categoryId', 'name').populate('subCategoryId', 'name');
+     const result = await Video.findById(id);
      if (!result) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
      }
@@ -257,6 +255,7 @@ const markVideoAsCompleted = async (userId: string, videoId: string) => {
           throw error;
      }
 };
+
 const copyVideo = async (videoId: string, categoryId: string) => {
      // Fetch the original video by ID
      const video = await Video.findById(videoId);
@@ -305,6 +304,7 @@ const copyVideo = async (videoId: string, categoryId: string) => {
      await newVideo.save();
      return newVideo;
 };
+
 export const videoManagementService = {
      getVideos,
      addVideo,

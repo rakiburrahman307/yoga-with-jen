@@ -22,7 +22,8 @@ app.use(
           origin: [
                "https://web.yogawithjen.life",
                "https://api.yogawithjen.life",
-               "https://dashboard.yogawithjen.life"
+               "https://dashboard.yogawithjen.life",
+               "http://10.10.7.48:3007"
           ],
           credentials: true,  // Allow credentials like cookies
      })
