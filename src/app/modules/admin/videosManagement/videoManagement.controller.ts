@@ -69,7 +69,7 @@ const updateVideos = catchAsync(async (req, res) => {
 const statusChange = catchAsync(async (req, res) => {
      const { id } = req.params;
      const { status } = req.body;
-     const result = await videoManagementService.statusChangeVideo(id, status);
+     await videoManagementService.statusChangeVideo(id, status);
      sendResponse(res, {
           success: true,
           statusCode: StatusCodes.OK,
@@ -78,7 +78,7 @@ const statusChange = catchAsync(async (req, res) => {
 });
 const removeVideos = catchAsync(async (req, res) => {
      const { id } = req.params;
-     const result = await videoManagementService.removeVideo(id);
+     await videoManagementService.removeVideo(id);
      sendResponse(res, {
           success: true,
           statusCode: StatusCodes.OK,
