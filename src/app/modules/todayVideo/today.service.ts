@@ -1,8 +1,8 @@
 import { StatusCodes } from 'http-status-codes';
 import AppError from '../../../errors/AppError';
-import { Video } from '../admin/videosManagement/videoManagement.model';
 import { User } from '../user/user.model';
 import { Favourite } from '../favourit/favourit.model';
+import { Videos } from '../admin/videos/video.model';
 const getFevVideosOrNot = async (videoId: string, userId: string) => {
      const favorite = await Favourite.findOne({ videoId, userId });
      return favorite ? true : false;
@@ -15,7 +15,7 @@ const getTodayRandomVideo = async (userId: string) => {
      // If no video picked yet or 24 hours have passed
      if (!activeVideo || now.getTime() - activeVideoPickedAt.getTime() > 24 * 60 * 60 * 1000) {
           // Pick a new random video from all videos
-          const result = await Video.aggregate([{ $sample: { size: 1 } }]);
+          const result = await Videos.aggregate([{ $sample: { size: 1 } }]);
           activeVideo = result.length > 0 ? result[0] : null;
           activeVideoPickedAt = now;
      }
@@ -28,7 +28,7 @@ const getTodayRandomVideo = async (userId: string) => {
 };
 
 const getSingleVideoFromDb = async (id: string, userId: string) => {
-     const result = await Video.findById(id);
+     const result = await Videos.findById(id);
      if (!result) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
      }

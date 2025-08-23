@@ -1,11 +1,13 @@
+import mongoose from 'mongoose';
 import { ChallengeVideo } from '../app/modules/admin/challenges/challenges.model';
-import { Video } from '../app/modules/admin/videosManagement/videoManagement.model';
+import { Videos } from '../app/modules/admin/videos/video.model';
+
 
 export const checkNextVideoUnlock = async (userId: string, subCategoryId: string, completedVideoId: string) => {
      try {
           // Get all videos in the subcategory sorted by order
-          const allVideos = await Video.find({
-               subCategoryId: subCategoryId,
+          const allVideos = await Videos.find({
+               subCategoryId: new mongoose.Types.ObjectId(subCategoryId),
                status: 'active',
           }).sort({ order: 1, serial: 1 });
 

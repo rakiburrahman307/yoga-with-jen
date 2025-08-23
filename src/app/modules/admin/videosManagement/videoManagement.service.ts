@@ -236,11 +236,6 @@ const markVideoAsCompleted = async (userId: string, videoId: string) => {
                // Check what gets unlocked next
                const nextVideoInfo = await checkNextVideoUnlock(userId, currentVideo?.subCategoryId.toString(), videoId);
 
-               console.log('Video marked as completed:', {
-                    userId,
-                    videoId,
-                    completedSessions: updatedUser.completedSessions,
-               });
 
                return {
                     success: true,
@@ -257,7 +252,7 @@ const markVideoAsCompleted = async (userId: string, videoId: string) => {
                };
           }
      } catch (error) {
-          console.error('Error marking video as completed:', error);
+          console.log('Error marking video as completed:', error);
           throw error;
      }
 };
