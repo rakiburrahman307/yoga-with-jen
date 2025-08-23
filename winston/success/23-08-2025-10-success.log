@@ -1,0 +1,13 @@
+Sat Aug 23 2025 10:36:50 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/admin/user/managment? 204 - 1.982 ms
+Sat Aug 23 2025 10:36:50 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/admin/user/managment?limit=10&page=1 204 - 0.063 ms
+Sat Aug 23 2025 10:36:50 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/admin/user/managment? 200 - 61.882 ms
+Sat Aug 23 2025 10:36:50 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/admin/user/managment?limit=10&page=1 200 - 22.306 ms
+Sat Aug 23 2025 10:36:52 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/admin/category 204 - 0.084 ms
+Sat Aug 23 2025 10:36:52 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/admin/category 200 - 39.006 ms
+Sat Aug 23 2025 10:36:52 [SERVER-NAME] info: 10.10.7.62 - GET //thumbnail/link---zoanthids-%C3%A2%C2%86%C2%92-coralstashicon2.png-1754911760194.png 200 - 6.097 ms
+Sat Aug 23 2025 10:36:52 [SERVER-NAME] info: 10.10.7.62 - GET //thumbnail/image-11-1754911771507.png 200 - 8.924 ms
+Sat Aug 23 2025 10:36:52 [SERVER-NAME] info: 10.10.7.62 - GET //thumbnail/yellow-2708363-1755692741197.jpg 200 - 7.468 ms
+Sat Aug 23 2025 10:57:43 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Aug 23 2025 10:57:43 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Aug 23 2025 10:57:43 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sat Aug 23 2025 10:57:43 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m

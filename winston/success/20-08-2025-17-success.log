@@ -1,5 +1,0 @@
-Wed Aug 20 2025 17:0:34 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/users/profile 204 - 0.624 ms
-Wed Aug 20 2025 17:0:34 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/admin/category 204 - 0.158 ms
-Wed Aug 20 2025 17:0:34 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.203 ms
-Wed Aug 20 2025 17:0:34 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/users/profile 200 - 78.410 ms
-Wed Aug 20 2025 17:0:34 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/admin/category 304 - 103.198 ms

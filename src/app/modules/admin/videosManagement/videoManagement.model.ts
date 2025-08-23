@@ -17,4 +17,4 @@ const VideoSchema = new Schema<IVideo>(
      { timestamps: true },
 );
 
-export const Video = mongoose.model<IVideo>('Video', VideoSchema);
+export const VideoLibrary  = mongoose.model<IVideo>('VideoLibrary', VideoSchema);

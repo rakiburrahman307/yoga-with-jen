@@ -1,2 +1,0 @@
-Wed Aug 20 2025 18:7:45 [SERVER-NAME] error: 10.10.7.62 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 400 - 24.672 ms
-Wed Aug 20 2025 18:8:59 [SERVER-NAME] error: 10.10.7.62 - GET /api/v1/admin/videos/managment/videos 400 - 6.165 ms
