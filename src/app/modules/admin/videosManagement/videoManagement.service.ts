@@ -10,6 +10,10 @@ import { Favourite } from '../../favourit/favourit.model';
 import { checkNextVideoUnlock } from '../../../../helpers/checkNExtVideoUnlocak';
 import { VideoLibrary } from './videoManagement.model';
 import { Videos } from '../videos/video.model';
+import { IVideos } from '../videos/video.interface';
+import { SubCategory } from '../../subCategorys/subCategory.model';
+import { ICategory } from '../../category/category.interface';
+import { ISubCategory } from '../../subCategorys/subCategory.interface';
 
 
 // get videos
@@ -262,7 +266,7 @@ const copyVideo = async (
      videoIds: VideoIdInput,
      categoryId: string | Types.ObjectId,
      subCategoryId?: string | Types.ObjectId | null
-)=> {
+) => {
      try {
           // Convert single videoId to array for uniform processing
           const videoIdArray: (string | Types.ObjectId)[] = Array.isArray(videoIds) ? videoIds : [videoIds];
@@ -298,8 +302,6 @@ const copyVideo = async (
           // Process videos in batches for better performance
           const batchSize: number = 15;
           const results_data: IVideos[] = [];
-          let successCount: number = 0;
-          let failureCount: number = 0;
 
           for (let i = 0; i < videoIdArray.length; i += batchSize) {
                const batch = videoIdArray.slice(i, i + batchSize);
@@ -329,7 +331,7 @@ const copyVideo = async (
                          // Add subcategory data only if provided
                          if (subCategoryId && subCategory) {
                               newVideoData.subCategoryId = new Types.ObjectId(subCategoryId);
-                              newVideoData.subCategory = subCategory.name;
+                              newVideoData.subCategory = subCategory.name || '';
                          }
 
                          newVideosData.push(newVideoData);
@@ -364,47 +366,10 @@ const copyVideo = async (
                          await Promise.all(countUpdatePromises);
 
                          results_data.push(...savedVideos);
-                         successCount += savedVideos.length;
 
-                    } catch (batchError: any) {
-                         console.error(`Batch processing error:`, batchError);
-                         failureCount += newVideosData.length;
+                    } catch {
+                         throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Failed to copy video(s)');
 
-                         // Try individual inserts for failed batch
-                         for (const videoData of newVideosData) {
-                              try {
-                                   const newVideo = new Videos(videoData);
-                                   const savedVideo: IVideos = await newVideo.save();
-
-                                   // Update counts individually
-                                   const individualUpdatePromises: Promise<any>[] = [];
-
-                                   if (categoryId) {
-                                        individualUpdatePromises.push(
-                                             Category.findByIdAndUpdate(categoryId, {
-                                                  $inc: { videoCount: 1 }
-                                             })
-                                        );
-                                   }
-
-                                   if (subCategoryId) {
-                                        individualUpdatePromises.push(
-                                             SubCategory.findByIdAndUpdate(subCategoryId, {
-                                                  $inc: { videoCount: 1 }
-                                             })
-                                        );
-                                   }
-
-                                   await Promise.all(individualUpdatePromises);
-
-                                   results_data.push(savedVideo);
-                                   successCount++;
-                                   failureCount--;
-
-                              } catch (individualError: any) {
-                                   console.error(`Individual video copy failed:`, individualError);
-                              }
-                         }
                     }
                }
 
@@ -413,35 +378,18 @@ const copyVideo = async (
                     await new Promise<void>(resolve => setTimeout(resolve, 50));
                }
           }
-
-          const response: ICopyVideoResponse = {
-               success: true,
-               totalRequested: videoIdArray.length,
-               successCount,
-               failureCount,
-               data: results_data
-          };
-
           // Return single object if single video was requested
           if (!Array.isArray(videoIds) && results_data.length === 1) {
                return results_data[0];
           }
 
-          return response;
+          return results_data;
 
      } catch (error: any) {
-          console.error('Error in copyVideo:', error);
-
-          // Handle specific MongoDB errors
-          if (error.code === 11000) {
-               throw new AppError(StatusCodes.CONFLICT, 'Duplicate video entry detected');
-          }
-
           // Re-throw AppError instances
           if (error instanceof AppError) {
                throw error;
           }
-
           // Generic error
           throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Failed to copy video(s)');
      }

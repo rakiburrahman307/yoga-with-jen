@@ -1,3 +1,4 @@
+import mongoose from 'mongoose';
 import { Schema } from 'mongoose';
 
 export interface IVideos {
@@ -7,9 +8,8 @@ export interface IVideos {
     type: 'class' | 'course';
     category: string;
     subCategory: string;
-    categoryId: string;
-    subCategoryName: string;
-    subCategoryId: string;
+    categoryId: mongoose.Types.ObjectId | string;
+    subCategoryId: mongoose.Types.ObjectId | string;
     equipment: string[];
     thumbnailUrl: string;
     videoUrl: string;
