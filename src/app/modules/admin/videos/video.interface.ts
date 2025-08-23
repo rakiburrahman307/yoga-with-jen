@@ -8,6 +8,7 @@ export interface IVideos {
     category: string;
     subCategory: string;
     categoryId: string;
+    subCategoryName: string;
     subCategoryId: string;
     equipment: string[];
     thumbnailUrl: string;

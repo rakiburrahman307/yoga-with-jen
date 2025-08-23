@@ -1,4 +1,4 @@
-import { Schema } from 'mongoose';
+import mongoose, { Schema } from 'mongoose';
 
 export interface IVideo {
      title: string;
@@ -13,4 +13,18 @@ export interface IVideo {
      likes: number;
      likedBy: Schema.Types.ObjectId[];
      comments: Schema.Types.ObjectId[];
+}
+export type VideoIdInput = string | mongoose.Types.ObjectId | (string | mongoose.Types.ObjectId)[];
+// Type definitions
+export interface IVideoLibrary {
+     _id: mongoose.Types.ObjectId;
+     title: string;
+     description?: string;
+     url: string;
+     duration?: number;
+     thumbnailUrl?: string;
+     tags?: string[];
+     createdAt: Date;
+     updatedAt: Date;
+     toObject(): any;
 }
