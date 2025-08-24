@@ -97,8 +97,8 @@ const markVideoAsCompleted = catchAsync(async (req, res) => {
      });
 });
 const copyVideo = catchAsync(async (req, res) => {
-     const { videoId, categoryId } = req.body;
-     const result = await videoManagementService.copyVideo(videoId, categoryId);
+     const { videoIds, categoryId, subCategoryId } = req.body;
+     const result = await videoManagementService.copyVideo(videoIds, categoryId, subCategoryId);
      sendResponse(res, {
           success: true,
           statusCode: StatusCodes.OK,
