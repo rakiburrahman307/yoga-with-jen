@@ -70,13 +70,9 @@ const statusUpdate = async (id: string, status: string) => {
      return result;
 };
 const shuffleCategorySerial = async (categoryOrder: Array<{ _id: string; serial: number }>) => {
-     // Validate input
      if (!categoryOrder || !Array.isArray(categoryOrder) || categoryOrder.length === 0) {
-          console.log('No category order data provided.');
           return;
      }
-
-     // Update each video's serial number
      const updatePromises = categoryOrder.map((item) => ChallengeCategory.findByIdAndUpdate(item._id, { serial: item.serial }, { new: true }));
 
      const result = await Promise.all(updatePromises);

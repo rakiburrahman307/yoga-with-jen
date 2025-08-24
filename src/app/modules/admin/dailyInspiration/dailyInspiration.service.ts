@@ -5,11 +5,11 @@ import QueryBuilder from '../../../builder/QueryBuilder';
 import { BunnyStorageHandeler } from '../../../../helpers/BunnyStorageHandeler';
 import { DailyInspiration } from './dailyInspiration.model';
 import { IDailyInspiration } from './dailyInspiration.interface';
-import { Video } from '../videosManagement/videoManagement.model';
+import { Videos } from '../videos/video.model';
+
 
 // Function to create a new "create post" entry
 const createPost = async (payload: IDailyInspiration) => {
-     // Create the new post
      const result = await DailyInspiration.create(payload);
      if (!result) {
           throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to create daily inspiration post');
@@ -18,7 +18,7 @@ const createPost = async (payload: IDailyInspiration) => {
 };
 const createPostForSchedule = async (payload: { publishAt: string; videoId: string }) => {
      const { publishAt, videoId } = payload;
-     const isExistVideo = await Video.findById(videoId);
+     const isExistVideo = await Videos.findById(videoId);
      if (!isExistVideo) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
      }
@@ -32,7 +32,6 @@ const createPostForSchedule = async (payload: { publishAt: string; videoId: stri
           description: isExistVideo.description,
           publishAt,
      };
-     // Create the new post
      const result = await DailyInspiration.create(data);
      if (!result) {
           throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to create daily inspiration post');
@@ -50,17 +49,16 @@ const getAllPost = async () => {
 };
 
 const getPost = async (query: Record<string, unknown>) => {
-     const querBuilder = new QueryBuilder(DailyInspiration.find({}), query);
+     const queryBuilder = new QueryBuilder(DailyInspiration.find({}), query);
 
-     const result = await querBuilder.fields().sort().paginate().filter().search(['title', 'category', 'subCategory']).modelQuery; // Final query model
+     const result = await queryBuilder.fields().sort().paginate().filter().search(['title', 'category', 'subCategory']).modelQuery; // Final query model
 
-     const meta = await querBuilder.countTotal();
+     const meta = await queryBuilder.countTotal();
      return { result, meta };
 };
 
 // Function to get the latest "create post" content by ID
-const getPostContentLetest = async (id: string) => {
-     // Finding the "create post" entry by its ID
+const getPostContentLatest = async (id: string) => {
      const result = await DailyInspiration.findById(id);
      if (!result) {
           throw new AppError(StatusCodes.NOT_FOUND, 'create post not found');
@@ -73,9 +71,7 @@ const getPostContentLetest = async (id: string) => {
 
 // Function to fetch a single "create post" entry by ID
 const getSinglePost = async (id: string) => {
-     // Finding a specific "create post" entry by its ID
      const result = await DailyInspiration.findById(id);
-     // Decrypt the URL
 
      if (!result) {
           throw new AppError(StatusCodes.NOT_FOUND, 'create post not found');
@@ -89,7 +85,6 @@ const getSinglePost = async (id: string) => {
 
 // Function to update an existing "create post" entry by ID
 const updatePost = async (id: string, payload: Partial<IDailyInspiration>) => {
-     // Finding the "create post" entry by its ID and updating it with the new data (payload)
      const isExistVideo = await DailyInspiration.findById(id);
      if (!isExistVideo) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
@@ -97,7 +92,7 @@ const updatePost = async (id: string, payload: Partial<IDailyInspiration>) => {
      if (payload.videoUrl && isExistVideo.videoUrl) {
           try {
                await BunnyStorageHandeler.deleteFromBunny(isExistVideo.videoUrl);
-          } catch (error) {
+          } catch  {
                throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Error deleting old video from BunnyCDN');
           }
      }
@@ -105,7 +100,7 @@ const updatePost = async (id: string, payload: Partial<IDailyInspiration>) => {
      if (payload.thumbnailUrl && isExistVideo.thumbnailUrl) {
           try {
                await BunnyStorageHandeler.deleteFromBunny(isExistVideo.thumbnailUrl);
-          } catch (error) {
+          } catch {
                throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Error deleting old thumbnail from BunnyCDN');
           }
      }
@@ -120,7 +115,6 @@ const updatePost = async (id: string, payload: Partial<IDailyInspiration>) => {
 
 // Function to delete a "create post" entry by ID
 const deletePost = async (id: string) => {
-     // Finding the "create post" entry by its ID and deleting it
      const result = await DailyInspiration.findByIdAndDelete(id);
      if (!result) {
           throw new AppError(StatusCodes.NOT_FOUND, 'create post not found');
@@ -132,11 +126,11 @@ const deletePost = async (id: string) => {
                if (result.thumbnailUrl) {
                     await BunnyStorageHandeler.deleteFromBunny(result.thumbnailUrl);
                }
-          } catch (error) {
+          } catch{
                throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Error deleting video from BunnyCDN');
           }
      }
      return result;
 };
 
-export const DailyInspirationService = { createPost, getAllPost, getPostContentLetest, getSinglePost, updatePost, deletePost, getPost, createPostForSchedule };
+export const DailyInspirationService = { createPost, getAllPost, getPostContentLatest, getSinglePost, updatePost, deletePost, getPost, createPostForSchedule };
