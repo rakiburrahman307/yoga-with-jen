@@ -5,11 +5,11 @@ import { httpServer, socketServer } from '../server';
 
 const SHUTDOWN_TIMEOUT_MS = 30000;
 declare global {
-     var isShuttingDown: boolean;
+     let isShuttingDown: boolean;
 }
 export function gracefulShutdown(signal: string) {
-     if (global.isShuttingDown) return;
-     global.isShuttingDown = true;
+     if ((global as any).isShuttingDown) return;
+     (global as any).isShuttingDown = true;
 
      logger.info(colors.blue(`${signal} received. Shutting down gracefully...`));
 

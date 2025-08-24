@@ -7,7 +7,7 @@ const VideoSchema = new Schema<IVideos>(
     {
         title: { type: String, required: true },
         serial: { type: Number, default: 1 },
-        type: { type: String, enum: ['class', 'course'], required: true },
+        type: { type: String, enum: ['class', 'course'], required: false },
         category: { type: String, required: true },
         subCategory: { type: String, required: false },
         categoryId: { type: String, required: true },

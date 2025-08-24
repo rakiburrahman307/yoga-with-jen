@@ -1,0 +1,48 @@
+Sun Aug 24 2025 11:36:50 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/admin/videos/managment/copy-video 200 - 126.405 ms
+Sun Aug 24 2025 11:43:55 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/admin/videos/managment/copy-video 200 - 63.902 ms
+Sun Aug 24 2025 11:43:57 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/admin/videos/managment/copy-video 200 - 11.697 ms
+Sun Aug 24 2025 11:45:10 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun Aug 24 2025 11:45:10 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Aug 24 2025 11:45:10 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sun Aug 24 2025 11:45:10 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Sun Aug 24 2025 11:45:11 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/admin/videos/managment/copy-video 200 - 35.794 ms
+Sun Aug 24 2025 11:45:47 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun Aug 24 2025 11:45:47 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Aug 24 2025 11:45:47 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sun Aug 24 2025 11:45:47 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Sun Aug 24 2025 11:46:5 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun Aug 24 2025 11:46:5 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Aug 24 2025 11:46:5 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sun Aug 24 2025 11:46:5 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Sun Aug 24 2025 11:46:8 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun Aug 24 2025 11:46:9 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Aug 24 2025 11:46:9 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sun Aug 24 2025 11:46:9 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Sun Aug 24 2025 11:46:39 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun Aug 24 2025 11:46:39 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Aug 24 2025 11:46:39 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sun Aug 24 2025 11:46:39 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Sun Aug 24 2025 11:46:42 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun Aug 24 2025 11:46:42 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Aug 24 2025 11:46:42 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sun Aug 24 2025 11:46:42 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Sun Aug 24 2025 11:46:46 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/admin/videos/managment/copy-video 200 - 72.468 ms
+Sun Aug 24 2025 11:49:3 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/admin/videos/managment/copy-video 200 - 69.735 ms
+Sun Aug 24 2025 11:49:4 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/admin/videos/managment/copy-video 200 - 12.117 ms
+Sun Aug 24 2025 11:49:6 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/admin/videos/managment/copy-video 200 - 15.388 ms
+Sun Aug 24 2025 11:50:37 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun Aug 24 2025 11:50:37 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Aug 24 2025 11:50:37 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sun Aug 24 2025 11:50:37 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Sun Aug 24 2025 11:51:23 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun Aug 24 2025 11:51:23 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Aug 24 2025 11:51:23 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sun Aug 24 2025 11:51:23 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Sun Aug 24 2025 11:53:40 [SERVER-NAME] info: 10.10.7.62 - GET //thumbnail/yellow-2708363-1755692741197.jpg 304 - 31.775 ms
+Sun Aug 24 2025 11:53:40 [SERVER-NAME] info: 10.10.7.62 - GET //thumbnail/image-11-1754911771507.png 304 - 7.688 ms
+Sun Aug 24 2025 11:53:40 [SERVER-NAME] info: 10.10.7.62 - GET //thumbnail/link---zoanthids-%C3%A2%C2%86%C2%92-coralstashicon2.png-1754911760194.png 304 - 4.581 ms
+Sun Aug 24 2025 11:53:47 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/admin/category/single/68a5bec52148500c7998bb15 204 - 0.516 ms
+Sun Aug 24 2025 11:53:47 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/admin/subcategory 204 - 0.104 ms
+Sun Aug 24 2025 11:53:48 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/admin/subcategory 200 - 188.571 ms
+Sun Aug 24 2025 11:53:48 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/admin/category/single/68a5bec52148500c7998bb15 200 - 206.160 ms
+Sun Aug 24 2025 11:53:48 [SERVER-NAME] info: 10.10.7.62 - GET //thumbnail/feather-8250304-1755692763315.jpg 200 - 4.962 ms
