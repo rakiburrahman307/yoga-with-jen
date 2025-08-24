@@ -5,7 +5,7 @@ import { IComeingSoon } from './comeingSoon.interface';
 import { ComeingSoon } from './comeingSoon.model';
 import QueryBuilder from '../../../builder/QueryBuilder';
 import { BunnyStorageHandeler } from '../../../../helpers/BunnyStorageHandeler';
-import { Favourite } from '../../favourit/favourit.model';
+import { Favourite } from '../../favorite/favorite.model';
 const getFevVideosOrNot = async (videoId: string, userId: string) => {
      const favorite = await Favourite.findOne({ videoId, userId });
      return favorite ? true : false;

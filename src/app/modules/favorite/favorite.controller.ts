@@ -1,12 +1,12 @@
 import { StatusCodes } from 'http-status-codes';
 import catchAsync from '../../../shared/catchAsync';
 import sendResponse from '../../../shared/sendResponse';
-import { FavouritVideosSevices } from './favourit.service';
+import { FavoriteVideosServices } from './favorite.service';
 
-const likedVideosOrUnliked = catchAsync(async (req, res) => {
+const likedVideosOrUnlike = catchAsync(async (req, res) => {
      const { id }: any = req.user;
      const { videoId } = req.params;
-     const result = await FavouritVideosSevices.likedVideos(id, videoId);
+     const result = await FavoriteVideosServices.likedVideos(id, videoId);
      sendResponse(res, {
           statusCode: StatusCodes.OK,
           success: true,
@@ -15,13 +15,13 @@ const likedVideosOrUnliked = catchAsync(async (req, res) => {
      });
 });
 
-const getFavouritVideos = catchAsync(async (req, res) => {
+const getFavoriteVideos = catchAsync(async (req, res) => {
      const { id }: any = req.user;
-     const result = await FavouritVideosSevices.getAllFavouritList(id, req.query);
+     const result = await FavoriteVideosServices.getAllFavoriteList(id, req.query);
      sendResponse(res, {
           statusCode: StatusCodes.OK,
           success: true,
-          message: 'Favourit Videos retrieved successfully',
+          message: 'Favorite Videos retrieved successfully',
           data: result,
      });
 });
@@ -29,7 +29,7 @@ const getFavouritVideos = catchAsync(async (req, res) => {
 const removeLikedVideos = catchAsync(async (req, res) => {
      const { id }: any = req.user;
      const { videoId } = req.params;
-     const result = await FavouritVideosSevices.deleteFavouriteVideos(id, videoId);
+     const result = await FavoriteVideosServices.deleteFavoriteVideos(id, videoId);
      sendResponse(res, {
           statusCode: StatusCodes.OK,
           success: true,
@@ -39,17 +39,17 @@ const removeLikedVideos = catchAsync(async (req, res) => {
 });
 const getSingleVideo = catchAsync(async (req, res) => {
      const { id }: any = req.user;
-     const result = await FavouritVideosSevices.getSingleVideoUrl(req.params.id, id);
+     const result = await FavoriteVideosServices.getSingleVideoUrl(req.params.id, id);
      sendResponse(res, {
           success: true,
           statusCode: StatusCodes.OK,
-          message: 'Url retrived successfuly',
+          message: 'Url retrieved successfully',
           data: result?.videoUrl,
      });
 });
-export const FavouritVideosController = {
-     likedVideosOrUnliked,
+export const FavoriteVideosController = {
+     likedVideosOrUnlike,
      removeLikedVideos,
-     getFavouritVideos,
+     getFavoriteVideos,
      getSingleVideo,
 };

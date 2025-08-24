@@ -14,7 +14,7 @@ import { SubscriptionRuleRoute } from '../app/modules/admin/subscriptionRule/sub
 import { SubscriptionRoutes } from '../app/modules/subscription/subscription.routes';
 import { ComingSoonRoutes } from '../app/modules/admin/comeingSoon/comeingSoon.router';
 import { DashboardRoutes } from '../app/modules/admin/dashboard/dashboard.route';
-import { FavouritdRouter } from '../app/modules/favourit/favourit.router';
+import { FavouritdRouter } from '../app/modules/favorite/favorite.router';
 import { CreatePostRoutes } from '../app/modules/admin/createPost/createPost.router';
 import SettingsRouter from '../app/modules/sattings/sattings.route';
 import { ExploreRoutes } from '../app/modules/explore/explore.route';

@@ -6,7 +6,7 @@ import { BunnyStorageHandeler } from '../../../../helpers/BunnyStorageHandeler';
 import { Category } from '../../category/category.model';
 import { User } from '../../user/user.model';
 import mongoose, { Types } from 'mongoose';
-import { Favourite } from '../../favourit/favourit.model';
+import { Favourite } from '../../favorite/favorite.model';
 import { checkNextVideoUnlock } from '../../../../helpers/checkNExtVideoUnlocak';
 import { VideoLibrary } from './videoManagement.model';
 import { Videos } from '../videos/video.model';

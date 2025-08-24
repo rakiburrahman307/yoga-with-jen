@@ -1,7 +1,7 @@
 import { StatusCodes } from 'http-status-codes';
 import AppError from '../../../errors/AppError';
 import { User } from '../user/user.model';
-import { Favourite } from '../favourit/favourit.model';
+import { Favourite } from '../favorite/favorite.model';
 import { Videos } from '../admin/videos/video.model';
 const getFevVideosOrNot = async (videoId: string, userId: string) => {
      const favorite = await Favourite.findOne({ videoId, userId });

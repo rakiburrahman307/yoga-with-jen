@@ -8,7 +8,7 @@ import { User } from '../user/user.model';
 import { SubCategory } from '../subCategorys/subCategory.model';
 import { USER_ROLES } from '../../../enums/user';
 import { Video } from '../admin/videosManagement/videoManagement.model';
-import { Favourite } from '../favourit/favourit.model';
+import { Favourite } from '../favorite/favorite.model';
 
 const createCategoryToDB = async (payload: ICategory) => {
      const { name, thumbnail } = payload;

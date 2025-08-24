@@ -6,7 +6,7 @@ import { ISubCategory } from './subCategory.interface';
 import QueryBuilder from '../../builder/QueryBuilder';
 import { Category } from '../category/category.model';
 import { Video } from '../admin/videosManagement/videoManagement.model';
-import { Favourite } from '../favourit/favourit.model';
+import { Favourite } from '../favorite/favorite.model';
 import { User } from '../user/user.model';
 // create sub category
 const createSubCategoryToDB = async (payload: ISubCategory) => {
