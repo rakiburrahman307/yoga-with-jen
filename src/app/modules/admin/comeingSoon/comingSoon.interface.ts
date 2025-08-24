@@ -1,4 +1,4 @@
-export interface IComeingSoon {
+export interface IComingSoon {
      title: string;
      category: string;
      subCategory: string;

@@ -1,6 +1,6 @@
 import mongoose, { Schema } from 'mongoose';
-import { IComeingSoon } from './comeingSoon.interface';
-const VideoSchema = new Schema<IComeingSoon>(
+import { IComingSoon } from './comingSoon.interface';
+const VideoSchema = new Schema<IComingSoon>(
      {
           title: { type: String, required: true },
           category: { type: String, required: true, trim: true },
@@ -16,4 +16,4 @@ const VideoSchema = new Schema<IComeingSoon>(
      { timestamps: true },
 );
 
-export const ComeingSoon = mongoose.model<IComeingSoon>('ComeingSoon', VideoSchema);
+export const ComingSoon = mongoose.model<IComingSoon>('ComingSoon', VideoSchema);

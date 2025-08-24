@@ -2,12 +2,12 @@
 import { StatusCodes } from 'http-status-codes'; // Standard HTTP status codes for response
 import catchAsync from '../../../../shared/catchAsync'; // Error handling utility for async functions
 import sendResponse from '../../../../shared/sendResponse'; // Utility to format and send the response
-import { ComeingSoonService } from './comeingSoon.service'; // Service layer that interacts with the database or other business logic
+import { ComingSoonService } from './comingSoon.service'; // Service layer that interacts with the database or other business logic
 
 // Controller function to create a new "Coming Soon" entry
 const createComingSoon = catchAsync(async (req, res) => {
      // Calling the service to create a new entry
-     const result = await ComeingSoonService.createComingSoon(req.body);
+     const result = await ComingSoonService.createComingSoon(req.body);
 
      // Sending a success response with the result
      sendResponse(res, {
@@ -21,7 +21,7 @@ const createComingSoon = catchAsync(async (req, res) => {
 // Controller function to get all "Coming Soon" entries, with pagination
 const getAllComingSoon = catchAsync(async (req, res) => {
      // Fetching all "Coming Soon" entries using query parameters (e.g., for pagination)
-     const result = await ComeingSoonService.getAllComingSoon(req.query);
+     const result = await ComingSoonService.getAllComingSoon(req.query);
 
      // Sending the response with the result and pagination data
      sendResponse(res, {
@@ -37,7 +37,7 @@ const getAllComingSoon = catchAsync(async (req, res) => {
 const getComingSoonContentLatest = catchAsync(async (req, res) => {
      // Fetching the latest "Coming Soon" content
      const { id }: any = req.user;
-     const result = await ComeingSoonService.getCommingSoonLetest(id);
+     const result = await ComingSoonService.getComingSoonLatest(id);
 
      // Sending the response with the latest content
      sendResponse(res, {
@@ -52,7 +52,7 @@ const getComingSoonContentLatest = catchAsync(async (req, res) => {
 const singleComingSoonLatest = catchAsync(async (req, res) => {
      // Fetching a specific "Coming Soon" entry by ID
      const { id }: any = req.user;
-     const result = await ComeingSoonService.getComingSoonContentLetest(req.params.id, id);
+     const result = await ComingSoonService.getComingSoonContentLatest(req.params.id, id);
 
      // Sending the response with the result
      sendResponse(res, {
@@ -66,7 +66,7 @@ const singleComingSoonLatest = catchAsync(async (req, res) => {
 // Controller function to fetch a specific "Coming Soon" entry by ID
 const singleComingSoon = catchAsync(async (req, res) => {
      // Fetching a specific "Coming Soon" entry by ID
-     const result = await ComeingSoonService.getSingleComingSoon(req.params.id);
+     const result = await ComingSoonService.getSingleComingSoon(req.params.id);
 
      // Sending the response with the result
      sendResponse(res, {
@@ -80,7 +80,7 @@ const singleComingSoon = catchAsync(async (req, res) => {
 // Controller function to update a "Coming Soon" entry
 const updateComingSoon = catchAsync(async (req, res) => {
      // Updating the "Coming Soon" entry by ID with the data from the request body
-     const result = await ComeingSoonService.updateComingSoon(req.params.id, req.body);
+     const result = await ComingSoonService.updateComingSoon(req.params.id, req.body);
 
      // Sending the response with the updated result
      sendResponse(res, {
@@ -94,7 +94,7 @@ const updateComingSoon = catchAsync(async (req, res) => {
 // Controller function to delete a "Coming Soon" entry by ID
 const deleteComingSoon = catchAsync(async (req, res) => {
      // Deleting the "Coming Soon" entry by ID
-     const result = await ComeingSoonService.deleteComingSoon(req.params.id);
+     const result = await ComingSoonService.deleteComingSoon(req.params.id);
 
      // Sending the response after successful deletion
      sendResponse(res, {
@@ -106,7 +106,7 @@ const deleteComingSoon = catchAsync(async (req, res) => {
 });
 
 const updateIsReady = catchAsync(async (req, res) => {
-     const result = await ComeingSoonService.updateIsReady(req.params.id, req.body);
+     const result = await ComingSoonService.updateIsReady(req.params.id, req.body);
 
      // Sending the response after successful deletion
      sendResponse(res, {
@@ -117,7 +117,7 @@ const updateIsReady = catchAsync(async (req, res) => {
      });
 });
 
-export const ComeingSoonController = {
+export const ComingSoonController = {
      createComingSoon,
      getAllComingSoon,
      getComingSoonContentLatest,

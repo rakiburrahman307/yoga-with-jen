@@ -1,22 +1,22 @@
 // Importing required dependencies
 import { StatusCodes } from 'http-status-codes';
 import AppError from '../../../../errors/AppError';
-import { IComeingSoon } from './comeingSoon.interface';
-import { ComeingSoon } from './comeingSoon.model';
+import { IComingSoon } from './comingSoon.interface';
+import { ComingSoon } from './comingSoon.model';
 import QueryBuilder from '../../../builder/QueryBuilder';
 import { BunnyStorageHandeler } from '../../../../helpers/BunnyStorageHandeler';
-import { Favourite } from '../../favorite/favorite.model';
+import { Favorite } from '../../favorite/favorite.model';
 const getFevVideosOrNot = async (videoId: string, userId: string) => {
-     const favorite = await Favourite.findOne({ videoId, userId });
+     const favorite = await Favorite.findOne({ videoId, userId });
      return favorite ? true : false;
 };
 // Function to create a new "Coming Soon" entry
-const createComingSoon = async (payload: IComeingSoon) => {
-     const deleteAll = await ComeingSoon.deleteMany({});
+const createComingSoon = async (payload: IComingSoon) => {
+     const deleteAll = await ComingSoon.deleteMany({});
      if (!deleteAll) {
           throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to delete all coming soon');
      }
-     const result = await ComeingSoon.create(payload);
+     const result = await ComingSoon.create(payload);
      if (!result) {
           throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to create coming soon');
      }
@@ -25,25 +25,25 @@ const createComingSoon = async (payload: IComeingSoon) => {
 
 // Function to fetch all "Coming Soon" entries, including pagination, filtering, and sorting
 const getAllComingSoon = async (query: Record<string, unknown>) => {
-     const querBuilder = new QueryBuilder(ComeingSoon.find({}), query);
+     const queryBuilder = new QueryBuilder(ComingSoon.find({}), query);
 
-     const result = await querBuilder.fields().sort().paginate().filter().search(['title', 'category', 'subCategory']).modelQuery; // Final query model
+     const result = await queryBuilder.fields().sort().paginate().filter().search(['title', 'category', 'subCategory']).modelQuery; // Final query model
 
-     const meta = await querBuilder.countTotal();
+     const meta = await queryBuilder.countTotal();
      return { result, meta };
 };
 
 // Function to get the latest "Coming Soon" content by ID
-const getComingSoonContentLetest = async (id: string, userId: string) => {
+const getComingSoonContentLatest = async (id: string, userId: string) => {
      // Finding the "Coming Soon" entry by its ID
-     const result = await ComeingSoon.findById(id);
+     const result = await ComingSoon.findById(id);
      if (!result) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Coming soon not found');
      }
-     const isFevorite = await getFevVideosOrNot(id, userId);
+     const isFavorite = await getFevVideosOrNot(id, userId);
      const data = {
           ...result.toObject(),
-          isFevorite,
+          isFavorite,
      };
      return data;
 };
@@ -51,7 +51,7 @@ const getComingSoonContentLetest = async (id: string, userId: string) => {
 // Function to fetch a single "Coming Soon" entry by ID
 const getSingleComingSoon = async (id: string) => {
      // Finding a specific "Coming Soon" entry by its ID
-     const result = await ComeingSoon.findById(id);
+     const result = await ComingSoon.findById(id);
      if (!result) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Coming soon not found');
      }
@@ -62,10 +62,10 @@ const getSingleComingSoon = async (id: string) => {
 };
 
 // Function to update an existing "Coming Soon" entry by ID
-const updateComingSoon = async (id: string, payload: Partial<IComeingSoon>) => {
-     const isExistVideo = await ComeingSoon.findById(id);
+const updateComingSoon = async (id: string, payload: Partial<IComingSoon>) => {
+     const isExistVideo = await ComingSoon.findById(id);
      if (!isExistVideo) {
-          throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
+          throw new AppError(StatusCodes.NOT_FOUND, 'Coming soon not found');
      }
      if (payload.videoUrl && isExistVideo.videoUrl) {
           try {
@@ -83,7 +83,7 @@ const updateComingSoon = async (id: string, payload: Partial<IComeingSoon>) => {
           }
      }
      // Finding the "Coming Soon" entry by its ID and updating it with the new data (payload)
-     const result = await ComeingSoon.findByIdAndUpdate(id, payload, {
+     const result = await ComingSoon.findByIdAndUpdate(id, payload, {
           new: true,
      });
      if (!result) {
@@ -95,7 +95,7 @@ const updateComingSoon = async (id: string, payload: Partial<IComeingSoon>) => {
 // Function to delete a "Coming Soon" entry by ID
 const deleteComingSoon = async (id: string) => {
      // Finding the "Coming Soon" entry by its ID and deleting it
-     const result = await ComeingSoon.findByIdAndDelete(id);
+     const result = await ComingSoon.findByIdAndDelete(id);
      if (!result) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Coming soon not found');
      }
@@ -103,24 +103,24 @@ const deleteComingSoon = async (id: string) => {
 };
 
 // Function to get the latest "Coming Soon" content (limited to 3 entries)
-const getCommingSoonLetest = async (userId: string) => {
-     const result = await ComeingSoon.find().sort({ createdAt: -1 }).limit(3);
+const getComingSoonLatest = async (userId: string) => {
+     const result = await ComingSoon.find().sort({ createdAt: -1 }).limit(3);
      if (!result) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Coming soon not found');
      }
      const postsWithFavorites = await Promise.all(
           result.map(async (post: any) => {
-               const isFevorite = await getFevVideosOrNot(post._id, userId);
+               const isFavorite = await getFevVideosOrNot(post._id, userId);
                return {
                     ...post.toObject(),
-                    isFevorite,
+                    isFavorite,
                };
           }),
      );
      return postsWithFavorites;
 };
 const updateIsReady = async (id: string, payload: { isReady: 'arrivedSoon' | 'ready' }) => {
-     const result = await ComeingSoon.findByIdAndUpdate(id, payload, {
+     const result = await ComingSoon.findByIdAndUpdate(id, payload, {
           new: true,
      });
      if (!result) {
@@ -129,11 +129,11 @@ const updateIsReady = async (id: string, payload: { isReady: 'arrivedSoon' | 're
      return result;
 };
 // Exporting the service functions to be used in the controller
-export const ComeingSoonService = {
+export const ComingSoonService = {
      createComingSoon,
      getAllComingSoon,
-     getCommingSoonLetest,
-     getComingSoonContentLetest,
+     getComingSoonLatest,
+     getComingSoonContentLatest,
      updateComingSoon,
      getSingleComingSoon,
      deleteComingSoon,

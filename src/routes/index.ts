@@ -12,7 +12,7 @@ import { videoManagementRoute } from '../app/modules/admin/videosManagement/vide
 import { PackageRoutes } from '../app/modules/package/package.routes';
 import { SubscriptionRuleRoute } from '../app/modules/admin/subscriptionRule/subscriptionRule.route';
 import { SubscriptionRoutes } from '../app/modules/subscription/subscription.routes';
-import { ComingSoonRoutes } from '../app/modules/admin/comeingSoon/comeingSoon.router';
+import { ComingSoonRoutes } from '../app/modules/admin/comeingSoon/comingSoon.router';
 import { DashboardRoutes } from '../app/modules/admin/dashboard/dashboard.route';
 import { FavoriteVideosRouter } from '../app/modules/favorite/favorite.router';
 import { CreatePostRoutes } from '../app/modules/admin/createPost/createPost.router';
