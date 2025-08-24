@@ -12,9 +12,9 @@ router.post('/create', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.SUPER_ADMIN), fil
 // Route to get all "Coming Soon" entries
 router.get('/', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.SUPER_ADMIN), ComeingSoonController.getAllComingSoon);
 // Route to get the latest "Coming Soon" content (available to users)
-router.get('/latest', auth(USER_ROLES.USER), ComeingSoonController.getComingSoonContentLetest);
+router.get('/latest', auth(USER_ROLES.USER), ComeingSoonController.getComingSoonContentLatest);
 // Route to get the latest "Coming Soon" entry by ID (restricted to ADMIN and SUPER_ADMIN)
-router.get('/latest/:id', auth(USER_ROLES.USER), ComeingSoonController.singleComingSoonLetest);
+router.get('/latest/:id', auth(USER_ROLES.USER), ComeingSoonController.singleComingSoonLatest);
 // Route to get a specific "Coming Soon" entry by ID
 router.get('/:id', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.SUPER_ADMIN), ComeingSoonController.singleComingSoon);
 
