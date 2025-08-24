@@ -27,7 +27,7 @@ const createComingSoon = async (payload: IComingSoon) => {
 const getAllComingSoon = async (query: Record<string, unknown>) => {
      const queryBuilder = new QueryBuilder(ComingSoon.find({}), query);
 
-     const result = await queryBuilder.fields().sort().paginate().filter().search(['title', 'category', 'subCategory']).modelQuery; // Final query model
+     const result = await queryBuilder.fields().sort().paginate().filter().search(['title', 'category', 'subCategory']).modelQuery;
 
      const meta = await queryBuilder.countTotal();
      return { result, meta };
@@ -35,7 +35,6 @@ const getAllComingSoon = async (query: Record<string, unknown>) => {
 
 // Function to get the latest "Coming Soon" content by ID
 const getComingSoonContentLatest = async (id: string, userId: string) => {
-     // Finding the "Coming Soon" entry by its ID
      const result = await ComingSoon.findById(id);
      if (!result) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Coming soon not found');
@@ -50,7 +49,7 @@ const getComingSoonContentLatest = async (id: string, userId: string) => {
 
 // Function to fetch a single "Coming Soon" entry by ID
 const getSingleComingSoon = async (id: string) => {
-     // Finding a specific "Coming Soon" entry by its ID
+
      const result = await ComingSoon.findById(id);
      if (!result) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Coming soon not found');
@@ -94,7 +93,6 @@ const updateComingSoon = async (id: string, payload: Partial<IComingSoon>) => {
 
 // Function to delete a "Coming Soon" entry by ID
 const deleteComingSoon = async (id: string) => {
-     // Finding the "Coming Soon" entry by its ID and deleting it
      const result = await ComingSoon.findByIdAndDelete(id);
      if (!result) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Coming soon not found');
@@ -128,7 +126,7 @@ const updateIsReady = async (id: string, payload: { isReady: 'arrivedSoon' | 're
      }
      return result;
 };
-// Exporting the service functions to be used in the controller
+
 export const ComingSoonService = {
      createComingSoon,
      getAllComingSoon,
