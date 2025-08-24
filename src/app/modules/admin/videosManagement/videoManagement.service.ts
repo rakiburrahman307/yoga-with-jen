@@ -6,7 +6,7 @@ import { BunnyStorageHandeler } from '../../../../helpers/BunnyStorageHandeler';
 import { Category } from '../../category/category.model';
 import { User } from '../../user/user.model';
 import mongoose, { Types } from 'mongoose';
-import { Favourite } from '../../favorite/favorite.model';
+import { Favorite } from '../../favorite/favorite.model';
 import { checkNextVideoUnlock } from '../../../../helpers/checkNExtVideoUnlocak';
 import { VideoLibrary } from './videoManagement.model';
 import { Videos } from '../videos/video.model';
@@ -83,7 +83,7 @@ const statusChangeVideo = async (id: string, status: string) => {
      return result;
 };
 const getFevVideosOrNot = async (videoId: string, userId: string) => {
-     const favorite = await Favourite.findOne({ videoId, userId });
+     const favorite = await Favorite.findOne({ videoId, userId });
      return favorite ? true : false;
 };
 // delete video from bunny cdn and mongodb
