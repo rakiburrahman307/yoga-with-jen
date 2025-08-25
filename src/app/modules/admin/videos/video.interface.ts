@@ -5,11 +5,11 @@ export interface IVideos {
     title: string;
     serial: number;
     duration: string;
-    type: 'class' | 'course';
+    type: string;
     category: string;
     subCategory: string;
-    categoryId: mongoose.Types.ObjectId | string;
-    subCategoryId: mongoose.Types.ObjectId | string;
+    categoryId: mongoose.Types.ObjectId;
+    subCategoryId: mongoose.Types.ObjectId;
     equipment: string[];
     thumbnailUrl: string;
     videoUrl: string;

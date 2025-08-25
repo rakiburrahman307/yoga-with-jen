@@ -327,6 +327,7 @@ const copyVideo = async (
                          if (subCategoryId && subCategory) {
                               newVideoData.subCategoryId = new Types.ObjectId(subCategoryId);
                               newVideoData.subCategory = subCategory.name || '';
+                              newVideoData.type = subCategory.type || '';
                          }
 
                          newVideosData.push(newVideoData);
