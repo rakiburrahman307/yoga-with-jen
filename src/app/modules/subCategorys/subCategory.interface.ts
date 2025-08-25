@@ -4,6 +4,7 @@ export interface ISubCategory {
      name: string;
      thumbnail: string;
      description: string;
+     type: string;
      categoryId: Types.ObjectId;
      videoCount: number;
      equipment: string[];

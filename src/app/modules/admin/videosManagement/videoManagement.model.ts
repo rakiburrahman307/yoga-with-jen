@@ -12,7 +12,6 @@ const VideoSchema = new Schema<IVideo>(
           videoUrl: { type: String, required: true },
           description: { type: String, required: true },
           status: { type: String, enum: ['active', 'inactive'], default: 'active' },
-          comments: [{ type: Schema.Types.ObjectId, ref: 'Comment' }],
      },
      { timestamps: true },
 );
