@@ -177,13 +177,15 @@ const getCategoriesAllVideos = async (id: string, userId: string, query: Record<
      if (!isExistCategory) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Category not found');
      }
+
      const subCategoryIds = isExistCategory.subCategory.map((sub: any) => sub._id);
      const queryBuilder = new QueryBuilder(
           Videos.find({
                categoryId: isExistCategory._id,
                $or: [
-                    { subCategoryId: '' },
-                    { subCategoryId: { $in: subCategoryIds } }, 
+                    { subCategoryId: { $exists: false } }, 
+                    { subCategoryId: null }, 
+                    { subCategoryId: { $in: subCategoryIds } },
                ],
           }),
           query,
