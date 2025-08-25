@@ -14,8 +14,6 @@ router.post('/upload-video', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), fil
 router.put('/update-video/:id', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), fileUploadHandlerbunny, videoManagementController.updateVideos);
 router.put('/video-status/:id', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), validateRequest(VideoValidationSchema.videoStatusValidation), videoManagementController.statusChange);
 router.delete('/video-delete/:id', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), videoManagementController.removeVideos);
-router.post('/mark-video-watched/:videoId', auth(USER_ROLES.USER), videoManagementController.markVideoAsCompleted);
-router.get('/get-all-videos-by-course/:subCategoryId', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), videoManagementController.getAllVideosByCourse);
 router.post('/copy-video', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), videoManagementController.copyVideo);
 // POST /videos/:videoId/comments
 

@@ -1,8 +1,6 @@
 import mongoose, { Schema } from 'mongoose';
 import { IVideos } from './video.interface';
 
-
-// 🎥 Video schema with embedded comments
 const VideoSchema = new Schema<IVideos>(
     {
         title: { type: String, required: true },

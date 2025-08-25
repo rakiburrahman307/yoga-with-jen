@@ -70,3 +70,16 @@ Mon Aug 25 2025 16:42:16 [SERVER-NAME] info: [32mConfig validation successful.
 Mon Aug 25 2025 16:42:16 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
 Mon Aug 25 2025 16:42:16 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
 Mon Aug 25 2025 16:42:16 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Mon Aug 25 2025 16:44:35 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Aug 25 2025 16:44:35 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Aug 25 2025 16:44:35 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Aug 25 2025 16:44:35 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Mon Aug 25 2025 16:45:41 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Aug 25 2025 16:45:41 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Aug 25 2025 16:45:41 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Aug 25 2025 16:45:41 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Mon Aug 25 2025 16:49:9 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Aug 25 2025 16:49:9 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Aug 25 2025 16:49:9 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Aug 25 2025 16:49:9 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Mon Aug 25 2025 16:49:9 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/category/get-videos/68a5bec52148500c7998bb15 200 - 79.522 ms

@@ -45,3 +45,6 @@ Mon Aug 25 2025 16:30:11 [SERVER-NAME] error: 10.10.7.62 - GET /api/v1/admin/cat
 Mon Aug 25 2025 16:30:11 [SERVER-NAME] error: 10.10.7.62 - GET /api/v1/admin/category/category-all-videos/68a5bec52148500c7998bb15 400 - 5.658 ms
 Mon Aug 25 2025 16:30:12 [SERVER-NAME] error: 10.10.7.62 - GET /api/v1/admin/category/category-all-videos/68a5bec52148500c7998bb15 400 - 5.517 ms
 Mon Aug 25 2025 16:37:17 [SERVER-NAME] error: 10.10.7.62 - GET /api/v1/category/get-videos/68a5bec52148500c7998bb15 400 - 24.914 ms
+Mon Aug 25 2025 16:46:29 [SERVER-NAME] error: 10.10.7.62 - GET /api/v1/subcategory/get-videos/683ec770cdcd9dbc9a3a5995 403 - 70.025 ms
+Mon Aug 25 2025 16:46:34 [SERVER-NAME] error: 10.10.7.62 - GET /api/v1/category/subcategory/683183f94f5c96c45dd8f96b 403 - 6.613 ms
+Mon Aug 25 2025 16:46:38 [SERVER-NAME] error: 10.10.7.62 - GET /api/v1/category/get-videos/68a5bec52148500c7998bb15 400 - 15.786 ms

@@ -13,16 +13,7 @@ const getAllVideos = catchAsync(async (req, res) => {
           pagination: result.meta,
      });
 });
-const getAllVideosByCourse = catchAsync(async (req, res) => {
-     const result = await videoManagementService.getVideosByCourse(req.params.subCategoryId, req.query);
-     sendResponse(res, {
-          success: true,
-          statusCode: StatusCodes.OK,
-          message: 'Videos retrieved successfully',
-          data: result.videos,
-          pagination: result.meta,
-     });
-});
+
 // get all videos
 const getSingleVideo = catchAsync(async (req, res) => {
      const { id }: any = req.user;
@@ -85,17 +76,7 @@ const removeVideos = catchAsync(async (req, res) => {
           message: 'Videos deleted successfully',
      });
 });
-const markVideoAsCompleted = catchAsync(async (req, res) => {
-     const { id }: any = req.user;
-     const { videoId } = req.params;
-     const result = await videoManagementService.markVideoAsCompleted(id, videoId);
-     sendResponse(res, {
-          success: true,
-          statusCode: StatusCodes.OK,
-          message: 'Video mark as complete successfully',
-          data: result,
-     });
-});
+
 const copyVideo = catchAsync(async (req, res) => {
      const { videoIds, categoryId, subCategoryId } = req.body;
      const result = await videoManagementService.copyVideo(videoIds, categoryId, subCategoryId);
@@ -114,7 +95,5 @@ export const videoManagementController = {
      statusChange,
      getSingleVideo,
      getSingleVideoForAdmin,
-     markVideoAsCompleted,
-     getAllVideosByCourse,
      copyVideo,
 };

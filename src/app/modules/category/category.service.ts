@@ -154,7 +154,19 @@ const getCategoryRelatedSubCategory = async (id: string, userId: string, query: 
      if (!isExistCategory) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Category not found');
      }
-     const queryBuilder = new QueryBuilder(Videos.find({ categoryId: isExistCategory._id, subCategoryId: '', status: 'active' }), query);
+
+     const queryBuilder = new QueryBuilder(
+          Videos.find({
+               categoryId: isExistCategory._id,
+               $or: [
+                    { subCategoryId: { $exists: false } },
+                    { subCategoryId: null }
+               ],
+               status: 'active'
+          }),
+          query
+     );
+
      const result = await queryBuilder.fields().filter().paginate().search(['name']).sort().modelQuery.exec();
      const meta = await queryBuilder.countTotal();
 
@@ -167,6 +179,7 @@ const getCategoryRelatedSubCategory = async (id: string, userId: string, query: 
                };
           }),
      );
+
      return {
           result: postsWithFavorites,
           meta,
@@ -183,8 +196,8 @@ const getCategoriesAllVideos = async (id: string, userId: string, query: Record<
           Videos.find({
                categoryId: isExistCategory._id,
                $or: [
-                    { subCategoryId: { $exists: false } }, 
-                    { subCategoryId: null }, 
+                    { subCategoryId: { $exists: false } },
+                    { subCategoryId: null },
                     { subCategoryId: { $in: subCategoryIds } },
                ],
           }),

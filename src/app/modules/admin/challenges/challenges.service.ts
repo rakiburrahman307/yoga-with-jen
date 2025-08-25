@@ -9,7 +9,7 @@ import { Video } from '../videosManagement/videoManagement.model';
 import { ChallengeCategory } from '../challengesCategory/challengesCategory.model';
 import { User } from '../../user/user.model';
 import mongoose from 'mongoose';
-import { checkNextVideoUnlockForChallenge } from '../../../../helpers/checkNExtVideoUnlocak';
+import { checkNextVideoUnlockForChallenge } from '../../../../helpers/checkNExtVideoUnlock';
 
 // Function to create a new "create Challenge" entry
 const createChallenge = async (payload: IChallenge) => {

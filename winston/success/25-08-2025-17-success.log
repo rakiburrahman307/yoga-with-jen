@@ -1,0 +1,100 @@
+Mon Aug 25 2025 17:4:39 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 8.248 ms
+Mon Aug 25 2025 17:4:40 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/admin/dashboard/revenue 204 - 0.246 ms
+Mon Aug 25 2025 17:4:40 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.183 ms
+Mon Aug 25 2025 17:4:40 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/admin/dashboard/resent-users 200 - 26.455 ms
+Mon Aug 25 2025 17:4:40 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/admin/dashboard/revenue 200 - 48.653 ms
+Mon Aug 25 2025 17:4:43 [SERVER-NAME] info: 10.10.7.62 - GET //thumbnail/image-11-1754911771507.png 304 - 7.903 ms
+Mon Aug 25 2025 17:4:43 [SERVER-NAME] info: 10.10.7.62 - GET //thumbnail/yellow-2708363-1755692741197.jpg 304 - 9.579 ms
+Mon Aug 25 2025 17:4:43 [SERVER-NAME] info: 10.10.7.62 - GET //thumbnail/link---zoanthids-%C3%A2%C2%86%C2%92-coralstashicon2.png-1754911760194.png 304 - 12.320 ms
+Mon Aug 25 2025 17:4:49 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/admin/category/category-all-videos/6899d41b0319393bfdd4f435 204 - 0.128 ms
+Mon Aug 25 2025 17:4:49 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/admin/category/category-all-videos/6899d41b0319393bfdd4f435 200 - 73.798 ms
+Mon Aug 25 2025 17:4:51 [SERVER-NAME] info: 10.10.7.62 - GET //thumbnail/yellow-2708363-1755692741197.jpg 304 - 1.136 ms
+Mon Aug 25 2025 17:4:51 [SERVER-NAME] info: 10.10.7.62 - GET //thumbnail/image-11-1754911771507.png 304 - 1.273 ms
+Mon Aug 25 2025 17:4:51 [SERVER-NAME] info: 10.10.7.62 - GET //thumbnail/link---zoanthids-%C3%A2%C2%86%C2%92-coralstashicon2.png-1754911760194.png 304 - 0.334 ms
+Mon Aug 25 2025 17:4:52 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/admin/category/category-all-videos/68a5bec52148500c7998bb15 204 - 0.062 ms
+Mon Aug 25 2025 17:4:52 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/admin/category/category-all-videos/68a5bec52148500c7998bb15 200 - 28.517 ms
+Mon Aug 25 2025 17:5:5 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/category/category-all-videos/68a5bec52148500c7998bb15 200 - 13.617 ms
+Mon Aug 25 2025 17:5:22 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.082 ms
+Mon Aug 25 2025 17:5:22 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/category/category-all-videos/68a5bec52148500c7998bb15 204 - 0.049 ms
+Mon Aug 25 2025 17:5:22 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/category 204 - 0.042 ms
+Mon Aug 25 2025 17:5:22 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/managment/videos? 204 - 0.047 ms
+Mon Aug 25 2025 17:5:22 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 23.936 ms
+Mon Aug 25 2025 17:5:22 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/managment/videos? 304 - 36.492 ms
+Mon Aug 25 2025 17:5:22 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/category 304 - 37.758 ms
+Mon Aug 25 2025 17:5:22 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/category/category-all-videos/68a5bec52148500c7998bb15 200 - 40.503 ms
+Mon Aug 25 2025 17:5:44 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.122 ms
+Mon Aug 25 2025 17:5:44 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 304 - 5.399 ms
+Mon Aug 25 2025 17:5:46 [SERVER-NAME] info: 10.10.7.48 - GET //thumbnail/yellow-2708363-1755692741197.jpg 304 - 1.115 ms
+Mon Aug 25 2025 17:5:46 [SERVER-NAME] info: 10.10.7.48 - GET //thumbnail/image-11-1754911771507.png 304 - 0.470 ms
+Mon Aug 25 2025 17:5:46 [SERVER-NAME] info: 10.10.7.48 - GET //thumbnail/link---zoanthids-%C3%A2%C2%86%C2%92-coralstashicon2.png-1754911760194.png 304 - 0.946 ms
+Mon Aug 25 2025 17:6:0 [SERVER-NAME] info: 10.10.7.48 - GET //thumbnail/yellow-2708363-1755692741197.jpg 304 - 0.943 ms
+Mon Aug 25 2025 17:6:0 [SERVER-NAME] info: 10.10.7.48 - GET //thumbnail/image-11-1754911771507.png 304 - 1.240 ms
+Mon Aug 25 2025 17:6:0 [SERVER-NAME] info: 10.10.7.48 - GET //thumbnail/link---zoanthids-%C3%A2%C2%86%C2%92-coralstashicon2.png-1754911760194.png 304 - 1.417 ms
+Mon Aug 25 2025 17:7:56 [SERVER-NAME] info: 10.10.7.48 - GET //thumbnail/yellow-2708363-1755692741197.jpg 304 - 0.671 ms
+Mon Aug 25 2025 17:7:56 [SERVER-NAME] info: 10.10.7.48 - GET //thumbnail/image-11-1754911771507.png 304 - 0.437 ms
+Mon Aug 25 2025 17:7:56 [SERVER-NAME] info: 10.10.7.48 - GET //thumbnail/link---zoanthids-%C3%A2%C2%86%C2%92-coralstashicon2.png-1754911760194.png 304 - 0.670 ms
+Mon Aug 25 2025 17:7:59 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/category/category-all-videos/6899d41b0319393bfdd4f435 204 - 0.176 ms
+Mon Aug 25 2025 17:7:59 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/category/category-all-videos/6899d41b0319393bfdd4f435 200 - 18.707 ms
+Mon Aug 25 2025 17:8:5 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/managment/copy-video 204 - 0.077 ms
+Mon Aug 25 2025 17:8:5 [SERVER-NAME] info: 10.10.7.48 - POST /api/v1/admin/videos/managment/copy-video 200 - 71.723 ms
+Mon Aug 25 2025 17:8:5 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/category 204 - 0.124 ms
+Mon Aug 25 2025 17:8:5 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/category/category-all-videos/6899d41b0319393bfdd4f435 204 - 0.099 ms
+Mon Aug 25 2025 17:8:5 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/category 200 - 15.519 ms
+Mon Aug 25 2025 17:8:5 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/category/category-all-videos/6899d41b0319393bfdd4f435 200 - 14.296 ms
+Mon Aug 25 2025 17:8:14 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.074 ms
+Mon Aug 25 2025 17:8:14 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/category/category-all-videos/6899d41b0319393bfdd4f435 204 - 0.036 ms
+Mon Aug 25 2025 17:8:14 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/managment/videos? 204 - 0.035 ms
+Mon Aug 25 2025 17:8:14 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/category 204 - 0.034 ms
+Mon Aug 25 2025 17:8:14 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 9.791 ms
+Mon Aug 25 2025 17:8:14 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/managment/videos? 304 - 17.858 ms
+Mon Aug 25 2025 17:8:14 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/category/category-all-videos/6899d41b0319393bfdd4f435 304 - 25.780 ms
+Mon Aug 25 2025 17:8:14 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/category 304 - 22.610 ms
+Mon Aug 25 2025 17:8:50 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/managment/video-delete/68ac4415da59c236c70897fe 204 - 0.124 ms
+Mon Aug 25 2025 17:14:43 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Aug 25 2025 17:14:43 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Aug 25 2025 17:14:43 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Aug 25 2025 17:14:43 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Mon Aug 25 2025 17:18:49 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 2.547 ms
+Mon Aug 25 2025 17:18:50 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/category 204 - 0.083 ms
+Mon Aug 25 2025 17:18:50 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/managment/videos?page=1&limit=10 204 - 0.124 ms
+Mon Aug 25 2025 17:18:50 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 75.261 ms
+Mon Aug 25 2025 17:18:50 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/managment/videos?page=1&limit=10 304 - 69.689 ms
+Mon Aug 25 2025 17:18:50 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/category 304 - 67.276 ms
+Mon Aug 25 2025 17:29:54 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Aug 25 2025 17:29:54 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Aug 25 2025 17:29:54 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Aug 25 2025 17:29:54 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Mon Aug 25 2025 17:30:15 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Aug 25 2025 17:30:15 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Aug 25 2025 17:30:15 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Aug 25 2025 17:30:15 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Mon Aug 25 2025 17:31:7 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.878 ms
+Mon Aug 25 2025 17:31:7 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/category/category-all-videos/6899d41b0319393bfdd4f435 204 - 0.123 ms
+Mon Aug 25 2025 17:31:7 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/category 204 - 0.062 ms
+Mon Aug 25 2025 17:31:7 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/managment/videos? 204 - 0.167 ms
+Mon Aug 25 2025 17:31:7 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 38.271 ms
+Mon Aug 25 2025 17:31:7 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/category 304 - 35.757 ms
+Mon Aug 25 2025 17:31:7 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/managment/videos? 304 - 36.473 ms
+Mon Aug 25 2025 17:31:7 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/category/category-all-videos/6899d41b0319393bfdd4f435 304 - 54.579 ms
+Mon Aug 25 2025 17:41:23 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Aug 25 2025 17:41:23 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Aug 25 2025 17:41:23 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Aug 25 2025 17:41:23 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Mon Aug 25 2025 17:44:15 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Aug 25 2025 17:44:15 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Aug 25 2025 17:44:15 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Aug 25 2025 17:44:15 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Mon Aug 25 2025 17:45:25 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Aug 25 2025 17:45:26 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Aug 25 2025 17:45:26 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Aug 25 2025 17:45:26 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Mon Aug 25 2025 17:46:19 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Aug 25 2025 17:46:20 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Aug 25 2025 17:46:20 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Aug 25 2025 17:46:20 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Mon Aug 25 2025 17:46:33 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/managment/copy-video 204 - 0.842 ms
+Mon Aug 25 2025 17:46:33 [SERVER-NAME] info: 10.10.7.48 - POST /api/v1/admin/videos/managment/copy-video 200 - 76.268 ms
+Mon Aug 25 2025 17:46:33 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/category/category-all-videos/6899d41b0319393bfdd4f435 204 - 0.127 ms
+Mon Aug 25 2025 17:46:33 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/category 204 - 0.251 ms
+Mon Aug 25 2025 17:46:33 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/category 200 - 34.173 ms
+Mon Aug 25 2025 17:46:33 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/category/category-all-videos/6899d41b0319393bfdd4f435 200 - 39.549 ms
