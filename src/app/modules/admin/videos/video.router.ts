@@ -10,5 +10,6 @@ router.patch('/update-video-status/:id', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES
 router.get('/get-single-video-for-admin/:id', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), VideoController.getSingleVideoForAdmin);
 router.post('/mark-video-watched/:videoId', auth(USER_ROLES.USER), VideoController.markVideoAsCompleted);
 router.get('/:id', auth(USER_ROLES.USER, USER_ROLES.ADMIN, USER_ROLES.SUPER_ADMIN), VideoController.getSingleVideo);
+router.put('/update-by-admin/:id', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), VideoController.updateVideo);
 
 export const VideoRoutes = router;

@@ -18,15 +18,15 @@ const getAllVideosByCourse = catchAsync(async (req, res) => {
     });
 });
 const markVideoAsCompleted = catchAsync(async (req, res) => {
-     const { id }: any = req.user;
-     const { videoId } = req.params;
-     const result = await VideoService.markVideoAsCompleted(id, videoId);
-     sendResponse(res, {
-          success: true,
-          statusCode: StatusCodes.OK,
-          message: 'Video mark as complete successfully',
-          data: result,
-     });
+    const { id }: any = req.user;
+    const { videoId } = req.params;
+    const result = await VideoService.markVideoAsCompleted(id, videoId);
+    sendResponse(res, {
+        success: true,
+        statusCode: StatusCodes.OK,
+        message: 'Video mark as complete successfully',
+        data: result,
+    });
 });
 const deleteVideo = catchAsync(async (req, res) => {
     const { id } = req.params;
@@ -41,7 +41,8 @@ const deleteVideo = catchAsync(async (req, res) => {
 
 const updateVideoStatus = catchAsync(async (req, res) => {
     const { id } = req.params;
-    const result = await VideoService.updateVideoStatus(id, req.body);
+    const { status } = req.body;
+    const result = await VideoService.updateVideoStatus(id, status);
     sendResponse(res, {
         success: true,
         statusCode: StatusCodes.OK,
@@ -50,26 +51,36 @@ const updateVideoStatus = catchAsync(async (req, res) => {
     });
 });
 const getSingleVideoForAdmin = catchAsync(async (req, res) => {
-     const result = await VideoService.getSingleVideoForAdmin(req.params.id);
-     sendResponse(res, {
-          success: true,
-          statusCode: StatusCodes.OK,
-          message: 'Videos retrieved successfully',
-          data: result,
-     });
+    const result = await VideoService.getSingleVideoForAdmin(req.params.id);
+    sendResponse(res, {
+        success: true,
+        statusCode: StatusCodes.OK,
+        message: 'Videos retrieved successfully',
+        data: result,
+    });
 });
 
 
 // get all videos
 const getSingleVideo = catchAsync(async (req, res) => {
-     const { id }: any = req.user;
-     const result = await VideoService.getSingleVideoFromDb(req.params.id, id);
-     sendResponse(res, {
-          success: true,
-          statusCode: StatusCodes.OK,
-          message: 'Videos retrieved successfully',
-          data: result,
-     });
+    const { id }: any = req.user;
+    const result = await VideoService.getSingleVideoFromDb(req.params.id, id);
+    sendResponse(res, {
+        success: true,
+        statusCode: StatusCodes.OK,
+        message: 'Videos retrieved successfully',
+        data: result,
+    });
+});
+const updateVideo = catchAsync(async (req, res) => {
+    const { id } = req.params;
+    const result = await VideoService.updateVideo(id, req.body);
+    sendResponse(res, {
+        success: true,
+        statusCode: StatusCodes.OK,
+        message: 'Video updated successfully',
+        data: result,
+    });
 });
 export const VideoController = {
     getAllVideosByCourse,
@@ -78,4 +89,5 @@ export const VideoController = {
     updateVideoStatus,
     getSingleVideoForAdmin,
     getSingleVideo,
+    updateVideo,
 };

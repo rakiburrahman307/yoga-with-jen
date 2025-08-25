@@ -5,8 +5,8 @@ import { User } from "../../user/user.model";
 import { Videos } from "./video.model";
 import mongoose from "mongoose";
 import { checkNextVideoUnlock } from "../../../../helpers/checkNExtVideoUnlock";
-import { IVideos } from "./video.interface";
 import { Favorite } from "../../favorite/favorite.model";
+import { IVideos } from "./video.interface";
 
 const getFevVideosOrNot = async (videoId: string, userId: string) => {
     const favorite = await Favorite.findOne({ videoId, userId });
@@ -106,8 +106,8 @@ const getSingleVideoFromDb = async (id: string, userId: string) => {
     // If the user doesn't have a subscription and the video is paid
     throw new AppError(StatusCodes.FORBIDDEN, 'You do not have access');
 };
-const updateVideoStatus = async (id: string, data: Partial<IVideos>) => {
-    const result = await Videos.findByIdAndUpdate(id, data, {
+const updateVideoStatus = async (id: string, status: string) => {
+    const result = await Videos.findByIdAndUpdate(id, { status }, {
         new: true,
         runValidators: true,
     });
@@ -123,6 +123,17 @@ const getSingleVideoForAdmin = async (id: string) => {
     }
     return result;
 };
+
+const updateVideo = async (id: string, payload: Partial<IVideos>) => {
+    const result = await Videos.findByIdAndUpdate(id, payload, {
+        new: true,
+        runValidators: true,
+    });
+    if (!result) {
+        throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
+    }
+    return result;
+};
 export const VideoService = {
     getVideosByCourse,
     markVideoAsCompleted,
@@ -130,4 +141,5 @@ export const VideoService = {
     getSingleVideoFromDb,
     updateVideoStatus,
     getSingleVideoForAdmin,
+    updateVideo,
 };
