@@ -2,7 +2,7 @@ import { StatusCodes } from 'http-status-codes';
 import catchAsync from '../../../shared/catchAsync';
 import sendResponse from '../../../shared/sendResponse';
 import { CategoryService } from './category.service';
-// create categorys
+// create category
 const createCategory = catchAsync(async (req, res) => {
      const categoryData = req.body;
      const result = await CategoryService.createCategoryToDB(categoryData);
@@ -13,18 +13,18 @@ const createCategory = catchAsync(async (req, res) => {
           data: result,
      });
 });
-// get all categorys
+// get all category
 const getCategories = catchAsync(async (req, res) => {
      const result = await CategoryService.getCategoriesFromDB(req.query);
      sendResponse(res, {
           success: true,
           statusCode: StatusCodes.OK,
           message: 'Category retrieved successfully',
-          data: result.categorys,
+          data: result.category,
           pagination: result.meta,
      });
 });
-// update categorys
+// update category
 const updateCategory = catchAsync(async (req, res) => {
      const id = req.params.id;
      const updateCategoryData = req.body;
@@ -55,7 +55,7 @@ const updateCategoryStatus = catchAsync(async (req, res) => {
 // delete category
 const deleteCategory = catchAsync(async (req, res) => {
      const id = req.params.id;
-     const result = await CategoryService.deleteCategoryToDB(id);
+      await CategoryService.deleteCategoryToDB(id);
 
      sendResponse(res, {
           success: true,
@@ -73,7 +73,7 @@ const getSingleCategory = catchAsync(async (req, res) => {
           data: result,
      });
 });
-const getSubcategorisByCategoris = catchAsync(async (req, res) => {
+const getSubcategoriesByCategory = catchAsync(async (req, res) => {
      const { id } = req.params;
      const result = await CategoryService.getSubcategoryWithCategoryIdFromDB(id, req.query);
      sendResponse(res, {
@@ -110,7 +110,7 @@ const shuffleCategorySerial = catchAsync(async (req, res) => {
      sendResponse(res, {
           success: true,
           statusCode: StatusCodes.OK,
-          message: 'Videos retrive successfully',
+          message: 'Category serial shuffled successfully',
           data: result,
      });
 });
@@ -121,7 +121,7 @@ export const CategoryController = {
      deleteCategory,
      updateCategoryStatus,
      getSingleCategory,
-     getSubcategorisByCategoris,
+     getSubcategoriesByCategory,
      getVideosByCategory,
      getCategoriesAllVideos,
      shuffleCategorySerial,

@@ -7,8 +7,9 @@ import QueryBuilder from '../../builder/QueryBuilder';
 import { User } from '../user/user.model';
 import { SubCategory } from '../subCategorys/subCategory.model';
 import { USER_ROLES } from '../../../enums/user';
-import { Video } from '../admin/videosManagement/videoManagement.model';
-import { Favourite } from '../favorite/favorite.model';
+import { Favorite } from '../favorite/favorite.model';
+import { Videos } from '../admin/videos/video.model';
+
 
 const createCategoryToDB = async (payload: ICategory) => {
      const { name, thumbnail } = payload;
@@ -20,7 +21,6 @@ const createCategoryToDB = async (payload: ICategory) => {
      }
      const newCategory = new Category({
           name,
-          // categoryType,
           thumbnail,
      });
 
@@ -33,10 +33,10 @@ const createCategoryToDB = async (payload: ICategory) => {
 
      return createdCategory;
 };
-// get c  ategorys
+// get category
 const getCategoriesFromDB = async (query: Record<string, unknown>) => {
      const queryBuilder = new QueryBuilder(Category.find().sort({ serial: 1 }), query);
-     const categorys = await queryBuilder
+     const category = await queryBuilder
           .fields()
           .filter()
           .paginate()
@@ -51,11 +51,11 @@ const getCategoriesFromDB = async (query: Record<string, unknown>) => {
           .exec();
      const meta = await queryBuilder.countTotal();
      return {
-          categorys,
+          category,
           meta,
      };
 };
-// update catgeory
+// update category
 const updateCategoryToDB = async (id: string, payload: ICategory) => {
      const isExistCategory: any = await Category.findById(id);
 
@@ -72,11 +72,11 @@ const updateCategoryToDB = async (id: string, payload: ICategory) => {
      });
 
      if (!updateCategory) {
-          throw new AppError(StatusCodes.BAD_REQUEST, 'Faield to update category!');
+          throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to update category!');
      }
      return updateCategory;
 };
-// update catgeory status
+// update category status
 const updateCategoryStatusToDB = async (id: string, payload: string) => {
      const isExistCategory: any = await Category.findById(id);
 
@@ -95,7 +95,7 @@ const updateCategoryStatusToDB = async (id: string, payload: string) => {
      );
 
      if (!updateCategory) {
-          throw new AppError(StatusCodes.BAD_REQUEST, 'Faield to update category!');
+          throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to update category!');
      }
      return updateCategory;
 };
@@ -146,7 +146,7 @@ const getSubcategoryWithCategoryIdFromDB = async (id: string, query: Record<stri
      };
 };
 const getFevVideosOrNot = async (videoId: string, userId: string) => {
-     const favorite = await Favourite.findOne({ videoId, userId });
+     const favorite = await Favorite.findOne({ videoId, userId });
      return favorite ? true : false;
 };
 const getCategoryRelatedSubCategory = async (id: string, userId: string, query: Record<string, unknown>) => {
@@ -154,16 +154,16 @@ const getCategoryRelatedSubCategory = async (id: string, userId: string, query: 
      if (!isExistCategory) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Category not found');
      }
-     const queryBuilder = new QueryBuilder(Video.find({ categoryId: isExistCategory._id, subCategoryId: '', status: 'active' }), query);
+     const queryBuilder = new QueryBuilder(Videos.find({ categoryId: isExistCategory._id, subCategoryId: '', status: 'active' }), query);
      const result = await queryBuilder.fields().filter().paginate().search(['name']).sort().modelQuery.exec();
      const meta = await queryBuilder.countTotal();
 
      const postsWithFavorites = await Promise.all(
           result.map(async (post: any) => {
-               const isFevorite = await getFevVideosOrNot(post._id, userId);
+               const isFavorite = await getFevVideosOrNot(post._id, userId);
                return {
                     ...post.toObject(),
-                    isFevorite,
+                    isFavorite
                };
           }),
      );
@@ -173,22 +173,17 @@ const getCategoryRelatedSubCategory = async (id: string, userId: string, query: 
      };
 };
 const getCategoriesAllVideos = async (id: string, userId: string, query: Record<string, unknown>) => {
-     // Find category and populate subcategories
      const isExistCategory = await Category.findById(id).populate('subCategory');
      if (!isExistCategory) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Category not found');
      }
-
-     // Get subcategory IDs for filtering
      const subCategoryIds = isExistCategory.subCategory.map((sub: any) => sub._id);
-
-     // Get videos for this category (both direct category videos and subcategory videos)
      const queryBuilder = new QueryBuilder(
-          Video.find({
+          Videos.find({
                categoryId: isExistCategory._id,
                $or: [
-                    { subCategoryId: '' }, // Direct category videos
-                    { subCategoryId: { $in: subCategoryIds } }, // Subcategory videos
+                    { subCategoryId: '' },
+                    { subCategoryId: { $in: subCategoryIds } }, 
                ],
           }),
           query,
@@ -197,14 +192,12 @@ const getCategoriesAllVideos = async (id: string, userId: string, query: Record<
      const result = await queryBuilder.fields().filter().paginate().search(['name']).sort().modelQuery.exec();
 
      const meta = await queryBuilder.countTotal();
-
-     // Add favorite status to videos
      const videosWithFavorites = await Promise.all(
           result.map(async (video: any) => {
-               const isFevorite = await getFevVideosOrNot(video._id, userId);
+               const isFavorite = await getFevVideosOrNot(video._id, userId);
                return {
                     ...video.toObject(),
-                    isFevorite,
+                    isFavorite,
                };
           }),
      );
@@ -216,13 +209,9 @@ const getCategoriesAllVideos = async (id: string, userId: string, query: Record<
 };
 
 const shuffleCategorySerial = async (categoryOrder: Array<{ _id: string; serial: number }>) => {
-     // Validate input
      if (!categoryOrder || !Array.isArray(categoryOrder) || categoryOrder.length === 0) {
-          console.log('No category order data provided.');
           return;
      }
-
-     // Update each video's serial number
      const updatePromises = categoryOrder.map((item) => Category.findByIdAndUpdate(item._id, { serial: item.serial }, { new: true }));
 
      const result = await Promise.all(updatePromises);

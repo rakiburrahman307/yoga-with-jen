@@ -27,7 +27,7 @@ router
      .delete(auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), CategoryController.deleteCategory);
 
 router.get('/', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN, USER_ROLES.USER), CategoryController.getCategories);
-router.get('/subcategory/:id', auth(USER_ROLES.USER), CategoryController.getSubcategorisByCategoris);
+router.get('/subcategory/:id', auth(USER_ROLES.USER), CategoryController.getSubcategoriesByCategory);
 router.get('/category-all-videos/:id', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), CategoryController.getCategoriesAllVideos);
 
 export const CategoryRoutes = router;
