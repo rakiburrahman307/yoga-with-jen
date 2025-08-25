@@ -14,7 +14,8 @@ const createChallengeVideos = catchAsync(async (req, res) => {
      });
 });
 const createChallengeForSchedule = catchAsync(async (req, res) => {
-     const result = await ChallengeService.createChallengeForSchedule(req.body);
+     const { videoIds, challengeCategoryId, publishAt } = req.body;
+     const result = await ChallengeService.copyChallengeVideo(videoIds, challengeCategoryId, publishAt);
      sendResponse(res, {
           statusCode: StatusCodes.CREATED,
           success: true,

@@ -21,7 +21,7 @@ export interface IVideoLibrary {
      title: string;
      description?: string;
      url: string;
-     duration?: number;
+     duration?: string;
      thumbnailUrl?: string;
      tags?: string[];
      createdAt: Date;

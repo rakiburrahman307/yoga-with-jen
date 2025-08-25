@@ -4,12 +4,14 @@ import AppError from '../../../../errors/AppError';
 import QueryBuilder from '../../../builder/QueryBuilder';
 import { BunnyStorageHandeler } from '../../../../helpers/BunnyStorageHandeler';
 import { ChallengeVideo } from './challenges.model';
-import { IChallenge } from './challenges.interface';
-import { Video } from '../videosManagement/videoManagement.model';
+import { IChallenge, IChallengeCategory, VideoIdInput } from './challenges.interface';
+import { VideoLibrary } from '../videosManagement/videoManagement.model';
 import { ChallengeCategory } from '../challengesCategory/challengesCategory.model';
 import { User } from '../../user/user.model';
 import mongoose from 'mongoose';
 import { checkNextVideoUnlockForChallenge } from '../../../../helpers/checkNExtVideoUnlock';
+import { IVideoLibrary } from '../videosManagement/videoManagement.interface';
+
 
 // Function to create a new "create Challenge" entry
 const createChallenge = async (payload: IChallenge) => {
@@ -24,35 +26,139 @@ const createChallenge = async (payload: IChallenge) => {
      }
      return result;
 };
-const createChallengeForSchedule = async (payload: { publishAt: string; videoId: string; categoryId: string }) => {
-     const { publishAt, videoId, categoryId } = payload;
-     const isExistVideo = await Video.findById(videoId);
-     if (!isExistVideo) {
-          throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
+
+const copyChallengeVideo = async (
+     videoIds: VideoIdInput,
+     challengeCategoryId: string | mongoose.Types.ObjectId,
+     publishAt?: string
+) => {
+     try {
+          // Convert single videoId to array for uniform processing
+          const videoIdArray: (string | mongoose.Types.ObjectId)[] = Array.isArray(videoIds) ? videoIds : [videoIds];
+
+          if (videoIdArray.length === 0) {
+               throw new AppError(StatusCodes.BAD_REQUEST, 'No video IDs provided');
+          }
+
+          // Fetch challenge category info once (shared for all videos)
+          const challengeCategory: IChallengeCategory | null = await ChallengeCategory.findById(challengeCategoryId);
+
+          // Validation
+          if (!challengeCategory) {
+               throw new AppError(StatusCodes.NOT_FOUND, 'Challenge Category not found');
+          }
+
+          // Process videos in batches for better performance
+          const batchSize: number = 15;
+          const results_data: IChallenge[] = [];
+
+          for (let i = 0; i < videoIdArray.length; i += batchSize) {
+               const batch = videoIdArray.slice(i, i + batchSize);
+
+               // Fetch all videos in current batch from VideoLibrary
+               const videosPromises: Promise<IVideoLibrary | null>[] = batch.map(
+                    (videoId: string | mongoose.Types.ObjectId) => VideoLibrary.findById(videoId)
+               );
+               const videos: (IVideoLibrary | null)[] = await Promise.all(videosPromises);
+
+               // Prepare new challenge video documents
+               const newChallengeVideosData: IChallenge[] = [];
+               const validVideos: (string | mongoose.Types.ObjectId)[] = [];
+
+               videos.forEach((video: any | null, index: number) => {
+                    if (video) {
+                         // Build new challenge video object
+                         const newChallengeVideoData: any = {
+                              title: video.title,
+                              challengeId: challengeCategory._id as mongoose.Types.ObjectId,
+                              challengeName: challengeCategory.name,
+                              duration: video.duration,
+                              equipment: video.equipment,
+                              thumbnailUrl: video.thumbnailUrl,
+                              videoUrl: video.videoUrl,
+                              description: video.description,
+                              status: 'inactive',
+                              publishAt: publishAt ? new Date(publishAt) : new Date(),
+                         };
+
+                         newChallengeVideosData.push(newChallengeVideoData);
+                         validVideos.push(batch[index]);
+                    }
+               });
+
+               if (newChallengeVideosData.length > 0) {
+                    try {
+                         // Bulk insert for better performance
+                         const savedChallengeVideos: any = await ChallengeVideo.insertMany(
+                              newChallengeVideosData,
+                              { ordered: false }
+                         );
+
+                         // Update challenge category video count
+                         await ChallengeCategory.findByIdAndUpdate(challengeCategoryId, {
+                              $inc: { videoCount: savedChallengeVideos.length }
+                         });
+
+                         results_data.push(...savedChallengeVideos);
+
+                    } catch{
+                         throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Failed to copy video(s) to challenge');
+                    }
+               }
+
+               // Add small delay between batches to avoid overwhelming DB
+               if (i + batchSize < videoIdArray.length) {
+                    await new Promise<void>(resolve => setTimeout(resolve, 50));
+               }
+          }
+
+          // Return single object if single video was requested
+          if (!Array.isArray(videoIds) && results_data.length === 1) {
+               return results_data[0];
+          }
+
+          return results_data;
+
+     } catch (error: any) {
+          // Re-throw AppError instances
+          if (error instanceof AppError) {
+               throw error;
+          }
+          // Generic error
+          throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Failed to copy video(s) to challenge');
      }
-     const isExistCategory = await ChallengeCategory.findById(categoryId);
-     if (!isExistCategory) {
-          throw new AppError(StatusCodes.NOT_FOUND, 'Category not found');
-     }
-     const data = {
-          title: isExistVideo.title,
-          challengeId: isExistCategory._id.toString(),
-          challengeName: isExistCategory.name,
-          duration: isExistVideo.duration,
-          equipment: isExistVideo.equipment,
-          thumbnailUrl: isExistVideo.thumbnailUrl,
-          videoUrl: isExistVideo.videoUrl,
-          description: isExistVideo.description,
-          status: 'inactive',
-          publishAt,
-     };
-     // Create the new post
-     const result = await ChallengeVideo.create(data);
-     if (!result) {
-          throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to create Challenge');
-     }
-     return result;
 };
+
+
+// const createChallengeForSchedule = async (payload: { publishAt: string; videoId: string; categoryId: string }) => {
+//      const { publishAt, videoId, categoryId } = payload;
+//      const isExistVideo = await Videos.findById(videoId);
+//      if (!isExistVideo) {
+//           throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
+//      }
+//      const isExistCategory = await ChallengeCategory.findById(categoryId);
+//      if (!isExistCategory) {
+//           throw new AppError(StatusCodes.NOT_FOUND, 'Category not found');
+//      }
+//      const data = {
+//           title: isExistVideo.title,
+//           challengeId: isExistCategory._id.toString(),
+//           challengeName: isExistCategory.name,
+//           duration: isExistVideo.duration,
+//           equipment: isExistVideo.equipment,
+//           thumbnailUrl: isExistVideo.thumbnailUrl,
+//           videoUrl: isExistVideo.videoUrl,
+//           description: isExistVideo.description,
+//           status: 'inactive',
+//           publishAt,
+//      };
+//      // Create the new post
+//      const result = await ChallengeVideo.create(data);
+//      if (!result) {
+//           throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to create Challenge');
+//      }
+//      return result;
+// };
 // Function to fetch all "create Challenge" entries, including pagination, filtering, and sorting
 const getAllChallenge = async (id: string, query: Record<string, unknown>) => {
      const queryBuilder = new QueryBuilder(ChallengeVideo.find({ challengeId: id }), query);
@@ -113,7 +219,7 @@ const updateChallenge = async (id: string, payload: Partial<IChallenge>) => {
      if (payload.videoUrl && isExistVideo.videoUrl) {
           try {
                await BunnyStorageHandeler.deleteFromBunny(isExistVideo.videoUrl);
-          } catch  {
+          } catch {
                throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Error deleting old video from BunnyCDN');
           }
      }
@@ -121,7 +227,7 @@ const updateChallenge = async (id: string, payload: Partial<IChallenge>) => {
      if (payload.thumbnailUrl && isExistVideo.thumbnailUrl) {
           try {
                await BunnyStorageHandeler.deleteFromBunny(isExistVideo.thumbnailUrl);
-          } catch  {
+          } catch {
                throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Error deleting old thumbnail from BunnyCDN');
           }
      }
@@ -148,7 +254,7 @@ const deleteChallenge = async (id: string) => {
                if (result.thumbnailUrl) {
                     await BunnyStorageHandeler.deleteFromBunny(result.thumbnailUrl);
                }
-          } catch  {
+          } catch {
                throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Error deleting video from BunnyCDN');
           }
      }
@@ -278,7 +384,7 @@ export const ChallengeService = {
      updateChallenge,
      deleteChallenge,
      getChallenge,
-     createChallengeForSchedule,
+     copyChallengeVideo,
      getChallengeRelateVideo,
      markVideoAsCompleted,
 };

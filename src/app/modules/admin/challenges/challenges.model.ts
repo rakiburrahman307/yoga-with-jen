@@ -3,6 +3,7 @@ import { IChallenge } from './challenges.interface';
 const VideoSchema = new Schema<IChallenge>(
      {
           title: { type: String, required: true },
+          serial: { type: Number, required: false, default: 1 },
           challengeId: { type: Schema.Types.ObjectId, ref: 'ChallengeCategory', required: true },
           challengeName: { type: String, required: true, trim: true },
           duration: { type: String, default: '00:00' },
