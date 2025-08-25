@@ -5,7 +5,6 @@ import { CategoryService } from './subCategory.service';
 
 const createSubCategory = catchAsync(async (req, res) => {
      const serviceData = req.body;
-     console.log('serviceData', serviceData);
      const result = await CategoryService.createSubCategoryToDB(serviceData);
      sendResponse(res, {
           success: true,
@@ -14,18 +13,18 @@ const createSubCategory = catchAsync(async (req, res) => {
           data: result,
      });
 });
-// get sub categorys
+// get sub category
 const getSubCategories = catchAsync(async (req, res) => {
      const result = await CategoryService.getCategoriesFromDB(req.query);
      sendResponse(res, {
           success: true,
           statusCode: StatusCodes.OK,
           message: 'Sub category retrieved successfully',
-          data: result.subCategorys,
+          data: result.subCategories,
           pagination: result.meta,
      });
 });
-const getSubcategorisById = catchAsync(async (req, res) => {
+const getSubcategoryById = catchAsync(async (req, res) => {
      const result = await CategoryService.getSubCategoryDetails(req.params.id);
      sendResponse(res, {
           success: true,
@@ -61,23 +60,23 @@ const deleteSubCategory = catchAsync(async (req, res) => {
      });
 });
 const getCategoryRelatedSubCategory = catchAsync(async (req, res) => {
-     const result = await CategoryService.getCategoryReletedSubcategory(req.params.id);
+     const result = await CategoryService.getCategoryRelatedSubcategory(req.params.id);
 
      sendResponse(res, {
           success: true,
           statusCode: StatusCodes.OK,
-          message: 'Sub category retrive successfully',
+          message: 'Sub category retrieved successfully',
           data: result,
      });
 });
-const getVideosBySubCategiry = catchAsync(async (req, res) => {
+const getVideosBySubCategory = catchAsync(async (req, res) => {
      const { id }: any = req.user;
      const result = await CategoryService.getSubCategoryRelatedVideo(req.params.id, id, req.query);
 
      sendResponse(res, {
           success: true,
           statusCode: StatusCodes.OK,
-          message: 'Videos retrive successfully',
+          message: 'Videos by sub category retrieved successfully',
           data: result,
      });
 });
@@ -86,7 +85,7 @@ const safhaleVideoSerial = catchAsync(async (req, res) => {
      sendResponse(res, {
           success: true,
           statusCode: StatusCodes.OK,
-          message: 'Videos retrive successfully',
+          message: 'Videos serial update successfully',
           data: result,
      });
 });
@@ -96,7 +95,7 @@ export const CategoryController = {
      updateSubCategory,
      deleteSubCategory,
      getCategoryRelatedSubCategory,
-     getVideosBySubCategiry,
-     getSubcategorisById,
+     getVideosBySubCategory,
+     getSubcategoryById,
      safhaleVideoSerial,
 };

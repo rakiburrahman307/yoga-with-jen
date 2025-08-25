@@ -44,3 +44,4 @@ Mon Aug 25 2025 16:30:10 [SERVER-NAME] error: 10.10.7.62 - GET /api/v1/admin/cat
 Mon Aug 25 2025 16:30:11 [SERVER-NAME] error: 10.10.7.62 - GET /api/v1/admin/category/category-all-videos/68a5bec52148500c7998bb15 400 - 5.150 ms
 Mon Aug 25 2025 16:30:11 [SERVER-NAME] error: 10.10.7.62 - GET /api/v1/admin/category/category-all-videos/68a5bec52148500c7998bb15 400 - 5.658 ms
 Mon Aug 25 2025 16:30:12 [SERVER-NAME] error: 10.10.7.62 - GET /api/v1/admin/category/category-all-videos/68a5bec52148500c7998bb15 400 - 5.517 ms
+Mon Aug 25 2025 16:37:17 [SERVER-NAME] error: 10.10.7.62 - GET /api/v1/category/get-videos/68a5bec52148500c7998bb15 400 - 24.914 ms
