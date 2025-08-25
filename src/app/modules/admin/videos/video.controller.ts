@@ -82,6 +82,15 @@ const updateVideo = catchAsync(async (req, res) => {
         data: result,
     });
 });
+const shuffleVideoSerial = catchAsync(async (req, res) => {
+     const result = await VideoService.shuffleVideoSerial(req.body);
+     sendResponse(res, {
+          success: true,
+          statusCode: StatusCodes.OK,
+          message: 'Video serial shuffled successfully',
+          data: result,
+     });
+});
 export const VideoController = {
     getAllVideosByCourse,
     markVideoAsCompleted,
@@ -90,4 +99,5 @@ export const VideoController = {
     getSingleVideoForAdmin,
     getSingleVideo,
     updateVideo,
+    shuffleVideoSerial,
 };

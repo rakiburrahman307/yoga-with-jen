@@ -134,6 +134,15 @@ const updateVideo = async (id: string, payload: Partial<IVideos>) => {
     }
     return result;
 };
+const shuffleVideoSerial = async (videoOrder: Array<{ _id: string; serial: number }>) => {
+     if (!videoOrder || !Array.isArray(videoOrder) || videoOrder.length === 0) {
+          return;
+     }
+     const updatePromises = videoOrder.map((item) => Videos.findByIdAndUpdate(item._id, { serial: item.serial }, { new: true }));
+
+     const result = await Promise.all(updatePromises);
+     return result;
+};
 export const VideoService = {
     getVideosByCourse,
     markVideoAsCompleted,
@@ -142,4 +151,5 @@ export const VideoService = {
     updateVideoStatus,
     getSingleVideoForAdmin,
     updateVideo,
+    shuffleVideoSerial,
 };

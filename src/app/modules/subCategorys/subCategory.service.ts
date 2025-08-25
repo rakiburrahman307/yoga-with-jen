@@ -183,7 +183,7 @@ const getSubCategoryDetails = async (id: string) => {
      }
      return result;
 };
-const safhaleVideoSerial = async (videoOrder: Array<{ _id: string; serial: number }>) => {
+const shuffleVideoSerial = async (videoOrder: Array<{ _id: string; serial: number }>) => {
      // Validate input
      if (!videoOrder || !Array.isArray(videoOrder) || videoOrder.length === 0) {
           return;
@@ -204,5 +204,5 @@ export const CategoryService = {
      getCategoryRelatedSubcategory,
      getSubCategoryRelatedVideo,
      getSubCategoryDetails,
-     safhaleVideoSerial,
+     shuffleVideoSerial,
 };

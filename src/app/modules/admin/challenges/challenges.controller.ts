@@ -5,9 +5,7 @@ import { ChallengeService } from './challenges.service';
 
 // Controller function to create a new "Create Challenge" entry
 const createChallengeVideos = catchAsync(async (req, res) => {
-     // Calling the service to create a new entry
      const result = await ChallengeService.createChallenge(req.body);
-     // Sending a success response with the result
      sendResponse(res, {
           statusCode: StatusCodes.CREATED,
           success: true,
@@ -16,10 +14,7 @@ const createChallengeVideos = catchAsync(async (req, res) => {
      });
 });
 const createChallengeForSchedule = catchAsync(async (req, res) => {
-     // Calling the service to create a new entry
      const result = await ChallengeService.createChallengeForSchedule(req.body);
-
-     // Sending a success response with the result
      sendResponse(res, {
           statusCode: StatusCodes.CREATED,
           success: true,

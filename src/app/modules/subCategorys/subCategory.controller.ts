@@ -80,8 +80,8 @@ const getVideosBySubCategory = catchAsync(async (req, res) => {
           data: result,
      });
 });
-const safhaleVideoSerial = catchAsync(async (req, res) => {
-     const result = await CategoryService.safhaleVideoSerial(req.body);
+const shuffleVideoSerial = catchAsync(async (req, res) => {
+     const result = await CategoryService.shuffleVideoSerial(req.body);
      sendResponse(res, {
           success: true,
           statusCode: StatusCodes.OK,
@@ -98,5 +98,5 @@ export const CategoryController = {
      getCategoryRelatedSubCategory,
      getVideosBySubCategory,
      getSubcategoryById,
-     safhaleVideoSerial,
+     shuffleVideoSerial,
 };

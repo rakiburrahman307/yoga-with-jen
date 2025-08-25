@@ -73,7 +73,7 @@ const getChallenge = async (query: Record<string, unknown>) => {
 };
 
 // Function to get the latest "create Challenge" content by ID
-const getChallengeContentLetest = async (id: string) => {
+const getChallengeContentLatest = async (id: string) => {
      // Finding the "create Challenge" entry by its ID
      const result = await ChallengeVideo.findById(id);
      if (!result) {
@@ -273,7 +273,7 @@ const markVideoAsCompleted = async (userId: string, videoId: string) => {
 export const ChallengeService = {
      createChallenge,
      getAllChallenge,
-     getChallengeContentLetest,
+     getChallengeContentLatest,
      getSingleChallenge,
      updateChallenge,
      deleteChallenge,
