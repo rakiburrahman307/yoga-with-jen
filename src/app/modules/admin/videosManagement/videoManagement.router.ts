@@ -17,4 +17,4 @@ router.delete('/video-delete/:id', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN
 router.post('/copy-video', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), videoManagementController.copyVideo);
 // POST /videos/:videoId/comments
 
-export const videoManagementRoute = router;
+export const VideoManagementRoute = router;

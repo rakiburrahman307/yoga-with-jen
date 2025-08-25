@@ -9,7 +9,11 @@ const router = express.Router();
 
 router.get('/get-all-videos-by-course/:subCategoryId', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), VideoController.getAllVideosByCourse);
 router.delete('/delete-video/:id', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), VideoController.deleteVideo);
-
-
+router.patch('/update-video/:id', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), VideoController.updateVideo);
+router.patch('/update-video-status/:id', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), VideoController.updateVideoStatus);
+router.get('/get-single-video-for-admin/:id', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), VideoController.getSingleVideoForAdmin);
 router.post('/mark-video-watched/:videoId', auth(USER_ROLES.USER), VideoController.markVideoAsCompleted);
-export const VideoLibraryRoutes = router;
+
+
+
+export const VideoRoutes = router;

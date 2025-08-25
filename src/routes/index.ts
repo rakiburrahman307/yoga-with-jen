@@ -8,7 +8,7 @@ import { CategoryRoutes } from '../app/modules/category/category.route';
 import { SubCategoryRoutes } from '../app/modules/subCategorys/subCategory.route';
 import { userManagementRouter } from '../app/modules/admin/userManagement/userManagement.route';
 import { quotationManagementRouter } from '../app/modules/admin/quotationManagement/quotationManagement.route';
-import { videoManagementRoute } from '../app/modules/admin/videosManagement/videoManagement.router';
+import { VideoManagementRoute } from '../app/modules/admin/videosManagement/videoManagement.router';
 import { PackageRoutes } from '../app/modules/package/package.routes';
 import { SubscriptionRuleRoute } from '../app/modules/admin/subscriptionRule/subscriptionRule.route';
 import { SubscriptionRoutes } from '../app/modules/subscription/subscription.routes';
@@ -26,6 +26,7 @@ import { ChallengeRoutes } from '../app/modules/admin/challenges/challenges.rout
 import { VideoCommentRouter } from '../app/modules/vidoeComments/vidoeComments.router';
 import { ScheduledNotificationRoute } from '../app/modules/scheduledNotification/scheduledNotification.routes';
 import { ChallengeCategoryRoutes } from '../app/modules/admin/challengesCategory/challengesCategory.router';
+import { VideoRoutes } from '../app/modules/admin/videos/video.router';
 
 const router = express.Router();
 const routes = [
@@ -58,7 +59,7 @@ const routes = [
           route: CategoryRoutes,
      },
      {
-          path: '/admin/managment',
+          path: '/admin/management',
           route: AdminRoutes,
      },
      {
@@ -82,11 +83,11 @@ const routes = [
           route: SubCategoryRoutes,
      },
      {
-          path: '/admin/user/managment',
+          path: '/admin/user/management',
           route: userManagementRouter,
      },
      {
-          path: '/admin/quotation/managment',
+          path: '/admin/quotation/management',
           route: quotationManagementRouter,
      },
      {
@@ -98,11 +99,11 @@ const routes = [
           route: TodayVideoRoutes,
      },
      {
-          path: '/admin/videos/managment',
-          route: videoManagementRoute,
+          path: '/admin/videos/management',
+          route: VideoManagementRoute,
      },
      {
-          path: '/admin/post/managment',
+          path: '/admin/post/management',
           route: CreatePostRoutes,
      },
      {
@@ -111,14 +112,14 @@ const routes = [
      },
      {
           path: '/videos',
-          route: videoManagementRoute,
+          route: VideoRoutes,
      },
      {
           path: '/videos/comments',
           route: VideoCommentRouter,
      },
      {
-          path: '/admin/package/managment',
+          path: '/admin/package/management',
           route: PackageRoutes,
      },
      {

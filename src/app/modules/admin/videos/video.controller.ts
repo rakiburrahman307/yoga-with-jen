@@ -58,7 +58,20 @@ const updateVideoStatus = catchAsync(async (req, res) => {
         data: result,
     });
 });
+const getSingleVideoForAdmin = catchAsync(async (req, res) => {
+     const result = await VideoService.getSingleVideoForAdmin(req.params.id);
+     sendResponse(res, {
+          success: true,
+          statusCode: StatusCodes.OK,
+          message: 'Videos retrieved successfully',
+          data: result,
+     });
+});
 export const VideoController = {
     getAllVideosByCourse,
-    markVideoAsCompleted
+    markVideoAsCompleted,
+    deleteVideo,
+    updateVideo,
+    updateVideoStatus,
+    getSingleVideoForAdmin,
 };

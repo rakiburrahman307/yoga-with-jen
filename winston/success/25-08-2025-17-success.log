@@ -98,3 +98,25 @@ Mon Aug 25 2025 17:46:33 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/
 Mon Aug 25 2025 17:46:33 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/category 204 - 0.251 ms
 Mon Aug 25 2025 17:46:33 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/category 200 - 34.173 ms
 Mon Aug 25 2025 17:46:33 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/category/category-all-videos/6899d41b0319393bfdd4f435 200 - 39.549 ms
+Mon Aug 25 2025 17:51:19 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/managment/videos/68ac4415da59c236c70897fe 204 - 1.632 ms
+Mon Aug 25 2025 17:53:36 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/managment/videos/68ac4415da59c236c70897fe 204 - 1.620 ms
+Mon Aug 25 2025 17:57:41 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Aug 25 2025 17:57:41 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Aug 25 2025 17:57:41 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Aug 25 2025 17:57:41 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Mon Aug 25 2025 17:58:18 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Aug 25 2025 17:58:18 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Aug 25 2025 17:58:18 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Aug 25 2025 17:58:18 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Mon Aug 25 2025 17:58:27 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Aug 25 2025 17:58:27 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Aug 25 2025 17:58:27 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Aug 25 2025 17:58:27 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Mon Aug 25 2025 17:59:9 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Aug 25 2025 17:59:9 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Aug 25 2025 17:59:9 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Aug 25 2025 17:59:9 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Mon Aug 25 2025 17:59:16 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Aug 25 2025 17:59:16 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Aug 25 2025 17:59:16 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Aug 25 2025 17:59:16 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m

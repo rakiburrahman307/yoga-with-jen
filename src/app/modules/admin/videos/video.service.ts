@@ -5,6 +5,7 @@ import { User } from "../../user/user.model";
 import { Videos } from "./video.model";
 import mongoose from "mongoose";
 import { checkNextVideoUnlock } from "../../../../helpers/checkNExtVideoUnlock";
+import { IVideos } from "./video.interface";
 
 
 const getVideosByCourse = async (id: string, query: Record<string, unknown>) => {
@@ -81,11 +82,28 @@ const deleteVideo = async (id: string) => {
     }
     return result;
 };
-const updateVideo = async (id: string, data: Partial<IVideo>) => {
+const updateVideo = async (id: string, data: Partial<IVideos>) => {
     const result = await Videos.findByIdAndUpdate(id, data, {
         new: true,
         runValidators: true,
     });
+    if (!result) {
+        throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
+    }
+    return result;
+};
+const updateVideoStatus = async (id: string, data: Partial<IVideos>) => {
+    const result = await Videos.findByIdAndUpdate(id, data, {
+        new: true,
+        runValidators: true,
+    });
+    if (!result) {
+        throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
+    }
+    return result;
+};
+const getSingleVideoForAdmin = async (id: string) => {
+    const result = await Videos.findById(id);
     if (!result) {
         throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
     }
@@ -96,4 +114,6 @@ export const VideoService = {
     markVideoAsCompleted,
     deleteVideo,
     updateVideo,
+    updateVideoStatus,
+    getSingleVideoForAdmin,
 };
