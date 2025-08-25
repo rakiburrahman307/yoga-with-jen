@@ -38,16 +38,7 @@ const deleteVideo = catchAsync(async (req, res) => {
         data: result,
     });
 });
-const updateVideo = catchAsync(async (req, res) => {
-    const { id } = req.params;
-    const result = await VideoService.updateVideo(id, req.body);
-    sendResponse(res, {
-        success: true,
-        statusCode: StatusCodes.OK,
-        message: 'Video updated successfully',
-        data: result,
-    });
-});
+
 const updateVideoStatus = catchAsync(async (req, res) => {
     const { id } = req.params;
     const result = await VideoService.updateVideoStatus(id, req.body);
@@ -67,11 +58,24 @@ const getSingleVideoForAdmin = catchAsync(async (req, res) => {
           data: result,
      });
 });
+
+
+// get all videos
+const getSingleVideo = catchAsync(async (req, res) => {
+     const { id }: any = req.user;
+     const result = await VideoService.getSingleVideoFromDb(req.params.id, id);
+     sendResponse(res, {
+          success: true,
+          statusCode: StatusCodes.OK,
+          message: 'Videos retrieved successfully',
+          data: result,
+     });
+});
 export const VideoController = {
     getAllVideosByCourse,
     markVideoAsCompleted,
     deleteVideo,
-    updateVideo,
     updateVideoStatus,
     getSingleVideoForAdmin,
+    getSingleVideo,
 };

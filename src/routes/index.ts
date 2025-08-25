@@ -99,8 +99,12 @@ const routes = [
           route: TodayVideoRoutes,
      },
      {
-          path: '/admin/videos/management',
+          path: '/admin/videos/library',
           route: VideoManagementRoute,
+     },
+     {
+          path: '/admin/videos/management',
+          route: VideoRoutes,
      },
      {
           path: '/admin/post/management',
@@ -179,7 +183,7 @@ const routes = [
           route: ComingSoonRoutes,
      },
      {
-          path: '/favourit',
+          path: '/favorite',
           route: FavoriteVideosRouter,
      },
      {

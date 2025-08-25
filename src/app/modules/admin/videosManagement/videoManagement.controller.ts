@@ -14,17 +14,7 @@ const getAllVideos = catchAsync(async (req, res) => {
      });
 });
 
-// get all videos
-const getSingleVideo = catchAsync(async (req, res) => {
-     const { id }: any = req.user;
-     const result = await videoManagementService.getSingleVideoFromDb(req.params.id, id);
-     sendResponse(res, {
-          success: true,
-          statusCode: StatusCodes.OK,
-          message: 'Videos retrieved successfully',
-          data: result,
-     });
-});
+
 // get all videos
 const getSingleVideoForAdmin = catchAsync(async (req, res) => {
      const result = await videoManagementService.getSingleVideoForAdmin(req.params.id);
@@ -93,7 +83,6 @@ export const videoManagementController = {
      updateVideos,
      removeVideos,
      statusChange,
-     getSingleVideo,
      getSingleVideoForAdmin,
      copyVideo,
 };

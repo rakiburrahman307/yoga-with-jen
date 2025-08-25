@@ -1,0 +1,2 @@
+Mon Aug 25 2025 19:9:18 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/admin/videos/managment/get-all-videos-by-course/68a5bedb2148500c7998bb35 404 - 0.480 ms
+Mon Aug 25 2025 19:12:10 [SERVER-NAME] error: 10.10.7.62 - GET /api/v1/admin/videos/management/videos 400 - 63.949 ms

@@ -4,9 +4,7 @@ import QueryBuilder from '../../../builder/QueryBuilder';
 import { IVideo, IVideoLibrary, VideoIdInput } from './videoManagement.interface';
 import { BunnyStorageHandeler } from '../../../../helpers/BunnyStorageHandeler';
 import { Category } from '../../category/category.model';
-import { User } from '../../user/user.model';
 import { Types } from 'mongoose';
-import { Favorite } from '../../favorite/favorite.model';
 import { VideoLibrary } from './videoManagement.model';
 import { Videos } from '../videos/video.model';
 import { IVideos } from '../videos/video.interface';
@@ -73,10 +71,7 @@ const statusChangeVideo = async (id: string, status: string) => {
      }
      return result;
 };
-const getFevVideosOrNot = async (videoId: string, userId: string) => {
-     const favorite = await Favorite.findOne({ videoId, userId });
-     return favorite ? true : false;
-};
+
 // delete video from bunny cdn and mongodb
 const removeVideo = async (id: string) => {
      const isExistVideo = await VideoLibrary.findById(id);
@@ -104,26 +99,7 @@ const removeVideo = async (id: string) => {
 
      return result;
 };
-const getSingleVideoFromDb = async (id: string, userId: string) => {
-     const result = await VideoLibrary.findById(id).populate('categoryId', 'name').populate('subCategoryId', 'name');
-     if (!result) {
-          throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
-     }
 
-     const hasSubscription = await User.hasActiveSubscription(userId);
-     const isFavorite = await getFevVideosOrNot(id, userId);
-     if (hasSubscription) {
-          // If the user has an active subscription or the video is free
-          const data = {
-               ...result.toObject(),
-               isFavorite,
-          };
-          return data;
-     }
-
-     // If the user doesn't have a subscription and the video is paid
-     throw new AppError(StatusCodes.FORBIDDEN, 'You do not have access');
-};
 const getSingleVideoForAdmin = async (id: string) => {
      const result = await VideoLibrary.findById(id);
      if (!result) {
@@ -331,7 +307,6 @@ export const videoManagementService = {
      updateVideo,
      statusChangeVideo,
      removeVideo,
-     getSingleVideoFromDb,
      getSingleVideoForAdmin,
      copyVideo,
 };

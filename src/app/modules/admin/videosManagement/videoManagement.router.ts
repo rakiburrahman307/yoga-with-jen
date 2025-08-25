@@ -9,7 +9,6 @@ import { VideoValidationSchema } from './videoManagement.validation';
 const router = express.Router();
 router.get('/videos', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), videoManagementController.getAllVideos);
 router.get('/videos/:id', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), videoManagementController.getSingleVideoForAdmin);
-router.get('/:id', auth(USER_ROLES.USER, USER_ROLES.ADMIN, USER_ROLES.SUPER_ADMIN), videoManagementController.getSingleVideo);
 router.post('/upload-video', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), fileUploadHandlerbunny, validateRequest(VideoValidationSchema.videoValidation), videoManagementController.addVideos);
 router.put('/update-video/:id', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), fileUploadHandlerbunny, videoManagementController.updateVideos);
 router.put('/video-status/:id', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), validateRequest(VideoValidationSchema.videoStatusValidation), videoManagementController.statusChange);

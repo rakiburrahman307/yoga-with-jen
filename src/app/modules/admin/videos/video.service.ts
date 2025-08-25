@@ -6,8 +6,12 @@ import { Videos } from "./video.model";
 import mongoose from "mongoose";
 import { checkNextVideoUnlock } from "../../../../helpers/checkNExtVideoUnlock";
 import { IVideos } from "./video.interface";
+import { Favorite } from "../../favorite/favorite.model";
 
-
+const getFevVideosOrNot = async (videoId: string, userId: string) => {
+    const favorite = await Favorite.findOne({ videoId, userId });
+    return favorite ? true : false;
+};
 const getVideosByCourse = async (id: string, query: Record<string, unknown>) => {
     const queryBuilder = new QueryBuilder(Videos.find({ subCategoryId: id }).populate('categoryId', 'name').populate('subCategoryId', 'name'), query);
     const videos = await queryBuilder.fields().filter().paginate().search([]).sort().modelQuery.exec();
@@ -82,15 +86,25 @@ const deleteVideo = async (id: string) => {
     }
     return result;
 };
-const updateVideo = async (id: string, data: Partial<IVideos>) => {
-    const result = await Videos.findByIdAndUpdate(id, data, {
-        new: true,
-        runValidators: true,
-    });
+const getSingleVideoFromDb = async (id: string, userId: string) => {
+    const result = await Videos.findById(id).populate('categoryId', 'name').populate('subCategoryId', 'name');
     if (!result) {
         throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
     }
-    return result;
+
+    const hasSubscription = await User.hasActiveSubscription(userId);
+    const isFavorite = await getFevVideosOrNot(id, userId);
+    if (hasSubscription) {
+        // If the user has an active subscription or the video is free
+        const data = {
+            ...result.toObject(),
+            isFavorite,
+        };
+        return data;
+    }
+
+    // If the user doesn't have a subscription and the video is paid
+    throw new AppError(StatusCodes.FORBIDDEN, 'You do not have access');
 };
 const updateVideoStatus = async (id: string, data: Partial<IVideos>) => {
     const result = await Videos.findByIdAndUpdate(id, data, {
@@ -113,7 +127,7 @@ export const VideoService = {
     getVideosByCourse,
     markVideoAsCompleted,
     deleteVideo,
-    updateVideo,
+    getSingleVideoFromDb,
     updateVideoStatus,
     getSingleVideoForAdmin,
 };
