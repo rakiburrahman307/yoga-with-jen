@@ -17,6 +17,15 @@ import { IVideos } from '../videos/video.interface';
 //      }
 //      return result;
 // };
+const shuffleVideoSerial = async (videoOrder: Array<{ _id: string; serial: number }>) => {
+     if (!videoOrder || !Array.isArray(videoOrder) || videoOrder.length === 0) {
+          return;
+     }
+     const updatePromises = videoOrder.map((item) => DailyInspiration.findByIdAndUpdate(item._id, { serial: item.serial }, { new: true }));
+
+     const result = await Promise.all(updatePromises);
+     return result;
+};
 const copyDailyInspirationVideo = async (
      videoIds: VideoIdInput,
      publishAt?: string
@@ -170,4 +179,4 @@ const deletePost = async (id: string) => {
      return result;
 };
 
-export const DailyInspirationService = { copyDailyInspirationVideo, getAllPost, getPostContentLatest, getSinglePost, updatePost, deletePost, getPost };
+export const DailyInspirationService = { copyDailyInspirationVideo, getAllPost, getPostContentLatest, getSinglePost, updatePost, deletePost, getPost, shuffleVideoSerial };

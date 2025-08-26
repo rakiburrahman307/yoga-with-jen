@@ -10,7 +10,7 @@ export type IPackage = {
      paymentType: 'Monthly' | 'Yearly';
      productId?: string;
      discount?: number;
-     subscriptionType: 'app' | 'web';
+     subscriptionType: 'app' | 'web' | 'both';
      status: 'active' | 'inactive';
      isDeleted: boolean;
 };

@@ -1,0 +1,54 @@
+Tue Aug 26 2025 20:6:40 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.248 ms
+Tue Aug 26 2025 20:6:40 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/library/videos? 204 - 0.049 ms
+Tue Aug 26 2025 20:6:40 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dailyInspiration/scheduled 204 - 0.064 ms
+Tue Aug 26 2025 20:6:40 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 25.549 ms
+Tue Aug 26 2025 20:6:40 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/library/videos? 304 - 16.325 ms
+Tue Aug 26 2025 20:8:10 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dailyInspiration/scheduled 204 - 0.093 ms
+Tue Aug 26 2025 20:8:10 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/admin/dailyInspiration/scheduled 204 - 0.074 ms
+Tue Aug 26 2025 20:12:17 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/dailyInspiration/ 200 - 81.005 ms
+Tue Aug 26 2025 20:12:47 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dailyInspiration/schedule-create 204 - 0.114 ms
+Tue Aug 26 2025 20:12:47 [SERVER-NAME] info: 10.10.7.48 - POST /api/v1/admin/dailyInspiration/schedule-create 201 - 23.964 ms
+Tue Aug 26 2025 20:12:47 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dailyInspiration/scheduled 204 - 0.106 ms
+Tue Aug 26 2025 20:13:0 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/dailyInspiration/ 200 - 8.541 ms
+Tue Aug 26 2025 20:13:55 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/post/management?page=1&limit=12 204 - 0.111 ms
+Tue Aug 26 2025 20:13:55 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/post/management?page=1&limit=12 200 - 13.127 ms
+Tue Aug 26 2025 20:13:58 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/post/management/689ad6760319393bfdd50ab3 204 - 0.050 ms
+Tue Aug 26 2025 20:13:58 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/post/management/689ad6760319393bfdd50ab3 200 - 3.940 ms
+Tue Aug 26 2025 20:14:3 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dailyInspiration/scheduled 204 - 0.054 ms
+Tue Aug 26 2025 20:15:6 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/library/videos 200 - 9.222 ms
+Tue Aug 26 2025 20:19:44 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Aug 26 2025 20:19:44 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Aug 26 2025 20:19:45 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Aug 26 2025 20:19:45 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Tue Aug 26 2025 20:19:46 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Aug 26 2025 20:19:47 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Aug 26 2025 20:19:47 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Aug 26 2025 20:19:47 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Tue Aug 26 2025 20:19:51 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Aug 26 2025 20:19:51 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Aug 26 2025 20:19:51 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Aug 26 2025 20:19:51 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Tue Aug 26 2025 20:20:27 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Aug 26 2025 20:20:28 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Aug 26 2025 20:20:28 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Aug 26 2025 20:20:28 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Tue Aug 26 2025 20:22:43 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Aug 26 2025 20:22:44 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Aug 26 2025 20:22:44 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Aug 26 2025 20:22:44 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Tue Aug 26 2025 20:22:49 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Aug 26 2025 20:22:49 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Aug 26 2025 20:22:49 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Aug 26 2025 20:22:49 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Tue Aug 26 2025 20:22:54 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Aug 26 2025 20:22:55 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Aug 26 2025 20:22:55 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Aug 26 2025 20:22:55 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Tue Aug 26 2025 20:23:7 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Aug 26 2025 20:23:7 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Aug 26 2025 20:23:7 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Aug 26 2025 20:23:7 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Tue Aug 26 2025 20:23:34 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Aug 26 2025 20:23:34 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Aug 26 2025 20:23:34 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Aug 26 2025 20:23:34 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m

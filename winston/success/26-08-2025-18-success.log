@@ -340,3 +340,13 @@ Tue Aug 26 2025 18:30:31 [SERVER-NAME] info: [32mConfig validation successful.
 Tue Aug 26 2025 18:30:31 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
 Tue Aug 26 2025 18:30:31 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
 Tue Aug 26 2025 18:30:31 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Tue Aug 26 2025 18:36:25 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 2.496 ms
+Tue Aug 26 2025 18:36:25 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/library/videos? 204 - 0.084 ms
+Tue Aug 26 2025 18:36:25 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/challenge/get-challenges-videos/68ad33be8fd1dbd4b43bb6db 204 - 0.101 ms
+Tue Aug 26 2025 18:36:25 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 69.605 ms
+Tue Aug 26 2025 18:36:25 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/library/videos? 304 - 57.711 ms
+Tue Aug 26 2025 18:36:25 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/challenge/get-challenges-videos/68ad33be8fd1dbd4b43bb6db 304 - 58.888 ms
+Tue Aug 26 2025 18:36:35 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/challenge/shuffle 204 - 0.096 ms
+Tue Aug 26 2025 18:36:35 [SERVER-NAME] info: 10.10.7.48 - POST /api/v1/admin/challenge/shuffle 200 - 61.596 ms
+Tue Aug 26 2025 18:36:35 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/challenge/get-challenges-videos/68ad33be8fd1dbd4b43bb6db 204 - 0.058 ms
+Tue Aug 26 2025 18:36:35 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/challenge/get-challenges-videos/68ad33be8fd1dbd4b43bb6db 200 - 8.794 ms

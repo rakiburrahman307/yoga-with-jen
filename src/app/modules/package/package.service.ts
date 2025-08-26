@@ -8,43 +8,129 @@ import AppError from '../../../errors/AppError';
 import QueryBuilder from '../../builder/QueryBuilder';
 import { updateSubscriptionInfo } from '../../../helpers/stripe/updateSubscriptionProductInfo';
 
-const createPackageToDB = async (payload: IPackage): Promise<IPackage | null> => {
+// const createPackageToDB = async (payload: IPackage): Promise<IPackage | null> => {
+//      // Validate if the discount is between 0 and 100 if it's provided
+//      if (payload.discount !== undefined && (payload.discount < 0 || payload.discount > 100)) {
+//           throw new AppError(StatusCodes.BAD_REQUEST, 'Discount must be between 0 and 100');
+//      }
+//      // Calculate the price after discount if discount is provided
+//      const finalPrice = payload.discount ? payload.price - (payload.price * payload.discount) / 100 : payload.price;
+//      // Prepare the product payload with the calculated final price
+//      const productPayload = {
+//           title: payload.title,
+//           description: payload.description,
+//           duration: payload.duration,
+//           price: finalPrice,
+//           discount: payload.discount || 0,
+//      };
+
+//      const product = await createSubscriptionProduct(productPayload);
+
+//      if (!product) {
+//           throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to create subscription product');
+//      }
+
+//      if (product) {
+//           payload.priceId = product.priceId;
+//           payload.productId = product.productId;
+//           payload.originalPrice = payload.price;
+//           payload.price = finalPrice;
+//      }
+
+//      const result = await Package.create(payload);
+//      if (!result) {
+//           await stripe.products.del(product.productId);
+//           throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to created Package');
+//      }
+
+//      return result;
+// };
+
+const createPackageToDB = async (payload: IPackage): Promise<IPackage[] | IPackage | null> => {
      // Validate if the discount is between 0 and 100 if it's provided
      if (payload.discount !== undefined && (payload.discount < 0 || payload.discount > 100)) {
           throw new AppError(StatusCodes.BAD_REQUEST, 'Discount must be between 0 and 100');
      }
+
      // Calculate the price after discount if discount is provided
      const finalPrice = payload.discount ? payload.price - (payload.price * payload.discount) / 100 : payload.price;
-     // Prepare the product payload with the calculated final price
-     const productPayload = {
-          title: payload.title,
-          description: payload.description,
-          duration: payload.duration,
-          price: finalPrice,
-          discount: payload.discount || 0,
-     };
 
-     const product = await createSubscriptionProduct(productPayload);
+     // Check if subscriptionType is 'both'
+     if (payload.subscriptionType === 'both') {
+          const results: IPackage[] = [];
+          const subscriptionTypes = ['app', 'web'];
 
-     if (!product) {
-          throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to create subscription product');
-     }
+          for (const type of subscriptionTypes) {
+               // Prepare the product payload with the calculated final price
+               const productPayload = {
+                    title: `${payload.title} (${type})`,
+                    description: payload.description,
+                    duration: payload.duration,
+                    price: finalPrice,
+                    discount: payload.discount || 0,
+               };
 
-     if (product) {
+               const product = await createSubscriptionProduct(productPayload);
+
+               if (!product) {
+                    throw new AppError(StatusCodes.BAD_REQUEST, `Failed to create subscription product for ${type}`);
+               }
+
+               // Create package payload for this subscription type
+               const packagePayload = {
+                    ...payload,
+                    title: `${payload.title} (${type.toUpperCase()})`,
+                    subscriptionType: type as 'app' | 'web',
+                    priceId: product.priceId,
+                    productId: product.productId,
+                    originalPrice: payload.price,
+                    price: finalPrice,
+               };
+
+               const result = await Package.create(packagePayload);
+               
+               if (!result) {
+                    // If package creation fails, delete the created product
+                    await stripe.products.del(product.productId);
+                    throw new AppError(StatusCodes.BAD_REQUEST, `Failed to create Package for ${type}`);
+               }
+
+               results.push(result);
+          }
+
+          return results;
+     } else {
+          // Original logic for single subscription type
+          const productPayload = {
+               title: payload.title,
+               description: payload.description,
+               duration: payload.duration,
+               price: finalPrice,
+               discount: payload.discount || 0,
+          };
+
+          const product = await createSubscriptionProduct(productPayload);
+
+          if (!product) {
+               throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to create subscription product');
+          }
+
           payload.priceId = product.priceId;
           payload.productId = product.productId;
           payload.originalPrice = payload.price;
           payload.price = finalPrice;
-     }
 
-     const result = await Package.create(payload);
-     if (!result) {
-          await stripe.products.del(product.productId);
-          throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to created Package');
-     }
+          const result = await Package.create(payload);
+          
+          if (!result) {
+               await stripe.products.del(product.productId);
+               throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to create Package');
+          }
 
-     return result;
+          return result;
+     }
 };
+
 
 const updatePackageToDB = async (id: string, payload: IPackage): Promise<IPackage | null> => {
      const isExistPackage: any = await Package.findById(id);

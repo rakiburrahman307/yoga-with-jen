@@ -85,5 +85,13 @@ const getPost = catchAsync(async (req, res) => {
           data: result,
      });
 });
-
-export const DailyInspirationController = { getAllCreatePost, singlePost, updatePost, deletePost, getPost, getAllCreatePostForAdmin, createPostForSchedule };
+const shuffleVideoSerial = catchAsync(async (req, res) => {
+     const result = await DailyInspirationService.shuffleVideoSerial(req.body);
+     sendResponse(res, {
+          success: true,
+          statusCode: StatusCodes.OK,
+          message: 'Video serial shuffled successfully',
+          data: result,
+     });
+});
+export const DailyInspirationController = { getAllCreatePost, singlePost, updatePost, deletePost, getPost, getAllCreatePostForAdmin, createPostForSchedule, shuffleVideoSerial };
