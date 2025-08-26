@@ -20,5 +20,5 @@ router.get('/:id', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), ChallengeCont
 router.patch('/:id', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), ChallengeController.updateChallenge);
 // Route to delete a "Create Challenge" entry by ID
 router.delete('/:id', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), ChallengeController.deleteChallenge);
-
+router.post('/shuffle', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), ChallengeController.shuffleVideoSerial);
 export const ChallengeRoutes = router;
