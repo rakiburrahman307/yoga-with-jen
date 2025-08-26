@@ -78,7 +78,15 @@ const getPost = catchAsync(async (req, res) => {
           data: result,
      });
 });
-
+const updateStatus = catchAsync(async (req, res) => {
+     const result = await CreatePostService.updateStatus(req.params.id, req.body);
+     sendResponse(res, {
+          statusCode: StatusCodes.OK,
+          success: true,
+          message: 'Post updated successfully',
+          data: result,
+     });
+});
 export const CreatePostController = {
      createPost,
      getAllCreatePost,
@@ -87,4 +95,5 @@ export const CreatePostController = {
      deletePost,
      getPost,
      getAllCreatePostForApp,
+     updateStatus
 };

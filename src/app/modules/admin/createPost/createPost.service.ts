@@ -89,7 +89,23 @@ const deletePost = async (id: string) => {
      }
      return result;
 };
-
+const updateStatus = async (id: string, payload: { status: string }) => {
+     if (payload.status === 'active') {
+          await CreatePost.updateMany(
+               { _id: { $ne: id } },
+               { status: 'inactive' }
+          );
+     }
+     const result = await CreatePost.findByIdAndUpdate(id, payload, {
+          new: true,
+     });
+     
+     if (!result) {
+          throw new AppError(StatusCodes.NOT_FOUND, 'create post not found');
+     }
+     
+     return result;
+};
 export const CreatePostService = {
      createPost,
      getAllPost,
@@ -99,4 +115,5 @@ export const CreatePostService = {
      deletePost,
      getPost,
      getAllPostForApp,
+     updateStatus
 };
