@@ -1,0 +1,4 @@
+Tue Aug 26 2025 12:8:23 [SERVER-NAME] error: 10.10.7.48 - POST /api/v1/admin/subcategory/create 400 - 59.476 ms
+Tue Aug 26 2025 12:10:8 [SERVER-NAME] error: 10.10.7.48 - DELETE /api/v1/admin/videos/library/video-delete/68ad354d8fd1dbd4b43bb7c2 404 - 5.853 ms
+Tue Aug 26 2025 12:56:28 [SERVER-NAME] error: 10.10.7.48 - DELETE /api/v1/admin/videos/library/video-delete/68ad354d8fd1dbd4b43bb7c3 404 - 58.288 ms
+Tue Aug 26 2025 12:59:12 [SERVER-NAME] error: 10.10.7.48 - DELETE /api/v1/admin/videos/library/video-delete/68ad354d8fd1dbd4b43bb7c3 404 - 29.447 ms

@@ -12,5 +12,4 @@ router.post('/mark-video-watched/:videoId', auth(USER_ROLES.USER), VideoControll
 router.get('/:id', auth(USER_ROLES.USER, USER_ROLES.ADMIN, USER_ROLES.SUPER_ADMIN), VideoController.getSingleVideo);
 router.put('/update-by-admin/:id', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), VideoController.updateVideo);
 router.post('/shuffle', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), VideoController.shuffleVideoSerial);
-
 export const VideoRoutes = router;

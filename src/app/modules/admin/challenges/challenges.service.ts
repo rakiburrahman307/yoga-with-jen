@@ -39,7 +39,6 @@ const copyChallengeVideo = async (
           if (videoIdArray.length === 0) {
                throw new AppError(StatusCodes.BAD_REQUEST, 'No video IDs provided');
           }
-
           // Fetch challenge category info once (shared for all videos)
           const challengeCategory: IChallengeCategory | null = await ChallengeCategory.findById(challengeCategoryId);
 
@@ -210,26 +209,9 @@ const getSingleChallenge = async (id: string) => {
 
 // Function to update an existing "create Challenge" entry by ID
 const updateChallenge = async (id: string, payload: Partial<IChallenge>) => {
-     // Finding the "create Challenge" entry by its ID and updating it with the new data (payload)
      const isExistVideo = await ChallengeVideo.findById(id);
      if (!isExistVideo) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
-     }
-
-     if (payload.videoUrl && isExistVideo.videoUrl) {
-          try {
-               await BunnyStorageHandeler.deleteFromBunny(isExistVideo.videoUrl);
-          } catch {
-               throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Error deleting old video from BunnyCDN');
-          }
-     }
-
-     if (payload.thumbnailUrl && isExistVideo.thumbnailUrl) {
-          try {
-               await BunnyStorageHandeler.deleteFromBunny(isExistVideo.thumbnailUrl);
-          } catch {
-               throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Error deleting old thumbnail from BunnyCDN');
-          }
      }
      const result = await ChallengeVideo.findByIdAndUpdate(id, payload, {
           new: true,

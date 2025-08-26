@@ -92,6 +92,7 @@ const scheduleTrialExpiryCheck = () => {
                                    isFreeTrial: false,
                                    hasAccess: false,
                                    trialExpiredAt: now, // Track when trial expired
+                                   packageName: ""
                               },
                               $inc: { tokenVersion: 1 },
                          },

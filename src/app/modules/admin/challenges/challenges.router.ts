@@ -17,9 +17,7 @@ router.get('/get-challenges-videos-for-users/:id', auth(USER_ROLES.SUPER_ADMIN, 
 router.post('/mark-video-watched/:videoId', auth(USER_ROLES.USER), ChallengeController.markVideoAsCompleted);
 // Route to get a specific "Create Challenge" entry by ID
 router.get('/:id', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), ChallengeController.singleChallenge);
-
 router.patch('/:id', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), ChallengeController.updateChallenge);
-
 // Route to delete a "Create Challenge" entry by ID
 router.delete('/:id', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), ChallengeController.deleteChallenge);
 
