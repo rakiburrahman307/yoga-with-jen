@@ -26,6 +26,7 @@ const shuffleVideoSerial = async (videoOrder: Array<{ _id: string; serial: numbe
      const result = await Promise.all(updatePromises);
      return result;
 };
+
 const copyDailyInspirationVideo = async (
      videoIds: VideoIdInput,
      publishAt?: string
