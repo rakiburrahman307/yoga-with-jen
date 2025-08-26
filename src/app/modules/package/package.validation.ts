@@ -17,7 +17,7 @@ const createPackageZodSchema = z.object({
                required_error: 'Payment type is required',
           }),
           productId: z.string().optional(),
-          subscriptionType: z.enum(['app', 'web'], {
+          subscriptionType: z.enum(['app', 'web', 'both'], {
                required_error: 'Subscription type is required',
           }),
      }),

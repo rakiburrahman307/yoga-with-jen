@@ -155,3 +155,71 @@ Tue Aug 26 2025 20:39:15 [SERVER-NAME] info: [32mConfig validation successful.
 Tue Aug 26 2025 20:39:15 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
 Tue Aug 26 2025 20:39:15 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
 Tue Aug 26 2025 20:39:15 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Tue Aug 26 2025 20:40:52 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Aug 26 2025 20:40:53 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Aug 26 2025 20:40:55 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Aug 26 2025 20:40:56 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Aug 26 2025 20:40:56 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Aug 26 2025 20:40:56 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Tue Aug 26 2025 20:41:7 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.850 ms
+Tue Aug 26 2025 20:41:7 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/package/managment 204 - 0.055 ms
+Tue Aug 26 2025 20:41:7 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 22.199 ms
+Tue Aug 26 2025 20:41:17 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/package/management 204 - 0.108 ms
+Tue Aug 26 2025 20:41:18 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/package/managment 204 - 0.148 ms
+Tue Aug 26 2025 20:41:31 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.078 ms
+Tue Aug 26 2025 20:41:31 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/package/managment 204 - 0.066 ms
+Tue Aug 26 2025 20:41:31 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 4.877 ms
+Tue Aug 26 2025 20:41:44 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/package/management 204 - 0.068 ms
+Tue Aug 26 2025 20:41:46 [SERVER-NAME] info: 10.10.7.48 - POST /api/v1/admin/package/management 200 - 1477.815 ms
+Tue Aug 26 2025 20:41:46 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/package/managment 204 - 0.093 ms
+Tue Aug 26 2025 20:42:13 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/package/managment 204 - 0.062 ms
+Tue Aug 26 2025 20:42:17 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.121 ms
+Tue Aug 26 2025 20:42:17 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/package/management 204 - 0.049 ms
+Tue Aug 26 2025 20:42:17 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 13.106 ms
+Tue Aug 26 2025 20:42:17 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/package/management 200 - 30.303 ms
+Tue Aug 26 2025 20:42:31 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/library/videos? 204 - 0.090 ms
+Tue Aug 26 2025 20:42:31 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dailyInspiration/scheduled 204 - 0.055 ms
+Tue Aug 26 2025 20:42:31 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/library/videos? 304 - 22.643 ms
+Tue Aug 26 2025 20:42:42 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dailyInspiration/schedule-create 204 - 0.059 ms
+Tue Aug 26 2025 20:42:42 [SERVER-NAME] info: 10.10.7.48 - POST /api/v1/admin/dailyInspiration/schedule-create 201 - 4.619 ms
+Tue Aug 26 2025 20:42:42 [SERVER-NAME] info: 10.10.7.48 - POST /api/v1/admin/dailyInspiration/schedule-create 201 - 3.640 ms
+Tue Aug 26 2025 20:42:42 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dailyInspiration/scheduled 204 - 0.042 ms
+Tue Aug 26 2025 20:42:59 [SERVER-NAME] info: 10.10.7.48 - POST /api/v1/admin/dailyInspiration/schedule-create 201 - 13.293 ms
+Tue Aug 26 2025 20:43:5 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/dailyInspiration/ 200 - 9.809 ms
+Tue Aug 26 2025 20:43:15 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.050 ms
+Tue Aug 26 2025 20:43:15 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/library/videos? 204 - 0.036 ms
+Tue Aug 26 2025 20:43:15 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dailyInspiration/scheduled 204 - 0.034 ms
+Tue Aug 26 2025 20:43:15 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 200 - 9.248 ms
+Tue Aug 26 2025 20:43:15 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/library/videos? 200 - 10.401 ms
+Tue Aug 26 2025 20:43:26 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dailyInspiration/schedule-create 204 - 0.059 ms
+Tue Aug 26 2025 20:43:26 [SERVER-NAME] info: 10.10.7.48 - POST /api/v1/admin/dailyInspiration/schedule-create 201 - 3.977 ms
+Tue Aug 26 2025 20:43:26 [SERVER-NAME] info: 10.10.7.48 - POST /api/v1/admin/dailyInspiration/schedule-create 201 - 5.742 ms
+Tue Aug 26 2025 20:43:26 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dailyInspiration/scheduled 204 - 0.078 ms
+Tue Aug 26 2025 20:45:19 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dailyInspiration/scheduled 204 - 0.210 ms
+Tue Aug 26 2025 20:45:19 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/admin/dailyInspiration/scheduled 204 - 0.066 ms
+Tue Aug 26 2025 20:45:23 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.075 ms
+Tue Aug 26 2025 20:45:23 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/library/videos? 204 - 0.038 ms
+Tue Aug 26 2025 20:45:23 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 10.295 ms
+Tue Aug 26 2025 20:45:23 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/library/videos? 304 - 27.817 ms
+Tue Aug 26 2025 20:45:46 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.065 ms
+Tue Aug 26 2025 20:45:46 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/library/videos? 204 - 0.041 ms
+Tue Aug 26 2025 20:45:46 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dailyInspiration/scheduled 204 - 0.036 ms
+Tue Aug 26 2025 20:45:46 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 14.776 ms
+Tue Aug 26 2025 20:45:46 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/library/videos? 304 - 19.436 ms
+Tue Aug 26 2025 20:45:57 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dailyInspiration/schedule-create 204 - 0.090 ms
+Tue Aug 26 2025 20:45:57 [SERVER-NAME] info: 10.10.7.48 - POST /api/v1/admin/dailyInspiration/schedule-create 201 - 17.520 ms
+Tue Aug 26 2025 20:45:57 [SERVER-NAME] info: 10.10.7.48 - POST /api/v1/admin/dailyInspiration/schedule-create 201 - 8.768 ms
+Tue Aug 26 2025 20:45:57 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dailyInspiration/scheduled 204 - 0.133 ms
+Tue Aug 26 2025 20:49:3 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dailyInspiration/scheduled 204 - 1.061 ms
+Tue Aug 26 2025 20:49:4 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/admin/dailyInspiration/scheduled 204 - 0.046 ms
+Tue Aug 26 2025 20:49:41 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dailyInspiration/schedule-create 204 - 0.082 ms
+Tue Aug 26 2025 20:49:41 [SERVER-NAME] info: 10.10.7.48 - POST /api/v1/admin/dailyInspiration/schedule-create 201 - 24.363 ms
+Tue Aug 26 2025 20:49:41 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dailyInspiration/scheduled 204 - 0.048 ms
+Tue Aug 26 2025 20:51:13 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dailyInspiration/scheduled 204 - 0.310 ms
+Tue Aug 26 2025 20:51:13 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/admin/dailyInspiration/scheduled 204 - 0.090 ms
+Tue Aug 26 2025 20:51:18 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.052 ms
+Tue Aug 26 2025 20:51:18 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/library/videos? 204 - 0.055 ms
+Tue Aug 26 2025 20:51:18 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dailyInspiration 204 - 0.036 ms
+Tue Aug 26 2025 20:51:18 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 17.860 ms
+Tue Aug 26 2025 20:51:18 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/dailyInspiration 200 - 38.202 ms
+Tue Aug 26 2025 20:51:18 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/library/videos? 304 - 43.499 ms
