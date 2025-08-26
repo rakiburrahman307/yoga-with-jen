@@ -1,0 +1,17 @@
+Tue Aug 26 2025 17:0:57 [SERVER-NAME] error: 10.10.7.62 - GET /api/v1/admin/videos/library/videos/68aa96ed740d772aca24e5ca 404 - 5.165 ms
+Tue Aug 26 2025 17:2:28 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/admin/videos/management/videos/68ad354d8fd1dbd4b43bb7c2 404 - 0.813 ms
+Tue Aug 26 2025 17:2:28 [SERVER-NAME] error: 10.10.7.62 - GET /api/v1/admin/dailyInspiration/scheduled 400 - 17.418 ms
+Tue Aug 26 2025 17:15:18 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/admin/dailyInspiration/scheduled 400 - 18.678 ms
+Tue Aug 26 2025 17:21:37 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/admin/dailyInspiration/scheduled 400 - 29.991 ms
+Tue Aug 26 2025 17:24:4 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/admin/dailyInspiration/scheduled 400 - 17.616 ms
+Tue Aug 26 2025 17:25:1 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/admin/dailyInspiration/scheduled 400 - 4.428 ms
+Tue Aug 26 2025 17:27:22 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/admin/package/managment 404 - 5.028 ms
+Tue Aug 26 2025 17:27:24 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/admin/package/managment 404 - 0.478 ms
+Tue Aug 26 2025 17:27:30 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/admin/quotation/managment/admin?page=undefined 404 - 0.574 ms
+Tue Aug 26 2025 17:27:34 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/admin/quotation/managment/admin?page=undefined 404 - 0.467 ms
+Tue Aug 26 2025 17:27:37 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/admin/managment/get-admin 404 - 0.566 ms
+Tue Aug 26 2025 17:27:39 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/admin/managment/get-admin 404 - 0.647 ms
+Tue Aug 26 2025 17:27:41 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/admin/quotation/managment/admin?page=undefined 404 - 0.589 ms
+Tue Aug 26 2025 17:28:25 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/admin/dailyInspiration/scheduled 400 - 5.458 ms
+Tue Aug 26 2025 17:29:16 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/admin/dailyInspiration/scheduled 400 - 3.785 ms
+Tue Aug 26 2025 17:29:17 [SERVER-NAME] error: 10.10.7.62 - GET /api/v1/admin/dailyInspiration/scheduled 400 - 3.743 ms

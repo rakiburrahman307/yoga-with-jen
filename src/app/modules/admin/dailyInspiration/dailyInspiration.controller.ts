@@ -3,21 +3,22 @@ import catchAsync from '../../../../shared/catchAsync'; // Error handling utilit
 import sendResponse from '../../../../shared/sendResponse'; // Utility to format and send the response
 import { DailyInspirationService } from './dailyInspiration.service';
 
-const createPost = catchAsync(async (req, res) => {
-     const result = await DailyInspirationService.createPost(req.body);
-     sendResponse(res, {
-          statusCode: StatusCodes.CREATED,
-          success: true,
-          message: 'Post created successfully',
-          data: result,
-     });
-});
+// const createPost = catchAsync(async (req, res) => {
+//      const result = await DailyInspirationService.createPost(req.body);
+//      sendResponse(res, {
+//           statusCode: StatusCodes.CREATED,
+//           success: true,
+//           message: 'Post created successfully',
+//           data: result,
+//      });
+// });
 const createPostForSchedule = catchAsync(async (req, res) => {
-     const result = await DailyInspirationService.createPostForSchedule(req.body);
+     const { videoIds, publishAt } = req.body;
+     const result = await DailyInspirationService.copyDailyInspirationVideo(videoIds, publishAt);
      sendResponse(res, {
           statusCode: StatusCodes.CREATED,
           success: true,
-          message: 'Post created successfully',
+          message: 'Post copied successfully',
           data: result,
      });
 });
@@ -85,4 +86,4 @@ const getPost = catchAsync(async (req, res) => {
      });
 });
 
-export const DailyInspirationController = { createPost, getAllCreatePost, singlePost, updatePost, deletePost, getPost, getAllCreatePostForAdmin, createPostForSchedule };
+export const DailyInspirationController = { getAllCreatePost, singlePost, updatePost, deletePost, getPost, getAllCreatePostForAdmin, createPostForSchedule };

@@ -1,3 +1,5 @@
+import mongoose from "mongoose";
+
 export interface IDailyInspiration {
      title: string;
      serial: number;
@@ -9,3 +11,4 @@ export interface IDailyInspiration {
      publishAt: Date;
      status: 'active' | 'inactive';
 }
+export type VideoIdInput = string | mongoose.Types.ObjectId | (string | mongoose.Types.ObjectId)[];
