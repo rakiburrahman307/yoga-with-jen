@@ -89,6 +89,15 @@ const shuffleVideoSerial = catchAsync(async (req, res) => {
           data: result,
      });
 });
+const updateCategoryStatus = catchAsync(async (req, res) => {
+     const result = await CategoryService.updateCategoryStatusToDB(req.params.id, req.body.status);
+     sendResponse(res, {
+          success: true,
+          statusCode: StatusCodes.OK,
+          message: 'Sub category status update successfully',
+          data: result,
+     });
+});
 
 export const CategoryController = {
      createSubCategory,
@@ -99,4 +108,5 @@ export const CategoryController = {
      getVideosBySubCategory,
      getSubcategoryById,
      shuffleVideoSerial,
+     updateCategoryStatus
 };

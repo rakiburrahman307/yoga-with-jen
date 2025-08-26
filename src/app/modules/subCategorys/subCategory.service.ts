@@ -80,7 +80,7 @@ const updateCategoryStatusToDB = async (id: string, payload: string) => {
           throw new AppError(StatusCodes.BAD_REQUEST, "Category doesn't exist");
      }
 
-     const updateCategory = await Category.findByIdAndUpdate(
+     const updateCategory = await SubCategory.findByIdAndUpdate(
           id,
           {
                $set: { status: payload },
@@ -156,7 +156,7 @@ const getSubCategoryRelatedVideo = async (id: string, userId: string, query: Rec
                if (index === 0) {
                     isEnabled = true;
                } else {
-                 
+
                     const allPreviousCompleted = result.slice(0, index).every((prevVideo: any) => completedVideoIds.includes(prevVideo._id.toString()));
                     isEnabled = allPreviousCompleted;
                }

@@ -1,0 +1,134 @@
+Tue Aug 26 2025 14:42:46 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/subcategory/68ad347d8fd1dbd4b43bb76d 204 - 1.886 ms
+Tue Aug 26 2025 14:42:46 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/subcategory 204 - 0.040 ms
+Tue Aug 26 2025 14:42:46 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/subcategory 304 - 49.491 ms
+Tue Aug 26 2025 14:45:40 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Aug 26 2025 14:45:40 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Aug 26 2025 14:45:40 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Aug 26 2025 14:45:40 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Tue Aug 26 2025 14:45:42 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Aug 26 2025 14:45:42 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Aug 26 2025 14:45:42 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Aug 26 2025 14:45:42 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Tue Aug 26 2025 14:46:5 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Aug 26 2025 14:46:6 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Aug 26 2025 14:46:6 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Aug 26 2025 14:46:6 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Tue Aug 26 2025 14:46:8 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Aug 26 2025 14:46:8 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Aug 26 2025 14:46:8 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Aug 26 2025 14:46:8 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Tue Aug 26 2025 14:46:13 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Aug 26 2025 14:46:13 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Aug 26 2025 14:46:13 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Aug 26 2025 14:46:13 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Tue Aug 26 2025 14:46:18 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Aug 26 2025 14:46:18 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Aug 26 2025 14:46:18 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Aug 26 2025 14:46:18 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Tue Aug 26 2025 14:46:31 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Aug 26 2025 14:46:31 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Aug 26 2025 14:46:31 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Aug 26 2025 14:46:31 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Tue Aug 26 2025 14:46:33 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Aug 26 2025 14:46:33 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Aug 26 2025 14:46:33 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Aug 26 2025 14:46:33 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Tue Aug 26 2025 14:46:44 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.864 ms
+Tue Aug 26 2025 14:46:44 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/category/single/68a5bec52148500c7998bb15 204 - 0.082 ms
+Tue Aug 26 2025 14:46:44 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/subcategory 204 - 0.094 ms
+Tue Aug 26 2025 14:46:44 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 40.206 ms
+Tue Aug 26 2025 14:46:44 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/subcategory 304 - 37.055 ms
+Tue Aug 26 2025 14:46:44 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/category/single/68a5bec52148500c7998bb15 304 - 42.748 ms
+Tue Aug 26 2025 14:46:45 [SERVER-NAME] info: 10.10.7.48 - GET //thumbnail/yellow-2708363-1755692741197.jpg 304 - 1.014 ms
+Tue Aug 26 2025 14:46:45 [SERVER-NAME] info: 10.10.7.48 - GET //thumbnail/young-woman-doing-yoga-in-nature-video-1756181629922.jpg 304 - 0.323 ms
+Tue Aug 26 2025 14:46:51 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/subcategory/68ad347d8fd1dbd4b43bb76d 204 - 0.103 ms
+Tue Aug 26 2025 14:46:51 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/subcategory 204 - 0.155 ms
+Tue Aug 26 2025 14:46:51 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/subcategory 304 - 12.175 ms
+Tue Aug 26 2025 14:47:42 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Aug 26 2025 14:47:42 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Aug 26 2025 14:47:42 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Aug 26 2025 14:47:42 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Tue Aug 26 2025 14:48:1 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.947 ms
+Tue Aug 26 2025 14:48:1 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/category/single/68a5bec52148500c7998bb15 204 - 0.064 ms
+Tue Aug 26 2025 14:48:1 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/subcategory 204 - 0.230 ms
+Tue Aug 26 2025 14:48:1 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 33.418 ms
+Tue Aug 26 2025 14:48:1 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/subcategory 304 - 42.594 ms
+Tue Aug 26 2025 14:48:1 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/category/single/68a5bec52148500c7998bb15 304 - 44.054 ms
+Tue Aug 26 2025 14:48:1 [SERVER-NAME] info: 10.10.7.48 - GET //thumbnail/yellow-2708363-1755692741197.jpg 304 - 3.332 ms
+Tue Aug 26 2025 14:48:1 [SERVER-NAME] info: 10.10.7.48 - GET //thumbnail/young-woman-doing-yoga-in-nature-video-1756181629922.jpg 304 - 4.367 ms
+Tue Aug 26 2025 14:48:7 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/subcategory/68ad347d8fd1dbd4b43bb76d 204 - 0.053 ms
+Tue Aug 26 2025 14:48:7 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/subcategory 204 - 0.064 ms
+Tue Aug 26 2025 14:48:7 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/subcategory 304 - 5.536 ms
+Tue Aug 26 2025 14:49:14 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Aug 26 2025 14:49:14 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Aug 26 2025 14:49:14 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Aug 26 2025 14:49:14 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Tue Aug 26 2025 14:49:33 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Aug 26 2025 14:49:33 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Aug 26 2025 14:49:33 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Aug 26 2025 14:49:33 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Tue Aug 26 2025 14:49:50 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.821 ms
+Tue Aug 26 2025 14:49:50 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/category/single/68a5bec52148500c7998bb15 204 - 0.128 ms
+Tue Aug 26 2025 14:49:50 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/subcategory 204 - 0.103 ms
+Tue Aug 26 2025 14:49:50 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 34.049 ms
+Tue Aug 26 2025 14:49:50 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/subcategory 304 - 37.465 ms
+Tue Aug 26 2025 14:49:50 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/category/single/68a5bec52148500c7998bb15 304 - 39.831 ms
+Tue Aug 26 2025 14:49:50 [SERVER-NAME] info: 10.10.7.48 - GET //thumbnail/yellow-2708363-1755692741197.jpg 304 - 1.016 ms
+Tue Aug 26 2025 14:49:50 [SERVER-NAME] info: 10.10.7.48 - GET //thumbnail/young-woman-doing-yoga-in-nature-video-1756181629922.jpg 304 - 0.814 ms
+Tue Aug 26 2025 14:49:53 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/subcategory/68ad347d8fd1dbd4b43bb76d 204 - 0.071 ms
+Tue Aug 26 2025 14:49:53 [SERVER-NAME] info: 10.10.7.48 - PUT /api/v1/admin/subcategory/68ad347d8fd1dbd4b43bb76d 200 - 28.872 ms
+Tue Aug 26 2025 14:49:53 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/subcategory 200 - 6.748 ms
+Tue Aug 26 2025 14:49:56 [SERVER-NAME] info: 10.10.7.48 - PUT /api/v1/admin/subcategory/68ad347d8fd1dbd4b43bb76d 200 - 9.204 ms
+Tue Aug 26 2025 14:49:56 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/subcategory 204 - 0.059 ms
+Tue Aug 26 2025 14:49:56 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/subcategory 200 - 8.524 ms
+Tue Aug 26 2025 14:50:7 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/subcategory/68ad347d8fd1dbd4b43bb76d 204 - 0.095 ms
+Tue Aug 26 2025 14:50:7 [SERVER-NAME] info: 10.10.7.48 - PUT /api/v1/admin/subcategory/68ad347d8fd1dbd4b43bb76d 200 - 9.113 ms
+Tue Aug 26 2025 14:50:7 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/subcategory 204 - 0.058 ms
+Tue Aug 26 2025 14:50:7 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/subcategory 200 - 7.604 ms
+Tue Aug 26 2025 14:50:8 [SERVER-NAME] info: 10.10.7.48 - PUT /api/v1/admin/subcategory/68ad347d8fd1dbd4b43bb76d 200 - 7.891 ms
+Tue Aug 26 2025 14:50:8 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/subcategory 200 - 5.654 ms
+Tue Aug 26 2025 14:50:12 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.203 ms
+Tue Aug 26 2025 14:50:12 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/category/single/68a5bec52148500c7998bb15 204 - 0.188 ms
+Tue Aug 26 2025 14:50:12 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/subcategory 204 - 0.053 ms
+Tue Aug 26 2025 14:50:12 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 8.376 ms
+Tue Aug 26 2025 14:50:12 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/subcategory 304 - 11.856 ms
+Tue Aug 26 2025 14:50:12 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/category/single/68a5bec52148500c7998bb15 200 - 14.010 ms
+Tue Aug 26 2025 14:50:13 [SERVER-NAME] info: 10.10.7.48 - GET //thumbnail/yellow-2708363-1755692741197.jpg 304 - 0.277 ms
+Tue Aug 26 2025 14:50:13 [SERVER-NAME] info: 10.10.7.48 - GET //thumbnail/young-woman-doing-yoga-in-nature-video-1756181629922.jpg 304 - 1.883 ms
+Tue Aug 26 2025 14:50:14 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/category 204 - 0.052 ms
+Tue Aug 26 2025 14:50:14 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/library/videos? 204 - 0.052 ms
+Tue Aug 26 2025 14:50:14 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/management/get-all-videos-by-course/68ad347d8fd1dbd4b43bb76d 204 - 0.033 ms
+Tue Aug 26 2025 14:50:14 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/library/videos? 304 - 22.752 ms
+Tue Aug 26 2025 14:50:14 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/category 304 - 24.417 ms
+Tue Aug 26 2025 14:50:14 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/management/get-all-videos-by-course/68ad347d8fd1dbd4b43bb76d 304 - 22.756 ms
+Tue Aug 26 2025 14:50:18 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/management/update-video-status/68ad4fb86d7a746eb2b83fa4 204 - 0.081 ms
+Tue Aug 26 2025 14:50:18 [SERVER-NAME] info: 10.10.7.48 - PATCH /api/v1/admin/videos/management/update-video-status/68ad4fb86d7a746eb2b83fa4 200 - 12.363 ms
+Tue Aug 26 2025 14:50:18 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/management/get-all-videos-by-course/68ad347d8fd1dbd4b43bb76d 200 - 8.047 ms
+Tue Aug 26 2025 14:50:30 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/subcategory/shuffle 204 - 0.043 ms
+Tue Aug 26 2025 14:50:30 [SERVER-NAME] info: 10.10.7.48 - POST /api/v1/admin/subcategory/shuffle 200 - 8.065 ms
+Tue Aug 26 2025 14:50:30 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/management/get-all-videos-by-course/68ad347d8fd1dbd4b43bb76d 204 - 0.047 ms
+Tue Aug 26 2025 14:50:30 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/management/get-all-videos-by-course/68ad347d8fd1dbd4b43bb76d 200 - 7.749 ms
+Tue Aug 26 2025 14:50:34 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.073 ms
+Tue Aug 26 2025 14:50:34 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/category 204 - 0.059 ms
+Tue Aug 26 2025 14:50:34 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/library/videos? 204 - 0.053 ms
+Tue Aug 26 2025 14:50:34 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 15.042 ms
+Tue Aug 26 2025 14:50:34 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/management/get-all-videos-by-course/68ad347d8fd1dbd4b43bb76d 304 - 22.705 ms
+Tue Aug 26 2025 14:50:34 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/library/videos? 304 - 21.151 ms
+Tue Aug 26 2025 14:50:34 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/category 304 - 23.265 ms
+Tue Aug 26 2025 14:51:12 [SERVER-NAME] info: 10.10.7.48 - GET //thumbnail/yellow-2708363-1755692741197.jpg 304 - 1.380 ms
+Tue Aug 26 2025 14:51:12 [SERVER-NAME] info: 10.10.7.48 - GET //thumbnail/image-11-1754911771507.png 304 - 1.694 ms
+Tue Aug 26 2025 14:51:12 [SERVER-NAME] info: 10.10.7.48 - GET //thumbnail/link---zoanthids-%C3%A2%C2%86%C2%92-coralstashicon2.png-1754911760194.png 304 - 1.879 ms
+Tue Aug 26 2025 14:51:17 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/library/videos?page=1&limit=10 204 - 0.114 ms
+Tue Aug 26 2025 14:51:17 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/library/videos?page=1&limit=10 304 - 10.786 ms
+Tue Aug 26 2025 14:51:20 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/challenge-category/get-all-challenge-category 204 - 0.136 ms
+Tue Aug 26 2025 14:51:20 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/challenge-category/get-all-challenge-category 304 - 18.034 ms
+Tue Aug 26 2025 14:51:20 [SERVER-NAME] info: 10.10.7.48 - GET //image/screenshot-2025-08-09-103312-1756113543092.png 304 - 0.410 ms
+Tue Aug 26 2025 14:51:20 [SERVER-NAME] info: 10.10.7.48 - GET //image/videoblocks-v1-0011_20221110-as-semenov-sport-in-the-morning-2-outdoor00000000_heeiyvvr2j_thumbnail-180_07-1756181438957.jpg 304 - 0.298 ms
+Tue Aug 26 2025 14:51:25 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/challenge-category/update-challenge-category-status/68ac2a878351361d0ecd5ffe 204 - 0.105 ms
+Tue Aug 26 2025 14:51:25 [SERVER-NAME] info: 10.10.7.48 - PUT /api/v1/admin/challenge-category/update-challenge-category-status/68ac2a878351361d0ecd5ffe 200 - 12.612 ms
+Tue Aug 26 2025 14:51:25 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/challenge-category/get-all-challenge-category 200 - 11.008 ms
+Tue Aug 26 2025 14:51:26 [SERVER-NAME] info: 10.10.7.48 - PUT /api/v1/admin/challenge-category/update-challenge-category-status/68ac2a878351361d0ecd5ffe 200 - 7.536 ms
+Tue Aug 26 2025 14:51:26 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/challenge-category/get-all-challenge-category 204 - 0.040 ms
+Tue Aug 26 2025 14:51:26 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/challenge-category/get-all-challenge-category 200 - 4.632 ms
+Tue Aug 26 2025 14:51:37 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/challenge/get-challenges-videos/68ad33be8fd1dbd4b43bb6db 204 - 0.131 ms
+Tue Aug 26 2025 14:51:37 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/challenge/get-challenges-videos/68ad33be8fd1dbd4b43bb6db 304 - 6.747 ms
