@@ -4,9 +4,9 @@ import AppError from '../../../../errors/AppError';
 import QueryBuilder from '../../../builder/QueryBuilder';
 import { DailyInspiration } from './dailyInspiration.model';
 import { IDailyInspiration, VideoIdInput } from './dailyInspiration.interface';
-import { Videos } from '../videos/video.model';
 import mongoose from 'mongoose';
 import { IVideos } from '../videos/video.interface';
+import { VideoLibrary } from '../videosManagement/videoManagement.model';
 
 
 // Function to create a new "create post" entry
@@ -48,7 +48,7 @@ const copyDailyInspirationVideo = async (
 
                // Fetch all videos in current batch
                const videosPromises: Promise<IVideos | null>[] = batch.map(
-                    (videoId: string | mongoose.Types.ObjectId) => Videos.findById(videoId)
+                    (videoId: string | mongoose.Types.ObjectId) => VideoLibrary.findById(videoId)
                );
                const videos: (IVideos | null)[] = await Promise.all(videosPromises);
 
@@ -76,7 +76,6 @@ const copyDailyInspirationVideo = async (
 
                if (newDailyInspirationData.length > 0) {
                     try {
-                         // Bulk insert for better performance
                          const savedDailyInspirationVideos: IDailyInspiration[] = await DailyInspiration.insertMany(
                               newDailyInspirationData,
                               { ordered: false }
@@ -89,13 +88,11 @@ const copyDailyInspirationVideo = async (
                     }
                }
 
-               // Add small delay between batches to avoid overwhelming DB
                if (i + batchSize < videoIdArray.length) {
                     await new Promise<void>(resolve => setTimeout(resolve, 50));
                }
           }
 
-          // Return single object if single video was requested
           if (!Array.isArray(videoIds) && results_data.length === 1) {
                return results_data[0];
           }
