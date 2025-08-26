@@ -3,7 +3,7 @@ import { IDailyInspiration } from './dailyInspiration.interface';
 const VideoSchema = new Schema<IDailyInspiration>(
      {
           title: { type: String, required: true },
-          category: { type: String, required: true, trim: true },
+          serial: { type: Number, require: false, default: 1 },
           duration: { type: String, default: '00:00' },
           equipment: { type: [String], default: [] },
           thumbnailUrl: { type: String, default: '' },

@@ -1,7 +1,6 @@
 import express from 'express';
 import auth from '../../../middleware/auth';
 import { USER_ROLES } from '../../../../enums/user';
-import fileUploadHandlerbunny from '../../../middleware/fileUploadHandlerbunny';
 import { DailyInspirationController } from './dailyInspiration.controller';
 
 
@@ -19,7 +18,7 @@ router.get('/', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), DailyInspiration
 router.get('/:id', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), DailyInspirationController.singlePost);
 
 // Route to update an existing "Create Post" entry by ID
-router.patch('/:id', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), fileUploadHandlerbunny, DailyInspirationController.updatePost);
+router.patch('/:id', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), DailyInspirationController.updatePost);
 
 // Route to delete a "Create Post" entry by ID
 router.delete('/:id', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), DailyInspirationController.deletePost);

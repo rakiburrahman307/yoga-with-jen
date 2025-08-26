@@ -1,6 +1,6 @@
 export interface IDailyInspiration {
      title: string;
-     category: string;
+     serial: number;
      duration: string;
      equipment: string[];
      thumbnailUrl: string;

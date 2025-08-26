@@ -79,18 +79,18 @@ const removeVideo = async (id: string) => {
           throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
      }
 
-     // Delete video and thumbnail from BunnyCDN
-     if (isExistVideo.videoUrl) {
-          try {
-               await BunnyStorageHandeler.deleteFromBunny(isExistVideo.videoUrl);
+     // // Delete video and thumbnail from BunnyCDN
+     // if (isExistVideo.videoUrl) {
+     //      try {
+     //           await BunnyStorageHandeler.deleteFromBunny(isExistVideo.videoUrl);
 
-               if (isExistVideo.thumbnailUrl) {
-                    await BunnyStorageHandeler.deleteFromBunny(isExistVideo.thumbnailUrl);
-               }
-          } catch {
-               throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Error deleting video from BunnyCDN');
-          }
-     }
+     //           if (isExistVideo.thumbnailUrl) {
+     //                await BunnyStorageHandeler.deleteFromBunny(isExistVideo.thumbnailUrl);
+     //           }
+     //      } catch {
+     //           throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Error deleting video from BunnyCDN');
+     //      }
+     // }
      // Delete the video
      const result = await VideoLibrary.findByIdAndDelete(id);
      if (!result) {

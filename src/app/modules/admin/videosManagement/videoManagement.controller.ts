@@ -64,6 +64,7 @@ const removeVideos = catchAsync(async (req, res) => {
           success: true,
           statusCode: StatusCodes.OK,
           message: 'Videos deleted successfully',
+          data: {}
      });
 });
 
