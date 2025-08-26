@@ -1,10 +1,10 @@
 import { StatusCodes } from 'http-status-codes';
 import AppError from '../../../errors/AppError';
 import { User } from '../user/user.model';
-import { Favourite } from '../favorite/favorite.model';
 import { Videos } from '../admin/videos/video.model';
+import { Favorite } from '../favorite/favorite.model';
 const getFevVideosOrNot = async (videoId: string, userId: string) => {
-     const favorite = await Favourite.findOne({ videoId, userId });
+     const favorite = await Favorite.findOne({ videoId, userId });
      return favorite ? true : false;
 };
 let activeVideo: any = null;
