@@ -4,7 +4,6 @@ import AppError from '../../../../errors/AppError';
 import QueryBuilder from '../../../builder/QueryBuilder';
 import { ICreatePost } from './createPost.interface';
 import { CreatePost } from './createPost.model';
-import { BunnyStorageHandeler } from '../../../../helpers/BunnyStorageHandeler';
 
 // Function to create a new "create post" entry
 const createPost = async (payload: ICreatePost) => {
@@ -15,11 +14,11 @@ const createPost = async (payload: ICreatePost) => {
      return result;
 };
 
-// Function to fetch all "create post" entries, including pagination, filtering, and sorting
+// Function to fetch all
 const getAllPost = async (query: Record<string, unknown>) => {
      const queryBuilder = new QueryBuilder(CreatePost.find({}), query);
 
-     const result = await queryBuilder.fields().sort().paginate().filter().search(['title', 'category', 'subCategory']).modelQuery; // Final query model
+     const result = await queryBuilder.fields().sort().paginate().filter().search(['title', 'category', 'subCategory']).modelQuery;
 
      const meta = await queryBuilder.countTotal();
      return { result, meta };
@@ -34,17 +33,16 @@ const getAllPostForApp = async () => {
 };
 
 const getPost = async (query: Record<string, unknown>) => {
-     const querBuilder = new QueryBuilder(CreatePost.find({ status: 'active' }), query);
+     const queryBuilder = new QueryBuilder(CreatePost.find({ status: 'active' }), query);
 
-     const result = await querBuilder.fields().sort().paginate().filter().search(['title', 'category', 'subCategory']).modelQuery; // Final query model
+     const result = await queryBuilder.fields().sort().paginate().filter().search(['title', 'category', 'subCategory']).modelQuery;
 
-     const meta = await querBuilder.countTotal();
+     const meta = await queryBuilder.countTotal();
      return { result, meta };
 };
 
 // Function to get the latest "create post" content by ID
-const getPostContentLetest = async (id: string) => {
-     // Finding the "create post" entry by its ID
+const getPostContentLatest = async (id: string) => {
      const result = await CreatePost.findById(id);
      if (!result) {
           throw new AppError(StatusCodes.NOT_FOUND, 'create post not found');
@@ -57,14 +55,10 @@ const getPostContentLetest = async (id: string) => {
 
 // Function to fetch a single "create post" entry by ID
 const getSinglePost = async (id: string) => {
-     // Finding a specific "create post" entry by its ID
      const result = await CreatePost.findById(id);
-     // Decrypt the URL
-
      if (!result) {
           throw new AppError(StatusCodes.NOT_FOUND, 'create post not found');
      }
-
      const data = {
           ...result.toObject(),
      };
@@ -74,25 +68,9 @@ const getSinglePost = async (id: string) => {
 
 // Function to update an existing "create post" entry by ID
 const updatePost = async (id: string, payload: Partial<ICreatePost>) => {
-     // Finding the "create post" entry by its ID and updating it with the new data (payload)
      const isExistVideo = await CreatePost.findById(id);
      if (!isExistVideo) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
-     }
-     if (payload.videoUrl && isExistVideo.videoUrl) {
-          try {
-               await BunnyStorageHandeler.deleteFromBunny(isExistVideo.videoUrl);
-          } catch (error) {
-               throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Error deleting old video from BunnyCDN');
-          }
-     }
-
-     if (payload.thumbnailUrl && isExistVideo.thumbnailUrl) {
-          try {
-               await BunnyStorageHandeler.deleteFromBunny(isExistVideo.thumbnailUrl);
-          } catch (error) {
-               throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Error deleting old thumbnail from BunnyCDN');
-          }
      }
      const result = await CreatePost.findByIdAndUpdate(id, payload, {
           new: true,
@@ -105,21 +83,9 @@ const updatePost = async (id: string, payload: Partial<ICreatePost>) => {
 
 // Function to delete a "create post" entry by ID
 const deletePost = async (id: string) => {
-     // Finding the "create post" entry by its ID and deleting it
      const result = await CreatePost.findByIdAndDelete(id);
      if (!result) {
           throw new AppError(StatusCodes.NOT_FOUND, 'create post not found');
-     }
-     if (result.videoUrl) {
-          try {
-               await BunnyStorageHandeler.deleteFromBunny(result.videoUrl);
-
-               if (result.thumbnailUrl) {
-                    await BunnyStorageHandeler.deleteFromBunny(result.thumbnailUrl);
-               }
-          } catch (error) {
-               throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Error deleting video from BunnyCDN');
-          }
      }
      return result;
 };
@@ -127,7 +93,7 @@ const deletePost = async (id: string) => {
 export const CreatePostService = {
      createPost,
      getAllPost,
-     getPostContentLetest,
+     getPostContentLatest,
      getSinglePost,
      updatePost,
      deletePost,

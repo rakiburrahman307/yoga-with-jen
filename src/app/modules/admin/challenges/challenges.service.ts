@@ -364,7 +364,6 @@ const shuffleVideoSerial = async (videoOrder: Array<{ _id: string; serial: numbe
         return;
     }
     const updatePromises = videoOrder.map((item) => ChallengeVideo.findByIdAndUpdate(item._id, { serial: item.serial }, { new: true }));
-
     const result = await Promise.all(updatePromises);
     return result;
 };
