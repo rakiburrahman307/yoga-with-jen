@@ -1,0 +1,13 @@
+Wed Aug 27 2025 17:3:28 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dailyInspiration 204 - 0.122 ms
+Wed Aug 27 2025 17:3:28 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/dailyInspiration 200 - 11.619 ms
+Wed Aug 27 2025 17:8:37 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.092 ms
+Wed Aug 27 2025 17:8:37 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/library/videos? 204 - 0.062 ms
+Wed Aug 27 2025 17:8:37 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dailyInspiration 204 - 0.052 ms
+Wed Aug 27 2025 17:8:37 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 9.908 ms
+Wed Aug 27 2025 17:8:37 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/library/videos? 304 - 17.166 ms
+Wed Aug 27 2025 17:8:37 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/dailyInspiration 304 - 14.381 ms
+Wed Aug 27 2025 17:8:37 [SERVER-NAME] info: 10.10.7.48 - GET //image/young-woman-doing-yoga-in-nature-video-1756267358857.jpg 304 - 0.299 ms
+Wed Aug 27 2025 17:21:13 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/challenge-category/get-all-challenge-category 204 - 0.237 ms
+Wed Aug 27 2025 17:21:13 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/challenge-category/get-all-challenge-category 304 - 8.600 ms
+Wed Aug 27 2025 17:21:13 [SERVER-NAME] info: 10.10.7.48 - GET //image/young-woman-doing-yoga-in-nature-video-1756208892126.jpg 304 - 0.617 ms
+Wed Aug 27 2025 17:21:13 [SERVER-NAME] info: 10.10.7.48 - GET //image/videoblocks-v1-0011_20221110-as-semenov-sport-in-the-morning-2-outdoor00000000_heeiyvvr2j_thumbnail-180_07-1756181438957.jpg 304 - 0.284 ms

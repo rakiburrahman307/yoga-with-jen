@@ -9,7 +9,7 @@ const VideoSchema = new Schema<IVideos>(
         category: { type: String, required: true },
         subCategory: { type: String, required: false },
         categoryId: { type: Schema.Types.ObjectId, required: false },
-        subCategoryId: { type: Schema.Types.ObjectId, required: false },
+        subCategoryId: { type: Schema.Types.ObjectId, required: false, default: null },
         duration: { type: String, required: true },
         equipment: { type: [String], required: true },
         thumbnailUrl: { type: String, required: true },

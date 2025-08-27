@@ -1,8 +1,0 @@
-Tue Aug 26 2025 11:21:59 [SERVER-NAME] error: 10.10.7.62 - GET /api/v1/admin/dailyInspiration/scheduled 400 - 37.613 ms
-Tue Aug 26 2025 11:49:4 [SERVER-NAME] error: 10.10.7.48 - POST /api/v1/admin/videos/managment/copy-video 404 - 8.307 ms
-Tue Aug 26 2025 11:49:33 [SERVER-NAME] error: 10.10.7.48 - POST /api/v1/admin/videos/managment/copy-video 404 - 5.833 ms
-Tue Aug 26 2025 11:50:2 [SERVER-NAME] error: 10.10.7.48 - POST /api/v1/admin/videos/managment/copy-video 404 - 0.487 ms
-Tue Aug 26 2025 11:54:46 [SERVER-NAME] error: 10.10.7.48 - POST /api/v1/admin/videos/managment/copy-video 404 - 2.846 ms
-Tue Aug 26 2025 11:54:53 [SERVER-NAME] error: 10.10.7.48 - POST /api/v1/admin/videos/managment/copy-video 404 - 0.422 ms
-Tue Aug 26 2025 11:55:32 [SERVER-NAME] error: 10.10.7.48 - POST /api/v1/admin/videos/managment/copy-video 404 - 1.522 ms
-Tue Aug 26 2025 11:55:42 [SERVER-NAME] error: 10.10.7.48 - POST /api/v1/admin/videos/management/copy-video 404 - 1.490 ms

@@ -1,0 +1,64 @@
+Wed Aug 27 2025 14:47:33 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.125 ms
+Wed Aug 27 2025 14:47:33 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/category/category-all-videos/68a5bec52148500c7998bb15 204 - 0.088 ms
+Wed Aug 27 2025 14:47:33 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/category 204 - 0.046 ms
+Wed Aug 27 2025 14:47:33 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/library/videos? 204 - 0.035 ms
+Wed Aug 27 2025 14:47:33 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 6.757 ms
+Wed Aug 27 2025 14:47:33 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/category 304 - 12.107 ms
+Wed Aug 27 2025 14:47:33 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/library/videos? 304 - 9.672 ms
+Wed Aug 27 2025 14:47:33 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/category/category-all-videos/68a5bec52148500c7998bb15 304 - 15.601 ms
+Wed Aug 27 2025 14:47:34 [SERVER-NAME] info: 10.10.7.48 - GET //image/young-woman-doing-yoga-in-nature-video-1756267358857.jpg 304 - 0.750 ms
+Wed Aug 27 2025 14:47:35 [SERVER-NAME] info: 10.10.7.48 - GET //thumbnail/image-11-1754911771507.png 304 - 1.687 ms
+Wed Aug 27 2025 14:47:35 [SERVER-NAME] info: 10.10.7.48 - GET //thumbnail/link---zoanthids-%C3%A2%C2%86%C2%92-coralstashicon2.png-1754911760194.png 304 - 1.485 ms
+Wed Aug 27 2025 14:47:35 [SERVER-NAME] info: 10.10.7.48 - GET //thumbnail/yellow-2708363-1755692741197.jpg 304 - 1.645 ms
+Wed Aug 27 2025 14:47:40 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/management/get-single-video-for-admin/68ac39f7a070201509fe18ce 204 - 0.044 ms
+Wed Aug 27 2025 14:47:40 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/management/get-single-video-for-admin/68ac39f7a070201509fe18ce 200 - 4.274 ms
+Wed Aug 27 2025 14:50:20 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.168 ms
+Wed Aug 27 2025 14:50:20 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/category/category-all-videos/68a5bec52148500c7998bb15 204 - 0.090 ms
+Wed Aug 27 2025 14:50:20 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/category 204 - 0.063 ms
+Wed Aug 27 2025 14:50:20 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/library/videos? 204 - 0.051 ms
+Wed Aug 27 2025 14:50:20 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 8.230 ms
+Wed Aug 27 2025 14:50:20 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/library/videos? 304 - 10.006 ms
+Wed Aug 27 2025 14:50:20 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/category 304 - 12.600 ms
+Wed Aug 27 2025 14:50:20 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/category/category-all-videos/68a5bec52148500c7998bb15 304 - 15.644 ms
+Wed Aug 27 2025 14:50:21 [SERVER-NAME] info: 10.10.7.48 - GET //image/young-woman-doing-yoga-in-nature-video-1756267358857.jpg 304 - 0.538 ms
+Wed Aug 27 2025 14:50:23 [SERVER-NAME] info: 10.10.7.48 - GET //thumbnail/image-11-1754911771507.png 304 - 1.070 ms
+Wed Aug 27 2025 14:50:23 [SERVER-NAME] info: 10.10.7.48 - GET //thumbnail/yellow-2708363-1755692741197.jpg 304 - 1.246 ms
+Wed Aug 27 2025 14:50:23 [SERVER-NAME] info: 10.10.7.48 - GET //thumbnail/link---zoanthids-%C3%A2%C2%86%C2%92-coralstashicon2.png-1754911760194.png 304 - 1.614 ms
+Wed Aug 27 2025 14:50:28 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.077 ms
+Wed Aug 27 2025 14:50:28 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/category/category-all-videos/68a5bec52148500c7998bb15 204 - 0.055 ms
+Wed Aug 27 2025 14:50:28 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/category 204 - 0.058 ms
+Wed Aug 27 2025 14:50:28 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/library/videos? 204 - 0.042 ms
+Wed Aug 27 2025 14:50:28 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 11.860 ms
+Wed Aug 27 2025 14:50:28 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/library/videos? 304 - 27.972 ms
+Wed Aug 27 2025 14:50:28 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/category 304 - 32.167 ms
+Wed Aug 27 2025 14:50:28 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/category/category-all-videos/68a5bec52148500c7998bb15 304 - 36.634 ms
+Wed Aug 27 2025 14:50:28 [SERVER-NAME] info: 10.10.7.48 - GET //image/young-woman-doing-yoga-in-nature-video-1756267358857.jpg 304 - 0.306 ms
+Wed Aug 27 2025 14:54:2 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.090 ms
+Wed Aug 27 2025 14:54:2 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/category/category-all-videos/68a5bec52148500c7998bb15 204 - 0.111 ms
+Wed Aug 27 2025 14:54:2 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/category 204 - 0.118 ms
+Wed Aug 27 2025 14:54:2 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/library/videos? 204 - 0.066 ms
+Wed Aug 27 2025 14:54:2 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 17.857 ms
+Wed Aug 27 2025 14:54:2 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/library/videos? 304 - 22.655 ms
+Wed Aug 27 2025 14:54:2 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/category 304 - 34.163 ms
+Wed Aug 27 2025 14:54:2 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/category/category-all-videos/68a5bec52148500c7998bb15 304 - 38.902 ms
+Wed Aug 27 2025 14:54:2 [SERVER-NAME] info: 10.10.7.48 - GET //image/young-woman-doing-yoga-in-nature-video-1756267358857.jpg 304 - 0.440 ms
+Wed Aug 27 2025 14:54:8 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/management/get-single-video-for-admin/68ac39f7a070201509fe18ce 204 - 0.057 ms
+Wed Aug 27 2025 14:54:8 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/management/get-single-video-for-admin/68ac39f7a070201509fe18ce 304 - 4.043 ms
+Wed Aug 27 2025 14:56:53 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed Aug 27 2025 14:56:54 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Aug 27 2025 14:56:54 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Wed Aug 27 2025 14:56:54 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Wed Aug 27 2025 14:56:56 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed Aug 27 2025 14:56:56 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Aug 27 2025 14:56:56 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Wed Aug 27 2025 14:56:56 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Wed Aug 27 2025 14:58:0 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/challenge-category/get-all-challenge-category 204 - 1.020 ms
+Wed Aug 27 2025 14:58:0 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/challenge-category/get-all-challenge-category 304 - 13.046 ms
+Wed Aug 27 2025 14:58:0 [SERVER-NAME] info: 10.10.7.48 - GET //image/young-woman-doing-yoga-in-nature-video-1756208892126.jpg 304 - 1.519 ms
+Wed Aug 27 2025 14:58:0 [SERVER-NAME] info: 10.10.7.48 - GET //image/videoblocks-v1-0011_20221110-as-semenov-sport-in-the-morning-2-outdoor00000000_heeiyvvr2j_thumbnail-180_07-1756181438957.jpg 304 - 0.321 ms
+Wed Aug 27 2025 14:59:41 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.132 ms
+Wed Aug 27 2025 14:59:41 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/library/videos? 204 - 0.045 ms
+Wed Aug 27 2025 14:59:41 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/challenge/get-challenges-videos/68ad9efcb3092b9cbc54e299 204 - 0.042 ms
+Wed Aug 27 2025 14:59:41 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 10.941 ms
+Wed Aug 27 2025 14:59:41 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/library/videos? 304 - 15.940 ms
+Wed Aug 27 2025 14:59:41 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/challenge/get-challenges-videos/68ad9efcb3092b9cbc54e299 200 - 16.399 ms

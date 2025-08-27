@@ -1,0 +1,3 @@
+Wed Aug 27 2025 15:13:20 [SERVER-NAME] error: 10.10.7.62 - DELETE /api/v1/admin/videos/management/delete/68aea8d4dcd54b682a0228a8 404 - 5.594 ms
+Wed Aug 27 2025 15:20:55 [SERVER-NAME] error: 10.10.7.62 - GET /api/v1/admin/videos/library/videos? 401 - 2.219 ms
+Wed Aug 27 2025 15:20:56 [SERVER-NAME] error: 10.10.7.62 - GET /favicon.ico 404 - 0.932 ms

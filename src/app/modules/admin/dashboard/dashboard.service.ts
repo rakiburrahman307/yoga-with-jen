@@ -1,6 +1,6 @@
 import { Subscription } from '../../subscription/subscription.model';
 import { User } from '../../user/user.model';
-import { Video } from '../videosManagement/videoManagement.model';
+import { Videos } from '../videos/video.model';
 
 const getRevenue = async () => {
      const result = await Subscription.aggregate([
@@ -52,7 +52,7 @@ const getRevenue = async () => {
      };
 };
 const getStatistics = async () => {
-     const totalVideos = await Video.countDocuments();
+     const totalVideos = await Videos.countDocuments();
      const totalEarn = await Subscription.aggregate([
           {
                $group: {
