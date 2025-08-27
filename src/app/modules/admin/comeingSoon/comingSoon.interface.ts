@@ -7,7 +7,7 @@ export interface IComingSoon {
      thumbnailUrl: string;
      videoUrl: string;
      redirectUrl: string;
-     isReady: 'arrivedSoon' | 'ready';
+     isReady: 'arrived' | 'ready';
      description: string;
      status: 'active' | 'inactive';
 }

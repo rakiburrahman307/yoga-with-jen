@@ -4,7 +4,6 @@ import AppError from '../../../../errors/AppError';
 import { IComingSoon } from './comingSoon.interface';
 import { ComingSoon } from './comingSoon.model';
 import QueryBuilder from '../../../builder/QueryBuilder';
-import { BunnyStorageHandeler } from '../../../../helpers/BunnyStorageHandeler';
 import { Favorite } from '../../favorite/favorite.model';
 const getFevVideosOrNot = async (videoId: string, userId: string) => {
      const favorite = await Favorite.findOne({ videoId, userId });
@@ -66,21 +65,21 @@ const updateComingSoon = async (id: string, payload: Partial<IComingSoon>) => {
      if (!isExistVideo) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Coming soon not found');
      }
-     if (payload.videoUrl && isExistVideo.videoUrl) {
-          try {
-               await BunnyStorageHandeler.deleteFromBunny(isExistVideo.videoUrl);
-          } catch {
-               throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Error deleting old video from BunnyCDN');
-          }
-     }
+     // if (payload.videoUrl && isExistVideo.videoUrl) {
+     //      try {
+     //           await BunnyStorageHandeler.deleteFromBunny(isExistVideo.videoUrl);
+     //      } catch {
+     //           throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Error deleting old video from BunnyCDN');
+     //      }
+     // }
 
-     if (payload.thumbnailUrl && isExistVideo.thumbnailUrl) {
-          try {
-               await BunnyStorageHandeler.deleteFromBunny(isExistVideo.thumbnailUrl);
-          } catch {
-               throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Error deleting old thumbnail from BunnyCDN');
-          }
-     }
+     // if (payload.thumbnailUrl && isExistVideo.thumbnailUrl) {
+     //      try {
+     //           await BunnyStorageHandeler.deleteFromBunny(isExistVideo.thumbnailUrl);
+     //      } catch {
+     //           throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Error deleting old thumbnail from BunnyCDN');
+     //      }
+     // }
      // Finding the "Coming Soon" entry by its ID and updating it with the new data (payload)
      const result = await ComingSoon.findByIdAndUpdate(id, payload, {
           new: true,
@@ -117,7 +116,7 @@ const getComingSoonLatest = async (userId: string) => {
      );
      return postsWithFavorites;
 };
-const updateIsReady = async (id: string, payload: { isReady: 'arrivedSoon' | 'ready' }) => {
+const updateIsReady = async (id: string, payload: { isReady: 'arrived' | 'ready' }) => {
      const result = await ComingSoon.findByIdAndUpdate(id, payload, {
           new: true,
      });
