@@ -1,6 +1,0 @@
-Mon Aug 25 2025 21:1:6 [SERVER-NAME] error: 10.10.7.62 - GET /api/v1/admin/dailyInspiration/scheduled 400 - 25.949 ms
-Mon Aug 25 2025 21:21:51 [SERVER-NAME] error: 10.10.7.48 - POST /api/v1/admin/subcategory/safhale 404 - 20.692 ms
-Mon Aug 25 2025 21:27:37 [SERVER-NAME] error: 10.10.7.48 - POST /api/v1/admin/videos/management/shuffle-video-for-admin 404 - 4.642 ms
-Mon Aug 25 2025 21:27:50 [SERVER-NAME] error: 10.10.7.48 - POST /api/v1/admin/videos/management/shuffle-video-for-admin 404 - 0.824 ms
-Mon Aug 25 2025 21:29:10 [SERVER-NAME] error: 10.10.7.48 - POST /api/v1/admin/videos/management/shuffle-video-for-admin 404 - 2.429 ms
-Mon Aug 25 2025 21:29:18 [SERVER-NAME] error: 10.10.7.62 - GET /api/v1/admin/dashboard/statistics 400 - 45.687 ms

@@ -176,5 +176,14 @@ const deletePost = async (id: string) => {
      }
      return result;
 };
+const updateStatus = async (id: string, status: string) => {
 
-export const DailyInspirationService = { copyDailyInspirationVideo, getAllPost, getPostContentLatest, getSinglePost, updatePost, deletePost, getPost, shuffleVideoSerial };
+     const result = await DailyInspiration.findByIdAndUpdate(id, { status }, {
+          new: true,
+     });
+     if (!result) {
+          throw new AppError(StatusCodes.NOT_FOUND, 'create post not found');
+     }
+     return result;
+};
+export const DailyInspirationService = { copyDailyInspirationVideo, getAllPost, getPostContentLatest, getSinglePost, updatePost, deletePost, getPost, shuffleVideoSerial, updateStatus };

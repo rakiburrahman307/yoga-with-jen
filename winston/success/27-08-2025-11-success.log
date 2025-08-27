@@ -1,0 +1,275 @@
+Wed Aug 27 2025 11:0:35 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/post/management?page=1&limit=12 204 - 0.061 ms
+Wed Aug 27 2025 11:0:35 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/post/management?page=1&limit=12 200 - 5.716 ms
+Wed Aug 27 2025 11:0:38 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.177 ms
+Wed Aug 27 2025 11:0:38 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 7.332 ms
+Wed Aug 27 2025 11:0:38 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/post/management?page=1&limit=12 304 - 7.147 ms
+Wed Aug 27 2025 11:1:5 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.063 ms
+Wed Aug 27 2025 11:1:5 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/post/management?page=1&limit=12 204 - 0.040 ms
+Wed Aug 27 2025 11:1:5 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 4.045 ms
+Wed Aug 27 2025 11:1:5 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/post/management?page=1&limit=12 200 - 6.849 ms
+Wed Aug 27 2025 11:1:11 [SERVER-NAME] info: 10.10.7.62 - GET //image/young-woman-doing-yoga-in-nature-video-1756267358857.jpg 304 - 1.702 ms
+Wed Aug 27 2025 11:2:1 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.052 ms
+Wed Aug 27 2025 11:2:1 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/post/management?page=1&limit=12 204 - 0.061 ms
+Wed Aug 27 2025 11:2:1 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 8.840 ms
+Wed Aug 27 2025 11:2:1 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/post/management?page=1&limit=12 200 - 12.455 ms
+Wed Aug 27 2025 11:2:1 [SERVER-NAME] info: 10.10.7.48 - GET //image/young-woman-doing-yoga-in-nature-video-1756267358857.jpg 304 - 1.514 ms
+Wed Aug 27 2025 11:2:11 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/post/management/status/689ad6760319393bfdd50ab3 204 - 0.084 ms
+Wed Aug 27 2025 11:2:11 [SERVER-NAME] info: 10.10.7.48 - PATCH /api/v1/admin/post/management/status/689ad6760319393bfdd50ab3 200 - 38.727 ms
+Wed Aug 27 2025 11:2:11 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/post/management?page=1&limit=12 204 - 0.043 ms
+Wed Aug 27 2025 11:2:11 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/post/management?page=1&limit=12 200 - 4.328 ms
+Wed Aug 27 2025 11:2:14 [SERVER-NAME] info: 10.10.7.48 - PATCH /api/v1/admin/post/management/status/689ad6760319393bfdd50ab3 200 - 5.657 ms
+Wed Aug 27 2025 11:2:14 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/post/management?page=1&limit=12 200 - 3.870 ms
+Wed Aug 27 2025 11:2:18 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/post/management/status/689ad65b0319393bfdd50aad 204 - 0.662 ms
+Wed Aug 27 2025 11:2:18 [SERVER-NAME] info: 10.10.7.48 - PATCH /api/v1/admin/post/management/status/689ad65b0319393bfdd50aad 200 - 11.220 ms
+Wed Aug 27 2025 11:2:18 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/post/management?page=1&limit=12 204 - 0.074 ms
+Wed Aug 27 2025 11:2:18 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/post/management?page=1&limit=12 200 - 5.838 ms
+Wed Aug 27 2025 11:2:48 [SERVER-NAME] info: 10.10.7.62 - GET //image/young-woman-doing-yoga-in-nature-video-1756267358857.jpg 304 - 0.401 ms
+Wed Aug 27 2025 11:3:10 [SERVER-NAME] info: 10.10.7.48 - GET //image/young-woman-doing-yoga-in-nature-video-1756267358857.jpg 304 - 0.284 ms
+Wed Aug 27 2025 11:3:19 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/post/management/status/689ad6760319393bfdd50ab3 204 - 0.108 ms
+Wed Aug 27 2025 11:3:19 [SERVER-NAME] info: 10.10.7.48 - PATCH /api/v1/admin/post/management/status/689ad6760319393bfdd50ab3 200 - 11.097 ms
+Wed Aug 27 2025 11:3:19 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/post/management?page=1&limit=12 204 - 0.041 ms
+Wed Aug 27 2025 11:3:19 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/post/management?page=1&limit=12 200 - 4.266 ms
+Wed Aug 27 2025 11:3:22 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/post/management/status/689ad6210319393bfdd50aa2 204 - 0.073 ms
+Wed Aug 27 2025 11:3:22 [SERVER-NAME] info: 10.10.7.48 - PATCH /api/v1/admin/post/management/status/689ad6210319393bfdd50aa2 200 - 6.235 ms
+Wed Aug 27 2025 11:3:22 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/post/management?page=1&limit=12 200 - 5.542 ms
+Wed Aug 27 2025 11:7:45 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/post/management/status/689ad6210319393bfdd50aa2 204 - 1.295 ms
+Wed Aug 27 2025 11:7:46 [SERVER-NAME] info: 10.10.7.48 - PATCH /api/v1/admin/post/management/status/689ad6210319393bfdd50aa2 200 - 23.367 ms
+Wed Aug 27 2025 11:7:46 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/post/management?page=1&limit=12 204 - 0.045 ms
+Wed Aug 27 2025 11:7:46 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/post/management?page=1&limit=12 200 - 12.326 ms
+Wed Aug 27 2025 11:7:49 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/post/management/status/689ad65b0319393bfdd50aad 204 - 0.051 ms
+Wed Aug 27 2025 11:7:49 [SERVER-NAME] info: 10.10.7.48 - PATCH /api/v1/admin/post/management/status/689ad65b0319393bfdd50aad 200 - 7.269 ms
+Wed Aug 27 2025 11:7:49 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/post/management?page=1&limit=12 200 - 5.175 ms
+Wed Aug 27 2025 11:7:54 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/post/management/status/689ad6760319393bfdd50ab3 204 - 0.134 ms
+Wed Aug 27 2025 11:7:54 [SERVER-NAME] info: 10.10.7.48 - PATCH /api/v1/admin/post/management/status/689ad6760319393bfdd50ab3 200 - 11.972 ms
+Wed Aug 27 2025 11:7:54 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/post/management?page=1&limit=12 204 - 0.038 ms
+Wed Aug 27 2025 11:7:54 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/post/management?page=1&limit=12 200 - 8.043 ms
+Wed Aug 27 2025 11:8:1 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/post/management/689ad65b0319393bfdd50aad 204 - 0.171 ms
+Wed Aug 27 2025 11:8:1 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/post/management/689ad65b0319393bfdd50aad 200 - 4.327 ms
+Wed Aug 27 2025 11:10:19 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/quotation/managment/admin?page=undefined 204 - 0.173 ms
+Wed Aug 27 2025 11:10:38 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/quotation/managment/admin?page=undefined 204 - 0.075 ms
+Wed Aug 27 2025 11:10:45 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/quotation/managment/admin?page=undefined 204 - 0.046 ms
+Wed Aug 27 2025 11:10:53 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.216 ms
+Wed Aug 27 2025 11:10:53 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/quotation/management/admin?page=undefined 204 - 0.063 ms
+Wed Aug 27 2025 11:10:53 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 44.570 ms
+Wed Aug 27 2025 11:10:53 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/quotation/management/admin?page=undefined 200 - 72.033 ms
+Wed Aug 27 2025 11:10:53 [SERVER-NAME] info: 10.10.7.48 - GET //image/young-woman-doing-yoga-in-nature-video-1756267358857.jpg 304 - 1.609 ms
+Wed Aug 27 2025 11:10:58 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/quotation/management/689b10722081b2c22b02f06f 204 - 0.058 ms
+Wed Aug 27 2025 11:10:58 [SERVER-NAME] info: 10.10.7.48 - PATCH /api/v1/admin/quotation/management/689b10722081b2c22b02f06f 200 - 17.290 ms
+Wed Aug 27 2025 11:10:58 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/quotation/management/admin?page=undefined 200 - 4.249 ms
+Wed Aug 27 2025 11:11:3 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/quotation/management/689b10722081b2c22b02f06f 204 - 0.076 ms
+Wed Aug 27 2025 11:11:3 [SERVER-NAME] info: 10.10.7.48 - PATCH /api/v1/admin/quotation/management/689b10722081b2c22b02f06f 200 - 13.878 ms
+Wed Aug 27 2025 11:11:3 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/quotation/management/admin?page=undefined 204 - 0.057 ms
+Wed Aug 27 2025 11:11:3 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/quotation/management/admin?page=undefined 200 - 4.407 ms
+Wed Aug 27 2025 11:11:12 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/quotation/management/689b10722081b2c22b02f06f 204 - 0.077 ms
+Wed Aug 27 2025 11:11:12 [SERVER-NAME] info: 10.10.7.48 - PATCH /api/v1/admin/quotation/management/689b10722081b2c22b02f06f 200 - 8.056 ms
+Wed Aug 27 2025 11:11:12 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/quotation/management/admin?page=undefined 204 - 0.037 ms
+Wed Aug 27 2025 11:11:12 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/quotation/management/admin?page=undefined 200 - 5.027 ms
+Wed Aug 27 2025 11:11:32 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/quotation/management/create 204 - 0.106 ms
+Wed Aug 27 2025 11:11:32 [SERVER-NAME] info: 10.10.7.48 - POST /api/v1/admin/quotation/management/create 201 - 38.300 ms
+Wed Aug 27 2025 11:11:32 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/quotation/management/admin?page=undefined 204 - 0.084 ms
+Wed Aug 27 2025 11:11:32 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/quotation/management/admin?page=undefined 200 - 3.946 ms
+Wed Aug 27 2025 11:13:41 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/push-notifications? 204 - 0.593 ms
+Wed Aug 27 2025 11:13:41 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/push-notifications? 304 - 13.400 ms
+Wed Aug 27 2025 11:13:43 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/managment/get-admin 204 - 0.054 ms
+Wed Aug 27 2025 11:13:54 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/managment/create-admin 204 - 0.160 ms
+Wed Aug 27 2025 11:13:54 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/managment/get-admin 204 - 0.073 ms
+Wed Aug 27 2025 11:14:34 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.048 ms
+Wed Aug 27 2025 11:14:34 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dashboard/revenue 204 - 0.046 ms
+Wed Aug 27 2025 11:14:34 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.049 ms
+Wed Aug 27 2025 11:14:34 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/dashboard/resent-users 200 - 13.778 ms
+Wed Aug 27 2025 11:14:34 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/dashboard/revenue 200 - 21.610 ms
+Wed Aug 27 2025 11:14:36 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/user/managment? 204 - 0.040 ms
+Wed Aug 27 2025 11:14:36 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/user/managment?limit=10&page=1 204 - 0.078 ms
+Wed Aug 27 2025 11:15:0 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/users/profile 204 - 0.088 ms
+Wed Aug 27 2025 11:15:0 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/admin/post/management?page=1&limit=12 204 - 0.084 ms
+Wed Aug 27 2025 11:15:0 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/users/profile 304 - 15.753 ms
+Wed Aug 27 2025 11:15:0 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.047 ms
+Wed Aug 27 2025 11:15:0 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/user/managment? 204 - 0.060 ms
+Wed Aug 27 2025 11:15:0 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/admin/post/management?page=1&limit=12 200 - 22.984 ms
+Wed Aug 27 2025 11:15:0 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 11.222 ms
+Wed Aug 27 2025 11:15:0 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/user/managment?limit=10&page=1 204 - 0.116 ms
+Wed Aug 27 2025 11:15:2 [SERVER-NAME] info: 10.10.7.48 - GET //image/young-woman-doing-yoga-in-nature-video-1756267358857.jpg 304 - 2.141 ms
+Wed Aug 27 2025 11:15:4 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.106 ms
+Wed Aug 27 2025 11:15:4 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dashboard/revenue 204 - 0.087 ms
+Wed Aug 27 2025 11:15:4 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.042 ms
+Wed Aug 27 2025 11:15:4 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/dashboard/revenue 304 - 6.538 ms
+Wed Aug 27 2025 11:15:4 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/dashboard/resent-users 304 - 6.267 ms
+Wed Aug 27 2025 11:15:8 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.169 ms
+Wed Aug 27 2025 11:15:8 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 9.150 ms
+Wed Aug 27 2025 11:15:8 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/dashboard/resent-users 304 - 10.888 ms
+Wed Aug 27 2025 11:15:8 [SERVER-NAME] info: 10.10.7.48 - GET //image/young-woman-doing-yoga-in-nature-video-1756267358857.jpg 304 - 3.538 ms
+Wed Aug 27 2025 11:15:8 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/dashboard/revenue 304 - 13.114 ms
+Wed Aug 27 2025 11:15:12 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/user/managment? 204 - 0.057 ms
+Wed Aug 27 2025 11:15:12 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/user/managment?limit=10&page=1 204 - 0.060 ms
+Wed Aug 27 2025 11:15:13 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/category 204 - 0.064 ms
+Wed Aug 27 2025 11:15:13 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/category 304 - 17.992 ms
+Wed Aug 27 2025 11:15:13 [SERVER-NAME] info: 10.10.7.48 - GET //thumbnail/image-11-1754911771507.png 304 - 0.922 ms
+Wed Aug 27 2025 11:15:13 [SERVER-NAME] info: 10.10.7.48 - GET //thumbnail/yellow-2708363-1755692741197.jpg 304 - 3.248 ms
+Wed Aug 27 2025 11:15:13 [SERVER-NAME] info: 10.10.7.48 - GET //thumbnail/link---zoanthids-%C3%A2%C2%86%C2%92-coralstashicon2.png-1754911760194.png 304 - 3.998 ms
+Wed Aug 27 2025 11:15:14 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/library/videos?page=1&limit=10 204 - 0.038 ms
+Wed Aug 27 2025 11:15:14 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/library/videos?page=1&limit=10 304 - 7.972 ms
+Wed Aug 27 2025 11:15:15 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/comingSoon 204 - 0.077 ms
+Wed Aug 27 2025 11:15:15 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/comingSoon 200 - 14.563 ms
+Wed Aug 27 2025 11:15:16 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/library/videos? 204 - 0.165 ms
+Wed Aug 27 2025 11:15:16 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/challenge-category/get-all-challenge-category 204 - 0.081 ms
+Wed Aug 27 2025 11:15:16 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/library/videos? 304 - 19.172 ms
+Wed Aug 27 2025 11:15:16 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/challenge-category/get-all-challenge-category 200 - 26.179 ms
+Wed Aug 27 2025 11:15:16 [SERVER-NAME] info: 10.10.7.48 - GET //image/videoblocks-v1-0011_20221110-as-semenov-sport-in-the-morning-2-outdoor00000000_heeiyvvr2j_thumbnail-180_07-1756181438957.jpg 200 - 3.728 ms
+Wed Aug 27 2025 11:15:16 [SERVER-NAME] info: 10.10.7.48 - GET //image/young-woman-doing-yoga-in-nature-video-1756208892126.jpg 200 - 5.172 ms
+Wed Aug 27 2025 11:15:17 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dailyInspiration 204 - 0.148 ms
+Wed Aug 27 2025 11:15:17 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/dailyInspiration 304 - 8.652 ms
+Wed Aug 27 2025 11:15:17 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/post/management?page=1&limit=12 204 - 0.163 ms
+Wed Aug 27 2025 11:15:17 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/post/management?page=1&limit=12 200 - 10.986 ms
+Wed Aug 27 2025 11:18:56 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/post/management/status/689ad65b0319393bfdd50aad 204 - 1.672 ms
+Wed Aug 27 2025 11:18:56 [SERVER-NAME] info: 10.10.7.48 - PATCH /api/v1/admin/post/management/status/689ad65b0319393bfdd50aad 200 - 61.328 ms
+Wed Aug 27 2025 11:18:56 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/post/management?page=1&limit=12 204 - 0.040 ms
+Wed Aug 27 2025 11:18:56 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/post/management?page=1&limit=12 200 - 28.495 ms
+Wed Aug 27 2025 11:19:1 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/post/management/status/689ac8290319393bfdd50904 204 - 0.045 ms
+Wed Aug 27 2025 11:19:1 [SERVER-NAME] info: 10.10.7.48 - PATCH /api/v1/admin/post/management/status/689ac8290319393bfdd50904 200 - 9.490 ms
+Wed Aug 27 2025 11:19:1 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/post/management?page=1&limit=12 204 - 0.038 ms
+Wed Aug 27 2025 11:19:1 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/post/management?page=1&limit=12 200 - 6.708 ms
+Wed Aug 27 2025 11:19:5 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/library/videos? 204 - 0.067 ms
+Wed Aug 27 2025 11:19:5 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dailyInspiration 204 - 0.042 ms
+Wed Aug 27 2025 11:19:5 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/library/videos? 304 - 11.445 ms
+Wed Aug 27 2025 11:19:5 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/dailyInspiration 304 - 10.969 ms
+Wed Aug 27 2025 11:19:9 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dailyInspiration/68adc7f39a71948a8a1d4316/status 204 - 0.087 ms
+Wed Aug 27 2025 11:19:9 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/dailyInspiration 304 - 5.151 ms
+Wed Aug 27 2025 11:19:19 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dailyInspiration/68adc7f39a71948a8a1d4316/status 204 - 0.059 ms
+Wed Aug 27 2025 11:19:19 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dailyInspiration 204 - 0.047 ms
+Wed Aug 27 2025 11:19:19 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/dailyInspiration 304 - 6.666 ms
+Wed Aug 27 2025 11:20:17 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed Aug 27 2025 11:20:17 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Aug 27 2025 11:20:17 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Wed Aug 27 2025 11:20:17 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Wed Aug 27 2025 11:20:28 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed Aug 27 2025 11:20:28 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Aug 27 2025 11:20:28 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Wed Aug 27 2025 11:20:28 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Wed Aug 27 2025 11:20:33 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed Aug 27 2025 11:20:33 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Aug 27 2025 11:20:33 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Wed Aug 27 2025 11:20:33 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Wed Aug 27 2025 11:20:38 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed Aug 27 2025 11:20:38 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Aug 27 2025 11:20:38 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Wed Aug 27 2025 11:20:38 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Wed Aug 27 2025 11:21:13 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed Aug 27 2025 11:21:13 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Aug 27 2025 11:21:13 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Wed Aug 27 2025 11:21:13 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Wed Aug 27 2025 11:21:24 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed Aug 27 2025 11:21:24 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Aug 27 2025 11:21:24 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Wed Aug 27 2025 11:21:24 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Wed Aug 27 2025 11:21:41 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed Aug 27 2025 11:21:41 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Aug 27 2025 11:21:41 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Wed Aug 27 2025 11:21:41 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Wed Aug 27 2025 11:21:44 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed Aug 27 2025 11:21:44 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Aug 27 2025 11:21:44 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Wed Aug 27 2025 11:21:44 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Wed Aug 27 2025 11:21:47 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed Aug 27 2025 11:21:47 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Aug 27 2025 11:21:47 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Wed Aug 27 2025 11:21:47 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Wed Aug 27 2025 11:21:48 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed Aug 27 2025 11:21:48 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Aug 27 2025 11:21:48 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Wed Aug 27 2025 11:21:48 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Wed Aug 27 2025 11:21:50 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed Aug 27 2025 11:21:50 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Aug 27 2025 11:21:50 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Wed Aug 27 2025 11:21:50 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Wed Aug 27 2025 11:22:29 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.854 ms
+Wed Aug 27 2025 11:22:29 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/library/videos? 204 - 0.075 ms
+Wed Aug 27 2025 11:22:29 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dailyInspiration 204 - 0.158 ms
+Wed Aug 27 2025 11:22:29 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 22.342 ms
+Wed Aug 27 2025 11:22:29 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/library/videos? 304 - 20.568 ms
+Wed Aug 27 2025 11:22:29 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/dailyInspiration 304 - 21.374 ms
+Wed Aug 27 2025 11:22:30 [SERVER-NAME] info: 10.10.7.48 - GET //image/young-woman-doing-yoga-in-nature-video-1756267358857.jpg 304 - 0.824 ms
+Wed Aug 27 2025 11:22:33 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dailyInspiration/68adc7f39a71948a8a1d4316/status 204 - 0.124 ms
+Wed Aug 27 2025 11:22:33 [SERVER-NAME] info: 10.10.7.48 - PATCH /api/v1/admin/dailyInspiration/68adc7f39a71948a8a1d4316/status 200 - 38.482 ms
+Wed Aug 27 2025 11:22:33 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/dailyInspiration 200 - 5.144 ms
+Wed Aug 27 2025 11:22:45 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.062 ms
+Wed Aug 27 2025 11:22:45 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/library/videos? 204 - 0.051 ms
+Wed Aug 27 2025 11:22:45 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dailyInspiration 204 - 0.069 ms
+Wed Aug 27 2025 11:22:45 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 8.002 ms
+Wed Aug 27 2025 11:22:45 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/library/videos? 304 - 12.149 ms
+Wed Aug 27 2025 11:22:45 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/dailyInspiration 304 - 11.796 ms
+Wed Aug 27 2025 11:22:45 [SERVER-NAME] info: 10.10.7.48 - GET //image/young-woman-doing-yoga-in-nature-video-1756267358857.jpg 304 - 0.442 ms
+Wed Aug 27 2025 11:22:49 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dailyInspiration/68adc7f39a71948a8a1d4316/status 204 - 0.097 ms
+Wed Aug 27 2025 11:22:49 [SERVER-NAME] info: 10.10.7.48 - PATCH /api/v1/admin/dailyInspiration/68adc7f39a71948a8a1d4316/status 200 - 7.073 ms
+Wed Aug 27 2025 11:22:49 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/dailyInspiration 200 - 5.363 ms
+Wed Aug 27 2025 11:24:3 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.391 ms
+Wed Aug 27 2025 11:24:3 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/library/videos? 204 - 0.096 ms
+Wed Aug 27 2025 11:24:3 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dailyInspiration 204 - 0.060 ms
+Wed Aug 27 2025 11:24:3 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 20.639 ms
+Wed Aug 27 2025 11:24:3 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/dailyInspiration 304 - 47.337 ms
+Wed Aug 27 2025 11:24:3 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/library/videos? 304 - 49.483 ms
+Wed Aug 27 2025 11:24:3 [SERVER-NAME] info: 10.10.7.48 - GET //image/young-woman-doing-yoga-in-nature-video-1756267358857.jpg 304 - 0.933 ms
+Wed Aug 27 2025 11:24:5 [SERVER-NAME] info: 10.10.7.62 - PATCH /api/v1/admin/dailyInspiration/68adc7093ffbfdd42f8c4d98/status 200 - 6.704 ms
+Wed Aug 27 2025 11:24:5 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dailyInspiration/68adc7f39a71948a8a1d4316/status 204 - 0.102 ms
+Wed Aug 27 2025 11:24:5 [SERVER-NAME] info: 10.10.7.48 - PATCH /api/v1/admin/dailyInspiration/68adc7f39a71948a8a1d4316/status 200 - 7.040 ms
+Wed Aug 27 2025 11:24:5 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/dailyInspiration 200 - 6.254 ms
+Wed Aug 27 2025 11:24:22 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed Aug 27 2025 11:24:22 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Aug 27 2025 11:24:22 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Wed Aug 27 2025 11:24:22 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Wed Aug 27 2025 11:24:24 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed Aug 27 2025 11:24:24 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Aug 27 2025 11:24:24 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Wed Aug 27 2025 11:24:24 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Wed Aug 27 2025 11:24:28 [SERVER-NAME] info: 10.10.7.62 - PATCH /api/v1/admin/dailyInspiration/68adc7093ffbfdd42f8c4d98/status 200 - 49.475 ms
+Wed Aug 27 2025 11:24:38 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed Aug 27 2025 11:24:38 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Aug 27 2025 11:24:38 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Wed Aug 27 2025 11:24:38 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Wed Aug 27 2025 11:24:46 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed Aug 27 2025 11:24:47 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Aug 27 2025 11:24:47 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Wed Aug 27 2025 11:24:47 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Wed Aug 27 2025 11:24:48 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed Aug 27 2025 11:24:48 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Aug 27 2025 11:24:48 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Wed Aug 27 2025 11:24:48 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Wed Aug 27 2025 11:24:51 [SERVER-NAME] info: 10.10.7.62 - PATCH /api/v1/admin/dailyInspiration/68adc7093ffbfdd42f8c4d98/status 200 - 34.847 ms
+Wed Aug 27 2025 11:24:57 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/comingSoon 204 - 0.857 ms
+Wed Aug 27 2025 11:24:57 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/comingSoon 304 - 21.371 ms
+Wed Aug 27 2025 11:24:59 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed Aug 27 2025 11:24:59 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Aug 27 2025 11:24:59 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Wed Aug 27 2025 11:24:59 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Wed Aug 27 2025 11:25:2 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.748 ms
+Wed Aug 27 2025 11:25:2 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 16.829 ms
+Wed Aug 27 2025 11:25:2 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/comingSoon 304 - 19.706 ms
+Wed Aug 27 2025 11:25:2 [SERVER-NAME] info: 10.10.7.48 - GET //image/young-woman-doing-yoga-in-nature-video-1756267358857.jpg 304 - 1.706 ms
+Wed Aug 27 2025 11:25:9 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed Aug 27 2025 11:25:9 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Aug 27 2025 11:25:9 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Wed Aug 27 2025 11:25:9 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Wed Aug 27 2025 11:25:15 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed Aug 27 2025 11:25:15 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Aug 27 2025 11:25:15 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Wed Aug 27 2025 11:25:15 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Wed Aug 27 2025 11:25:18 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed Aug 27 2025 11:25:18 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Aug 27 2025 11:25:18 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Wed Aug 27 2025 11:25:18 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Wed Aug 27 2025 11:25:21 [SERVER-NAME] info: 10.10.7.62 - PATCH /api/v1/admin/dailyInspiration/68adc7093ffbfdd42f8c4d98/status 200 - 30.485 ms
+Wed Aug 27 2025 11:25:23 [SERVER-NAME] info: 10.10.7.62 - PATCH /api/v1/admin/dailyInspiration/68adc7093ffbfdd42f8c4d98/status 200 - 7.415 ms
+Wed Aug 27 2025 11:25:29 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/library/videos? 204 - 0.179 ms
+Wed Aug 27 2025 11:25:29 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dailyInspiration 204 - 0.065 ms
+Wed Aug 27 2025 11:25:29 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/library/videos? 304 - 26.337 ms
+Wed Aug 27 2025 11:25:29 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/dailyInspiration 200 - 29.436 ms
+Wed Aug 27 2025 11:25:33 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dailyInspiration/68adc7f39a71948a8a1d4316/status 204 - 0.084 ms
+Wed Aug 27 2025 11:25:33 [SERVER-NAME] info: 10.10.7.48 - PATCH /api/v1/admin/dailyInspiration/68adc7f39a71948a8a1d4316/status 200 - 7.856 ms
+Wed Aug 27 2025 11:25:33 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/dailyInspiration 200 - 7.165 ms
+Wed Aug 27 2025 11:25:35 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dailyInspiration/68adc7093ffbfdd42f8c4d99/status 204 - 0.221 ms
+Wed Aug 27 2025 11:25:35 [SERVER-NAME] info: 10.10.7.48 - PATCH /api/v1/admin/dailyInspiration/68adc7093ffbfdd42f8c4d99/status 200 - 8.881 ms
+Wed Aug 27 2025 11:25:35 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dailyInspiration 204 - 0.070 ms
+Wed Aug 27 2025 11:25:35 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/dailyInspiration 200 - 6.607 ms
+Wed Aug 27 2025 11:25:50 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/challenge-category/get-all-challenge-category 204 - 0.109 ms
+Wed Aug 27 2025 11:25:50 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/challenge-category/get-all-challenge-category 304 - 8.862 ms
+Wed Aug 27 2025 11:25:50 [SERVER-NAME] info: 10.10.7.48 - GET //image/young-woman-doing-yoga-in-nature-video-1756208892126.jpg 304 - 0.957 ms
+Wed Aug 27 2025 11:25:50 [SERVER-NAME] info: 10.10.7.48 - GET //image/videoblocks-v1-0011_20221110-as-semenov-sport-in-the-morning-2-outdoor00000000_heeiyvvr2j_thumbnail-180_07-1756181438957.jpg 304 - 1.353 ms

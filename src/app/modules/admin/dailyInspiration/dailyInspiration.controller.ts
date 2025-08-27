@@ -94,4 +94,14 @@ const shuffleVideoSerial = catchAsync(async (req, res) => {
           data: result,
      });
 });
-export const DailyInspirationController = { getAllCreatePost, singlePost, updatePost, deletePost, getPost, getAllCreatePostForAdmin, createPostForSchedule, shuffleVideoSerial };
+const updateStatus = catchAsync(async (req, res) => {
+     const { status } = req.body
+     const result = await DailyInspirationService.updateStatus(req.params.id, status);
+     sendResponse(res, {
+          success: true,
+          statusCode: StatusCodes.OK,
+          message: 'Status updated successfully',
+          data: result,
+     });
+});
+export const DailyInspirationController = { getAllCreatePost, singlePost, updatePost, deletePost, getPost, getAllCreatePostForAdmin, createPostForSchedule, shuffleVideoSerial, updateStatus };

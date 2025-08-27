@@ -6,21 +6,6 @@
     "auditLog": "R:\\projects\\yoga-with-jen\\winston\\error\\.95000575ff436f40008d2e949aab9852ceba2f18-audit.json",
     "files": [
         {
-            "date": 1756134066048,
-            "name": "R:\\projects\\yoga-with-jen\\winston\\error\\25-08-2025-21-error.log",
-            "hash": "1eb0bb76d6ebf218913f34ab11f62d3950f17c56c413a08970c165d1ef41474a"
-        },
-        {
-            "date": 1756178576844,
-            "name": "R:\\projects\\yoga-with-jen\\winston\\error\\26-08-2025-09-error.log",
-            "hash": "213e68aa2f459b56d85ecdc0f1920b3635832cba5e3d35113fb8f121d13da52a"
-        },
-        {
-            "date": 1756180992744,
-            "name": "R:\\projects\\yoga-with-jen\\winston\\error\\26-08-2025-10-error.log",
-            "hash": "303387e667ed39b69ef66a814338c7afb969245d16dd6cacf151fbf86d591eb2"
-        },
-        {
             "date": 1756185719963,
             "name": "R:\\projects\\yoga-with-jen\\winston\\error\\26-08-2025-11-error.log",
             "hash": "40b11e937245b82413287172db06bc7a6a751d76a518bdc8ba98437c2bb88897"
@@ -69,6 +54,21 @@
             "date": 1756217200575,
             "name": "R:\\projects\\yoga-with-jen\\winston\\error\\26-08-2025-20-error.log",
             "hash": "a1c1a47fe271cc50deef411dbb5e30f9b97b0b73f4696297748260dc8c814ab0"
+        },
+        {
+            "date": 1756266686645,
+            "name": "R:\\projects\\yoga-with-jen\\winston\\error\\27-08-2025-09-error.log",
+            "hash": "ae3a6f55e3141055f8a57d8c415a8e131331dff6de616419f15e16bb3c359a09"
+        },
+        {
+            "date": 1756267372324,
+            "name": "R:\\projects\\yoga-with-jen\\winston\\error\\27-08-2025-10-error.log",
+            "hash": "7271a4fa09ca81ab8d1aafa2374ab9467ade1635be95c27a8474937707265ec8"
+        },
+        {
+            "date": 1756271419513,
+            "name": "R:\\projects\\yoga-with-jen\\winston\\error\\27-08-2025-11-error.log",
+            "hash": "93a963c93d8d09287164583b3ce905b72803820ce083872fd6e57984edc1e906"
         }
     ],
     "hashType": "sha256"

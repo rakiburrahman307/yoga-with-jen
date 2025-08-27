@@ -19,6 +19,8 @@ router.get('/:id', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), DailyInspirat
 
 // Route to update an existing "Create Post" entry by ID
 router.patch('/:id', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), DailyInspirationController.updatePost);
+// Route to update an existing "Create Post" entry by ID
+router.patch('/:id/status', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), DailyInspirationController.updateStatus);
 
 router.post('/shuffle', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), DailyInspirationController.shuffleVideoSerial);
 // Route to delete a "Create Post" entry by ID
