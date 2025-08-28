@@ -11,10 +11,10 @@ export const handleSubscriptionDeleted = async (data: Stripe.Subscription) => {
      // Retrieve the subscription from Stripe
      const subscription = await stripe.subscriptions.retrieve(data.id);
 
-     // Find the current active subscription
+     // Find the current active or trialing subscription
      const userSubscription = await Subscription.findOne({
           customerId: subscription.customer,
-          status: 'active',
+          status: { $in: ['active', 'trialing'] },
      });
 
      if (userSubscription) {

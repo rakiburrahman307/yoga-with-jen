@@ -4,14 +4,14 @@ import QueryBuilder from '../../builder/QueryBuilder';
 import { Community } from '../community/community.model';
 import { User } from '../user/user.model';
 import { VideoComment } from './vidoeComments.model';
-import { Video } from '../admin/videosManagement/videoManagement.model';
+import { Videos } from '../admin/videos/video.model';
 
 // create comment - MAIN COMMENT (depth 0)
 const createCommentToDB = async (commentCreatorId: string, videoId: string, content: string) => {
      if (!content.trim()) {
           throw new AppError(StatusCodes.BAD_REQUEST, 'Content cannot be empty');
      }
-     const isPostExist = await Video.findById(videoId);
+     const isPostExist = await Videos.findById(videoId);
      if (!isPostExist) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Post not found!');
      }
@@ -33,7 +33,7 @@ const createCommentToDB = async (commentCreatorId: string, videoId: string, cont
      await newComment.save();
 
      // Add the new comment to the post's comment list
-     const result = await Video.findByIdAndUpdate(videoId, {
+     const result = await Videos.findByIdAndUpdate(videoId, {
           $push: { comments: newComment._id },
      });
      if (!result) {
@@ -43,18 +43,18 @@ const createCommentToDB = async (commentCreatorId: string, videoId: string, cont
 };
 
 // FIXED: Populate function for replies
-function buildPopulateReplies(depth: number): any {
-     if (depth === 0) return null;
+// function buildPopulateReplies(depth: number): any {
+//      if (depth === 0) return null;
 
-     return {
-          path: 'replies',
-          populate: [
-               { path: 'commentCreatorId', select: 'name image email' },
-               // only add nested populate if depth > 1
-               ...(depth > 1 ? [buildPopulateReplies(depth - 1)] : []),
-          ],
-     };
-}
+//      return {
+//           path: 'replies',
+//           populate: [
+//                { path: 'commentCreatorId', select: 'name image email' },
+//                // only add nested populate if depth > 1
+//                ...(depth > 1 ? [buildPopulateReplies(depth - 1)] : []),
+//           ],
+//      };
+// }
 
 // FIXED: Get comments - only fetch main comments (depth 0)
 const getComments = async (videoId: string, userId: string, query: Record<string, unknown>) => {

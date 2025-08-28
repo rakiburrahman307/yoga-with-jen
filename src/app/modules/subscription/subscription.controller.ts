@@ -39,7 +39,7 @@ const cancelSubscription = catchAsync(async (req, res) => {
 const createCheckoutSession = catchAsync(async (req, res) => {
      const { id }: any = req.user;
      const packageId = req.params.id;
-     const result = await SubscriptionService.createSubscriptionCheckoutSession(id, packageId);
+     const result = await SubscriptionService.createOrRenewSubscription(id, packageId);
 
      sendResponse(res, {
           statusCode: StatusCodes.OK,
@@ -48,6 +48,10 @@ const createCheckoutSession = catchAsync(async (req, res) => {
           data: {
                sessionId: result.sessionId,
                url: result.url,
+               subscriptionType: result.subscriptionType,
+               isFirstTimeUser: result.isFirstTimeUser,
+               packageName: result.packageName
+
           },
      });
 });
@@ -75,6 +79,50 @@ const orderSuccess = catchAsync(async (req, res) => {
 const orderCancel = catchAsync(async (req, res) => {
      res.render('cancel');
 });
+
+const getTrialStatus = catchAsync(async (req, res) => {
+     const { id }: any = req.user;
+     const result = await SubscriptionService.getUserTrialStatus(id);
+
+     sendResponse(res, {
+          statusCode: StatusCodes.OK,
+          success: true,
+          message: 'Trial status retrieved successfully',
+          data: result,
+     });
+});
+
+const checkAccess = catchAsync(async (req, res) => {
+     const { id }: any = req.user;
+     const result = await SubscriptionService.checkSubscriptionAccess(id);
+
+     sendResponse(res, {
+          statusCode: StatusCodes.OK,
+          success: true,
+          message: 'Access status retrieved successfully',
+          data: result,
+     });
+});
+
+
+
+
+// Handle subscription expiry
+const handleExpiry = catchAsync(async (req, res) => {
+     const { id }: any = req.user;
+     const result = await SubscriptionService.handleSubscriptionExpiry(id);
+
+     sendResponse(res, {
+          statusCode: StatusCodes.OK,
+          success: true,
+          message: 'Subscription expiry handled successfully',
+          data: result,
+     });
+});
+
+// Unified subscription handler - handles new subscription, renewal, and package change
+
+
 export const SubscriptionController = {
      subscriptions,
      subscriptionDetails,
@@ -83,4 +131,7 @@ export const SubscriptionController = {
      cancelSubscription,
      orderSuccess,
      orderCancel,
+     getTrialStatus,
+     checkAccess,
+     handleExpiry,
 };

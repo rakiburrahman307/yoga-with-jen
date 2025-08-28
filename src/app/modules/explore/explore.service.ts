@@ -1,9 +1,9 @@
 import QueryBuilder from '../../builder/QueryBuilder';
-import { Video } from '../admin/videosManagement/videoManagement.model';
+import { Videos } from '../admin/videos/video.model';
 import { Category } from '../category/category.model';
 
 const getAllLetestVideos = async (query: Record<string, unknown>) => {
-     const queryBuilder = new QueryBuilder(Video.find(), query);
+     const queryBuilder = new QueryBuilder(Videos.find(), query);
 
      const result = await queryBuilder.fields().sort().paginate().filter().search(['name']).modelQuery;
 

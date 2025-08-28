@@ -1,2 +1,0 @@
-Tue Aug 26 2025 15:11:14 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/admin/challenge/get-challenges-videos/ 400 - 10.216 ms
-Tue Aug 26 2025 15:15:11 [SERVER-NAME] error: 10.10.7.62 - GET /api/v1/admin/dailyInspiration/scheduled 400 - 28.178 ms

@@ -1,0 +1,6 @@
+Thu Aug 28 2025 15:17:58 [SERVER-NAME] error: 10.10.7.48 - DELETE /api/v1/users/delete 400 - 18.170 ms
+Thu Aug 28 2025 15:18:26 [SERVER-NAME] error: 10.10.7.48 - DELETE /api/v1/users/delete 400 - 9.534 ms
+Thu Aug 28 2025 15:20:32 [SERVER-NAME] error: 10.10.7.48 - DELETE /api/v1/users/delete 400 - 7.246 ms
+Thu Aug 28 2025 15:23:55 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/subscription/check-access 401 - 3.660 ms
+Thu Aug 28 2025 15:24:10 [SERVER-NAME] error: 10.10.7.48 - DELETE /api/v1/users/delete 400 - 6.058 ms
+Thu Aug 28 2025 15:26:8 [SERVER-NAME] error: 10.10.7.48 - DELETE /api/v1/users/delete 400 - 3.916 ms

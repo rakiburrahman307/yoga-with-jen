@@ -1,0 +1,144 @@
+Thu Aug 28 2025 15:2:3 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 1.418 ms
+Thu Aug 28 2025 15:2:3 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.046 ms
+Thu Aug 28 2025 15:2:3 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/subscription/details 204 - 0.046 ms
+Thu Aug 28 2025 15:2:3 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 44.449 ms
+Thu Aug 28 2025 15:2:3 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 93.019 ms
+Thu Aug 28 2025 15:2:3 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/subscription/details 304 - 565.244 ms
+Thu Aug 28 2025 15:17:34 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 1.579 ms
+Thu Aug 28 2025 15:17:34 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.105 ms
+Thu Aug 28 2025 15:17:34 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/subscription/details 204 - 0.091 ms
+Thu Aug 28 2025 15:17:34 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 53.206 ms
+Thu Aug 28 2025 15:17:35 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 91.159 ms
+Thu Aug 28 2025 15:17:35 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/subscription/details 304 - 565.402 ms
+Thu Aug 28 2025 15:17:58 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/delete 204 - 0.066 ms
+Thu Aug 28 2025 15:17:58 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.057 ms
+Thu Aug 28 2025 15:17:58 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 5.333 ms
+Thu Aug 28 2025 15:18:3 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.088 ms
+Thu Aug 28 2025 15:18:3 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/subscription/details 204 - 0.054 ms
+Thu Aug 28 2025 15:18:3 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 11.191 ms
+Thu Aug 28 2025 15:18:3 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 23.205 ms
+Thu Aug 28 2025 15:18:3 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/subscription/details 304 - 309.192 ms
+Thu Aug 28 2025 15:18:26 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/delete 204 - 0.145 ms
+Thu Aug 28 2025 15:18:26 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.083 ms
+Thu Aug 28 2025 15:18:26 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 5.468 ms
+Thu Aug 28 2025 15:20:32 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/delete 204 - 0.262 ms
+Thu Aug 28 2025 15:20:32 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.071 ms
+Thu Aug 28 2025 15:20:32 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 5.877 ms
+Thu Aug 28 2025 15:22:26 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Aug 28 2025 15:22:27 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Aug 28 2025 15:22:27 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Aug 28 2025 15:22:27 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Thu Aug 28 2025 15:23:33 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.845 ms
+Thu Aug 28 2025 15:23:33 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.145 ms
+Thu Aug 28 2025 15:23:33 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/subscription/details 204 - 0.312 ms
+Thu Aug 28 2025 15:23:33 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 31.092 ms
+Thu Aug 28 2025 15:23:33 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 50.094 ms
+Thu Aug 28 2025 15:23:34 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/subscription/details 304 - 547.253 ms
+Thu Aug 28 2025 15:24:10 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/delete 204 - 0.072 ms
+Thu Aug 28 2025 15:24:10 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.187 ms
+Thu Aug 28 2025 15:24:10 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 3.908 ms
+Thu Aug 28 2025 15:25:38 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.103 ms
+Thu Aug 28 2025 15:25:38 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.086 ms
+Thu Aug 28 2025 15:25:38 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/subscription/details 204 - 0.073 ms
+Thu Aug 28 2025 15:25:38 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 15.633 ms
+Thu Aug 28 2025 15:25:38 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 30.904 ms
+Thu Aug 28 2025 15:25:38 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/subscription/details 304 - 504.491 ms
+Thu Aug 28 2025 15:26:8 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/delete 204 - 0.079 ms
+Thu Aug 28 2025 15:26:8 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.069 ms
+Thu Aug 28 2025 15:26:8 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 5.082 ms
+Thu Aug 28 2025 15:26:8 [SERVER-NAME] info: [34mReceived webhook event: payment_intent.succeeded [evt_3S125uB5u2A30G2Q1mIaEOS3][39m
+Thu Aug 28 2025 15:26:8 [SERVER-NAME] warn: [33mUnhandled event type: payment_intent.succeeded[39m
+Thu Aug 28 2025 15:26:8 [SERVER-NAME] info: [32mSuccessfully processed webhook event: payment_intent.succeeded [evt_3S125uB5u2A30G2Q1mIaEOS3][39m
+Thu Aug 28 2025 15:26:8 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 15.152 ms
+Thu Aug 28 2025 15:26:8 [SERVER-NAME] info: [34mReceived webhook event: charge.succeeded [evt_3S125uB5u2A30G2Q1RJrA5xP][39m
+Thu Aug 28 2025 15:26:8 [SERVER-NAME] warn: [33mUnhandled event type: charge.succeeded[39m
+Thu Aug 28 2025 15:26:8 [SERVER-NAME] info: [32mSuccessfully processed webhook event: charge.succeeded [evt_3S125uB5u2A30G2Q1RJrA5xP][39m
+Thu Aug 28 2025 15:26:8 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1.534 ms
+Thu Aug 28 2025 15:26:8 [SERVER-NAME] info: [34mReceived webhook event: payment_intent.created [evt_3S125uB5u2A30G2Q1gk0bsQf][39m
+Thu Aug 28 2025 15:26:8 [SERVER-NAME] warn: [33mUnhandled event type: payment_intent.created[39m
+Thu Aug 28 2025 15:26:8 [SERVER-NAME] info: [32mSuccessfully processed webhook event: payment_intent.created [evt_3S125uB5u2A30G2Q1gk0bsQf][39m
+Thu Aug 28 2025 15:26:8 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1.401 ms
+Thu Aug 28 2025 15:26:8 [SERVER-NAME] info: [34mReceived webhook event: checkout.session.completed [evt_1S125wB5u2A30G2Q5Af0VLbz][39m
+Thu Aug 28 2025 15:26:8 [SERVER-NAME] warn: [33mUnhandled event type: checkout.session.completed[39m
+Thu Aug 28 2025 15:26:8 [SERVER-NAME] info: [32mSuccessfully processed webhook event: checkout.session.completed [evt_1S125wB5u2A30G2Q5Af0VLbz][39m
+Thu Aug 28 2025 15:26:8 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1.547 ms
+Thu Aug 28 2025 15:26:10 [SERVER-NAME] info: [34mReceived webhook event: charge.updated [evt_3S125uB5u2A30G2Q10TJ0Zpj][39m
+Thu Aug 28 2025 15:26:10 [SERVER-NAME] warn: [33mUnhandled event type: charge.updated[39m
+Thu Aug 28 2025 15:26:10 [SERVER-NAME] info: [32mSuccessfully processed webhook event: charge.updated [evt_3S125uB5u2A30G2Q10TJ0Zpj][39m
+Thu Aug 28 2025 15:26:10 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1.178 ms
+Thu Aug 28 2025 15:26:28 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Aug 28 2025 15:26:28 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Aug 28 2025 15:26:28 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Aug 28 2025 15:26:28 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Thu Aug 28 2025 15:26:35 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Aug 28 2025 15:26:35 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Aug 28 2025 15:26:35 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Aug 28 2025 15:26:35 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Thu Aug 28 2025 15:26:38 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Aug 28 2025 15:26:38 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Aug 28 2025 15:26:38 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Aug 28 2025 15:26:38 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Thu Aug 28 2025 15:26:53 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Aug 28 2025 15:26:53 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Aug 28 2025 15:26:53 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Aug 28 2025 15:26:53 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Thu Aug 28 2025 15:27:1 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Aug 28 2025 15:27:1 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Aug 28 2025 15:27:1 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Aug 28 2025 15:27:1 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Thu Aug 28 2025 15:27:5 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Aug 28 2025 15:27:5 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Aug 28 2025 15:27:5 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Aug 28 2025 15:27:5 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Thu Aug 28 2025 15:27:6 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Aug 28 2025 15:27:6 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Aug 28 2025 15:27:6 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Aug 28 2025 15:27:6 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Thu Aug 28 2025 15:27:9 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Aug 28 2025 15:27:9 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Aug 28 2025 15:27:9 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Aug 28 2025 15:27:9 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Thu Aug 28 2025 15:27:15 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Aug 28 2025 15:27:15 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Aug 28 2025 15:27:15 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Aug 28 2025 15:27:15 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Thu Aug 28 2025 15:28:40 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Aug 28 2025 15:28:40 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Aug 28 2025 15:28:40 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Aug 28 2025 15:28:40 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Thu Aug 28 2025 15:28:41 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Aug 28 2025 15:28:41 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Aug 28 2025 15:28:41 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Aug 28 2025 15:28:41 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Thu Aug 28 2025 15:28:46 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Aug 28 2025 15:28:46 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Aug 28 2025 15:28:46 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Aug 28 2025 15:28:46 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Thu Aug 28 2025 15:28:51 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Aug 28 2025 15:28:51 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Aug 28 2025 15:28:51 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Aug 28 2025 15:28:51 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Thu Aug 28 2025 15:28:52 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Aug 28 2025 15:28:52 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Aug 28 2025 15:28:52 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Aug 28 2025 15:28:52 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Thu Aug 28 2025 15:30:3 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Aug 28 2025 15:30:3 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Aug 28 2025 15:30:3 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Aug 28 2025 15:30:3 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Thu Aug 28 2025 15:30:5 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Aug 28 2025 15:30:5 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Aug 28 2025 15:30:5 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Aug 28 2025 15:30:5 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Thu Aug 28 2025 15:30:17 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Aug 28 2025 15:30:17 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Aug 28 2025 15:30:17 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Aug 28 2025 15:30:17 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Thu Aug 28 2025 15:30:19 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Aug 28 2025 15:30:19 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Aug 28 2025 15:30:19 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Aug 28 2025 15:30:19 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Thu Aug 28 2025 15:30:22 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Aug 28 2025 15:30:22 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Aug 28 2025 15:30:22 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Aug 28 2025 15:30:22 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m

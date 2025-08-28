@@ -44,9 +44,21 @@ const subscriptionSchema = new Schema<ISubscription, SubscriptionModel>(
           },
           status: {
                type: String,
-               enum: ['expired', 'active', 'cancel', 'deactivated'],
+               enum: ['expired', 'active', 'cancel', 'deactivated', 'trialing', 'past_due', 'unpaid', 'incomplete'],
                default: 'active',
                required: true,
+          },
+          trialStart: {
+               type: String,
+               required: false,
+          },
+          trialEnd: {
+               type: String,
+               required: false,
+          },
+          cancelAtPeriodEnd: {
+               type: Boolean,
+               default: false,
           },
      },
      {

@@ -1,0 +1,124 @@
+Thu Aug 28 2025 11:20:5 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/subscription/create-checkout-session/68adc7aa9a71948a8a1d42f5 200 - 856.425 ms
+Thu Aug 28 2025 11:21:7 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/subscription/create-checkout-session/68adc7aa9a71948a8a1d42f5 200 - 666.417 ms
+Thu Aug 28 2025 11:27:21 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users 204 - 6.398 ms
+Thu Aug 28 2025 11:27:26 [SERVER-NAME] info: 10.10.7.62 - GET //image/young-woman-doing-yoga-in-nature-video-1756267358857.jpg 200 - 74.407 ms
+Thu Aug 28 2025 11:27:29 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/users/profile 204 - 0.813 ms
+Thu Aug 28 2025 11:27:29 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/admin/post/management?page=1&limit=12 204 - 0.435 ms
+Thu Aug 28 2025 11:27:30 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/users/profile 200 - 125.698 ms
+Thu Aug 28 2025 11:27:30 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/admin/post/management?page=1&limit=12 200 - 229.174 ms
+Thu Aug 28 2025 11:27:31 [SERVER-NAME] info: 10.10.7.62 - GET //image/young-woman-doing-yoga-in-nature-video-1756267358857.jpg 304 - 2.268 ms
+Thu Aug 28 2025 11:27:41 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/admin/package/management 204 - 0.076 ms
+Thu Aug 28 2025 11:27:41 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/admin/package/management 200 - 34.220 ms
+Thu Aug 28 2025 11:32:5 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users 204 - 1.232 ms
+Thu Aug 28 2025 11:32:7 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users 204 - 0.135 ms
+Thu Aug 28 2025 11:34:6 [SERVER-NAME] info: [34mReceived webhook event: charge.succeeded [evt_3S0yTLB5u2A30G2Q1bJZ39TZ][39m
+Thu Aug 28 2025 11:34:6 [SERVER-NAME] warn: [33mUnhandled event type: charge.succeeded[39m
+Thu Aug 28 2025 11:34:6 [SERVER-NAME] info: [32mSuccessfully processed webhook event: charge.succeeded [evt_3S0yTLB5u2A30G2Q1bJZ39TZ][39m
+Thu Aug 28 2025 11:34:6 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 16.474 ms
+Thu Aug 28 2025 11:34:6 [SERVER-NAME] info: [34mReceived webhook event: payment_intent.succeeded [evt_3S0yTLB5u2A30G2Q1z5F0eY8][39m
+Thu Aug 28 2025 11:34:6 [SERVER-NAME] warn: [33mUnhandled event type: payment_intent.succeeded[39m
+Thu Aug 28 2025 11:34:6 [SERVER-NAME] info: [32mSuccessfully processed webhook event: payment_intent.succeeded [evt_3S0yTLB5u2A30G2Q1z5F0eY8][39m
+Thu Aug 28 2025 11:34:6 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 2.324 ms
+Thu Aug 28 2025 11:34:6 [SERVER-NAME] info: [34mReceived webhook event: payment_intent.created [evt_3S0yTLB5u2A30G2Q1tGLsTej][39m
+Thu Aug 28 2025 11:34:6 [SERVER-NAME] warn: [33mUnhandled event type: payment_intent.created[39m
+Thu Aug 28 2025 11:34:6 [SERVER-NAME] info: [32mSuccessfully processed webhook event: payment_intent.created [evt_3S0yTLB5u2A30G2Q1tGLsTej][39m
+Thu Aug 28 2025 11:34:6 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 2.446 ms
+Thu Aug 28 2025 11:34:6 [SERVER-NAME] info: [34mReceived webhook event: checkout.session.completed [evt_1S0yTNB5u2A30G2Q8ycciqHv][39m
+Thu Aug 28 2025 11:34:6 [SERVER-NAME] warn: [33mUnhandled event type: checkout.session.completed[39m
+Thu Aug 28 2025 11:34:6 [SERVER-NAME] info: [32mSuccessfully processed webhook event: checkout.session.completed [evt_1S0yTNB5u2A30G2Q8ycciqHv][39m
+Thu Aug 28 2025 11:34:6 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 2.979 ms
+Thu Aug 28 2025 11:34:8 [SERVER-NAME] info: [34mReceived webhook event: charge.updated [evt_3S0yTLB5u2A30G2Q1znTHM4g][39m
+Thu Aug 28 2025 11:34:8 [SERVER-NAME] warn: [33mUnhandled event type: charge.updated[39m
+Thu Aug 28 2025 11:34:8 [SERVER-NAME] info: [32mSuccessfully processed webhook event: charge.updated [evt_3S0yTLB5u2A30G2Q1znTHM4g][39m
+Thu Aug 28 2025 11:34:8 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1.355 ms
+Thu Aug 28 2025 11:42:30 [SERVER-NAME] info: [34mReceived webhook event: charge.succeeded [evt_3S0ybTB5u2A30G2Q0Ncy1jiT][39m
+Thu Aug 28 2025 11:42:30 [SERVER-NAME] warn: [33mUnhandled event type: charge.succeeded[39m
+Thu Aug 28 2025 11:42:30 [SERVER-NAME] info: [32mSuccessfully processed webhook event: charge.succeeded [evt_3S0ybTB5u2A30G2Q0Ncy1jiT][39m
+Thu Aug 28 2025 11:42:30 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 27.790 ms
+Thu Aug 28 2025 11:42:30 [SERVER-NAME] info: [34mReceived webhook event: payment_intent.succeeded [evt_3S0ybTB5u2A30G2Q0OpDtL7m][39m
+Thu Aug 28 2025 11:42:30 [SERVER-NAME] warn: [33mUnhandled event type: payment_intent.succeeded[39m
+Thu Aug 28 2025 11:42:30 [SERVER-NAME] info: [32mSuccessfully processed webhook event: payment_intent.succeeded [evt_3S0ybTB5u2A30G2Q0OpDtL7m][39m
+Thu Aug 28 2025 11:42:30 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 2.976 ms
+Thu Aug 28 2025 11:42:30 [SERVER-NAME] info: [34mReceived webhook event: checkout.session.completed [evt_1S0ybUB5u2A30G2QzELnffjM][39m
+Thu Aug 28 2025 11:42:30 [SERVER-NAME] warn: [33mUnhandled event type: checkout.session.completed[39m
+Thu Aug 28 2025 11:42:30 [SERVER-NAME] info: [32mSuccessfully processed webhook event: checkout.session.completed [evt_1S0ybUB5u2A30G2QzELnffjM][39m
+Thu Aug 28 2025 11:42:30 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 2.074 ms
+Thu Aug 28 2025 11:42:30 [SERVER-NAME] info: [34mReceived webhook event: payment_intent.created [evt_3S0ybTB5u2A30G2Q0GnEQ9LR][39m
+Thu Aug 28 2025 11:42:30 [SERVER-NAME] warn: [33mUnhandled event type: payment_intent.created[39m
+Thu Aug 28 2025 11:42:30 [SERVER-NAME] info: [32mSuccessfully processed webhook event: payment_intent.created [evt_3S0ybTB5u2A30G2Q0GnEQ9LR][39m
+Thu Aug 28 2025 11:42:30 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 2.895 ms
+Thu Aug 28 2025 11:42:32 [SERVER-NAME] info: [34mReceived webhook event: charge.updated [evt_3S0ybTB5u2A30G2Q0xufZ6uw][39m
+Thu Aug 28 2025 11:42:32 [SERVER-NAME] warn: [33mUnhandled event type: charge.updated[39m
+Thu Aug 28 2025 11:42:32 [SERVER-NAME] info: [32mSuccessfully processed webhook event: charge.updated [evt_3S0ybTB5u2A30G2Q0xufZ6uw][39m
+Thu Aug 28 2025 11:42:32 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1.282 ms
+Thu Aug 28 2025 11:48:36 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Aug 28 2025 11:48:36 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Aug 28 2025 11:48:36 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Aug 28 2025 11:48:36 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Thu Aug 28 2025 11:48:38 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Aug 28 2025 11:48:38 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Aug 28 2025 11:48:38 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Aug 28 2025 11:48:38 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Thu Aug 28 2025 11:48:38 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users 204 - 0.901 ms
+Thu Aug 28 2025 11:48:39 [SERVER-NAME] info: 10.10.7.48 - POST /api/v1/users 200 - 1479.094 ms
+Thu Aug 28 2025 11:48:40 [SERVER-NAME] info: [34mReceived webhook event: customer.created [evt_1S0yhSB5u2A30G2QKyBrZaG8][39m
+Thu Aug 28 2025 11:48:40 [SERVER-NAME] warn: [33mUnhandled event type: customer.created[39m
+Thu Aug 28 2025 11:48:40 [SERVER-NAME] info: [32mSuccessfully processed webhook event: customer.created [evt_1S0yhSB5u2A30G2QKyBrZaG8][39m
+Thu Aug 28 2025 11:48:40 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 3.855 ms
+Thu Aug 28 2025 11:49:6 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/auth/login 204 - 0.100 ms
+Thu Aug 28 2025 11:49:6 [SERVER-NAME] info: 10.10.7.48 - POST /api/v1/auth/login 200 - 312.193 ms
+Thu Aug 28 2025 11:49:6 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.131 ms
+Thu Aug 28 2025 11:49:6 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.107 ms
+Thu Aug 28 2025 11:49:6 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/quotation 204 - 0.082 ms
+Thu Aug 28 2025 11:49:6 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/today 204 - 0.057 ms
+Thu Aug 28 2025 11:49:6 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/comingSoon/latest 204 - 0.057 ms
+Thu Aug 28 2025 11:49:6 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/category 204 - 0.048 ms
+Thu Aug 28 2025 11:49:6 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/dailyInspiration/letest 204 - 0.107 ms
+Thu Aug 28 2025 11:49:6 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/challenge-category/get-all-challenge-category-for-user 204 - 0.062 ms
+Thu Aug 28 2025 11:49:6 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 200 - 23.743 ms
+Thu Aug 28 2025 11:49:6 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/quotation 200 - 33.663 ms
+Thu Aug 28 2025 11:49:6 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/dailyInspiration/letest 200 - 13.266 ms
+Thu Aug 28 2025 11:49:6 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/comingSoon/latest 200 - 41.739 ms
+Thu Aug 28 2025 11:49:6 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/today 200 - 50.948 ms
+Thu Aug 28 2025 11:49:6 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/category 200 - 46.944 ms
+Thu Aug 28 2025 11:49:6 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 200 - 57.479 ms
+Thu Aug 28 2025 11:49:6 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/challenge-category/get-all-challenge-category-for-user 200 - 21.365 ms
+Thu Aug 28 2025 11:51:9 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.177 ms
+Thu Aug 28 2025 11:51:9 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.048 ms
+Thu Aug 28 2025 11:51:9 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/package/users 204 - 0.037 ms
+Thu Aug 28 2025 11:51:9 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 16.339 ms
+Thu Aug 28 2025 11:51:9 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/package/users 200 - 31.929 ms
+Thu Aug 28 2025 11:51:9 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 40.538 ms
+Thu Aug 28 2025 11:52:40 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.284 ms
+Thu Aug 28 2025 11:52:40 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.039 ms
+Thu Aug 28 2025 11:52:40 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 200 - 6.494 ms
+Thu Aug 28 2025 11:52:40 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/dashboard/statistics 200 - 21.809 ms
+Thu Aug 28 2025 11:52:40 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dashboard/revenue 204 - 0.089 ms
+Thu Aug 28 2025 11:52:40 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.120 ms
+Thu Aug 28 2025 11:52:40 [SERVER-NAME] info: 10.10.7.48 - GET //image/young-woman-doing-yoga-in-nature-video-1756267358857.jpg 304 - 10.474 ms
+Thu Aug 28 2025 11:52:40 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/dashboard/resent-users 200 - 20.633 ms
+Thu Aug 28 2025 11:52:40 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/dashboard/revenue 200 - 22.693 ms
+Thu Aug 28 2025 11:52:44 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/package/management 204 - 0.048 ms
+Thu Aug 28 2025 11:52:44 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/package/management 304 - 10.020 ms
+Thu Aug 28 2025 11:53:47 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/package/management 204 - 0.111 ms
+Thu Aug 28 2025 11:53:48 [SERVER-NAME] info: [34mReceived webhook event: product.created [evt_1S0ymRB5u2A30G2Q2ixwIysN][39m
+Thu Aug 28 2025 11:53:48 [SERVER-NAME] warn: [33mUnhandled event type: product.created[39m
+Thu Aug 28 2025 11:53:48 [SERVER-NAME] info: [32mSuccessfully processed webhook event: product.created [evt_1S0ymRB5u2A30G2Q2ixwIysN][39m
+Thu Aug 28 2025 11:53:48 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 6.243 ms
+Thu Aug 28 2025 11:53:48 [SERVER-NAME] info: 10.10.7.48 - POST /api/v1/admin/package/management 200 - 981.124 ms
+Thu Aug 28 2025 11:53:48 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/package/management 200 - 12.216 ms
+Thu Aug 28 2025 11:53:49 [SERVER-NAME] info: [34mReceived webhook event: plan.created [evt_1S0ymRB5u2A30G2QJnf9XzRZ][39m
+Thu Aug 28 2025 11:53:49 [SERVER-NAME] warn: [33mUnhandled event type: plan.created[39m
+Thu Aug 28 2025 11:53:49 [SERVER-NAME] info: [32mSuccessfully processed webhook event: plan.created [evt_1S0ymRB5u2A30G2QJnf9XzRZ][39m
+Thu Aug 28 2025 11:53:49 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1.197 ms
+Thu Aug 28 2025 11:53:49 [SERVER-NAME] info: [34mReceived webhook event: price.created [evt_1S0ymRB5u2A30G2QjxsdFR9B][39m
+Thu Aug 28 2025 11:53:49 [SERVER-NAME] warn: [33mUnhandled event type: price.created[39m
+Thu Aug 28 2025 11:53:49 [SERVER-NAME] info: [32mSuccessfully processed webhook event: price.created [evt_1S0ymRB5u2A30G2QjxsdFR9B][39m
+Thu Aug 28 2025 11:53:49 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1.352 ms
+Thu Aug 28 2025 11:54:2 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/package/users 200 - 10.370 ms
+Thu Aug 28 2025 11:55:14 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.244 ms
+Thu Aug 28 2025 11:55:14 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.045 ms
+Thu Aug 28 2025 11:55:14 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/package/users 204 - 0.035 ms
+Thu Aug 28 2025 11:55:14 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 200 - 22.461 ms
+Thu Aug 28 2025 11:55:14 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/package/users 200 - 37.649 ms
+Thu Aug 28 2025 11:55:14 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 41.089 ms

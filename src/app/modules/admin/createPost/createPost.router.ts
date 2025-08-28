@@ -20,7 +20,7 @@ router.get('/', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), CreatePostContro
 router.get('/:id', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), CreatePostController.singlePost);
 
 // Route to update an existing "Create Post" entry by ID
-router.patch('/:id', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), CreatePostController.updatePost);
+router.patch('/:id', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), fileUploadHandlerbunny, CreatePostController.updatePost);
 
 // Route to update status an existing "Create Post" entry by ID
 router.patch('/status/:id', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), CreatePostController.updateStatus);

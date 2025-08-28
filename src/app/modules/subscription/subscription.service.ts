@@ -6,6 +6,8 @@ import { User } from '../user/user.model';
 import { StatusCodes } from 'http-status-codes';
 import AppError from '../../../errors/AppError';
 import config from '../../../config';
+import { checkUserTrialStatus, TrialStatus } from '../../../helpers/subscription/checkTrialStatus';
+import { SubscriptionNotificationService } from './subscription.notification';
 
 const subscriptionDetailsFromDB = async (id: string): Promise<{ subscription: ISubscription | object }> => {
      const subscription = await Subscription.findOne({ userId: id }).populate('package', 'title credit duration').lean();
@@ -17,7 +19,7 @@ const subscriptionDetailsFromDB = async (id: string): Promise<{ subscription: IS
      const subscriptionFromStripe = await stripe.subscriptions.retrieve(subscription.subscriptionId);
 
      // Check subscription status and update database accordingly
-     if (subscriptionFromStripe?.status !== 'active') {
+     if (subscriptionFromStripe?.status !== 'active' && subscriptionFromStripe?.status !== 'trialing') {
           await Promise.all([User.findByIdAndUpdate(id, { isSubscribed: false }, { new: true }), Subscription.findOneAndUpdate({ user: id }, { status: 'expired' }, { new: true })]);
      }
 
@@ -33,7 +35,7 @@ const companySubscriptionDetailsFromDB = async (id: string): Promise<{ subscript
      const subscriptionFromStripe = await stripe.subscriptions.retrieve(subscription.subscriptionId);
 
      // Check subscription status and update database accordingly
-     if (subscriptionFromStripe?.status !== 'active') {
+     if (subscriptionFromStripe?.status !== 'active' && subscriptionFromStripe?.status !== 'trialing') {
           await Promise.all([User.findByIdAndUpdate(id, { isSubscribed: false }, { new: true }), Subscription.findOneAndUpdate({ user: id }, { status: 'expired' }, { new: true })]);
      }
 
@@ -42,19 +44,12 @@ const companySubscriptionDetailsFromDB = async (id: string): Promise<{ subscript
 
 const subscriptionsFromDB = async (query: Record<string, unknown>): Promise<ISubscription[]> => {
      const conditions: any[] = [];
-
      const { searchTerm, limit, page, paymentType } = query;
-
-     // Handle search term - search in both package title and user details
      if (searchTerm && typeof searchTerm === 'string' && searchTerm.trim()) {
           const trimmedSearchTerm = searchTerm.trim();
-
-          // Find matching packages by title or paymentType
           const matchingPackageIds = await Package.find({
                $or: [{ title: { $regex: trimmedSearchTerm, $options: 'i' } }, { paymentType: { $regex: trimmedSearchTerm, $options: 'i' } }],
           }).distinct('_id');
-
-          // Find matching users by email, name, company, etc.
           const matchingUserIds = await User.find({
                $or: [
                     { email: { $regex: trimmedSearchTerm, $options: 'i' } },
@@ -63,8 +58,6 @@ const subscriptionsFromDB = async (query: Record<string, unknown>): Promise<ISub
                     { contact: { $regex: trimmedSearchTerm, $options: 'i' } },
                ],
           }).distinct('_id');
-
-          // Create search conditions
           const searchConditions = [];
 
           if (matchingPackageIds.length > 0) {
@@ -74,12 +67,9 @@ const subscriptionsFromDB = async (query: Record<string, unknown>): Promise<ISub
           if (matchingUserIds.length > 0) {
                searchConditions.push({ userId: { $in: matchingUserIds } });
           }
-
-          // Only add search condition if we found matching packages or users
           if (searchConditions.length > 0) {
                conditions.push({ $or: searchConditions });
           } else {
-               // If no matches found, return empty result early
                return {
                     data: [],
                     meta: {
@@ -169,6 +159,29 @@ const createSubscriptionCheckoutSession = async (userId: string, packageId: stri
           throw new AppError(StatusCodes.NOT_FOUND, 'User or Stripe Customer ID not found');
      }
 
+     // Check if user has already used their free trial (first-time trial only)
+     const hasUsedTrial = await Subscription.findOne({
+          userId,
+          $or: [
+               { trialStart: { $exists: true, $ne: null } },
+               { status: 'trialing' }
+          ]
+     });
+
+     // Prepare subscription data based on trial eligibility
+     const subscriptionData: any = {
+          metadata: {
+               userId: String(userId),
+               packageId: String(isExistPackage._id),
+               isFirstTimeUser: hasUsedTrial ? 'false' : 'true'
+          },
+     };
+
+     // Only add trial period for first-time users
+     if (!hasUsedTrial) {
+          subscriptionData.trial_period_days = 7;
+     }
+
      // Convert Mongoose String types to primitive strings
      const session = await stripe.checkout.sessions.create({
           mode: 'subscription',
@@ -179,9 +192,11 @@ const createSubscriptionCheckoutSession = async (userId: string, packageId: stri
                     quantity: 1,
                },
           ],
+          subscription_data: subscriptionData,
           metadata: {
                userId: String(userId),
                subscriptionId: String(isExistPackage._id),
+               hasUsedTrial: hasUsedTrial ? 'true' : 'false'
           },
           // your backend url for success and cancel
           success_url: `${config.backend_url || 'http://10.0.60.126:7000'}/api/v1/subscription/success?session_id={CHECKOUT_SESSION_ID}`,
@@ -190,13 +205,14 @@ const createSubscriptionCheckoutSession = async (userId: string, packageId: stri
      return {
           url: session.url,
           sessionId: session.id,
+          isFirstTimeUser: !hasUsedTrial
      };
 };
 
 const upgradeSubscriptionToDB = async (userId: string, packageId: string) => {
      const activeSubscription = await Subscription.findOne({
           userId,
-          status: 'active',
+          status: { $in: ['active', 'trialing'] },
      });
 
      if (!activeSubscription || !activeSubscription.subscriptionId) {
@@ -250,7 +266,7 @@ const upgradeSubscriptionToDB = async (userId: string, packageId: string) => {
 const cancelSubscriptionToDB = async (userId: string) => {
      const activeSubscription = await Subscription.findOne({
           userId,
-          status: 'active',
+          status: { $in: ['active', 'trialing'] },
      });
      if (!activeSubscription || !activeSubscription.subscriptionId) {
           throw new AppError(StatusCodes.NOT_FOUND, 'No active subscription found to cancel');
@@ -258,7 +274,7 @@ const cancelSubscriptionToDB = async (userId: string) => {
 
      await stripe.subscriptions.cancel(activeSubscription.subscriptionId);
 
-     await Subscription.findOneAndUpdate({ userId, status: 'active' }, { status: 'canceled' }, { new: true });
+     await Subscription.findOneAndUpdate({ userId, status: { $in: ['active', 'trialing'] } }, { status: 'cancel' }, { new: true });
 
      return { success: true, message: 'Subscription canceled successfully' };
 };
@@ -266,6 +282,199 @@ const successMessage = async (id: string) => {
      const session = await stripe.checkout.sessions.retrieve(id);
      return session;
 };
+
+const getUserTrialStatus = async (userId: string): Promise<TrialStatus> => {
+     return await checkUserTrialStatus(userId);
+};
+
+const checkSubscriptionAccess = async (userId: string) => {
+     const user = await User.findById(userId);
+     if (!user) {
+          throw new AppError(StatusCodes.NOT_FOUND, 'User not found');
+     }
+
+     const trialStatus = await checkUserTrialStatus(userId);
+
+     // Check if user has access (either active subscription or valid trial)
+     const hasAccess = user.hasAccess && (trialStatus.hasActiveSubscription || trialStatus.isInTrial);
+
+     return {
+          hasAccess,
+          isSubscribed: user.isSubscribed,
+          trialStatus,
+          packageName: user.packageName,
+     };
+};
+
+
+
+// Handle subscription expiry
+const handleSubscriptionExpiry = async (userId: string) => {
+     try {
+          // Find expired subscriptions
+          const expiredSubscriptions = await Subscription.find({
+               userId,
+               status: { $in: ['active', 'trialing'] },
+               currentPeriodEnd: { $lt: new Date().toISOString() }
+          });
+
+          if (expiredSubscriptions.length > 0) {
+               // Update subscription status to expired
+               await Subscription.updateMany(
+                    {
+                         userId,
+                         status: { $in: ['active', 'trialing'] },
+                         currentPeriodEnd: { $lt: new Date().toISOString() }
+                    },
+                    { status: 'expired' }
+               );
+
+               // Send expiry notification to user
+               await SubscriptionNotificationService.sendSubscriptionExpiryNotification(userId);
+
+               // Update user access
+               await User.findByIdAndUpdate(userId, {
+                    hasAccess: false,
+                    isSubscribed: false,
+                    isFreeTrial: false
+               });
+
+               return {
+                    success: true,
+                    message: 'Subscription expired and access revoked',
+                    expiredCount: expiredSubscriptions.length
+               };
+          }
+
+          return {
+               success: true,
+               message: 'No expired subscriptions found'
+          };
+     } catch (error) {
+          console.error('Subscription expiry handling error:', error);
+          throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Failed to handle subscription expiry');
+     }
+};
+
+
+// Unified subscription handler - handles both new subscription and renewal
+const createOrRenewSubscription = async (userId: string, packageId: string) => {
+     const user = await User.findById(userId).select('+stripeCustomerId');
+     if (!user || !user.stripeCustomerId) {
+          throw new AppError(StatusCodes.NOT_FOUND, 'User or Stripe Customer ID not found');
+     }
+
+     const targetPackage = await Package.findOne({
+          _id: packageId,
+          status: 'active',
+     });
+     if (!targetPackage) {
+          throw new AppError(StatusCodes.NOT_FOUND, 'Package not found');
+     }
+
+     // Check if user has any existing subscription
+     const existingSubscription = await Subscription.findOne({
+          userId,
+          status: { $in: ['active', 'trialing', 'past_due'] }
+     });
+
+     // Check if user has ever used trial before
+     const hasUsedTrial = await Subscription.findOne({
+          userId,
+          $or: [
+               { trialStart: { $exists: true, $ne: null } },
+               { status: 'trialing' }
+          ]
+     });
+
+     const sessionData: any = {
+          mode: 'subscription',
+          customer: String(user.stripeCustomerId),
+          line_items: [
+               {
+                    price: String(targetPackage.priceId),
+                    quantity: 1,
+               },
+          ],
+          success_url: `${config.backend_url || 'http://10.0.60.126:7000'}/api/v1/subscription/success?session_id={CHECKOUT_SESSION_ID}`,
+          cancel_url: `${config.backend_url || 'http://10.0.60.126:7000'}/subscription/cancel`,
+     };
+
+     // Determine subscription type and metadata
+     let subscriptionType = 'new';
+     let isEligibleForTrial = false;
+
+     if (existingSubscription) {
+          // User has existing subscription - this is a renewal or package change
+          subscriptionType = existingSubscription.package.toString() === packageId ? 'renewal' : 'package_change';
+
+          // Cancel existing subscription if it's a package change
+          if (subscriptionType === 'package_change') {
+               try {
+                    await stripe.subscriptions.cancel(String(existingSubscription.subscriptionId))
+               } catch (error: any) {
+                    console.error('Error cancelling existing subscription:', error.message);
+               }
+          }
+     } else {
+          isEligibleForTrial = !hasUsedTrial;
+     }
+
+     // Set up subscription data
+     const subscriptionMetadata = {
+          userId: String(userId),
+          packageId: String(targetPackage._id),
+          subscriptionType,
+          isFirstTimeUser: isEligibleForTrial ? 'true' : 'false',
+          ...(existingSubscription && { previousSubscriptionId: String(existingSubscription._id) })
+     };
+
+     sessionData.subscription_data = {
+          metadata: subscriptionMetadata,
+     };
+
+     // Add trial only for first-time users
+     if (isEligibleForTrial) {
+          sessionData.subscription_data.trial_period_days = 7;
+          console.log(`Granting 7-day trial to first-time user: ${user.email}`);
+     } else {
+          console.log(`No trial for user: ${user.email} - ${subscriptionType} subscription`);
+     }
+
+     sessionData.metadata = {
+          userId: String(userId),
+          subscriptionId: String(targetPackage._id),
+          subscriptionType,
+          hasUsedTrial: hasUsedTrial ? 'true' : 'false'
+     };
+
+     try {
+          const session = await stripe.checkout.sessions.create(sessionData);
+
+          console.log(`Subscription session created for user ${user.email}:`, {
+               sessionId: session.id,
+               subscriptionType,
+               packageName: targetPackage.title,
+               hasTrialBenefit: isEligibleForTrial
+          });
+
+          return {
+               url: session.url,
+               sessionId: session.id,
+               subscriptionType,
+               isFirstTimeUser: isEligibleForTrial,
+               packageName: targetPackage.title,
+               message: subscriptionType === 'new'
+                    ? (isEligibleForTrial ? 'New subscription with 7-day free trial created' : 'New subscription created')
+                    : subscriptionType === 'renewal'
+                         ? 'Subscription renewal initiated'
+                         : 'Package change initiated'
+          };
+     } catch (error: any) {
+          throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, `Failed to create subscription: ${error.message}`);
+     }
+};
+
 export const SubscriptionService = {
      subscriptionDetailsFromDB,
      subscriptionsFromDB,
@@ -274,4 +483,8 @@ export const SubscriptionService = {
      upgradeSubscriptionToDB,
      cancelSubscriptionToDB,
      successMessage,
+     getUserTrialStatus,
+     checkSubscriptionAccess,
+     handleSubscriptionExpiry,
+     createOrRenewSubscription,
 };

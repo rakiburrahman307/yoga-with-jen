@@ -58,33 +58,73 @@ export const handleSubscriptionCreated = async (data: Stripe.Subscription) => {
                               throw new AppError(StatusCodes.CONFLICT, 'User already has an active subscription. Skipping.');
                          }
 
-                         // Create the new subscription
-                         const newSubscription = new Subscription({
+                         // Check if user has ever had a trial before (first-time trial only)
+                         const hasUsedTrialBefore = await Subscription.findOne({
+                              userId: existingUser._id,
+                              $or: [
+                                   { trialStart: { $exists: true, $ne: null } },
+                                   { status: 'trialing' }
+                              ]
+                         });
+
+                         // Check if subscription is in trial period and user is eligible
+                         const isTrialing = subscription.status === 'trialing' && !hasUsedTrialBefore;
+                         const subscriptionStatus = isTrialing ? 'trialing' : 'active';
+                         
+                         // Log trial eligibility
+                         console.log(`User ${existingUser.email} trial eligibility:`, {
+                              isTrialing,
+                              hasUsedTrialBefore: !!hasUsedTrialBefore,
+                              stripeTrialStatus: subscription.status
+                         });
+                         
+                         // Prepare subscription data
+                         const subscriptionData: any = {
                               userId: existingUser._id,
                               customerId: customer?.id,
                               package: pricingPlan._id,
-                              status: 'active',
+                              status: subscriptionStatus,
                               price: amountPaid,
                               trxId,
                               remaining,
                               currentPeriodStart,
                               currentPeriodEnd,
                               subscriptionId,
-                         });
+                              cancelAtPeriodEnd: subscription.cancel_at_period_end || false,
+                         };
+
+                         // Add trial fields if in trial
+                         if (isTrialing && subscription.trial_start && subscription.trial_end) {
+                              subscriptionData.trialStart = formatUnixToIsoUtc(subscription.trial_start);
+                              subscriptionData.trialEnd = formatUnixToIsoUtc(subscription.trial_end);
+                         }
+                         
+                         // Create the new subscription
+                         const newSubscription = new Subscription(subscriptionData);
 
                          // Save the new subscription to the database
                          await newSubscription.save();
 
-                         // Update the user status
+                         // Update the user status based on trial period
+                         const userUpdateData: any = {
+                              isSubscribed: true,
+                              hasAccess: true,
+                              packageName: pricingPlan.title,
+                         };
+
+                         if (isTrialing) {
+                              // User is in trial period
+                              userUpdateData.isFreeTrial = true;
+                              userUpdateData.trialExpireAt = new Date(subscription.trial_end! * 1000);
+                         } else {
+                              // User has paid subscription
+                              userUpdateData.isFreeTrial = false;
+                              userUpdateData.trialExpireAt = null;
+                         }
+
                          await User.findByIdAndUpdate(
                               existingUser._id,
-                              {
-                                   isSubscribed: true,
-                                   hasAccess: true,
-                                   isFreeTrial: false,
-                                   trialExpireAt: null,
-                                   packageName: pricingPlan.title,
-                              },
+                              userUpdateData,
                               { new: true },
                          );
 
