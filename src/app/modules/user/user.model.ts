@@ -59,7 +59,7 @@ const userSchema = new Schema<IUser, UserModel>(
           },
           packageName: {
                type: String,
-               default: '7 Days Free Trail',
+               default: '',
           },
           trialExpireAt: {
                type: Date,
@@ -73,11 +73,11 @@ const userSchema = new Schema<IUser, UserModel>(
           },
           hasAccess: {
                type: Boolean,
-               default: true,
+               default: false,
           },
           isFreeTrial: {
                type: Boolean,
-               default: true,
+               default: false,
           },
           matTime: {
                type: String,
@@ -146,9 +146,16 @@ userSchema.statics.isExistUserByPhone = async (phone: string) => {
 };
 // Password Matching
 userSchema.statics.isMatchPassword = async (password: string, hashPassword: string): Promise<boolean> => {
+     if (!password) {
+          throw new AppError(StatusCodes.BAD_REQUEST, 'Password is required for comparison.');
+     }
+
+     if (!hashPassword) {
+          throw new AppError(StatusCodes.BAD_REQUEST, 'Stored password hash not found.');
+     }
+
      return await bcrypt.compare(password, hashPassword);
 };
-
 // Static function to check if a user is in free trial
 userSchema.statics.isInFreeTrial = async (userId: string) => {
      const user = await User.findById(userId);

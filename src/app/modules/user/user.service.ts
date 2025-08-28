@@ -151,10 +151,22 @@ const updateProfileToDB = async (user: JwtPayload, payload: Partial<IUser>): Pro
 };
 
 const verifyUserPassword = async (userId: string, password: string) => {
+     // Add validation for the password parameter
+     if (!password) {
+          throw new AppError(StatusCodes.BAD_REQUEST, 'Password is required.');
+     }
+
      const user = await User.findById(userId).select('+password');
+
      if (!user) {
           throw new AppError(StatusCodes.NOT_FOUND, 'User not found.');
      }
+
+     // Add validation for the stored password
+     if (!user.password) {
+          throw new AppError(StatusCodes.BAD_REQUEST, 'User password not found. This account may not have a password set.');
+     }
+
      const isPasswordValid = await User.isMatchPassword(password, user.password);
      return isPasswordValid;
 };
@@ -163,33 +175,38 @@ const deleteUser = async (id: string) => {
      session.startTransaction();
 
      try {
+          // Fix: Get the user first, then check if it exists
+          const isExistUser = await User.findById(id).session(session);
 
-          const isExistUser = await User.isExistUserById(id).session(session);
-          if (isExistUser.image) {
-               await unlinkFile(isExistUser.image);
-          }
           if (!isExistUser) {
                throw new AppError(StatusCodes.BAD_REQUEST, "User doesn't exist!");
           }
+
+          // Handle image deletion
+          if (isExistUser.image) {
+               await unlinkFile(isExistUser.image);
+          }
+
           const userDeletionResult = await User.findByIdAndDelete(id).session(session);
           if (!userDeletionResult) {
                throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Failed to delete user');
           }
-          const subscription = await Subscription.findOneAndDelete({ userId: id }).session(session);
+
+          // Fix: Find subscription with session
+          const subscription = await Subscription.findOne({ userId: id }).session(session);
           if (subscription) {
                await Subscription.deleteMany({ userId: id }).session(session);
           }
+
           await session.commitTransaction();
           return true;
      } catch (error) {
           await session.abortTransaction();
-
           throw error;
      } finally {
           session.endSession();
      }
 };
-
 export const UserService = {
      createUserToDB,
      getUserProfileFromDB,
