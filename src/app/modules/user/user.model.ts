@@ -63,9 +63,7 @@ const userSchema = new Schema<IUser, UserModel>(
           },
           trialExpireAt: {
                type: Date,
-               default: function () {
-                    return new Date(Date.now() + 7 * 24 * 60 * 60 * 1000); // 7 days from now
-               },
+               default: null,
           },
           isSubscribed: {
                type: Boolean,

@@ -24,7 +24,8 @@ app.use(
                "https://api.yogawithjen.life",
                "https://dashboard.yogawithjen.life",
                "http://10.10.7.48:3007",
-               "http://10.10.7.48:3001"
+               "http://10.10.7.48:3001",
+               "http://10.10.7.48:3003"
           ],
           credentials: true,  // Allow credentials like cookies
      })

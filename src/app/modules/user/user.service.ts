@@ -11,6 +11,7 @@ import generateOTP from '../../../utils/generateOTP';
 import stripe from '../../../config/stripe';
 import { Subscription } from '../subscription/subscription.model';
 import mongoose from 'mongoose';
+import { CreatePost } from '../admin/createPost/createPost.model';
 
 // create user
 const createUserToDB = async (payload: IUser): Promise<IUser> => {
@@ -196,6 +197,10 @@ const deleteUser = async (id: string) => {
           const subscription = await Subscription.findOne({ userId: id }).session(session);
           if (subscription) {
                await Subscription.deleteMany({ userId: id }).session(session);
+          }
+          const post = await CreatePost.findOne({ userId: id }).session(session);
+          if (post) {
+               await CreatePost.deleteMany({ userId: id }).session(session);
           }
 
           await session.commitTransaction();
