@@ -1,2 +1,0 @@
-Wed Aug 27 2025 19:15:39 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/admin/post/managment/ 404 - 36.423 ms
-Wed Aug 27 2025 19:16:47 [SERVER-NAME] error: 10.10.7.48 - PATCH /api/v1/admin/post/managment/68aedafe1d30a2dc486cf31b 404 - 2.024 ms

@@ -1,0 +1,8 @@
+Thu Aug 28 2025 19:16:1 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/subscription/check-access 401 - 4.922 ms
+Thu Aug 28 2025 19:16:2 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/subscription/check-access 401 - 1.675 ms
+Thu Aug 28 2025 19:17:41 [SERVER-NAME] error: 10.10.7.48 - DELETE /api/v1/admin/challenge/68ad8a5f4994412f5f367db2 500 - 797.792 ms
+Thu Aug 28 2025 19:27:28 [SERVER-NAME] error: 10.10.7.62 - GET /api/v1/favourit/ 404 - 14.670 ms
+Thu Aug 28 2025 19:27:34 [SERVER-NAME] error: 10.10.7.62 - GET /api/v1/favourit/watch/683413d06f4e8798dfa1075a 404 - 0.367 ms
+Thu Aug 28 2025 19:27:38 [SERVER-NAME] error: 10.10.7.62 - POST /api/v1/favourit/6832b7029c8e70e948bd8845 404 - 0.540 ms
+Thu Aug 28 2025 19:34:4 [SERVER-NAME] error: 10.10.7.38 - GET /api/v1/favorite/ 400 - 15.332 ms
+Thu Aug 28 2025 19:35:59 [SERVER-NAME] error: 119.148.20.81 - GET /api/v1/favorite/?page=1 400 - 12.081 ms
