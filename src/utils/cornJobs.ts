@@ -298,7 +298,7 @@ const scheduleDailyInspiration = () => {
           for (const dailyInspiration of pendingDailyInspiration) {
                try {
                     // Delete all active inspirations
-                    await DailyInspiration.deleteMany({ status: 'active' });
+                    await DailyInspiration.updateMany({ status: 'active' }, { status: 'inactive' });
 
                     // Update the current inspiration to 'active'
                     if (dailyInspiration.publishAt) {

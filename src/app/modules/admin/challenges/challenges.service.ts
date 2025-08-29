@@ -100,7 +100,7 @@ const copyChallengeVideo = async (
 
                          results_data.push(...savedChallengeVideos);
 
-                    } catch{
+                    } catch {
                          throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Failed to copy video(s) to challenge');
                     }
                }
@@ -360,12 +360,12 @@ const markVideoAsCompleted = async (userId: string, videoId: string) => {
 };
 
 const shuffleVideoSerial = async (videoOrder: Array<{ _id: string; serial: number }>) => {
-    if (!videoOrder || !Array.isArray(videoOrder) || videoOrder.length === 0) {
-        return;
-    }
-    const updatePromises = videoOrder.map((item) => ChallengeVideo.findByIdAndUpdate(item._id, { serial: item.serial }, { new: true }));
-    const result = await Promise.all(updatePromises);
-    return result;
+     if (!videoOrder || !Array.isArray(videoOrder) || videoOrder.length === 0) {
+          return;
+     }
+     const updatePromises = videoOrder.map((item) => ChallengeVideo.findByIdAndUpdate(item._id, { serial: item.serial }, { new: true }));
+     const result = await Promise.all(updatePromises);
+     return result;
 };
 export const ChallengeService = {
      createChallenge,

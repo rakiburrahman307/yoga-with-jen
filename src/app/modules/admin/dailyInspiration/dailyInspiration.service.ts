@@ -111,7 +111,7 @@ const copyDailyInspirationVideo = async (
 
 // Function to fetch all "create post" entries, including pagination, filtering, and sorting
 const getAllPost = async () => {
-     const result = await DailyInspiration.find({ status: 'active' });
+     const result = await DailyInspiration.find({ status: 'active' }).sort({ serial: 1 });
      if (!result) {
           return [];
      }
@@ -177,6 +177,8 @@ const deletePost = async (id: string) => {
      return result;
 };
 const updateStatus = async (id: string, status: string) => {
+
+     // await DailyInspiration.updateMany({ status: "active" }, { status: "inactive" });
 
      const result = await DailyInspiration.findByIdAndUpdate(id, { status }, {
           new: true,
