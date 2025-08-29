@@ -65,7 +65,7 @@ const adminSendNotificationFromDB = async (payload: any) => {
                     // Send notification to individual user
                     return sendNotifications(notificationData);
                });
-
+               console.log("notificationPromises");
                // Wait for all notifications to be sent
                await Promise.all(notificationPromises);
           }
