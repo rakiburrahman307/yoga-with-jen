@@ -1,0 +1,52 @@
+Fri Aug 29 2025 10:1:30 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Aug 29 2025 10:1:30 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Fri Aug 29 2025 10:1:30 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Fri Aug 29 2025 10:1:30 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Fri Aug 29 2025 10:1:50 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Aug 29 2025 10:1:50 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Fri Aug 29 2025 10:1:50 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Fri Aug 29 2025 10:1:50 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Fri Aug 29 2025 10:1:55 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Aug 29 2025 10:1:55 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Fri Aug 29 2025 10:1:55 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Fri Aug 29 2025 10:1:55 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Fri Aug 29 2025 10:1:59 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Aug 29 2025 10:1:59 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Fri Aug 29 2025 10:1:59 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Fri Aug 29 2025 10:1:59 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Fri Aug 29 2025 10:2:7 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Aug 29 2025 10:2:7 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Fri Aug 29 2025 10:2:7 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Fri Aug 29 2025 10:2:7 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Fri Aug 29 2025 10:2:11 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Aug 29 2025 10:2:11 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Fri Aug 29 2025 10:2:11 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Fri Aug 29 2025 10:2:11 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Fri Aug 29 2025 10:2:18 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Aug 29 2025 10:2:18 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Fri Aug 29 2025 10:2:18 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Fri Aug 29 2025 10:2:18 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Fri Aug 29 2025 10:2:24 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Aug 29 2025 10:2:24 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Fri Aug 29 2025 10:2:24 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Fri Aug 29 2025 10:2:24 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Fri Aug 29 2025 10:2:32 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Aug 29 2025 10:2:32 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Fri Aug 29 2025 10:2:32 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Fri Aug 29 2025 10:2:32 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Fri Aug 29 2025 10:3:11 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/users/profile 204 - 2.016 ms
+Fri Aug 29 2025 10:3:11 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/admin/category 204 - 0.161 ms
+Fri Aug 29 2025 10:3:11 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/users/profile 304 - 153.902 ms
+Fri Aug 29 2025 10:3:12 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/admin/category 304 - 157.295 ms
+Fri Aug 29 2025 10:3:12 [SERVER-NAME] info: 10.10.7.62 - GET //image/young-woman-doing-yoga-in-nature-video-1756267358857.jpg 304 - 1.457 ms
+Fri Aug 29 2025 10:3:12 [SERVER-NAME] info: 10.10.7.62 - GET //thumbnail/videoblocks-v1-0011_20221110-as-semenov-sport-in-the-morning-2-outdoor00000000_heeiyvvr2j_thumbnail-180_07-1756297485078.jpg 304 - 1.491 ms
+Fri Aug 29 2025 10:3:12 [SERVER-NAME] info: 10.10.7.62 - GET //thumbnail/yellow-2708363-1755692741197.jpg 304 - 2.641 ms
+Fri Aug 29 2025 10:3:12 [SERVER-NAME] info: 10.10.7.62 - GET //thumbnail/link---zoanthids-%C3%A2%C2%86%C2%92-coralstashicon2.png-1754911760194.png 304 - 3.642 ms
+Fri Aug 29 2025 10:6:56 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Aug 29 2025 10:6:56 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Fri Aug 29 2025 10:6:56 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Fri Aug 29 2025 10:6:56 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Fri Aug 29 2025 10:6:57 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Aug 29 2025 10:6:57 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Fri Aug 29 2025 10:6:57 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Fri Aug 29 2025 10:6:57 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m

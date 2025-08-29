@@ -86,9 +86,9 @@ const adminSendNotificationFromDB = async (payload: any) => {
      }
 };
 const getAllPushNotification = async (query: Record<string, unknown>) => {
-     const querBuilder = new QueryBuilder(ScheduledNotification.find({ notificationType: { $in: [NotificationScheduleType.INSTANT, NotificationScheduleType.SCHEDULE] } }), query);
-     const result = await querBuilder.fields().filter().paginate().sort().modelQuery.exec();
-     const meta = await querBuilder.countTotal();
+     const queryBuilder = new QueryBuilder(ScheduledNotification.find({ notificationType: { $in: [NotificationScheduleType.INSTANT, NotificationScheduleType.SCHEDULE] } }), query);
+     const result = await queryBuilder.fields().filter().paginate().sort().modelQuery.exec();
+     const meta = await queryBuilder.countTotal();
      return {
           result,
           meta,

@@ -8,6 +8,7 @@ import { welcome } from './utils/welcome';
 import handleStripeWebhook from './helpers/stripe/handleStripeWebhook';
 import path from 'path';
 import setupTrialManagement from './utils/cornJobs';
+import config from './config';
 const app: Application = express();
 
 app.set('view engine', 'ejs');
@@ -19,14 +20,18 @@ app.use(Morgan.errorHandler);
 //body parser
 app.use(
      cors({
-          origin: [
+          origin: config.node_env === "production" ? [
                "https://web.yogawithjen.life",
                "https://api.yogawithjen.life",
                "https://dashboard.yogawithjen.life",
-               "http://10.10.7.48:3007",
+
+          ] : ["http://10.10.7.48:3007",
                "http://10.10.7.48:3001",
-               "http://10.10.7.48:3003"
-          ],
+               "http://10.10.7.48:3002",
+               "http://10.10.7.48:3003",
+               "http://10.10.7.48:3004",
+               "http://10.10.7.48:3005",
+               "http://10.10.7.48:3006"],
           credentials: true,  // Allow credentials like cookies
      })
 );
