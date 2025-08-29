@@ -133,6 +133,7 @@ export const handleSubscriptionCreated = async (data: Stripe.Subscription) => {
                               receiver: getAdmin._id,
                               message: `A new subscription has been purchase for ${existingUser.name}`,
                               type: 'ORDER',
+                              status: 'RECEIVED',
                          });
                     } else {
                          throw new AppError(StatusCodes.NOT_FOUND, `Pricing plan not found for Price ID: ${priceId}`);

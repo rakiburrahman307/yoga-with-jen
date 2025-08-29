@@ -6,7 +6,9 @@ declare global {
                user: JwtPayload;
           }
      }
+
 }
+
 declare module 'multer' {
      namespace Express {
           namespace Multer {

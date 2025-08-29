@@ -81,6 +81,7 @@ const loginUserFromDB = async (payload: ILoginData) => {
                receiver: getAdmin._id,
                message: `Admin ${isExistUser.name} has just logged into the dashboard.`,
                type: 'MESSAGE',
+               status: 'RECEIVED',
           });
      }
      if (isExistUser.role === USER_ROLES.SUPER_ADMIN) {
@@ -89,6 +90,7 @@ const loginUserFromDB = async (payload: ILoginData) => {
                receiver: isExistUser._id,
                message: `Hay super admin ${isExistUser.name} wellcome back to the dashboard.`,
                type: 'MESSAGE',
+               status: 'RECEIVED',
           });
      }
 
@@ -96,8 +98,9 @@ const loginUserFromDB = async (payload: ILoginData) => {
           await sendNotifications({
                title: `${isExistUser.name}`,
                receiver: isExistUser._id,
-               message: `Wellcome ${isExistUser.name} to the app.`,
+               message: `Welcome ${isExistUser.name} to the app.`,
                type: 'MESSAGE',
+               status: 'RECEIVED',
           });
      }
      const accessToken = jwtHelper.createToken(jwtData, config.jwt.jwt_secret as Secret, config.jwt.jwt_expire_in as string);
@@ -289,7 +292,7 @@ const resetPasswordByUrl = async (token: string, payload: IAuthResetPassword) =>
      let decodedToken;
      try {
           decodedToken = await verifyToken(token, config.jwt.jwt_secret as Secret);
-     } catch (error) {
+     } catch  {
           throw new AppError(StatusCodes.UNAUTHORIZED, 'Invalid or expired token.');
      }
      const { id } = decodedToken;

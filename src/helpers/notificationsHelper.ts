@@ -4,8 +4,8 @@ import { Notification } from '../app/modules/notification/notification.model';
 export const sendNotifications = async (data: any): Promise<INotification> => {
      const result = await Notification.create(data);
 
-     //@ts-ignore
-     const socketIo = global.io;
+   // @ts-expect-error - global.io is dynamically attached at runtime
+     const socketIo = global.io as any;
      if (socketIo) {
           if (data.receiver) {
                socketIo.emit(`notification::${data.receiver}`, result);

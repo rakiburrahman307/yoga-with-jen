@@ -1,29 +1,27 @@
 import { JwtPayload } from 'jsonwebtoken';
 import { INotification } from './notification.interface';
 import { Notification } from './notification.model';
-import { sendNotifications } from '../../../helpers/notificationsHelper';
 import AppError from '../../../errors/AppError';
 import { StatusCodes } from 'http-status-codes';
 import { User } from '../user/user.model';
 import QueryBuilder from '../../builder/QueryBuilder';
 import { USER_ROLES } from '../../../enums/user';
-import { ScheduledNotification } from '../scheduledNotification/scheduledNotification.model';
 
 // get notifications
 const getNotificationFromDB = async (user: JwtPayload, query: Record<string, unknown>) => {
-     const queryBuilder = new QueryBuilder(Notification.find({ receiver: user.id }).populate('receiver', 'name email phoneNumber'), query);
+     const queryBuilder = new QueryBuilder(Notification.find({ receiver: user.id, status: 'RECEIVED' }).populate('receiver', 'name email phoneNumber'), query);
      const result = await queryBuilder.filter().sort().paginate().fields().modelQuery.exec();
      const meta = await queryBuilder.countTotal();
      const unreadCount = await Notification.countDocuments({
           receiver: user.id,
           read: false,
+          status: 'RECEIVED'
      });
      const data: any = {
           result,
           meta,
           unreadCount,
      };
-
      return data;
 };
 
@@ -52,9 +50,9 @@ const adminNotificationFromDB = async (userId: string, query: Record<string, unk
           throw new AppError(StatusCodes.NOT_FOUND, 'Admin not found');
      }
      if (user.role === USER_ROLES.SUPER_ADMIN || user.role === USER_ROLES.ADMIN) {
-          const querBuilder = new QueryBuilder(Notification.find({ receiver: user.id }), query).filter().sort().paginate().fields();
-          const result = await querBuilder.modelQuery;
-          const meta = await querBuilder.countTotal();
+          const queryBuilder = new QueryBuilder(Notification.find({ receiver: user.id, status: 'RECEIVED' }), query).filter().sort().paginate().fields();
+          const result = await queryBuilder.modelQuery.exec();
+          const meta = await queryBuilder.countTotal();
           return {
                result,
                meta,

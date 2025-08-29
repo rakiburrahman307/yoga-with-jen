@@ -78,7 +78,7 @@ const notificationSchema = new Schema<INotification>(
           },
           status: {
                type: String,
-               enum: ['PENDING', 'SEND', 'FAILED'],
+               enum: ['PENDING', 'RECEIVED', 'FAILED'],
                default: 'PENDING',
                index: true,
           },

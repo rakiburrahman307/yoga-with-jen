@@ -108,6 +108,7 @@ const likePost = async (postId: string, userId: string) => {
                receiver: updatedComment.userId,
                message: `User '${user.name}' liked your comment`,
                type: 'MESSAGE',
+               status: 'RECEIVED',
           });
      }
      if (!updatedComment) {

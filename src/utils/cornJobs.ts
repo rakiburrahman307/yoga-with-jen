@@ -244,6 +244,7 @@ const startNotificationScheduler = () => {
                               referenceModel: scheduledNotification.referenceModel,
                               message: scheduledNotification.message,
                               type: scheduledNotification.type,
+                              status: "RECEIVED",
                               receiver: scheduledNotification.receiver,
                          };
 
@@ -261,6 +262,7 @@ const startNotificationScheduler = () => {
                                         referenceModel: scheduledNotification.referenceModel,
                                         message: scheduledNotification.message,
                                         type: scheduledNotification.type,
+                                        status: "RECEIVED",
                                         receiver: user._id,
                                    };
                                    // Send notification to individual user

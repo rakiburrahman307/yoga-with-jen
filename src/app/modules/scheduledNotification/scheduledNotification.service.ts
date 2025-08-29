@@ -59,18 +59,16 @@ const adminSendNotificationFromDB = async (payload: any) => {
                          message,
                          type: NotificationType.SYSTEM,
                          notificationType: NotificationScheduleType.SCHEDULE,
-                         status: NotificationStatus.SENT,
+                         status: "RECEIVED",
                          receiver: user._id,
                     };
                     // Send notification to individual user
                     return sendNotifications(notificationData);
                });
-               console.log("notificationPromises");
                // Wait for all notifications to be sent
                await Promise.all(notificationPromises);
           }
           try {
-               console.log('first===========');
                const notification = new ScheduledNotification({
                     title,
                     referenceModel: ReferenceModel.MESSAGE,

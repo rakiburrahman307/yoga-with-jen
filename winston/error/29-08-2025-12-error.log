@@ -1,0 +1,13 @@
+Fri Aug 29 2025 12:33:15 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/subscription/check-access 401 - 2.268 ms
+Fri Aug 29 2025 12:33:16 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/subscription/check-access 401 - 1.146 ms
+Fri Aug 29 2025 12:38:45 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/subcategory/get-videos/68ac4d199842e01688a49029 404 - 12.679 ms
+Fri Aug 29 2025 12:38:49 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/subcategory/get-videos/68ac4415da59c236c7089800 404 - 6.041 ms
+Fri Aug 29 2025 12:42:2 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/subscription/check-access 401 - 7.336 ms
+Fri Aug 29 2025 12:42:3 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/subscription/check-access 401 - 1.735 ms
+Fri Aug 29 2025 12:50:27 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/subcategory/get-videos/68aed0d11d30a2dc486cefc5 404 - 14.754 ms
+Fri Aug 29 2025 12:50:31 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/subcategory/get-videos/68aed0431d30a2dc486cef61 404 - 6.313 ms
+Fri Aug 29 2025 12:50:41 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/subcategory/get-videos/68ac4d199842e01688a49029 404 - 14.799 ms
+Fri Aug 29 2025 12:51:30 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/subcategory/get-videos/68ac4d199842e01688a49029 404 - 29.146 ms
+Fri Aug 29 2025 12:52:6 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/subcategory/get-videos/68ac4d199842e01688a49029 404 - 17.318 ms
+Fri Aug 29 2025 12:54:17 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/subcategory/get-videos/68ac4d199842e01688a49029 404 - 10.605 ms
+Fri Aug 29 2025 12:54:20 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/subcategory/get-videos/68ac4415da59c236c7089800 404 - 5.897 ms

@@ -50,24 +50,25 @@ const createCommentToDB = async (commentCreatorId: string, postId: string, conte
                receiver: postCreator._id,
                message: `A new comment has been posted`,
                type: 'MESSAGE',
+               status: 'RECEIVED',
           });
      }
      return newComment;
 };
 
-// FIXED: Populate function for replies
-function buildPopulateReplies(depth: number): any {
-     if (depth === 0) return null;
+// // FIXED: Populate function for replies
+// function buildPopulateReplies(depth: number): any {
+//      if (depth === 0) return null;
 
-     return {
-          path: 'replies',
-          populate: [
-               { path: 'commentCreatorId', select: 'name image email' },
-               // only add nested populate if depth > 1
-               ...(depth > 1 ? [buildPopulateReplies(depth - 1)] : []),
-          ],
-     };
-}
+//      return {
+//           path: 'replies',
+//           populate: [
+//                { path: 'commentCreatorId', select: 'name image email' },
+//                // only add nested populate if depth > 1
+//                ...(depth > 1 ? [buildPopulateReplies(depth - 1)] : []),
+//           ],
+//      };
+// }
 
 // FIXED: Get comments - only fetch main comments (depth 0)
 const getComments = async (postId: string, userId: string, query: Record<string, unknown>) => {
@@ -208,6 +209,7 @@ const replyToComment = async (commentId: string, commentCreatorId: string, conte
                receiver: parentComment.commentCreatorId,
                message: `A new reply has been posted`,
                type: 'MESSAGE',
+               status: 'RECEIVED',
           });
      }
 
