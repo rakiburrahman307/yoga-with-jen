@@ -47,7 +47,7 @@ export async function startServer() {
           });
 
           socketHelper.socket(socketServer);
-          //@ts-ignore
+          // @ts-expect-error - global.io is dynamically attached at runtime
           global.io = socketServer;
           logger.info(colors.yellow(`♻️  Socket is listening on same port ${socketPort}`));
      } catch (error) {

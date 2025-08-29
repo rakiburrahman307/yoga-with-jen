@@ -6,21 +6,6 @@
     "auditLog": "R:\\projects\\yoga-with-jen\\winston\\error\\.95000575ff436f40008d2e949aab9852ceba2f18-audit.json",
     "files": [
         {
-            "date": 1756372678429,
-            "name": "R:\\projects\\yoga-with-jen\\winston\\error\\28-08-2025-15-error.log",
-            "hash": "47e4cff684a4b4f22fdb58b683f389ed6fd1e20798b3790d58874d406b2bcda6"
-        },
-        {
-            "date": 1756375204503,
-            "name": "R:\\projects\\yoga-with-jen\\winston\\error\\28-08-2025-16-error.log",
-            "hash": "fe8d096121cbd84c84599bf4fe5422a85d9ac39fd6cc8de0b1ba3b6704692746"
-        },
-        {
-            "date": 1756378860333,
-            "name": "R:\\projects\\yoga-with-jen\\winston\\error\\28-08-2025-17-error.log",
-            "hash": "645fe47636e409d4073f0e2b4d4a0046e351ec770cf3a6a211393f7e964f167f"
-        },
-        {
             "date": 1756382519354,
             "name": "R:\\projects\\yoga-with-jen\\winston\\error\\28-08-2025-18-error.log",
             "hash": "b07aaef847e59340fdb350284dcaac2f874837541824a0589660d080313bd4e3"
@@ -59,6 +44,11 @@
             "date": 1756458023766,
             "name": "R:\\projects\\yoga-with-jen\\winston\\error\\29-08-2025-15-error.log",
             "hash": "081d7a260004ef362a45877d0e5f2ef92dfc53f227e6d8babdf34e50e844caf9"
+        },
+        {
+            "date": 1756465432982,
+            "name": "R:\\projects\\yoga-with-jen\\winston\\error\\29-08-2025-17-error.log",
+            "hash": "4071f5e82d8c413325282a302536fe0921f85d3831f1b4fe29fb281e64e81c1b"
         }
     ],
     "hashType": "sha256"
