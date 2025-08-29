@@ -6,7 +6,7 @@ const likesSchema = new Schema<IFavorite>(
           userId: { type: mongoose.Schema.ObjectId, ref: 'User', required: true },
           videoId: {
                type: mongoose.Schema.ObjectId,
-               ref: 'Video',
+               ref: 'Videos',
                required: true,
           },
           liked: {
