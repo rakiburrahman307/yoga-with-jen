@@ -1,0 +1,10 @@
+Sat Aug 30 2025 12:12:55 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/subscription/check-access 401 - 71.298 ms
+Sat Aug 30 2025 12:12:56 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/subscription/check-access 401 - 2.169 ms
+Sat Aug 30 2025 12:13:21 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/subscription/check-access 401 - 1.081 ms
+Sat Aug 30 2025 12:13:22 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/subscription/check-access 401 - 1.358 ms
+Sat Aug 30 2025 12:23:31 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/subscription/check-access 401 - 2.794 ms
+Sat Aug 30 2025 12:23:31 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/subscription/check-access 401 - 0.571 ms
+Sat Aug 30 2025 12:25:21 [SERVER-NAME] error: 10.10.7.48 - POST /api/v1/users 500 - 85508.588 ms
+Sat Aug 30 2025 12:29:54 [SERVER-NAME] error: 10.10.7.48 - POST /api/v1/users 409 - 16.283 ms
+Sat Aug 30 2025 12:32:0 [SERVER-NAME] error: 10.10.7.48 - POST /api/v1/users 409 - 3.947 ms
+Sat Aug 30 2025 12:32:3 [SERVER-NAME] error: 10.10.7.48 - POST /api/v1/users 409 - 7.164 ms
