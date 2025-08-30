@@ -24,6 +24,8 @@ app.use(
                "https://web.yogawithjen.life",
                "https://api.yogawithjen.life",
                "https://dashboard.yogawithjen.life",
+               "https://wwww.dashboard.yogawithjen.life",
+               "https://www.web.yogawithjen.life",
 
           ] : ["http://10.10.7.48:3007",
                "http://10.10.7.48:3001",
