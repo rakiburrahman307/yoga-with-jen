@@ -8,6 +8,6 @@ export interface IComingSoon {
      videoUrl: string;
      redirectUrl: string;
      isReady: 'arrived' | 'ready';
-     description: string;
+     description?: string;
      status: 'active' | 'inactive';
 }
