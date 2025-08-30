@@ -10,7 +10,7 @@ import path from 'path';
 import setupTrialManagement from './utils/cornJobs';
 import config from './config';
 const app: Application = express();
-
+app.post('/api/v1/stripe/webhook', express.raw({ type: 'application/json' }), handleStripeWebhook);
 app.set('view engine', 'ejs');
 app.set('views', path.join(process.cwd(), 'src', 'views'));
 //morgan
@@ -36,7 +36,7 @@ app.use(
           credentials: true,  // Allow credentials like cookies
      })
 );
-app.post('/api/v1/stripe/webhook', express.raw({ type: 'application/json' }), handleStripeWebhook);
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 

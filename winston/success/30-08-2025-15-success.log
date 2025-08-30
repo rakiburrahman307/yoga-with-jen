@@ -346,3 +346,219 @@ Sat Aug 30 2025 15:45:50 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifi
 Sat Aug 30 2025 15:45:50 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 12.993 ms
 Sat Aug 30 2025 15:46:21 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.070 ms
 Sat Aug 30 2025 15:46:21 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 15.055 ms
+Sat Aug 30 2025 15:46:52 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.068 ms
+Sat Aug 30 2025 15:46:52 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 7.983 ms
+Sat Aug 30 2025 15:47:23 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.058 ms
+Sat Aug 30 2025 15:47:23 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 10.683 ms
+Sat Aug 30 2025 15:47:54 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.087 ms
+Sat Aug 30 2025 15:47:54 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.609 ms
+Sat Aug 30 2025 15:48:25 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.071 ms
+Sat Aug 30 2025 15:48:25 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.268 ms
+Sat Aug 30 2025 15:48:56 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.101 ms
+Sat Aug 30 2025 15:48:56 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 7.148 ms
+Sat Aug 30 2025 15:49:27 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.096 ms
+Sat Aug 30 2025 15:49:27 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 10.185 ms
+Sat Aug 30 2025 15:49:58 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.079 ms
+Sat Aug 30 2025 15:49:58 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 30.742 ms
+Sat Aug 30 2025 15:50:29 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.059 ms
+Sat Aug 30 2025 15:50:29 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.494 ms
+Sat Aug 30 2025 15:51:0 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.066 ms
+Sat Aug 30 2025 15:51:0 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 17.226 ms
+Sat Aug 30 2025 15:51:31 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.067 ms
+Sat Aug 30 2025 15:51:31 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 12.649 ms
+Sat Aug 30 2025 15:52:2 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.055 ms
+Sat Aug 30 2025 15:52:2 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.592 ms
+Sat Aug 30 2025 15:52:33 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.056 ms
+Sat Aug 30 2025 15:52:33 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.026 ms
+Sat Aug 30 2025 15:53:4 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.076 ms
+Sat Aug 30 2025 15:53:4 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 11.989 ms
+Sat Aug 30 2025 15:53:35 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.092 ms
+Sat Aug 30 2025 15:53:35 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 11.942 ms
+Sat Aug 30 2025 15:54:6 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.122 ms
+Sat Aug 30 2025 15:54:6 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 13.296 ms
+Sat Aug 30 2025 15:54:37 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.062 ms
+Sat Aug 30 2025 15:54:37 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.412 ms
+Sat Aug 30 2025 15:55:8 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.087 ms
+Sat Aug 30 2025 15:55:8 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 13.129 ms
+Sat Aug 30 2025 15:55:17 [SERVER-NAME] info: [34mReceived webhook event: payment_method.attached [evt_1S1lVDB5u2A30G2QYrt2m1zW][39m
+Sat Aug 30 2025 15:55:17 [SERVER-NAME] warn: [33mUnhandled event type: payment_method.attached[39m
+Sat Aug 30 2025 15:55:17 [SERVER-NAME] info: [32mSuccessfully processed webhook event: payment_method.attached [evt_1S1lVDB5u2A30G2QYrt2m1zW][39m
+Sat Aug 30 2025 15:55:17 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 77.789 ms
+Sat Aug 30 2025 15:55:17 [SERVER-NAME] info: [34mReceived webhook event: setup_intent.succeeded [evt_1S1lVDB5u2A30G2QxCpgRot6][39m
+Sat Aug 30 2025 15:55:17 [SERVER-NAME] warn: [33mUnhandled event type: setup_intent.succeeded[39m
+Sat Aug 30 2025 15:55:17 [SERVER-NAME] info: [32mSuccessfully processed webhook event: setup_intent.succeeded [evt_1S1lVDB5u2A30G2QxCpgRot6][39m
+Sat Aug 30 2025 15:55:17 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1.663 ms
+Sat Aug 30 2025 15:55:17 [SERVER-NAME] info: [34mReceived webhook event: setup_intent.created [evt_1S1lVDB5u2A30G2QS0sQT1in][39m
+Sat Aug 30 2025 15:55:17 [SERVER-NAME] warn: [33mUnhandled event type: setup_intent.created[39m
+Sat Aug 30 2025 15:55:17 [SERVER-NAME] info: [32mSuccessfully processed webhook event: setup_intent.created [evt_1S1lVDB5u2A30G2QS0sQT1in][39m
+Sat Aug 30 2025 15:55:17 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 0.925 ms
+Sat Aug 30 2025 15:55:19 [SERVER-NAME] info: [34mReceived webhook event: checkout.session.completed [evt_1S1lVGB5u2A30G2QZZXGZgWe][39m
+Sat Aug 30 2025 15:55:19 [SERVER-NAME] warn: [33mUnhandled event type: checkout.session.completed[39m
+Sat Aug 30 2025 15:55:19 [SERVER-NAME] info: [32mSuccessfully processed webhook event: checkout.session.completed [evt_1S1lVGB5u2A30G2QZZXGZgWe][39m
+Sat Aug 30 2025 15:55:19 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 3.496 ms
+Sat Aug 30 2025 15:55:19 [SERVER-NAME] info: [34mReceived webhook event: invoice.created [evt_1S1lVGB5u2A30G2QCpABSz6Z][39m
+Sat Aug 30 2025 15:55:19 [SERVER-NAME] warn: [33mUnhandled event type: invoice.created[39m
+Sat Aug 30 2025 15:55:19 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.created [evt_1S1lVGB5u2A30G2QCpABSz6Z][39m
+Sat Aug 30 2025 15:55:19 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 6.105 ms
+Sat Aug 30 2025 15:55:19 [SERVER-NAME] info: [34mReceived webhook event: invoice.finalized [evt_1S1lVHB5u2A30G2QDu3Gs6Nc][39m
+Sat Aug 30 2025 15:55:19 [SERVER-NAME] warn: [33mUnhandled event type: invoice.finalized[39m
+Sat Aug 30 2025 15:55:19 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.finalized [evt_1S1lVHB5u2A30G2QDu3Gs6Nc][39m
+Sat Aug 30 2025 15:55:19 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1.685 ms
+Sat Aug 30 2025 15:55:19 [SERVER-NAME] info: [34mReceived webhook event: invoice.paid [evt_1S1lVHB5u2A30G2QLjgpcLDr][39m
+Sat Aug 30 2025 15:55:19 [SERVER-NAME] warn: [33mUnhandled event type: invoice.paid[39m
+Sat Aug 30 2025 15:55:19 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.paid [evt_1S1lVHB5u2A30G2QLjgpcLDr][39m
+Sat Aug 30 2025 15:55:19 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1.819 ms
+Sat Aug 30 2025 15:55:20 [SERVER-NAME] info: [34mReceived webhook event: invoice.payment_succeeded [evt_1S1lVHB5u2A30G2QjQVANrr0][39m
+Sat Aug 30 2025 15:55:20 [SERVER-NAME] warn: [33mUnhandled event type: invoice.payment_succeeded[39m
+Sat Aug 30 2025 15:55:20 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.payment_succeeded [evt_1S1lVHB5u2A30G2QjQVANrr0][39m
+Sat Aug 30 2025 15:55:20 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1.078 ms
+Sat Aug 30 2025 15:55:20 [SERVER-NAME] info: [34mReceived webhook event: customer.subscription.created [evt_1S1lVHB5u2A30G2QcsVvBkOL][39m
+Sat Aug 30 2025 15:55:21 [SERVER-NAME] error: [31mError handling event customer.subscription.created: Error: Error in handleSubscriptionCreated: User not found for email: mdjowelahmed255@gmail.com[39m
+Sat Aug 30 2025 15:55:21 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1235.978 ms
+Sat Aug 30 2025 15:55:39 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.053 ms
+Sat Aug 30 2025 15:55:39 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.250 ms
+Sat Aug 30 2025 15:56:10 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.441 ms
+Sat Aug 30 2025 15:56:10 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 30.227 ms
+Sat Aug 30 2025 15:56:16 [SERVER-NAME] info: [34mReceived webhook event: invoice.upcoming [evt_1S1lWBB5u2A30G2QFUM2bKAW][39m
+Sat Aug 30 2025 15:56:16 [SERVER-NAME] warn: [33mUnhandled event type: invoice.upcoming[39m
+Sat Aug 30 2025 15:56:16 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.upcoming [evt_1S1lWBB5u2A30G2QFUM2bKAW][39m
+Sat Aug 30 2025 15:56:16 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 76.291 ms
+Sat Aug 30 2025 15:56:41 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.556 ms
+Sat Aug 30 2025 15:56:42 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 114.848 ms
+Sat Aug 30 2025 15:56:58 [SERVER-NAME] info: [34mReceived webhook event: payment_method.attached [evt_1S1lWrB5u2A30G2QNzvHGzao][39m
+Sat Aug 30 2025 15:56:58 [SERVER-NAME] warn: [33mUnhandled event type: payment_method.attached[39m
+Sat Aug 30 2025 15:56:58 [SERVER-NAME] info: [32mSuccessfully processed webhook event: payment_method.attached [evt_1S1lWrB5u2A30G2QNzvHGzao][39m
+Sat Aug 30 2025 15:56:58 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 22.671 ms
+Sat Aug 30 2025 15:56:58 [SERVER-NAME] info: [34mReceived webhook event: setup_intent.succeeded [evt_1S1lWsB5u2A30G2Q4niPk6ni][39m
+Sat Aug 30 2025 15:56:58 [SERVER-NAME] warn: [33mUnhandled event type: setup_intent.succeeded[39m
+Sat Aug 30 2025 15:56:58 [SERVER-NAME] info: [32mSuccessfully processed webhook event: setup_intent.succeeded [evt_1S1lWsB5u2A30G2Q4niPk6ni][39m
+Sat Aug 30 2025 15:56:58 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 4.771 ms
+Sat Aug 30 2025 15:56:58 [SERVER-NAME] info: [34mReceived webhook event: setup_intent.created [evt_1S1lWsB5u2A30G2Q4BOKNvYB][39m
+Sat Aug 30 2025 15:56:58 [SERVER-NAME] warn: [33mUnhandled event type: setup_intent.created[39m
+Sat Aug 30 2025 15:56:58 [SERVER-NAME] info: [32mSuccessfully processed webhook event: setup_intent.created [evt_1S1lWsB5u2A30G2Q4BOKNvYB][39m
+Sat Aug 30 2025 15:56:58 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 0.909 ms
+Sat Aug 30 2025 15:57:1 [SERVER-NAME] info: [34mReceived webhook event: checkout.session.completed [evt_1S1lWvB5u2A30G2Q8nOuVWXl][39m
+Sat Aug 30 2025 15:57:1 [SERVER-NAME] warn: [33mUnhandled event type: checkout.session.completed[39m
+Sat Aug 30 2025 15:57:1 [SERVER-NAME] info: [32mSuccessfully processed webhook event: checkout.session.completed [evt_1S1lWvB5u2A30G2Q8nOuVWXl][39m
+Sat Aug 30 2025 15:57:1 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 3.013 ms
+Sat Aug 30 2025 15:57:2 [SERVER-NAME] info: [34mReceived webhook event: customer.updated [evt_1S1lWvB5u2A30G2QtV8AMo5j][39m
+Sat Aug 30 2025 15:57:2 [SERVER-NAME] warn: [33mUnhandled event type: customer.updated[39m
+Sat Aug 30 2025 15:57:2 [SERVER-NAME] info: [32mSuccessfully processed webhook event: customer.updated [evt_1S1lWvB5u2A30G2QtV8AMo5j][39m
+Sat Aug 30 2025 15:57:2 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 3.264 ms
+Sat Aug 30 2025 15:57:2 [SERVER-NAME] info: [34mReceived webhook event: invoice.created [evt_1S1lWvB5u2A30G2QYGCgI6PA][39m
+Sat Aug 30 2025 15:57:2 [SERVER-NAME] warn: [33mUnhandled event type: invoice.created[39m
+Sat Aug 30 2025 15:57:2 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.created [evt_1S1lWvB5u2A30G2QYGCgI6PA][39m
+Sat Aug 30 2025 15:57:2 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1.562 ms
+Sat Aug 30 2025 15:57:2 [SERVER-NAME] info: [34mReceived webhook event: invoice.finalized [evt_1S1lWwB5u2A30G2QVs9XuxsO][39m
+Sat Aug 30 2025 15:57:2 [SERVER-NAME] warn: [33mUnhandled event type: invoice.finalized[39m
+Sat Aug 30 2025 15:57:2 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.finalized [evt_1S1lWwB5u2A30G2QVs9XuxsO][39m
+Sat Aug 30 2025 15:57:2 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 3.485 ms
+Sat Aug 30 2025 15:57:2 [SERVER-NAME] info: [34mReceived webhook event: invoice.paid [evt_1S1lWwB5u2A30G2QGqHOmRmh][39m
+Sat Aug 30 2025 15:57:2 [SERVER-NAME] warn: [33mUnhandled event type: invoice.paid[39m
+Sat Aug 30 2025 15:57:2 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.paid [evt_1S1lWwB5u2A30G2QGqHOmRmh][39m
+Sat Aug 30 2025 15:57:2 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 3.245 ms
+Sat Aug 30 2025 15:57:2 [SERVER-NAME] info: [34mReceived webhook event: invoice.payment_succeeded [evt_1S1lWwB5u2A30G2Q8Awbvy1n][39m
+Sat Aug 30 2025 15:57:2 [SERVER-NAME] warn: [33mUnhandled event type: invoice.payment_succeeded[39m
+Sat Aug 30 2025 15:57:2 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.payment_succeeded [evt_1S1lWwB5u2A30G2Q8Awbvy1n][39m
+Sat Aug 30 2025 15:57:2 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 0.943 ms
+Sat Aug 30 2025 15:57:3 [SERVER-NAME] info: [34mReceived webhook event: customer.subscription.created [evt_1S1lWwB5u2A30G2QfzAS5yag][39m
+Sat Aug 30 2025 15:57:4 [SERVER-NAME] error: [31mError handling event customer.subscription.created: Error: Error in handleSubscriptionCreated: Pricing plan not found for Price ID: price_1RvX9JB5u2A30G2Q7mlvd4ih[39m
+Sat Aug 30 2025 15:57:4 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1376.418 ms
+Sat Aug 30 2025 15:57:12 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.048 ms
+Sat Aug 30 2025 15:57:12 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.219 ms
+Sat Aug 30 2025 15:57:43 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.673 ms
+Sat Aug 30 2025 15:57:43 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.982 ms
+Sat Aug 30 2025 15:58:14 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.066 ms
+Sat Aug 30 2025 15:58:14 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 11.787 ms
+Sat Aug 30 2025 15:58:45 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.063 ms
+Sat Aug 30 2025 15:58:45 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.581 ms
+Sat Aug 30 2025 15:59:16 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.096 ms
+Sat Aug 30 2025 15:59:16 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.833 ms
+Sat Aug 30 2025 15:59:47 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.142 ms
+Sat Aug 30 2025 15:59:47 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 22.045 ms
+Sat Aug 30 2025 15:59:52 [SERVER-NAME] info: [34mMaster 47896 is running[39m
+Sat Aug 30 2025 15:59:52 [SERVER-NAME] info: [34mStarting 12 workers...[39m
+Sat Aug 30 2025 15:59:56 [SERVER-NAME] info: [34mWorker 37800 started[39m
+Sat Aug 30 2025 15:59:56 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Aug 30 2025 15:59:56 [SERVER-NAME] info: [34mWorker 18928 started[39m
+Sat Aug 30 2025 15:59:56 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Aug 30 2025 15:59:56 [SERVER-NAME] info: [34mWorker 34864 started[39m
+Sat Aug 30 2025 15:59:56 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [34mWorker 48292 started[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Aug 30 2025 15:59:56 [SERVER-NAME] info: [34mWorker 58056 started[39m
+Sat Aug 30 2025 15:59:56 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [34mWorker 9936 started[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [34mWorker 46992 started[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [34mWorker 17336 started[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [34mWorker 57828 started[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [34mWorker 31360 started[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [34mWorker 47228 started[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [34mWorker 50628 started[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [32mWorker 57828 is ready to accept connections[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [32mWorker 50628 is ready to accept connections[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [32mWorker 9936 is ready to accept connections[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [32mWorker 37800 is ready to accept connections[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [32mWorker 18928 is ready to accept connections[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [32mWorker 47228 is ready to accept connections[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [32mWorker 48292 is ready to accept connections[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [32mWorker 17336 is ready to accept connections[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [32mWorker 34864 is ready to accept connections[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [32mWorker 31360 is ready to accept connections[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [32mWorker 58056 is ready to accept connections[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [32mWorker 46992 is ready to accept connections[39m
+Sat Aug 30 2025 15:59:57 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sat Aug 30 2025 15:59:59 [SERVER-NAME] warn: [33mWorker 46992 exited with error code: 1[39m
+Sat Aug 30 2025 15:59:59 [SERVER-NAME] info: [34mRestarting worker 46992 in 5000ms (attempt 1)[39m
+Sat Aug 30 2025 15:59:59 [SERVER-NAME] warn: [33mWorker 58056 exited with error code: 1[39m
+Sat Aug 30 2025 15:59:59 [SERVER-NAME] info: [34mRestarting worker 58056 in 5000ms (attempt 1)[39m
+Sat Aug 30 2025 15:59:59 [SERVER-NAME] warn: [33mWorker 37800 exited with error code: 1[39m
+Sat Aug 30 2025 15:59:59 [SERVER-NAME] info: [34mRestarting worker 37800 in 5000ms (attempt 1)[39m
+Sat Aug 30 2025 15:59:59 [SERVER-NAME] warn: [33mWorker 50628 exited with error code: 1[39m
+Sat Aug 30 2025 15:59:59 [SERVER-NAME] info: [34mRestarting worker 50628 in 5000ms (attempt 1)[39m
+Sat Aug 30 2025 15:59:59 [SERVER-NAME] warn: [33mWorker 17336 exited with error code: 1[39m
+Sat Aug 30 2025 15:59:59 [SERVER-NAME] info: [34mRestarting worker 17336 in 5000ms (attempt 1)[39m
+Sat Aug 30 2025 15:59:59 [SERVER-NAME] warn: [33mWorker 31360 exited with error code: 1[39m
+Sat Aug 30 2025 15:59:59 [SERVER-NAME] info: [34mRestarting worker 31360 in 5000ms (attempt 1)[39m
+Sat Aug 30 2025 15:59:59 [SERVER-NAME] warn: [33mWorker 9936 exited with error code: 1[39m
+Sat Aug 30 2025 15:59:59 [SERVER-NAME] info: [34mRestarting worker 9936 in 5000ms (attempt 1)[39m
+Sat Aug 30 2025 15:59:59 [SERVER-NAME] warn: [33mWorker 47228 exited with error code: 1[39m
+Sat Aug 30 2025 15:59:59 [SERVER-NAME] info: [34mRestarting worker 47228 in 5000ms (attempt 1)[39m
+Sat Aug 30 2025 15:59:59 [SERVER-NAME] warn: [33mWorker 57828 exited with error code: 1[39m
+Sat Aug 30 2025 15:59:59 [SERVER-NAME] info: [34mRestarting worker 57828 in 5000ms (attempt 1)[39m
+Sat Aug 30 2025 15:59:59 [SERVER-NAME] warn: [33mWorker 18928 exited with error code: 1[39m
+Sat Aug 30 2025 15:59:59 [SERVER-NAME] info: [34mRestarting worker 18928 in 5000ms (attempt 1)[39m
+Sat Aug 30 2025 15:59:59 [SERVER-NAME] warn: [33mWorker 48292 exited with error code: 1[39m
+Sat Aug 30 2025 15:59:59 [SERVER-NAME] info: [34mRestarting worker 48292 in 5000ms (attempt 1)[39m
+Sat Aug 30 2025 15:59:59 [SERVER-NAME] warn: [33mWorker 34864 exited with error code: 1[39m
+Sat Aug 30 2025 15:59:59 [SERVER-NAME] info: [34mRestarting worker 34864 in 5000ms (attempt 1)[39m
