@@ -474,3 +474,6 @@ Sat Aug 30 2025 16:28:1 [SERVER-NAME] info: [32mConfig validation successful.[
 Sat Aug 30 2025 16:28:1 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
 Sat Aug 30 2025 16:28:1 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
 Sat Aug 30 2025 16:28:1 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Sat Aug 30 2025 16:28:30 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 3.259 ms
+Sat Aug 30 2025 16:28:30 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 218.225 ms
+Sat Aug 30 2025 16:28:57 [SERVER-NAME] info: [34mSIGINT received. Shutting down gracefully...[39m
