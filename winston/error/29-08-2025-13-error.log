@@ -1,2 +1,0 @@
-Fri Aug 29 2025 13:3:56 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/subscription/check-access 401 - 5.166 ms
-Fri Aug 29 2025 13:3:57 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/subscription/check-access 401 - 1.400 ms

@@ -1,0 +1,348 @@
+Sat Aug 30 2025 15:0:20 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.042 ms
+Sat Aug 30 2025 15:0:20 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.303 ms
+Sat Aug 30 2025 15:0:51 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.079 ms
+Sat Aug 30 2025 15:0:51 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 7.094 ms
+Sat Aug 30 2025 15:1:22 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.053 ms
+Sat Aug 30 2025 15:1:22 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 7.833 ms
+Sat Aug 30 2025 15:1:29 [SERVER-NAME] info: [34mA user connected[39m
+Sat Aug 30 2025 15:1:53 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.085 ms
+Sat Aug 30 2025 15:1:53 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.920 ms
+Sat Aug 30 2025 15:2:24 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.055 ms
+Sat Aug 30 2025 15:2:24 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.343 ms
+Sat Aug 30 2025 15:2:55 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.080 ms
+Sat Aug 30 2025 15:2:55 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 7.139 ms
+Sat Aug 30 2025 15:3:26 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.077 ms
+Sat Aug 30 2025 15:3:26 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 7.690 ms
+Sat Aug 30 2025 15:3:57 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.104 ms
+Sat Aug 30 2025 15:3:57 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 13.107 ms
+Sat Aug 30 2025 15:4:28 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.070 ms
+Sat Aug 30 2025 15:4:28 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 15.773 ms
+Sat Aug 30 2025 15:4:59 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.071 ms
+Sat Aug 30 2025 15:4:59 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 16.558 ms
+Sat Aug 30 2025 15:5:30 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.042 ms
+Sat Aug 30 2025 15:5:30 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 12.704 ms
+Sat Aug 30 2025 15:6:1 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.063 ms
+Sat Aug 30 2025 15:6:1 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.968 ms
+Sat Aug 30 2025 15:6:32 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.099 ms
+Sat Aug 30 2025 15:6:32 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.590 ms
+Sat Aug 30 2025 15:7:3 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.878 ms
+Sat Aug 30 2025 15:7:3 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 48.753 ms
+Sat Aug 30 2025 15:7:34 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.092 ms
+Sat Aug 30 2025 15:7:34 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.892 ms
+Sat Aug 30 2025 15:8:5 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.130 ms
+Sat Aug 30 2025 15:8:5 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 22.779 ms
+Sat Aug 30 2025 15:8:36 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.069 ms
+Sat Aug 30 2025 15:8:36 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 29.425 ms
+Sat Aug 30 2025 15:9:7 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.069 ms
+Sat Aug 30 2025 15:9:7 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 7.978 ms
+Sat Aug 30 2025 15:9:38 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.057 ms
+Sat Aug 30 2025 15:9:38 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.220 ms
+Sat Aug 30 2025 15:10:9 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.065 ms
+Sat Aug 30 2025 15:10:9 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.739 ms
+Sat Aug 30 2025 15:10:40 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.119 ms
+Sat Aug 30 2025 15:10:40 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.229 ms
+Sat Aug 30 2025 15:11:11 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.058 ms
+Sat Aug 30 2025 15:11:11 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 15.977 ms
+Sat Aug 30 2025 15:11:42 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.059 ms
+Sat Aug 30 2025 15:11:42 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.078 ms
+Sat Aug 30 2025 15:12:13 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.080 ms
+Sat Aug 30 2025 15:12:13 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 12.735 ms
+Sat Aug 30 2025 15:12:44 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.070 ms
+Sat Aug 30 2025 15:12:44 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 7.349 ms
+Sat Aug 30 2025 15:13:15 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.095 ms
+Sat Aug 30 2025 15:13:15 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.506 ms
+Sat Aug 30 2025 15:13:46 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.077 ms
+Sat Aug 30 2025 15:13:46 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 11.585 ms
+Sat Aug 30 2025 15:14:17 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.059 ms
+Sat Aug 30 2025 15:14:17 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.827 ms
+Sat Aug 30 2025 15:14:48 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.061 ms
+Sat Aug 30 2025 15:14:48 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.522 ms
+Sat Aug 30 2025 15:14:49 [SERVER-NAME] info: [31mA user disconnect[39m
+Sat Aug 30 2025 15:15:3 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/user/management? 204 - 0.082 ms
+Sat Aug 30 2025 15:15:3 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/user/management? 304 - 9.258 ms
+Sat Aug 30 2025 15:15:19 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.084 ms
+Sat Aug 30 2025 15:15:19 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.703 ms
+Sat Aug 30 2025 15:15:50 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.057 ms
+Sat Aug 30 2025 15:15:50 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 12.721 ms
+Sat Aug 30 2025 15:16:21 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.085 ms
+Sat Aug 30 2025 15:16:21 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.539 ms
+Sat Aug 30 2025 15:16:52 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.052 ms
+Sat Aug 30 2025 15:16:52 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.280 ms
+Sat Aug 30 2025 15:17:23 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.051 ms
+Sat Aug 30 2025 15:17:23 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.550 ms
+Sat Aug 30 2025 15:17:54 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.057 ms
+Sat Aug 30 2025 15:17:54 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.358 ms
+Sat Aug 30 2025 15:18:25 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.081 ms
+Sat Aug 30 2025 15:18:25 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.724 ms
+Sat Aug 30 2025 15:18:56 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.067 ms
+Sat Aug 30 2025 15:18:56 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 6.537 ms
+Sat Aug 30 2025 15:19:27 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.048 ms
+Sat Aug 30 2025 15:19:27 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 6.709 ms
+Sat Aug 30 2025 15:19:58 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.055 ms
+Sat Aug 30 2025 15:19:58 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.115 ms
+Sat Aug 30 2025 15:20:29 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.061 ms
+Sat Aug 30 2025 15:20:29 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.008 ms
+Sat Aug 30 2025 15:21:0 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.057 ms
+Sat Aug 30 2025 15:21:0 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.987 ms
+Sat Aug 30 2025 15:21:31 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.065 ms
+Sat Aug 30 2025 15:21:31 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 7.713 ms
+Sat Aug 30 2025 15:22:2 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.061 ms
+Sat Aug 30 2025 15:22:2 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.252 ms
+Sat Aug 30 2025 15:22:33 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.056 ms
+Sat Aug 30 2025 15:22:33 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 6.479 ms
+Sat Aug 30 2025 15:23:4 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.066 ms
+Sat Aug 30 2025 15:23:4 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 7.007 ms
+Sat Aug 30 2025 15:23:35 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.043 ms
+Sat Aug 30 2025 15:23:35 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 12.313 ms
+Sat Aug 30 2025 15:24:6 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.070 ms
+Sat Aug 30 2025 15:24:6 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 6.848 ms
+Sat Aug 30 2025 15:24:37 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.089 ms
+Sat Aug 30 2025 15:24:37 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.309 ms
+Sat Aug 30 2025 15:25:9 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.125 ms
+Sat Aug 30 2025 15:25:9 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.875 ms
+Sat Aug 30 2025 15:25:39 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.079 ms
+Sat Aug 30 2025 15:25:39 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.384 ms
+Sat Aug 30 2025 15:26:10 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.064 ms
+Sat Aug 30 2025 15:26:10 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 6.807 ms
+Sat Aug 30 2025 15:26:41 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.065 ms
+Sat Aug 30 2025 15:26:41 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.256 ms
+Sat Aug 30 2025 15:27:12 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.047 ms
+Sat Aug 30 2025 15:27:12 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.140 ms
+Sat Aug 30 2025 15:27:34 [SERVER-NAME] info: [34mReceived webhook event: customer.created [evt_1S1l4PB5u2A30G2QvZ8yFVTI][39m
+Sat Aug 30 2025 15:27:34 [SERVER-NAME] warn: [33mUnhandled event type: customer.created[39m
+Sat Aug 30 2025 15:27:34 [SERVER-NAME] info: [32mSuccessfully processed webhook event: customer.created [evt_1S1l4PB5u2A30G2QvZ8yFVTI][39m
+Sat Aug 30 2025 15:27:34 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 32.160 ms
+Sat Aug 30 2025 15:27:43 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.056 ms
+Sat Aug 30 2025 15:27:43 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 7.349 ms
+Sat Aug 30 2025 15:28:14 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.042 ms
+Sat Aug 30 2025 15:28:14 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.226 ms
+Sat Aug 30 2025 15:28:42 [SERVER-NAME] info: [34mReceived webhook event: payment_method.attached [evt_1S1l5VB5u2A30G2QMt4rULaC][39m
+Sat Aug 30 2025 15:28:42 [SERVER-NAME] warn: [33mUnhandled event type: payment_method.attached[39m
+Sat Aug 30 2025 15:28:42 [SERVER-NAME] info: [32mSuccessfully processed webhook event: payment_method.attached [evt_1S1l5VB5u2A30G2QMt4rULaC][39m
+Sat Aug 30 2025 15:28:42 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 2.679 ms
+Sat Aug 30 2025 15:28:42 [SERVER-NAME] info: [34mReceived webhook event: setup_intent.succeeded [evt_1S1l5VB5u2A30G2Qcqvl6qFJ][39m
+Sat Aug 30 2025 15:28:42 [SERVER-NAME] warn: [33mUnhandled event type: setup_intent.succeeded[39m
+Sat Aug 30 2025 15:28:42 [SERVER-NAME] info: [32mSuccessfully processed webhook event: setup_intent.succeeded [evt_1S1l5VB5u2A30G2Qcqvl6qFJ][39m
+Sat Aug 30 2025 15:28:42 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1.938 ms
+Sat Aug 30 2025 15:28:42 [SERVER-NAME] info: [34mReceived webhook event: setup_intent.created [evt_1S1l5VB5u2A30G2QCcZhvMBN][39m
+Sat Aug 30 2025 15:28:42 [SERVER-NAME] warn: [33mUnhandled event type: setup_intent.created[39m
+Sat Aug 30 2025 15:28:42 [SERVER-NAME] info: [32mSuccessfully processed webhook event: setup_intent.created [evt_1S1l5VB5u2A30G2QCcZhvMBN][39m
+Sat Aug 30 2025 15:28:42 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 0.989 ms
+Sat Aug 30 2025 15:28:44 [SERVER-NAME] info: [34mReceived webhook event: checkout.session.completed [evt_1S1l5YB5u2A30G2QpJRDykqY][39m
+Sat Aug 30 2025 15:28:44 [SERVER-NAME] warn: [33mUnhandled event type: checkout.session.completed[39m
+Sat Aug 30 2025 15:28:44 [SERVER-NAME] info: [32mSuccessfully processed webhook event: checkout.session.completed [evt_1S1l5YB5u2A30G2QpJRDykqY][39m
+Sat Aug 30 2025 15:28:44 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 3.559 ms
+Sat Aug 30 2025 15:28:44 [SERVER-NAME] info: [34mReceived webhook event: customer.updated [evt_1S1l5YB5u2A30G2Q5akC1Y8C][39m
+Sat Aug 30 2025 15:28:44 [SERVER-NAME] warn: [33mUnhandled event type: customer.updated[39m
+Sat Aug 30 2025 15:28:44 [SERVER-NAME] info: [32mSuccessfully processed webhook event: customer.updated [evt_1S1l5YB5u2A30G2Q5akC1Y8C][39m
+Sat Aug 30 2025 15:28:44 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1.331 ms
+Sat Aug 30 2025 15:28:45 [SERVER-NAME] info: [34mReceived webhook event: invoice.created [evt_1S1l5YB5u2A30G2QAuMNYtpk][39m
+Sat Aug 30 2025 15:28:45 [SERVER-NAME] warn: [33mUnhandled event type: invoice.created[39m
+Sat Aug 30 2025 15:28:45 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.created [evt_1S1l5YB5u2A30G2QAuMNYtpk][39m
+Sat Aug 30 2025 15:28:45 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 3.495 ms
+Sat Aug 30 2025 15:28:45 [SERVER-NAME] info: [34mReceived webhook event: invoice.finalized [evt_1S1l5YB5u2A30G2QUzwkzNg3][39m
+Sat Aug 30 2025 15:28:45 [SERVER-NAME] warn: [33mUnhandled event type: invoice.finalized[39m
+Sat Aug 30 2025 15:28:45 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.finalized [evt_1S1l5YB5u2A30G2QUzwkzNg3][39m
+Sat Aug 30 2025 15:28:45 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1.203 ms
+Sat Aug 30 2025 15:28:45 [SERVER-NAME] info: [34mReceived webhook event: invoice.paid [evt_1S1l5YB5u2A30G2Q3ti0Vyho][39m
+Sat Aug 30 2025 15:28:45 [SERVER-NAME] warn: [33mUnhandled event type: invoice.paid[39m
+Sat Aug 30 2025 15:28:45 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.paid [evt_1S1l5YB5u2A30G2Q3ti0Vyho][39m
+Sat Aug 30 2025 15:28:45 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1.556 ms
+Sat Aug 30 2025 15:28:45 [SERVER-NAME] info: [34mReceived webhook event: invoice.payment_succeeded [evt_1S1l5ZB5u2A30G2Qwbp89oqe][39m
+Sat Aug 30 2025 15:28:45 [SERVER-NAME] warn: [33mUnhandled event type: invoice.payment_succeeded[39m
+Sat Aug 30 2025 15:28:45 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.payment_succeeded [evt_1S1l5ZB5u2A30G2Qwbp89oqe][39m
+Sat Aug 30 2025 15:28:45 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1.355 ms
+Sat Aug 30 2025 15:28:45 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.084 ms
+Sat Aug 30 2025 15:28:45 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 10.260 ms
+Sat Aug 30 2025 15:28:46 [SERVER-NAME] info: [34mReceived webhook event: customer.subscription.created [evt_1S1l5ZB5u2A30G2QvJzYmrJ6][39m
+Sat Aug 30 2025 15:28:47 [SERVER-NAME] error: [31mError handling event customer.subscription.created: Error: Error in handleSubscriptionCreated: User not found for email: mdjowelahmed255@gmail.com[39m
+Sat Aug 30 2025 15:28:47 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1205.841 ms
+Sat Aug 30 2025 15:29:16 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.045 ms
+Sat Aug 30 2025 15:29:16 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.716 ms
+Sat Aug 30 2025 15:29:36 [SERVER-NAME] info: [34mReceived webhook event: payment_method.attached [evt_1S1l6NB5u2A30G2QsGtPbqZN][39m
+Sat Aug 30 2025 15:29:36 [SERVER-NAME] warn: [33mUnhandled event type: payment_method.attached[39m
+Sat Aug 30 2025 15:29:36 [SERVER-NAME] info: [32mSuccessfully processed webhook event: payment_method.attached [evt_1S1l6NB5u2A30G2QsGtPbqZN][39m
+Sat Aug 30 2025 15:29:36 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1.391 ms
+Sat Aug 30 2025 15:29:36 [SERVER-NAME] info: [34mReceived webhook event: setup_intent.succeeded [evt_1S1l6NB5u2A30G2QDI2Yw4NM][39m
+Sat Aug 30 2025 15:29:36 [SERVER-NAME] warn: [33mUnhandled event type: setup_intent.succeeded[39m
+Sat Aug 30 2025 15:29:36 [SERVER-NAME] info: [32mSuccessfully processed webhook event: setup_intent.succeeded [evt_1S1l6NB5u2A30G2QDI2Yw4NM][39m
+Sat Aug 30 2025 15:29:36 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1.023 ms
+Sat Aug 30 2025 15:29:36 [SERVER-NAME] info: [34mReceived webhook event: setup_intent.created [evt_1S1l6NB5u2A30G2QxltOhJdK][39m
+Sat Aug 30 2025 15:29:36 [SERVER-NAME] warn: [33mUnhandled event type: setup_intent.created[39m
+Sat Aug 30 2025 15:29:36 [SERVER-NAME] info: [32mSuccessfully processed webhook event: setup_intent.created [evt_1S1l6NB5u2A30G2QxltOhJdK][39m
+Sat Aug 30 2025 15:29:36 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 0.856 ms
+Sat Aug 30 2025 15:29:38 [SERVER-NAME] info: [34mReceived webhook event: checkout.session.completed [evt_1S1l6QB5u2A30G2Q9CcNT9zS][39m
+Sat Aug 30 2025 15:29:38 [SERVER-NAME] warn: [33mUnhandled event type: checkout.session.completed[39m
+Sat Aug 30 2025 15:29:38 [SERVER-NAME] info: [32mSuccessfully processed webhook event: checkout.session.completed [evt_1S1l6QB5u2A30G2Q9CcNT9zS][39m
+Sat Aug 30 2025 15:29:38 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 0.970 ms
+Sat Aug 30 2025 15:29:39 [SERVER-NAME] info: [34mReceived webhook event: invoice.created [evt_1S1l6QB5u2A30G2QFCOZrsHp][39m
+Sat Aug 30 2025 15:29:39 [SERVER-NAME] warn: [33mUnhandled event type: invoice.created[39m
+Sat Aug 30 2025 15:29:39 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.created [evt_1S1l6QB5u2A30G2QFCOZrsHp][39m
+Sat Aug 30 2025 15:29:39 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1.426 ms
+Sat Aug 30 2025 15:29:39 [SERVER-NAME] info: [34mReceived webhook event: invoice.finalized [evt_1S1l6QB5u2A30G2QG0OZlgwF][39m
+Sat Aug 30 2025 15:29:39 [SERVER-NAME] warn: [33mUnhandled event type: invoice.finalized[39m
+Sat Aug 30 2025 15:29:39 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.finalized [evt_1S1l6QB5u2A30G2QG0OZlgwF][39m
+Sat Aug 30 2025 15:29:39 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1.295 ms
+Sat Aug 30 2025 15:29:39 [SERVER-NAME] info: [34mReceived webhook event: invoice.paid [evt_1S1l6RB5u2A30G2QmNOh4NM1][39m
+Sat Aug 30 2025 15:29:39 [SERVER-NAME] warn: [33mUnhandled event type: invoice.paid[39m
+Sat Aug 30 2025 15:29:39 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.paid [evt_1S1l6RB5u2A30G2QmNOh4NM1][39m
+Sat Aug 30 2025 15:29:39 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1.300 ms
+Sat Aug 30 2025 15:29:39 [SERVER-NAME] info: [34mReceived webhook event: invoice.payment_succeeded [evt_1S1l6RB5u2A30G2QUsY9SAEW][39m
+Sat Aug 30 2025 15:29:39 [SERVER-NAME] warn: [33mUnhandled event type: invoice.payment_succeeded[39m
+Sat Aug 30 2025 15:29:39 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.payment_succeeded [evt_1S1l6RB5u2A30G2QUsY9SAEW][39m
+Sat Aug 30 2025 15:29:39 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 0.921 ms
+Sat Aug 30 2025 15:29:39 [SERVER-NAME] info: [34mReceived webhook event: customer.subscription.created [evt_1S1l6RB5u2A30G2QzhAtTZNk][39m
+Sat Aug 30 2025 15:29:40 [SERVER-NAME] error: [31mError handling event customer.subscription.created: Error: Error in handleSubscriptionCreated: User not found for email: mdjowelahmed255@gmail.com[39m
+Sat Aug 30 2025 15:29:40 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 927.511 ms
+Sat Aug 30 2025 15:29:47 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.064 ms
+Sat Aug 30 2025 15:29:47 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.617 ms
+Sat Aug 30 2025 15:30:3 [SERVER-NAME] info: [34mReceived webhook event: invoice.upcoming [evt_1S1l6oB5u2A30G2QvLh4NJMy][39m
+Sat Aug 30 2025 15:30:3 [SERVER-NAME] warn: [33mUnhandled event type: invoice.upcoming[39m
+Sat Aug 30 2025 15:30:3 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.upcoming [evt_1S1l6oB5u2A30G2QvLh4NJMy][39m
+Sat Aug 30 2025 15:30:3 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 2.865 ms
+Sat Aug 30 2025 15:30:14 [SERVER-NAME] info: [34mReceived webhook event: payment_method.attached [evt_1S1l6zB5u2A30G2QyKnUTz6a][39m
+Sat Aug 30 2025 15:30:14 [SERVER-NAME] warn: [33mUnhandled event type: payment_method.attached[39m
+Sat Aug 30 2025 15:30:14 [SERVER-NAME] info: [32mSuccessfully processed webhook event: payment_method.attached [evt_1S1l6zB5u2A30G2QyKnUTz6a][39m
+Sat Aug 30 2025 15:30:14 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1.087 ms
+Sat Aug 30 2025 15:30:14 [SERVER-NAME] info: [34mReceived webhook event: setup_intent.succeeded [evt_1S1l6zB5u2A30G2QSYWdj79O][39m
+Sat Aug 30 2025 15:30:14 [SERVER-NAME] warn: [33mUnhandled event type: setup_intent.succeeded[39m
+Sat Aug 30 2025 15:30:14 [SERVER-NAME] info: [32mSuccessfully processed webhook event: setup_intent.succeeded [evt_1S1l6zB5u2A30G2QSYWdj79O][39m
+Sat Aug 30 2025 15:30:14 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1.114 ms
+Sat Aug 30 2025 15:30:14 [SERVER-NAME] info: [34mReceived webhook event: setup_intent.created [evt_1S1l6zB5u2A30G2Q6RMfqVzp][39m
+Sat Aug 30 2025 15:30:14 [SERVER-NAME] warn: [33mUnhandled event type: setup_intent.created[39m
+Sat Aug 30 2025 15:30:14 [SERVER-NAME] info: [32mSuccessfully processed webhook event: setup_intent.created [evt_1S1l6zB5u2A30G2Q6RMfqVzp][39m
+Sat Aug 30 2025 15:30:14 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1.737 ms
+Sat Aug 30 2025 15:30:17 [SERVER-NAME] info: [34mReceived webhook event: checkout.session.completed [evt_1S1l72B5u2A30G2QLFMUPhq9][39m
+Sat Aug 30 2025 15:30:17 [SERVER-NAME] warn: [33mUnhandled event type: checkout.session.completed[39m
+Sat Aug 30 2025 15:30:17 [SERVER-NAME] info: [32mSuccessfully processed webhook event: checkout.session.completed [evt_1S1l72B5u2A30G2QLFMUPhq9][39m
+Sat Aug 30 2025 15:30:17 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1.208 ms
+Sat Aug 30 2025 15:30:17 [SERVER-NAME] info: [34mReceived webhook event: invoice.created [evt_1S1l72B5u2A30G2QXonrjO0s][39m
+Sat Aug 30 2025 15:30:17 [SERVER-NAME] warn: [33mUnhandled event type: invoice.created[39m
+Sat Aug 30 2025 15:30:17 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.created [evt_1S1l72B5u2A30G2QXonrjO0s][39m
+Sat Aug 30 2025 15:30:17 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1.184 ms
+Sat Aug 30 2025 15:30:17 [SERVER-NAME] info: [34mReceived webhook event: invoice.finalized [evt_1S1l72B5u2A30G2QuhLTYXwA][39m
+Sat Aug 30 2025 15:30:17 [SERVER-NAME] warn: [33mUnhandled event type: invoice.finalized[39m
+Sat Aug 30 2025 15:30:17 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.finalized [evt_1S1l72B5u2A30G2QuhLTYXwA][39m
+Sat Aug 30 2025 15:30:17 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1.329 ms
+Sat Aug 30 2025 15:30:18 [SERVER-NAME] info: [34mReceived webhook event: invoice.paid [evt_1S1l73B5u2A30G2QSGTypQvm][39m
+Sat Aug 30 2025 15:30:18 [SERVER-NAME] warn: [33mUnhandled event type: invoice.paid[39m
+Sat Aug 30 2025 15:30:18 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.paid [evt_1S1l73B5u2A30G2QSGTypQvm][39m
+Sat Aug 30 2025 15:30:18 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1.730 ms
+Sat Aug 30 2025 15:30:18 [SERVER-NAME] info: [34mReceived webhook event: invoice.payment_succeeded [evt_1S1l73B5u2A30G2Q5R1KFeSj][39m
+Sat Aug 30 2025 15:30:18 [SERVER-NAME] warn: [33mUnhandled event type: invoice.payment_succeeded[39m
+Sat Aug 30 2025 15:30:18 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.payment_succeeded [evt_1S1l73B5u2A30G2Q5R1KFeSj][39m
+Sat Aug 30 2025 15:30:18 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1.225 ms
+Sat Aug 30 2025 15:30:18 [SERVER-NAME] info: [34mReceived webhook event: customer.subscription.created [evt_1S1l73B5u2A30G2QPx4mXznl][39m
+Sat Aug 30 2025 15:30:18 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.040 ms
+Sat Aug 30 2025 15:30:18 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 11.405 ms
+Sat Aug 30 2025 15:30:19 [SERVER-NAME] error: [31mError handling event customer.subscription.created: Error: Error in handleSubscriptionCreated: User not found for email: mdjowelahmed255@gmail.com[39m
+Sat Aug 30 2025 15:30:19 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 930.308 ms
+Sat Aug 30 2025 15:30:44 [SERVER-NAME] info: [34mReceived webhook event: invoice.upcoming [evt_1S1l7TB5u2A30G2QxooJgv6j][39m
+Sat Aug 30 2025 15:30:44 [SERVER-NAME] warn: [33mUnhandled event type: invoice.upcoming[39m
+Sat Aug 30 2025 15:30:44 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.upcoming [evt_1S1l7TB5u2A30G2QxooJgv6j][39m
+Sat Aug 30 2025 15:30:44 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 0.953 ms
+Sat Aug 30 2025 15:30:49 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.063 ms
+Sat Aug 30 2025 15:30:49 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.912 ms
+Sat Aug 30 2025 15:31:20 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.071 ms
+Sat Aug 30 2025 15:31:20 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 7.929 ms
+Sat Aug 30 2025 15:31:51 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.081 ms
+Sat Aug 30 2025 15:31:51 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.009 ms
+Sat Aug 30 2025 15:32:15 [SERVER-NAME] info: [34mReceived webhook event: payment_method.attached [evt_1S1l8wB5u2A30G2QDIXs47aR][39m
+Sat Aug 30 2025 15:32:15 [SERVER-NAME] warn: [33mUnhandled event type: payment_method.attached[39m
+Sat Aug 30 2025 15:32:15 [SERVER-NAME] info: [32mSuccessfully processed webhook event: payment_method.attached [evt_1S1l8wB5u2A30G2QDIXs47aR][39m
+Sat Aug 30 2025 15:32:15 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1.622 ms
+Sat Aug 30 2025 15:32:15 [SERVER-NAME] info: [34mReceived webhook event: setup_intent.succeeded [evt_1S1l8wB5u2A30G2QpHUVwfbb][39m
+Sat Aug 30 2025 15:32:15 [SERVER-NAME] warn: [33mUnhandled event type: setup_intent.succeeded[39m
+Sat Aug 30 2025 15:32:15 [SERVER-NAME] info: [32mSuccessfully processed webhook event: setup_intent.succeeded [evt_1S1l8wB5u2A30G2QpHUVwfbb][39m
+Sat Aug 30 2025 15:32:15 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1.058 ms
+Sat Aug 30 2025 15:32:15 [SERVER-NAME] info: [34mReceived webhook event: setup_intent.created [evt_1S1l8wB5u2A30G2QqL7XPb9Y][39m
+Sat Aug 30 2025 15:32:15 [SERVER-NAME] warn: [33mUnhandled event type: setup_intent.created[39m
+Sat Aug 30 2025 15:32:15 [SERVER-NAME] info: [32mSuccessfully processed webhook event: setup_intent.created [evt_1S1l8wB5u2A30G2QqL7XPb9Y][39m
+Sat Aug 30 2025 15:32:15 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 0.926 ms
+Sat Aug 30 2025 15:32:22 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.092 ms
+Sat Aug 30 2025 15:32:22 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 12.170 ms
+Sat Aug 30 2025 15:32:29 [SERVER-NAME] info: [34mReceived webhook event: checkout.session.completed [evt_1S1l9AB5u2A30G2QPA0uxiCu][39m
+Sat Aug 30 2025 15:32:29 [SERVER-NAME] warn: [33mUnhandled event type: checkout.session.completed[39m
+Sat Aug 30 2025 15:32:29 [SERVER-NAME] info: [32mSuccessfully processed webhook event: checkout.session.completed [evt_1S1l9AB5u2A30G2QPA0uxiCu][39m
+Sat Aug 30 2025 15:32:29 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1.243 ms
+Sat Aug 30 2025 15:32:29 [SERVER-NAME] info: [34mReceived webhook event: invoice.created [evt_1S1l9BB5u2A30G2QD8IzhyNO][39m
+Sat Aug 30 2025 15:32:29 [SERVER-NAME] warn: [33mUnhandled event type: invoice.created[39m
+Sat Aug 30 2025 15:32:29 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.created [evt_1S1l9BB5u2A30G2QD8IzhyNO][39m
+Sat Aug 30 2025 15:32:29 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1.163 ms
+Sat Aug 30 2025 15:32:29 [SERVER-NAME] info: [34mReceived webhook event: invoice.finalized [evt_1S1l9BB5u2A30G2Q5Jl20aXk][39m
+Sat Aug 30 2025 15:32:29 [SERVER-NAME] warn: [33mUnhandled event type: invoice.finalized[39m
+Sat Aug 30 2025 15:32:29 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.finalized [evt_1S1l9BB5u2A30G2Q5Jl20aXk][39m
+Sat Aug 30 2025 15:32:29 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1.050 ms
+Sat Aug 30 2025 15:32:29 [SERVER-NAME] info: [34mReceived webhook event: invoice.paid [evt_1S1l9BB5u2A30G2QUUx7kgm6][39m
+Sat Aug 30 2025 15:32:29 [SERVER-NAME] warn: [33mUnhandled event type: invoice.paid[39m
+Sat Aug 30 2025 15:32:29 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.paid [evt_1S1l9BB5u2A30G2QUUx7kgm6][39m
+Sat Aug 30 2025 15:32:29 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1.379 ms
+Sat Aug 30 2025 15:32:30 [SERVER-NAME] info: [34mReceived webhook event: invoice.payment_succeeded [evt_1S1l9BB5u2A30G2QMQLda2tg][39m
+Sat Aug 30 2025 15:32:30 [SERVER-NAME] warn: [33mUnhandled event type: invoice.payment_succeeded[39m
+Sat Aug 30 2025 15:32:30 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.payment_succeeded [evt_1S1l9BB5u2A30G2QMQLda2tg][39m
+Sat Aug 30 2025 15:32:30 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1.247 ms
+Sat Aug 30 2025 15:32:30 [SERVER-NAME] info: [34mReceived webhook event: customer.subscription.created [evt_1S1l9BB5u2A30G2Q7sQuos9e][39m
+Sat Aug 30 2025 15:32:31 [SERVER-NAME] error: [31mError handling event customer.subscription.created: Error: Error in handleSubscriptionCreated: User not found for email: mdjowelahmed255@gmail.com[39m
+Sat Aug 30 2025 15:32:31 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1072.398 ms
+Sat Aug 30 2025 15:32:38 [SERVER-NAME] info: [34mReceived webhook event: invoice.upcoming [evt_1S1l9KB5u2A30G2QZNVv4UNR][39m
+Sat Aug 30 2025 15:32:38 [SERVER-NAME] warn: [33mUnhandled event type: invoice.upcoming[39m
+Sat Aug 30 2025 15:32:38 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.upcoming [evt_1S1l9KB5u2A30G2QZNVv4UNR][39m
+Sat Aug 30 2025 15:32:38 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1.207 ms
+Sat Aug 30 2025 15:32:40 [SERVER-NAME] info: [34mReceived webhook event: invoice.upcoming [evt_1S1l9MB5u2A30G2QLcIVeMQ2][39m
+Sat Aug 30 2025 15:32:40 [SERVER-NAME] warn: [33mUnhandled event type: invoice.upcoming[39m
+Sat Aug 30 2025 15:32:40 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.upcoming [evt_1S1l9MB5u2A30G2QLcIVeMQ2][39m
+Sat Aug 30 2025 15:32:40 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 1.635 ms
+Sat Aug 30 2025 15:32:53 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.051 ms
+Sat Aug 30 2025 15:32:53 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 7.808 ms
+Sat Aug 30 2025 15:33:24 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.056 ms
+Sat Aug 30 2025 15:33:24 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 13.123 ms
+Sat Aug 30 2025 15:33:55 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.063 ms
+Sat Aug 30 2025 15:33:55 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 10.859 ms
+Sat Aug 30 2025 15:34:26 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.054 ms
+Sat Aug 30 2025 15:34:26 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.929 ms
+Sat Aug 30 2025 15:34:57 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.064 ms
+Sat Aug 30 2025 15:34:57 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 7.678 ms
+Sat Aug 30 2025 15:35:28 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.062 ms
+Sat Aug 30 2025 15:35:28 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 13.715 ms
+Sat Aug 30 2025 15:35:59 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.058 ms
+Sat Aug 30 2025 15:35:59 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 11.596 ms
+Sat Aug 30 2025 15:36:30 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 2.831 ms
+Sat Aug 30 2025 15:36:31 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 137.525 ms
+Sat Aug 30 2025 15:37:1 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.057 ms
+Sat Aug 30 2025 15:37:1 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 16.884 ms
+Sat Aug 30 2025 15:37:32 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.077 ms
+Sat Aug 30 2025 15:37:32 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 10.399 ms
+Sat Aug 30 2025 15:38:3 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.064 ms
+Sat Aug 30 2025 15:38:3 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 12.804 ms
+Sat Aug 30 2025 15:38:34 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.101 ms
+Sat Aug 30 2025 15:38:34 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 17.126 ms
+Sat Aug 30 2025 15:39:5 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.046 ms
+Sat Aug 30 2025 15:39:5 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 13.619 ms
+Sat Aug 30 2025 15:39:38 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 126.456 ms
+Sat Aug 30 2025 15:39:39 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 987.657 ms
+Sat Aug 30 2025 15:40:9 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.071 ms
+Sat Aug 30 2025 15:40:9 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 11.864 ms
+Sat Aug 30 2025 15:40:40 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.086 ms
+Sat Aug 30 2025 15:40:40 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 10.851 ms
+Sat Aug 30 2025 15:41:11 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.049 ms
+Sat Aug 30 2025 15:41:11 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 7.342 ms
+Sat Aug 30 2025 15:41:42 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.100 ms
+Sat Aug 30 2025 15:41:42 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.764 ms
+Sat Aug 30 2025 15:42:13 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.084 ms
+Sat Aug 30 2025 15:42:13 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 15.031 ms
+Sat Aug 30 2025 15:42:44 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.060 ms
+Sat Aug 30 2025 15:42:44 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.363 ms
+Sat Aug 30 2025 15:43:15 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.053 ms
+Sat Aug 30 2025 15:43:15 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 14.894 ms
+Sat Aug 30 2025 15:43:46 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.062 ms
+Sat Aug 30 2025 15:43:46 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 15.778 ms
+Sat Aug 30 2025 15:44:17 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.090 ms
+Sat Aug 30 2025 15:44:17 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 20.173 ms
+Sat Aug 30 2025 15:44:48 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.059 ms
+Sat Aug 30 2025 15:44:48 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 13.881 ms
+Sat Aug 30 2025 15:45:19 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.064 ms
+Sat Aug 30 2025 15:45:19 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.338 ms
+Sat Aug 30 2025 15:45:50 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.066 ms
+Sat Aug 30 2025 15:45:50 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 12.993 ms
+Sat Aug 30 2025 15:46:21 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.070 ms
+Sat Aug 30 2025 15:46:21 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 15.055 ms

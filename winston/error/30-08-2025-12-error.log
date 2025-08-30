@@ -8,3 +8,10 @@ Sat Aug 30 2025 12:25:21 [SERVER-NAME] error: 10.10.7.48 - POST /api/v1/users 50
 Sat Aug 30 2025 12:29:54 [SERVER-NAME] error: 10.10.7.48 - POST /api/v1/users 409 - 16.283 ms
 Sat Aug 30 2025 12:32:0 [SERVER-NAME] error: 10.10.7.48 - POST /api/v1/users 409 - 3.947 ms
 Sat Aug 30 2025 12:32:3 [SERVER-NAME] error: 10.10.7.48 - POST /api/v1/users 409 - 7.164 ms
+Sat Aug 30 2025 12:51:11 [SERVER-NAME] error: 10.10.7.48 - POST /api/v1/users 409 - 32.747 ms
+Sat Aug 30 2025 12:51:14 [SERVER-NAME] error: 10.10.7.48 - POST /api/v1/users 409 - 3.246 ms
+Sat Aug 30 2025 12:52:25 [SERVER-NAME] error: 10.10.7.48 - POST /api/v1/users 409 - 5.868 ms
+Sat Aug 30 2025 12:52:33 [SERVER-NAME] error: 10.10.7.48 - POST /api/v1/users 409 - 3.380 ms
+Sat Aug 30 2025 12:53:13 [SERVER-NAME] error: 10.10.7.48 - POST /api/v1/users 409 - 8.194 ms
+Sat Aug 30 2025 12:54:2 [SERVER-NAME] error: 10.10.7.48 - POST /api/v1/users 409 - 3.199 ms
+Sat Aug 30 2025 12:54:10 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/subscription/check-access 401 - 6.689 ms
