@@ -1,0 +1,4 @@
+Fri Aug 29 2025 21:3:0 [SERVER-NAME] info: [34mReceived webhook event: customer.created [evt_1S1TpQB5u2A30G2QGxEu3nff][39m
+Fri Aug 29 2025 21:3:0 [SERVER-NAME] warn: [33mUnhandled event type: customer.created[39m
+Fri Aug 29 2025 21:3:0 [SERVER-NAME] info: [32mSuccessfully processed webhook event: customer.created [evt_1S1TpQB5u2A30G2QGxEu3nff][39m
+Fri Aug 29 2025 21:3:0 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/stripe/webhook 200 - 15.207 ms

@@ -240,6 +240,10 @@ const deleteChallenge = async (id: string) => {
                throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, 'Error deleting video from BunnyCDN');
           }
      }
+     // Update challenge video count
+     await ChallengeCategory.findByIdAndUpdate(result.challengeId, {
+          $inc: { videoCount: -1 },
+     });
      return result;
 };
 

@@ -7,6 +7,8 @@ import mongoose from "mongoose";
 import { checkNextVideoUnlock } from "../../../../helpers/checkNExtVideoUnlock";
 import { Favorite } from "../../favorite/favorite.model";
 import { IVideos } from "./video.interface";
+import { SubCategory } from "../../subCategorys/subCategory.model";
+import { Category } from "../../category/category.model";
 
 const getFevVideosOrNot = async (videoId: string, userId: string) => {
     const favorite = await Favorite.findOne({ videoId, userId });
@@ -84,6 +86,19 @@ const deleteVideo = async (id: string) => {
     if (!result) {
         throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
     }
+    if (result.categoryId) {
+        // Update challenge video count
+        await Category.findByIdAndUpdate(result.categoryId, {
+            $inc: { videoCount: -1 },
+        });
+    }
+    if (result.subCategoryId) {
+        // Update subcategory video count
+        await SubCategory.findByIdAndUpdate(result.subCategoryId, {
+            $inc: { videoCount: -1 },
+        });
+    }
+
     return result;
 };
 const getSingleVideoFromDb = async (id: string, userId: string) => {

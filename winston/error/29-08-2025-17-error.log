@@ -46,3 +46,7 @@ Fri Aug 29 2025 17:4:50 [SERVER-NAME] error: [31mWorker 41104 uncaught exceptio
 Fri Aug 29 2025 17:4:50 [SERVER-NAME] error: [31mWorker 53648 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
 Fri Aug 29 2025 17:4:50 [SERVER-NAME] error: [31mWorker 43844 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
 Fri Aug 29 2025 17:4:50 [SERVER-NAME] error: [31mWorker 56296 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Fri Aug 29 2025 17:8:6 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/videos/68ad347d8fd1dbd4b43bb76d 404 - 8.151 ms
+Fri Aug 29 2025 17:43:10 [SERVER-NAME] error: 10.10.7.48 - POST /api/v1/challenge/mark-video-watched/68aecc63a4a145e702f5d6f2 404 - 43.501 ms
+Fri Aug 29 2025 17:56:16 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/subscription/check-access 401 - 5.586 ms
+Fri Aug 29 2025 17:56:16 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/subscription/check-access 401 - 1.111 ms

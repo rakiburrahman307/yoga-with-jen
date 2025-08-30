@@ -47,7 +47,7 @@ const deleteFavoriteVideos = async (userId: string, videoId: string) => {
 };
 
 const getAllFavoriteList = async (userId: string, query: Record<string, unknown>) => {
-     const queryBuilder = new QueryBuilder(Favorite.find({ userId }).populate('videoId', 'thumbnailUrl title duration type'), query);
+     const queryBuilder = new QueryBuilder(Favorite.find({ userId }).populate('videoId', 'thumbnailUrl title duration type description'), query);
      const favoriteList = await queryBuilder.fields().paginate().modelQuery.exec();
 
      const meta = await queryBuilder.countTotal();

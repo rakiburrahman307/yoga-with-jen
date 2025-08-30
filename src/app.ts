@@ -31,6 +31,7 @@ app.use(
                "http://10.10.7.48:3003",
                "http://10.10.7.48:3004",
                "http://10.10.7.48:3005",
+               "http://10.10.7.48:3010",
                "http://10.10.7.48:3006"],
           credentials: true,  // Allow credentials like cookies
      })
