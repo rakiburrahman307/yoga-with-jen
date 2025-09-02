@@ -1,20 +1,34 @@
 import { IContact, ICreateAccount, IHelpContact, IResetPassword, IResetPasswordByEmail } from '../types/emailTamplate';
+import getFullYear from '../utils/getFullYear';
 
 const createAccount = (values: ICreateAccount) => {
      const data = {
           to: values.email,
           subject: 'Verify your account',
-          html: `<body style="font-family: Arial, sans-serif; background-color: #f9f9f9; margin: 50px; padding: 20px; color: #555;">
-    <div style="width: 100%; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #fff; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); text-align: center;">
-        <img src="https://i.postimg.cc/6pgNvKhD/logo.png" alt="Logo" style="display: block; margin: 0 auto 20px; width:150px" />
-          <h2 style="color: #277E16; font-size: 24px; margin-bottom: 20px;">Hey! ${values.name}, Your Account Credentials</h2>
-        <div style="text-align: center;">
-            <p style="color: #555; font-size: 16px; line-height: 1.5; margin-bottom: 20px;">Your single use code is:</p>
-            <div style="background-color: #277E16; width: 120px; padding: 10px; text-align: center; border-radius: 8px; color: #fff; font-size: 25px; letter-spacing: 2px; margin: 20px auto;">${values.otp}</div>
-            <p style="color: #555; font-size: 16px; line-height: 1.5; margin-bottom: 20px;">This code is valid for 3 minutes.</p>
+          html: `<body style="font-family: 'Arial', sans-serif; background-color: #f9f9f9; margin: 0; padding: 0; color: #555;">
+    <div style="width: 100%; max-width: 600px; margin: 0 auto; padding: 30px; background-color: #fff; border-radius: 10px; box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); text-align: center;">
+        <img src="https://res.cloudinary.com/dreiyzj42/image/upload/v1756793538/Black-02_2_zfgwbr.png" alt="Logo" style="display: block; margin: 0 auto 30px; width: 140px;"/>
+        
+        <h2 style="color: #CA3939; font-size: 28px; font-weight: 700; margin-bottom: 20px;">Hello, ${values.name}!</h2>
+        
+        <p style="color: #555; font-size: 18px; line-height: 1.6; margin-bottom: 30px;">We received a request to access your account. Here is your one-time password (OTP) to complete the process:</p>
+        
+        <div style="background-color: #CA3939; width: 140px; padding: 15px; text-align: center; border-radius: 10px; color: #fff; font-size: 30px; font-weight: bold; letter-spacing: 2px; margin: 0 auto 30px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);">
+            ${values.otp}
+        </div>
+
+        <p style="color: #555; font-size: 16px; line-height: 1.6; margin-bottom: 20px;">This code is valid for 3 minutes. Please use it before it expires!</p>
+        
+        <div style="font-size: 14px; color: #777; margin-top: 40px; text-align: center;">
+            <p>If you did not request this, feel free to ignore this email.</p>
+        </div>
+        
+        <div style="margin-top: 40px; padding-top: 10px; border-top: 1px solid #f0f0f0; font-size: 14px; color: #aaa;">
+            <p>&copy; ${getFullYear()} Yoga with Jen | All rights reserved</p>    
         </div>
     </div>
-</body>`,
+</body>
+`,
      };
      return data;
 };
@@ -23,34 +37,35 @@ const contact = (values: IContact) => {
           to: values.email,
           subject: 'We’ve Received Your Message – Thank You!',
           html: `<body style="font-family: Arial, sans-serif; background-color: #f9f9f9; margin: 50px; padding: 20px; color: #555;">      
-      <div style="width: 100%; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #fff; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
-          <img src="https://res.cloudinary.com/ddhhyc6mr/image/upload/v1742293522/buzzy-box-logo.png" alt="Logo" style="display: block; margin: 0 auto 20px; width:150px" />
-          <h2 style="color: #277E16; font-size: 24px; margin-bottom: 20px; text-align: center;">Thank You for Contacting Us, ${values.name}!</h2>
-          
-          <p style="color: #555; font-size: 16px; line-height: 1.5; text-align: center;">
-              We have received your message and our team will get back to you as soon as possible.
-          </p>
-          
-          <div style="padding: 15px; background-color: #f4f4f4; border-radius: 8px; margin: 20px 0;">
-              <p style="color: #333; font-size: 16px; font-weight: bold;">Your Message Details:</p>
-              <p><strong>Name:</strong> ${values.name}</p>
-              <p><strong>Email:</strong> ${values.email}</p>
-              <p><strong>Subject:</strong> ${values.subject}</p>
-              <br/>
-              <p><strong>Message:</strong> ${values.message}</p>
-          </div>
+    <div style="width: 100%; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #fff; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+        <img src="https://res.cloudinary.com/dreiyzj42/image/upload/v1756793538/Black-02_2_zfgwbr.png" alt="Logo" style="display: block; margin: 0 auto 20px; width:150px" />
+        <h2 style="color: #CA3939; font-size: 24px; margin-bottom: 20px; text-align: center;">Thank You for Contacting Us, ${values.name}!</h2>
+        
+        <p style="color: #555; font-size: 16px; line-height: 1.5; text-align: center;">
+            We have received your message and our team will get back to you as soon as possible.
+        </p>
+        
+        <div style="padding: 15px; background-color: #f4f4f4; border-radius: 8px; margin: 20px 0;">
+            <p style="color: #333; font-size: 16px; font-weight: bold;">Your Message Details:</p>
+            <p><strong>Name:</strong> ${values.name}</p>
+            <p><strong>Email:</strong> ${values.email}</p>
+            <p><strong>Subject:</strong> ${values.subject}</p>
+            <br/>
+            <p><strong>Message:</strong> ${values.message}</p>
+        </div>
 
-          <p style="color: #555; font-size: 14px; text-align: center;">
-              If your inquiry is urgent, feel free to reach out to us directly at 
-              <a href="mailto:support@yourdomain.com" style="color: #277E16; text-decoration: none;">support@yourdomain.com</a>.
-          </p>
+        <p style="color: #555; font-size: 14px; text-align: center;">
+            If your inquiry is urgent, feel free to reach out to us directly at 
+            <a href="mailto:support@yourdomain.com" style="color: #CA3939; text-decoration: none;">support@yourdomain.com</a>.
+        </p>
 
-          <p style="color: #555; font-size: 14px; text-align: center; margin-top: 20px;">
-              Best Regards, <br/>
-              The [Your Company Name] Team
-          </p>
-      </div>
-  </body>`,
+        <p style="color: #555; font-size: 14px; text-align: center; margin-top: 20px;">
+            Best Regards, <br/>
+            The Yoga with Jen Team
+        </p>
+    </div>
+</body>
+`,
      };
      return data;
 };
@@ -59,16 +74,33 @@ const resetPassword = (values: IResetPassword) => {
           to: values.email,
           subject: 'Reset your password',
           html: `<body style="font-family: Arial, sans-serif; background-color: #f9f9f9; margin: 50px; padding: 20px; color: #555;">
-    <div style="width: 100%; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #fff; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
-        <img src="https://i.postimg.cc/6pgNvKhD/logo.png" alt="Logo" style="display: block; margin: 0 auto 20px; width:150px" />
-        <div style="text-align: center;">
-            <p style="color: #555; font-size: 16px; line-height: 1.5; margin-bottom: 20px;">Your single use code is:</p>
-            <div style="background-color: #277E16; width: 120px; padding: 10px; text-align: center; border-radius: 8px; color: #fff; font-size: 25px; letter-spacing: 2px; margin: 20px auto;">${values.otp}</div>
-            <p style="color: #555; font-size: 16px; line-height: 1.5; margin-bottom: 20px;">This code is valid for 3 minutes.</p>
-                <p style="color: #b9b4b4; font-size: 16px; line-height: 1.5; margin-bottom: 20px;text-align:left">If you didn't request this code, you can safely ignore this email. Someone else might have typed your email address by mistake.</p>
+    <div style="width: 100%; max-width: 600px; margin: 0 auto; padding: 30px; background-color: #fff; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); text-align: center;">
+        <img src="https://res.cloudinary.com/dreiyzj42/image/upload/v1756793538/Black-02_2_zfgwbr.png" alt="Logo" style="display: block; margin: 0 auto 30px; width: 150px;" />
+        
+        <h2 style="color: #CA3939; font-size: 24px; margin-bottom: 20px;">Your One-Time Code</h2>
+        
+        <p style="color: #555; font-size: 16px; line-height: 1.6; margin-bottom: 20px;">
+            Your single-use code is:
+        </p>
+        
+        <div style="background-color: #CA3939; width: 120px; padding: 15px; text-align: center; border-radius: 8px; color: #fff; font-size: 30px; letter-spacing: 2px; margin: 20px auto; font-weight: bold;">
+            ${values.otp}
         </div>
+        
+        <p style="color: #555; font-size: 16px; line-height: 1.6; margin-bottom: 20px;">
+            This code is valid for 3 minutes.
+        </p>
+        
+        <p style="color: #b9b4b4; font-size: 16px; line-height: 1.5; margin-bottom: 20px; text-align: center;">
+            If you didn't request this code, you can safely ignore this email. Someone else might have typed your email address by mistake.
+        </p>
+         <!-- Footer Section -->
+    <div style="margin-top: 40px; padding-top: 10px; border-top: 1px solid #f0f0f0; text-align: center; font-size: 14px; color: #aaa;">
+        <p>&copy; <span id="current-year"></span> Yoga with Jen | All rights reserved</p>
     </div>
-</body>`,
+    </div>
+</body>
+`,
      };
      return data;
 };
@@ -78,7 +110,7 @@ const resetPasswordByUrl = (values: IResetPasswordByEmail) => {
           subject: 'Reset Your Password',
           html: `<body style="font-family: Arial, sans-serif; background-color: #f9f9f9; margin: 50px; padding: 20px; color: #555;">
       <div style="width: 100%; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #fff; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
-        <img src="https://i.postimg.cc/6pgNvKhD/logo.png" alt="Logo" style="display: block; margin: 0 auto 20px; width:150px" />
+        <img src="https://res.cloudinary.com/dreiyzj42/image/upload/v1756793538/Black-02_2_zfgwbr.png" alt="Logo" style="display: block; margin: 0 auto 20px; width:150px" />
         <div style="text-align: center;">
           <h2 style="color: #333;">Reset Your Password</h2>
           <p style="color: #555; font-size: 16px; line-height: 1.5;">We received a request to reset your password. Click the button below to reset it:</p>
@@ -98,7 +130,7 @@ const contactFormTemplate = (values: IHelpContact) => {
           subject: 'Thank you for reaching out to us',
           html: `<body style="font-family: Arial, sans-serif; background-color: #f9f9f9; margin: 50px; padding: 20px; color: #555;">
     <div style="width: 100%; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #fff; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
-        <img src="https://i.postimg.cc/6pgNvKhD/logo.png" alt="Logo" style="display: block; margin: 0 auto 20px; width:150px" />
+        <img src="https://res.cloudinary.com/dreiyzj42/image/upload/v1756793538/Black-02_2_zfgwbr.png" alt="Logo" style="display: block; margin: 0 auto 20px; width:150px" />
         <div style="text-align: center;">
             <p style="color: #555; font-size: 16px; line-height: 1.5; margin-bottom: 20px;">Hello ${values.name},</p>
             <p style="color: #555; font-size: 16px; line-height: 1.5; margin-bottom: 20px;">Thank you for reaching out to us. We have received your message:</p>
@@ -120,17 +152,31 @@ const sendTrialWarningEmail = (user: any) => {
           to: user.email,
           subject: 'Your Free Trial Expires Tomorrow! ⏰',
           html: `<body style="font-family: Arial, sans-serif; background-color: #f9f9f9; margin: 50px; padding: 20px; color: #555;">
-        <div style="max-width: 600px; margin: 0 auto; padding: 20px; background: #fff; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
-          <h2 style="color: #333;">Your Free Trial Expires Tomorrow! ⏰</h2>
-          <p>Dear ${user.name},</p>
-          <p>Your free trial will expire tomorrow at ${user.trialExpireAt.toLocaleString()}.</p>
-          <p>Don't lose access to your progress! Subscribe now to continue enjoying all features.</p>
-          <a href="${process.env.FRONTEND_URL}/subscribe" style="background: #007bff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block;">
-            Subscribe Now
-          </a>
-          <p>Questions? Reply to this email for support.</p>
-        </div>
-      </body>`,
+    <div style="max-width: 600px; margin: 0 auto; padding: 30px; background: #fff; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); text-align: center;">
+        <h2 style="color: #CA3939; font-size: 24px; margin-bottom: 20px;">Your Free Trial Expires Tomorrow! ⏰</h2>
+        
+        <p style="font-size: 16px; line-height: 1.6; color: #555;">
+            Dear ${user.name},
+        </p>
+        
+        <p style="font-size: 16px; line-height: 1.6; color: #555; margin-bottom: 20px;">
+            Your free trial will expire tomorrow at <strong>${user.trialExpireAt.toLocaleString()}</strong>.
+        </p>
+
+        <p style="font-size: 16px; line-height: 1.6; color: #555; margin-bottom: 20px;">
+            Don't lose access to your progress! Subscribe now to continue enjoying all features.
+        </p>
+
+        <p style="font-size: 16px; line-height: 1.6; color: #555;">
+            Questions? Reply to this email for support.
+        </p>
+        
+        <div style="margin-top: 40px; padding-top: 10px; border-top: 1px solid #f0f0f0; text-align: center; font-size: 14px; color: #aaa;">
+    <p>&copy; ${getFullYear()} Yoga with Jen | All rights reserved</p>
+</div>
+    </div>
+</body>
+`,
      };
      return data;
 };
@@ -145,9 +191,6 @@ const sendEarlyWarningEmail = (user: any) => {
           <p>Hi ${user.name},</p>
           <p>You have 3 days remaining in your free trial (expires ${user.trialExpireAt.toLocaleDateString()}).</p>
           <p>Continue your journey with our premium features!</p>
-          <a href="${process.env.FRONTEND_URL}/subscribe" style="background: #28a745; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block;">
-            View Plans
-          </a>
         </div>
       </body>`,
      };
