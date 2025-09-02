@@ -1,0 +1,287 @@
+Tue Sep 02 2025 13:0:20 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.047 ms
+Tue Sep 02 2025 13:0:21 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 7.527 ms
+Tue Sep 02 2025 13:0:35 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Sep 02 2025 13:0:35 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Sep 02 2025 13:0:35 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Sep 02 2025 13:0:35 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Tue Sep 02 2025 13:0:52 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.976 ms
+Tue Sep 02 2025 13:0:52 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 45.146 ms
+Tue Sep 02 2025 13:1:22 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.291 ms
+Tue Sep 02 2025 13:1:22 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.860 ms
+Tue Sep 02 2025 13:1:44 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/quotation 204 - 0.081 ms
+Tue Sep 02 2025 13:1:44 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/challenge-category/get-all-challenge-category-for-user 204 - 0.057 ms
+Tue Sep 02 2025 13:1:44 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/today 204 - 0.047 ms
+Tue Sep 02 2025 13:1:44 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/comingSoon/latest 204 - 0.039 ms
+Tue Sep 02 2025 13:1:44 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/dailyInspiration/letest 204 - 0.061 ms
+Tue Sep 02 2025 13:1:44 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/category 204 - 0.058 ms
+Tue Sep 02 2025 13:1:44 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/quotation 304 - 33.212 ms
+Tue Sep 02 2025 13:1:44 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/dailyInspiration/letest 304 - 37.743 ms
+Tue Sep 02 2025 13:1:44 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/challenge-category/get-all-challenge-category-for-user 304 - 43.354 ms
+Tue Sep 02 2025 13:1:44 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/comingSoon/latest 304 - 45.720 ms
+Tue Sep 02 2025 13:1:44 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/today 200 - 47.863 ms
+Tue Sep 02 2025 13:1:45 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/category 304 - 44.322 ms
+Tue Sep 02 2025 13:1:45 [SERVER-NAME] info: 10.10.7.48 - GET //image/videoblocks-v1-0011_20221110-as-semenov-sport-in-the-morning-2-outdoor00000000_heeiyvvr2j_thumbnail-180_07-1756524706875.jpg 200 - 4.598 ms
+Tue Sep 02 2025 13:1:45 [SERVER-NAME] info: 10.10.7.48 - GET //image/young-woman-doing-yoga-in-nature-video-1756473709130.jpg 200 - 5.600 ms
+Tue Sep 02 2025 13:1:45 [SERVER-NAME] info: 10.10.7.48 - GET //image/young-woman-doing-yoga-in-nature-video-1756208892126.jpg 200 - 5.441 ms
+Tue Sep 02 2025 13:1:45 [SERVER-NAME] info: 10.10.7.48 - GET //image/videoblocks-v1-0011_20221110-as-semenov-sport-in-the-morning-2-outdoor00000000_heeiyvvr2j_thumbnail-180_07-1756473685907.jpg 200 - 6.183 ms
+Tue Sep 02 2025 13:1:45 [SERVER-NAME] info: 10.10.7.48 - GET //image/videoblocks-v1-0011_20221110-as-semenov-sport-in-the-morning-2-outdoor00000000_heeiyvvr2j_thumbnail-180_07-1756181438957.jpg 200 - 6.064 ms
+Tue Sep 02 2025 13:1:45 [SERVER-NAME] info: 10.10.7.48 - GET //thumbnail/videoblocks-v1-0011_20221110-as-semenov-sport-in-the-morning-2-outdoor00000000_heeiyvvr2j_thumbnail-180_07-1756526060080.jpg 200 - 2.380 ms
+Tue Sep 02 2025 13:1:45 [SERVER-NAME] info: 10.10.7.48 - GET //thumbnail/videoblocks-v1-0011_20221110-as-semenov-sport-in-the-morning-2-outdoor00000000_heeiyvvr2j_thumbnail-180_07-1756297485078.jpg 200 - 1.588 ms
+Tue Sep 02 2025 13:1:45 [SERVER-NAME] info: 10.10.7.48 - GET //thumbnail/yellow-2708363-1755692741197.jpg 200 - 2.839 ms
+Tue Sep 02 2025 13:1:46 [SERVER-NAME] info: 10.10.7.48 - GET //image/videoblocks-v1-0011_20221110-as-semenov-sport-in-the-morning-2-outdoor00000000_heeiyvvr2j_thumbnail-180_07-1756473685907.jpg 200 - 1.722 ms
+Tue Sep 02 2025 13:1:46 [SERVER-NAME] info: 10.10.7.48 - GET //image/young-woman-doing-yoga-in-nature-video-1756208892126.jpg 200 - 2.558 ms
+Tue Sep 02 2025 13:1:46 [SERVER-NAME] info: 10.10.7.48 - GET //image/videoblocks-v1-0011_20221110-as-semenov-sport-in-the-morning-2-outdoor00000000_heeiyvvr2j_thumbnail-180_07-1756181438957.jpg 200 - 2.686 ms
+Tue Sep 02 2025 13:1:46 [SERVER-NAME] info: 10.10.7.48 - GET //image/videoblocks-v1-0011_20221110-as-semenov-sport-in-the-morning-2-outdoor00000000_heeiyvvr2j_thumbnail-180_07-1756524706875.jpg 200 - 0.467 ms
+Tue Sep 02 2025 13:1:46 [SERVER-NAME] info: 10.10.7.48 - GET //image/young-woman-doing-yoga-in-nature-video-1756473709130.jpg 200 - 0.350 ms
+Tue Sep 02 2025 13:1:46 [SERVER-NAME] info: 10.10.7.48 - GET //thumbnail/link---zoanthids-%C3%A2%C2%86%C2%92-coralstashicon2.png-1754911760194.png 200 - 1.274 ms
+Tue Sep 02 2025 13:1:47 [SERVER-NAME] info: 10.10.7.48 - GET //thumbnail/link---zoanthids-%C3%A2%C2%86%C2%92-coralstashicon2.png-1754911760194.png 200 - 0.561 ms
+Tue Sep 02 2025 13:1:49 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Sep 02 2025 13:1:49 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Sep 02 2025 13:1:49 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Sep 02 2025 13:1:49 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Tue Sep 02 2025 13:1:51 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Sep 02 2025 13:1:52 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Sep 02 2025 13:1:52 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Sep 02 2025 13:1:52 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Tue Sep 02 2025 13:1:52 [SERVER-NAME] info: 10.10.7.48 - GET //image/young-woman-doing-yoga-in-nature-video-1756208892126.jpg 200 - 4.876 ms
+Tue Sep 02 2025 13:1:52 [SERVER-NAME] info: 10.10.7.48 - GET //thumbnail/videoblocks-v1-0011_20221110-as-semenov-sport-in-the-morning-2-outdoor00000000_heeiyvvr2j_thumbnail-180_07-1756526060080.jpg 200 - 3.997 ms
+Tue Sep 02 2025 13:1:52 [SERVER-NAME] info: 10.10.7.48 - GET //image/young-woman-doing-yoga-in-nature-video-1756473709130.jpg 200 - 4.169 ms
+Tue Sep 02 2025 13:1:52 [SERVER-NAME] info: 10.10.7.48 - GET //image/videoblocks-v1-0011_20221110-as-semenov-sport-in-the-morning-2-outdoor00000000_heeiyvvr2j_thumbnail-180_07-1756524706875.jpg 200 - 4.001 ms
+Tue Sep 02 2025 13:1:52 [SERVER-NAME] info: 10.10.7.48 - GET //thumbnail/videoblocks-v1-0011_20221110-as-semenov-sport-in-the-morning-2-outdoor00000000_heeiyvvr2j_thumbnail-180_07-1756526060080.jpg 200 - 4.901 ms
+Tue Sep 02 2025 13:1:52 [SERVER-NAME] info: 10.10.7.48 - GET //image/videoblocks-v1-0011_20221110-as-semenov-sport-in-the-morning-2-outdoor00000000_heeiyvvr2j_thumbnail-180_07-1756473685907.jpg 200 - 5.393 ms
+Tue Sep 02 2025 13:1:52 [SERVER-NAME] info: 10.10.7.48 - GET //thumbnail/videoblocks-v1-0011_20221110-as-semenov-sport-in-the-morning-2-outdoor00000000_heeiyvvr2j_thumbnail-180_07-1756297485078.jpg 200 - 5.739 ms
+Tue Sep 02 2025 13:1:52 [SERVER-NAME] info: 10.10.7.48 - GET //image/videoblocks-v1-0011_20221110-as-semenov-sport-in-the-morning-2-outdoor00000000_heeiyvvr2j_thumbnail-180_07-1756181438957.jpg 200 - 5.755 ms
+Tue Sep 02 2025 13:1:52 [SERVER-NAME] info: 10.10.7.48 - GET //thumbnail/videoblocks-v1-0011_20221110-as-semenov-sport-in-the-morning-2-outdoor00000000_heeiyvvr2j_thumbnail-180_07-1756297485078.jpg 200 - 4.673 ms
+Tue Sep 02 2025 13:1:52 [SERVER-NAME] info: 10.10.7.48 - GET //thumbnail/link---zoanthids-%C3%A2%C2%86%C2%92-coralstashicon2.png-1754911760194.png 200 - 5.955 ms
+Tue Sep 02 2025 13:1:52 [SERVER-NAME] info: 10.10.7.48 - GET //thumbnail/yellow-2708363-1755692741197.jpg 200 - 5.875 ms
+Tue Sep 02 2025 13:1:52 [SERVER-NAME] info: 10.10.7.48 - GET //thumbnail/yellow-2708363-1755692741197.jpg 200 - 5.052 ms
+Tue Sep 02 2025 13:1:53 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.162 ms
+Tue Sep 02 2025 13:1:53 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 32.973 ms
+Tue Sep 02 2025 13:1:55 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Sep 02 2025 13:1:55 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Sep 02 2025 13:1:55 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Sep 02 2025 13:1:55 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Tue Sep 02 2025 13:2:1 [SERVER-NAME] info: 10.10.7.48 - GET //image/videoblocks-v1-0011_20221110-as-semenov-sport-in-the-morning-2-outdoor00000000_heeiyvvr2j_thumbnail-180_07-1756524706875.jpg 200 - 4.335 ms
+Tue Sep 02 2025 13:2:1 [SERVER-NAME] info: 10.10.7.48 - GET //image/young-woman-doing-yoga-in-nature-video-1756473709130.jpg 200 - 4.931 ms
+Tue Sep 02 2025 13:2:1 [SERVER-NAME] info: 10.10.7.48 - GET //image/videoblocks-v1-0011_20221110-as-semenov-sport-in-the-morning-2-outdoor00000000_heeiyvvr2j_thumbnail-180_07-1756473685907.jpg 200 - 5.219 ms
+Tue Sep 02 2025 13:2:1 [SERVER-NAME] info: 10.10.7.48 - GET //image/young-woman-doing-yoga-in-nature-video-1756208892126.jpg 200 - 6.054 ms
+Tue Sep 02 2025 13:2:1 [SERVER-NAME] info: 10.10.7.48 - GET //image/videoblocks-v1-0011_20221110-as-semenov-sport-in-the-morning-2-outdoor00000000_heeiyvvr2j_thumbnail-180_07-1756181438957.jpg 200 - 6.259 ms
+Tue Sep 02 2025 13:2:23 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.149 ms
+Tue Sep 02 2025 13:2:23 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 37.815 ms
+Tue Sep 02 2025 13:2:29 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/favorite 204 - 0.359 ms
+Tue Sep 02 2025 13:2:29 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/favorite 200 - 14.013 ms
+Tue Sep 02 2025 13:2:43 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/community/leaderboard 204 - 0.140 ms
+Tue Sep 02 2025 13:2:43 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/community?page=1&limit=10 204 - 0.113 ms
+Tue Sep 02 2025 13:2:43 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/community/leaderboard 200 - 32.066 ms
+Tue Sep 02 2025 13:2:43 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/community?page=1&limit=10 200 - 34.498 ms
+Tue Sep 02 2025 13:2:43 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/post/letest 204 - 0.132 ms
+Tue Sep 02 2025 13:2:43 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/post/letest 200 - 8.711 ms
+Tue Sep 02 2025 13:2:43 [SERVER-NAME] info: 10.10.7.48 - GET //image/young-woman-doing-yoga-in-nature-video-1756444315398.jpg 200 - 2.159 ms
+Tue Sep 02 2025 13:2:53 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.054 ms
+Tue Sep 02 2025 13:2:53 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.169 ms
+Tue Sep 02 2025 13:3:23 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.108 ms
+Tue Sep 02 2025 13:3:24 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 15.694 ms
+Tue Sep 02 2025 13:3:54 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.081 ms
+Tue Sep 02 2025 13:3:54 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 10.228 ms
+Tue Sep 02 2025 13:4:25 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.076 ms
+Tue Sep 02 2025 13:4:25 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 10.302 ms
+Tue Sep 02 2025 13:4:56 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.091 ms
+Tue Sep 02 2025 13:4:56 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 7.426 ms
+Tue Sep 02 2025 13:5:21 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/subscription/details 204 - 0.067 ms
+Tue Sep 02 2025 13:5:22 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/subscription/details 200 - 646.237 ms
+Tue Sep 02 2025 13:5:26 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.062 ms
+Tue Sep 02 2025 13:5:26 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.844 ms
+Tue Sep 02 2025 13:5:56 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.054 ms
+Tue Sep 02 2025 13:5:56 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 7.982 ms
+Tue Sep 02 2025 13:6:26 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.092 ms
+Tue Sep 02 2025 13:6:26 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.668 ms
+Tue Sep 02 2025 13:6:29 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.188 ms
+Tue Sep 02 2025 13:6:29 [SERVER-NAME] info: 10.10.7.48 - PATCH /api/v1/users/profile 200 - 31.157 ms
+Tue Sep 02 2025 13:6:35 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/subscription/check-access 204 - 0.065 ms
+Tue Sep 02 2025 13:6:35 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/subscription/check-access 304 - 10.277 ms
+Tue Sep 02 2025 13:6:35 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.063 ms
+Tue Sep 02 2025 13:6:35 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.054 ms
+Tue Sep 02 2025 13:6:35 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/subscription/details 204 - 0.041 ms
+Tue Sep 02 2025 13:6:35 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 200 - 9.003 ms
+Tue Sep 02 2025 13:6:35 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 17.018 ms
+Tue Sep 02 2025 13:6:35 [SERVER-NAME] info: 10.10.7.48 - GET //image/image-(4)-1756796789144.png 200 - 6.744 ms
+Tue Sep 02 2025 13:6:35 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/subscription/details 304 - 316.786 ms
+Tue Sep 02 2025 13:6:35 [SERVER-NAME] info: 10.10.7.48 - GET //image/image-(4)-1756796789144.png 200 - 6.470 ms
+Tue Sep 02 2025 13:7:5 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.059 ms
+Tue Sep 02 2025 13:7:5 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.753 ms
+Tue Sep 02 2025 13:7:36 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.061 ms
+Tue Sep 02 2025 13:7:36 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 10.927 ms
+Tue Sep 02 2025 13:8:7 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.062 ms
+Tue Sep 02 2025 13:8:7 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.210 ms
+Tue Sep 02 2025 13:8:38 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.077 ms
+Tue Sep 02 2025 13:8:38 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 10.775 ms
+Tue Sep 02 2025 13:8:58 [SERVER-NAME] info: [34mReceived webhook event: customer.created [evt_1S2oKvB5u2A30G2QyzA7MVn9][39m
+Tue Sep 02 2025 13:8:58 [SERVER-NAME] warn: [33mUnhandled event type: customer.created[39m
+Tue Sep 02 2025 13:8:58 [SERVER-NAME] info: [32mSuccessfully processed webhook event: customer.created [evt_1S2oKvB5u2A30G2QyzA7MVn9][39m
+Tue Sep 02 2025 13:9:9 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.073 ms
+Tue Sep 02 2025 13:9:10 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.579 ms
+Tue Sep 02 2025 13:9:40 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.052 ms
+Tue Sep 02 2025 13:9:41 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 10.300 ms
+Tue Sep 02 2025 13:10:11 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.063 ms
+Tue Sep 02 2025 13:10:11 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.032 ms
+Tue Sep 02 2025 13:10:42 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.059 ms
+Tue Sep 02 2025 13:10:42 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 7.385 ms
+Tue Sep 02 2025 13:10:54 [SERVER-NAME] info: 10.10.7.48 - GET //image/image-(4)-1756796789144.png 200 - 2.736 ms
+Tue Sep 02 2025 13:11:5 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.050 ms
+Tue Sep 02 2025 13:11:5 [SERVER-NAME] info: 10.10.7.48 - PATCH /api/v1/users/profile 200 - 54.272 ms
+Tue Sep 02 2025 13:11:10 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/subscription/check-access 204 - 0.150 ms
+Tue Sep 02 2025 13:11:10 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/subscription/check-access 304 - 16.005 ms
+Tue Sep 02 2025 13:11:10 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.149 ms
+Tue Sep 02 2025 13:11:10 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/subscription/details 204 - 0.099 ms
+Tue Sep 02 2025 13:11:10 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.105 ms
+Tue Sep 02 2025 13:11:10 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 200 - 8.215 ms
+Tue Sep 02 2025 13:11:10 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 65.739 ms
+Tue Sep 02 2025 13:11:10 [SERVER-NAME] info: 10.10.7.48 - GET //image/videoblocks-v1-0011_20221110-as-semenov-sport-in-the-morning-2-outdoor00000000_heeiyvvr2j_thumbnail-180_07-1756797065170.jpg 200 - 0.722 ms
+Tue Sep 02 2025 13:11:10 [SERVER-NAME] info: 10.10.7.48 - GET //image/videoblocks-v1-0011_20221110-as-semenov-sport-in-the-morning-2-outdoor00000000_heeiyvvr2j_thumbnail-180_07-1756797065170.jpg 200 - 1.551 ms
+Tue Sep 02 2025 13:11:11 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/subscription/details 304 - 539.412 ms
+Tue Sep 02 2025 13:11:41 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.066 ms
+Tue Sep 02 2025 13:11:42 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.972 ms
+Tue Sep 02 2025 13:12:12 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.104 ms
+Tue Sep 02 2025 13:12:12 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.168 ms
+Tue Sep 02 2025 13:12:43 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.102 ms
+Tue Sep 02 2025 13:12:44 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 12.228 ms
+Tue Sep 02 2025 13:13:14 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.060 ms
+Tue Sep 02 2025 13:13:14 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.329 ms
+Tue Sep 02 2025 13:13:45 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.066 ms
+Tue Sep 02 2025 13:13:46 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 17.955 ms
+Tue Sep 02 2025 13:14:16 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.070 ms
+Tue Sep 02 2025 13:14:16 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.001 ms
+Tue Sep 02 2025 13:14:47 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.081 ms
+Tue Sep 02 2025 13:14:47 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.177 ms
+Tue Sep 02 2025 13:15:10 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/subscription/check-access 204 - 0.063 ms
+Tue Sep 02 2025 13:15:10 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/subscription/check-access 304 - 126.327 ms
+Tue Sep 02 2025 13:15:10 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.061 ms
+Tue Sep 02 2025 13:15:10 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.039 ms
+Tue Sep 02 2025 13:15:10 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/subscription/details 204 - 0.058 ms
+Tue Sep 02 2025 13:15:10 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 31.618 ms
+Tue Sep 02 2025 13:15:10 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 149.460 ms
+Tue Sep 02 2025 13:15:10 [SERVER-NAME] info: 10.10.7.48 - GET //image/videoblocks-v1-0011_20221110-as-semenov-sport-in-the-morning-2-outdoor00000000_heeiyvvr2j_thumbnail-180_07-1756797065170.jpg 200 - 5.165 ms
+Tue Sep 02 2025 13:15:10 [SERVER-NAME] info: 10.10.7.48 - GET //image/videoblocks-v1-0011_20221110-as-semenov-sport-in-the-morning-2-outdoor00000000_heeiyvvr2j_thumbnail-180_07-1756797065170.jpg 200 - 10.298 ms
+Tue Sep 02 2025 13:15:11 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/subscription/details 304 - 600.203 ms
+Tue Sep 02 2025 13:15:21 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.050 ms
+Tue Sep 02 2025 13:15:21 [SERVER-NAME] info: 10.10.7.48 - PATCH /api/v1/users/profile 200 - 52.606 ms
+Tue Sep 02 2025 13:15:21 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 200 - 6.530 ms
+Tue Sep 02 2025 13:15:21 [SERVER-NAME] info: 10.10.7.48 - GET //image/group-people-doing-yoga-summer-park_380164-270254-1756797321736.jpg 200 - 1.523 ms
+Tue Sep 02 2025 13:15:21 [SERVER-NAME] info: 10.10.7.48 - GET //image/group-people-doing-yoga-summer-park_380164-270254-1756797321736.jpg 200 - 1.830 ms
+Tue Sep 02 2025 13:15:40 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.062 ms
+Tue Sep 02 2025 13:15:41 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 10.763 ms
+Tue Sep 02 2025 13:16:11 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.054 ms
+Tue Sep 02 2025 13:16:12 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 10.613 ms
+Tue Sep 02 2025 13:16:42 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.098 ms
+Tue Sep 02 2025 13:16:43 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 7.767 ms
+Tue Sep 02 2025 13:17:13 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.081 ms
+Tue Sep 02 2025 13:17:14 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 18.728 ms
+Tue Sep 02 2025 13:17:44 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.070 ms
+Tue Sep 02 2025 13:17:45 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 23.579 ms
+Tue Sep 02 2025 13:18:15 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.064 ms
+Tue Sep 02 2025 13:18:15 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.939 ms
+Tue Sep 02 2025 13:18:46 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.063 ms
+Tue Sep 02 2025 13:18:46 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 7.485 ms
+Tue Sep 02 2025 13:19:17 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.046 ms
+Tue Sep 02 2025 13:19:18 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 12.479 ms
+Tue Sep 02 2025 13:19:48 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.049 ms
+Tue Sep 02 2025 13:19:48 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.673 ms
+Tue Sep 02 2025 13:20:19 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.063 ms
+Tue Sep 02 2025 13:20:20 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.559 ms
+Tue Sep 02 2025 13:20:50 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.473 ms
+Tue Sep 02 2025 13:20:50 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.394 ms
+Tue Sep 02 2025 13:21:21 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.067 ms
+Tue Sep 02 2025 13:21:22 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.980 ms
+Tue Sep 02 2025 13:21:52 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.097 ms
+Tue Sep 02 2025 13:21:53 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 11.338 ms
+Tue Sep 02 2025 13:22:23 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.085 ms
+Tue Sep 02 2025 13:22:23 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 11.954 ms
+Tue Sep 02 2025 13:22:54 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.060 ms
+Tue Sep 02 2025 13:22:55 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 15.684 ms
+Tue Sep 02 2025 13:23:25 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.059 ms
+Tue Sep 02 2025 13:23:26 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.850 ms
+Tue Sep 02 2025 13:23:56 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.063 ms
+Tue Sep 02 2025 13:23:56 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 7.909 ms
+Tue Sep 02 2025 13:24:27 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.106 ms
+Tue Sep 02 2025 13:24:27 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 10.881 ms
+Tue Sep 02 2025 13:24:58 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.072 ms
+Tue Sep 02 2025 13:24:59 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 36.074 ms
+Tue Sep 02 2025 13:25:8 [SERVER-NAME] info: [34mReceived webhook event: setup_intent.requires_action [evt_1S2oaZB5u2A30G2QqrLpKUGz][39m
+Tue Sep 02 2025 13:25:8 [SERVER-NAME] warn: [33mUnhandled event type: setup_intent.requires_action[39m
+Tue Sep 02 2025 13:25:8 [SERVER-NAME] info: [32mSuccessfully processed webhook event: setup_intent.requires_action [evt_1S2oaZB5u2A30G2QqrLpKUGz][39m
+Tue Sep 02 2025 13:25:9 [SERVER-NAME] info: [34mReceived webhook event: setup_intent.created [evt_1S2oaaB5u2A30G2Q23lRNQtn][39m
+Tue Sep 02 2025 13:25:9 [SERVER-NAME] warn: [33mUnhandled event type: setup_intent.created[39m
+Tue Sep 02 2025 13:25:9 [SERVER-NAME] info: [32mSuccessfully processed webhook event: setup_intent.created [evt_1S2oaaB5u2A30G2Q23lRNQtn][39m
+Tue Sep 02 2025 13:25:29 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.087 ms
+Tue Sep 02 2025 13:25:29 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.858 ms
+Tue Sep 02 2025 13:25:57 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/auth/forget-password 204 - 0.048 ms
+Tue Sep 02 2025 13:28:37 [SERVER-NAME] info: [34mReceived webhook event: setup_intent.requires_action [evt_1S2odwB5u2A30G2QBBVTEp8f][39m
+Tue Sep 02 2025 13:28:37 [SERVER-NAME] warn: [33mUnhandled event type: setup_intent.requires_action[39m
+Tue Sep 02 2025 13:28:37 [SERVER-NAME] info: [32mSuccessfully processed webhook event: setup_intent.requires_action [evt_1S2odwB5u2A30G2QBBVTEp8f][39m
+Tue Sep 02 2025 13:28:37 [SERVER-NAME] info: [34mReceived webhook event: setup_intent.created [evt_1S2odwB5u2A30G2Qk9jfS821][39m
+Tue Sep 02 2025 13:28:37 [SERVER-NAME] warn: [33mUnhandled event type: setup_intent.created[39m
+Tue Sep 02 2025 13:28:37 [SERVER-NAME] info: [32mSuccessfully processed webhook event: setup_intent.created [evt_1S2odwB5u2A30G2Qk9jfS821][39m
+Tue Sep 02 2025 13:28:44 [SERVER-NAME] info: [34mReceived webhook event: payment_method.attached [evt_1S2oe3B5u2A30G2QCd9lVg30][39m
+Tue Sep 02 2025 13:28:44 [SERVER-NAME] warn: [33mUnhandled event type: payment_method.attached[39m
+Tue Sep 02 2025 13:28:44 [SERVER-NAME] info: [32mSuccessfully processed webhook event: payment_method.attached [evt_1S2oe3B5u2A30G2QCd9lVg30][39m
+Tue Sep 02 2025 13:28:44 [SERVER-NAME] info: [34mReceived webhook event: setup_intent.succeeded [evt_1S2oe3B5u2A30G2QA1WcbgaN][39m
+Tue Sep 02 2025 13:28:44 [SERVER-NAME] warn: [33mUnhandled event type: setup_intent.succeeded[39m
+Tue Sep 02 2025 13:28:44 [SERVER-NAME] info: [32mSuccessfully processed webhook event: setup_intent.succeeded [evt_1S2oe3B5u2A30G2QA1WcbgaN][39m
+Tue Sep 02 2025 13:28:44 [SERVER-NAME] info: [34mReceived webhook event: mandate.updated [evt_1S2oe3B5u2A30G2QA6Q5r3Ly][39m
+Tue Sep 02 2025 13:28:44 [SERVER-NAME] warn: [33mUnhandled event type: mandate.updated[39m
+Tue Sep 02 2025 13:28:44 [SERVER-NAME] info: [32mSuccessfully processed webhook event: mandate.updated [evt_1S2oe3B5u2A30G2QA6Q5r3Ly][39m
+Tue Sep 02 2025 13:28:55 [SERVER-NAME] info: [34mReceived webhook event: checkout.session.completed [evt_1S2oeEB5u2A30G2QapWzt2eo][39m
+Tue Sep 02 2025 13:28:55 [SERVER-NAME] warn: [33mUnhandled event type: checkout.session.completed[39m
+Tue Sep 02 2025 13:28:55 [SERVER-NAME] info: [32mSuccessfully processed webhook event: checkout.session.completed [evt_1S2oeEB5u2A30G2QapWzt2eo][39m
+Tue Sep 02 2025 13:28:55 [SERVER-NAME] info: [34mReceived webhook event: customer.updated [evt_1S2oeEB5u2A30G2QYlJyHDMY][39m
+Tue Sep 02 2025 13:28:55 [SERVER-NAME] warn: [33mUnhandled event type: customer.updated[39m
+Tue Sep 02 2025 13:28:55 [SERVER-NAME] info: [32mSuccessfully processed webhook event: customer.updated [evt_1S2oeEB5u2A30G2QYlJyHDMY][39m
+Tue Sep 02 2025 13:28:56 [SERVER-NAME] info: [34mReceived webhook event: invoice.created [evt_1S2oeFB5u2A30G2QzJvbAzCm][39m
+Tue Sep 02 2025 13:28:56 [SERVER-NAME] warn: [33mUnhandled event type: invoice.created[39m
+Tue Sep 02 2025 13:28:56 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.created [evt_1S2oeFB5u2A30G2QzJvbAzCm][39m
+Tue Sep 02 2025 13:28:56 [SERVER-NAME] info: [34mReceived webhook event: invoice.finalized [evt_1S2oeFB5u2A30G2QiCQEyIKJ][39m
+Tue Sep 02 2025 13:28:56 [SERVER-NAME] warn: [33mUnhandled event type: invoice.finalized[39m
+Tue Sep 02 2025 13:28:56 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.finalized [evt_1S2oeFB5u2A30G2QiCQEyIKJ][39m
+Tue Sep 02 2025 13:28:56 [SERVER-NAME] info: [34mReceived webhook event: invoice.paid [evt_1S2oeFB5u2A30G2QIt17wBNP][39m
+Tue Sep 02 2025 13:28:56 [SERVER-NAME] warn: [33mUnhandled event type: invoice.paid[39m
+Tue Sep 02 2025 13:28:56 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.paid [evt_1S2oeFB5u2A30G2QIt17wBNP][39m
+Tue Sep 02 2025 13:28:56 [SERVER-NAME] info: [34mReceived webhook event: invoice.payment_succeeded [evt_1S2oeFB5u2A30G2QYElIvSY0][39m
+Tue Sep 02 2025 13:28:56 [SERVER-NAME] warn: [33mUnhandled event type: invoice.payment_succeeded[39m
+Tue Sep 02 2025 13:28:56 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.payment_succeeded [evt_1S2oeFB5u2A30G2QYElIvSY0][39m
+Tue Sep 02 2025 13:28:56 [SERVER-NAME] info: [34mReceived webhook event: customer.subscription.created [evt_1S2oeFB5u2A30G2Q6r9yTLPK][39m
+Tue Sep 02 2025 13:28:57 [SERVER-NAME] error: [31mError handling event customer.subscription.created: Error: Error in handleSubscriptionCreated: User not found for email: emu43684@aminating.com[39m
+Tue Sep 02 2025 13:29:40 [SERVER-NAME] info: [34mReceived webhook event: invoice.upcoming [evt_1S2oexB5u2A30G2QqYHz7Pk6][39m
+Tue Sep 02 2025 13:29:40 [SERVER-NAME] warn: [33mUnhandled event type: invoice.upcoming[39m
+Tue Sep 02 2025 13:29:40 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.upcoming [evt_1S2oexB5u2A30G2QqYHz7Pk6][39m
+Tue Sep 02 2025 13:32:33 [SERVER-NAME] info: [34mReceived webhook event: payment_method.attached [evt_1S2ohkB5u2A30G2QbkziNW5k][39m
+Tue Sep 02 2025 13:32:33 [SERVER-NAME] warn: [33mUnhandled event type: payment_method.attached[39m
+Tue Sep 02 2025 13:32:33 [SERVER-NAME] info: [32mSuccessfully processed webhook event: payment_method.attached [evt_1S2ohkB5u2A30G2QbkziNW5k][39m
+Tue Sep 02 2025 13:32:33 [SERVER-NAME] info: [34mReceived webhook event: setup_intent.succeeded [evt_1S2ohkB5u2A30G2QXuslkejK][39m
+Tue Sep 02 2025 13:32:33 [SERVER-NAME] warn: [33mUnhandled event type: setup_intent.succeeded[39m
+Tue Sep 02 2025 13:32:33 [SERVER-NAME] info: [32mSuccessfully processed webhook event: setup_intent.succeeded [evt_1S2ohkB5u2A30G2QXuslkejK][39m
+Tue Sep 02 2025 13:32:33 [SERVER-NAME] info: [34mReceived webhook event: setup_intent.created [evt_1S2ohkB5u2A30G2QaLMjhcUi][39m
+Tue Sep 02 2025 13:32:33 [SERVER-NAME] warn: [33mUnhandled event type: setup_intent.created[39m
+Tue Sep 02 2025 13:32:33 [SERVER-NAME] info: [32mSuccessfully processed webhook event: setup_intent.created [evt_1S2ohkB5u2A30G2QaLMjhcUi][39m
+Tue Sep 02 2025 13:32:36 [SERVER-NAME] info: [34mReceived webhook event: checkout.session.completed [evt_1S2ohnB5u2A30G2QhTzjdhMU][39m
+Tue Sep 02 2025 13:32:36 [SERVER-NAME] warn: [33mUnhandled event type: checkout.session.completed[39m
+Tue Sep 02 2025 13:32:36 [SERVER-NAME] info: [32mSuccessfully processed webhook event: checkout.session.completed [evt_1S2ohnB5u2A30G2QhTzjdhMU][39m
+Tue Sep 02 2025 13:32:36 [SERVER-NAME] info: [34mReceived webhook event: customer.updated [evt_1S2ohnB5u2A30G2Q5eSAFogS][39m
+Tue Sep 02 2025 13:32:36 [SERVER-NAME] warn: [33mUnhandled event type: customer.updated[39m
+Tue Sep 02 2025 13:32:36 [SERVER-NAME] info: [32mSuccessfully processed webhook event: customer.updated [evt_1S2ohnB5u2A30G2Q5eSAFogS][39m
+Tue Sep 02 2025 13:32:36 [SERVER-NAME] info: [34mReceived webhook event: invoice.created [evt_1S2ohnB5u2A30G2Qm5c5VeK5][39m
+Tue Sep 02 2025 13:32:36 [SERVER-NAME] warn: [33mUnhandled event type: invoice.created[39m
+Tue Sep 02 2025 13:32:36 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.created [evt_1S2ohnB5u2A30G2Qm5c5VeK5][39m
+Tue Sep 02 2025 13:32:37 [SERVER-NAME] info: [34mReceived webhook event: invoice.finalized [evt_1S2ohoB5u2A30G2Qr6GT6YPS][39m
+Tue Sep 02 2025 13:32:37 [SERVER-NAME] warn: [33mUnhandled event type: invoice.finalized[39m
+Tue Sep 02 2025 13:32:37 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.finalized [evt_1S2ohoB5u2A30G2Qr6GT6YPS][39m
+Tue Sep 02 2025 13:32:37 [SERVER-NAME] info: [34mReceived webhook event: invoice.paid [evt_1S2ohoB5u2A30G2Qm4LLeb4l][39m
+Tue Sep 02 2025 13:32:37 [SERVER-NAME] warn: [33mUnhandled event type: invoice.paid[39m
+Tue Sep 02 2025 13:32:37 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.paid [evt_1S2ohoB5u2A30G2Qm4LLeb4l][39m
+Tue Sep 02 2025 13:32:37 [SERVER-NAME] info: [34mReceived webhook event: invoice.payment_succeeded [evt_1S2ohoB5u2A30G2QX3GstPsN][39m
+Tue Sep 02 2025 13:32:37 [SERVER-NAME] warn: [33mUnhandled event type: invoice.payment_succeeded[39m
+Tue Sep 02 2025 13:32:37 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.payment_succeeded [evt_1S2ohoB5u2A30G2QX3GstPsN][39m
+Tue Sep 02 2025 13:32:37 [SERVER-NAME] info: [34mReceived webhook event: customer.subscription.created [evt_1S2ohoB5u2A30G2QswJSqMBz][39m
+Tue Sep 02 2025 13:32:38 [SERVER-NAME] error: [31mError handling event customer.subscription.created: Error: Error in handleSubscriptionCreated: User not found for email: hasan@gmail.com[39m
+Tue Sep 02 2025 13:33:38 [SERVER-NAME] info: [34mReceived webhook event: invoice.upcoming [evt_1S2oinB5u2A30G2QLjEHDe7q][39m
+Tue Sep 02 2025 13:33:38 [SERVER-NAME] warn: [33mUnhandled event type: invoice.upcoming[39m
+Tue Sep 02 2025 13:33:38 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.upcoming [evt_1S2oinB5u2A30G2QLjEHDe7q][39m

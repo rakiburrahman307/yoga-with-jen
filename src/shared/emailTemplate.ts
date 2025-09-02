@@ -202,16 +202,28 @@ const sendReEngagementEmail = (user: any) => {
           to: user.email,
           subject: 'We Miss You! Come Back with 50% Off 🎉',
           html: `<body style="font-family: Arial, sans-serif; background-color: #f9f9f9; margin: 50px; padding: 20px; color: #555;">
-        <div style="max-width: 600px; margin: 0 auto; padding: 20px; background: #fff; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
-          <h2 style="color: #333;">We Miss You! Come Back with 50% Off 🎉</h2>
-          <p>Hi ${user.name},</p>
-          <p>It's been a week since your trial ended. We'd love to have you back!</p>
-          <p>Use code <strong>COMEBACK50</strong> for 50% off your first month.</p>
-          <a href="${process.env.FRONTEND_URL}/subscribe?code=COMEBACK50" style="background: #6f42c1; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block;">
-            Get 50% Off
-          </a>
-        </div>
-      </body>`,
+    <div style="max-width: 600px; margin: 0 auto; padding: 30px; background: #fff; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); text-align: center;">
+        
+        <h2 style="color: #CA3939; font-size: 24px; margin-bottom: 20px;">3 Days Left in Your Free Trial! 🚀</h2>
+        
+        <p style="font-size: 16px; line-height: 1.6; color: #555; margin-bottom: 20px;">
+            Hi ${user.name},
+        </p>
+        
+        <p style="font-size: 16px; line-height: 1.6; color: #555; margin-bottom: 20px;">
+            You have <strong>3 days</strong> remaining in your free trial, which expires on <strong>${user.trialExpireAt.toLocaleDateString()}</strong>.
+        </p>
+        
+        <p style="font-size: 16px; line-height: 1.6; color: #555;">
+            Continue your journey with our premium features and get the most out of your experience!
+        </p>
+             <div style="margin-top: 40px; padding-top: 10px; border-top: 1px solid #f0f0f0; text-align: center; font-size: 14px; color: #aaa;">
+    <p>&copy; ${getFullYear()} Yoga with Jen | All rights reserved</p>
+</div>
+    </div>
+
+</body>
+`,
      };
      return data;
 };
@@ -221,17 +233,30 @@ const sendTrialExpiredEmail = (user: any) => {
           to: user.email,
           subject: 'Your Free Trial Has Ended 😢',
           html: `<body style="font-family: Arial, sans-serif; background-color: #f9f9f9; margin: 50px; padding: 20px; color: #555;">
-        <div style="max-width: 600px; margin: 0 auto; padding: 20px; background: #fff; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
-          <h2 style="color: #333;">Your Free Trial Has Ended 😢</h2>
-          <p>Dear ${user.name},</p>
-          <p>Your free trial has expired. But don't worry - you can still access all features by subscribing!</p>
-          <p>Choose a plan that works for you:</p>
-          <a href="${process.env.FRONTEND_URL}/subscribe" style="background: #dc3545; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block;">
-            Subscribe Now
-          </a>
-          <p>Your progress is saved and will be restored when you subscribe.</p>
-        </div>
-      </body>`,
+    <div style="max-width: 600px; margin: 0 auto; padding: 30px; background: #fff; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); text-align: center;">
+        
+        <h2 style="color: #dc3545; font-size: 24px; margin-bottom: 20px;">Your Free Trial Has Ended 😢</h2>
+        
+        <p style="font-size: 16px; line-height: 1.6; color: #555; margin-bottom: 20px;">
+            Dear ${user.name},
+        </p>
+        
+        <p style="font-size: 16px; line-height: 1.6; color: #555; margin-bottom: 20px;">
+            Unfortunately, your free trial has expired. But don't worry — you can still continue to access all our premium features by subscribing today!
+        </p>
+        
+        <p style="font-size: 16px; line-height: 1.6; color: #555; margin-bottom: 20px;">
+            Choose a plan that works best for you:
+        </p>
+        
+        <p style="font-size: 16px; line-height: 1.6; color: #555;">
+            Your progress is saved and will be restored as soon as you subscribe.
+        </p>
+       <div style="margin-top: 40px; padding-top: 10px; border-top: 1px solid #f0f0f0; text-align: center; font-size: 14px; color: #aaa;">
+    <p>&copy; ${getFullYear()} Yoga with Jen | All rights reserved</p>
+</div>
+    </div>
+</body>`,
      };
      return data;
 };
