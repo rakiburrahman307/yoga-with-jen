@@ -1,5 +1,4 @@
 import dotenv from 'dotenv';
-import { hostname } from 'os';
 import path from 'path';
 dotenv.config({ path: path.join(process.cwd(), '.env') });
 

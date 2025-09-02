@@ -9,6 +9,7 @@ import handleStripeWebhook from './helpers/stripe/handleStripeWebhook';
 import path from 'path';
 import setupTrialManagement from './utils/cornJobs';
 import config from './config';
+import getUploadDirectory from './utils/getUploadDirectory';
 const app: Application = express();
 app.post('/api/v1/stripe/webhook', express.raw({ type: 'application/json' }), handleStripeWebhook);
 app.set('view engine', 'ejs');
