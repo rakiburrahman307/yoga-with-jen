@@ -29,6 +29,14 @@ jobs:
                       node -v
                       npm -v
 
+               - name: Ensure Persistent Upload Directory Exists
+                 run: |
+                      mkdir -p /home/jonowoods/uploads
+                      chmod -R 755 /home/jonowoods/uploads
+                      echo "Persistent upload directory ensured at: /home/jonowoods/uploads"
+                      ls -la /home/jonowoods/uploads || echo "Directory is empty"
+
+
                - name: Install Dependencies
                  run: npm ci
                  working-directory: ${{ github.workspace }}
