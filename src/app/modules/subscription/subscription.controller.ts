@@ -120,6 +120,18 @@ const handleExpiry = catchAsync(async (req, res) => {
      });
 });
 
+const getTransactionHistory = catchAsync(async (req, res) => {
+     const { id }: any = req.user;
+     const result = await SubscriptionService.getTransactionHistory(id);
+
+     sendResponse(res, {
+          statusCode: StatusCodes.OK,
+          success: true,
+          message: 'Transaction history retrieved successfully',
+          data: result,
+     });
+});
+
 // Unified subscription handler - handles new subscription, renewal, and package change
 
 
@@ -134,4 +146,5 @@ export const SubscriptionController = {
      getTrialStatus,
      checkAccess,
      handleExpiry,
+     getTransactionHistory,
 };

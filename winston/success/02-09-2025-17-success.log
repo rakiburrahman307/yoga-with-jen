@@ -69,3 +69,24 @@ Tue Sep 02 2025 17:48:43 [SERVER-NAME] info: [32mSuccessfully processed webhook
 Tue Sep 02 2025 17:48:43 [SERVER-NAME] info: [34mReceived webhook event: price.created [evt_1S2shaB5u2A30G2QYoWFPpFo][39m
 Tue Sep 02 2025 17:48:43 [SERVER-NAME] warn: [33mUnhandled event type: price.created[39m
 Tue Sep 02 2025 17:48:43 [SERVER-NAME] info: [32mSuccessfully processed webhook event: price.created [evt_1S2shaB5u2A30G2QYoWFPpFo][39m
+Tue Sep 02 2025 17:55:27 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Sep 02 2025 17:55:27 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Sep 02 2025 17:55:27 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Sep 02 2025 17:55:27 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Tue Sep 02 2025 17:57:33 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Sep 02 2025 17:57:33 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Sep 02 2025 17:57:33 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Sep 02 2025 17:57:33 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Tue Sep 02 2025 17:57:43 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Sep 02 2025 17:57:43 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Sep 02 2025 17:57:43 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Sep 02 2025 17:57:43 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Tue Sep 02 2025 17:57:57 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Sep 02 2025 17:57:57 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Sep 02 2025 17:57:57 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Sep 02 2025 17:57:57 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Tue Sep 02 2025 17:58:6 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Sep 02 2025 17:58:6 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Sep 02 2025 17:58:6 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Sep 02 2025 17:58:6 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Tue Sep 02 2025 17:59:20 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/subscription/transaction-history 200 - 42.856 ms

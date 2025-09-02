@@ -475,6 +475,44 @@ const createOrRenewSubscription = async (userId: string, packageId: string) => {
      }
 };
 
+// Get user transaction history
+const getTransactionHistory = async (userId: string): Promise<any> => {
+     try {
+          const transactions = await Subscription.find({ userId })
+               .populate('package', 'title paymentType credit duration')
+               .select('package price trxId currentPeriodStart currentPeriodEnd status createdAt trialStart trialEnd')
+               .sort({ createdAt: -1 })
+               .lean();
+
+          const formattedTransactions = transactions.map((transaction: any) => ({
+               id: transaction._id,
+               packageName: transaction.package?.title || 'Unknown Package',
+               paymentType: transaction.package?.paymentType || 'Unknown',
+               amount: transaction.price || 0,
+               transactionId: transaction.trxId,
+               subscriptionPeriod: {
+                    start: transaction.currentPeriodStart,
+                    end: transaction.currentPeriodEnd,
+               },
+               status: transaction.status,
+               isTrialPeriod: transaction.trialStart && transaction.trialEnd ? true : false,
+               trialPeriod: transaction.trialStart && transaction.trialEnd ? {
+                    start: transaction.trialStart,
+                    end: transaction.trialEnd,
+               } : null,
+               createdAt: transaction.createdAt,
+          }));
+
+          return {
+               transactions: formattedTransactions,
+               totalTransactions: formattedTransactions.length,
+          };
+     } catch (error) {
+          console.error('Error fetching transaction history:', error);
+          throw new Error('Failed to fetch transaction history');
+     }
+};
+
 export const SubscriptionService = {
      subscriptionDetailsFromDB,
      subscriptionsFromDB,
@@ -487,4 +525,5 @@ export const SubscriptionService = {
      checkSubscriptionAccess,
      handleSubscriptionExpiry,
      createOrRenewSubscription,
+     getTransactionHistory,
 };

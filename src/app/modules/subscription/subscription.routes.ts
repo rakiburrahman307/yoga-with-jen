@@ -5,8 +5,8 @@ import auth from '../../middleware/auth';
 const router = express.Router();
 
 router.get('/', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), SubscriptionController.subscriptions);
-
 router.get('/details', auth(USER_ROLES.USER), SubscriptionController.subscriptionDetails);
+router.get('/transaction-history', auth(USER_ROLES.USER), SubscriptionController.getTransactionHistory);
 router.get('/trial-status', auth(USER_ROLES.USER), SubscriptionController.getTrialStatus);
 router.get('/check-access', auth(USER_ROLES.USER), SubscriptionController.checkAccess);
 router.get('/success', SubscriptionController.orderSuccess);
