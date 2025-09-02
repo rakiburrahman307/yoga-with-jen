@@ -32,7 +32,7 @@ const storage = multer.memoryStorage();
 const upload = multer({
      storage: storage,
      limits: { fileSize: 2024 * 1024 * 1024 }, // 2GB max file size
-     fileFilter: (req: Request, file: any, cb: Function) => {
+     fileFilter: (req: Request, file: any, cb: any) => {
           const fieldName = file.fieldname;
           let allowedTypes = [];
 
@@ -101,7 +101,7 @@ const fileUploadHandlerbunny = async (req: Request, res: Response, next: NextFun
                     try {
                          const data = JSON.parse(req.body.data);
                          req.body = { ...data, ...fileUrls };
-                    } catch (error) {
+                    } catch  {
                          return next(new AppError(StatusCodes.BAD_REQUEST, 'Invalid JSON format in req.body.data'));
                     }
                } else {
