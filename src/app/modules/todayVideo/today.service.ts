@@ -12,10 +12,10 @@ const getFevVideosOrNot = async (videoId: string, userId: string) => {
 
 const getTodayRandomVideo = async (userId: string) => {
      const today = new Date().toISOString().split('T')[0]; // Get today's date in YYYY-MM-DD format
-     
+
      // Check if there's already a video selected for today
      let dailyVideo = await DailyVideo.findOne({ date: today }).populate('videoId');
-     
+  
      // If no video exists for today, select a new random video
      if (!dailyVideo) {
           // Pick a new random video from all active videos
@@ -23,28 +23,28 @@ const getTodayRandomVideo = async (userId: string) => {
                { $match: { status: 'active' } },
                { $sample: { size: 1 } }
           ]);
-          
+
           if (randomVideos.length > 0) {
                const selectedVideo = randomVideos[0];
-               
+
                // Save the selected video for today in database
                dailyVideo = new DailyVideo({
                     date: today,
                     videoId: selectedVideo._id
                });
                await dailyVideo.save();
-               
+
                // Populate the video data
                await dailyVideo.populate('videoId');
           } else {
                throw new AppError(StatusCodes.NOT_FOUND, 'No active videos found');
           }
      }
-     
+
      // Get the video data and add favorite status
      const videoData = dailyVideo.videoId as any;
      const isFev = await getFevVideosOrNot(videoData._id, userId);
-     
+
      return {
           ...videoData,
           isFev,

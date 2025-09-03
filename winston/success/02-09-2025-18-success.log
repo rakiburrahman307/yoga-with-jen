@@ -1,5 +1,0 @@
-Tue Sep 02 2025 18:1:3 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/auth/login 200 - 416.777 ms
-Tue Sep 02 2025 18:1:11 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/subscription/transaction-history 200 - 12.693 ms
-Tue Sep 02 2025 18:4:24 [SERVER-NAME] info: 10.10.7.38 - GET /api/v1/subscription/transaction-history 200 - 82.730 ms
-Tue Sep 02 2025 18:52:47 [SERVER-NAME] info: [34mReceived webhook event: customer.subscription.trial_will_end [evt_1S2thbB5u2A30G2QIgxgWSw6][39m
-Tue Sep 02 2025 18:52:48 [SERVER-NAME] info: [32mSuccessfully processed webhook event: customer.subscription.trial_will_end [evt_1S2thbB5u2A30G2QIgxgWSw6][39m
