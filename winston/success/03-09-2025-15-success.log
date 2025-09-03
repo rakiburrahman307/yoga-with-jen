@@ -1,0 +1,75 @@
+Wed Sep 03 2025 15:0:15 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.042 ms
+Wed Sep 03 2025 15:0:15 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/notifications?page=1&limit=30 304 - 13.947 ms
+Wed Sep 03 2025 15:0:46 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.049 ms
+Wed Sep 03 2025 15:0:46 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/notifications?page=1&limit=30 304 - 10.453 ms
+Wed Sep 03 2025 15:1:17 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.043 ms
+Wed Sep 03 2025 15:1:17 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/notifications?page=1&limit=30 304 - 6.919 ms
+Wed Sep 03 2025 15:1:48 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.046 ms
+Wed Sep 03 2025 15:1:48 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/notifications?page=1&limit=30 304 - 7.278 ms
+Wed Sep 03 2025 15:2:19 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.136 ms
+Wed Sep 03 2025 15:2:19 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/notifications?page=1&limit=30 304 - 40.551 ms
+Wed Sep 03 2025 15:2:50 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.067 ms
+Wed Sep 03 2025 15:2:50 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/notifications?page=1&limit=30 304 - 18.669 ms
+Wed Sep 03 2025 15:3:21 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.047 ms
+Wed Sep 03 2025 15:3:21 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/notifications?page=1&limit=30 304 - 17.990 ms
+Wed Sep 03 2025 15:3:52 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.043 ms
+Wed Sep 03 2025 15:3:52 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/notifications?page=1&limit=30 304 - 12.099 ms
+Wed Sep 03 2025 15:4:23 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.043 ms
+Wed Sep 03 2025 15:4:23 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/notifications?page=1&limit=30 304 - 7.781 ms
+Wed Sep 03 2025 15:4:54 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.049 ms
+Wed Sep 03 2025 15:4:54 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/notifications?page=1&limit=30 304 - 13.114 ms
+Wed Sep 03 2025 15:5:25 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.078 ms
+Wed Sep 03 2025 15:5:25 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/notifications?page=1&limit=30 304 - 9.910 ms
+Wed Sep 03 2025 15:5:56 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.048 ms
+Wed Sep 03 2025 15:5:56 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/notifications?page=1&limit=30 304 - 9.118 ms
+Wed Sep 03 2025 15:6:27 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.089 ms
+Wed Sep 03 2025 15:6:27 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/notifications?page=1&limit=30 304 - 15.410 ms
+Wed Sep 03 2025 15:6:58 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.069 ms
+Wed Sep 03 2025 15:6:58 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/notifications?page=1&limit=30 304 - 21.195 ms
+Wed Sep 03 2025 15:7:29 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.072 ms
+Wed Sep 03 2025 15:7:29 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/notifications?page=1&limit=30 304 - 14.635 ms
+Wed Sep 03 2025 15:8:0 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.050 ms
+Wed Sep 03 2025 15:8:0 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/notifications?page=1&limit=30 304 - 8.912 ms
+Wed Sep 03 2025 15:8:31 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.075 ms
+Wed Sep 03 2025 15:8:31 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/notifications?page=1&limit=30 304 - 10.126 ms
+Wed Sep 03 2025 15:9:2 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.087 ms
+Wed Sep 03 2025 15:9:2 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/notifications?page=1&limit=30 304 - 17.427 ms
+Wed Sep 03 2025 15:9:33 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.059 ms
+Wed Sep 03 2025 15:9:33 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/notifications?page=1&limit=30 304 - 10.505 ms
+Wed Sep 03 2025 15:10:4 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.080 ms
+Wed Sep 03 2025 15:10:4 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/notifications?page=1&limit=30 304 - 8.255 ms
+Wed Sep 03 2025 15:10:35 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.066 ms
+Wed Sep 03 2025 15:10:35 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/notifications?page=1&limit=30 304 - 8.971 ms
+Wed Sep 03 2025 15:11:6 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.068 ms
+Wed Sep 03 2025 15:11:6 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/notifications?page=1&limit=30 304 - 14.427 ms
+Wed Sep 03 2025 15:11:37 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.041 ms
+Wed Sep 03 2025 15:11:37 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/notifications?page=1&limit=30 304 - 8.082 ms
+Wed Sep 03 2025 15:12:8 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.064 ms
+Wed Sep 03 2025 15:12:8 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/notifications?page=1&limit=30 304 - 9.494 ms
+Wed Sep 03 2025 15:12:39 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.048 ms
+Wed Sep 03 2025 15:12:39 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/notifications?page=1&limit=30 304 - 8.698 ms
+Wed Sep 03 2025 15:13:10 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.052 ms
+Wed Sep 03 2025 15:13:10 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/notifications?page=1&limit=30 304 - 11.382 ms
+Wed Sep 03 2025 15:13:41 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.040 ms
+Wed Sep 03 2025 15:13:41 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/notifications?page=1&limit=30 304 - 8.828 ms
+Wed Sep 03 2025 15:14:12 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.061 ms
+Wed Sep 03 2025 15:14:14 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed Sep 03 2025 15:14:14 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Sep 03 2025 15:14:14 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Wed Sep 03 2025 15:14:14 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Wed Sep 03 2025 15:14:44 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed Sep 03 2025 15:14:44 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Sep 03 2025 15:14:44 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Wed Sep 03 2025 15:14:44 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Wed Sep 03 2025 15:14:45 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.990 ms
+Wed Sep 03 2025 15:14:45 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/notifications?page=1&limit=30 304 - 48.612 ms
+Wed Sep 03 2025 15:15:16 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.074 ms
+Wed Sep 03 2025 15:15:16 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/notifications?page=1&limit=30 304 - 16.423 ms
+Wed Sep 03 2025 15:15:47 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.083 ms
+Wed Sep 03 2025 15:15:47 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/notifications?page=1&limit=30 304 - 12.953 ms
+Wed Sep 03 2025 15:16:18 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.060 ms
+Wed Sep 03 2025 15:16:18 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/notifications?page=1&limit=30 304 - 13.747 ms
+Wed Sep 03 2025 15:16:49 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.133 ms
+Wed Sep 03 2025 15:16:49 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/notifications?page=1&limit=30 304 - 12.105 ms
+Wed Sep 03 2025 15:17:20 [SERVER-NAME] info: 10.10.7.62 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.067 ms
+Wed Sep 03 2025 15:17:20 [SERVER-NAME] info: 10.10.7.62 - GET /api/v1/notifications?page=1&limit=30 304 - 8.553 ms

@@ -3,28 +3,52 @@ import AppError from '../../../errors/AppError';
 import { User } from '../user/user.model';
 import { Videos } from '../admin/videos/video.model';
 import { Favorite } from '../favorite/favorite.model';
+import { DailyVideo } from './today.model';
+
 const getFevVideosOrNot = async (videoId: string, userId: string) => {
      const favorite = await Favorite.findOne({ videoId, userId });
      return favorite ? true : false;
 };
-let activeVideo: any = null;
-let activeVideoPickedAt: any = null;
 
 const getTodayRandomVideo = async (userId: string) => {
-     const now = new Date();
-     // If no video picked yet or 24 hours have passed
-     if (!activeVideo || now.getTime() - activeVideoPickedAt.getTime() > 24 * 60 * 60 * 1000) {
-          // Pick a new random video from all videos
-          const result = await Videos.aggregate([{ $sample: { size: 1 } }]);
-          activeVideo = result.length > 0 ? result[0] : null;
-          activeVideoPickedAt = now;
+     const today = new Date().toISOString().split('T')[0]; // Get today's date in YYYY-MM-DD format
+     
+     // Check if there's already a video selected for today
+     let dailyVideo = await DailyVideo.findOne({ date: today }).populate('videoId');
+     
+     // If no video exists for today, select a new random video
+     if (!dailyVideo) {
+          // Pick a new random video from all active videos
+          const randomVideos = await Videos.aggregate([
+               { $match: { status: 'active' } },
+               { $sample: { size: 1 } }
+          ]);
+          
+          if (randomVideos.length > 0) {
+               const selectedVideo = randomVideos[0];
+               
+               // Save the selected video for today in database
+               dailyVideo = new DailyVideo({
+                    date: today,
+                    videoId: selectedVideo._id
+               });
+               await dailyVideo.save();
+               
+               // Populate the video data
+               await dailyVideo.populate('videoId');
+          } else {
+               throw new AppError(StatusCodes.NOT_FOUND, 'No active videos found');
+          }
      }
-     const isFev = await getFevVideosOrNot(activeVideo?._id, userId);
-     activeVideo = {
-          ...activeVideo,
+     
+     // Get the video data and add favorite status
+     const videoData = dailyVideo.videoId as any;
+     const isFev = await getFevVideosOrNot(videoData._id, userId);
+     
+     return {
+          ...videoData,
           isFev,
      };
-     return activeVideo;
 };
 
 const getSingleVideoFromDb = async (id: string, userId: string) => {
