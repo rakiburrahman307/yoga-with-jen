@@ -46,7 +46,7 @@ const getTodayRandomVideo = async (userId: string) => {
      const isFev = await getFevVideosOrNot(videoData._id, userId);
 
      return {
-          ...videoData,
+          ...videoData.toObject(),
           isFev,
      };
 };
