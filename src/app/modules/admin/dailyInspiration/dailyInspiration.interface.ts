@@ -9,6 +9,6 @@ export interface IDailyInspiration {
      videoUrl: string;
      description: string;
      publishAt: Date;
-     status: 'active' | 'inactive';
+     status: 'active';
 }
 export type VideoIdInput = string | mongoose.Types.ObjectId | (string | mongoose.Types.ObjectId)[];

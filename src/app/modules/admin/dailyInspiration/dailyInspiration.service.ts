@@ -112,10 +112,21 @@ const copyDailyInspirationVideo = async (
 // Function to fetch all "create post" entries, including pagination, filtering, and sorting
 const getAllPost = async () => {
      const result = await DailyInspiration.find({ status: 'active' }).sort({ serial: 1 });
-     if (!result) {
+     
+     if (!result || result.length === 0) {
           return [];
      }
-     return result;
+
+     const today = new Date().toISOString().split('T')[0];
+     const totalVideos = result.length;
+     
+     // Calculate days since a reference date (e.g., Jan 1, 2023)
+     const referenceDate = new Date('2023-01-01');
+     const currentDate = new Date(today);
+     const daysSinceReference = Math.floor((currentDate.getTime() - referenceDate.getTime()) / (1000 * 60 * 60 * 24));
+     const currentDayIndex = daysSinceReference % totalVideos;
+     
+     return [result[currentDayIndex]];
 };
 
 const getPost = async (query: Record<string, unknown>) => {

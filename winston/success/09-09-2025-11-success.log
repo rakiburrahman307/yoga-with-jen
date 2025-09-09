@@ -108,3 +108,19 @@ Tue Sep 09 2025 11:29:49 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/
 Tue Sep 09 2025 11:29:49 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.075 ms
 Tue Sep 09 2025 11:29:49 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/dashboard/resent-users 304 - 5.283 ms
 Tue Sep 09 2025 11:29:49 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/dashboard/revenue 304 - 11.525 ms
+Tue Sep 09 2025 11:29:55 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/user/management? 204 - 0.057 ms
+Tue Sep 09 2025 11:29:56 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/user/management? 304 - 11.307 ms
+Tue Sep 09 2025 11:29:56 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/user/management?limit=10&page=1 204 - 0.090 ms
+Tue Sep 09 2025 11:29:56 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/user/management?limit=10&page=1 304 - 6.957 ms
+Tue Sep 09 2025 11:30:32 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Sep 09 2025 11:30:32 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Sep 09 2025 11:30:32 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Sep 09 2025 11:30:32 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Tue Sep 09 2025 11:58:46 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Sep 09 2025 11:58:46 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Sep 09 2025 11:58:46 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Sep 09 2025 11:58:46 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Tue Sep 09 2025 11:58:54 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Tue Sep 09 2025 11:58:54 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Sep 09 2025 11:58:54 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Tue Sep 09 2025 11:58:54 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m

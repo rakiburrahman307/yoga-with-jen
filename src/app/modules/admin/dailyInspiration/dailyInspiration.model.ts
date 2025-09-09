@@ -10,7 +10,7 @@ const VideoSchema = new Schema<IDailyInspiration>(
           videoUrl: { type: String, default: '' },
           description: { type: String, required: true },
           publishAt: { type: Date, default: Date.now },
-          status: { type: String, enum: ['active', 'inactive'], default: 'inactive' },
+          status: { type: String, enum: ['active'], default: 'active' },
      },
      { timestamps: true },
 );

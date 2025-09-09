@@ -9,7 +9,6 @@ import { VideoLibrary } from '../videosManagement/videoManagement.model';
 import { ChallengeCategory } from '../challengesCategory/challengesCategory.model';
 import { User } from '../../user/user.model';
 import mongoose from 'mongoose';
-import { checkNextVideoUnlockForChallenge } from '../../../../helpers/checkNExtVideoUnlock';
 import { IVideoLibrary } from '../videosManagement/videoManagement.interface';
 
 
@@ -268,7 +267,7 @@ const getChallengeRelateVideo = async (id: string, userId: string, query: Record
 
      const completedVideoIds = user.completedSessions?.map((id) => id.toString()) || [];
 
-     // Process videos with sequential logic
+     // Process videos with new challenge logic - only one video unlocked at a time
      const postsWithStatus = await Promise.all(
           result.map(async (post: any, index: number) => {
                const videoIdString = post._id.toString();
@@ -276,20 +275,30 @@ const getChallengeRelateVideo = async (id: string, userId: string, query: Record
                // Check if current video is completed
                const isVideoCompleted = completedVideoIds.includes(videoIdString);
 
-               // Check if video is enabled (sequential logic)
+               // New logic: Only one video is enabled at a time
                let isEnabled = false;
+               
                if (index === 0) {
-                    // First video is always enabled
-                    isEnabled = true;
+                    // First video is always enabled if not completed
+                    isEnabled = !isVideoCompleted;
                } else {
-                    // Check if ALL previous videos are completed (strict sequential)
-                    const allPreviousCompleted = result.slice(0, index).every((prevVideo: any) => completedVideoIds.includes(prevVideo._id.toString()));
-                    isEnabled = allPreviousCompleted;
+                    // For other videos, check if the previous video is completed
+                    const previousVideo = result[index - 1];
+                    const isPreviousCompleted = completedVideoIds.includes(previousVideo._id.toString());
+                    
+                    // Enable current video only if previous is completed and current is not completed
+                    isEnabled = isPreviousCompleted && !isVideoCompleted;
                }
+               
+               // Special case: If all videos are completed, enable the first video again (cycle restart)
+               if (completedVideoIds.length === result.length && index === 0) {
+                    isEnabled = true;
+               }
+               
                return {
                     ...post.toObject(),
                     isVideoCompleted,
-                    isEnabled, // This is the key property for sequential access
+                    isEnabled, // Only one video will be enabled at a time
                };
           }),
      );
@@ -334,18 +343,47 @@ const markVideoAsCompleted = async (userId: string, videoId: string) => {
                     throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to mark video as completed');
                }
 
-               // Check what gets unlocked next
-               const nextVideoInfo = await checkNextVideoUnlockForChallenge(userId, currentVideo?.challengeId.toString(), videoId);
+               // Get all videos in this challenge to determine next unlock
+               const allChallengeVideos = await ChallengeVideo.find({ challengeId: currentVideo.challengeId }).sort({ order: 1, serial: 1 });
+               
+               // Find current video index
+               const currentVideoIndex = allChallengeVideos.findIndex(video => video._id.toString() === videoId);
+               
+               let nextVideoInfo: any = { nextVideoUnlocked: false, reason: 'No next video' };
+               
+               // Check if there's a next video to unlock
+               if (currentVideoIndex !== -1 && currentVideoIndex < allChallengeVideos.length - 1) {
+                    const nextVideo = allChallengeVideos[currentVideoIndex + 1];
+                    nextVideoInfo = {
+                         nextVideoUnlocked: true,
+                         nextVideo: {
+                              id: nextVideo._id,
+                              name: nextVideo.title
+                         },
+                         reason: 'Next video in challenge unlocked'
+                    };
+               } else if (currentVideoIndex === allChallengeVideos.length - 1) {
+                    // If this was the last video, cycle back to first
+                    nextVideoInfo = {
+                         nextVideoUnlocked: true,
+                         nextVideo: {
+                              id: allChallengeVideos[0]._id,
+                              name: allChallengeVideos[0].title
+                         },
+                         reason: 'Challenge completed - cycling back to first video'
+                    };
+               }
 
                console.log('Video marked as completed:', {
                     userId,
                     videoId,
                     completedSessions: updatedUser.completedSessions,
+                    nextVideoInfo
                });
 
                return {
                     success: true,
-                    message: 'Video marked as completed',
+                    message: 'Video marked as completed and locked. Next video unlocked.',
                     completedSessions: updatedUser.completedSessions,
                     nextVideoInfo: nextVideoInfo,
                };
