@@ -88,7 +88,7 @@ const loginUserFromDB = async (payload: ILoginData) => {
           await sendNotifications({
                title: `${isExistUser.name}`,
                receiver: isExistUser._id,
-               message: `Hay super admin ${isExistUser.name} wellcome back to the dashboard.`,
+               message: `Hay super admin ${isExistUser.name} welcome back to the dashboard.`,
                type: 'MESSAGE',
                status: 'RECEIVED',
           });

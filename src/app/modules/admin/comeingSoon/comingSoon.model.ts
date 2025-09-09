@@ -9,7 +9,7 @@ const VideoSchema = new Schema<IComingSoon>(
           thumbnailUrl: { type: String, required: true },
           videoUrl: { type: String, required: false, default: '' },
           description: { type: String, required: false, default: '' },
-          isReady: { type: String, enum: ['arrived', 'ready'], default: 'arrived' },
+          isReady: { type: String, enum: ['comingSoon', 'itsHere', 'CheckThisOut'], default: 'comingSoon' },
           redirectUrl: { type: String, default: '' },
           status: { type: String, enum: ['active', 'inactive'], default: 'active' },
      },
