@@ -158,6 +158,8 @@ const shuffleVideoSerial = async (videoOrder: Array<{ _id: string; serial: numbe
     const result = await Promise.all(updatePromises);
     return result;
 };
+
+
 export const VideoService = {
     getVideosByCourse,
     markVideoAsCompleted,
@@ -166,5 +168,5 @@ export const VideoService = {
     updateVideoStatus,
     getSingleVideoForAdmin,
     updateVideo,
-    shuffleVideoSerial,
+    shuffleVideoSerial
 };

@@ -108,3 +108,9 @@ Wed Sep 10 2025 10:30:48 [SERVER-NAME] info: [32mConfig validation successful.
 Wed Sep 10 2025 10:30:48 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
 Wed Sep 10 2025 10:30:48 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
 Wed Sep 10 2025 10:30:48 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Wed Sep 10 2025 10:52:50 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed Sep 10 2025 10:52:50 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed Sep 10 2025 10:52:50 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Wed Sep 10 2025 10:52:50 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Wed Sep 10 2025 10:53:23 [SERVER-NAME] info: [34mReceived webhook event: customer.subscription.trial_will_end [evt_1S5g25B5u2A30G2Q0m5fC562][39m
+Wed Sep 10 2025 10:53:23 [SERVER-NAME] error: [31mError handling event customer.subscription.trial_will_end: TypeError: (0 , handlers_1.handleTrialWillEnd) is not a function[39m

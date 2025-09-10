@@ -1,3 +1,0 @@
-Tue Sep 09 2025 17:15:48 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/subscription/check-access 401 - 14.791 ms
-Tue Sep 09 2025 17:16:5 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/subscription/check-access 401 - 0.816 ms
-Tue Sep 09 2025 17:16:19 [SERVER-NAME] error: 10.10.7.48 - POST /api/v1/auth/login 400 - 225.966 ms

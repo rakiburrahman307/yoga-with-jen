@@ -2,6 +2,7 @@ import express from 'express';
 import auth from '../../../middleware/auth';
 import { USER_ROLES } from '../../../../enums/user';
 import { DailyInspirationController } from './dailyInspiration.controller';
+import fileUploadHandlerbunny from '../../../middleware/fileUploadHandlerbunny';
 
 
 const router = express.Router();
@@ -17,7 +18,7 @@ router.get('/', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), DailyInspiration
 router.get('/:id', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), DailyInspirationController.singlePost);
 
 // Route to update an existing "Create Post" entry by ID
-router.patch('/:id', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), DailyInspirationController.updatePost);
+router.patch('/:id', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN),fileUploadHandlerbunny, DailyInspirationController.updatePost);
 
 router.post('/shuffle', auth(USER_ROLES.SUPER_ADMIN, USER_ROLES.ADMIN), DailyInspirationController.shuffleVideoSerial);
 // Route to delete a "Create Post" entry by ID

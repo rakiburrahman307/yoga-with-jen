@@ -60,7 +60,6 @@ const getSingleVideoForAdmin = catchAsync(async (req, res) => {
     });
 });
 
-
 // get all videos
 const getSingleVideo = catchAsync(async (req, res) => {
     const { id }: any = req.user;

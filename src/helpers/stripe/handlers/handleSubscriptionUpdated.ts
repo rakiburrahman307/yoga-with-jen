@@ -5,7 +5,6 @@ import AppError from '../../../errors/AppError';
 import { User } from '../../../app/modules/user/user.model';
 import { Package } from '../../../app/modules/package/package.model';
 import { Subscription } from '../../../app/modules/subscription/subscription.model';
-import { SubscriptionNotificationService } from '../../../app/modules/subscription/subscription.notification';
 // const formatUnixToDate = (timestamp: number) => new Date(timestamp * 1000);
 const formatUnixToIsoUtc = (timestamp: number): string => {
      const date = new Date(timestamp * 1000);
@@ -135,17 +134,11 @@ export const handleSubscriptionUpdated = async (data: Stripe.Subscription) => {
                     userUpdateData.trialExpireAt = null;
                     
                     console.log(`Auto-renewal completed for user ${existingUser.email}:`, {
-                          subscriptionId: subscription.id,
-                          previousStatus: 'trialing',
-                          newStatus: 'active',
-                          autoRenewal: true
-                     });
-                     
-                     // Send auto-renewal success notification
-                     await SubscriptionNotificationService.sendAutoRenewalSuccessNotification(
-                          existingUser._id.toString(),
-                          subscription.id
-                     );
+                         subscriptionId: subscription.id,
+                         previousStatus: 'trialing',
+                         newStatus: 'active',
+                         autoRenewal: true
+                    });
                } else if (subscription.status === 'trialing') {
                     // Check if user is eligible for trial (first-time only)
                     const hasUsedTrialBefore = await Subscription.findOne({

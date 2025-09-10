@@ -29,8 +29,8 @@ const getAllCreatePost = catchAsync(async (req, res) => {
      sendResponse(res, {
           statusCode: StatusCodes.OK,
           success: true,
-          message: 'Daily inspiration video retrieved successfully',
-          data: result[0], // Return only one video for today
+          message: 'Post retrieved successfully',
+          data: result[0],
      });
 });
 const getAllCreatePostForAdmin = catchAsync(async (req, res) => {
