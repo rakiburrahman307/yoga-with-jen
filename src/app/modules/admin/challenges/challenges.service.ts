@@ -267,6 +267,27 @@ const getChallengeRelateVideo = async (id: string, userId: string, query: Record
 
      const completedVideoIds = user.completedSessions?.map((id) => id.toString()) || [];
 
+     // Find the next video to unlock based on completed videos
+     let nextUnlockedIndex = 0;
+     
+     // Find the first incomplete video
+     for (let i = 0; i < result.length; i++) {
+          const videoId = result[i]._id.toString();
+          if (!completedVideoIds.includes(videoId)) {
+               nextUnlockedIndex = i;
+               break;
+          }
+     }
+     
+     // If all videos are completed, restart from first video
+     const allVideosCompleted = result.length > 0 && result.every(video => 
+          completedVideoIds.includes(video._id.toString())
+     );
+     
+     if (allVideosCompleted) {
+          nextUnlockedIndex = 0;
+     }
+
      // Process videos with new challenge logic - only one video unlocked at a time
      const postsWithStatus = await Promise.all(
           result.map(async (post: any, index: number) => {
@@ -275,25 +296,17 @@ const getChallengeRelateVideo = async (id: string, userId: string, query: Record
                // Check if current video is completed
                const isVideoCompleted = completedVideoIds.includes(videoIdString);
 
-               // New logic: Only one video is enabled at a time
+               // New logic: Only the next incomplete video is enabled, completed videos are locked
                let isEnabled = false;
                
-               if (index === 0) {
-                    // First video is always enabled if not completed
-                    isEnabled = !isVideoCompleted;
-               } else {
-                    // For other videos, check if the previous video is completed
-                    const previousVideo = result[index - 1];
-                    const isPreviousCompleted = completedVideoIds.includes(previousVideo._id.toString());
-                    
-                    // Enable current video only if previous is completed and current is not completed
-                    isEnabled = isPreviousCompleted && !isVideoCompleted;
-               }
-               
-               // Special case: If all videos are completed, enable the first video again (cycle restart)
-               if (completedVideoIds.length === result.length && index === 0) {
+               if (allVideosCompleted && index === 0) {
+                    // If all videos completed, enable first video for restart
+                    isEnabled = true;
+               } else if (!isVideoCompleted && index === nextUnlockedIndex) {
+                    // Enable only the next incomplete video
                     isEnabled = true;
                }
+               // All completed videos remain locked (isEnabled = false)
                
                return {
                     ...post.toObject(),
