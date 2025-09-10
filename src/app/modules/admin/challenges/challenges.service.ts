@@ -276,8 +276,8 @@ const getChallengeRelateVideo = async (id: string, userId: string, query: Record
      let nextUnlockedIndex = 0;
      
      if (allVideosCompleted) {
-          // If all videos completed, start from first video again
-          nextUnlockedIndex = 0;
+          // If all videos completed, stay on the last video
+          nextUnlockedIndex = result.length - 1;
      } else {
           // Find the first incomplete video
           for (let i = 0; i < result.length; i++) {
@@ -299,7 +299,7 @@ const getChallengeRelateVideo = async (id: string, userId: string, query: Record
                let isEnabled = false;
                
                if (allVideosCompleted) {
-                    // If all videos completed, only enable the current next video (progressive unlock again)
+                    // If all videos completed, only enable the last video
                     isEnabled = (index === nextUnlockedIndex);
                } else {
                     // Normal flow: only enable the next incomplete video
@@ -319,6 +319,7 @@ const getChallengeRelateVideo = async (id: string, userId: string, query: Record
           meta,
      };
 };
+
 const markVideoAsCompleted = async (userId: string, videoId: string) => {
      try {
           // Find the user first
