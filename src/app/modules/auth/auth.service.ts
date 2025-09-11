@@ -30,8 +30,8 @@ const loginUserFromDB = async (payload: ILoginData) => {
      // Only update if timezone is different
      if (timezone && timezone === "" && timezone === undefined && timezone !== isExistUser.timezone) {
           await User.findByIdAndUpdate(isExistUser._id, { $set: { timezone } }, { new: true });
-          isExistUser.timezone = timezone;
      }
+     console.log('timezone', payload);
      const getAdmin = await User.findOne({ role: USER_ROLES.SUPER_ADMIN });
      if (!getAdmin) {
           throw new AppError(StatusCodes.NOT_FOUND, 'Admin not found!');

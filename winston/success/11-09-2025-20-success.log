@@ -393,3 +393,107 @@ Thu Sep 11 2025 20:21:57 [SERVER-NAME] info: [33m♻️  Socket is listening on
 Thu Sep 11 2025 20:21:57 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
 Thu Sep 11 2025 20:22:11 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.726 ms
 Thu Sep 11 2025 20:22:11 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 25.874 ms
+Thu Sep 11 2025 20:22:42 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.066 ms
+Thu Sep 11 2025 20:22:42 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 11.902 ms
+Thu Sep 11 2025 20:23:13 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.064 ms
+Thu Sep 11 2025 20:23:13 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 10.562 ms
+Thu Sep 11 2025 20:23:44 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.061 ms
+Thu Sep 11 2025 20:23:44 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.553 ms
+Thu Sep 11 2025 20:24:15 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.078 ms
+Thu Sep 11 2025 20:24:15 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 14.393 ms
+Thu Sep 11 2025 20:24:46 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.068 ms
+Thu Sep 11 2025 20:24:46 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 7.983 ms
+Thu Sep 11 2025 20:25:17 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.102 ms
+Thu Sep 11 2025 20:25:17 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 7.906 ms
+Thu Sep 11 2025 20:25:48 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.057 ms
+Thu Sep 11 2025 20:25:48 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.405 ms
+Thu Sep 11 2025 20:26:19 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.064 ms
+Thu Sep 11 2025 20:26:19 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 10.897 ms
+Thu Sep 11 2025 20:26:50 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.101 ms
+Thu Sep 11 2025 20:26:50 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 14.563 ms
+Thu Sep 11 2025 20:27:9 [SERVER-NAME] info: [34mMaster 31888 is running[39m
+Thu Sep 11 2025 20:27:9 [SERVER-NAME] info: [34mStarting 12 workers...[39m
+Thu Sep 11 2025 20:27:13 [SERVER-NAME] info: [34mWorker 28136 started[39m
+Thu Sep 11 2025 20:27:13 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Sep 11 2025 20:27:13 [SERVER-NAME] info: [34mWorker 15448 started[39m
+Thu Sep 11 2025 20:27:13 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Sep 11 2025 20:27:13 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Sep 11 2025 20:27:13 [SERVER-NAME] info: [32mWorker 28136 is ready to accept connections[39m
+Thu Sep 11 2025 20:27:13 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Sep 11 2025 20:27:13 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Sep 11 2025 20:27:13 [SERVER-NAME] info: [34mWorker 32884 started[39m
+Thu Sep 11 2025 20:27:13 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Sep 11 2025 20:27:13 [SERVER-NAME] info: [32mWorker 15448 is ready to accept connections[39m
+Thu Sep 11 2025 20:27:13 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Sep 11 2025 20:27:13 [SERVER-NAME] info: [34mWorker 15188 started[39m
+Thu Sep 11 2025 20:27:13 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Sep 11 2025 20:27:13 [SERVER-NAME] info: [34mWorker 31620 started[39m
+Thu Sep 11 2025 20:27:13 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Sep 11 2025 20:27:13 [SERVER-NAME] info: [34mWorker 6032 started[39m
+Thu Sep 11 2025 20:27:13 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Sep 11 2025 20:27:13 [SERVER-NAME] info: [34mWorker 32700 started[39m
+Thu Sep 11 2025 20:27:13 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Sep 11 2025 20:27:13 [SERVER-NAME] info: [34mWorker 10484 started[39m
+Thu Sep 11 2025 20:27:13 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Sep 11 2025 20:27:13 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Sep 11 2025 20:27:13 [SERVER-NAME] info: [32mWorker 32884 is ready to accept connections[39m
+Thu Sep 11 2025 20:27:13 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Sep 11 2025 20:27:13 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Sep 11 2025 20:27:13 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Sep 11 2025 20:27:13 [SERVER-NAME] info: [32mWorker 15188 is ready to accept connections[39m
+Thu Sep 11 2025 20:27:13 [SERVER-NAME] info: [32mWorker 6032 is ready to accept connections[39m
+Thu Sep 11 2025 20:27:13 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Sep 11 2025 20:27:13 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Sep 11 2025 20:27:13 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Sep 11 2025 20:27:13 [SERVER-NAME] info: [32mWorker 31620 is ready to accept connections[39m
+Thu Sep 11 2025 20:27:13 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Sep 11 2025 20:27:14 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Sep 11 2025 20:27:14 [SERVER-NAME] info: [32mWorker 32700 is ready to accept connections[39m
+Thu Sep 11 2025 20:27:14 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Sep 11 2025 20:27:14 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Sep 11 2025 20:27:14 [SERVER-NAME] info: [32mWorker 10484 is ready to accept connections[39m
+Thu Sep 11 2025 20:27:14 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Sep 11 2025 20:27:14 [SERVER-NAME] info: [34mWorker 30516 started[39m
+Thu Sep 11 2025 20:27:14 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Sep 11 2025 20:27:14 [SERVER-NAME] info: [34mWorker 5624 started[39m
+Thu Sep 11 2025 20:27:14 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Sep 11 2025 20:27:14 [SERVER-NAME] info: [34mWorker 31784 started[39m
+Thu Sep 11 2025 20:27:14 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Sep 11 2025 20:27:14 [SERVER-NAME] info: [34mWorker 616 started[39m
+Thu Sep 11 2025 20:27:14 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Sep 11 2025 20:27:14 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Sep 11 2025 20:27:14 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Sep 11 2025 20:27:14 [SERVER-NAME] info: [32mWorker 30516 is ready to accept connections[39m
+Thu Sep 11 2025 20:27:14 [SERVER-NAME] info: [32mWorker 5624 is ready to accept connections[39m
+Thu Sep 11 2025 20:27:14 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Sep 11 2025 20:27:14 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Sep 11 2025 20:27:14 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Sep 11 2025 20:27:14 [SERVER-NAME] info: [32mWorker 31784 is ready to accept connections[39m
+Thu Sep 11 2025 20:27:14 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Sep 11 2025 20:27:14 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Sep 11 2025 20:27:14 [SERVER-NAME] info: [32mWorker 616 is ready to accept connections[39m
+Thu Sep 11 2025 20:27:14 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Sep 11 2025 20:27:14 [SERVER-NAME] warn: [33mWorker 28136 exited with error code: 1[39m
+Thu Sep 11 2025 20:27:14 [SERVER-NAME] info: [34mRestarting worker 28136 in 5000ms (attempt 1)[39m
+Thu Sep 11 2025 20:27:14 [SERVER-NAME] warn: [33mWorker 15448 exited with error code: 1[39m
+Thu Sep 11 2025 20:27:14 [SERVER-NAME] info: [34mRestarting worker 15448 in 5000ms (attempt 1)[39m
+Thu Sep 11 2025 20:27:14 [SERVER-NAME] warn: [33mWorker 32884 exited with error code: 1[39m
+Thu Sep 11 2025 20:27:14 [SERVER-NAME] info: [34mRestarting worker 32884 in 5000ms (attempt 1)[39m
+Thu Sep 11 2025 20:27:14 [SERVER-NAME] warn: [33mWorker 6032 exited with error code: 1[39m
+Thu Sep 11 2025 20:27:14 [SERVER-NAME] info: [34mRestarting worker 6032 in 5000ms (attempt 1)[39m
+Thu Sep 11 2025 20:27:14 [SERVER-NAME] warn: [33mWorker 15188 exited with error code: 1[39m
+Thu Sep 11 2025 20:27:14 [SERVER-NAME] info: [34mRestarting worker 15188 in 5000ms (attempt 1)[39m
+Thu Sep 11 2025 20:27:14 [SERVER-NAME] warn: [33mWorker 31620 exited with error code: 1[39m
+Thu Sep 11 2025 20:27:14 [SERVER-NAME] info: [34mRestarting worker 31620 in 5000ms (attempt 1)[39m
+Thu Sep 11 2025 20:27:15 [SERVER-NAME] warn: [33mWorker 32700 exited with error code: 1[39m
+Thu Sep 11 2025 20:27:15 [SERVER-NAME] info: [34mRestarting worker 32700 in 5000ms (attempt 1)[39m
+Thu Sep 11 2025 20:27:15 [SERVER-NAME] warn: [33mWorker 10484 exited with error code: 1[39m
+Thu Sep 11 2025 20:27:15 [SERVER-NAME] info: [34mRestarting worker 10484 in 5000ms (attempt 1)[39m
+Thu Sep 11 2025 20:27:15 [SERVER-NAME] warn: [33mWorker 30516 exited with error code: 1[39m
+Thu Sep 11 2025 20:27:15 [SERVER-NAME] info: [34mRestarting worker 30516 in 5000ms (attempt 1)[39m
+Thu Sep 11 2025 20:27:15 [SERVER-NAME] warn: [33mWorker 5624 exited with error code: 1[39m
+Thu Sep 11 2025 20:27:15 [SERVER-NAME] info: [34mRestarting worker 5624 in 5000ms (attempt 1)[39m
+Thu Sep 11 2025 20:27:15 [SERVER-NAME] warn: [33mWorker 31784 exited with error code: 1[39m
+Thu Sep 11 2025 20:27:15 [SERVER-NAME] info: [34mRestarting worker 31784 in 5000ms (attempt 1)[39m
+Thu Sep 11 2025 20:27:15 [SERVER-NAME] warn: [33mWorker 616 exited with error code: 1[39m
+Thu Sep 11 2025 20:27:15 [SERVER-NAME] info: [34mRestarting worker 616 in 5000ms (attempt 1)[39m
