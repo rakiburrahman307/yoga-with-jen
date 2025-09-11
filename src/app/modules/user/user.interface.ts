@@ -26,6 +26,7 @@ export type IUser = {
      stripeCustomerId: string;
      status: 'active' | 'blocked';
      verified: boolean;
+     challengeVideoProgress: Map<string, string>;
      authentication?: {
           isResetPassword: boolean;
           oneTimeCode: number;

@@ -106,6 +106,11 @@ const userSchema = new Schema<IUser, UserModel>(
                type: Number,
                default: 0,
           },
+          challengeVideoProgress: {
+               type: Map,
+               of: String,
+               default: new Map()
+          },
           lastLogin: { type: Date },
           loginCount: { type: Number, default: 0 }, // Track total logins (1 per day)
           completedSessions: [{ type: Schema.Types.ObjectId, ref: 'Video' }], // Track completed sessions by video IDs
