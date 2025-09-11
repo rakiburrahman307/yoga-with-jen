@@ -1,0 +1,299 @@
+Thu Sep 11 2025 18:2:22 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/auth/login 204 - 0.099 ms
+Thu Sep 11 2025 18:2:56 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users 204 - 0.055 ms
+Thu Sep 11 2025 18:2:57 [SERVER-NAME] info: 10.10.7.48 - POST /api/v1/users 200 - 987.154 ms
+Thu Sep 11 2025 18:2:58 [SERVER-NAME] info: [34mReceived webhook event: customer.created [evt_1S69DLB5u2A30G2Qghjo0SSX][39m
+Thu Sep 11 2025 18:2:58 [SERVER-NAME] warn: [33mUnhandled event type: customer.created[39m
+Thu Sep 11 2025 18:2:58 [SERVER-NAME] info: [32mSuccessfully processed webhook event: customer.created [evt_1S69DLB5u2A30G2Qghjo0SSX][39m
+Thu Sep 11 2025 18:3:8 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/auth/login 204 - 0.061 ms
+Thu Sep 11 2025 18:3:8 [SERVER-NAME] info: 10.10.7.48 - POST /api/v1/auth/login 200 - 233.095 ms
+Thu Sep 11 2025 18:3:8 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/subscription/check-access 204 - 0.067 ms
+Thu Sep 11 2025 18:3:8 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/subscription/check-access 200 - 8.949 ms
+Thu Sep 11 2025 18:3:10 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.125 ms
+Thu Sep 11 2025 18:3:10 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.059 ms
+Thu Sep 11 2025 18:3:10 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/package/users 204 - 0.118 ms
+Thu Sep 11 2025 18:3:10 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 200 - 8.194 ms
+Thu Sep 11 2025 18:3:10 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/package/users 304 - 27.059 ms
+Thu Sep 11 2025 18:3:10 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 200 - 32.203 ms
+Thu Sep 11 2025 18:3:27 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/subscription/create-checkout-session/68b02665c37d6f553ff4db47 204 - 0.066 ms
+Thu Sep 11 2025 18:3:28 [SERVER-NAME] info: 10.10.7.48 - POST /api/v1/subscription/create-checkout-session/68b02665c37d6f553ff4db47 200 - 719.464 ms
+Thu Sep 11 2025 18:3:28 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/subscription/check-access 204 - 0.061 ms
+Thu Sep 11 2025 18:3:28 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/package/users 204 - 0.060 ms
+Thu Sep 11 2025 18:3:28 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/package/users 304 - 7.343 ms
+Thu Sep 11 2025 18:3:28 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/subscription/check-access 304 - 10.365 ms
+Thu Sep 11 2025 18:3:38 [SERVER-NAME] info: [34mReceived webhook event: payment_method.attached [evt_1S69DzB5u2A30G2QammhuFnu][39m
+Thu Sep 11 2025 18:3:38 [SERVER-NAME] warn: [33mUnhandled event type: payment_method.attached[39m
+Thu Sep 11 2025 18:3:38 [SERVER-NAME] info: [32mSuccessfully processed webhook event: payment_method.attached [evt_1S69DzB5u2A30G2QammhuFnu][39m
+Thu Sep 11 2025 18:3:38 [SERVER-NAME] info: [34mReceived webhook event: setup_intent.succeeded [evt_1S69DzB5u2A30G2Qj9dbBuQC][39m
+Thu Sep 11 2025 18:3:38 [SERVER-NAME] warn: [33mUnhandled event type: setup_intent.succeeded[39m
+Thu Sep 11 2025 18:3:38 [SERVER-NAME] info: [32mSuccessfully processed webhook event: setup_intent.succeeded [evt_1S69DzB5u2A30G2Qj9dbBuQC][39m
+Thu Sep 11 2025 18:3:38 [SERVER-NAME] info: [34mReceived webhook event: setup_intent.created [evt_1S69DzB5u2A30G2QfvEAsI7b][39m
+Thu Sep 11 2025 18:3:38 [SERVER-NAME] warn: [33mUnhandled event type: setup_intent.created[39m
+Thu Sep 11 2025 18:3:38 [SERVER-NAME] info: [32mSuccessfully processed webhook event: setup_intent.created [evt_1S69DzB5u2A30G2QfvEAsI7b][39m
+Thu Sep 11 2025 18:3:48 [SERVER-NAME] info: [34mReceived webhook event: checkout.session.completed [evt_1S69E9B5u2A30G2QwVJpzbm0][39m
+Thu Sep 11 2025 18:3:48 [SERVER-NAME] warn: [33mUnhandled event type: checkout.session.completed[39m
+Thu Sep 11 2025 18:3:48 [SERVER-NAME] info: [32mSuccessfully processed webhook event: checkout.session.completed [evt_1S69E9B5u2A30G2QwVJpzbm0][39m
+Thu Sep 11 2025 18:3:48 [SERVER-NAME] info: [34mReceived webhook event: customer.updated [evt_1S69E9B5u2A30G2Q6KQCMDkQ][39m
+Thu Sep 11 2025 18:3:48 [SERVER-NAME] warn: [33mUnhandled event type: customer.updated[39m
+Thu Sep 11 2025 18:3:48 [SERVER-NAME] info: [32mSuccessfully processed webhook event: customer.updated [evt_1S69E9B5u2A30G2Q6KQCMDkQ][39m
+Thu Sep 11 2025 18:3:49 [SERVER-NAME] info: [34mReceived webhook event: invoice.created [evt_1S69EAB5u2A30G2QAklHkEGv][39m
+Thu Sep 11 2025 18:3:49 [SERVER-NAME] warn: [33mUnhandled event type: invoice.created[39m
+Thu Sep 11 2025 18:3:49 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.created [evt_1S69EAB5u2A30G2QAklHkEGv][39m
+Thu Sep 11 2025 18:3:49 [SERVER-NAME] info: [34mReceived webhook event: invoice.finalized [evt_1S69EAB5u2A30G2QQD7Lxi3q][39m
+Thu Sep 11 2025 18:3:49 [SERVER-NAME] warn: [33mUnhandled event type: invoice.finalized[39m
+Thu Sep 11 2025 18:3:49 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.finalized [evt_1S69EAB5u2A30G2QQD7Lxi3q][39m
+Thu Sep 11 2025 18:3:49 [SERVER-NAME] info: [34mReceived webhook event: invoice.paid [evt_1S69EAB5u2A30G2QJiFKVNcl][39m
+Thu Sep 11 2025 18:3:49 [SERVER-NAME] warn: [33mUnhandled event type: invoice.paid[39m
+Thu Sep 11 2025 18:3:49 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.paid [evt_1S69EAB5u2A30G2QJiFKVNcl][39m
+Thu Sep 11 2025 18:3:49 [SERVER-NAME] info: [34mReceived webhook event: invoice.payment_succeeded [evt_1S69EAB5u2A30G2QFUQdSb0A][39m
+Thu Sep 11 2025 18:3:49 [SERVER-NAME] warn: [33mUnhandled event type: invoice.payment_succeeded[39m
+Thu Sep 11 2025 18:3:49 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.payment_succeeded [evt_1S69EAB5u2A30G2QFUQdSb0A][39m
+Thu Sep 11 2025 18:3:49 [SERVER-NAME] info: [34mReceived webhook event: customer.subscription.created [evt_1S69EAB5u2A30G2QLuqIJFAI][39m
+Thu Sep 11 2025 18:3:50 [SERVER-NAME] info: [32mSuccessfully processed webhook event: customer.subscription.created [evt_1S69EAB5u2A30G2QLuqIJFAI][39m
+Thu Sep 11 2025 18:4:0 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/subscription/check-access 204 - 0.067 ms
+Thu Sep 11 2025 18:4:0 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.041 ms
+Thu Sep 11 2025 18:4:0 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.051 ms
+Thu Sep 11 2025 18:4:0 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/package/users 204 - 0.040 ms
+Thu Sep 11 2025 18:4:0 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 200 - 10.947 ms
+Thu Sep 11 2025 18:4:0 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/package/users 304 - 14.260 ms
+Thu Sep 11 2025 18:4:0 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/subscription/check-access 200 - 19.921 ms
+Thu Sep 11 2025 18:4:0 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 21.905 ms
+Thu Sep 11 2025 18:4:1 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/quotation 204 - 0.047 ms
+Thu Sep 11 2025 18:4:1 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/today 204 - 0.032 ms
+Thu Sep 11 2025 18:4:1 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/comingSoon/latest 204 - 0.033 ms
+Thu Sep 11 2025 18:4:1 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/dailyInspiration/letest 204 - 0.036 ms
+Thu Sep 11 2025 18:4:1 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/challenge-category/get-all-challenge-category-for-user 204 - 0.038 ms
+Thu Sep 11 2025 18:4:1 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/category 204 - 0.050 ms
+Thu Sep 11 2025 18:4:1 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/quotation 304 - 17.339 ms
+Thu Sep 11 2025 18:4:1 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/dailyInspiration/letest 304 - 16.834 ms
+Thu Sep 11 2025 18:4:1 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/comingSoon/latest 304 - 21.466 ms
+Thu Sep 11 2025 18:4:1 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/challenge-category/get-all-challenge-category-for-user 304 - 23.562 ms
+Thu Sep 11 2025 18:4:1 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 33.672 ms
+Thu Sep 11 2025 18:4:1 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/today 304 - 29.229 ms
+Thu Sep 11 2025 18:4:1 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/category 304 - 16.146 ms
+Thu Sep 11 2025 18:4:26 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/auth/login 204 - 0.052 ms
+Thu Sep 11 2025 18:4:26 [SERVER-NAME] info: 10.10.7.48 - POST /api/v1/auth/login 200 - 227.767 ms
+Thu Sep 11 2025 18:4:27 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/subscription/check-access 204 - 0.048 ms
+Thu Sep 11 2025 18:4:27 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.044 ms
+Thu Sep 11 2025 18:4:27 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.898 ms
+Thu Sep 11 2025 18:4:27 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/package/users 204 - 0.200 ms
+Thu Sep 11 2025 18:4:27 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/subscription/check-access 304 - 11.232 ms
+Thu Sep 11 2025 18:4:27 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 200 - 9.021 ms
+Thu Sep 11 2025 18:4:27 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/package/users 304 - 14.141 ms
+Thu Sep 11 2025 18:4:27 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 200 - 16.900 ms
+Thu Sep 11 2025 18:4:32 [SERVER-NAME] info: [34mReceived webhook event: invoice.upcoming [evt_1S69EsB5u2A30G2QUG1UUhkt][39m
+Thu Sep 11 2025 18:4:32 [SERVER-NAME] warn: [33mUnhandled event type: invoice.upcoming[39m
+Thu Sep 11 2025 18:4:32 [SERVER-NAME] info: [32mSuccessfully processed webhook event: invoice.upcoming [evt_1S69EsB5u2A30G2QUG1UUhkt][39m
+Thu Sep 11 2025 18:4:56 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.046 ms
+Thu Sep 11 2025 18:4:56 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/quotation 204 - 0.045 ms
+Thu Sep 11 2025 18:4:56 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/today 204 - 0.074 ms
+Thu Sep 11 2025 18:4:56 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/comingSoon/latest 204 - 0.114 ms
+Thu Sep 11 2025 18:4:56 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/dailyInspiration/letest 204 - 0.036 ms
+Thu Sep 11 2025 18:4:56 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/category 204 - 0.033 ms
+Thu Sep 11 2025 18:4:56 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/challenge-category/get-all-challenge-category-for-user 204 - 0.033 ms
+Thu Sep 11 2025 18:4:56 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/quotation 304 - 13.839 ms
+Thu Sep 11 2025 18:4:56 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/dailyInspiration/letest 304 - 15.427 ms
+Thu Sep 11 2025 18:4:56 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 28.056 ms
+Thu Sep 11 2025 18:4:56 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/comingSoon/latest 304 - 20.654 ms
+Thu Sep 11 2025 18:4:56 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/today 304 - 24.419 ms
+Thu Sep 11 2025 18:4:56 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/category 304 - 25.993 ms
+Thu Sep 11 2025 18:4:56 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/challenge-category/get-all-challenge-category-for-user 304 - 12.309 ms
+Thu Sep 11 2025 18:5:26 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.048 ms
+Thu Sep 11 2025 18:5:26 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.184 ms
+Thu Sep 11 2025 18:5:45 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/subscription/check-access 204 - 0.047 ms
+Thu Sep 11 2025 18:5:45 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/subscription/check-access 304 - 5.782 ms
+Thu Sep 11 2025 18:5:52 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.062 ms
+Thu Sep 11 2025 18:5:52 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.037 ms
+Thu Sep 11 2025 18:5:52 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/quotation 204 - 0.034 ms
+Thu Sep 11 2025 18:5:52 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/today 204 - 0.033 ms
+Thu Sep 11 2025 18:5:52 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/comingSoon/latest 204 - 0.056 ms
+Thu Sep 11 2025 18:5:52 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/dailyInspiration/letest 204 - 0.042 ms
+Thu Sep 11 2025 18:5:52 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/category 204 - 0.035 ms
+Thu Sep 11 2025 18:5:52 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/challenge-category/get-all-challenge-category-for-user 204 - 0.033 ms
+Thu Sep 11 2025 18:5:52 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 15.444 ms
+Thu Sep 11 2025 18:5:52 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/quotation 304 - 15.687 ms
+Thu Sep 11 2025 18:5:52 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/dailyInspiration/letest 304 - 18.412 ms
+Thu Sep 11 2025 18:5:52 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/comingSoon/latest 304 - 22.962 ms
+Thu Sep 11 2025 18:5:52 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/today 304 - 28.215 ms
+Thu Sep 11 2025 18:5:52 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 35.163 ms
+Thu Sep 11 2025 18:5:52 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/challenge-category/get-all-challenge-category-for-user 304 - 20.068 ms
+Thu Sep 11 2025 18:5:52 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/category 304 - 23.666 ms
+Thu Sep 11 2025 18:6:22 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.090 ms
+Thu Sep 11 2025 18:6:22 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.217 ms
+Thu Sep 11 2025 18:6:52 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.046 ms
+Thu Sep 11 2025 18:6:52 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.832 ms
+Thu Sep 11 2025 18:7:22 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.054 ms
+Thu Sep 11 2025 18:7:22 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 10.665 ms
+Thu Sep 11 2025 18:7:43 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Sep 11 2025 18:7:43 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Sep 11 2025 18:7:43 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Sep 11 2025 18:7:43 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Thu Sep 11 2025 18:7:45 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Sep 11 2025 18:7:45 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Sep 11 2025 18:7:45 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Sep 11 2025 18:7:45 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Thu Sep 11 2025 18:7:53 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Sep 11 2025 18:7:53 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Sep 11 2025 18:7:53 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Sep 11 2025 18:7:53 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Thu Sep 11 2025 18:7:57 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Sep 11 2025 18:7:57 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Sep 11 2025 18:7:57 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Sep 11 2025 18:7:57 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Thu Sep 11 2025 18:7:59 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Sep 11 2025 18:8:0 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Sep 11 2025 18:8:0 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Sep 11 2025 18:8:0 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Thu Sep 11 2025 18:8:1 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Sep 11 2025 18:8:1 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Sep 11 2025 18:8:1 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Sep 11 2025 18:8:1 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Thu Sep 11 2025 18:8:3 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 29.818 ms
+Thu Sep 11 2025 18:8:6 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Sep 11 2025 18:8:6 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Sep 11 2025 18:8:6 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Sep 11 2025 18:8:6 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Thu Sep 11 2025 18:8:40 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/auth/login 204 - 0.381 ms
+Thu Sep 11 2025 18:8:40 [SERVER-NAME] info: 10.10.7.48 - POST /api/v1/auth/login 200 - 280.303 ms
+Thu Sep 11 2025 18:8:41 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/subscription/check-access 204 - 0.114 ms
+Thu Sep 11 2025 18:8:41 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.085 ms
+Thu Sep 11 2025 18:8:41 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.059 ms
+Thu Sep 11 2025 18:8:41 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/package/users 204 - 0.048 ms
+Thu Sep 11 2025 18:8:41 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 200 - 14.203 ms
+Thu Sep 11 2025 18:8:41 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/subscription/check-access 304 - 45.099 ms
+Thu Sep 11 2025 18:8:41 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/package/users 304 - 47.269 ms
+Thu Sep 11 2025 18:8:41 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 200 - 54.008 ms
+Thu Sep 11 2025 18:9:11 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.107 ms
+Thu Sep 11 2025 18:9:11 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 14.864 ms
+Thu Sep 11 2025 18:9:14 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/quotation 204 - 0.093 ms
+Thu Sep 11 2025 18:9:14 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/today 204 - 0.076 ms
+Thu Sep 11 2025 18:9:14 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/comingSoon/latest 204 - 0.062 ms
+Thu Sep 11 2025 18:9:14 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/dailyInspiration/letest 204 - 0.094 ms
+Thu Sep 11 2025 18:9:14 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/category 204 - 0.040 ms
+Thu Sep 11 2025 18:9:14 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/challenge-category/get-all-challenge-category-for-user 204 - 0.037 ms
+Thu Sep 11 2025 18:9:14 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/quotation 304 - 25.123 ms
+Thu Sep 11 2025 18:9:14 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/dailyInspiration/letest 304 - 40.422 ms
+Thu Sep 11 2025 18:9:14 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/comingSoon/latest 304 - 52.526 ms
+Thu Sep 11 2025 18:9:14 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/today 304 - 60.280 ms
+Thu Sep 11 2025 18:9:14 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 76.647 ms
+Thu Sep 11 2025 18:9:14 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/category 304 - 66.903 ms
+Thu Sep 11 2025 18:9:14 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/challenge-category/get-all-challenge-category-for-user 304 - 40.858 ms
+Thu Sep 11 2025 18:9:30 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Sep 11 2025 18:9:30 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Sep 11 2025 18:9:30 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Sep 11 2025 18:9:30 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Thu Sep 11 2025 18:9:44 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.682 ms
+Thu Sep 11 2025 18:9:44 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 29.657 ms
+Thu Sep 11 2025 18:10:15 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.111 ms
+Thu Sep 11 2025 18:10:15 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 17.315 ms
+Thu Sep 11 2025 18:10:46 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.060 ms
+Thu Sep 11 2025 18:10:46 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.008 ms
+Thu Sep 11 2025 18:11:29 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Sep 11 2025 18:11:29 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Sep 11 2025 18:11:29 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Sep 11 2025 18:11:29 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Thu Sep 11 2025 18:11:33 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Sep 11 2025 18:11:33 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Sep 11 2025 18:11:33 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Sep 11 2025 18:11:33 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Thu Sep 11 2025 18:11:34 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/auth/login 204 - 1.014 ms
+Thu Sep 11 2025 18:11:35 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Sep 11 2025 18:11:36 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Sep 11 2025 18:11:36 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Sep 11 2025 18:11:36 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Thu Sep 11 2025 18:11:36 [SERVER-NAME] info: 10.10.7.48 - POST /api/v1/auth/login 200 - 309.998 ms
+Thu Sep 11 2025 18:11:36 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/subscription/check-access 204 - 0.246 ms
+Thu Sep 11 2025 18:11:36 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.062 ms
+Thu Sep 11 2025 18:11:36 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.165 ms
+Thu Sep 11 2025 18:11:36 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/package/users 204 - 0.075 ms
+Thu Sep 11 2025 18:11:36 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 200 - 26.791 ms
+Thu Sep 11 2025 18:11:36 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/subscription/check-access 304 - 45.280 ms
+Thu Sep 11 2025 18:11:36 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/package/users 304 - 37.594 ms
+Thu Sep 11 2025 18:11:36 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 200 - 41.339 ms
+Thu Sep 11 2025 18:11:56 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Sep 11 2025 18:11:56 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Sep 11 2025 18:11:56 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Sep 11 2025 18:11:56 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Thu Sep 11 2025 18:12:1 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Sep 11 2025 18:12:1 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu Sep 11 2025 18:12:1 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Thu Sep 11 2025 18:12:1 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Thu Sep 11 2025 18:12:7 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.680 ms
+Thu Sep 11 2025 18:12:7 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 29.539 ms
+Thu Sep 11 2025 18:12:13 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.070 ms
+Thu Sep 11 2025 18:12:13 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/quotation 204 - 0.123 ms
+Thu Sep 11 2025 18:12:13 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/today 204 - 0.050 ms
+Thu Sep 11 2025 18:12:13 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/comingSoon/latest 204 - 0.048 ms
+Thu Sep 11 2025 18:12:13 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/dailyInspiration/letest 204 - 0.061 ms
+Thu Sep 11 2025 18:12:13 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/category 204 - 0.051 ms
+Thu Sep 11 2025 18:12:13 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/challenge-category/get-all-challenge-category-for-user 204 - 0.064 ms
+Thu Sep 11 2025 18:12:13 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/quotation 304 - 21.042 ms
+Thu Sep 11 2025 18:12:13 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/comingSoon/latest 304 - 44.517 ms
+Thu Sep 11 2025 18:12:13 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/dailyInspiration/letest 304 - 39.473 ms
+Thu Sep 11 2025 18:12:13 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/today 304 - 53.679 ms
+Thu Sep 11 2025 18:12:13 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 60.721 ms
+Thu Sep 11 2025 18:12:13 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/category 304 - 54.363 ms
+Thu Sep 11 2025 18:12:13 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/challenge-category/get-all-challenge-category-for-user 304 - 25.950 ms
+Thu Sep 11 2025 18:12:25 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/challenge/get-challenges-videos-for-users/68c0f49bd1948cc7134838ea 204 - 0.150 ms
+Thu Sep 11 2025 18:12:25 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/challenge/get-challenges-videos-for-users/68c0f49bd1948cc7134838ea 200 - 33.213 ms
+Thu Sep 11 2025 18:12:37 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/challenge/mark-video-watched/68c0f4b1d1948cc7134838fd 204 - 0.095 ms
+Thu Sep 11 2025 18:12:37 [SERVER-NAME] info: 10.10.7.48 - POST /api/v1/challenge/mark-video-watched/68c0f4b1d1948cc7134838fd 200 - 17.258 ms
+Thu Sep 11 2025 18:12:37 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/challenge/get-challenges-videos-for-users/68c0f49bd1948cc7134838ea 204 - 0.049 ms
+Thu Sep 11 2025 18:12:37 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/challenge/get-challenges-videos-for-users/68c0f49bd1948cc7134838ea 200 - 8.850 ms
+Thu Sep 11 2025 18:12:38 [SERVER-NAME] info: 10.10.7.48 - POST /api/v1/challenge/mark-video-watched/68c0f4b1d1948cc7134838fd 200 - 4.984 ms
+Thu Sep 11 2025 18:12:38 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/challenge/get-challenges-videos-for-users/68c0f49bd1948cc7134838ea 304 - 9.294 ms
+Thu Sep 11 2025 18:12:43 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.078 ms
+Thu Sep 11 2025 18:12:43 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.975 ms
+Thu Sep 11 2025 18:13:0 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/subscription/check-access 204 - 0.063 ms
+Thu Sep 11 2025 18:13:0 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/subscription/check-access 304 - 7.366 ms
+Thu Sep 11 2025 18:13:0 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.055 ms
+Thu Sep 11 2025 18:13:0 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.040 ms
+Thu Sep 11 2025 18:13:0 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/challenge/get-challenges-videos-for-users/68c0f49bd1948cc7134838ea 204 - 0.037 ms
+Thu Sep 11 2025 18:13:0 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 200 - 10.254 ms
+Thu Sep 11 2025 18:13:0 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 14.339 ms
+Thu Sep 11 2025 18:13:0 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/challenge/get-challenges-videos-for-users/68c0f49bd1948cc7134838ea 304 - 16.611 ms
+Thu Sep 11 2025 18:13:31 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.053 ms
+Thu Sep 11 2025 18:13:31 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 10.122 ms
+Thu Sep 11 2025 18:14:2 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.070 ms
+Thu Sep 11 2025 18:14:2 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 12.484 ms
+Thu Sep 11 2025 18:14:33 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.048 ms
+Thu Sep 11 2025 18:14:33 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 11.771 ms
+Thu Sep 11 2025 18:15:4 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.052 ms
+Thu Sep 11 2025 18:15:4 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.832 ms
+Thu Sep 11 2025 18:15:24 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/subscription/check-access 204 - 0.139 ms
+Thu Sep 11 2025 18:15:24 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/subscription/check-access 304 - 6.249 ms
+Thu Sep 11 2025 18:15:25 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.053 ms
+Thu Sep 11 2025 18:15:25 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.040 ms
+Thu Sep 11 2025 18:15:25 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/challenge/get-challenges-videos-for-users/68c0f49bd1948cc7134838ea 204 - 0.037 ms
+Thu Sep 11 2025 18:15:25 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 8.780 ms
+Thu Sep 11 2025 18:15:25 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 15.573 ms
+Thu Sep 11 2025 18:15:25 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/challenge/get-challenges-videos-for-users/68c0f49bd1948cc7134838ea 304 - 19.120 ms
+Thu Sep 11 2025 18:15:55 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.068 ms
+Thu Sep 11 2025 18:15:55 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 12.701 ms
+Thu Sep 11 2025 18:16:25 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.072 ms
+Thu Sep 11 2025 18:16:25 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 7.807 ms
+Thu Sep 11 2025 18:16:56 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.048 ms
+Thu Sep 11 2025 18:16:56 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.486 ms
+Thu Sep 11 2025 18:17:27 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.073 ms
+Thu Sep 11 2025 18:17:27 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 10.320 ms
+Thu Sep 11 2025 18:17:58 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.043 ms
+Thu Sep 11 2025 18:17:58 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.529 ms
+Thu Sep 11 2025 18:18:29 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.132 ms
+Thu Sep 11 2025 18:18:29 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.922 ms
+Thu Sep 11 2025 18:19:0 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.046 ms
+Thu Sep 11 2025 18:19:0 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 10.058 ms
+Thu Sep 11 2025 18:19:31 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.046 ms
+Thu Sep 11 2025 18:19:31 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.306 ms
+Thu Sep 11 2025 18:20:2 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.063 ms
+Thu Sep 11 2025 18:20:2 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 20.152 ms
+Thu Sep 11 2025 18:20:32 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.043 ms
+Thu Sep 11 2025 18:20:32 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 7.185 ms
+Thu Sep 11 2025 18:20:43 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/subscription/check-access 204 - 0.073 ms
+Thu Sep 11 2025 18:20:43 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/subscription/check-access 304 - 6.981 ms
+Thu Sep 11 2025 18:20:44 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.059 ms
+Thu Sep 11 2025 18:20:44 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.041 ms
+Thu Sep 11 2025 18:20:44 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/challenge/get-challenges-videos-for-users/68c0f49bd1948cc7134838ea 204 - 0.050 ms
+Thu Sep 11 2025 18:20:44 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 7.251 ms
+Thu Sep 11 2025 18:20:44 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 16.173 ms
+Thu Sep 11 2025 18:20:44 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/challenge/get-challenges-videos-for-users/68c0f49bd1948cc7134838ea 304 - 16.845 ms
+Thu Sep 11 2025 18:21:14 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.089 ms
+Thu Sep 11 2025 18:21:14 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.882 ms

@@ -6,6 +6,7 @@ export type IVerifyEmail = {
 export type ILoginData = {
      email: string;
      password: string;
+     timezone: string;
 };
 
 export type IAuthResetPassword = {

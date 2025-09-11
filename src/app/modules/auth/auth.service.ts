@@ -18,15 +18,19 @@ import { sendNotifications } from '../../../helpers/notificationsHelper';
 
 //login
 const loginUserFromDB = async (payload: ILoginData) => {
-     const { email, password } = payload;
+     const { email, password, timezone } = payload;
      if (!password) {
           throw new AppError(StatusCodes.BAD_REQUEST, 'Password is required!');
      }
-
      // Find user with password (password select is false by default)
      const isExistUser = await User.findOne({ email }).select('+password +tokenVersion');
      if (!isExistUser) {
           throw new AppError(StatusCodes.BAD_REQUEST, "User doesn't exist!");
+     }
+     // Only update if timezone is different
+     if (timezone && timezone !== isExistUser.timezone) {
+          await User.findByIdAndUpdate(isExistUser._id, { $set: { timezone } }, { new: true });
+          isExistUser.timezone = timezone;
      }
      const getAdmin = await User.findOne({ role: USER_ROLES.SUPER_ADMIN });
      if (!getAdmin) {
@@ -292,7 +296,7 @@ const resetPasswordByUrl = async (token: string, payload: IAuthResetPassword) =>
      let decodedToken;
      try {
           decodedToken = await verifyToken(token, config.jwt.jwt_secret as Secret);
-     } catch  {
+     } catch {
           throw new AppError(StatusCodes.UNAUTHORIZED, 'Invalid or expired token.');
      }
      const { id } = decodedToken;

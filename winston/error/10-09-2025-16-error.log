@@ -1,5 +1,0 @@
-Wed Sep 10 2025 16:40:36 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/today 400 - 42.555 ms
-Wed Sep 10 2025 16:41:40 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/today 400 - 6.640 ms
-Wed Sep 10 2025 16:41:46 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/today 400 - 27.049 ms
-Wed Sep 10 2025 16:41:55 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/today 400 - 5.786 ms
-Wed Sep 10 2025 16:42:8 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/today 400 - 5.089 ms

@@ -111,6 +111,10 @@ const userSchema = new Schema<IUser, UserModel>(
                of: String,
                default: new Map()
           },
+          timezone: {
+               type: String,
+               default: 'Asia/Dhaka',
+          },
           lastLogin: { type: Date },
           loginCount: { type: Number, default: 0 }, // Track total logins (1 per day)
           completedSessions: [{ type: Schema.Types.ObjectId, ref: 'Video' }], // Track completed sessions by video IDs

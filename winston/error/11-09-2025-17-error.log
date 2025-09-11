@@ -1,0 +1,10 @@
+Thu Sep 11 2025 17:20:5 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/users/profile 401 - 6.884 ms
+Thu Sep 11 2025 17:20:5 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/notifications/admin?page=1&limit=20 401 - 4.365 ms
+Thu Sep 11 2025 17:20:5 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/admin/challenge/68c25be7d5c8433ce8cb2bfb 401 - 6.252 ms
+Thu Sep 11 2025 17:20:5 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/admin/videos/library/videos? 401 - 7.158 ms
+Thu Sep 11 2025 17:20:5 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/admin/challenge/get-challenges-videos/68c25be7d5c8433ce8cb2bfb 401 - 8.461 ms
+Thu Sep 11 2025 17:45:14 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/subscription/check-access 401 - 13.434 ms
+Thu Sep 11 2025 17:45:23 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/subscription/check-access 401 - 2.820 ms
+Thu Sep 11 2025 17:59:3 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/subscription/check-access 401 - 5.227 ms
+Thu Sep 11 2025 17:59:43 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/subscription/check-access 401 - 1.030 ms
+Thu Sep 11 2025 17:59:44 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/subscription/check-access 401 - 1.015 ms
