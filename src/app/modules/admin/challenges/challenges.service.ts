@@ -247,43 +247,43 @@ const deleteChallenge = async (id: string) => {
 };
 
 const ensureMapFormat = (progress: any): Map<string, string> => {
-    if (progress instanceof Map) {
-        return progress;
-    }
-    
-    // Convert Object to Map
-    const map = new Map<string, string>();
-    if (progress && typeof progress === 'object') {
-        Object.entries(progress).forEach(([key, value]) => {
-            map.set(key, value as string);
-        });
-    }
-    return map;
+     if (progress instanceof Map) {
+          return progress;
+     }
+
+     // Convert Object to Map
+     const map = new Map<string, string>();
+     if (progress && typeof progress === 'object') {
+          Object.entries(progress).forEach(([key, value]) => {
+               map.set(key, value as string);
+          });
+     }
+     return map;
 };
 
 // Helper function to get user's current date in their timezone
 const getUserCurrentDate = (timezone: string): Date => {
-    const now = new Date();
-    // Convert to user's timezone
-    const userDate = new Date(now.toLocaleString("en-US", { timeZone: timezone }));
-    return userDate;
+     const now = new Date();
+     // Convert to user's timezone
+     const userDate = new Date(now.toLocaleString("en-US", { timeZone: timezone }));
+     return userDate;
 };
 
 // Helper function to get start of day in user's timezone
 const getStartOfDayInTimezone = (date: Date, timezone: string): Date => {
-    // Get the date string in user's timezone
-    const dateInTimezone = new Date(date.toLocaleString("en-US", { timeZone: timezone }));
-    // Set to start of day
-    dateInTimezone.setHours(0, 0, 0, 0);
-    return dateInTimezone;
+     // Get the date string in user's timezone
+     const dateInTimezone = new Date(date.toLocaleString("en-US", { timeZone: timezone }));
+     // Set to start of day
+     dateInTimezone.setHours(0, 0, 0, 0);
+     return dateInTimezone;
 };
 
 // Helper function to get next day start in user's timezone
 const getNextDayStartInTimezone = (date: Date, timezone: string): Date => {
-    const startOfDay = getStartOfDayInTimezone(date, timezone);
-    const nextDay = new Date(startOfDay);
-    nextDay.setDate(nextDay.getDate() + 1);
-    return nextDay;
+     const startOfDay = getStartOfDayInTimezone(date, timezone);
+     const nextDay = new Date(startOfDay);
+     nextDay.setDate(nextDay.getDate() + 1);
+     return nextDay;
 };
 
 const getChallengeRelateVideo = async (id: string, userId: string, query: Record<string, unknown>) => {
@@ -294,7 +294,7 @@ const getChallengeRelateVideo = async (id: string, userId: string, query: Record
      }
 
      const queryBuilder = new QueryBuilder(
-          ChallengeVideo.find({ challengeId: isExistCategory._id }).sort({ order: 1, serial: 1 }), 
+          ChallengeVideo.find({ challengeId: isExistCategory._id }).sort({ order: 1, serial: 1 }),
           query
      );
 
@@ -314,22 +314,39 @@ const getChallengeRelateVideo = async (id: string, userId: string, query: Record
      // Helper function to check if a day has passed since completion
      const canUnlockNextVideo = (completionDate: string): boolean => {
           if (!completionDate) return false;
-          
+
           const completed = new Date(completionDate);
           const completedInUserTz = new Date(completed.toLocaleString("en-US", { timeZone: userTimezone }));
           const nextDayStart = getNextDayStartInTimezone(completedInUserTz, userTimezone);
-          
+
           return currentUserDate >= nextDayStart;
      };
 
      // Helper function to calculate next unlock time
      const getNextUnlockTime = (completionDate: string): Date | null => {
           if (!completionDate) return null;
-          
+
           const completed = new Date(completionDate);
           const completedInUserTz = new Date(completed.toLocaleString("en-US", { timeZone: userTimezone }));
-          return getNextDayStartInTimezone(completedInUserTz, userTimezone);
+
+          // Ensure the time is set to midnight in the user's timezone
+          completedInUserTz.setHours(0, 0, 0, 0);
+
+          // Now move to the next day in the user's timezone
+          completedInUserTz.setDate(completedInUserTz.getDate() + 1);
+
+          // Convert the next day's time back to UTC before returning
+          const nextDayUtc = new Date(Date.UTC(
+               completedInUserTz.getUTCFullYear(),
+               completedInUserTz.getUTCMonth(),
+               completedInUserTz.getUTCDate(),
+               0, 0, 0
+          ));
+
+          return nextDayUtc;
      };
+
+
 
      // 🔥 Find the next video that should unlock tomorrow
      let nextVideoToUnlockIndex = -1;
@@ -345,7 +362,7 @@ const getChallengeRelateVideo = async (id: string, userId: string, query: Record
                // This video is completed, check next video
                const nextVideoId = result[i + 1]._id.toString();
                const isNextCompleted = completedVideoIds.includes(nextVideoId);
-               
+
                if (!isNextCompleted && completionDate && !canUnlockNextVideo(completionDate)) {
                     // Next video is not completed and current video was completed today
                     nextVideoToUnlockIndex = i + 1;
@@ -498,7 +515,7 @@ const markVideoAsCompleted = async (userId: string, videoId: string) => {
           const videoObjectId = new mongoose.Types.ObjectId(videoId);
 
           // Check if video is already completed (more reliable comparison)
-          const isAlreadyCompleted = user.completedSessions?.some((sessionId: any) => 
+          const isAlreadyCompleted = user.completedSessions?.some((sessionId: any) =>
                sessionId.toString() === videoId.toString()
           ) || false;
 
@@ -511,17 +528,17 @@ const markVideoAsCompleted = async (userId: string, videoId: string) => {
 
                // Store completion timestamp (always in UTC for consistency)
                const currentDate = new Date().toISOString();
-               
+
                // Calculate next unlock time in user's timezone
                const nextUnlockDate = getNextDayStartInTimezone(new Date(), userTimezone);
 
                // Use findByIdAndUpdate with proper options - ADD DAILY TRACKING
                const updatedUser = await User.findByIdAndUpdate(
                     userId,
-                    { 
+                    {
                          $push: { completedSessions: videoObjectId },
-                         $set: { 
-                              [`challengeVideoProgress.${videoId}`]: currentDate 
+                         $set: {
+                              [`challengeVideoProgress.${videoId}`]: currentDate
                          }
                     },
                     {
@@ -535,21 +552,21 @@ const markVideoAsCompleted = async (userId: string, videoId: string) => {
                }
 
                // Get all videos in this challenge to determine next unlock
-               const allChallengeVideos = await ChallengeVideo.find({ 
-                    challengeId: currentVideo.challengeId 
+               const allChallengeVideos = await ChallengeVideo.find({
+                    challengeId: currentVideo.challengeId
                }).sort({ order: 1, serial: 1 });
-               
+
                // Find current video index
-               const currentVideoIndex = allChallengeVideos.findIndex(video => 
+               const currentVideoIndex = allChallengeVideos.findIndex(video =>
                     video._id.toString() === videoId
                );
-               
-               let nextVideoInfo: any = { 
-                    nextVideoUnlocked: false, 
+
+               let nextVideoInfo: any = {
+                    nextVideoUnlocked: false,
                     reason: 'No next video',
                     nextUnlockTime: null
                };
-               
+
                // Check if there's a next video to unlock
                if (currentVideoIndex !== -1 && currentVideoIndex < allChallengeVideos.length - 1) {
                     const nextVideo = allChallengeVideos[currentVideoIndex + 1];
@@ -604,8 +621,8 @@ const markVideoAsCompleted = async (userId: string, videoId: string) => {
                     success: true,
                     message: 'Video already completed',
                     completedSessions: user.completedSessions,
-                    nextVideoInfo: { 
-                         nextVideoUnlocked: canUnlockNext, 
+                    nextVideoInfo: {
+                         nextVideoUnlocked: canUnlockNext,
                          reason: canUnlockNext ? 'Next video now available' : `Wait until midnight (${userTimezone})`
                     },
                     videoLocked: true,
@@ -621,11 +638,11 @@ const markVideoAsCompleted = async (userId: string, videoId: string) => {
 // Helper function to check if next video should unlock (timezone-aware)
 const checkIfNextVideoShouldUnlock = (completionDate: string, userTimezone: string): boolean => {
      if (!completionDate) return false;
-     
+
      const completed = new Date(completionDate);
      const nextDayStart = getNextDayStartInTimezone(completed, userTimezone);
      const currentUserDate = getUserCurrentDate(userTimezone);
-     
+
      return currentUserDate >= nextDayStart;
 };
 
@@ -633,12 +650,12 @@ const checkIfNextVideoShouldUnlock = (completionDate: string, userTimezone: stri
 const calculateTimeUntilUnlock = (unlockDate: Date, userTimezone: string): string => {
      const currentUserDate = getUserCurrentDate(userTimezone);
      const diffMs = unlockDate.getTime() - currentUserDate.getTime();
-     
+
      if (diffMs <= 0) return 'Available now';
-     
+
      const hours = Math.floor(diffMs / (1000 * 60 * 60));
      const minutes = Math.floor((diffMs % (1000 * 60 * 60)) / (1000 * 60));
-     
+
      if (hours > 0) {
           return `${hours}h ${minutes}m remaining`;
      }
@@ -685,12 +702,12 @@ const calculateTimeUntilUnlock = (unlockDate: Date, userTimezone: string): strin
 
 //                // Get all videos in this challenge to determine next unlock
 //                const allChallengeVideos = await ChallengeVideo.find({ challengeId: currentVideo.challengeId }).sort({ order: 1, serial: 1 });
-               
+
 //                // Find current video index
 //                const currentVideoIndex = allChallengeVideos.findIndex(video => video._id.toString() === videoId);
-               
+
 //                let nextVideoInfo: any = { nextVideoUnlocked: false, reason: 'No next video' };
-               
+
 //                // Check if there's a next video to unlock
 //                if (currentVideoIndex !== -1 && currentVideoIndex < allChallengeVideos.length - 1) {
 //                     const nextVideo = allChallengeVideos[currentVideoIndex + 1];
