@@ -22,12 +22,12 @@ app.use(Morgan.errorHandler);
 app.use(
      cors({
           origin: config.node_env === "production" ? [
-               "https://web.yogawithjen.life",
+               "https://app.yogawithjen.life",
                "https://api.yogawithjen.life",
                "https://dashboard.yogawithjen.life",
                "https://www.dashboard.yogawithjen.life",
                'https://dashboard.yogawithjen.life',
-               "https://www.web.yogawithjen.life",
+               "https://www.app.yogawithjen.life",
 
           ] : ["http://10.10.7.48:3007",
                "http://10.10.7.48:3001",

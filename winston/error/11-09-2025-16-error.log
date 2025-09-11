@@ -1,0 +1,13 @@
+Thu Sep 11 2025 16:25:39 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/admin/challenge/68c25be7d5c8433ce8cb2bfb 404 - 16.367 ms
+Thu Sep 11 2025 16:26:39 [SERVER-NAME] error: [31mWorker 31876 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Thu Sep 11 2025 16:26:39 [SERVER-NAME] error: [31mWorker 24664 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Thu Sep 11 2025 16:26:39 [SERVER-NAME] error: [31mWorker 26420 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Thu Sep 11 2025 16:26:39 [SERVER-NAME] error: [31mWorker 26632 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Thu Sep 11 2025 16:26:39 [SERVER-NAME] error: [31mWorker 32336 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Thu Sep 11 2025 16:26:39 [SERVER-NAME] error: [31mWorker 32444 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Thu Sep 11 2025 16:26:39 [SERVER-NAME] error: [31mWorker 29612 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Thu Sep 11 2025 16:26:39 [SERVER-NAME] error: [31mWorker 28380 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Thu Sep 11 2025 16:26:39 [SERVER-NAME] error: [31mWorker 30120 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Thu Sep 11 2025 16:26:39 [SERVER-NAME] error: [31mWorker 28136 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Thu Sep 11 2025 16:26:39 [SERVER-NAME] error: [31mWorker 13388 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Thu Sep 11 2025 16:26:40 [SERVER-NAME] error: [31mWorker 30992 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
