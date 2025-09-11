@@ -10,3 +10,6 @@ Thu Sep 11 2025 20:2:11 [SERVER-NAME] error: [31mWorker 7116 uncaught exception
 Thu Sep 11 2025 20:2:11 [SERVER-NAME] error: [31mWorker 10484 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
 Thu Sep 11 2025 20:2:11 [SERVER-NAME] error: [31mWorker 26880 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
 Thu Sep 11 2025 20:2:11 [SERVER-NAME] error: [31mWorker 33572 uncaught exception[39m bind EADDRNOTAVAIL 69.62.67.86:7000
+Thu Sep 11 2025 20:10:56 [SERVER-NAME] error: 10.10.7.48 - POST /api/v1/auth/login 400 - 244.364 ms
+Thu Sep 11 2025 20:11:12 [SERVER-NAME] error: 10.10.7.48 - POST /api/v1/auth/login 400 - 217.358 ms
+Thu Sep 11 2025 20:17:40 [SERVER-NAME] error: 10.10.7.48 - POST /api/v1/auth/login 400 - 2.885 ms

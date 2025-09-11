@@ -28,7 +28,7 @@ const loginUserFromDB = async (payload: ILoginData) => {
           throw new AppError(StatusCodes.BAD_REQUEST, "User doesn't exist!");
      }
      // Only update if timezone is different
-     if (timezone && timezone !== isExistUser.timezone) {
+     if (timezone && timezone === "" && timezone === undefined && timezone !== isExistUser.timezone) {
           await User.findByIdAndUpdate(isExistUser._id, { $set: { timezone } }, { new: true });
           isExistUser.timezone = timezone;
      }
