@@ -5,3 +5,5 @@ Thu Sep 11 2025 18:8:24 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/subscripti
 Thu Sep 11 2025 18:11:3 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/subscription/check-access 401 - 2.629 ms
 Thu Sep 11 2025 18:11:7 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/subscription/check-access 401 - 1.227 ms
 Thu Sep 11 2025 18:21:12 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/challenge/get-challenges-videos-for-users/68c0f3c0d1948cc713483823 401 - 3.274 ms
+Thu Sep 11 2025 18:22:13 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/subscription/check-access 401 - 1.251 ms
+Thu Sep 11 2025 18:24:17 [SERVER-NAME] error: 10.10.7.48 - GET /api/v1/subscription/check-access 401 - 0.760 ms

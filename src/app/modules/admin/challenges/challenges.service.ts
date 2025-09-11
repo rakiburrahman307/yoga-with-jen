@@ -306,12 +306,12 @@ const getChallengeRelateVideo = async (id: string, userId: string, query: Record
           throw new AppError(StatusCodes.NOT_FOUND, 'User not found');
      }
 
-     const userTimezone = user.timezone || 'UTC'; // Default to UTC if no timezone set
+     const userTimezone = user.timezone || 'UTC';
      const completedVideoIds = user.completedSessions?.map((id: any) => id.toString()) || [];
      const userVideoProgress = ensureMapFormat(user.challengeVideoProgress);
      const currentUserDate = getUserCurrentDate(userTimezone);
 
-     // Helper function to check if a day has passed since completion in user's timezone
+     // Helper function to check if a day has passed since completion
      const canUnlockNextVideo = (completionDate: string): boolean => {
           if (!completionDate) return false;
           
@@ -322,7 +322,7 @@ const getChallengeRelateVideo = async (id: string, userId: string, query: Record
           return currentUserDate >= nextDayStart;
      };
 
-     // Helper function to calculate next unlock time in user's timezone
+     // Helper function to calculate next unlock time
      const getNextUnlockTime = (completionDate: string): Date | null => {
           if (!completionDate) return null;
           
@@ -331,7 +331,31 @@ const getChallengeRelateVideo = async (id: string, userId: string, query: Record
           return getNextDayStartInTimezone(completedInUserTz, userTimezone);
      };
 
-     // Better logic to find which video should be accessible
+     // 🔥 Find the next video that should unlock tomorrow
+     let nextVideoToUnlockIndex = -1;
+     let nextVideoUnlockTime: Date | null = null;
+
+     // Calculate which video will unlock next
+     for (let i = 0; i < result.length; i++) {
+          const videoId = result[i]._id.toString();
+          const isCompleted = completedVideoIds.includes(videoId);
+          const completionDate = userVideoProgress.get(videoId);
+
+          if (isCompleted && i < result.length - 1) {
+               // This video is completed, check next video
+               const nextVideoId = result[i + 1]._id.toString();
+               const isNextCompleted = completedVideoIds.includes(nextVideoId);
+               
+               if (!isNextCompleted && completionDate && !canUnlockNextVideo(completionDate)) {
+                    // Next video is not completed and current video was completed today
+                    nextVideoToUnlockIndex = i + 1;
+                    nextVideoUnlockTime = getNextUnlockTime(completionDate);
+                    break;
+               }
+          }
+     }
+
+     // Better logic to find current unlocked index
      let currentUnlockedIndex = 0;
      let allVideosCompleted = completedVideoIds.length === result.length && result.length > 0;
 
@@ -342,26 +366,21 @@ const getChallengeRelateVideo = async (id: string, userId: string, query: Record
           const completionDate = userVideoProgress.get(videoId);
 
           if (!isCompleted) {
-               // Found first incomplete video
                currentUnlockedIndex = i;
                break;
           } else if (i === result.length - 1) {
-               // Last video completed
                currentUnlockedIndex = i;
                allVideosCompleted = true;
           } else {
-               // Video completed, check if next video should unlock
                if (completionDate && canUnlockNextVideo(completionDate)) {
-                    // Time passed, next video can be unlocked
                     currentUnlockedIndex = i + 1;
                } else {
-                    // Must wait, next video is locked but should show "unlocks tomorrow"
-                    currentUnlockedIndex = i + 1;
+                    currentUnlockedIndex = i;
                }
           }
      }
 
-     // Process videos with corrected timezone-aware logic
+     // Process videos with optimized logic
      const postsWithStatus = await Promise.all(
           result.map(async (post: any, index: number) => {
                const videoIdString = post._id.toString();
@@ -370,21 +389,22 @@ const getChallengeRelateVideo = async (id: string, userId: string, query: Record
 
                let isEnabled = false;
                let lockReason = '';
-               let nextUnlockTime: Date | null = null;
+               let nextUnlockTime: Date | null = null; // Default: no unlock time
 
-               // Better logic for each video with timezone awareness
+               // 🔥 ONLY show nextUnlockTime for the specific video that unlocks tomorrow
+               if (index === nextVideoToUnlockIndex) {
+                    nextUnlockTime = nextVideoUnlockTime;
+               }
+
+               // Logic for each video
                if (index === 0) {
                     // First video
                     if (!isVideoCompleted) {
-                         isEnabled = true; // First video always unlocked if not completed
+                         isEnabled = true;
                          lockReason = '';
                     } else {
                          isEnabled = false;
                          lockReason = 'Video completed';
-                         // If there's a next video, show when it unlocks
-                         if (index < result.length - 1) {
-                              nextUnlockTime = getNextUnlockTime(completionDate || '');
-                         }
                     }
                } else {
                     // Other videos
@@ -400,23 +420,20 @@ const getChallengeRelateVideo = async (id: string, userId: string, query: Record
                          // This video is completed
                          isEnabled = false;
                          if (index === result.length - 1) {
-                              // Last video
                               lockReason = allVideosCompleted ? 'Challenge completed' : 'Video completed';
                          } else {
                               lockReason = 'Video completed';
-                              nextUnlockTime = getNextUnlockTime(completionDate || '');
                          }
                     } else {
-                         // This video is not completed, check if it should be unlocked (day-wise in user's timezone)
+                         // This video is not completed, check if it should be unlocked
                          if (previousCompletionDate && canUnlockNextVideo(previousCompletionDate)) {
-                              // Previous video completed on different calendar day in user's timezone
+                              // Previous video completed on different calendar day
                               isEnabled = true;
                               lockReason = '';
                          } else {
-                              // Previous video completed today - wait for midnight in user's timezone
+                              // Previous video completed today - wait for tomorrow
                               isEnabled = false;
-                              lockReason = `Video unlocks at midnight (${userTimezone})`;
-                              nextUnlockTime = getNextUnlockTime(previousCompletionDate || '');
+                              lockReason = `Video unlocks tomorrow at midnight (${userTimezone})`;
                          }
                     }
                }
@@ -425,6 +442,7 @@ const getChallengeRelateVideo = async (id: string, userId: string, query: Record
                if (allVideosCompleted && index === result.length - 1) {
                     isEnabled = true;
                     lockReason = 'Challenge completed - replay available';
+                    nextUnlockTime = null; // No unlock time needed for replay
                }
 
                return {
@@ -432,11 +450,12 @@ const getChallengeRelateVideo = async (id: string, userId: string, query: Record
                     isVideoCompleted,
                     isEnabled,
                     lockReason,
-                    nextUnlockTime: nextUnlockTime?.toISOString() || null,
+                    // 🔥 KEY CHANGE: Only include nextUnlockTime for the video that unlocks tomorrow
+                    ...(nextUnlockTime && { nextUnlockTime: nextUnlockTime.toISOString() }),
                     completionDate: completionDate || null,
                     canReplay: allVideosCompleted && index === result.length - 1,
                     thumbnailUrl: post.thumbnailUrl || post.thumbnail || null,
-                    userTimezone: userTimezone, // Include user's timezone for frontend reference
+                    userTimezone: userTimezone,
                };
           }),
      );
@@ -455,11 +474,16 @@ const getChallengeRelateVideo = async (id: string, userId: string, query: Record
                allCompleted: allVideosCompleted,
                nextVideoAvailable: postsWithStatus.some(video => video.isEnabled && !video.isVideoCompleted),
                challengeStatus: allVideosCompleted ? 'completed' : 'in_progress',
-               userTimezone: userTimezone // Include timezone info
+               userTimezone: userTimezone,
+               // 🔥 Add global next unlock info
+               nextUnlockInfo: nextVideoToUnlockIndex !== -1 ? {
+                    videoIndex: nextVideoToUnlockIndex,
+                    unlockTime: nextVideoUnlockTime?.toISOString(),
+                    videoTitle: result[nextVideoToUnlockIndex]?.title
+               } : null
           },
      };
 };
-
 const markVideoAsCompleted = async (userId: string, videoId: string) => {
      try {
           // Find the user first
