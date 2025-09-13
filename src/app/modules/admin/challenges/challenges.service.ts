@@ -9,6 +9,8 @@ import { VideoLibrary } from '../videosManagement/videoManagement.model';
 import { ChallengeCategory } from '../challengesCategory/challengesCategory.model';
 import { User } from '../../user/user.model';
 import mongoose from 'mongoose';
+import { DateTime } from 'luxon';
+
 import { IVideoLibrary } from '../videosManagement/videoManagement.interface';
 
 
@@ -246,6 +248,7 @@ const deleteChallenge = async (id: string) => {
      return result;
 };
 
+
 const ensureMapFormat = (progress: any): Map<string, string> => {
      if (progress instanceof Map) {
           return progress;
@@ -261,30 +264,7 @@ const ensureMapFormat = (progress: any): Map<string, string> => {
      return map;
 };
 
-// Helper function to get user's current date in their timezone
-const getUserCurrentDate = (timezone: string): Date => {
-     const now = new Date();
-     // Convert to user's timezone
-     const userDate = new Date(now.toLocaleString("en-US", { timeZone: timezone }));
-     return userDate;
-};
 
-// Helper function to get start of day in user's timezone
-const getStartOfDayInTimezone = (date: Date, timezone: string): Date => {
-     // Get the date string in user's timezone
-     const dateInTimezone = new Date(date.toLocaleString("en-US", { timeZone: timezone }));
-     // Set to start of day
-     dateInTimezone.setHours(0, 0, 0, 0);
-     return dateInTimezone;
-};
-
-// Helper function to get next day start in user's timezone
-const getNextDayStartInTimezone = (date: Date, timezone: string): Date => {
-     const startOfDay = getStartOfDayInTimezone(date, timezone);
-     const nextDay = new Date(startOfDay);
-     nextDay.setDate(nextDay.getDate() + 1);
-     return nextDay;
-};
 
 const getChallengeRelateVideo = async (id: string, userId: string, query: Record<string, unknown>) => {
      // Check if subcategory exists
@@ -309,44 +289,27 @@ const getChallengeRelateVideo = async (id: string, userId: string, query: Record
      const userTimezone = user.timezone || 'UTC';
      const completedVideoIds = user.completedSessions?.map((id: any) => id.toString()) || [];
      const userVideoProgress = ensureMapFormat(user.challengeVideoProgress);
-     const currentUserDate = getUserCurrentDate(userTimezone);
 
-     // Helper function to check if a day has passed since completion
+
+     // ✅ FIXED: Helper function to check if a day has passed since completion
      const canUnlockNextVideo = (completionDate: string): boolean => {
           if (!completionDate) return false;
 
-          const completed = new Date(completionDate);
-          const completedInUserTz = new Date(completed.toLocaleString("en-US", { timeZone: userTimezone }));
-          const nextDayStart = getNextDayStartInTimezone(completedInUserTz, userTimezone);
-
-          return currentUserDate >= nextDayStart;
+          const completed = DateTime.fromISO(completionDate);
+          const completedInUserTz = completed.setZone(userTimezone);
+          const currentInUserTz = DateTime.now().setZone(userTimezone);
+          
+          // Check if it's a different day
+          return !completedInUserTz.hasSame(currentInUserTz, 'day');
      };
 
-     // Helper function to calculate next unlock time
+     // ✅ FIXED: Helper function to calculate next unlock time
      const getNextUnlockTime = (completionDate: string): Date | null => {
           if (!completionDate) return null;
 
-          const completed = new Date(completionDate);
-          const completedInUserTz = new Date(completed.toLocaleString("en-US", { timeZone: userTimezone }));
-
-          // Ensure the time is set to midnight in the user's timezone
-          completedInUserTz.setHours(0, 0, 0, 0);
-
-          // Now move to the next day in the user's timezone
-          completedInUserTz.setDate(completedInUserTz.getDate() + 1);
-
-          // Convert the next day's time back to UTC before returning
-          const nextDayUtc = new Date(Date.UTC(
-               completedInUserTz.getUTCFullYear(),
-               completedInUserTz.getUTCMonth(),
-               completedInUserTz.getUTCDate(),
-               0, 0, 0
-          ));
-
-          return nextDayUtc;
+          const completed = DateTime.fromISO(completionDate);
+          return completed.setZone(userTimezone).plus({ days: 1 }).startOf('day').toJSDate();
      };
-
-
 
      // 🔥 Find the next video that should unlock tomorrow
      let nextVideoToUnlockIndex = -1;
@@ -501,6 +464,7 @@ const getChallengeRelateVideo = async (id: string, userId: string, query: Record
           },
      };
 };
+
 const markVideoAsCompleted = async (userId: string, videoId: string) => {
      try {
           // Find the user first
@@ -526,11 +490,11 @@ const markVideoAsCompleted = async (userId: string, videoId: string) => {
                     throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
                }
 
-               // Store completion timestamp (always in UTC for consistency)
-               const currentDate = new Date().toISOString();
+               // ✅ FIXED: Store completion timestamp (always in UTC for consistency)
+               const currentDate = DateTime.now().toISO();
 
-               // Calculate next unlock time in user's timezone
-               const nextUnlockDate = getNextDayStartInTimezone(new Date(), userTimezone);
+               // ✅ FIXED: Calculate next unlock time in user's timezone
+               const nextUnlockDate = DateTime.now().setZone(userTimezone).plus({ days: 1 }).startOf('day').toJSDate();
 
                // Use findByIdAndUpdate with proper options - ADD DAILY TRACKING
                const updatedUser = await User.findByIdAndUpdate(
@@ -635,128 +599,34 @@ const markVideoAsCompleted = async (userId: string, videoId: string) => {
      }
 };
 
-// Helper function to check if next video should unlock (timezone-aware)
+// ✅ FIXED: Helper function to check if next video should unlock (timezone-aware)
 const checkIfNextVideoShouldUnlock = (completionDate: string, userTimezone: string): boolean => {
      if (!completionDate) return false;
 
-     const completed = new Date(completionDate);
-     const nextDayStart = getNextDayStartInTimezone(completed, userTimezone);
-     const currentUserDate = getUserCurrentDate(userTimezone);
+     const completed = DateTime.fromISO(completionDate);
+     const completedInUserTz = completed.setZone(userTimezone);
+     const currentInUserTz = DateTime.now().setZone(userTimezone);
 
-     return currentUserDate >= nextDayStart;
+     return !completedInUserTz.hasSame(currentInUserTz, 'day');
 };
 
-// Helper function to calculate time until next unlock (timezone-aware)
+// ✅ FIXED: Helper function to calculate time until next unlock (timezone-aware)
 const calculateTimeUntilUnlock = (unlockDate: Date, userTimezone: string): string => {
-     const currentUserDate = getUserCurrentDate(userTimezone);
-     const diffMs = unlockDate.getTime() - currentUserDate.getTime();
+     const unlockDateTime = DateTime.fromJSDate(unlockDate).setZone(userTimezone);
+     const currentDateTime = DateTime.now().setZone(userTimezone);
+     
+     const diff = unlockDateTime.diff(currentDateTime, ['hours', 'minutes']).toObject();
 
-     if (diffMs <= 0) return 'Available now';
+     if ((diff.hours || 0) <= 0 && (diff.minutes || 0) <= 0) return 'Available now';
 
-     const hours = Math.floor(diffMs / (1000 * 60 * 60));
-     const minutes = Math.floor((diffMs % (1000 * 60 * 60)) / (1000 * 60));
+     const hours = Math.floor(diff.hours || 0);
+     const minutes = Math.floor(diff.minutes || 0);
 
      if (hours > 0) {
           return `${hours}h ${minutes}m remaining`;
      }
      return `${minutes}m remaining`;
 };
-
-
-
-
-// const markVideoAsCompleted = async (userId: string, videoId: string) => {
-//      try {
-//           // Find the user first
-//           const user = await User.findById(userId);
-//           if (!user) {
-//                throw new AppError(StatusCodes.NOT_FOUND, 'User not found');
-//           }
-
-//           // Convert videoId to ObjectId if using MongoDB ObjectIds
-//           const videoObjectId = new mongoose.Types.ObjectId(videoId);
-
-//           // Check if video is already completed (more reliable comparison)
-//           const isAlreadyCompleted = user.completedSessions.some((sessionId) => sessionId.toString() === videoId.toString());
-
-//           if (!isAlreadyCompleted) {
-//                // Find the video to get subcategory info
-//                const currentVideo = await ChallengeVideo.findById(videoId);
-//                if (!currentVideo) {
-//                     throw new AppError(StatusCodes.NOT_FOUND, 'Video not found');
-//                }
-
-//                // Use findByIdAndUpdate with proper options
-//                const updatedUser = await User.findByIdAndUpdate(
-//                     userId,
-//                     { $push: { completedSessions: videoObjectId } },
-//                     {
-//                          new: true, // Return updated document
-//                          runValidators: true, // Run schema validations
-//                     },
-//                );
-
-//                if (!updatedUser) {
-//                     throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to mark video as completed');
-//                }
-
-//                // Get all videos in this challenge to determine next unlock
-//                const allChallengeVideos = await ChallengeVideo.find({ challengeId: currentVideo.challengeId }).sort({ order: 1, serial: 1 });
-
-//                // Find current video index
-//                const currentVideoIndex = allChallengeVideos.findIndex(video => video._id.toString() === videoId);
-
-//                let nextVideoInfo: any = { nextVideoUnlocked: false, reason: 'No next video' };
-
-//                // Check if there's a next video to unlock
-//                if (currentVideoIndex !== -1 && currentVideoIndex < allChallengeVideos.length - 1) {
-//                     const nextVideo = allChallengeVideos[currentVideoIndex + 1];
-//                     nextVideoInfo = {
-//                          nextVideoUnlocked: true,
-//                          nextVideo: {
-//                               id: nextVideo._id,
-//                               name: nextVideo.title
-//                          },
-//                          reason: 'Next video in challenge unlocked'
-//                     };
-//                } else if (currentVideoIndex === allChallengeVideos.length - 1) {
-//                     // If this was the last video, cycle back to first
-//                     nextVideoInfo = {
-//                          nextVideoUnlocked: true,
-//                          nextVideo: {
-//                               id: allChallengeVideos[0]._id,
-//                               name: allChallengeVideos[0].title
-//                          },
-//                          reason: 'Challenge completed - cycling back to first video'
-//                     };
-//                }
-
-//                console.log('Video marked as completed:', {
-//                     userId,
-//                     videoId,
-//                     completedSessions: updatedUser.completedSessions,
-//                     nextVideoInfo
-//                });
-
-//                return {
-//                     success: true,
-//                     message: 'Video marked as completed and locked. Next video unlocked.',
-//                     completedSessions: updatedUser.completedSessions,
-//                     nextVideoInfo: nextVideoInfo,
-//                };
-//           } else {
-//                return {
-//                     success: true,
-//                     message: 'Video already completed',
-//                     completedSessions: user.completedSessions,
-//                     nextVideoInfo: { nextVideoUnlocked: false, reason: 'Already completed' },
-//                };
-//           }
-//      } catch (error) {
-//           console.error('Error marking video as completed:', error);
-//           throw error;
-//      }
-// };
 
 const shuffleVideoSerial = async (videoOrder: Array<{ _id: string; serial: number }>) => {
      if (!videoOrder || !Array.isArray(videoOrder) || videoOrder.length === 0) {
