@@ -1,0 +1,90 @@
+Sun Sep 14 2025 11:1:12 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun Sep 14 2025 11:1:12 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Sep 14 2025 11:1:12 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sun Sep 14 2025 11:1:12 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Sun Sep 14 2025 11:1:19 [SERVER-NAME] info: Attempting to send email to: rakibhassan305@gmail.com
+Sun Sep 14 2025 11:1:19 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/auth/forget-password 200 - 36.623 ms
+Sun Sep 14 2025 11:1:25 [SERVER-NAME] info: Mail sent successfully
+Sun Sep 14 2025 11:2:50 [SERVER-NAME] info: [34mSIGINT received. Shutting down gracefully...[39m
+Sun Sep 14 2025 11:2:57 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun Sep 14 2025 11:2:57 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Sep 14 2025 11:2:57 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sun Sep 14 2025 11:2:57 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Sun Sep 14 2025 11:3:9 [SERVER-NAME] info: Attempting to send email to: rakibhassan305@gmail.com
+Sun Sep 14 2025 11:3:9 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/auth/forget-password 200 - 25.380 ms
+Sun Sep 14 2025 11:3:14 [SERVER-NAME] info: Mail sent successfully
+Sun Sep 14 2025 11:4:48 [SERVER-NAME] info: [34mSIGINT received. Shutting down gracefully...[39m
+Sun Sep 14 2025 11:4:52 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun Sep 14 2025 11:4:52 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Sep 14 2025 11:4:52 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sun Sep 14 2025 11:4:52 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Sun Sep 14 2025 11:5:2 [SERVER-NAME] info: Attempting to send email to: rakibhassan305@gmail.com
+Sun Sep 14 2025 11:5:2 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/auth/forget-password 200 - 28.740 ms
+Sun Sep 14 2025 11:5:20 [SERVER-NAME] info: Attempting to send email to: rakibhassan305@gmail.com
+Sun Sep 14 2025 11:5:20 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/auth/forget-password 200 - 8.244 ms
+Sun Sep 14 2025 11:5:39 [SERVER-NAME] info: [34mSIGINT received. Shutting down gracefully...[39m
+Sun Sep 14 2025 11:5:43 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun Sep 14 2025 11:5:43 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Sep 14 2025 11:5:43 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sun Sep 14 2025 11:5:43 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Sun Sep 14 2025 11:5:47 [SERVER-NAME] info: Attempting to send email to: rakibhassan305@gmail.com
+Sun Sep 14 2025 11:5:47 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/auth/forget-password 200 - 30.128 ms
+Sun Sep 14 2025 11:5:52 [SERVER-NAME] info: Mail sent successfully
+Sun Sep 14 2025 11:8:54 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun Sep 14 2025 11:8:54 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Sep 14 2025 11:8:54 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sun Sep 14 2025 11:8:54 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Sun Sep 14 2025 11:9:34 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun Sep 14 2025 11:9:34 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Sep 14 2025 11:9:34 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sun Sep 14 2025 11:9:34 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Sun Sep 14 2025 11:9:42 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun Sep 14 2025 11:9:42 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Sep 14 2025 11:9:42 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sun Sep 14 2025 11:9:42 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Sun Sep 14 2025 11:9:48 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun Sep 14 2025 11:9:48 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Sep 14 2025 11:9:48 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sun Sep 14 2025 11:9:48 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Sun Sep 14 2025 11:10:10 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun Sep 14 2025 11:10:10 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Sep 14 2025 11:10:10 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sun Sep 14 2025 11:10:10 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Sun Sep 14 2025 11:10:13 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun Sep 14 2025 11:10:13 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Sep 14 2025 11:10:13 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sun Sep 14 2025 11:10:13 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Sun Sep 14 2025 11:10:16 [SERVER-NAME] info: [34mSIGINT received. Shutting down gracefully...[39m
+Sun Sep 14 2025 11:10:50 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun Sep 14 2025 11:10:50 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Sep 14 2025 11:10:50 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sun Sep 14 2025 11:10:50 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Sun Sep 14 2025 11:10:54 [SERVER-NAME] info: Attempting to send email to: rakibhassan305@gmail.com
+Sun Sep 14 2025 11:10:54 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/auth/forget-password 200 - 29.710 ms
+Sun Sep 14 2025 11:11:0 [SERVER-NAME] info: Mail sent successfully
+Sun Sep 14 2025 11:38:47 [SERVER-NAME] info: Attempting to send email to: rakibhassan305@gmail.com
+Sun Sep 14 2025 11:38:47 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/auth/forget-password 200 - 7.835 ms
+Sun Sep 14 2025 11:38:53 [SERVER-NAME] info: Mail sent successfully
+Sun Sep 14 2025 11:44:51 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun Sep 14 2025 11:44:51 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Sep 14 2025 11:44:51 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sun Sep 14 2025 11:44:51 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Sun Sep 14 2025 11:44:57 [SERVER-NAME] info: Attempting to send email to: rakibhassan305@gmail.com
+Sun Sep 14 2025 11:44:57 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/auth/forget-password 200 - 28.819 ms
+Sun Sep 14 2025 11:45:3 [SERVER-NAME] info: Mail sent successfully
+Sun Sep 14 2025 11:49:27 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun Sep 14 2025 11:49:27 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Sep 14 2025 11:49:27 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sun Sep 14 2025 11:49:28 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Sun Sep 14 2025 11:50:27 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun Sep 14 2025 11:50:27 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Sep 14 2025 11:50:27 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sun Sep 14 2025 11:50:27 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Sun Sep 14 2025 11:50:29 [SERVER-NAME] info: [34mSIGINT received. Shutting down gracefully...[39m
+Sun Sep 14 2025 11:50:33 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Sun Sep 14 2025 11:50:33 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Sep 14 2025 11:50:33 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Sun Sep 14 2025 11:50:33 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Sun Sep 14 2025 11:50:34 [SERVER-NAME] info: Attempting to send email to: rakibhassan305@gmail.com
+Sun Sep 14 2025 11:50:34 [SERVER-NAME] info: 10.10.7.62 - POST /api/v1/auth/forget-password 200 - 28.689 ms
+Sun Sep 14 2025 11:50:40 [SERVER-NAME] info: Mail sent successfully

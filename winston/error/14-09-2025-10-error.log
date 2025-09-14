@@ -1,0 +1,11 @@
+Sun Sep 14 2025 10:1:42 [SERVER-NAME] error: 10.10.7.62 - POST /api/v1/auth/login 400 - 6.984 ms
+Sun Sep 14 2025 10:2:59 [SERVER-NAME] error: Email Unexpected socket close
+Sun Sep 14 2025 10:5:45 [SERVER-NAME] error: Email Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-25c3b304ce8sm92819015ad.128 - gsmtp
+Sun Sep 14 2025 10:6:58 [SERVER-NAME] error: Email Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2631ee2ceb2sm19526695ad.141 - gsmtp
+Sun Sep 14 2025 10:8:32 [SERVER-NAME] error: Email Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2638eb9e75bsm15370345ad.3 - gsmtp
+Sun Sep 14 2025 10:11:11 [SERVER-NAME] error: Email Invalid login: 535 Incorrect authentication data
+Sun Sep 14 2025 10:14:4 [SERVER-NAME] error: Email 34290000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\ws\deps\openssl\openssl\ssl\record\ssl3_record.c:355:
+
