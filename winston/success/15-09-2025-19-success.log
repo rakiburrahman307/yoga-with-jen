@@ -73,3 +73,97 @@ Mon Sep 15 2025 19:51:52 [SERVER-NAME] info: 10.10.7.48 - GET //image/young-woma
 Mon Sep 15 2025 19:52:0 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/library/videos/68c819d41d1006817480a4ab 204 - 0.069 ms
 Mon Sep 15 2025 19:52:0 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/library/videos/68c819d41d1006817480a4ab 200 - 3.420 ms
 Mon Sep 15 2025 19:53:0 [SERVER-NAME] info: [34mSIGINT received. Shutting down gracefully...[39m
+Mon Sep 15 2025 19:53:39 [SERVER-NAME] info: [34mMaster 6548 is running[39m
+Mon Sep 15 2025 19:53:39 [SERVER-NAME] info: [34mStarting 12 workers...[39m
+Mon Sep 15 2025 19:53:41 [SERVER-NAME] info: [34mWorker 19300 started[39m
+Mon Sep 15 2025 19:53:41 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Sep 15 2025 19:53:41 [SERVER-NAME] info: [34mWorker 39928 started[39m
+Mon Sep 15 2025 19:53:41 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Sep 15 2025 19:53:41 [SERVER-NAME] info: [34mWorker 16564 started[39m
+Mon Sep 15 2025 19:53:41 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Sep 15 2025 19:53:41 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Sep 15 2025 19:53:41 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Sep 15 2025 19:53:41 [SERVER-NAME] info: [32mWorker 39928 is ready to accept connections[39m
+Mon Sep 15 2025 19:53:41 [SERVER-NAME] info: [32mWorker 19300 is ready to accept connections[39m
+Mon Sep 15 2025 19:53:41 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Sep 15 2025 19:53:41 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Sep 15 2025 19:53:41 [SERVER-NAME] info: [34mWorker 30484 started[39m
+Mon Sep 15 2025 19:53:41 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Sep 15 2025 19:53:41 [SERVER-NAME] info: [34mWorker 29844 started[39m
+Mon Sep 15 2025 19:53:41 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Sep 15 2025 19:53:42 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Sep 15 2025 19:53:42 [SERVER-NAME] info: [32mWorker 16564 is ready to accept connections[39m
+Mon Sep 15 2025 19:53:42 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Sep 15 2025 19:53:42 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Sep 15 2025 19:53:42 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Sep 15 2025 19:53:42 [SERVER-NAME] info: [32mWorker 29844 is ready to accept connections[39m
+Mon Sep 15 2025 19:53:41 [SERVER-NAME] info: [34mWorker 39024 started[39m
+Mon Sep 15 2025 19:53:41 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Sep 15 2025 19:53:42 [SERVER-NAME] info: [32mWorker 30484 is ready to accept connections[39m
+Mon Sep 15 2025 19:53:42 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Sep 15 2025 19:53:41 [SERVER-NAME] info: [34mWorker 13220 started[39m
+Mon Sep 15 2025 19:53:41 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Sep 15 2025 19:53:41 [SERVER-NAME] info: [34mWorker 10920 started[39m
+Mon Sep 15 2025 19:53:41 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Sep 15 2025 19:53:41 [SERVER-NAME] info: [34mWorker 16552 started[39m
+Mon Sep 15 2025 19:53:41 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Sep 15 2025 19:53:42 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Sep 15 2025 19:53:41 [SERVER-NAME] info: [34mWorker 26856 started[39m
+Mon Sep 15 2025 19:53:42 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Sep 15 2025 19:53:42 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Sep 15 2025 19:53:42 [SERVER-NAME] info: [32mWorker 13220 is ready to accept connections[39m
+Mon Sep 15 2025 19:53:42 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Sep 15 2025 19:53:42 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Sep 15 2025 19:53:42 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Sep 15 2025 19:53:42 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Sep 15 2025 19:53:42 [SERVER-NAME] info: [32mWorker 10920 is ready to accept connections[39m
+Mon Sep 15 2025 19:53:42 [SERVER-NAME] info: [32mWorker 16552 is ready to accept connections[39m
+Mon Sep 15 2025 19:53:42 [SERVER-NAME] info: [32mWorker 39024 is ready to accept connections[39m
+Mon Sep 15 2025 19:53:42 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Sep 15 2025 19:53:42 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Sep 15 2025 19:53:42 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Sep 15 2025 19:53:42 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Sep 15 2025 19:53:42 [SERVER-NAME] info: [34mWorker 2292 started[39m
+Mon Sep 15 2025 19:53:42 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Sep 15 2025 19:53:42 [SERVER-NAME] info: [32mWorker 26856 is ready to accept connections[39m
+Mon Sep 15 2025 19:53:42 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Sep 15 2025 19:53:42 [SERVER-NAME] info: [34mWorker 10336 started[39m
+Mon Sep 15 2025 19:53:42 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Sep 15 2025 19:53:42 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Sep 15 2025 19:53:42 [SERVER-NAME] info: [32mWorker 2292 is ready to accept connections[39m
+Mon Sep 15 2025 19:53:42 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Sep 15 2025 19:53:42 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Sep 15 2025 19:53:42 [SERVER-NAME] info: [32mWorker 10336 is ready to accept connections[39m
+Mon Sep 15 2025 19:53:42 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Sep 15 2025 19:53:42 [SERVER-NAME] warn: [33mWorker 39928 exited with error code: 1[39m
+Mon Sep 15 2025 19:53:42 [SERVER-NAME] info: [34mRestarting worker 39928 in 5000ms (attempt 1)[39m
+Mon Sep 15 2025 19:53:42 [SERVER-NAME] warn: [33mWorker 19300 exited with error code: 1[39m
+Mon Sep 15 2025 19:53:42 [SERVER-NAME] info: [34mRestarting worker 19300 in 5000ms (attempt 1)[39m
+Mon Sep 15 2025 19:53:43 [SERVER-NAME] warn: [33mWorker 16564 exited with error code: 1[39m
+Mon Sep 15 2025 19:53:43 [SERVER-NAME] info: [34mRestarting worker 16564 in 5000ms (attempt 1)[39m
+Mon Sep 15 2025 19:53:43 [SERVER-NAME] warn: [33mWorker 29844 exited with error code: 1[39m
+Mon Sep 15 2025 19:53:43 [SERVER-NAME] info: [34mRestarting worker 29844 in 5000ms (attempt 1)[39m
+Mon Sep 15 2025 19:53:43 [SERVER-NAME] warn: [33mWorker 30484 exited with error code: 1[39m
+Mon Sep 15 2025 19:53:43 [SERVER-NAME] info: [34mRestarting worker 30484 in 5000ms (attempt 1)[39m
+Mon Sep 15 2025 19:53:43 [SERVER-NAME] warn: [33mWorker 13220 exited with error code: 1[39m
+Mon Sep 15 2025 19:53:43 [SERVER-NAME] info: [34mRestarting worker 13220 in 5000ms (attempt 1)[39m
+Mon Sep 15 2025 19:53:43 [SERVER-NAME] warn: [33mWorker 10920 exited with error code: 1[39m
+Mon Sep 15 2025 19:53:43 [SERVER-NAME] info: [34mRestarting worker 10920 in 5000ms (attempt 1)[39m
+Mon Sep 15 2025 19:53:43 [SERVER-NAME] warn: [33mWorker 16552 exited with error code: 1[39m
+Mon Sep 15 2025 19:53:43 [SERVER-NAME] info: [34mRestarting worker 16552 in 5000ms (attempt 1)[39m
+Mon Sep 15 2025 19:53:43 [SERVER-NAME] warn: [33mWorker 39024 exited with error code: 1[39m
+Mon Sep 15 2025 19:53:43 [SERVER-NAME] info: [34mRestarting worker 39024 in 5000ms (attempt 1)[39m
+Mon Sep 15 2025 19:53:43 [SERVER-NAME] warn: [33mWorker 26856 exited with error code: 1[39m
+Mon Sep 15 2025 19:53:43 [SERVER-NAME] info: [34mRestarting worker 26856 in 5000ms (attempt 1)[39m
+Mon Sep 15 2025 19:53:43 [SERVER-NAME] warn: [33mWorker 2292 exited with error code: 1[39m
+Mon Sep 15 2025 19:53:43 [SERVER-NAME] info: [34mRestarting worker 2292 in 5000ms (attempt 1)[39m
+Mon Sep 15 2025 19:53:43 [SERVER-NAME] warn: [33mWorker 10336 exited with error code: 1[39m
+Mon Sep 15 2025 19:53:43 [SERVER-NAME] info: [34mRestarting worker 10336 in 5000ms (attempt 1)[39m
+Mon Sep 15 2025 19:53:49 [SERVER-NAME] info: [34mSIGINT received. Shutting down gracefully...[39m
+Mon Sep 15 2025 19:53:53 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Sep 15 2025 19:53:53 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Sep 15 2025 19:53:53 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Sep 15 2025 19:53:53 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Mon Sep 15 2025 19:54:3 [SERVER-NAME] info: OPTIONS /api/v1/admin/videos/library/upload-video 204 - 0.939 ms
+Mon Sep 15 2025 19:56:4 [SERVER-NAME] info: POST /api/v1/admin/videos/library/upload-video - - - ms
+Mon Sep 15 2025 19:58:4 [SERVER-NAME] info: POST /api/v1/admin/videos/library/upload-video - - - ms
