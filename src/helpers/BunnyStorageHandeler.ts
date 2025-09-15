@@ -8,7 +8,7 @@ const extractFileKeyFromUrl = (url: string): string => {
      try {
           const urlObj = new URL(url.startsWith('http') ? url : `https://${url}`);
           return urlObj.pathname.startsWith('/') ? urlObj.pathname.substring(1) : urlObj.pathname;
-     } catch (error) {
+     } catch {
           const parts = url.split('/');
           if (parts[0].includes('.') && !parts[0].includes('.')) {
                parts.shift();
@@ -25,15 +25,31 @@ const uploadToBunny = async (file: Express.Multer.File, folderName: string): Pro
           throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, `Error uploading file to BunnyCDN: ${error.message}`);
      }
 };
-const uploadVideoToBunny = async (file: Express.Multer.File, folderName: string): Promise<string> => {
-     const fileKey = `${folderName}/${Date.now().toString()}-${file.originalname}`;
+// const uploadVideoToBunny = async (file: Express.Multer.File, folderName: string): Promise<string> => {
+//      const fileKey = `${folderName}/${Date.now().toString()}-${file.originalname}`;
+//      try {
+//           await bunnyStorage.upload(file.buffer, fileKey);
+//           return getBunnyUrl(fileKey);
+//      } catch (error: any) {
+//           throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, `Error uploading file to BunnyCDN: ${error.message}`);
+//      }
+// };
+const uploadVideoToBunny = async (fileBuffer: Buffer, originalFileName: string, folderName: string): Promise<string> => {
+     // Use the original file name provided by multer (file.originalname)
+     const fileKey = `${folderName}/${Date.now().toString()}-${originalFileName}`;
+
      try {
-          await bunnyStorage.upload(file.buffer, fileKey);
+          // Upload the file buffer to Bunny Storage
+          await bunnyStorage.upload(fileBuffer, fileKey);
+
+          // Return the URL for the uploaded file
           return getBunnyUrl(fileKey);
      } catch (error: any) {
           throw new AppError(StatusCodes.INTERNAL_SERVER_ERROR, `Error uploading file to BunnyCDN: ${error.message}`);
      }
 };
+
+
 const deleteFromBunny = async (fileUrl: string): Promise<boolean> => {
      try {
           const filePath = extractFileKeyFromUrl(fileUrl);

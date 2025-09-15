@@ -3,6 +3,8 @@ import { Request, Response, NextFunction } from 'express';
 import AppError from '../../errors/AppError';
 import { StatusCodes } from 'http-status-codes';
 import { BunnyStorageHandeler } from '../../helpers/BunnyStorageHandeler';
+import { convertVideoToMov } from '../../shared/convertVideoToMov';
+
 
 const allowedMimeTypes: Record<string, string[]> = {
      image: ['image/png', 'image/jpg', 'image/jpeg', 'image/svg+xml', 'image/webp', 'image/gif'],
@@ -23,11 +25,10 @@ const allowedMimeTypes: Record<string, string[]> = {
           'application/x-rar-compressed',
      ],
      others: ['application/octet-stream', 'application/zip', 'application/x-7z-compressed', 'application/x-rar-compressed'],
-     // Add the thumbnail field with valid MIME types for images
      thumbnail: ['image/jpeg', 'image/png', 'image/gif', 'image/webp'],
 };
 
-// General multer storage configuration (using memory storage for simplicity)
+
 const storage = multer.memoryStorage();
 const upload = multer({
      storage: storage,
@@ -36,14 +37,12 @@ const upload = multer({
           const fieldName = file.fieldname;
           let allowedTypes = [];
 
-          // Check if the fieldname exists in the allowedMimeTypes object
           if (allowedMimeTypes[fieldName]) {
                allowedTypes = allowedMimeTypes[fieldName];
           } else {
-               // Log the fieldName that caused the error and allow debugging
                return cb(new AppError(StatusCodes.BAD_REQUEST, 'Invalid file type'));
           }
-          // Check if the mime type of the file is allowed
+
           if (allowedTypes.includes(file.mimetype)) {
                cb(null, true);
           } else {
@@ -59,6 +58,8 @@ const upload = multer({
      { name: 'others', maxCount: 1 },
 ]);
 
+
+
 const fileUploadHandlerbunny = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
      upload(req, res, async (error: any) => {
           if (error) {
@@ -69,47 +70,85 @@ const fileUploadHandlerbunny = async (req: Request, res: Response, next: NextFun
                const fileUrls: Record<string, string> = {};
                const files = req.files as { [key: string]: Express.Multer.File[] };
 
-               // Handle video upload if present
-               if (files['video']) {
-                    const videoFile = files['video'][0];
-                    fileUrls.videoUrl = await BunnyStorageHandeler.uploadVideoToBunny(videoFile, 'videos');
-               }
+               try {
+                    // Handle video upload if present
+                    if (files['video']) {
+                         const videoFile = files['video'][0];
+                         console.log('Processing video file:', videoFile.originalname);
 
-               // Handle image upload if present
-               if (files['image']) {
-                    const imageFile = files['image'][0];
-                    fileUrls.imageUrl = await BunnyStorageHandeler.uploadToBunny(imageFile, 'images');
-               }
+                         try {
+                              // Convert video to MOV format
+                              const convertedBuffer = await convertVideoToMov(videoFile.buffer, videoFile.originalname);
 
-               // Handle thumbnail upload if present
-               if (files['thumbnail']) {
-                    const thumbnailFile = files['thumbnail'][0];
-                    fileUrls.thumbnailUrl = await BunnyStorageHandeler.uploadToBunny(thumbnailFile, 'thumbnails');
-               }
+                              // Generate output filename with .mov extension
+                              const outputFilename = videoFile.originalname.replace(/\.[^/.]+$/, '.mov');
 
-               // Handle document upload if present
-               if (files['document']) {
-                    const documentFile = files['document'][0];
-                    fileUrls.documentUrl = await BunnyStorageHandeler.uploadToBunny(documentFile, 'documents');
-               }
-               // Handle audio upload if present
-               if (files['audio']) {
-                    const audioFile = files['audio'][0];
-                    fileUrls.audioUrl = await BunnyStorageHandeler.uploadToBunny(audioFile, 'audio');
-               }
-               if (req.body.data) {
-                    try {
-                         const data = JSON.parse(req.body.data);
-                         req.body = { ...data, ...fileUrls };
-                    } catch  {
-                         return next(new AppError(StatusCodes.BAD_REQUEST, 'Invalid JSON format in req.body.data'));
+                              // Upload converted video to Bunny Storage
+                              fileUrls.videoUrl = await BunnyStorageHandeler.uploadVideoToBunny(
+                                   convertedBuffer,
+                                   outputFilename,
+                                   'videos'
+                              );
+
+                              console.log('Video converted and uploaded successfully');
+                         } catch (conversionError) {
+                              console.error('Video conversion failed, uploading original:', conversionError);
+
+                              // Fallback: upload original video without conversion
+                              fileUrls.videoUrl = await BunnyStorageHandeler.uploadVideoToBunny(
+                                   videoFile.buffer,
+                                   videoFile.originalname,
+                                   'videos'
+                              );
+
+                              console.log('Original video uploaded as fallback');
+                         }
                     }
-               } else {
-                    req.body = { ...fileUrls };
-               }
-          }
 
-          next();
+                    // Handle image upload if present
+                    if (files['image']) {
+                         const imageFile = files['image'][0];
+                         fileUrls.imageUrl = await BunnyStorageHandeler.uploadToBunny(imageFile, 'images');
+                    }
+
+                    // Handle thumbnail upload if present
+                    if (files['thumbnail']) {
+                         const thumbnailFile = files['thumbnail'][0];
+                         fileUrls.thumbnailUrl = await BunnyStorageHandeler.uploadToBunny(thumbnailFile, 'thumbnails');
+                    }
+
+                    // Handle document upload if present
+                    if (files['document']) {
+                         const documentFile = files['document'][0];
+                         fileUrls.documentUrl = await BunnyStorageHandeler.uploadToBunny(documentFile, 'documents');
+                    }
+
+                    // Handle audio upload if present
+                    if (files['audio']) {
+                         const audioFile = files['audio'][0];
+                         fileUrls.audioUrl = await BunnyStorageHandeler.uploadToBunny(audioFile, 'audio');
+                    }
+
+                    // Parse and merge request body data
+                    if (req.body.data) {
+                         try {
+                              const data = JSON.parse(req.body.data);
+                              req.body = { ...data, ...fileUrls };
+                         } catch {
+                              return next(new AppError(StatusCodes.BAD_REQUEST, 'Invalid JSON format in req.body.data'));
+                         }
+                    } else {
+                         req.body = { ...fileUrls };
+                    }
+
+                    next();
+               } catch (uploadError) {
+                    console.error('Error during file processing:', uploadError);
+                    return next(uploadError);
+               }
+          } else {
+               next();
+          }
      });
 };
 

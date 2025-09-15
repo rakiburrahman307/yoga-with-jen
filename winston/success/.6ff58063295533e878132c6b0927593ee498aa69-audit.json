@@ -6,21 +6,6 @@
     "auditLog": "R:\\projects\\yoga-with-jen\\winston\\success\\.6ff58063295533e878132c6b0927593ee498aa69-audit.json",
     "files": [
         {
-            "date": 1757822437918,
-            "name": "R:\\projects\\yoga-with-jen\\winston\\success\\14-09-2025-10-success.log",
-            "hash": "e30f8ed4eecf479c08d9f3f8ed451ca628226b54268fb827abc2357c0b3fab12"
-        },
-        {
-            "date": 1757826070024,
-            "name": "R:\\projects\\yoga-with-jen\\winston\\success\\14-09-2025-11-success.log",
-            "hash": "a8b854b8afea324962dbe4be82c38f072214739ac77d83cb6fba541396ee9632"
-        },
-        {
-            "date": 1757831618901,
-            "name": "R:\\projects\\yoga-with-jen\\winston\\success\\14-09-2025-12-success.log",
-            "hash": "0a05726ad065ecb7fd8b38f1ab14c8c72d3c25f62492c78772e7a6def2e8e823"
-        },
-        {
             "date": 1757833449029,
             "name": "R:\\projects\\yoga-with-jen\\winston\\success\\14-09-2025-13-success.log",
             "hash": "70e88dcea7893f584731ba3d7b0a19b2fd4c16ec0f9ecab848568ab34bf159cb"
@@ -29,6 +14,21 @@
             "date": 1757908800106,
             "name": "R:\\projects\\yoga-with-jen\\winston\\success\\15-09-2025-10-success.log",
             "hash": "fcdbc432ae6ea8ef23cd4eec5b09e243f29400b442c17c53e781e3f75fae4ced"
+        },
+        {
+            "date": 1757915640490,
+            "name": "R:\\projects\\yoga-with-jen\\winston\\success\\15-09-2025-11-success.log",
+            "hash": "5ead26050aa0a57d46d38e96b7351dbf790beadfbc726c4d7960ab100e405516"
+        },
+        {
+            "date": 1757916786747,
+            "name": "R:\\projects\\yoga-with-jen\\winston\\success\\15-09-2025-12-success.log",
+            "hash": "38444bc1ea656ee20392342e05a0147966fb5e91978fc5d6918c577c6a67e6b7"
+        },
+        {
+            "date": 1757919705942,
+            "name": "R:\\projects\\yoga-with-jen\\winston\\success\\15-09-2025-13-success.log",
+            "hash": "e2c25c53e669f1003461c07214977aeddfe2436fc3a45721103915d0dd6a573e"
         }
     ],
     "hashType": "sha256"
