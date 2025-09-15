@@ -86,3 +86,89 @@ Mon Sep 15 2025 20:20:50 [SERVER-NAME] info: [32mConfig validation successful.
 Mon Sep 15 2025 20:20:50 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
 Mon Sep 15 2025 20:20:50 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
 Mon Sep 15 2025 20:20:50 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Mon Sep 15 2025 20:21:24 [SERVER-NAME] info: [34mSIGINT received. Shutting down gracefully...[39m
+Mon Sep 15 2025 20:22:0 [SERVER-NAME] info: [34mMaster 9916 is running[39m
+Mon Sep 15 2025 20:22:0 [SERVER-NAME] info: [34mStarting 12 workers...[39m
+Mon Sep 15 2025 20:22:3 [SERVER-NAME] info: [34mWorker 16180 started[39m
+Mon Sep 15 2025 20:22:3 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Sep 15 2025 20:22:3 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Sep 15 2025 20:22:3 [SERVER-NAME] info: [32mWorker 16180 is ready to accept connections[39m
+Mon Sep 15 2025 20:22:3 [SERVER-NAME] info: [34mWorker 19196 started[39m
+Mon Sep 15 2025 20:22:3 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Sep 15 2025 20:22:3 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Sep 15 2025 20:22:3 [SERVER-NAME] info: [34mWorker 11028 started[39m
+Mon Sep 15 2025 20:22:3 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Sep 15 2025 20:22:3 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Mon Sep 15 2025 20:22:3 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Sep 15 2025 20:22:3 [SERVER-NAME] info: [34mWorker 18940 started[39m
+Mon Sep 15 2025 20:22:3 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Sep 15 2025 20:22:3 [SERVER-NAME] info: [32mWorker 19196 is ready to accept connections[39m
+Mon Sep 15 2025 20:22:3 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [32mWorker 11028 is ready to accept connections[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [32mWorker 18940 is ready to accept connections[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Mon Sep 15 2025 20:22:3 [SERVER-NAME] info: [34mWorker 18972 started[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Sep 15 2025 20:22:3 [SERVER-NAME] info: [34mWorker 9020 started[39m
+Mon Sep 15 2025 20:22:3 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [32mWorker 18972 is ready to accept connections[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [34mWorker 1220 started[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [32mWorker 9020 is ready to accept connections[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [34mWorker 12112 started[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [34mWorker 13684 started[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [32mWorker 1220 is ready to accept connections[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [34mWorker 8532 started[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [34mWorker 2260 started[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [32mWorker 12112 is ready to accept connections[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [34mWorker 17728 started[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [32mWorker 13684 is ready to accept connections[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [32mWorker 8532 is ready to accept connections[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [32mWorker 17728 is ready to accept connections[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [32mWorker 2260 is ready to accept connections[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Sep 15 2025 20:22:4 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Mon Sep 15 2025 20:22:9 [SERVER-NAME] info: [34mSIGINT received. Shutting down gracefully...[39m
+Mon Sep 15 2025 20:22:9 [SERVER-NAME] info: [34mSIGINT received. Shutting down gracefully...[39m
+Mon Sep 15 2025 20:22:9 [SERVER-NAME] info: [34mSIGINT received. Shutting down gracefully...[39m
+Mon Sep 15 2025 20:22:9 [SERVER-NAME] info: [34mSIGINT received. Shutting down gracefully...[39m
+Mon Sep 15 2025 20:22:9 [SERVER-NAME] info: [34mSIGINT received. Shutting down gracefully...[39m
+Mon Sep 15 2025 20:22:9 [SERVER-NAME] info: [34mSIGINT received. Shutting down gracefully...[39m
+Mon Sep 15 2025 20:22:9 [SERVER-NAME] info: [34mSIGINT received. Shutting down gracefully...[39m
+Mon Sep 15 2025 20:22:13 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Sep 15 2025 20:22:13 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Sep 15 2025 20:22:13 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Sep 15 2025 20:22:13 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
