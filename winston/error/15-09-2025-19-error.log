@@ -1,0 +1,8 @@
+Mon Sep 15 2025 19:4:45 [SERVER-NAME] error: 10.10.7.48 - POST /api/v1/admin/videos/library/upload-video 400 - 7.013 ms
+Mon Sep 15 2025 19:5:21 [SERVER-NAME] error: 10.10.7.48 - POST /api/v1/admin/videos/library/upload-video 400 - 4.104 ms
+Mon Sep 15 2025 19:8:43 [SERVER-NAME] error: 10.10.7.48 - POST /api/v1/admin/videos/library/upload-video 400 - 3.161 ms
+Mon Sep 15 2025 19:16:42 [SERVER-NAME] error: 10.10.7.48 - POST /api/v1/admin/videos/library/upload-video 400 - 3.616 ms
+Mon Sep 15 2025 19:17:47 [SERVER-NAME] error: 10.10.7.48 - POST /api/v1/admin/videos/library/upload-video 401 - 2.818 ms
+Mon Sep 15 2025 19:21:36 [SERVER-NAME] error: 10.10.7.48 - POST /api/v1/admin/videos/library/upload-video 401 - 2.261 ms
+Mon Sep 15 2025 19:35:54 [SERVER-NAME] error: 10.10.7.48 - POST /api/v1/admin/videos/library/upload-video 500 - 28835.959 ms
+Mon Sep 15 2025 19:49:27 [SERVER-NAME] error: 10.10.7.48 - POST /api/v1/admin/videos/library/upload-video 500 - 27074.675 ms

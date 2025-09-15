@@ -1,0 +1,80 @@
+Mon Sep 15 2025 18:0:4 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/library/upload-video 204 - 0.320 ms
+Mon Sep 15 2025 18:2:5 [SERVER-NAME] info: 10.10.7.48 - POST /api/v1/admin/videos/library/upload-video - - - ms
+Mon Sep 15 2025 18:4:6 [SERVER-NAME] info: 10.10.7.48 - POST /api/v1/admin/videos/library/upload-video - - - ms
+Mon Sep 15 2025 18:6:6 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.420 ms
+Mon Sep 15 2025 18:6:6 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications/admin?page=1&limit=20 204 - 0.085 ms
+Mon Sep 15 2025 18:6:6 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/library/videos?page=1&limit=10 204 - 0.043 ms
+Mon Sep 15 2025 18:6:6 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 19.748 ms
+Mon Sep 15 2025 18:6:6 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/library/videos?page=1&limit=10 200 - 45.397 ms
+Mon Sep 15 2025 18:6:6 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications/admin?page=1&limit=20 304 - 47.871 ms
+Mon Sep 15 2025 18:6:6 [SERVER-NAME] info: 10.10.7.48 - GET //image/young-woman-doing-yoga-in-nature-video-1756267358857.jpg 304 - 1.177 ms
+Mon Sep 15 2025 18:6:16 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/library/videos? 204 - 0.231 ms
+Mon Sep 15 2025 18:6:16 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/challenge-category/get-all-challenge-category 204 - 0.150 ms
+Mon Sep 15 2025 18:6:16 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/library/videos? 200 - 22.938 ms
+Mon Sep 15 2025 18:6:16 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/challenge-category/get-all-challenge-category 304 - 21.429 ms
+Mon Sep 15 2025 18:6:16 [SERVER-NAME] info: 10.10.7.48 - GET //image/group-happy-people-doing-yoga-summer-park_380164-261480-1757567975760.jpg 304 - 4.072 ms
+Mon Sep 15 2025 18:6:16 [SERVER-NAME] info: 10.10.7.48 - GET //image/group-3-1757485455269.png 304 - 3.036 ms
+Mon Sep 15 2025 18:6:16 [SERVER-NAME] info: 10.10.7.48 - GET //image/logo-1-1757475995504.png 304 - 3.159 ms
+Mon Sep 15 2025 18:6:16 [SERVER-NAME] info: 10.10.7.48 - GET //image/bg-banner-1757475776793.png 304 - 3.416 ms
+Mon Sep 15 2025 18:6:16 [SERVER-NAME] info: 10.10.7.48 - GET //image/image-(5)-1757415448360.png 304 - 3.434 ms
+Mon Sep 15 2025 18:6:16 [SERVER-NAME] info: 10.10.7.48 - GET //image/bg-banner-1757415429898.png 304 - 3.387 ms
+Mon Sep 15 2025 18:6:16 [SERVER-NAME] info: 10.10.7.48 - GET //image/videoblocks-v1-0011_20221110-as-semenov-sport-in-the-morning-2-outdoor00000000_heeiyvvr2j_thumbnail-180_07-1756524706875.jpg 304 - 0.639 ms
+Mon Sep 15 2025 18:6:16 [SERVER-NAME] info: 10.10.7.48 - GET //image/young-woman-doing-yoga-in-nature-video-1756473709130.jpg 304 - 1.533 ms
+Mon Sep 15 2025 18:6:22 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/challenge/get-challenges-videos/68c25be7d5c8433ce8cb2bfb 204 - 0.093 ms
+Mon Sep 15 2025 18:6:22 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/challenge/get-challenges-videos/68c25be7d5c8433ce8cb2bfb 200 - 8.180 ms
+Mon Sep 15 2025 18:15:37 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/comingSoon 204 - 0.064 ms
+Mon Sep 15 2025 18:15:37 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/comingSoon 304 - 5.922 ms
+Mon Sep 15 2025 18:16:22 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/library/upload-video 204 - 0.087 ms
+Mon Sep 15 2025 18:16:49 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/library/videos?page=1&limit=10 204 - 0.082 ms
+Mon Sep 15 2025 18:16:49 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/library/videos?page=1&limit=10 200 - 8.492 ms
+Mon Sep 15 2025 18:17:34 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Sep 15 2025 18:17:34 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Sep 15 2025 18:17:34 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Sep 15 2025 18:17:34 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Mon Sep 15 2025 18:17:35 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Sep 15 2025 18:17:35 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Sep 15 2025 18:17:35 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Sep 15 2025 18:17:35 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Mon Sep 15 2025 18:17:37 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Sep 15 2025 18:17:37 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Sep 15 2025 18:17:37 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Sep 15 2025 18:17:37 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Mon Sep 15 2025 18:17:39 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Sep 15 2025 18:17:39 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Sep 15 2025 18:17:39 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Sep 15 2025 18:17:39 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Mon Sep 15 2025 18:18:13 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/library/upload-video 204 - 0.686 ms
+Mon Sep 15 2025 18:19:2 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/library/videos?page=1&limit=10 204 - 0.222 ms
+Mon Sep 15 2025 18:19:2 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/library/videos?page=1&limit=10 304 - 25.891 ms
+Mon Sep 15 2025 18:22:8 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/library/upload-video 204 - 0.130 ms
+Mon Sep 15 2025 18:23:7 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/library/videos?page=1&limit=10 204 - 0.103 ms
+Mon Sep 15 2025 18:23:7 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/library/videos?page=1&limit=10 304 - 8.404 ms
+Mon Sep 15 2025 18:40:35 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.408 ms
+Mon Sep 15 2025 18:40:35 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications/admin?page=1&limit=20 204 - 0.059 ms
+Mon Sep 15 2025 18:40:35 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/library/videos?page=1&limit=10 204 - 0.086 ms
+Mon Sep 15 2025 18:40:35 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 8.056 ms
+Mon Sep 15 2025 18:40:36 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications/admin?page=1&limit=20 304 - 19.521 ms
+Mon Sep 15 2025 18:40:36 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/library/videos?page=1&limit=10 304 - 7.395 ms
+Mon Sep 15 2025 18:40:36 [SERVER-NAME] info: 10.10.7.48 - GET //image/young-woman-doing-yoga-in-nature-video-1756267358857.jpg 304 - 1.601 ms
+Mon Sep 15 2025 18:41:58 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/library/upload-video 204 - 0.080 ms
+Mon Sep 15 2025 18:43:49 [SERVER-NAME] info: 10.10.7.48 - POST /api/v1/admin/videos/library/upload-video 200 - 110677.589 ms
+Mon Sep 15 2025 18:43:49 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/library/videos?page=1&limit=10 204 - 0.138 ms
+Mon Sep 15 2025 18:43:49 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/library/videos?page=1&limit=10 200 - 9.948 ms
+Mon Sep 15 2025 18:51:27 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Sep 15 2025 18:51:27 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Sep 15 2025 18:51:27 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Sep 15 2025 18:51:27 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Mon Sep 15 2025 18:51:46 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Sep 15 2025 18:51:46 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Sep 15 2025 18:51:46 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Sep 15 2025 18:51:46 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Mon Sep 15 2025 18:51:49 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Sep 15 2025 18:51:49 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Sep 15 2025 18:51:49 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Sep 15 2025 18:51:49 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Mon Sep 15 2025 18:58:51 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 1.076 ms
+Mon Sep 15 2025 18:58:51 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications/admin?page=1&limit=20 204 - 0.049 ms
+Mon Sep 15 2025 18:58:51 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/library/videos?page=1&limit=10 204 - 0.122 ms
+Mon Sep 15 2025 18:58:51 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 19.938 ms
+Mon Sep 15 2025 18:58:51 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/library/videos?page=1&limit=10 304 - 22.990 ms
+Mon Sep 15 2025 18:58:51 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications/admin?page=1&limit=20 304 - 25.547 ms

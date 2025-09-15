@@ -170,3 +170,38 @@ Mon Sep 15 2025 17:5:44 [SERVER-NAME] warn: [33mWorker 6216 exited with error c
 Mon Sep 15 2025 17:5:44 [SERVER-NAME] info: [34mRestarting worker 6216 in 10000ms (attempt 2)[39m
 Mon Sep 15 2025 17:5:44 [SERVER-NAME] warn: [33mWorker 7204 exited with error code: 1[39m
 Mon Sep 15 2025 17:5:44 [SERVER-NAME] info: [34mRestarting worker 7204 in 10000ms (attempt 2)[39m
+Mon Sep 15 2025 17:11:58 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Sep 15 2025 17:11:58 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Sep 15 2025 17:11:58 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Sep 15 2025 17:11:58 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Mon Sep 15 2025 17:39:56 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/auth/login 204 - 1.394 ms
+Mon Sep 15 2025 17:39:58 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/auth/login 204 - 0.067 ms
+Mon Sep 15 2025 17:40:26 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/auth/login 204 - 0.068 ms
+Mon Sep 15 2025 17:40:43 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/auth/login 204 - 0.117 ms
+Mon Sep 15 2025 17:41:5 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/auth/login 204 - 0.084 ms
+Mon Sep 15 2025 17:43:53 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Sep 15 2025 17:43:53 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Sep 15 2025 17:43:53 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Sep 15 2025 17:43:53 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Mon Sep 15 2025 17:44:0 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/auth/login 204 - 0.741 ms
+Mon Sep 15 2025 17:44:1 [SERVER-NAME] info: 10.10.7.48 - POST /api/v1/auth/login 200 - 308.481 ms
+Mon Sep 15 2025 17:44:1 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.069 ms
+Mon Sep 15 2025 17:44:1 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications/admin?page=1&limit=20 204 - 0.235 ms
+Mon Sep 15 2025 17:44:1 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dashboard/statistics 204 - 0.102 ms
+Mon Sep 15 2025 17:44:1 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 200 - 10.357 ms
+Mon Sep 15 2025 17:44:1 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications/admin?page=1&limit=20 200 - 21.750 ms
+Mon Sep 15 2025 17:44:1 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/dashboard/statistics 304 - 22.813 ms
+Mon Sep 15 2025 17:44:1 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dashboard/revenue 204 - 0.087 ms
+Mon Sep 15 2025 17:44:1 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/dashboard/resent-users 204 - 0.076 ms
+Mon Sep 15 2025 17:44:1 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/dashboard/resent-users 304 - 11.835 ms
+Mon Sep 15 2025 17:44:1 [SERVER-NAME] info: 10.10.7.48 - GET //image/young-woman-doing-yoga-in-nature-video-1756267358857.jpg 304 - 1.114 ms
+Mon Sep 15 2025 17:44:1 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/dashboard/revenue 304 - 13.856 ms
+Mon Sep 15 2025 17:44:6 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/library/videos?page=1&limit=10 204 - 0.068 ms
+Mon Sep 15 2025 17:44:6 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/library/videos?page=1&limit=10 304 - 16.252 ms
+Mon Sep 15 2025 17:44:17 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.063 ms
+Mon Sep 15 2025 17:44:17 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications/admin?page=1&limit=20 204 - 0.088 ms
+Mon Sep 15 2025 17:44:17 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/admin/videos/library/videos?page=1&limit=10 204 - 0.063 ms
+Mon Sep 15 2025 17:44:17 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 8.450 ms
+Mon Sep 15 2025 17:44:17 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications/admin?page=1&limit=20 304 - 17.340 ms
+Mon Sep 15 2025 17:44:17 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/admin/videos/library/videos?page=1&limit=10 304 - 14.729 ms
+Mon Sep 15 2025 17:44:17 [SERVER-NAME] info: 10.10.7.48 - GET //image/young-woman-doing-yoga-in-nature-video-1756267358857.jpg 304 - 0.524 ms

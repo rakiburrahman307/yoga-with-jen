@@ -58,7 +58,6 @@ const convertVideoToMov = async (videoBuffer: Buffer, originalName: string): Pro
                          console.log(`Conversion progress: ${hours}:${minutes}:${seconds}`);
                     }
                });
-
                // Capture error output for debugging
                ffmpeg.stderr?.on('data', (data: Buffer) => {
                     const output = data.toString();
