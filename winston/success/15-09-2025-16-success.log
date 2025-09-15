@@ -1,0 +1,146 @@
+Mon Sep 15 2025 16:0:3 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.049 ms
+Mon Sep 15 2025 16:0:3 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.743 ms
+Mon Sep 15 2025 16:0:34 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.056 ms
+Mon Sep 15 2025 16:0:34 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 7.962 ms
+Mon Sep 15 2025 16:1:5 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.083 ms
+Mon Sep 15 2025 16:1:5 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 7.830 ms
+Mon Sep 15 2025 16:1:36 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.113 ms
+Mon Sep 15 2025 16:1:36 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 10.575 ms
+Mon Sep 15 2025 16:2:7 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.104 ms
+Mon Sep 15 2025 16:2:7 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.242 ms
+Mon Sep 15 2025 16:2:38 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.067 ms
+Mon Sep 15 2025 16:2:38 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.031 ms
+Mon Sep 15 2025 16:3:9 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.076 ms
+Mon Sep 15 2025 16:3:9 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.778 ms
+Mon Sep 15 2025 16:3:40 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.094 ms
+Mon Sep 15 2025 16:3:40 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.413 ms
+Mon Sep 15 2025 16:4:11 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.047 ms
+Mon Sep 15 2025 16:4:11 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 10.642 ms
+Mon Sep 15 2025 16:4:42 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.061 ms
+Mon Sep 15 2025 16:4:42 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 6.649 ms
+Mon Sep 15 2025 16:5:13 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.059 ms
+Mon Sep 15 2025 16:5:13 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 13.269 ms
+Mon Sep 15 2025 16:5:44 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.063 ms
+Mon Sep 15 2025 16:5:44 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 7.674 ms
+Mon Sep 15 2025 16:6:15 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.072 ms
+Mon Sep 15 2025 16:6:15 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.924 ms
+Mon Sep 15 2025 16:6:46 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.127 ms
+Mon Sep 15 2025 16:6:46 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 12.786 ms
+Mon Sep 15 2025 16:7:6 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/subscription/check-access 204 - 0.076 ms
+Mon Sep 15 2025 16:7:6 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/subscription/check-access 304 - 6.611 ms
+Mon Sep 15 2025 16:7:6 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.069 ms
+Mon Sep 15 2025 16:7:6 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.070 ms
+Mon Sep 15 2025 16:7:6 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/community/leaderboard 204 - 0.040 ms
+Mon Sep 15 2025 16:7:6 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/community?page=1&limit=10 204 - 0.053 ms
+Mon Sep 15 2025 16:7:6 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 13.482 ms
+Mon Sep 15 2025 16:7:6 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/community/leaderboard 304 - 15.004 ms
+Mon Sep 15 2025 16:7:6 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/community?page=1&limit=10 304 - 20.758 ms
+Mon Sep 15 2025 16:7:6 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 22.288 ms
+Mon Sep 15 2025 16:7:6 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/post/letest 204 - 0.084 ms
+Mon Sep 15 2025 16:7:6 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/post/letest 200 - 4.506 ms
+Mon Sep 15 2025 16:7:6 [SERVER-NAME] info: 10.10.7.48 - GET //image/group-people-doing-yoga-summer-park_380164-270254-1756797321736.jpg 200 - 1.005 ms
+Mon Sep 15 2025 16:7:6 [SERVER-NAME] info: 10.10.7.48 - GET //image/young-woman-doing-yoga-in-nature-video-1756444315398.jpg 200 - 1.649 ms
+Mon Sep 15 2025 16:7:37 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.101 ms
+Mon Sep 15 2025 16:7:37 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.407 ms
+Mon Sep 15 2025 16:8:8 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.071 ms
+Mon Sep 15 2025 16:8:8 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 7.573 ms
+Mon Sep 15 2025 16:8:32 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/subscription/check-access 204 - 0.049 ms
+Mon Sep 15 2025 16:8:32 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/subscription/check-access 304 - 6.225 ms
+Mon Sep 15 2025 16:8:32 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.045 ms
+Mon Sep 15 2025 16:8:32 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.066 ms
+Mon Sep 15 2025 16:8:32 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/community/leaderboard 204 - 0.049 ms
+Mon Sep 15 2025 16:8:32 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/community?page=1&limit=10 204 - 0.052 ms
+Mon Sep 15 2025 16:8:32 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 11.351 ms
+Mon Sep 15 2025 16:8:32 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/community/leaderboard 304 - 14.500 ms
+Mon Sep 15 2025 16:8:32 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/community?page=1&limit=10 304 - 20.939 ms
+Mon Sep 15 2025 16:8:32 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 22.865 ms
+Mon Sep 15 2025 16:8:32 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/post/letest 204 - 0.048 ms
+Mon Sep 15 2025 16:8:32 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/post/letest 200 - 3.228 ms
+Mon Sep 15 2025 16:8:32 [SERVER-NAME] info: 10.10.7.48 - GET //image/young-woman-doing-yoga-in-nature-video-1756444315398.jpg 200 - 0.809 ms
+Mon Sep 15 2025 16:8:32 [SERVER-NAME] info: 10.10.7.48 - GET //image/group-people-doing-yoga-summer-park_380164-270254-1756797321736.jpg 200 - 1.015 ms
+Mon Sep 15 2025 16:8:40 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/subscription/check-access 204 - 0.253 ms
+Mon Sep 15 2025 16:8:40 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/subscription/check-access 304 - 7.840 ms
+Mon Sep 15 2025 16:8:40 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.051 ms
+Mon Sep 15 2025 16:8:40 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.037 ms
+Mon Sep 15 2025 16:8:40 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/community/leaderboard 204 - 0.033 ms
+Mon Sep 15 2025 16:8:40 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/community?page=1&limit=10 204 - 0.034 ms
+Mon Sep 15 2025 16:8:40 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 13.163 ms
+Mon Sep 15 2025 16:8:40 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/community/leaderboard 304 - 14.561 ms
+Mon Sep 15 2025 16:8:40 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/community?page=1&limit=10 304 - 13.894 ms
+Mon Sep 15 2025 16:8:40 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 20.988 ms
+Mon Sep 15 2025 16:8:41 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/post/letest 204 - 0.067 ms
+Mon Sep 15 2025 16:8:41 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/post/letest 304 - 3.632 ms
+Mon Sep 15 2025 16:9:11 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.044 ms
+Mon Sep 15 2025 16:9:11 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.943 ms
+Mon Sep 15 2025 16:9:26 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/subscription/check-access 204 - 0.141 ms
+Mon Sep 15 2025 16:9:26 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/subscription/check-access 304 - 7.962 ms
+Mon Sep 15 2025 16:9:26 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.056 ms
+Mon Sep 15 2025 16:9:26 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.043 ms
+Mon Sep 15 2025 16:9:26 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/community/leaderboard 204 - 0.040 ms
+Mon Sep 15 2025 16:9:26 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/community?page=1&limit=10 204 - 0.032 ms
+Mon Sep 15 2025 16:9:26 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 9.483 ms
+Mon Sep 15 2025 16:9:26 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/community/leaderboard 304 - 11.732 ms
+Mon Sep 15 2025 16:9:26 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 18.007 ms
+Mon Sep 15 2025 16:9:26 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/community?page=1&limit=10 304 - 15.163 ms
+Mon Sep 15 2025 16:9:26 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/post/letest 204 - 0.129 ms
+Mon Sep 15 2025 16:9:26 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/post/letest 200 - 3.967 ms
+Mon Sep 15 2025 16:9:49 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/subscription/check-access 204 - 0.054 ms
+Mon Sep 15 2025 16:9:49 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/subscription/check-access 304 - 9.206 ms
+Mon Sep 15 2025 16:9:49 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/users/profile 204 - 0.048 ms
+Mon Sep 15 2025 16:9:49 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.069 ms
+Mon Sep 15 2025 16:9:49 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/community/leaderboard 204 - 0.093 ms
+Mon Sep 15 2025 16:9:49 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/community?page=1&limit=10 204 - 0.029 ms
+Mon Sep 15 2025 16:9:49 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/users/profile 304 - 9.107 ms
+Mon Sep 15 2025 16:9:49 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/community/leaderboard 304 - 12.728 ms
+Mon Sep 15 2025 16:9:49 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 17.759 ms
+Mon Sep 15 2025 16:9:49 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/community?page=1&limit=10 304 - 15.908 ms
+Mon Sep 15 2025 16:9:49 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/post/letest 204 - 0.135 ms
+Mon Sep 15 2025 16:9:49 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/post/letest 304 - 6.051 ms
+Mon Sep 15 2025 16:9:49 [SERVER-NAME] info: 10.10.7.48 - GET //image/young-woman-doing-yoga-in-nature-video-1756444315398.jpg 200 - 0.461 ms
+Mon Sep 15 2025 16:9:49 [SERVER-NAME] info: 10.10.7.48 - GET //image/group-people-doing-yoga-summer-park_380164-270254-1756797321736.jpg 200 - 0.441 ms
+Mon Sep 15 2025 16:10:20 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.082 ms
+Mon Sep 15 2025 16:10:20 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.204 ms
+Mon Sep 15 2025 16:10:51 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.108 ms
+Mon Sep 15 2025 16:10:51 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 12.016 ms
+Mon Sep 15 2025 16:11:22 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.167 ms
+Mon Sep 15 2025 16:11:22 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 7.896 ms
+Mon Sep 15 2025 16:11:53 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.055 ms
+Mon Sep 15 2025 16:11:53 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 7.341 ms
+Mon Sep 15 2025 16:12:24 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.070 ms
+Mon Sep 15 2025 16:12:24 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 7.994 ms
+Mon Sep 15 2025 16:12:55 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.044 ms
+Mon Sep 15 2025 16:12:55 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 7.922 ms
+Mon Sep 15 2025 16:13:26 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.152 ms
+Mon Sep 15 2025 16:13:26 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.057 ms
+Mon Sep 15 2025 16:13:56 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.100 ms
+Mon Sep 15 2025 16:13:56 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 7.973 ms
+Mon Sep 15 2025 16:14:26 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.065 ms
+Mon Sep 15 2025 16:14:26 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.160 ms
+Mon Sep 15 2025 16:14:56 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.082 ms
+Mon Sep 15 2025 16:14:56 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 9.062 ms
+Mon Sep 15 2025 16:15:27 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.149 ms
+Mon Sep 15 2025 16:15:27 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.939 ms
+Mon Sep 15 2025 16:15:44 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/notifications?page=1&limit=30 204 - 0.080 ms
+Mon Sep 15 2025 16:15:44 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/notifications?page=1&limit=30 304 - 8.763 ms
+Mon Sep 15 2025 16:15:45 [SERVER-NAME] info: 10.10.7.48 - OPTIONS /api/v1/subscription/check-access 204 - 0.041 ms
+Mon Sep 15 2025 16:15:45 [SERVER-NAME] info: 10.10.7.48 - GET /api/v1/subscription/check-access 304 - 4.807 ms
+Mon Sep 15 2025 16:32:8 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Sep 15 2025 16:32:8 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Sep 15 2025 16:32:8 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Sep 15 2025 16:32:8 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Mon Sep 15 2025 16:32:52 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Sep 15 2025 16:32:52 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Sep 15 2025 16:32:52 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Sep 15 2025 16:32:52 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Mon Sep 15 2025 16:33:16 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Sep 15 2025 16:33:16 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Sep 15 2025 16:33:16 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Sep 15 2025 16:33:16 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Mon Sep 15 2025 16:34:32 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Sep 15 2025 16:34:32 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Sep 15 2025 16:34:32 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Sep 15 2025 16:34:32 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m
+Mon Sep 15 2025 16:34:34 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Sep 15 2025 16:34:34 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Sep 15 2025 16:34:34 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7000[39m
+Mon Sep 15 2025 16:34:34 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.62:7000[49m

@@ -32,7 +32,7 @@ const allowedMimeTypes: Record<string, string[]> = {
 const storage = multer.memoryStorage();
 const upload = multer({
      storage: storage,
-     limits: { fileSize: 2024 * 1024 * 1024 }, // 2GB max file size
+     limits: { fileSize: 5 * 1024 * 1024 * 1024 },  // 5 GB in bytes
      fileFilter: (req: Request, file: any, cb: any) => {
           const fieldName = file.fieldname;
           let allowedTypes = [];
